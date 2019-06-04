@@ -310,8 +310,7 @@ public class HaremPtTrainerReader implements INERReader {
                     String categoriesString = input.substring(openTagCategStartIndex + "CATEG=\"".length(), openTagCategCloseIndex);
                     String[] categories = categoriesString.split("\\|");
 
-		    //VER O QUE ACONTECE DENTRO DESSE FOR!!
-		    //AINDA NAO ALTERADO!!
+                    //Relação entre as categorias dispostas no HAREM para as da ferramenta FOX
                     for (String cat : categories) {
                         if (EntityClassMap.oracel(cat) != EntityClassMap.getNullCategory()) {
 
@@ -329,14 +328,14 @@ public class HaremPtTrainerReader implements INERReader {
                                 put(word, cat);
                         }
                     }
-
+                    //limpar CATEG="..."
                     String escapedCategoriesString = "";
                     for (String cat : categories)
                         escapedCategoriesString += cat + "\\|";
 
                     escapedCategoriesString = escapedCategoriesString.substring(0, escapedCategoriesString.length() - 1);
 
-                    //input = input.replaceFirst("<EM TYPE=\"" + escapedCategoriesString + "\">", "");
+                    input = input.replaceFirst("<CATEG=\"" + escapedCategoriesString + "\"", "");
                     input = input.replaceFirst("<EM ", "");
                     input = input.replaceFirst("</EM>", "");
 
@@ -345,7 +344,28 @@ public class HaremPtTrainerReader implements INERReader {
                 }
             }
         }
-
+        //limpar ID="..."
+        while (true) {
+            int openTagStartIndex = input.indexOf("ID=\"");
+            if (openTagStartIndex == -1) {
+                break;
+            } else {
+                int openTagCloseIndex = input.indexOf("\"", openTagStartIndex);
+                String id = input.substring(openTagStartIndex + "ID=\"".length(), openTagCloseIndex - 1);
+                input = input.replaceFirst("ID=\"" + id + "\"", "");
+            }
+        }
+        //limpar TIPO="..." >
+        while (true) {
+            int openTagStartIndex = input.indexOf("TIPO=\"");
+            if (openTagStartIndex == -1) {
+                break;
+            } else {
+                int openTagCloseIndex = input.indexOf("\" >", openTagStartIndex);
+                String tipo = input.substring(openTagStartIndex + "TIPO=\"".length(), openTagCloseIndex - 1);
+                input = input.replaceFirst("TIPO=\"" + tipo + "\" >", "");
+            }
+        }
         /*while (true) {
             int openTagStartIndex = input.indexOf("<TIMEX");
             if (openTagStartIndex == -1) {
