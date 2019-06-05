@@ -44,11 +44,28 @@ public class EntityClassMap {
         entityClassesILLINOIS.put("PER", P);
     }
 
+
+    protected static final Map<String, String> entityClassesPT   = new HashMap<>();
+    static {
+        entityClassesPT.put("ORGANIZACAO", O);
+        entityClassesPT.put("LOCAL", L);
+        entityClassesPT.put("PESSOA", P);
+    }
+
     /**
      * Gets the entity class for a oracel entity type/class.
      */
     public static String oracel(String tag) {
         String t = entityClassesOracel.get(tag);
+        if (t == null)
+            t = getNullCategory();
+        return t;
+    }
+    /**
+     * Gets the entity class for a HAREM challenge entity type/class.
+     */
+    public static String harem(String tag) {
+        String t = entityClassesPT.get(tag);
         if (t == null)
             t = getNullCategory();
         return t;

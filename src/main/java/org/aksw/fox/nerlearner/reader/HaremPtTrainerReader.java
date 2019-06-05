@@ -312,7 +312,7 @@ public class HaremPtTrainerReader implements INERReader {
 
                     //Relação entre as categorias dispostas no HAREM para as da ferramenta FOX
                     for (String cat : categories) {
-                        if (EntityClassMap.oracel(cat) != EntityClassMap.getNullCategory()) {
+                        if (EntityClassMap.harem(cat) != EntityClassMap.getNullCategory()) {
 
                             String[] token = FoxTextUtil.getSentenceToken(taggedWords + ".");
                             String word = "";
