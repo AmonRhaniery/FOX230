@@ -17,7 +17,7 @@ public class StanfordPT extends StanfordCommon {
         props.setProperty("annotators", "tokenize, ssplit, pos, lemma, ner");
         props.setProperty("ner.applyNumericClassifiers", "false");
         props.setProperty("ner.useSUTime", "false");
-        props.setProperty("ner.model", "../data/stanford/models/pt-ner-model-tolerance_1e-3.ser.gz");
+        props.setProperty("ner.model", "/../data/stanford/models/pt-ner-model-tolerance_1e-3.ser.gz");
     }
 
     public StanfordPT() {
