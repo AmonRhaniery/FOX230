@@ -270,7 +270,8 @@ public class HaremPtTrainerReader implements INERReader {
             LOG.debug("Starting parse ...");
 
         //input = taggedInput.toString().replaceAll("<p>|</p>", "");
-	input = taggedInput.toString();
+    input = taggedInput.toString();
+    LOG.info("Input é "+input);
 
         while (true) {
 
@@ -280,7 +281,7 @@ public class HaremPtTrainerReader implements INERReader {
                 break;
             else {
 		int openTagCategStartIndex = input.indexOf("CATEG=\"", openTagStartIndex);
-		int openTagCategCloseIndex = input.indexOf("\"", openTagStartIndex);
+		int openTagCategCloseIndex = input.indexOf("\"", openTagCategStartIndex);
                 int openTagCloseIndex = input.indexOf(">", openTagStartIndex);
                 int closeTagIndex = input.indexOf("</EM>");
 
@@ -305,9 +306,12 @@ public class HaremPtTrainerReader implements INERReader {
 		    taggedWords.replaceAll("<v-fin>", "");
 		    taggedWords.replaceAll("<v-ger>", "");
 		    taggedWords.replaceAll("<v-inf>", "");
-		    taggedWords.replaceAll("<v-pcp>", "");
+            taggedWords.replaceAll("<v-pcp>", "");
+            
+            LOG.info("taggedWords "+ taggedWords);
 
                     String categoriesString = input.substring(openTagCategStartIndex + "CATEG=\"".length(), openTagCategCloseIndex);
+                    LOG.info("categoriesString "+ categoriesString);
                     String[] categories = categoriesString.split("\\|");
 
                     //Relação entre as categorias dispostas no HAREM para as da ferramenta FOX
