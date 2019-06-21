@@ -270,8 +270,27 @@ public class HaremPtTrainerReader implements INERReader {
             LOG.debug("Starting parse ...");
 
         //input = taggedInput.toString().replaceAll("<p>|</p>", "");
+        input = taggedInput.toString().replaceAll("<adv>", "");
+        input = taggedInput.toString().replaceAll("<adj>", "");
+        input = taggedInput.toString().replaceAll("<art>", "");
+        input = taggedInput.toString().replaceAll("<conj-c>", "");
+        input = taggedInput.toString().replaceAll("<conj-s>", "");
+        input = taggedInput.toString().replaceAll("<n>", "");
+        input = taggedInput.toString().replaceAll("<num>", "");
+        input = taggedInput.toString().replaceAll("<pp>", "");
+        input = taggedInput.toString().replaceAll("<prop>", "");
+        input = taggedInput.toString().replaceAll("<pron-det>", "");
+        input = taggedInput.toString().replaceAll("<pron-indp>", "");
+        input = taggedInput.toString().replaceAll("<pron-pers>", "");
+        input = taggedInput.toString().replaceAll("<prp>", "");
+        input = taggedInput.toString().replaceAll("<punc>", "");
+        input = taggedInput.toString().replaceAll("<v-fin>", "");
+        input = taggedInput.toString().replaceAll("<v-ger>", "");
+        input = taggedInput.toString().replaceAll("<v-inf>", "");
+        input = taggedInput.toString().replaceAll("<v-pcp>", "");
+
     input = taggedInput.toString();
-    LOG.info("Input é "+input);
+    //LOG.info("Input é "+input);
 
         while (true) {
 
@@ -288,29 +307,9 @@ public class HaremPtTrainerReader implements INERReader {
                 try {
 		    //String taggedWords pega todo o conteudo de uma tag <EM> ate seu fechamento em </EM>
                     String taggedWords = input.substring(openTagCloseIndex + 1, closeTagIndex);
-
-		    taggedWords.replaceAll("<adj>", "");
-		    taggedWords.replaceAll("<adv>", "");
-		    taggedWords.replaceAll("<art>", "");
-		    taggedWords.replaceAll("<conj-c>", "");
-		    taggedWords.replaceAll("<conj-s>", "");
-		    taggedWords.replaceAll("<n>", "");
-		    taggedWords.replaceAll("<num>", "");
-		    taggedWords.replaceAll("<pp>", "");
-		    taggedWords.replaceAll("<prop>", "");
-		    taggedWords.replaceAll("<pron-det>", "");
-		    taggedWords.replaceAll("<pron-indp>", "");
-		    taggedWords.replaceAll("<pron-pers>", "");
-		    taggedWords.replaceAll("<prp>", "");
-		    taggedWords.replaceAll("<punc>", "");
-		    taggedWords.replaceAll("<v-fin>", "");
-		    taggedWords.replaceAll("<v-ger>", "");
-		    taggedWords.replaceAll("<v-inf>", "");
-            taggedWords.replaceAll("<v-pcp>", "");
-            
-            LOG.info("taggedWords "+ taggedWords);
-
+                    LOG.info("taggedWords "+ taggedWords);
                     String categoriesString = input.substring(openTagCategStartIndex + "CATEG=\"".length(), openTagCategCloseIndex);
+                    
                     LOG.info("categoriesString "+ categoriesString);
                     String[] categories = categoriesString.split("\\|");
 
