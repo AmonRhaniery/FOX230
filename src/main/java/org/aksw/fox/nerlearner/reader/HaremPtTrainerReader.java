@@ -270,7 +270,7 @@ public class HaremPtTrainerReader implements INERReader {
             LOG.debug("Starting parse ...");
 
         //input = taggedInput.toString().replaceAll("<p>|</p>", "");
-        input = taggedInput.toString().replaceAll("<adv>", "");
+      /*   input = taggedInput.toString().replaceAll("<adv>", "");
         input = taggedInput.toString().replaceAll("<adj>", "");
         input = taggedInput.toString().replaceAll("<art>", "");
         input = taggedInput.toString().replaceAll("<conj-c>", "");
@@ -287,9 +287,28 @@ public class HaremPtTrainerReader implements INERReader {
         input = taggedInput.toString().replaceAll("<v-fin>", "");
         input = taggedInput.toString().replaceAll("<v-ger>", "");
         input = taggedInput.toString().replaceAll("<v-inf>", "");
-        input = taggedInput.toString().replaceAll("<v-pcp>", "");
+        input = taggedInput.toString().replaceAll("<v-pcp>", ""); */
 
     input = taggedInput.toString();
+    input = input.replaceAll("<adv>", "");
+    input = input.replaceAll("<adj>", "");
+    input = input.replaceAll("<art>", "");
+    input = input.replaceAll("<conj-c>", "");
+    input = input.replaceAll("<conj-s>", "");
+    input = input.replaceAll("<n>", "");
+    input = input.replaceAll("<num>", "");
+    input = input.replaceAll("<pp>", "");
+    input = input.replaceAll("<prop>", "");
+    input = input.replaceAll("<pron-det>", "");
+    input = input.replaceAll("<pron-indp>", "");
+    input = input.replaceAll("<pron-pers>", "");
+    input = input.replaceAll("<prp>", "");
+    input = input.replaceAll("<punc>", "");
+    input = input.replaceAll("<v-fin>", "");
+    input = input.replaceAll("<v-ger>", "");
+    input = input.replaceAll("<v-inf>", "");
+    input = input.replaceAll("<v-pcp>", "");
+    
     LOG.info("Input é "+input);
 
         while (true) {
