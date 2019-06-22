@@ -308,12 +308,12 @@ public class HaremPtTrainerReader implements INERReader {
                 try {
 		    //String taggedWords pega todo o conteudo de uma tag <EM> ate seu fechamento em </EM>
                     String taggedWords = input.substring(openTagCloseIndex + 1, closeTagIndex);
-                    LOG.info("taggedWords "+ taggedWords);
-                    LOG.info("substring start indice "+openTagCategStartIndex+" "+input.substring(openTagCategStartIndex));
-                    LOG.info("substring stop indice"+openTagCategCloseIndex);
+                    //LOG.info("taggedWords "+ taggedWords);
+                    //LOG.info("substring start indice "+openTagCategStartIndex+" "+input.substring(openTagCategStartIndex));
+                    //LOG.info("substring stop indice"+openTagCategCloseIndex);
                     String categoriesString = input.substring(openTagCategStartIndex + "CATEG=\"".length(), openTagCategCloseIndex);
                     
-                    LOG.info("categoriesString "+ categoriesString);
+                    //LOG.info("categoriesString "+ categoriesString);
                     String[] categories = categoriesString.split("\\|");
 
                     //Relação entre as categorias dispostas no HAREM para as da ferramenta FOX
@@ -347,7 +347,7 @@ public class HaremPtTrainerReader implements INERReader {
 
                 } catch (Exception e) {
                     LOG.error("\n", e);
-                    break;
+                    //break;
                 }
             }
         }
