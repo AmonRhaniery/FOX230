@@ -290,7 +290,7 @@ public class HaremPtTrainerReader implements INERReader {
         input = taggedInput.toString().replaceAll("<v-pcp>", "");
 
     input = taggedInput.toString();
-    //LOG.info("Input é "+input);
+    LOG.info("Input é "+input);
 
         while (true) {
 
