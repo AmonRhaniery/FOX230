@@ -301,7 +301,7 @@ public class HaremPtTrainerReader implements INERReader {
                 break;
             else {
 		int openTagCategStartIndex = input.indexOf("CATEG=\"", openTagStartIndex);
-		int openTagCategCloseIndex = input.indexOf("\"", openTagCategStartIndex);
+		int openTagCategCloseIndex = input.indexOf("\"", openTagCategStartIndex+1);
                 int openTagCloseIndex = input.indexOf(">", openTagStartIndex);
                 int closeTagIndex = input.indexOf("</EM>");
 
@@ -347,6 +347,7 @@ public class HaremPtTrainerReader implements INERReader {
 
                 } catch (Exception e) {
                     LOG.error("\n", e);
+                    break;
                 }
             }
         }
