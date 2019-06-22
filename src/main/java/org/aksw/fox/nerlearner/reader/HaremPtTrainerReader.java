@@ -270,24 +270,6 @@ public class HaremPtTrainerReader implements INERReader {
             LOG.debug("Starting parse ...");
 
         //input = taggedInput.toString().replaceAll("<p>|</p>", "");
-      /*   input = taggedInput.toString().replaceAll("<adv>", "");
-        input = taggedInput.toString().replaceAll("<adj>", "");
-        input = taggedInput.toString().replaceAll("<art>", "");
-        input = taggedInput.toString().replaceAll("<conj-c>", "");
-        input = taggedInput.toString().replaceAll("<conj-s>", "");
-        input = taggedInput.toString().replaceAll("<n>", "");
-        input = taggedInput.toString().replaceAll("<num>", "");
-        input = taggedInput.toString().replaceAll("<pp>", "");
-        input = taggedInput.toString().replaceAll("<prop>", "");
-        input = taggedInput.toString().replaceAll("<pron-det>", "");
-        input = taggedInput.toString().replaceAll("<pron-indp>", "");
-        input = taggedInput.toString().replaceAll("<pron-pers>", "");
-        input = taggedInput.toString().replaceAll("<prp>", "");
-        input = taggedInput.toString().replaceAll("<punc>", "");
-        input = taggedInput.toString().replaceAll("<v-fin>", "");
-        input = taggedInput.toString().replaceAll("<v-ger>", "");
-        input = taggedInput.toString().replaceAll("<v-inf>", "");
-        input = taggedInput.toString().replaceAll("<v-pcp>", ""); */
 
     input = taggedInput.toString();
     input = input.replaceAll("<adv>", "");
@@ -319,7 +301,7 @@ public class HaremPtTrainerReader implements INERReader {
                 break;
             else {
 		int openTagCategStartIndex = input.indexOf("CATEG=\"", openTagStartIndex);
-		int openTagCategCloseIndex = input.indexOf("\"", openTagCategStartIndex);
+		int openTagCategCloseIndex = input.indexOf("\"", openTagCategStartIndex+1);
                 int openTagCloseIndex = input.indexOf(">", openTagStartIndex);
                 int closeTagIndex = input.indexOf("</EM>");
 
