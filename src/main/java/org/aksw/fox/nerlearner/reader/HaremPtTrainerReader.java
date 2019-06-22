@@ -301,7 +301,7 @@ public class HaremPtTrainerReader implements INERReader {
                 break;
             else {
 		int openTagCategStartIndex = input.indexOf("CATEG=\"", openTagStartIndex);
-		int openTagCategCloseIndex = input.indexOf("\"", openTagCategStartIndex+1);
+		int openTagCategCloseIndex = input.indexOf("\"", openTagCategStartIndex);
                 int openTagCloseIndex = input.indexOf(">", openTagStartIndex);
                 int closeTagIndex = input.indexOf("</EM>");
 
@@ -309,6 +309,8 @@ public class HaremPtTrainerReader implements INERReader {
 		    //String taggedWords pega todo o conteudo de uma tag <EM> ate seu fechamento em </EM>
                     String taggedWords = input.substring(openTagCloseIndex + 1, closeTagIndex);
                     LOG.info("taggedWords "+ taggedWords);
+                    LOG.info("substring start indice "+openTagCategStartIndex+" "+input.substring(openTagCategStartIndex));
+                    LOG.info("substring stop indice"+openTagCategCloseIndex);
                     String categoriesString = input.substring(openTagCategStartIndex + "CATEG=\"".length(), openTagCategCloseIndex);
                     
                     LOG.info("categoriesString "+ categoriesString);
