@@ -357,7 +357,7 @@ public class HaremPtTrainerReader implements INERReader {
             if (openTagStartIndex == -1) {
                 break;
             } else {
-                int openTagCloseIndex = input.indexOf("\"", openTagStartIndex);
+                int openTagCloseIndex = input.indexOf("\"", openTagStartIndex+"ID=\"".length()+1);
                 String id = input.substring(openTagStartIndex + "ID=\"".length(), openTagCloseIndex - 1);
                 input = input.replaceFirst("ID=\"" + id + "\"", "");
             }
