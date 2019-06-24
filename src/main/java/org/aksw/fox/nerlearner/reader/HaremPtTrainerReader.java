@@ -373,10 +373,8 @@ public class HaremPtTrainerReader implements INERReader {
                 break;
             } else {
                 int openTagCloseIndex = input.indexOf("\"  >", openTagStartIndex);
-                if (openTagCloseIndex == -1)
-                    LOG.info("Não encontrado o fechamento. ");
                 String tipo = input.substring(openTagStartIndex + "TIPO=\"".length(), openTagCloseIndex);
-                LOG.info("tipo: "+tipo);
+                LOG.info("substituir: "+"TIPO=\"" + tipo + "\"  >");
                 input = input.replaceFirst("TIPO=\"" + tipo + "\"  >", "");
             }
         }  
