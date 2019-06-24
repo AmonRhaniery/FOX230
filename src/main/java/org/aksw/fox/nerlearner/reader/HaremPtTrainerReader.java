@@ -337,7 +337,7 @@ public class HaremPtTrainerReader implements INERReader {
                     //limpar CATEG="..."
                     String escapedCategoriesString = "";
                     for (String cat : categories)
-                        escapedCategoriesString += cat + "\\|";
+                        escapedCategoriesString += cat + "|";
 
                     escapedCategoriesString = escapedCategoriesString.substring(0, escapedCategoriesString.length() - 2);
 
