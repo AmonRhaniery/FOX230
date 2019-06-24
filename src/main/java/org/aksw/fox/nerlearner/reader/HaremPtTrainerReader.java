@@ -313,7 +313,7 @@ public class HaremPtTrainerReader implements INERReader {
                     //LOG.info("substring stop indice"+openTagCategCloseIndex);
                     String categoriesString = input.substring(openTagCategStartIndex + "CATEG=\"".length(), openTagCategCloseIndex);
                     
-                    LOG.info("categoriesString "+ categoriesString);
+                    //LOG.info("categoriesString "+ categoriesString);
                     String[] categories = categoriesString.split("\\|");
 
                     //Relação entre as categorias dispostas no HAREM para as da ferramenta FOX
@@ -340,11 +340,12 @@ public class HaremPtTrainerReader implements INERReader {
                         escapedCategoriesString += cat + "|";
 
                     escapedCategoriesString = escapedCategoriesString.substring(0, escapedCategoriesString.length() - 1);
-
-                    input = input.replaceFirst("<CATEG=\"" + escapedCategoriesString + "\"", "");
+                    String aux = "<CATEG=\"" + escapedCategoriesString + "\"";
+                    LOG.info("substituir: "+aux);
+                    input = input.replaceFirst(aux, "");
                     input = input.replaceFirst("<EM ", "");
                     input = input.replaceFirst("</EM>", "");
-                    LOG.info("escapedCategoriesString: "+escapedCategoriesString);
+                    //LOG.info("escapedCategoriesString: "+escapedCategoriesString);
 
                 } catch (Exception e) {
                     LOG.error("\n", e);
@@ -353,7 +354,7 @@ public class HaremPtTrainerReader implements INERReader {
             }
         }
         LOG.info("input after parse... "+input);
-        //limpar ID="..."
+         //limpar ID="..."
         LOG.info("Limpando id...");
         while (true) {
             int openTagStartIndex = input.indexOf("ID=\"");
@@ -361,7 +362,7 @@ public class HaremPtTrainerReader implements INERReader {
                 break;
             } else {
                 int openTagCloseIndex = input.indexOf("\"", openTagStartIndex+"ID=\"".length()+1);
-                String id = input.substring(openTagStartIndex + "ID=\"".length(), openTagCloseIndex - 1);
+                String id = input.substring(openTagStartIndex + "ID=\"".length(), openTagCloseIndex);
                 LOG.info("id: "+id);
                 input = input.replaceFirst("ID=\"" + id + "\"", "");
             }
@@ -374,10 +375,10 @@ public class HaremPtTrainerReader implements INERReader {
                 break;
             } else {
                 int openTagCloseIndex = input.indexOf("\" >", openTagStartIndex);
-                String tipo = input.substring(openTagStartIndex + "TIPO=\"".length(), openTagCloseIndex - 1);
+                String tipo = input.substring(openTagStartIndex + "TIPO=\"".length(), openTagCloseIndex);
                 input = input.replaceFirst("TIPO=\"" + tipo + "\" >", "");
             }
-        } 
+        }  
         
         /*while (true) {
             int openTagStartIndex = input.indexOf("<TIMEX");
