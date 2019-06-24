@@ -339,7 +339,7 @@ public class HaremPtTrainerReader implements INERReader {
                     for (String cat : categories)
                         escapedCategoriesString += cat + "|";
 
-                    escapedCategoriesString = escapedCategoriesString.substring(0, escapedCategoriesString.length() - 2);
+                    escapedCategoriesString = escapedCategoriesString.substring(0, escapedCategoriesString.length() - 1);
 
                     input = input.replaceFirst("<CATEG=\"" + escapedCategoriesString + "\"", "");
                     input = input.replaceFirst("<EM ", "");
@@ -352,7 +352,7 @@ public class HaremPtTrainerReader implements INERReader {
                 }
             }
         }
-/*         LOG.info("input after parse... "+input);
+        LOG.info("input after parse... "+input);
         //limpar ID="..."
         LOG.info("Limpando id...");
         while (true) {
@@ -362,6 +362,7 @@ public class HaremPtTrainerReader implements INERReader {
             } else {
                 int openTagCloseIndex = input.indexOf("\"", openTagStartIndex+"ID=\"".length()+1);
                 String id = input.substring(openTagStartIndex + "ID=\"".length(), openTagCloseIndex - 1);
+                LOG.info("id: "+id);
                 input = input.replaceFirst("ID=\"" + id + "\"", "");
             }
         }
@@ -376,7 +377,7 @@ public class HaremPtTrainerReader implements INERReader {
                 String tipo = input.substring(openTagStartIndex + "TIPO=\"".length(), openTagCloseIndex - 1);
                 input = input.replaceFirst("TIPO=\"" + tipo + "\" >", "");
             }
-        } */
+        } 
         
         /*while (true) {
             int openTagStartIndex = input.indexOf("<TIMEX");
