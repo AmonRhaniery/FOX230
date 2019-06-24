@@ -291,7 +291,7 @@ public class HaremPtTrainerReader implements INERReader {
     input = input.replaceAll("<v-inf>", "");
     input = input.replaceAll("<v-pcp>", "");
     
-   // LOG.info("Input é "+input);
+    LOG.info("Input é "+input);
 
         while (true) {
 
@@ -337,7 +337,7 @@ public class HaremPtTrainerReader implements INERReader {
                     //limpar CATEG="..."
                     String escapedCategoriesString = "";
                     for (String cat : categories)
-                        escapedCategoriesString += cat + "\\|";
+                        escapedCategoriesString += cat + "|";
 
                     escapedCategoriesString = escapedCategoriesString.substring(0, escapedCategoriesString.length() - 1);
                     input = input.replaceFirst("CATEG=\"" + escapedCategoriesString + "\"", "");
@@ -374,6 +374,7 @@ public class HaremPtTrainerReader implements INERReader {
             } else {
                 int openTagCloseIndex = input.indexOf("\" >", openTagStartIndex);
                 String tipo = input.substring(openTagStartIndex + "TIPO=\"".length(), openTagCloseIndex);
+                LOG.info("tipo: "+tipo);
                 input = input.replaceFirst("TIPO=\"" + tipo + "\" >", "");
             }
         }  
