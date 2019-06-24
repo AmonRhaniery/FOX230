@@ -351,7 +351,9 @@ public class HaremPtTrainerReader implements INERReader {
                 }
             }
         }
+        LOG.info("input after parse... "+input);
         //limpar ID="..."
+        LOG.info("Limpando id...");
         while (true) {
             int openTagStartIndex = input.indexOf("ID=\"");
             if (openTagStartIndex == -1) {
@@ -362,6 +364,7 @@ public class HaremPtTrainerReader implements INERReader {
                 input = input.replaceFirst("ID=\"" + id + "\"", "");
             }
         }
+        LOG.info("Limpando tipo...");
         //limpar TIPO="..." >
         while (true) {
             int openTagStartIndex = input.indexOf("TIPO=\"");
