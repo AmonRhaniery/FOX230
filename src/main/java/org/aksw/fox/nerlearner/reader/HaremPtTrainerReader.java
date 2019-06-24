@@ -372,7 +372,7 @@ public class HaremPtTrainerReader implements INERReader {
             if (openTagStartIndex == -1) {
                 break;
             } else {
-                int openTagCloseIndex = input.indexOf("\" >", openTagStartIndex);
+                int openTagCloseIndex = input.indexOf("\"  >", openTagStartIndex);
                 String tipo = input.substring(openTagStartIndex + "TIPO=\"".length(), openTagCloseIndex);
                 LOG.info("tipo: "+tipo);
                 input = input.replaceFirst("TIPO=\"" + tipo + "\" >", "");
@@ -390,8 +390,8 @@ public class HaremPtTrainerReader implements INERReader {
                 input = input.replaceFirst("</TIMEX>", "");
             }
         }*/
-        /* LOG.info("Input final: "+input);
-        input = input.trim(); */
+        LOG.info("Input final: "+input);
+        input = input.trim();
         // input = input.replaceAll("``|''", "");
         // input = input.replaceAll("\\p{Blank}+", " ");
         // input = input.replaceAll("\n ", "\n");
