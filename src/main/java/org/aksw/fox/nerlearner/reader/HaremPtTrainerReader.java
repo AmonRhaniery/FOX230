@@ -391,6 +391,7 @@ public class HaremPtTrainerReader implements INERReader {
         // input = input.replaceAll("\n ", "\n");
         // input = input.replaceAll("\n+", "\n");
         // input = input.replaceAll("[.]+", ".");
+        LOG.info("Input final: "+input);
         return input;
     }
 
