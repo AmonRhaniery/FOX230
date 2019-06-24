@@ -384,14 +384,14 @@ public class HaremPtTrainerReader implements INERReader {
                 input = input.replaceFirst("</TIMEX>", "");
             }
         }*/
-
+        LOG.info("Input final: "+input);
         input = input.trim();
         // input = input.replaceAll("``|''", "");
         // input = input.replaceAll("\\p{Blank}+", " ");
         // input = input.replaceAll("\n ", "\n");
         // input = input.replaceAll("\n+", "\n");
         // input = input.replaceAll("[.]+", ".");
-        LOG.info("Input final: "+input);
+        
         return input;
     }
 
