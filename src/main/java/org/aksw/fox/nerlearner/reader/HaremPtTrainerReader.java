@@ -291,7 +291,7 @@ public class HaremPtTrainerReader implements INERReader {
     input = input.replaceAll("<v-inf>", "");
     input = input.replaceAll("<v-pcp>", "");
     
-    //LOG.info("Input é "+input);
+    LOG.info("Input é "+input);
 
         while (true) {
 
@@ -373,6 +373,8 @@ public class HaremPtTrainerReader implements INERReader {
                 break;
             } else {
                 int openTagCloseIndex = input.indexOf("\"  >", openTagStartIndex);
+                if (openTagCloseIndex == -1)
+                    LOG.info("Não encontrado o fechamento. ");
                 String tipo = input.substring(openTagStartIndex + "TIPO=\"".length(), openTagCloseIndex);
                 LOG.info("tipo: "+tipo);
                 input = input.replaceFirst("TIPO=\"" + tipo + "\"  >", "");
