@@ -339,7 +339,7 @@ public class HaremPtTrainerReader implements INERReader {
                     for (String cat : categories)
                         escapedCategoriesString += cat + "\\|";
 
-                    escapedCategoriesString = escapedCategoriesString.substring(0, escapedCategoriesString.length() - 1);
+                    escapedCategoriesString = escapedCategoriesString.substring(0, escapedCategoriesString.length() - 2);
 
                     input = input.replaceFirst("<CATEG=\"" + escapedCategoriesString + "\"", "");
                     input = input.replaceFirst("<EM ", "");
