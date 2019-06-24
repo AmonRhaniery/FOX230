@@ -351,7 +351,7 @@ public class HaremPtTrainerReader implements INERReader {
                 }
             }
         }
-        LOG.info("input after parse... "+input);
+/*         LOG.info("input after parse... "+input);
         //limpar ID="..."
         LOG.info("Limpando id...");
         while (true) {
@@ -375,7 +375,8 @@ public class HaremPtTrainerReader implements INERReader {
                 String tipo = input.substring(openTagStartIndex + "TIPO=\"".length(), openTagCloseIndex - 1);
                 input = input.replaceFirst("TIPO=\"" + tipo + "\" >", "");
             }
-        }
+        } */
+        
         /*while (true) {
             int openTagStartIndex = input.indexOf("<TIMEX");
             if (openTagStartIndex == -1) {
@@ -387,8 +388,8 @@ public class HaremPtTrainerReader implements INERReader {
                 input = input.replaceFirst("</TIMEX>", "");
             }
         }*/
-        LOG.info("Input final: "+input);
-        input = input.trim();
+        /* LOG.info("Input final: "+input);
+        input = input.trim(); */
         // input = input.replaceAll("``|''", "");
         // input = input.replaceAll("\\p{Blank}+", " ");
         // input = input.replaceAll("\n ", "\n");
