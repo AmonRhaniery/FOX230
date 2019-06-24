@@ -313,7 +313,7 @@ public class HaremPtTrainerReader implements INERReader {
                     //LOG.info("substring stop indice"+openTagCategCloseIndex);
                     String categoriesString = input.substring(openTagCategStartIndex + "CATEG=\"".length(), openTagCategCloseIndex);
                     
-                    //LOG.info("categoriesString "+ categoriesString);
+                    LOG.info("categoriesString "+ categoriesString);
                     String[] categories = categoriesString.split("\\|");
 
                     //Relação entre as categorias dispostas no HAREM para as da ferramenta FOX
@@ -344,6 +344,7 @@ public class HaremPtTrainerReader implements INERReader {
                     input = input.replaceFirst("<CATEG=\"" + escapedCategoriesString + "\"", "");
                     input = input.replaceFirst("<EM ", "");
                     input = input.replaceFirst("</EM>", "");
+                    LOG.info("escapedCategoriesString: "+escapedCategoriesString);
 
                 } catch (Exception e) {
                     LOG.error("\n", e);
