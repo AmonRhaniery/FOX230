@@ -359,10 +359,10 @@ public class HaremPtTrainerReader implements INERReader {
             if (openTagStartIndex == -1) {
                 break;
             } else {
-                int openTagCloseIndex = input.indexOf("\"  >", openTagStartIndex);
+                int openTagCloseIndex = input.indexOf("\"  >", openTagStartIndex+"TIPO=\"".length()+1);
                 String tipo = input.substring(openTagStartIndex + "TIPO=\"".length(), openTagCloseIndex);
                 LOG.info("substituir: "+input.substring(openTagStartIndex -7, openTagCloseIndex));
-                input = input.replaceFirst("TIPO=\"" + tipo + "\"  >", "");
+                input = input.replaceFirst("TIPO=\"" + tipo + "\"  >", ""); //dando erro no id 2793 pro 2794
             }
         } 
          //limpar ID="..."
