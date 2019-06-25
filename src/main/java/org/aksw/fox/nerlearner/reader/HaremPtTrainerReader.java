@@ -291,7 +291,7 @@ public class HaremPtTrainerReader implements INERReader {
     input = input.replaceAll("<v-inf>", "");
     input = input.replaceAll("<v-pcp>", "");
     
-    LOG.info("Input é "+input);
+    //LOG.info("Input é "+input);
 
         while (true) {
 
@@ -361,8 +361,8 @@ public class HaremPtTrainerReader implements INERReader {
             } else {
                 int openTagCloseIndex = input.indexOf("\"  >", openTagStartIndex+"TIPO=\"".length()+1);
                 String tipo = input.substring(openTagStartIndex + "TIPO=\"".length(), openTagCloseIndex);
-                LOG.info("substituir: "+input.substring(openTagStartIndex -7, openTagCloseIndex));
-                input = input.replaceFirst("TIPO=\"" + tipo + "\"  >", ""); //dando erro no id 2793 pro 2794
+                //LOG.info("substituir: "+input.substring(openTagStartIndex -7, openTagCloseIndex));
+                input = input.replaceFirst("TIPO=\"" + tipo + "\"  >", ""); 
             }
         } 
          //limpar ID="..."
