@@ -352,6 +352,19 @@ public class HaremPtTrainerReader implements INERReader {
             }
         }
         //LOG.info("input after parse... "+input);
+        LOG.info("Limpando tipo...");
+        //limpar TIPO="..." >
+        while (true) {
+            int openTagStartIndex = input.indexOf("TIPO=\"");
+            if (openTagStartIndex == -1) {
+                break;
+            } else {
+                int openTagCloseIndex = input.indexOf("\"  >", openTagStartIndex);
+                String tipo = input.substring(openTagStartIndex + "TIPO=\"".length(), openTagCloseIndex);
+                LOG.info("substituir: "+input.substring(openTagStartIndex -7, openTagCloseIndex));
+                input = input.replaceFirst("TIPO=\"" + tipo + "\"  >", "");
+            }
+        } 
          //limpar ID="..."
         LOG.info("Limpando id...");
         while (true) {
@@ -365,19 +378,7 @@ public class HaremPtTrainerReader implements INERReader {
                 input = input.replaceFirst("ID=\"" + id + "\"", "");
             }
         }
-        LOG.info("Limpando tipo...");
-        //limpar TIPO="..." >
-        while (true) {
-            int openTagStartIndex = input.indexOf("TIPO=\"");
-            if (openTagStartIndex == -1) {
-                break;
-            } else {
-                int openTagCloseIndex = input.indexOf("\"  >", openTagStartIndex);
-                String tipo = input.substring(openTagStartIndex + "TIPO=\"".length(), openTagCloseIndex);
-                LOG.info("substituir: "+"TIPO=\"" + tipo + "\"  >");
-                input = input.replaceFirst("TIPO=\"" + tipo + "\"  >", "");
-            }
-        }  
+ 
         
         /*while (true) {
             int openTagStartIndex = input.indexOf("<TIMEX");
