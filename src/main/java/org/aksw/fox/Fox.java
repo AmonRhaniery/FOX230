@@ -608,7 +608,8 @@ public class Fox implements IFox {
         IT("it"),
         EN("en"),
         NL("nl"),
-        FR("fr");
+        FR("fr"),
+        PT("pt");
 
         private String label;
 
