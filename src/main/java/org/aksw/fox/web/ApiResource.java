@@ -193,7 +193,7 @@ public class ApiResource {
       }
 
       // lang
-      String lang = null;
+      String lang = "pt";
       try {
         if (properties.get(Fox.Parameter.LANG.toString()) != null) {
           lang = properties.getString(Fox.Parameter.LANG.toString());
