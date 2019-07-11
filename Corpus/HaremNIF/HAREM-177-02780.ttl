@@ -1,0 +1,672 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=3488,3495>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Fapemig"^^xsd:string ;
+        nif:beginIndex        "3488"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3495"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3845> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=3387,3403>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Conselho da SBPC"^^xsd:string ;
+        nif:beginIndex        "3387"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3403"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3845> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1352,1355>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "PPA"^^xsd:string ;
+        nif:beginIndex        "1352"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1355"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3845> .
+
+<http://linguateca.pt/harem#char=3151,3158>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Materia"^^xsd:string ;
+        nif:beginIndex        "3151"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3158"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3845> .
+
+<http://linguateca.pt/harem#char=3829,3831>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "JC"^^xsd:string ;
+        nif:beginIndex        "3829"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3831"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3845> .
+
+<http://linguateca.pt/harem#char=2090,2101>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Andrelandia"^^xsd:string ;
+        nif:beginIndex        "2090"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2101"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3845> .
+
+<http://linguateca.pt/harem#char=7,10>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "MCT"^^xsd:string ;
+        nif:beginIndex        "7"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "10"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3845> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1943,1947>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "CNPq"^^xsd:string ;
+        nif:beginIndex        "1943"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1947"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3845> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=3453,3456>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "MCT"^^xsd:string ;
+        nif:beginIndex        "3453"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3456"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3845> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=2543,2586>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ès Sciences Physiques/Universidade de Paris"^^xsd:string ;
+        nif:beginIndex        "2543"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2586"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3845> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=2791,2793>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "26"^^xsd:string ;
+        nif:beginIndex        "2791"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2793"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3845> .
+
+<http://linguateca.pt/harem#char=3550,3556>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Franca"^^xsd:string ;
+        nif:beginIndex        "3550"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3556"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3845> .
+
+<http://linguateca.pt/harem#char=3373,3379>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Pronex"^^xsd:string ;
+        nif:beginIndex        "3373"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3379"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3845> .
+
+<http://linguateca.pt/harem#char=139,172>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Sociedades Cientificas Associadas"^^xsd:string ;
+        nif:beginIndex        "139"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "172"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3845> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=2285,2293>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Pesquisa"^^xsd:string ;
+        nif:beginIndex        "2285"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2293"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3845> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=2316,2328>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Universidade"^^xsd:string ;
+        nif:beginIndex        "2316"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2328"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3845> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=3542,3590>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Societé Francaise de Metallurgie et de Materiaux"^^xsd:string ;
+        nif:beginIndex        "3542"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3590"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3845> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=3725,3740>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Premio Brasimet"^^xsd:string ;
+        nif:beginIndex        "3725"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3740"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3845> .
+
+<http://linguateca.pt/harem#char=3140,3146>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Franca"^^xsd:string ;
+        nif:beginIndex        "3140"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3146"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3845> .
+
+<http://linguateca.pt/harem#char=2356,2380>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Centro Tecnologico de MG"^^xsd:string ;
+        nif:beginIndex        "2356"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2380"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3845> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=608,625>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Diretoria da SBPC"^^xsd:string ;
+        nif:beginIndex        "608"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "625"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3845> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=2112,2131>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "20 de marco de 1943"^^xsd:string ;
+        nif:beginIndex        "2112"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2131"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3845> .
+
+<http://linguateca.pt/harem#char=0,3845>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "3845"^^xsd:nonNegativeInteger ;
+        nif:isString    "CNPq , MCT e Soc . Cientificas NOTA DA DIRETORIA DA SBPC SOBRE A REUNIAO COM O SECRETARIO-EXECUTIVO DO MCT Carlos Americo Pacheco , com as Sociedades Cientificas Associadas A diretoria da SBPC reuniu-se , em sua sede em SP , com representantes das Sociedades Cientificas Associadas e depois , junto com estes representantes , recebeu o secretário-executivo do Ministerio da C&amp;T , Carlos Americo Pacheco , que veio acompanhado do já então nomeado presidente do CNPq , Evando Mirra ( a designação fora assinada na segunda-feira ) . Sobre estas atividades , a diretoria da SBPC emitiu esta nota : \" A atual Diretoria da SBPC deu início ao seu programa de atividades conjuntas com as Sociedades Cientificas a ela associadas , reunindo-se , em 13 de setembro , na sede da Maria Antonia , com os seus 32 representantes . Estas reunioes deverao acontecer periodicamente , de acordo com calendario apresentado , para discussoes de temas actuais e visoes de futuro envolvendo ciencia e tecnologia . O esforço multidisciplinar empenhado nesta iniciativa deverá criar condicoes para a comunidade cientifica reflectir e expressar suas abordagens do desenvolvimento cientifico e tecnologico no pais . Na Segunda parte da reuniao , o Secretario Executivo do MCT , Dr . Carlos Americo Pacheco , apresentou o Plano Plurianual do Governo para C&amp;T + Debatendo o PPA , diversos participantes acreditam que , dentre outros aspectos , o orcamento previsto para os proximos anos nao contempla as oportunidades de expansao da area de absorcao , de recem-doutores e tampouco a desvalorizacao da moeda . O Dr . Carlos Pacheco aproveitou a oportunidade para anunciar , em primeira mao , o nome de Evando Mirra , presente à reunião , como o novo Presidente do CNPq . A indicacao foi muito bem acolhida pelos participantes .\" Conheca o novo presidente do CNPq , Evando Mirra Leia aqui alguns dados biograficos de Evando Mirra , cuja designacao para presidente do CNPq foi assinada nesta segunda-feira e saiu publicada hoje no Diario Oficial da Uniao : Nome completo : Evando Mirra de Paula e Silva . Nasceu em Andrelandia , MG , em 20 de marco de 1943 . Foi nomeado diretor e presidente em exercicio do CNPq , em março deste ano . Professor titular da Escola de Engenharia da UFMG , ja' foi pro-reitor de Pesquisa e vice-reitor daquela Universidade . Foi tambem presidente do Centro Tecnologico de MG ( Cetec ) . Graduou-se em Engenharia Mecanica e Eletrica pela UFMG , obteve o grau de mestrado em Metalurgia e Ciencia pela Coppe/UFRJ e o grau de doutorado pela Ès Sciences Physiques/Universidade de Paris . Tem curso de aperfeicoamento na George Washington University , EUA , e desenvolveu varios trabalhos em Universidades na Franca , EUA e Japao . E' autor de cerca de 80 publicações cientificas , orientou 26 teses de Pos- Graduacao e cerca de 50 alunos de Graduacao em iniciacao cientifica . Coordenou diversos cursos de Metalurgia Fisica e Ciencia e Engenharia de Materiais . Ministrou ainda cerca de 40 cursos de Extensao Tecnologica em industrias brasileiras . É membro dos comites editoriais das revistas cientificas Science et Genie des Materiaux ( Franca ) e Materia ( revista virtual latino-americana de Engenharia de Materiais ) . Foi membro do Conselho Deliberativo do CNPq , do Conselho Curador da Fapemig , da Comissao de Coordenacao do do Programa de Nucleos de Excelencia ( Pronex ) e do Conselho da SBPC . Desenvolveu varios trabalhos como consultor no MCT , MEC , CNPq , Capes , Finep e Fapemig . Foi eleito recentemente Membre d'Honneur da Societé Francaise de Metallurgie et de Materiaux ( Franca ) , recebeu a Ordem Nacional do Merito Cientifico do Governo Federal e diversos premios cientificos como o Premio Fundep e o Premio Brasimet . ( Informacoes fornecidas pela Assessoria de Comunicacao Social do CNPq )( retirado do JC Email SBPC ) "^^xsd:string .
+
+<http://linguateca.pt/harem#char=743,757>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "13 de setembro"^^xsd:string ;
+        nif:beginIndex        "743"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "757"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3845> .
+
+<http://linguateca.pt/harem#char=2193,2198>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "março"^^xsd:string ;
+        nif:beginIndex        "2193"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2198"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3845> .
+
+<http://linguateca.pt/harem#char=2718,2721>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "EUA"^^xsd:string ;
+        nif:beginIndex        "2718"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2721"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3845> .
+
+<http://linguateca.pt/harem#char=1254,1281>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Dr . Carlos Americo Pacheco"^^xsd:string ;
+        nif:beginIndex        "1254"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1281"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3845> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=248,281>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Sociedades Cientificas Associadas"^^xsd:string ;
+        nif:beginIndex        "248"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "281"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3845> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=2988,2990>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "40"^^xsd:string ;
+        nif:beginIndex        "2988"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2990"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3845> .
+
+<http://linguateca.pt/harem#char=2753,2755>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "80"^^xsd:string ;
+        nif:beginIndex        "2753"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2755"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3845> .
+
+<http://linguateca.pt/harem#char=1224,1251>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Secretario Executivo do MCT"^^xsd:string ;
+        nif:beginIndex        "1224"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1251"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3845> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=79,106>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "SECRETARIO-EXECUTIVO DO MCT"^^xsd:string ;
+        nif:beginIndex        "79"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "106"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3845> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1727,1745>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Presidente do CNPq"^^xsd:string ;
+        nif:beginIndex        "1727"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1745"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3845> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1317,1324>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Governo"^^xsd:string ;
+        nif:beginIndex        "1317"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1324"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3845> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=3001,3021>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Extensao Tecnologica"^^xsd:string ;
+        nif:beginIndex        "3001"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3021"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3845> .
+
+<http://linguateca.pt/harem#char=2927,2960>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ciencia e Engenharia de Materiais"^^xsd:string ;
+        nif:beginIndex        "2927"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2960"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3845> .
+
+<http://linguateca.pt/harem#char=3614,3668>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ordem Nacional do Merito Cientifico do Governo Federal"^^xsd:string ;
+        nif:beginIndex        "3614"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3668"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3845> .
+
+<http://linguateca.pt/harem#char=2479,2499>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Metalurgia e Ciencia"^^xsd:string ;
+        nif:beginIndex        "2479"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2499"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3845> .
+
+<http://linguateca.pt/harem#char=52,56>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "SBPC"^^xsd:string ;
+        nif:beginIndex        "52"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "56"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3845> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=684,706>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Sociedades Cientificas"^^xsd:string ;
+        nif:beginIndex        "684"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "706"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3845> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=13,30>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Soc . Cientificas"^^xsd:string ;
+        nif:beginIndex        "13"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "30"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3845> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=2443,2447>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "UFMG"^^xsd:string ;
+        nif:beginIndex        "2443"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2447"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3845> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=3465,3469>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "CNPq"^^xsd:string ;
+        nif:beginIndex        "3465"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3469"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3845> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=3107,3137>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Science et Genie des Materiaux"^^xsd:string ;
+        nif:beginIndex        "3107"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3137"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3845> .
+
+<http://linguateca.pt/harem#char=2104,2106>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "MG"^^xsd:string ;
+        nif:beginIndex        "2104"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2106"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3845> .
+
+<http://linguateca.pt/harem#char=220,222>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "SP"^^xsd:string ;
+        nif:beginIndex        "220"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "222"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3845> .
+
+<http://linguateca.pt/harem#char=3197,3220>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Engenharia de Materiais"^^xsd:string ;
+        nif:beginIndex        "3197"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3220"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3845> .
+
+<http://linguateca.pt/harem#char=2183,2187>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "CNPq"^^xsd:string ;
+        nif:beginIndex        "2183"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2187"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3845> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1297,1313>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Plano Plurianual"^^xsd:string ;
+        nif:beginIndex        "1297"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1313"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3845> .
+
+<http://linguateca.pt/harem#char=2829,2831>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "50"^^xsd:string ;
+        nif:beginIndex        "2829"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2831"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3845> .
+
+<http://linguateca.pt/harem#char=384,406>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Carlos Americo Pacheco"^^xsd:string ;
+        nif:beginIndex        "384"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "406"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3845> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=3707,3720>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Premio Fundep"^^xsd:string ;
+        nif:beginIndex        "3707"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3720"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3845> .
+
+<http://linguateca.pt/harem#char=3307,3370>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Comissao de Coordenacao do do Programa de Nucleos de Excelencia"^^xsd:string ;
+        nif:beginIndex        "3307"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3370"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3845> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=471,483>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Evando Mirra"^^xsd:string ;
+        nif:beginIndex        "471"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "483"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3845> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=360,381>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ministerio da C&amp;T"^^xsd:string ;
+        nif:beginIndex        "360"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "381"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3845> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=771,784>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Maria Antonia"^^xsd:string ;
+        nif:beginIndex        "771"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "784"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3845> .
+
+<http://linguateca.pt/harem#char=3239,3268>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Conselho Deliberativo do CNPq"^^xsd:string ;
+        nif:beginIndex        "3239"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3268"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3845> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1330,1337>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "C&amp;T"^^xsd:string ;
+        nif:beginIndex        "1330"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1337"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3845> .
+
+<http://linguateca.pt/harem#char=2407,2437>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Engenharia Mecanica e Eletrica"^^xsd:string ;
+        nif:beginIndex        "2407"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2437"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3845> .
+
+<http://linguateca.pt/harem#char=3274,3301>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Conselho Curador da Fapemig"^^xsd:string ;
+        nif:beginIndex        "3274"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3301"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3845> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=3472,3477>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Capes"^^xsd:string ;
+        nif:beginIndex        "3472"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3477"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3845> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=188,192>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "SBPC"^^xsd:string ;
+        nif:beginIndex        "188"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "192"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3845> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=464,468>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "CNPq"^^xsd:string ;
+        nif:beginIndex        "464"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "468"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3845> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1893,1905>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Evando Mirra"^^xsd:string ;
+        nif:beginIndex        "1893"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1905"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3845> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=2621,2649>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "George Washington University"^^xsd:string ;
+        nif:beginIndex        "2621"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2649"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3845> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1842,1854>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Evando Mirra"^^xsd:string ;
+        nif:beginIndex        "1842"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1854"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3845> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=2048,2077>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Evando Mirra de Paula e Silva"^^xsd:string ;
+        nif:beginIndex        "2048"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2077"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3845> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=3838,3842>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "SBPC"^^xsd:string ;
+        nif:beginIndex        "3838"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3842"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3845> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=2383,2388>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Cetec"^^xsd:string ;
+        nif:beginIndex        "2383"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2388"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3845> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1589,1608>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Dr . Carlos Pacheco"^^xsd:string ;
+        nif:beginIndex        "1589"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1608"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3845> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=574,578>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "SBPC"^^xsd:string ;
+        nif:beginIndex        "574"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "578"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3845> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=3459,3462>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "MEC"^^xsd:string ;
+        nif:beginIndex        "3459"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3462"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3845> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=3480,3485>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Finep"^^xsd:string ;
+        nif:beginIndex        "3480"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3485"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3845> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=3522,3538>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Membre d'Honneur"^^xsd:string ;
+        nif:beginIndex        "3522"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3538"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3845> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1679,1691>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Evando Mirra"^^xsd:string ;
+        nif:beginIndex        "1679"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1691"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3845> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=799,801>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "32"^^xsd:string ;
+        nif:beginIndex        "799"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "801"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3845> .
+
+<http://linguateca.pt/harem#char=2692,2705>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Universidades"^^xsd:string ;
+        nif:beginIndex        "2692"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2705"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3845> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=2907,2924>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Metalurgia Fisica"^^xsd:string ;
+        nif:beginIndex        "2907"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2924"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3845> .
+
+<http://linguateca.pt/harem#char=3773,3813>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Assessoria de Comunicacao Social do CNPq"^^xsd:string ;
+        nif:beginIndex        "3773"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3813"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3845> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=2006,2029>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Diario Oficial da Uniao"^^xsd:string ;
+        nif:beginIndex        "2006"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2029"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3845> .
+
+<http://linguateca.pt/harem#char=1741,1745>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "CNPq"^^xsd:string ;
+        nif:beginIndex        "1741"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1745"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3845> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=2709,2715>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Franca"^^xsd:string ;
+        nif:beginIndex        "2709"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2715"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3845> .
+
+<http://linguateca.pt/harem#char=2724,2729>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Japao"^^xsd:string ;
+        nif:beginIndex        "2724"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2729"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3845> .
+
+<http://linguateca.pt/harem#char=107,129>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Carlos Americo Pacheco"^^xsd:string ;
+        nif:beginIndex        "107"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "129"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3845> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=2652,2655>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "EUA"^^xsd:string ;
+        nif:beginIndex        "2652"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2655"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3845> .
+
+<http://linguateca.pt/harem#char=0,4>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "CNPq"^^xsd:string ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3845> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=2232,2260>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Escola de Engenharia da UFMG"^^xsd:string ;
+        nif:beginIndex        "2232"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2260"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3845> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=2505,2515>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Coppe/UFRJ"^^xsd:string ;
+        nif:beginIndex        "2505"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2515"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3845> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .

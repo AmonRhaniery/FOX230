@@ -1,0 +1,74 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=840,847>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Buffalo"^^xsd:string ;
+        nif:beginIndex        "840"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "847"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3020> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=692,716>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "\"Psychosomatic Medicine\""^^xsd:string ;
+        nif:beginIndex        "692"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "716"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3020> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=785,796>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Karen Allen"^^xsd:string ;
+        nif:beginIndex        "785"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "796"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3020> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3020>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "3020"^^xsd:nonNegativeInteger ;
+        nif:isString    "Se você precisar fazer algo estressante , procure sair de perto de sua mulher ou de seu marido , ou mesmo de seu melhor amigo ou de sua melhor amiga . Para ser menos afetado pelo estresse , a melhor opção pode estar na companhia de gatos ou cachorros . Uma pesquisa com 240 casais heterossexuais nos EUA revelou que a presença de um animal doméstico não só fez com que a tarefa desagradável fosse percebida como menos estressante , como também resultou em melhor resposta do organismo ao estresse . O estudo tem um título significativo : \"Reatividade Cardiovascular e a Presença de Animais Domésticos , Amigos e Cônjuges : A Verdade sobre Gatos e Cachorros\" . Foi publicado na revista médica \"Psychosomatic Medicine\" ( www.psychosomatic medicine.org ) . A principal autora do estudo é Karen Allen , da Universidade Estadual de Nova York em Buffalo , que há anos estuda a influência dos animais na saúde humana . Metade dos casais do estudo tinha um animal doméstico , cão ou gato . Os outros não tinham animais em casa havia pelo menos cinco anos . Os experimentos foram realizados na própria casa , em um quarto ao qual moradores e bichos estavam acostumados . As duas atividades estressantes tinham características diferentes _uma passiva e outra ativa . A passiva envolvia pôr a mão durante dois minutos em água gelada . A ativa envolvia responder a perguntas de matemática . O organismo dos participantes foi monitorado antes , durante e depois das tarefas . As medidas de estresse eram o ritmo de batimento cardíaco e a pressão sanguínea . Também foram anotados os erros nas perguntas de matemática e a impressão inicial dos participantes sobre os testes _se \"ameaçadores\" ou só \"desafiadores\" . Os experimentos eram realizados em quatro momentos distintos : com a pessoa sozinha , acompanhada do cônjuge , acompanhada do animal doméstico ( ou amigo do mesmo sexo ) , e acompanhada tanto do cônjuge quanto do animal ( ou amigo ) . A idéia do estudo era testar o conceito do \"apoio social\" , isto é , a ajuda psicológica de outro indivíduo , que tenderia a influir na reação do sistema cardiovascular ao estresse . A diferença foi que , enquanto outros estudos se concentravam no papel de outros seres humanos , o trabalho de Allen e colegas procurou testar a influência de cães e gatos . Os resultados , segundo Allen , mostraram que as pessoas com animais domésticos tinham tanto pressão sanguínea como batimento cardíaco \"significativamente\" mais baixos durante o período de descanso inicial . Também tiveram aumentos menores desses índices durante a realização da tarefa estressante , tanto a ativa quanto a passiva , e sua recuperação foi mais rápida . \"Embora esse estudo tenha limitações e levante várias questões sobre a causalidade , nós acreditamos ter demonstrado claramente que as pessoas percebem seus animais domésticos como parte importante , de apoio , a suas vidas , e que benefícios significativos comportamentais e cardiovasculares estão associados com essas percepções\" , escreveram os autores . "^^xsd:string .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=300,303>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "EUA"^^xsd:string ;
+        nif:beginIndex        "300"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "303"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3020> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=802,836>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Universidade Estadual de Nova York"^^xsd:string ;
+        nif:beginIndex        "802"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "836"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3020> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=538,657>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "\"Reatividade Cardiovascular e a Presença de Animais Domésticos , Amigos e Cônjuges : A Verdade sobre Gatos e Cachorros\""^^xsd:string ;
+        nif:beginIndex        "538"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "657"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3020> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=2230,2235>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Allen"^^xsd:string ;
+        nif:beginIndex        "2230"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2235"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3020> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=2317,2322>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Allen"^^xsd:string ;
+        nif:beginIndex        "2317"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2322"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3020> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .

@@ -1,0 +1,193 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=7,62>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Escola Tecnológica , Artística e Profissional de Pombal"^^xsd:string ;
+        nif:beginIndex        "7"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "62"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1750> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=440,457>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Contrato Programa"^^xsd:string ;
+        nif:beginIndex        "440"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "457"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1750> .
+
+<http://linguateca.pt/harem#char=775,791>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Cidade de Pombal"^^xsd:string ;
+        nif:beginIndex        "775"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "791"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1750> .
+
+<http://linguateca.pt/harem#char=197,201>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Etap"^^xsd:string ;
+        nif:beginIndex        "197"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "201"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1750> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=953,959>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Pombal"^^xsd:string ;
+        nif:beginIndex        "953"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "959"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1750> .
+
+<http://linguateca.pt/harem#char=705,715>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "PombalProf"^^xsd:string ;
+        nif:beginIndex        "705"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "715"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1750> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=224,228>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "ETAP"^^xsd:string ;
+        nif:beginIndex        "224"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "228"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1750> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=618,640>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ministério da Educação"^^xsd:string ;
+        nif:beginIndex        "618"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "640"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1750> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1741,1749>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "13/01/03"^^xsd:string ;
+        nif:beginIndex        "1741"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1749"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1750> .
+
+<http://linguateca.pt/harem#char=718,761>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Sociedade de Educação e Ensino Profissional"^^xsd:string ;
+        nif:beginIndex        "718"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "761"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1750> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=231,286>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Escola Tecnológica , Artística e Profissional de Pombal"^^xsd:string ;
+        nif:beginIndex        "231"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "286"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1750> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=333,355>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "19 de Setembro de 1989"^^xsd:string ;
+        nif:beginIndex        "333"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "355"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1750> .
+
+<http://linguateca.pt/harem#char=889,938>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Concelho da Região Centro de Portugal Continental"^^xsd:string ;
+        nif:beginIndex        "889"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "938"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1750> .
+
+<http://linguateca.pt/harem#char=0,4>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "ETAP"^^xsd:string ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1750> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1509,1550>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Parque Industrial Manuel da Mota - Pombal"^^xsd:string ;
+        nif:beginIndex        "1509"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1550"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1750> .
+
+<http://linguateca.pt/harem#char=371,392>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Decreto -Lei nº 26/89"^^xsd:string ;
+        nif:beginIndex        "371"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "392"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1750> .
+
+<http://linguateca.pt/harem#char=519,566>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Associação de Industriais do Concelho de Pombal"^^xsd:string ;
+        nif:beginIndex        "519"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "566"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1750> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1333,1336>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "12º"^^xsd:string ;
+        nif:beginIndex        "1333"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1336"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1750> .
+
+<http://linguateca.pt/harem#char=569,613>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Associação Comercial e de Serviços de Pombal"^^xsd:string ;
+        nif:beginIndex        "569"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "613"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1750> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=490,516>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Câmara Municipal de Pombal"^^xsd:string ;
+        nif:beginIndex        "490"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "516"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1750> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=154,160>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Escola"^^xsd:string ;
+        nif:beginIndex        "154"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "160"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1750> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=63,118>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Escola Tecnológica , Artística e Profissional de Pombal"^^xsd:string ;
+        nif:beginIndex        "63"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "118"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1750> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=0,1750>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1750"^^xsd:nonNegativeInteger ;
+        nif:isString    "ETAP - Escola Tecnológica , Artística e Profissional de Pombal Escola Tecnológica , Artística e Profissional de Pombal [ Em construção]CursosEstrutura da Escola ProjectosEsta é a página oficial da Etap - Venha conhecer-nosA ETAP - Escola Tecnológica , Artística e Profissional de Pombal é uma escola profissional privada , criada em 19 de Setembro de 1989 , ao abrigo do Decreto -Lei nº 26/89 de 21 de Janeiro , mediante a assinatura de um Contrato Programa entre as Entidades Promotoras : Câmara Municipal de Pombal , Associação de Industriais do Concelho de Pombal , Associação Comercial e de Serviços de Pombal e o Ministério da Educação . Actualmente esta escola tem uma entidade proprietária que é a PombalProf - Sociedade de Educação e Ensino Profissional . Situada na Cidade de Pombal , tem constituído um pólo dinamizador do desenvolvimento económico e social que caracteriza este Concelho da Região Centro de Portugal Continental . A cidade de Pombal é actualmente um complexo urbano em grande crescimento , irradiador de actividades para a envolvente rural e urbana , com especial destaque para o crescimento ao nível industrial e comercial . Trata-se de uma Escola Profissional que adoptou um modelo de ensino alternativo ao sistema regular , orientada para a formação técnica e profissional de jovens com equivalência ao 12º ano de escolaridade , permitindo-lhes a entrada no mercado de trabalho ou o ingresso no ensino superior.Informações de contacto Telefone 236 200 810 Fax 236 217 122 Morada Parque Industrial Manuel da Mota - Pombal Correio electrónico Email daEscola : etap@mail.telepac.pt Ý TOPO ÝEnviar uma mensagem para etap@mail.telepac.pt&gt ; , com questões ou comentários acerca deste web site.Última modificação : 13/01/03 "^^xsd:string .
+
+<http://linguateca.pt/harem#char=1169,1188>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Escola Profissional"^^xsd:string ;
+        nif:beginIndex        "1169"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1188"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1750> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=396,409>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "21 de Janeiro"^^xsd:string ;
+        nif:beginIndex        "396"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "409"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1750> .

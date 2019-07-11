@@ -1,0 +1,269 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=1076,1089>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Bispo Sifredo"^^xsd:string ;
+        nif:beginIndex        "1076"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1089"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1700> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=237,259>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "25 de Dezembro de 1747"^^xsd:string ;
+        nif:beginIndex        "237"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "259"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1700> .
+
+<http://linguateca.pt/harem#char=690,696>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Rússia"^^xsd:string ;
+        nif:beginIndex        "690"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "696"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1700> .
+
+<http://linguateca.pt/harem#char=366,380>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Pacto com Deus"^^xsd:string ;
+        nif:beginIndex        "366"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "380"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1700> .
+
+<http://linguateca.pt/harem#char=42,61>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Metodismo Português"^^xsd:string ;
+        nif:beginIndex        "42"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "61"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1700> .
+
+<http://linguateca.pt/harem#char=1102,1119>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Primeiro Ministro"^^xsd:string ;
+        nif:beginIndex        "1102"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1119"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1700> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1501,1505>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ibra"^^xsd:string ;
+        nif:beginIndex        "1501"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1505"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1700> .
+
+<http://linguateca.pt/harem#char=398,404>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Wesley"^^xsd:string ;
+        nif:beginIndex        "398"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "404"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1700> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1576,1582>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Bíblia"^^xsd:string ;
+        nif:beginIndex        "1576"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1582"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1700> .
+
+<http://linguateca.pt/harem#char=590,616>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Conselho Europeu Metodista"^^xsd:string ;
+        nif:beginIndex        "590"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "616"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1700> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=193,217>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "2003 - Um Tempo Oportuno"^^xsd:string ;
+        nif:beginIndex        "193"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "217"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1700> .
+
+<http://linguateca.pt/harem#char=785,791>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Europa"^^xsd:string ;
+        nif:beginIndex        "785"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "791"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1700> .
+
+<http://linguateca.pt/harem#char=178,192>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Pacto com Deus"^^xsd:string ;
+        nif:beginIndex        "178"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "192"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1700> .
+
+<http://linguateca.pt/harem#char=654,663>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Stuttgart"^^xsd:string ;
+        nif:beginIndex        "654"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "663"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1700> .
+
+<http://linguateca.pt/harem#char=340,344>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Deus"^^xsd:string ;
+        nif:beginIndex        "340"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "344"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1700> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=642,650>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Setembro"^^xsd:string ;
+        nif:beginIndex        "642"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "650"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1700> .
+
+<http://linguateca.pt/harem#char=0,1700>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1700"^^xsd:nonNegativeInteger ;
+        nif:isString    "New Page 1Pesquisa ...Origem do Metodismo Metodismo Português Princípios BásicosEstruturaHinárioComunidades LocaisObra SocialTrigésimo Aniversário de John Wesley Dia do Culto do Pacto com Deus 2003 - Um Tempo Oportuno , C . Sousa No dia 25 de Dezembro de 1747 , John Wesley fez um apelo a todos os metodistas para renovarem o seu pacto com Deus .O primeiro culto do Pacto com Deus , organizado por Wesley , foi celebrado no ano de 1755 . Desde aquele ano tem continuado este serviço na Igreja Metodista ( primeiro Domingo de cada ano ) , sendo uma rica fonte de bênção para os que o usam.O Conselho Europeu Metodista reuniu no passado mês de Setembro em Stuttgart , Alemanha .De Portugal à Rússia , 40 Metodistas partilharam as suas experiências e perspectivaram o futuro da missão na Europa .\"Não se pode perder de vista a nossa realidade , ou seja , todos nós constituímos a grande família humana . Já é tempo de sabermos cuidar unsdos outros , de tal forma que a vida seja uma alegria para todos e todas . A paz precisa de uma oportunidade para poder ser uma realidade.\" ( Bispo Sifredo )- Carta ao Primeiro Ministro - A Paz precisa de uma Oportunidade- Manifesto Ecuménico Jovem contra a guerra- World Council of Churches - \"Wars cannot be won , only peace can\"- World Alliance of Reformed Churches - condena a guerra no Iraque DepartamentosFederação de MulheresJuventudeComissõesEvangelização e Educ.LiturgiaTextosDocumentosArtigosEstudos BíblicosDiversosCalendárioLeccionárioLeituras Diárias da Ibra TelevisãoArquivo FotográficoComentáriosLinksI de...Uma nova versão da Bíblia Metodismo no Brasil História Bíblica Consulte o texto BíblicoCopyright 2002 - Igreja Evangélica Metodista Portuguesa "^^xsd:string .
+
+<http://linguateca.pt/harem#char=262,273>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "John Wesley"^^xsd:string ;
+        nif:beginIndex        "262"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "273"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1700> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=679,687>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Portugal"^^xsd:string ;
+        nif:beginIndex        "679"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "687"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1700> .
+
+<http://linguateca.pt/harem#char=486,502>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Igreja Metodista"^^xsd:string ;
+        nif:beginIndex        "486"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "502"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1700> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1325,1331>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Iraque"^^xsd:string ;
+        nif:beginIndex        "1325"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1331"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1700> .
+
+<http://linguateca.pt/harem#char=1654,1658>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "2002"^^xsd:string ;
+        nif:beginIndex        "1654"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1658"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1700> .
+
+<http://linguateca.pt/harem#char=514,521>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Domingo"^^xsd:string ;
+        nif:beginIndex        "514"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "521"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1700> .
+
+<http://linguateca.pt/harem#char=1583,1602>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Metodismo no Brasil"^^xsd:string ;
+        nif:beginIndex        "1583"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1602"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1700> .
+
+<http://linguateca.pt/harem#char=1661,1699>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Igreja Evangélica Metodista Portuguesa"^^xsd:string ;
+        nif:beginIndex        "1661"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1699"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1700> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=666,674>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Alemanha"^^xsd:string ;
+        nif:beginIndex        "666"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "674"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1700> .
+
+<http://linguateca.pt/harem#char=699,701>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "40"^^xsd:string ;
+        nif:beginIndex        "699"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "701"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1700> .
+
+<http://linguateca.pt/harem#char=1603,1619>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "História Bíblica"^^xsd:string ;
+        nif:beginIndex        "1603"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1619"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1700> .
+
+<http://linguateca.pt/harem#char=220,229>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "C . Sousa"^^xsd:string ;
+        nif:beginIndex        "220"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "229"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1700> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1267,1302>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "World Alliance of Reformed Churches"^^xsd:string ;
+        nif:beginIndex        "1267"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1302"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1700> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=32,41>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Metodismo"^^xsd:string ;
+        nif:beginIndex        "32"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "41"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1700> .
+
+<http://linguateca.pt/harem#char=1157,1182>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Manifesto Ecuménico Jovem"^^xsd:string ;
+        nif:beginIndex        "1157"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1182"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1700> .
+
+<http://linguateca.pt/harem#char=702,712>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Metodistas"^^xsd:string ;
+        nif:beginIndex        "702"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "712"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1700> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=150,161>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "John Wesley"^^xsd:string ;
+        nif:beginIndex        "150"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "161"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1700> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=431,435>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1755"^^xsd:string ;
+        nif:beginIndex        "431"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "435"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1700> .
+
+<http://linguateca.pt/harem#char=1200,1225>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "World Council of Churches"^^xsd:string ;
+        nif:beginIndex        "1200"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1225"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1700> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .

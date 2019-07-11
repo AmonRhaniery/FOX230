@@ -1,0 +1,43 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=407,423>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Imperial College"^^xsd:string ;
+        nif:beginIndex        "407"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "423"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1644> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=822,827>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Folha"^^xsd:string ;
+        nif:beginIndex        "822"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "827"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1644> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=839,850>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Joe Jackson"^^xsd:string ;
+        nif:beginIndex        "839"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "850"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1644> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1644>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1644"^^xsd:nonNegativeInteger ;
+        nif:isString    "Foi dado o primeiro passo para a diminuição das filas de espera para transplante de fígado . Cientistas britânicos detectaram , em adultos , a produção de células hepáticas a partir de células-tronco da medula óssea . Células-tronco são células não-especializadas , capazes de dar origem a qualquer tipo de tecido . As da medula óssea dão origem a células sanguíneas . O estudo , feito por pesquisadores do Imperial College , em Londres , mostra que , além disso , elas são capazes de originar outro tipo de célula _células hepáticas_ dentro do organismo humano . A descoberta possibilitará que pessoas com dano no fígado usem as próprias células-tronco para produzir células hepáticas . \"No futuro , quando a produção de tecido hepático se tornar uma realidade , o número de transplantes poderá ser minimizado\" , disse à Folha por e-mail Joe Jackson , um dos autores do estudo que sai hoje na revista \"Nature\" . Masculino e femininoPesquisas em camundongos haviam mostrado que células-tronco da medula óssea poderiam originar células hepáticas , além das sanguíneas . Para descobrir se o mesmo acontecia em seres humanos , os pesquisadores analisaram células do fígado de mulheres que haviam sofrido um transplante de medula óssea , cujo doador havia sido um homem . A análise do DNA dessas células mostrou que elas continham o cromossomo Y , encontrado apenas em células masculinas . Isso indica que , de alguma forma , as células-tronco da medula óssea haviam sido capazes de \"colonizar\" o fígado das mulheres transplantadas . O resultado deverá contribuir para o desenvolvimento de tecidos humanos para uso terapêutico , dizem os autores . "^^xsd:string .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=429,436>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Londres"^^xsd:string ;
+        nif:beginIndex        "429"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "436"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1644> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .

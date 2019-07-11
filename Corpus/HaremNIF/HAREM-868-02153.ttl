@@ -1,0 +1,192 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=1270,1276>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "444,00"^^xsd:string ;
+        nif:beginIndex        "1270"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1276"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1737> .
+
+<http://linguateca.pt/harem#char=164,175>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Educacional"^^xsd:string ;
+        nif:beginIndex        "164"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "175"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1737> .
+
+<http://linguateca.pt/harem#char=60,101>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Programa de Treinamento e Desenvolvimento"^^xsd:string ;
+        nif:beginIndex        "60"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "101"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1737> .
+
+<http://linguateca.pt/harem#char=176,190>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Organizacional"^^xsd:string ;
+        nif:beginIndex        "176"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "190"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1737> .
+
+<http://linguateca.pt/harem#char=1194,1206>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Gerontologia"^^xsd:string ;
+        nif:beginIndex        "1194"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1206"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1737> .
+
+<http://linguateca.pt/harem#char=1109,1120>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Vânia Ramos"^^xsd:string ;
+        nif:beginIndex        "1109"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1120"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1737> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1234,1237>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "033"^^xsd:string ;
+        nif:beginIndex        "1234"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1237"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1737> .
+
+<http://linguateca.pt/harem#char=149,153>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "EPPA"^^xsd:string ;
+        nif:beginIndex        "149"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "153"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1737> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=156,163>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Clínica"^^xsd:string ;
+        nif:beginIndex        "156"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "163"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1737> .
+
+<http://linguateca.pt/harem#char=0,16>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Psicomotricidade"^^xsd:string ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "16"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1737> .
+
+<http://linguateca.pt/harem#char=1613,1617>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "EPPA"^^xsd:string ;
+        nif:beginIndex        "1613"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1617"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1737> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=113,115>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "90"^^xsd:string ;
+        nif:beginIndex        "113"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "115"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1737> .
+
+<http://linguateca.pt/harem#char=1350,1360>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Bela Vista"^^xsd:string ;
+        nif:beginIndex        "1350"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1360"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1737> .
+
+<http://linguateca.pt/harem#char=43,59>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Psicomotricidade"^^xsd:string ;
+        nif:beginIndex        "43"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "59"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1737> .
+
+<http://linguateca.pt/harem#char=1317,1320>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "22h"^^xsd:string ;
+        nif:beginIndex        "1317"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1320"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1737> .
+
+<http://linguateca.pt/harem#char=1307,1313>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Sex 19"^^xsd:string ;
+        nif:beginIndex        "1307"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1313"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1737> .
+
+<http://linguateca.pt/harem#char=1209,1212>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "PUC"^^xsd:string ;
+        nif:beginIndex        "1209"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1212"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1737> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=234,238>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "EPPA"^^xsd:string ;
+        nif:beginIndex        "234"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "238"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1737> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=191,195>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "EPPA"^^xsd:string ;
+        nif:beginIndex        "191"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "195"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1737> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1402,1443>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Programa de Treinamento e Desenvolvimento"^^xsd:string ;
+        nif:beginIndex        "1402"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1443"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1737> .
+
+<http://linguateca.pt/harem#char=1327,1341>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Rua 13 de Maio"^^xsd:string ;
+        nif:beginIndex        "1327"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1341"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1737> .
+
+<http://linguateca.pt/harem#char=596,612>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Psicomotricidade"^^xsd:string ;
+        nif:beginIndex        "596"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "612"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1737> .
+
+<http://linguateca.pt/harem#char=221,225>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "2003"^^xsd:string ;
+        nif:beginIndex        "221"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "225"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1737> .
+
+<http://linguateca.pt/harem#char=0,1737>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1737"^^xsd:nonNegativeInteger ;
+        nif:isString    "Psicomotricidade eppa [ eppa@eppa.com.br ] Psicomotricidade Programa de Treinamento e Desenvolvimento Conheça os 90 Cursos de formação continuada da EPPA : Clínica Educacional Organizacional EPPA News Fale conosco Cursos 2003 Site da EPPA Bom dia ! O curso oferece ao participante um entendimento prático através de referenciais científicos e das técnicas que norteiam os procedimentos de intervenção . Aborda conceitos da inter-relação dos aspectos cognitivo , afetivo e motor , que favorecem o entendimento na comunicação da linguagem corporal . Conteúdo Programático * Principais conceitos da Psicomotricidade : Esquema e Imagem corporal , Tônus e o desenvolvimento . * Principais aspectos do desenvolvimento neuro-psicomotores da criança * Condutas motoras de base : Percepção , organização e estruturação temporal , Espacial e rítmo . * Condutas neuro-motoras : Lateralidade e o papel dos hemisférios cerebrais . * Técnicas e recursos em psicomotricidade * Materiais utilizados nas sessões . Destina-se Psicólogos , Pedagogos , Educadores , Assistentes Sociais e Profissionais de áreas afins . Docente * Vânia Ramos - Profª de Educação Física ; Psicopedagoga ; Psicomotricista ; Mestre em Gerontologia ( PUC ) . Status C/horária 033 Parcela R$ . Nº parcela 3 Total 444,00 Início Término 09/05/2003 Dia Sex 19 às 22h Local Rua 13 de Maio , 733 - Bela Vista - ( 11 ) 3262 3256 Para participar deste Programa de Treinamento e Desenvolvimento , é muito simples : basta acessar a PRÉ- RESERVA , selecionar este curso e aguardar nosso contato ! Você está recebendo este informativo por estar cadastrado no site da EPPA , para interromper futuros recebimentos , basta preencher o formulário . Caso não visualizar este e-mail , clique aqui "^^xsd:string .
+
+<http://linguateca.pt/harem#char=1132,1147>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Educação Física"^^xsd:string ;
+        nif:beginIndex        "1132"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1147"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1737> .
+
+<http://linguateca.pt/harem#char=1292,1302>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "09/05/2003"^^xsd:string ;
+        nif:beginIndex        "1292"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1302"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1737> .

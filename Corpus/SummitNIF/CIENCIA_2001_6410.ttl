@@ -1,0 +1,59 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=480,487>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Toronto"^^xsd:string ;
+        nif:beginIndex        "480"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "487"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,985> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=278,284>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Canadá"^^xsd:string ;
+        nif:beginIndex        "278"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "284"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,985> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=769,775>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ellman"^^xsd:string ;
+        nif:beginIndex        "769"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "775"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,985> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=206,248>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Centro para Estudos Urbanos e Comunitários"^^xsd:string ;
+        nif:beginIndex        "206"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "248"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,985> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=252,275>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Universidade de Toronto"^^xsd:string ;
+        nif:beginIndex        "252"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "275"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,985> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,985>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "985"^^xsd:nonNegativeInteger ;
+        nif:isString    "Ao contrário do que muita gente pensa , a internet não está reduzindo os contatos entre as pessoas nem substituindo-os por relações impessoais conduzidas por computador . A conclusão é de Barry Ellman , do Centro para Estudos Urbanos e Comunitários da Universidade de Toronto , Canadá . Segundo o pesquisador , os contatos via redes de computadores estão na verdade ampliando a socialização das pessoas . Um dos exemplos que ele apresenta é o de um estudo feito em um subúrbio de Toronto , segundo o qual as pessoas \"plugadas\" em uma rede local conheciam três vezes mais vizinhos do que os não-conectados . Além disso , vizinhos conectados se encontraram pessoalmente 60 % mais do que os excluídos da rede . Os números gerais da internet apontam o mesmo fenômeno , diz Ellman . Segundo ele , pessoas ligadas por computadores tiveram mais contatos pessoais com seus amigos e parentes do que pessoas não-conectadas . O artigo do pesquisador está na edição de hoje da revista \"Science\" . "^^xsd:string .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=188,200>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Barry Ellman"^^xsd:string ;
+        nif:beginIndex        "188"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "200"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,985> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .

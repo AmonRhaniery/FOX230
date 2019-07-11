@@ -1,0 +1,130 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=523,529>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Havana"^^xsd:string ;
+        nif:beginIndex        "523"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "529"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1242> .
+
+<http://linguateca.pt/harem#char=1090,1101>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Félix Bonne"^^xsd:string ;
+        nif:beginIndex        "1090"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1101"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1242> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1074,1087>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Gomez Manzano"^^xsd:string ;
+        nif:beginIndex        "1074"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1087"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1242> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=556,564>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Matanzas"^^xsd:string ;
+        nif:beginIndex        "556"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "564"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1242> .
+
+<http://linguateca.pt/harem#char=1051,1071>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Martha Beatriz Roque"^^xsd:string ;
+        nif:beginIndex        "1051"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1071"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1242> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=897,904>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Sanchez"^^xsd:string ;
+        nif:beginIndex        "897"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "904"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1242> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=252,317>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Comissão Cubana dos Direitos do Homem e da Reconciliação Nacional"^^xsd:string ;
+        nif:beginIndex        "252"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "317"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1242> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1034,1048>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Vladimiro Roca"^^xsd:string ;
+        nif:beginIndex        "1034"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1048"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1242> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=786,801>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "16 de Fevereiro"^^xsd:string ;
+        nif:beginIndex        "786"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "801"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1242> .
+
+<http://linguateca.pt/harem#char=421,436>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Gerardo Sanchez"^^xsd:string ;
+        nif:beginIndex        "421"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "436"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1242> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1173,1198>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "A pátria pertence a todos"^^xsd:string ;
+        nif:beginIndex        "1173"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1198"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1242> .
+
+<http://linguateca.pt/harem#char=877,884>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "20 anos"^^xsd:string ;
+        nif:beginIndex        "877"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "884"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1242> .
+
+<http://linguateca.pt/harem#char=706,770>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Lei de protecção da independência nacional e da economia de Cuba"^^xsd:string ;
+        nif:beginIndex        "706"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "770"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1242> .
+
+<http://linguateca.pt/harem#char=501,503>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "28"^^xsd:string ;
+        nif:beginIndex        "501"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "503"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1242> .
+
+<http://linguateca.pt/harem#char=1114,1122>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "19 meses"^^xsd:string ;
+        nif:beginIndex        "1114"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1122"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1242> .
+
+<http://linguateca.pt/harem#char=0,1242>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1242"^^xsd:nonNegativeInteger ;
+        nif:isString    "Detidos em Cuba dezenas de opositoresA polícia cubana deteve sexta-feira e sábado «várias dezenas» de opositores do regime , para «impedir acções de apoio» a quatro importantes dissidentes que deverão ser julgados hoje . O anúncio foi feito ontem pela Comissão Cubana dos Direitos do Homem e da Reconciliação Nacional ( sem estatuto legal ) , que adiantou terem outros opositores «recebido a proibição de sair de casa» . Gerardo Sanchez , membro da comissão , declarou possuir uma lista confirmada de 28 pessoas detidas em Havana e na província vizinha de Matanzas . Entre os detidos figuram responsáveis de grupos de defesa dos direitos humanos sem estatuto legal e jornalistas independentes . Uma nova « Lei de protecção da independência nacional e da economia de Cuba » , adoptada a 16 de Fevereiro , permite aplicar a este tipo de militantes severas penas que podem ir até 20 anos de prisão . Sanchez adiantou que os detidos ficarão nessa condição a título provisório , de maneira a serem «impedidos de comparecer» ao processo de Vladimiro Roca , Martha Beatriz Roque , Gomez Manzano e Félix Bonne , presos há 19 meses por terem publicado um texto crítico intitulado « A pátria pertence a todos » . Os quatro foram acusados de rebelião . "^^xsd:string .
+
+<http://linguateca.pt/harem#char=11,15>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Cuba"^^xsd:string ;
+        nif:beginIndex        "11"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "15"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1242> .

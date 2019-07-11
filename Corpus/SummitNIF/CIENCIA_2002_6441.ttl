@@ -1,0 +1,33 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=220,227>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Júpiter"^^xsd:string ;
+        nif:beginIndex        "220"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "227"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1072> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1067,1069>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "SN"^^xsd:string ;
+        nif:beginIndex        "1067"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1069"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1072> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1072>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1072"^^xsd:nonNegativeInteger ;
+        nif:isString    "Bem que muitos astrônomos gostariam de varrer o monte de planetas gigantes extra-solares que foram encontrados nos últimos anos para debaixo do tapete cósmico . Os modelos mais tradicionais sugerem que bolas de gás como Júpiter ou Saturno são extremamente raras _algo que com certeza não são . Por sorte , novas respostas agora vêm ao resgate . Um modelo testado em simulações muito detalhadas parece explicar como os planetas gigantes podem se formar mais rápido e mais vezes do que julgavam as teorias tradicionais . Os resultados estão na edição de hoje da revista \"Science\" ( www.sciencemag.org ) . Os modelos antigos exigiam um tempo de formação de 1 milhão de anos , mas também sugeriam que não haveria gás suficiente durante todo esse período para dar origem a esses monstrengos gasosos . A solução foi sugerir um modelo alternativo em que , nos primórdios da formação de um sistema planetário , instabilidades gravitacionais no disco de gás e poeira já induziriam o surgimento dos envelopes dos gigantes gasosos numa velocidade pelo menos dez vezes maior . ( SN ) "^^xsd:string .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=231,238>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Saturno"^^xsd:string ;
+        nif:beginIndex        "231"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "238"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1072> .

@@ -1,0 +1,120 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=494,510>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Av . do Contorno"^^xsd:string ;
+        nif:beginIndex        "494"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "510"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,665> .
+
+<http://linguateca.pt/harem#char=15,27>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Véu da Noiva"^^xsd:string ;
+        nif:beginIndex        "15"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "27"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,665> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=610,631>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Rua Barão de Macaúbas"^^xsd:string ;
+        nif:beginIndex        "610"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "631"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,665> .
+
+<http://linguateca.pt/harem#char=146,169>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Copa do Mundo da França"^^xsd:string ;
+        nif:beginIndex        "146"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "169"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,665> .
+
+<http://linguateca.pt/harem#char=552,554>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "MG"^^xsd:string ;
+        nif:beginIndex        "552"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "554"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,665> .
+
+<http://linguateca.pt/harem#char=324,340>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Brasil X Noruega"^^xsd:string ;
+        nif:beginIndex        "324"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "340"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,665> .
+
+<http://linguateca.pt/harem#char=525,532>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Lourdes"^^xsd:string ;
+        nif:beginIndex        "525"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "532"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,665> .
+
+<http://linguateca.pt/harem#char=175,179>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1998"^^xsd:string ;
+        nif:beginIndex        "175"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "179"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,665> .
+
+<http://linguateca.pt/harem#char=535,549>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Belo Horizonte"^^xsd:string ;
+        nif:beginIndex        "535"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "549"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,665> .
+
+<http://linguateca.pt/harem#char=0,665>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "665"^^xsd:nonNegativeInteger ;
+        nif:isString    "Você sabia ... Véu da Noiva [ veudanoiva@veudanoiva .com.br ] Véu da Noiva Noiva , Festa , Masculino , Infantil e Acessórios Você sabia ...que na Copa do Mundo da França , em 1998 , uma Brasileira e um Norueguês se casaram bem no centro do gramado do estádio Vélodrome , em Marselha . A cerimônia aconteceu antes da partida Brasil X Noruega . Precisando de uma bela roupa para aquela ocasião inesquecível... não deixe de passar no Véu da Noiva . Véu da Noiva , desde 1992 festejando com você ! Av . do Contorno 6888 lj 101 - Lourdes - Belo Horizonte / MG - Tel. : ( 31 ) 3225-5545 Estacionamento conveniado na Rua Barão de Macaúbas 48 veudanoiva@veudanoiva .com.br "^^xsd:string .
+
+<http://linguateca.pt/harem#char=446,458>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Véu da Noiva"^^xsd:string ;
+        nif:beginIndex        "446"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "458"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,665> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=274,282>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Marselha"^^xsd:string ;
+        nif:beginIndex        "274"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "282"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,665> .
+
+<http://linguateca.pt/harem#char=62,74>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Véu da Noiva"^^xsd:string ;
+        nif:beginIndex        "62"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "74"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,665> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=467,471>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1992"^^xsd:string ;
+        nif:beginIndex        "467"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "471"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,665> .
+
+<http://linguateca.pt/harem#char=259,268>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Vélodrome"^^xsd:string ;
+        nif:beginIndex        "259"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "268"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,665> .
+
+<http://linguateca.pt/harem#char=431,443>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Véu da Noiva"^^xsd:string ;
+        nif:beginIndex        "431"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "443"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,665> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .

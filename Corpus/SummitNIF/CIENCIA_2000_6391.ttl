@@ -1,0 +1,139 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=414,421>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Malásia"^^xsd:string ;
+        nif:beginIndex        "414"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "421"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1114> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1114>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1114"^^xsd:nonNegativeInteger ;
+        nif:isString    "Sete ativistas do Greenpeace foram presos ontem nos EUA ao tentar impedir o descarregamento de madeira brasileira na cidade de Savannah , na costa do Estado da Geórgia . Os ativistas ( norte-americanos e europeus ) foram rechaçados pelos tripulantes de um navio de bandeira dinamarquesa e presos pela polícia . O navio trazia compensados de madeira exportados pela Selvaplac , subsidiária brasileira de um grupo daMalásia . O Greenpeace sustenta que existe uma grande possibilidade que a madeira seja ilegal . \"Não temos certeza de que aquela carga era ilegal , mas sabemos que 80 % da atividade madeireira no Brasil é irregular e que a Selvaplac tem uma tradição de envolvimento com madeira ilegalmente extraída\" , disse à Folha Rebeca Lerer , ativista brasileira do Greenpeace . A operação resulta de uma investigação de 18 meses sobre o comércio de madeira em regiões remotas da Amazônia . Para a ONG , há evidências de que as companhias que mais exportam madeira para os EUA estejam envolvidas com o comércio ilegal do produto . A União estima que 80 % da madeira extraída na Amazônia brasileira seja ilegal . "^^xsd:string .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=730,742>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Rebeca Lerer"^^xsd:string ;
+        nif:beginIndex        "730"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "742"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1114> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=724,729>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Folha"^^xsd:string ;
+        nif:beginIndex        "724"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "729"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1114> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=150,167>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Estado da Geórgia"^^xsd:string ;
+        nif:beginIndex        "150"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "167"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1114> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=18,28>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Greenpeace"^^xsd:string ;
+        nif:beginIndex        "18"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "28"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1114> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=882,890>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Amazônia"^^xsd:string ;
+        nif:beginIndex        "882"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "890"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1114> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=900,903>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "ONG"^^xsd:string ;
+        nif:beginIndex        "900"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "903"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1114> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=768,778>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Greenpeace"^^xsd:string ;
+        nif:beginIndex        "768"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "778"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1114> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=365,374>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Selvaplac"^^xsd:string ;
+        nif:beginIndex        "365"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "374"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1114> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=610,616>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Brasil"^^xsd:string ;
+        nif:beginIndex        "610"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "616"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1114> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1080,1088>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Amazônia"^^xsd:string ;
+        nif:beginIndex        "1080"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1088"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1114> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=637,646>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Selvaplac"^^xsd:string ;
+        nif:beginIndex        "637"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "646"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1114> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=426,436>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Greenpeace"^^xsd:string ;
+        nif:beginIndex        "426"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "436"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1114> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=127,135>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Savannah"^^xsd:string ;
+        nif:beginIndex        "127"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "135"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1114> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=52,55>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "EUA"^^xsd:string ;
+        nif:beginIndex        "52"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "55"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1114> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=975,978>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "EUA"^^xsd:string ;
+        nif:beginIndex        "975"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "978"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1114> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .

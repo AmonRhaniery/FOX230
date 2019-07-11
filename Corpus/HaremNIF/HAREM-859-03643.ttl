@@ -1,0 +1,339 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=3107,3114>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Iracema"^^xsd:string ;
+        nif:beginIndex        "3107"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3114"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4022> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=2454,2461>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Araquém"^^xsd:string ;
+        nif:beginIndex        "2454"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2461"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4022> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=665,672>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Araquém"^^xsd:string ;
+        nif:beginIndex        "665"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "672"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4022> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=826,833>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Araquém"^^xsd:string ;
+        nif:beginIndex        "826"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "833"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4022> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=871,876>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Caubi"^^xsd:string ;
+        nif:beginIndex        "871"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "876"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4022> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=3459,3466>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Araquém"^^xsd:string ;
+        nif:beginIndex        "3459"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3466"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4022> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=2595,2603>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Jurupari"^^xsd:string ;
+        nif:beginIndex        "2595"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2603"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4022> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=2052,2059>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Iracema"^^xsd:string ;
+        nif:beginIndex        "2052"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2059"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4022> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=775,780>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Caubi"^^xsd:string ;
+        nif:beginIndex        "775"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "780"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4022> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1773,1778>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Caubi"^^xsd:string ;
+        nif:beginIndex        "1773"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1778"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4022> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1763,1770>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Iracema"^^xsd:string ;
+        nif:beginIndex        "1763"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1770"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4022> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1917,1921>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Pajé"^^xsd:string ;
+        nif:beginIndex        "1917"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1921"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4022> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=718,722>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Tupã"^^xsd:string ;
+        nif:beginIndex        "718"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "722"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4022> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1236,1241>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Caubi"^^xsd:string ;
+        nif:beginIndex        "1236"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1241"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4022> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=2654,2661>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Araquém"^^xsd:string ;
+        nif:beginIndex        "2654"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2661"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4022> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1851,1858>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Iracema"^^xsd:string ;
+        nif:beginIndex        "1851"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1858"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4022> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=3382,3387>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Caubi"^^xsd:string ;
+        nif:beginIndex        "3382"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3387"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4022> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=3753,3760>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Iracema"^^xsd:string ;
+        nif:beginIndex        "3753"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3760"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4022> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=136,142>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Martim"^^xsd:string ;
+        nif:beginIndex        "136"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "142"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4022> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=2227,2234>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Araquém"^^xsd:string ;
+        nif:beginIndex        "2227"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2234"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4022> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1581,1588>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Iracema"^^xsd:string ;
+        nif:beginIndex        "1581"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1588"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4022> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=355,359>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Tupã"^^xsd:string ;
+        nif:beginIndex        "355"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "359"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4022> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=463,470>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Araquém"^^xsd:string ;
+        nif:beginIndex        "463"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "470"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4022> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=249,256>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Araquém"^^xsd:string ;
+        nif:beginIndex        "249"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "256"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4022> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1394,1400>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Martim"^^xsd:string ;
+        nif:beginIndex        "1394"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1400"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4022> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=334,338>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Pajé"^^xsd:string ;
+        nif:beginIndex        "334"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "338"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4022> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=2805,2810>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Caubi"^^xsd:string ;
+        nif:beginIndex        "2805"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2810"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4022> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=545,549>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Pajé"^^xsd:string ;
+        nif:beginIndex        "545"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "549"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4022> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=40,44>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Pajé"^^xsd:string ;
+        nif:beginIndex        "40"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "44"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4022> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=3963,3970>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Iracema"^^xsd:string ;
+        nif:beginIndex        "3963"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3970"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4022> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=2283,2287>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Pajé"^^xsd:string ;
+        nif:beginIndex        "2283"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2287"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4022> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=763,770>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Iracema"^^xsd:string ;
+        nif:beginIndex        "763"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "770"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4022> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1282,1289>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Iracema"^^xsd:string ;
+        nif:beginIndex        "1282"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1289"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4022> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=2117,2122>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Caubi"^^xsd:string ;
+        nif:beginIndex        "2117"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2122"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4022> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1016,1023>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Araquém"^^xsd:string ;
+        nif:beginIndex        "1016"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1023"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4022> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=2647,2651>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Pajé"^^xsd:string ;
+        nif:beginIndex        "2647"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2651"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4022> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=3934,3939>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Caubi"^^xsd:string ;
+        nif:beginIndex        "3934"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3939"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4022> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1149,1154>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Caubi"^^xsd:string ;
+        nif:beginIndex        "1149"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1154"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4022> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1220,1224>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Pajé"^^xsd:string ;
+        nif:beginIndex        "1220"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1224"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4022> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=0,4022>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "4022"^^xsd:nonNegativeInteger ;
+        nif:isString    "IX O sono da manhã pousava nos olhos do Pajé como névoas de bonança pairam ao romper do dia sobre as profundas cavernas da montanha . ' Martim parou indeciso ; mas o rumor de seu passo penetrou no ouvido do ancião , e abalou seu corpo decrépito . - Araquém dorme ! murmurou o guerreiro devolvendo o passo . O velho ficou imóvel : - O Pajé dorme porque já Tupã voltou o rosto para a terra e a luz correu os maus espíritos da treva . Mas o sono é leve nos olhos de Araquém , como o fumo do sapé no cocuruto da serra . Se o estrangeiro veio para o Pajé , fale ; seu ouvido escuta . - O estrangeiro veio , para te anunciar que parte . - O hóspede é senhor na cabana de Araquém ; todos os caminhos estão abertos para ele . Tupã o leve à taba dos seus . Vieram Caubi e Iracema : - Caubi voltou : disse o guerreiro tabajara . Traz a Araquém o melhor de sua caça . - O guerreiro Caubi é um grande caçador de montes e florestas . Os olhos de seu pai gostam de vê-lo . O velho abriu as pálpebras e cerrou-as logo : - Filha de Araquém , escolhe para teu hóspede o presente da volta e prepara o moquém da viagem . Se o estrangeiro precisa de guia , o guerreiro Caubi , senhor do caminho , O acompanhará . O sono voltou aos olhos do Pajé . Enquanto Caubi pendurava no fumeiro as peças de caça , Iracema colheu a sua alva rede de algodão com franjas de penas , e acomodou-a dentro do uru de palha trançada . Martim esperava na porta da cabana . A virgem veio a ele : - Guerreiro , que levas o sono de meus olhos , leva a minha rede também . Quando nela dormites , falem em tua alma os sonhos de Iracema . - Tua rede , virgem dos tabajaras , será minha companheira no deserto : venha embora o vento frio da noite , ela guardará para o estrangeiro o calor e o perfume do seio de Iracema . Caubi saiu para ir à sua cabana , que ainda não tinha visto depois da volta . Iracema foi preparar o moquém da viagem . Ficaram sós na cabana o Pajé que ressonava , e o mancebo com sua tristeza . O sol , transmontando , já começava a declinar para o ocidente , quando o irmão de Iracema tornou da grande taba . - O dia vai ficar triste , disse Caubi . A sombra caminha para a noite . É tempo de partir . A virgem pousou a mão de leve no punho da rede de Araquém . - Ele vai ! murmuraram os lábios trêmulos . O Pajé levantou-se em pé no meio da cabana e acendeu o cachimbo . Ele e o mancebo trocaram a fumaça da despedida . - Bem-ido seja o hóspede , como foi bem-vindo à cabana de Araquém . O velho andou até à porta para soltar ao vento uma espessa baforada de tabaco ; quando o fumo se dissipou no ar , ele murmurou : - Jurupari se esconda para deixar passar o hóspede do Pajé . Araquém voltou à rede e dormiu de novo . O mancebo tomou as armas que chegando , suspendera às varas da cabana , e dispôs-se a partir . Adiante seguiu Caubi ; a alguma distancia o estrangeiro ; logo após , Iracema . Desceram a colina e entraram na mata sombria . O sabiá do sertão , mavioso cantor da tarde , escondido nas moitas espessas da ubaia , soltava os prelúdios da suave endecha . A virgem suspirou : - A tarde é a tristeza do sol . Os dias de Iracema vão ser longas tardes sem manhã , até que venha para ela a grande noite . O mancebo se voltara . Seu lábio emudeceu , mas os olhos falaram . Uma lágrima correu pela face guerreira , como as umidades que durante os ardores do estio transudam da escarpa dos rochedos . Caubi avançado sempre , sumira-se entre a densa ramagem . O seio da filha de Araquém arfou , como o esto da vaga que se franja de espuma e soluça . Mas sua alma , negra de tristura , teve ainda um pálido reflexo para iluminar a seca flor das faces . Assim em noite escura vem um fogo-fátuo luzir nas brancas areias do tabuleiro . - Estrangeiro , toma o último sorriso de Iracema ... e foge ! A boca do guerreiro pousou na boca mimosa da virgem . Ficaram ambos assim unidos como dois frutos gêmeos do araçá , que saíram do seio da mesma flor . A voz de Caubi chamou o estrangeiro . Iracema abraçou para não cair , o tronco de uma palmeira . "^^xsd:string .
+
+<http://linguateca.pt/harem#char=755,760>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Caubi"^^xsd:string ;
+        nif:beginIndex        "755"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "760"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4022> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=2860,2867>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Iracema"^^xsd:string ;
+        nif:beginIndex        "2860"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2867"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4022> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .

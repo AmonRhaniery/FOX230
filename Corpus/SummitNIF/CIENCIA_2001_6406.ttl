@@ -1,0 +1,88 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=17,21>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Uenf"^^xsd:string ;
+        nif:beginIndex        "17"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "21"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1199> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=718,733>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Schuyler Korban"^^xsd:string ;
+        nif:beginIndex        "718"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "733"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1199> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=766,769>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "EUA"^^xsd:string ;
+        nif:beginIndex        "766"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "769"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1199> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=739,763>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Universidade de Illinois"^^xsd:string ;
+        nif:beginIndex        "739"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "763"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1199> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=98,103>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "HBsAg"^^xsd:string ;
+        nif:beginIndex        "98"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "103"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1199> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1007,1028>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "\"Transgenic Research\""^^xsd:string ;
+        nif:beginIndex        "1007"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1028"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1199> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=314,329>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ekkehard Hansen"^^xsd:string ;
+        nif:beginIndex        "314"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "329"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1199> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=175,185>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "hepatite B"^^xsd:string ;
+        nif:beginIndex        "175"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "185"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1199> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1199>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1199"^^xsd:nonNegativeInteger ;
+        nif:isString    "Pesquisadores da Uenf ( Universidade Estadual do Norte Fluminense ) também estão usando o gene da HBsAg para conseguir uma alface que funcione como vacina comestível contra a hepatite B . \"Já temos brotos de alface comprovadamente transgênicos\" , disse Jackson Marcondes de Souza . Sob a orientação do pesquisador Ekkehard Hansen , ele desenvolve o projeto como parte de seu doutorado . Falta ainda obter plantas transgênicas adultas e comprovar que o gene está sendo expressado , ou seja , que a proteína capaz de provocar a imunização está presente na planta , e não só o gene correspondente . Outros cientistas se concentram sobre alimentos que possam ser transformados em suco , como tomates e maçãs . É o caso de Schuyler Korban , da Universidade de Illinois ( EUA ) . Ele pesquisa uma vacina produzida em tomates contra o vírus respiratório sincicial , que ataca recém-nascidos . Testada em camundongos , conseguiu provocar a produção de anticorpos contra o vírus . Os resultados saíram na publicação \"Transgenic Research\" ( www.wkap.nl/jour nals/ transgenic_res ) . Depois dos tomates , ele agora pesquisa macieiras . Prevê que serão necessários três anos para estabilizar a vacina na maçã . "^^xsd:string .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=253,279>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Jackson Marcondes de Souza"^^xsd:string ;
+        nif:beginIndex        "253"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "279"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1199> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=24,65>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Universidade Estadual do Norte Fluminense"^^xsd:string ;
+        nif:beginIndex        "24"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "65"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1199> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .

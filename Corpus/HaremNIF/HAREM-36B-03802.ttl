@@ -1,0 +1,360 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=1291,1296>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Franj"^^xsd:string ;
+        nif:beginIndex        "1291"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1296"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3151> .
+
+<http://linguateca.pt/harem#char=1047,1057>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Dachshunds"^^xsd:string ;
+        nif:beginIndex        "1047"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1057"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3151> .
+
+<http://linguateca.pt/harem#char=1201,1213>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Levantadores"^^xsd:string ;
+        nif:beginIndex        "1201"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1213"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3151> .
+
+<http://linguateca.pt/harem#char=2478,2487>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Carpincho"^^xsd:string ;
+        nif:beginIndex        "2478"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2487"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3151> .
+
+<http://linguateca.pt/harem#char=2548,2554>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Brasil"^^xsd:string ;
+        nif:beginIndex        "2548"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2554"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3151> .
+
+<http://linguateca.pt/harem#char=862,875>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Cães Pastores"^^xsd:string ;
+        nif:beginIndex        "862"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "875"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3151> .
+
+<http://linguateca.pt/harem#char=898,915>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Boiadeiros Suíços"^^xsd:string ;
+        nif:beginIndex        "898"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "915"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3151> .
+
+<http://linguateca.pt/harem#char=1109,1128>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Sabujos Farejadores"^^xsd:string ;
+        nif:beginIndex        "1109"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1128"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3151> .
+
+<http://linguateca.pt/harem#char=1633,1638>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1,80m"^^xsd:string ;
+        nif:beginIndex        "1633"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1638"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3151> .
+
+<http://linguateca.pt/harem#char=1671,1676>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "65 cm"^^xsd:string ;
+        nif:beginIndex        "1671"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1676"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3151> .
+
+<http://linguateca.pt/harem#char=1613,1619>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Brasil"^^xsd:string ;
+        nif:beginIndex        "1613"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1619"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3151> .
+
+<http://linguateca.pt/harem#char=1470,1478>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Panthera"^^xsd:string ;
+        nif:beginIndex        "1470"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1478"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3151> .
+
+<http://linguateca.pt/harem#char=832,838>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Brasil"^^xsd:string ;
+        nif:beginIndex        "832"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "838"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3151> .
+
+<http://linguateca.pt/harem#char=878,888>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Boiadeiros"^^xsd:string ;
+        nif:beginIndex        "878"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "888"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3151> .
+
+<http://linguateca.pt/harem#char=687,691>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "CBKC"^^xsd:string ;
+        nif:beginIndex        "687"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "691"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3151> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1028,1036>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Terriers"^^xsd:string ;
+        nif:beginIndex        "1028"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1036"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3151> .
+
+<http://linguateca.pt/harem#char=174,185>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "14.000 anos"^^xsd:string ;
+        nif:beginIndex        "174"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "185"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3151> .
+
+<http://linguateca.pt/harem#char=951,962>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Molossóides"^^xsd:string ;
+        nif:beginIndex        "951"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "962"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3151> .
+
+<http://linguateca.pt/harem#char=2841,2853>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Semana Santa"^^xsd:string ;
+        nif:beginIndex        "2841"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2853"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3151> .
+
+<http://linguateca.pt/harem#char=965,975>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Boiadeiros"^^xsd:string ;
+        nif:beginIndex        "965"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "975"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3151> .
+
+<http://linguateca.pt/harem#char=694,730>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Confederação Brasileira de Cinofilia"^^xsd:string ;
+        nif:beginIndex        "694"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "730"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3151> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1068,1073>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Spitz"^^xsd:string ;
+        nif:beginIndex        "1068"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1073"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3151> .
+
+<http://linguateca.pt/harem#char=1396,1415>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Bulldogue Americano"^^xsd:string ;
+        nif:beginIndex        "1396"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1415"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3151> .
+
+<http://linguateca.pt/harem#char=2317,2326>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Argentina"^^xsd:string ;
+        nif:beginIndex        "2317"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2326"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3151> .
+
+<http://linguateca.pt/harem#char=752,755>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "FCI"^^xsd:string ;
+        nif:beginIndex        "752"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "755"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3151> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=2278,2288>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Rio Paraná"^^xsd:string ;
+        nif:beginIndex        "2278"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2288"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3151> .
+
+<http://linguateca.pt/harem#char=2299,2305>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Brasil"^^xsd:string ;
+        nif:beginIndex        "2299"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2305"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3151> .
+
+<http://linguateca.pt/harem#char=978,996>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Montanheses Suíços"^^xsd:string ;
+        nif:beginIndex        "978"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "996"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3151> .
+
+<http://linguateca.pt/harem#char=1347,1372>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "American Pit Bull Terrier"^^xsd:string ;
+        nif:beginIndex        "1347"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1372"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3151> .
+
+<http://linguateca.pt/harem#char=1237,1254>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Cães de Companhia"^^xsd:string ;
+        nif:beginIndex        "1237"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1254"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3151> .
+
+<http://linguateca.pt/harem#char=3070,3077>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Cacajau"^^xsd:string ;
+        nif:beginIndex        "3070"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3077"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3151> .
+
+<http://linguateca.pt/harem#char=2565,2575>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "século XVI"^^xsd:string ;
+        nif:beginIndex        "2565"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2575"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3151> .
+
+<http://linguateca.pt/harem#char=1187,1198>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Cães D'água"^^xsd:string ;
+        nif:beginIndex        "1187"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1198"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3151> .
+
+<http://linguateca.pt/harem#char=1890,1905>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "América Central"^^xsd:string ;
+        nif:beginIndex        "1890"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1905"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3151> .
+
+<http://linguateca.pt/harem#char=1216,1226>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Retrievers"^^xsd:string ;
+        nif:beginIndex        "1216"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1226"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3151> .
+
+<http://linguateca.pt/harem#char=3036,3049>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Uacari-Branco"^^xsd:string ;
+        nif:beginIndex        "3036"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3049"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3151> .
+
+<http://linguateca.pt/harem#char=2960,2964>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Papa"^^xsd:string ;
+        nif:beginIndex        "2960"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2964"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3151> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=3129,3137>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Amazônia"^^xsd:string ;
+        nif:beginIndex        "3129"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3137"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3151> .
+
+<http://linguateca.pt/harem#char=1375,1391>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ovelheiro Gaúcho"^^xsd:string ;
+        nif:beginIndex        "1375"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1391"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3151> .
+
+<http://linguateca.pt/harem#char=928,936>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Pinscher"^^xsd:string ;
+        nif:beginIndex        "928"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "936"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3151> .
+
+<http://linguateca.pt/harem#char=1160,1176>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Cães Apontadores"^^xsd:string ;
+        nif:beginIndex        "1160"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1176"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3151> .
+
+<http://linguateca.pt/harem#char=1911,1914>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Sul"^^xsd:string ;
+        nif:beginIndex        "1911"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1914"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3151> .
+
+<http://linguateca.pt/harem#char=164,170>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "12.000"^^xsd:string ;
+        nif:beginIndex        "164"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "170"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3151> .
+
+<http://linguateca.pt/harem#char=1266,1287>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Lebréis de Pêlo Longo"^^xsd:string ;
+        nif:beginIndex        "1266"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1287"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3151> .
+
+<http://linguateca.pt/harem#char=0,3151>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "3151"^^xsd:nonNegativeInteger ;
+        nif:isString    "O cão é um mamífero , sendo também um animal doméstico e comumente chamado de CACHORRO . É o mais antigo dos animais domesticados , com indícios de domesticação hÁ 12.000 ou 14.000 anos , entre os povos asiáticos.Como animal de temperamento relativamente dócil , o cão pode ser treinado para executar grande número de tarefas úteis ao homem , como cuidar de rebanhos , caçar , vigiar propriedades , guiar cegos e até puxar pequenos trenós . Ao longo dos séculos , selecionando os cães por suas aptidões , características físicas ou tipo de comportamento,o homem desenvoveu uma grande variedade de raças caninas , que atualmente são classificadas em diferentes categorias.De acordo com a CBKC ( Confederação Brasileira de Cinofilia ) , órgão filiado ao FCI ( Fédération Cynologique Internationale ) , existem onze grupos de raças no Brasil . São eles : Grupo 1 : Cães Pastores e Boiadeiros ( Exceto Boiadeiros Suíços ) Grupo 2 : Pinscher e Schnauzer , Molossóides , Boiadeiros e Montanheses Suíços e raças assemelhadas Grupo 3 : Terriers Grupo 4 : Dachshunds Grupo 5 : Spitz e cães do tipo primitivo Grupo 6 : Sabujos Farejadores e Raças Assemelhadas Grupo 7 : Cães Apontadores Grupo 8 : Cães D'água , Levantadores e Retrievers Grupo 9 : Cães de Companhia Grupo 10 : Lebréis de Pêlo Longo ou Franj Grupo 11 : Raças não reconhecidas pela FCI , como American Pit Bull Terrier , Ovelheiro Gaúcho e o Bulldogue Americano , entre outros . A onça , ou jaguar , é um mamífero ( Panthera onca ) , da ordem dos carnívoros , família dos felídeos , encontrado em todo o continente americano , dos EUA à Argentina e em todo o Brasil . Atinge até 1,80m do focinho à ponta da cauda , e 65 cm de altura . Noctívaga , a onça vive em matas , em geral próxima a rios , e preda animais como antas , preguiças e jacarés.A capivara é o maior entre os roedores do mundo.Ela pode ser encontrada em certas áreas da América Central e do Sul , próximas a rios e lagos . A capivara é uma excelente nadadora e inclusive possui pés com pequenas membranas . Ela se reproduz na água e também usa a água como defesa , escondendo-se de seus predadores . Ela pode permanecer submersa por alguns minutos . A capivara também é conhecida por dormir submersa com apenas o focinho fora d'água .Nas regiões ao longo do Rio Paraná no sul do Brasil e norte da Argentina , as capivaras são frequentemente capturadas e aprisionadas para criações em cativeiro ou para serem abatidas como carne de caça . Seu nome espanhol é Carpincho .Quando os missionários espanhóis encontraram a capivara no Brasil durante o século XVI , eles escreveram ao papa perguntando - aqui existe um animal com escamas mas que também é peludo , passa a maior parte do tempo na água mas ocasionalmente vem para terra ; devemos classificá-lo como um peixe ( e assim os índios podem continuar a comê-lo durante a Semana Santa ) ? Não havendo uma descricão clara do animal ( e não querendo que os requerentes morressem de fome ) , o Papa concordou em declará-lo como peixe , e ainda hoje classificado assim.O Uacari-Branco ( nome científico : Cacajau calvus ) é um macaco encontrado originariamente na Amazônia brasileira . "^^xsd:string .
+
+<http://linguateca.pt/harem#char=1336,1339>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "FCI"^^xsd:string ;
+        nif:beginIndex        "1336"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1339"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3151> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1585,1588>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "EUA"^^xsd:string ;
+        nif:beginIndex        "1585"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1588"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3151> .
+
+<http://linguateca.pt/harem#char=1591,1600>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Argentina"^^xsd:string ;
+        nif:beginIndex        "1591"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1600"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3151> .
+
+<http://linguateca.pt/harem#char=758,795>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Fédération Cynologique Internationale"^^xsd:string ;
+        nif:beginIndex        "758"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "795"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3151> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=939,948>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Schnauzer"^^xsd:string ;
+        nif:beginIndex        "939"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "948"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3151> .

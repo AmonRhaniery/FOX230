@@ -1,0 +1,146 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3563>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "3563"^^xsd:nonNegativeInteger ;
+        nif:isString    "No ano passado , um grupo do Comissão de Energia Atômica da França havia anunciado a existência de um verdadeiro campo minado composto por centenas de milhares de buracos negros distribuídos ao redor da Via Láctea . Agora eles informam que um deles está atravessando a vastidão da galáxia a uma velocidade exorbitante , vindo direto para cá . Antes que algum espertalhão resolva aproveitar a notícia para dar uma de Orson Welles ( que aterrorizou Nova York em 1938 ao anunciar pelo rádio uma suposta invasão marciana , numa encenação da obra \"Guerra dos Mundos\" , de H . G . Wells ) , é bom avisar : o astro vai passar a uma distância do Sol _ cerca de mil anos-luz_ que é até pequena , se comparada às dimensões da Via Láctea , mas não o suficiente para causar dano à Terra ou a qualquer corpo do Sistema Solar . E a data em que a aproximação máxima vai ocorrer também não apavora : daqui a 230 milhões de anos . Apesar disso , esse objeto viajando pelo espaço a 400 mil quilômetros por hora ( 1/2.703 da velocidade da luz ) é um lembrete incômodo de que buracos negros não têm as trajetórias comportadas e previsíveis que todos gostariam que eles tivessem . Sem falar no fornecimento da mais concreta evidência de que são realmente o resultado de supernovas _explosões de estrelas muito maciças . Uma estrela não passa de uma bola de gás hidrogênio condensada pela gravidade . A matéria vai se compactando cada vez mais , até atingir um ponto em que a compressão leva os átomos de hidrogênio a grudar uns nos outros _em duas palavras , fusão nuclear . O processo faz a estrela recém-nascida liberar energia e interromper o encolhimento induzido pela força gravitacional . Só que uma hora a festa acaba : a quantidade de hidrogênio é finita . Quando ele se esgota , a estrela , se for grande o suficiente , entra em colapso . Suas camadas exteriores explodem , e o que sobra começa a encolher novamente , sem a energia da fusão para conter a ação gravitacional . Ficando cada vez mais compacta , a estrela chega a um ponto em que a força da gravidade em sua superfície é tão grande que nem a luz , viajando a 300 mil quilômetros por segundo , é capaz de escapar dela . A estrela fica literalmente invisível , ganhando o nome de buraco negro . Rumo incerto \"Nem sempre a explosão da supernova acontece de forma simétrica\" , explica Irapuan Rodrigues , brasileiro que trabalha na equipe do astrônomo argentino Felix Mirabel na França e é co-autor do estudo , publicado na revista \"Astronomy & Astrophysics\" ( www . edpsciences.com/aa/ ) . \"Muitas vezes a matéria vai mais para um lado , dando um empurrão na estrela e tirando-a de sua órbita . \" É por essa razão que o buraco negro GRO J1655-40* está viajando a uma velocidade maior que a da maioria das estrelas da Via Láctea , diz Rodrigues . Ele teria sido chutado para fora de sua órbita regular em torno do centro galáctico , após a explosão da supernova e a conversão em buraco negro . Sistema duplo Pergunta : se é um buraco negro , de onde nem a luz escapa , como os astrônomos conseguem vê-lo para estudá-lo ? Não conseguem . Eles só sabem que ele está lá observando sua interação com outros astros que estão em volta . No caso do GRO J1655-40* , trata-se de um sistema binário : em volta do buraco negro está orbitando uma estrela subgigante bastante comum . Ao ver aquele astro girando em torno do nada , eles puderam saber onde o buraco negro está . Depois , com imagens do telescópio espacial Hubble , conseguiram determinar o rumo exato do astro , que está agora a pelo menos 6.000 anos-luz do Sol . "^^xsd:string .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=416,428>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Orson Welles"^^xsd:string ;
+        nif:beginIndex        "416"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "428"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3563> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=2426,2432>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "França"^^xsd:string ;
+        nif:beginIndex        "2426"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2432"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3563> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=567,580>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "H . G . Wells"^^xsd:string ;
+        nif:beginIndex        "567"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "580"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3563> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=2681,2694>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "GRO J1655-40*"^^xsd:string ;
+        nif:beginIndex        "2681"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2694"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3563> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=542,561>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "\"Guerra dos Mundos\""^^xsd:string ;
+        nif:beginIndex        "542"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "561"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3563> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=3189,3202>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "GRO J1655-40*"^^xsd:string ;
+        nif:beginIndex        "3189"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3202"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3563> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=29,66>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Comissão de Energia Atômica da França"^^xsd:string ;
+        nif:beginIndex        "29"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "66"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3563> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=2479,2505>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "\"Astronomy & Astrophysics\""^^xsd:string ;
+        nif:beginIndex        "2479"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2505"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3563> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=447,456>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Nova York"^^xsd:string ;
+        nif:beginIndex        "447"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "456"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3563> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=2409,2422>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Felix Mirabel"^^xsd:string ;
+        nif:beginIndex        "2409"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2422"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3563> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=716,726>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Via Láctea"^^xsd:string ;
+        nif:beginIndex        "716"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "726"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3563> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=769,774>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Terra"^^xsd:string ;
+        nif:beginIndex        "769"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "774"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3563> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=2332,2349>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Irapuan Rodrigues"^^xsd:string ;
+        nif:beginIndex        "2332"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2349"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3563> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=798,811>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Sistema Solar"^^xsd:string ;
+        nif:beginIndex        "798"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "811"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3563> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=3455,3461>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Hubble"^^xsd:string ;
+        nif:beginIndex        "3455"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3461"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3563> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=2782,2791>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Rodrigues"^^xsd:string ;
+        nif:beginIndex        "2782"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2791"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3563> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=2765,2775>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Via Láctea"^^xsd:string ;
+        nif:beginIndex        "2765"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2775"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3563> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=203,213>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Via Láctea"^^xsd:string ;
+        nif:beginIndex        "203"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "213"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3563> .

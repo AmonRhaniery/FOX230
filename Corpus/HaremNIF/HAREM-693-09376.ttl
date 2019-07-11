@@ -1,0 +1,307 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=4601,4616>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ortega y Gasset"^^xsd:string ;
+        nif:beginIndex        "4601"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4616"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5114> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=556,562>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Lisboa"^^xsd:string ;
+        nif:beginIndex        "556"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "562"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5114> .
+
+<http://linguateca.pt/harem#char=2828,2838>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "José Júlio"^^xsd:string ;
+        nif:beginIndex        "2828"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2838"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5114> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=2726,2736>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "José Júlio"^^xsd:string ;
+        nif:beginIndex        "2726"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2736"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5114> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=3059,3067>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Saragoça"^^xsd:string ;
+        nif:beginIndex        "3059"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3067"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5114> .
+
+<http://linguateca.pt/harem#char=1506,1520>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Saraiva Mendes"^^xsd:string ;
+        nif:beginIndex        "1506"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1520"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5114> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=2456,2474>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "José Noel Perdigão"^^xsd:string ;
+        nif:beginIndex        "2456"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2474"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5114> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=243,253>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "José Júlio"^^xsd:string ;
+        nif:beginIndex        "243"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "253"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5114> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1211,1219>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Sector 1"^^xsd:string ;
+        nif:beginIndex        "1211"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1219"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5114> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=217,224>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "35 anos"^^xsd:string ;
+        nif:beginIndex        "217"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "224"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5114> .
+
+<http://linguateca.pt/harem#char=3274,3278>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Lupi"^^xsd:string ;
+        nif:beginIndex        "3274"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3278"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5114> .
+
+<http://linguateca.pt/harem#char=1523,1541>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "José Noel Perdigão"^^xsd:string ;
+        nif:beginIndex        "1523"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1541"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5114> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=2984,3005>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "11 de Outubro de 1959"^^xsd:string ;
+        nif:beginIndex        "2984"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3005"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5114> .
+
+<http://linguateca.pt/harem#char=3478,3483>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Redol"^^xsd:string ;
+        nif:beginIndex        "3478"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3483"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5114> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1345,1364>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Vila Franca de Xira"^^xsd:string ;
+        nif:beginIndex        "1345"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1364"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5114> .
+
+<http://linguateca.pt/harem#char=4793,4798>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Redol"^^xsd:string ;
+        nif:beginIndex        "4793"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4798"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5114> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=2214,2224>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "José Júlio"^^xsd:string ;
+        nif:beginIndex        "2214"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2224"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5114> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=3750,3763>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Junho de 1960"^^xsd:string ;
+        nif:beginIndex        "3750"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3763"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5114> .
+
+<http://linguateca.pt/harem#char=2544,2555>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Vila Franca"^^xsd:string ;
+        nif:beginIndex        "2544"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2555"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5114> .
+
+<http://linguateca.pt/harem#char=3019,3033>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Manuel Jiménes"^^xsd:string ;
+        nif:beginIndex        "3019"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3033"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5114> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=532,550>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Rua 1º de Dezembro"^^xsd:string ;
+        nif:beginIndex        "532"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "550"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5114> .
+
+<http://linguateca.pt/harem#char=3116,3139>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Pio Tabernero de Vilvis"^^xsd:string ;
+        nif:beginIndex        "3116"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3139"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5114> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=3167,3187>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "5 de Outubro de 1989"^^xsd:string ;
+        nif:beginIndex        "3167"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3187"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5114> .
+
+<http://linguateca.pt/harem#char=3281,3289>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Rio Frio"^^xsd:string ;
+        nif:beginIndex        "3281"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3289"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5114> .
+
+<http://linguateca.pt/harem#char=1567,1577>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "José Júlio"^^xsd:string ;
+        nif:beginIndex        "1567"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1577"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5114> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=3691,3698>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Sevilha"^^xsd:string ;
+        nif:beginIndex        "3691"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3698"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5114> .
+
+<http://linguateca.pt/harem#char=1778,1791>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Álvaro Guerra"^^xsd:string ;
+        nif:beginIndex        "1778"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1791"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5114> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=3304,3311>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "30 anos"^^xsd:string ;
+        nif:beginIndex        "3304"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3311"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5114> .
+
+<http://linguateca.pt/harem#char=3093,3101>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Bailador"^^xsd:string ;
+        nif:beginIndex        "3093"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3101"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5114> .
+
+<http://linguateca.pt/harem#char=4351,4361>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "José Júlio"^^xsd:string ;
+        nif:beginIndex        "4351"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4361"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5114> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=3038,3049>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Chicuelo II"^^xsd:string ;
+        nif:beginIndex        "3038"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3049"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5114> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=182,190>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Sector 1"^^xsd:string ;
+        nif:beginIndex        "182"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "190"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5114> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=0,5114>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "5114"^^xsd:nonNegativeInteger ;
+        nif:isString    "Sobre Toiros De toda a justiça ! Se existem coisas que não se azedam , uma dela é com certeza a gratidão . Por assim ser , foi de toda a justiça a homenagem que o grupo tauromáquico Sector 1 promoveu , a assinalar os 35 anos de alternativa de José Júlio . Foi grato verificar que o grupo taurino , que sabe congregar no seu seio os decanos da «afición» portuguesa , tem tido capacidade para se renovar , de forma a poder aproveitar o entusiasmo dos que chegam . Uma direcção etariamente jovem tem conseguido reunir na velha casa da Rua 1º de Dezembro , em Lisboa , uma assistência «até às bandeiras» . Isso é prova provada do interesse dos eventos que promovem e , quiçá , lição para outras associações taurinas que têm o azar de possuir elencos directivos que julgam que os lugares são cativos , de tal forma que , esgotadas as ideias , rotinadas as vivências e surdos a conselhos para a mudança , não tarda será patente que já se encontram em acelerada crise . Lamentável , ainda por cima , que alguns oráculos da nossa praça apoiem tais comportamentos , cientes da canina fidelidade de tais maduros ao seu escasso valor . Os grupos taurinos só existem para fomentar a «afición» e servir a festa , pelo que o Sector 1 renovado está a dar provas de que cumpre as suas funções primordiais . Para esta homenagem ao primeiro matador de toiros que Vila Franca de Xira deu ao mundo , o grupo tauromáquico reuniu um trio de luxo , que se encarregou em plano de triunfo da despesa de conversa -- Álvaro Guerra , Saraiva Mendes e José Noel Perdigão . Com toda a certeza que José Júlio , o toureiro a quem devemos a «quadrilha maravilha» nas arenas , se sentiu agradado com esta quadrilha de ideias , que saiu ao quite para evidenciar o porquê da homenagem e o brilho da sua carreira . Álvaro Guerra espraiou-se com o fulgor do seu talento e espírito pelo caminhos da memória e deu-nos conta dos tempos em que , compartilhando quarto e sonhos com o matador , acompanhou o crescer da vocação que seu pai , José Guerra , ajudou a fermentar . Que maravilha ouvir o escritor explanar assim vivências e sentires ! Saraiva Mendes abriu o seu capote para um quite de luxo , evocando com o rigor do vivido os momentos grandes que José Júlio protagonizou . Que se saliente continuar traquejado , deixando bem patente que não foi por acaso que soube , ao longo de toda uma vida , carregar para as suas crónicas o prestigio da dignidade literária . Coube a última actuação a José Noel Perdigão . Improvisando ao sabor do coração , soube evocar a ambiência da sua Vila Franca à época dos começos do toureiro e , num remate ao seu quite , destapou e ofereceu ao homenageado uma migalha do seu talento , feito obra de arte . E o momento taurino de José Júlio que a retina do pintor fixou na circunstância , pela beleza , soube a desplante . Depois , José Júlio agradeceu e disse de si , o que fez evocando os seus tempos de menino e as datas mais significativas do seu passado . Que distante já está o dia 11 de Outubro de 1959 , dia em que Manuel Jiménes ( « Chicuelo II » ) , em Saragoça , lhe cedeu a morte de « Bailador » do ferro de Pio Tabernero de Vilvis . Distante também o dia de 5 de Outubro de 1989 , em se encerrou na sua terra , para um adeus que ainda recordamos , lidando reses de Lupi e Rio Frio . Pelo meio , 30 anos de vida nas arenas , com fracassos e triunfos , glória e tragédia -- enfim , o conjunto de ingredientes que fazem parte do viver de quem , como dizia seu primo Alves Redol , escolheu ser «noivo da morte» . É evidente que Redol foi por diversas vezes evocado no decorrer da noite e que tal se não se estranhe . « Sombra e Sangue » -- que o enfrentar dois miuras por José Júlio em Sevilha inspirou ao escritor e que este deu a público , em Junho de 1960 -- constitui a mais bela e inteligente descrição de uma corrida «ouvida» que a literatura possui , e não é de menos que se encareça quem , por laços de sangue e arte , soube inspirar tais páginas . Só por isto , o primeiro dos matadores de Vila Franca merece a gratidão do mundo . Já agora , talvez venha a talho de foice referir que uma «faena cumbre» só tem importância para a posteridade quando um escriba , mesmo que modesto , a imortaliza em letra de forma . Quantos toureiros , embalados na torpeza das cortes de seguidistas , agenciados e aduladores , se esquecem desta verdade . José Júlio para além das tardes de glória em que soube fazer vibrar os públicos , soube também fazer vibrar a centelha da emoção que , após sedimentar , leva os escritores a escrever coisas bonitas . E como nada acontece por acaso , mas , como diria Ortega y Gasset , assim teve que ser , soube o vila-franquense cumprir os seus desígnios nas arenas e na vida -- soube , enfim , cumprir o seu fado com graça e com paixão . A paixão que levou Redol a escrever : «Estranha coisa esta -- ouvir e seguir uma corrida de toiros pela música , pelos aplausos , pelos apupos e pelo relógio . Sei que lá dentro não podia ficar sentado ; as emoções sacodem-me quando vejo , e movo-me , falo -- sei lá o que digo quando o vejo citar e quedar-me em terrenos que me alarmam !» "^^xsd:string .
+
+<http://linguateca.pt/harem#char=3677,3687>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "José Júlio"^^xsd:string ;
+        nif:beginIndex        "3677"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3687"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5114> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=2101,2115>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Saraiva Mendes"^^xsd:string ;
+        nif:beginIndex        "2101"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2115"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5114> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1997,2008>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "José Guerra"^^xsd:string ;
+        nif:beginIndex        "1997"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2008"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5114> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=4004,4015>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Vila Franca"^^xsd:string ;
+        nif:beginIndex        "4004"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4015"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5114> .
+
+<http://linguateca.pt/harem#char=3472,3483>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Alves Redol"^^xsd:string ;
+        nif:beginIndex        "3472"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3483"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5114> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1490,1503>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Álvaro Guerra"^^xsd:string ;
+        nif:beginIndex        "1490"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1503"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5114> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=3624,3639>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Sombra e Sangue"^^xsd:string ;
+        nif:beginIndex        "3624"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3639"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5114> .

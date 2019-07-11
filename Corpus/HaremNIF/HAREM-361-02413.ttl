@@ -1,0 +1,331 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=1528,1539>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Informática"^^xsd:string ;
+        nif:beginIndex        "1528"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1539"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2223> .
+
+<http://linguateca.pt/harem#char=1542,1583>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Engenharia da Linguagem e do Conhecimento"^^xsd:string ;
+        nif:beginIndex        "1542"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1583"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2223> .
+
+<http://linguateca.pt/harem#char=203,211>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Portugal"^^xsd:string ;
+        nif:beginIndex        "203"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "211"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2223> .
+
+<http://linguateca.pt/harem#char=593,602>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Filosofia"^^xsd:string ;
+        nif:beginIndex        "593"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "602"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2223> .
+
+<http://linguateca.pt/harem#char=50,54>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "CMAF"^^xsd:string ;
+        nif:beginIndex        "50"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "54"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2223> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=456,460>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "CMAF"^^xsd:string ;
+        nif:beginIndex        "456"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "460"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2223> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=241,267>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Departamento de Matemática"^^xsd:string ;
+        nif:beginIndex        "241"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "267"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2223> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1775,1794>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Faculdade de Letras"^^xsd:string ;
+        nif:beginIndex        "1775"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1794"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2223> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=2123,2126>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "SLM"^^xsd:string ;
+        nif:beginIndex        "2123"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2126"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2223> .
+
+<http://linguateca.pt/harem#char=1322,1339>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Lógica Matemática"^^xsd:string ;
+        nif:beginIndex        "1322"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1339"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2223> .
+
+<http://linguateca.pt/harem#char=2053,2079>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Instituto Superior Técnico"^^xsd:string ;
+        nif:beginIndex        "2053"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2079"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2223> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1857,1928>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "School on Real Algebraic and Analytic Geometry and O-minimal Structures"^^xsd:string ;
+        nif:beginIndex        "1857"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1928"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2223> .
+
+<http://linguateca.pt/harem#char=1806,1808>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "25"^^xsd:string ;
+        nif:beginIndex        "1806"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1808"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2223> .
+
+<http://linguateca.pt/harem#char=80,127>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Gabinete A2-31 Avenida Professor Gama Pinto , 2"^^xsd:string ;
+        nif:beginIndex        "80"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "127"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2223> .
+
+<http://linguateca.pt/harem#char=0,17>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Fernando Ferreira"^^xsd:string ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "17"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2223> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=172,178>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Lisboa"^^xsd:string ;
+        nif:beginIndex        "172"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "178"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2223> .
+
+<http://linguateca.pt/harem#char=319,338>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Professor Associado"^^xsd:string ;
+        nif:beginIndex        "319"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "338"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2223> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1811,1822>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "28 de Junho"^^xsd:string ;
+        nif:beginIndex        "1811"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1822"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2223> .
+
+<http://linguateca.pt/harem#char=1147,1176>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Introdução àAnálise Funcional"^^xsd:string ;
+        nif:beginIndex        "1147"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1176"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2223> .
+
+<http://linguateca.pt/harem#char=1274,1284>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Matemática"^^xsd:string ;
+        nif:beginIndex        "1274"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1284"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2223> .
+
+<http://linguateca.pt/harem#char=792,798>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Platão"^^xsd:string ;
+        nif:beginIndex        "792"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "798"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2223> .
+
+<http://linguateca.pt/harem#char=1836,1842>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Lisboa"^^xsd:string ;
+        nif:beginIndex        "1836"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1842"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2223> .
+
+<http://linguateca.pt/harem#char=2201,2220>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Filosofia Analítica"^^xsd:string ;
+        nif:beginIndex        "2201"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2220"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2223> .
+
+<http://linguateca.pt/harem#char=407,453>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Centro de Matemática e Aplicações Fundamentais"^^xsd:string ;
+        nif:beginIndex        "407"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "453"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2223> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1848,1852>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "CMAF"^^xsd:string ;
+        nif:beginIndex        "1848"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1852"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2223> .
+
+<http://linguateca.pt/harem#char=1329,1339>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Matemática"^^xsd:string ;
+        nif:beginIndex        "1329"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1339"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2223> .
+
+<http://linguateca.pt/harem#char=1005,1015>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Matemática"^^xsd:string ;
+        nif:beginIndex        "1005"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1015"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2223> .
+
+<http://linguateca.pt/harem#char=1020,1057>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Professor José Perdigão Dias da Silva"^^xsd:string ;
+        nif:beginIndex        "1020"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1057"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2223> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=779,789>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Parménides"^^xsd:string ;
+        nif:beginIndex        "779"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "789"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2223> .
+
+<http://linguateca.pt/harem#char=1216,1226>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Matemática"^^xsd:string ;
+        nif:beginIndex        "1216"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1226"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2223> .
+
+<http://linguateca.pt/harem#char=1135,1144>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Topologia"^^xsd:string ;
+        nif:beginIndex        "1135"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1144"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2223> .
+
+<http://linguateca.pt/harem#char=1958,1988>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Seminário de Lógica Matemática"^^xsd:string ;
+        nif:beginIndex        "1958"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1988"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2223> .
+
+<http://linguateca.pt/harem#char=342,394>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Departamento de Matemática da Universidade de Lisboa"^^xsd:string ;
+        nif:beginIndex        "342"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "394"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2223> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=2025,2049>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Professor Narciso Garcia"^^xsd:string ;
+        nif:beginIndex        "2025"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2049"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2223> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=716,732>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Filosofia Antiga"^^xsd:string ;
+        nif:beginIndex        "716"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "732"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2223> .
+
+<http://linguateca.pt/harem#char=605,630>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Fundamentos de Matemática"^^xsd:string ;
+        nif:beginIndex        "605"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "630"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2223> .
+
+<http://linguateca.pt/harem#char=949,958>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Álgebra 2"^^xsd:string ;
+        nif:beginIndex        "949"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "958"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2223> .
+
+<http://linguateca.pt/harem#char=57,79>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Universidade de Lisboa"^^xsd:string ;
+        nif:beginIndex        "57"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "79"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2223> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=517,534>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Lógica Matemática"^^xsd:string ;
+        nif:beginIndex        "517"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "534"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2223> .
+
+<http://linguateca.pt/harem#char=1732,1771>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Filosofia da Linguagem e da Consciência"^^xsd:string ;
+        nif:beginIndex        "1732"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1771"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2223> .
+
+<http://linguateca.pt/harem#char=1234,1256>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Teoria da Demonstração"^^xsd:string ;
+        nif:beginIndex        "1234"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1256"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2223> .
+
+<http://linguateca.pt/harem#char=0,2223>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "2223"^^xsd:nonNegativeInteger ;
+        nif:isString    "Fernando Ferreira [ click for a page in english ] CMAF - Universidade de Lisboa Gabinete A2-31 Avenida Professor Gama Pinto , 2 Telefone do Gabinete : 217904893 P-1649-003 Lisboa Extensão interna : 4293 Portugal Email : ferferr@cii.fc.ul.pt Departamento de Matemática ApresentaçãoBem vindos àminha página pessoal . Sou Professor Associado do Departamento de Matemática da Universidade de Lisboa e membro do Centro de Matemática e Aplicações Fundamentais - CMAF . Clique aqui para obter o meu CV.Interesses Académicos Lógica Matemática , em especial teorias fracas da aritmética e da análise . Filosofia e Fundamentos de Matemática . Tenho um interesse amador ( no sentido latino da palavra ) por alguns problemas da Filosofia Antiga , particularmente no problema da falsidade em Parménides e Platão . Também escrevi alguns ensaios expositórios sobre temas da lógica : clique aqui para os ver.EnsinoNo presente semestre dou aulas teórico-práticas de Álgebra 2 , cadeira do segundo ano das licenciaturas em Matemática . O Professor José Perdigão Dias da Silva éo regente da cadeira .No semestre passado fui responsável pelas cadeiras de Topologia e Introdução àAnálise Funcional , do terceiro ano das licenciaturas em Matemática , e de Teoria da Demonstração , do Mestrado em Matemática .No ano passado ensinei a cadeira de Lógica Matemática aos finalistas de Matemática e licenciaturas relacionadas . Clique aqui paraver a página desta cadeira . Também dei a cadeira Lógica de Primeira-Ordem ao primeiro ano das licenciaturas em Informática e Engenharia da Linguagem e do Conhecimento . A página web desta cadeira ainda se encontra disponível on-line em html ://www.alf1.cii.fc.ul.pt/~ferferr/lpo.html.Também colaboro no Mestrado em Filosofia da Linguagem e da Consciência da Faculdade de Letras .EventosDe 25 a 28 de Junho decorrerá em Lisboa , no CMAF , a School on Real Algebraic and Analytic Geometry and O-minimal Structures .Às quintas-feiras decorre o Seminário de Lógica Matemática ( SLM ) , organizado por mim e pelo Professor Narciso Garcia do Instituto Superior Técnico . Se quiser ter notícias regulares sobre o SLM , por favor contacte-me.VáriaSou co-editor da Disputatio , uma revista de Filosofia Analítica . "^^xsd:string .
+
+<http://linguateca.pt/harem#char=1991,1994>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "SLM"^^xsd:string ;
+        nif:beginIndex        "1991"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1994"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2223> .
+
+<http://linguateca.pt/harem#char=1466,1490>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Lógica de Primeira-Ordem"^^xsd:string ;
+        nif:beginIndex        "1466"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1490"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2223> .
+
+<http://linguateca.pt/harem#char=2173,2183>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Disputatio"^^xsd:string ;
+        nif:beginIndex        "2173"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2183"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2223> .

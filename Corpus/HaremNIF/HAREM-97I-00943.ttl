@@ -1,0 +1,940 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=3294,3309>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Abelha da China"^^xsd:string ;
+        nif:beginIndex        "3294"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3309"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .
+
+<http://linguateca.pt/harem#char=3236,3251>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Gazeta de Macau"^^xsd:string ;
+        nif:beginIndex        "3236"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3251"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .
+
+<http://linguateca.pt/harem#char=348,408>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Instituto Cultural e Gabinete de Comunicação Social de Macau"^^xsd:string ;
+        nif:beginIndex        "348"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "408"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=8060,8085>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Câmara Municipal do Porto"^^xsd:string ;
+        nif:beginIndex        "8060"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "8085"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=4209,4214>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "China"^^xsd:string ;
+        nif:beginIndex        "4209"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4214"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .
+
+<http://linguateca.pt/harem#char=239,254>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Extremo Oriente"^^xsd:string ;
+        nif:beginIndex        "239"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "254"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .
+
+<http://linguateca.pt/harem#char=6612,6620>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "O Clarim"^^xsd:string ;
+        nif:beginIndex        "6612"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "6620"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .
+
+<http://linguateca.pt/harem#char=981,985>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1822"^^xsd:string ;
+        nif:beginIndex        "981"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "985"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .
+
+<http://linguateca.pt/harem#char=5232,5242>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Território"^^xsd:string ;
+        nif:beginIndex        "5232"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5242"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .
+
+<http://linguateca.pt/harem#char=1604,1619>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "O Echo Macaense"^^xsd:string ;
+        nif:beginIndex        "1604"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1619"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .
+
+<http://linguateca.pt/harem#char=228,233>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "China"^^xsd:string ;
+        nif:beginIndex        "228"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "233"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .
+
+<http://linguateca.pt/harem#char=8102,8110>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Wan Chun"^^xsd:string ;
+        nif:beginIndex        "8102"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "8110"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=19,27>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "PORTUGAL"^^xsd:string ;
+        nif:beginIndex        "19"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "27"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .
+
+<http://linguateca.pt/harem#char=2377,2386>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Hong Kong"^^xsd:string ;
+        nif:beginIndex        "2377"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2386"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .
+
+<http://linguateca.pt/harem#char=6189,6194>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Macau"^^xsd:string ;
+        nif:beginIndex        "6189"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "6194"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .
+
+<http://linguateca.pt/harem#char=7192,7221>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "História da Imprensa em Macau"^^xsd:string ;
+        nif:beginIndex        "7192"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "7221"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .
+
+<http://linguateca.pt/harem#char=1275,1293>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Constituição de 22"^^xsd:string ;
+        nif:beginIndex        "1275"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1293"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .
+
+<http://linguateca.pt/harem#char=5013,5026>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Revista MacaU"^^xsd:string ;
+        nif:beginIndex        "5013"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5026"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .
+
+<http://linguateca.pt/harem#char=1635,1639>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1893"^^xsd:string ;
+        nif:beginIndex        "1635"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1639"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .
+
+<http://linguateca.pt/harem#char=0,8807>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "8807"^^xsd:nonNegativeInteger ;
+        nif:isString    "DUAS EXPOSIÇÕES EM PORTUGAL TERESA REBELO O PASSADO DA IMPRENSA EM MACAU Desta exposição \" 200 Anos de Jornalismo Português em Macau \" saímos com a certeza de que os portugueses foram os grandes impulsionadores do jornalismo na China e no Extremo Oriente , exercendo Macau um papel fundamental em todo este processoPromovida pela Missão de Macau , Instituto Cultural e Gabinete de Comunicação Social de Macau , a exposição está instalada por agora na Torre do Tombo , em Lisboa , mas depois de 15 de Setembro será transferida para o Museu da Imprensa no Porto .Conscientes de que vamos entrar na era do passado , não por já sabermos de antemão que o peso da imprensa portuguesa no território está pendente do futuro , mas porque entramos na Torre do Tombo , somos logo informados de que o primeiro jornal impresso do continente chinês e da Ásia Oriental segundo a moderna tecnologia da época , em caracteres móveis metálicos , foi \" A Abelha da China \" , uma publicação surgida em 1822 , escrita em português , com uma opinião crítica e política da realidade de Macau . Como bem podemos ver exposto e ler no exemplar fac-similado que nos é oferecido , o primeiro número deste jornal mostra-nos que o seu objectivo jornalístico era divulgar os ideais do liberalismo saídos da Constituição de 22 , justapostos aos limites castradores da administração então vigente.Depois do \" Abelha da China \" apareceram nove jornais portugueses , todos eles mencionados nesta mostra , sendo muito mais demorado o surgimento do primeiro jornal chinês pela mão de um macaense , com o nome de \" Ching- Hai Tsung Pao \" ou \" O Echo Macaense \" . Fundado em 1893 , publicado em versão chinesa e portuguesa , este jornal foi o veículo das doutrinas revolucionárias do líder histórico Sun Iat Sen que , tanto pelo seu carisma político como pela sua colaboração em vários jornais de Macau , tem reservados nesta exposição vários lugares de destaque . Aliás , são várias as figuras mediáticas de Macau mencionadas em jeito de referência temática e outra delas é Monsenhor Manuel Teixeira a quem se presta homenagem por ser o português mais antigo no território a assinar uma coluna num jornal e pela sua obra A Imprensa Portuguesa no Extremo Oriente em que dá notícia do número de títulos de jornais impressos em português no Oriente , títulos como \" O Português \" ou \" O Petardo \" , que eram jornais de Hong Kong impressos em Macau ( ler artigo na Revista Macau , n.º 47 , Março 96 ).São cerca de 90 os títulos dos jornais que registaram os acontecimentos dos últimos dois séculos de presença portuguesa no local , muitos deles expostos na Torre do Tombo numa panóplia de vitrinas , que provam que Macau exerceu influência determinante em todo o processo jornalístico português a Oriente . Se a conservação dos títulos portugueses impressos foi quase inexistente ao longo de todos estes anos , o mesmo aconteceu com a Imprensa Chinesa , e o que resta para a realização duma História da Imprensa em Macau esteve guardado nos arquivos da Biblioteca do Leal Senado e na Biblioteca Sir Robert Ho Tung . Liberdade de imprensa e censuraBem lembrado nesta mostra está o primeiro acto de censura à Imprensa em Macau . Em 1824 , uma ordem do governo local publicada na \" Gazeta de Macau \" ordenava um auto-de-fé ao número L do \" Abelha da China \" classificando-o de \"infame\" , \"mandando-o dilacerar e queimar\" por \"artigo de ofício \" . Ficamos a saber que nem sempre foi evidente a liberdade de expressão jornalística em Macau ; durante a II Guerra Mundial tanto a Imprensa Portuguesa como a Chinesa eram controladas por censores japoneses e , para ilustrar isto , reparamos nos exemplares expostos , a forma como os jornais chineses reagiam ao lápis da censura : frequentes vezes , em substituição do texto reprimido , punham cruzes ou deixavam espaços em branco . Depois da revolução de Abril , referenciada não só nos jornais portugueses mas também nos jornais chineses fixados num painel próprio , notamos que o jornalismo que se fez em Macau conheceu um certo florescimento , mas é certo que , passados tantos anos sobre o 25 de Abril e as suas conquistas , fala--se agora na existência de outro tipo de censura naquela pequena parcela da China , por ventura tanto ou tão mais castradora da liberdade de expressão : a auto-censura jornalística , talvez mais frequente na imprensa chinesa . A exposição pretende ilustrar uma certa herança de liberdade , tolerância e pluralismo que os portugueses vão deixar quando transferirem a administração do território para a China . A isto , o director do Gabinete de Comunicação Social do Governo de Macau , Afonso Camões , afirma na brochura da exposição : \"o futuro da liberdade de Imprensa em Macau dependerá , em boa medida , daqueles que a exercem hoje . Mas caberá sempre lembrar aos potenciais fautores que as liberdades de expressão e de imprensa estão salvaguardadas na Lei Básica que há-de vigorar para lá de 1999 .\"Mais perto do presenteMais perto do passado , do presente e do futuro está a Revista MacaU , em predominante destaque na exposição tanto pela quantidade de revistas expostas e para consulta como pela qualidade dos artigos expostos que cobrem os acontecimentos mais relevantes dos últimos anos no Território . Esta revista mostra ser uma referência fundamental na Imprensa local tanto pelo seu papel dinamizador do registo dos acontecimentos sociais e políticos em Macau para o futuro , como pelo esforço de registo histórico sobre a Presença dos Portugueses em todo o Oriente ao longo dos séculos . Assuntos como a Unificação do Território , o Ecumenismo Religioso , a Construção do Aeroporto ou o Sistema de Ensino em Macau caminham lado a lado com outros assuntos não menos importantes para a nossa História no Território , como os trabalhos publicados na revista sobre \" A Sociedade da Rosa \" ou \" A Oferta dum Leão ao Imperador da China no séc . XVII \" .Todos estes assuntos são tratados pela importância que têm para a memória colectiva de Macau junto da diáspora portuguesa e das comunidades macaenses espalhadas pelo mundo e justificam por si só a relevância com que estão expostos na Torre do Tombo .Actualmente existem oito jornais chineses em Macau , destacando-se os dois mais importantes que são o \" Ou Mun \" e o \" Va Kio \" e não esquecendo que apenas são aí tratados os acontecimentos portugueses com repercussões directas na população local . Na Imprensa portuguesa , destacam-se até pelos exemplares existentes para consulta na exposição os diários \" Jornal Tribuna de Macau \" , \" Macau Hoje \" e \" Futuro de Macau \" assim como os semanários \" Ponto Final \" e \" O Clarim \" . São estes actualmente os jornais impressos que constituem o quadro editorial de Macau , mas cuja sobrevivência é indissociável da importância que a comunidade portuguesa terá no futuro naquele território . A salientar também o convite à navegação pela Internet , em que os visitantes podem consultar uma base de dados , a Página Oficial de Macau e a Página da Lusa entre outras.Para salvaguardar a memória desta exposição foi editada uma brochura sobre o evento , embora seja indiscutível que há matéria histórica para a publicação de um verdadeiro almanaque sobre a História da Imprensa em Macau . Se é certo que em 200 anos de Jornalismo exposto conseguimos perceber a importância da Imprensa Portuguesa em Macau , tão certo não será seguramente a sua relevância depois da transferência do território para a China .Caixa : ORIENTE/OCIDENTE : MACAU NO PORTO \" Oriente/Ocidente : Artistas de Macau \" é o título da exposição patente no Porto entre 18 de Junho passado e 12 deste mês de Julho , no edifício do antigo Mercado Ferreira Borges .A iniciativa , espécie de reencontro entre duas cidades geminadas pelos respectivos municípios , coube ao Leal Senado de Macau e à Câmara Municipal do Porto e reuniu um conjunto de 144 obras de 34 artistas , abrangendo as áreas da Pintura , do Desenho , da Ilustração , da Gravura , da Fotografia e do Design Gráfico .A abertura do evento contou com a presença de Fernando Gomes , presidente da Câmara Municipal do Porto , e do vereador Wan Chun , em representação de Sales Marques , presidente do Leal Senado , a qual foi enriquecida com um pequeno concerto em que os instrumentistas Wong On Yuen e António Ferro , tocando ehru e viola-baixo , respectivamente , interpretaram várias peças editadas no disco compacto Sinais de Yuanju .O amplo espaço das três naves do recinto , cujo edifício data de finais do século passado e foi recuperado há alguns anos para receber eventos de natureza diversificada , acolheu com dignidade aquela exposição , comissariada por António Andrade , o qual considera ter-se conseguido Žuma amostragem bastante representativa do desenvolvimento alcançado pelas artes plásticas contemporâneas de Macau \" . F.A . "^^xsd:string .
+
+<http://linguateca.pt/harem#char=5810,5829>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "A Sociedade da Rosa"^^xsd:string ;
+        nif:beginIndex        "5810"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5829"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .
+
+<http://linguateca.pt/harem#char=7594,7596>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "12"^^xsd:string ;
+        nif:beginIndex        "7594"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "7596"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .
+
+<http://linguateca.pt/harem#char=7435,7440>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "China"^^xsd:string ;
+        nif:beginIndex        "7435"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "7440"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=7640,7663>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Mercado Ferreira Borges"^^xsd:string ;
+        nif:beginIndex        "7640"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "7663"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .
+
+<http://linguateca.pt/harem#char=5504,5511>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Oriente"^^xsd:string ;
+        nif:beginIndex        "5504"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5511"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .
+
+<http://linguateca.pt/harem#char=6532,6542>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Macau Hoje"^^xsd:string ;
+        nif:beginIndex        "6532"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "6542"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .
+
+<http://linguateca.pt/harem#char=451,465>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Torre do Tombo"^^xsd:string ;
+        nif:beginIndex        "451"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "465"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .
+
+<http://linguateca.pt/harem#char=840,853>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ásia Oriental"^^xsd:string ;
+        nif:beginIndex        "840"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "853"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .
+
+<http://linguateca.pt/harem#char=8629,8644>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "António Andrade"^^xsd:string ;
+        nif:beginIndex        "8629"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "8644"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=5749,5759>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Território"^^xsd:string ;
+        nif:beginIndex        "5749"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5759"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .
+
+<http://linguateca.pt/harem#char=3287,3288>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "L"^^xsd:string ;
+        nif:beginIndex        "3287"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3288"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .
+
+<http://linguateca.pt/harem#char=554,559>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Porto"^^xsd:string ;
+        nif:beginIndex        "554"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "559"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .
+
+<http://linguateca.pt/harem#char=4706,4711>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Macau"^^xsd:string ;
+        nif:beginIndex        "4706"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4711"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=3530,3549>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Imprensa Portuguesa"^^xsd:string ;
+        nif:beginIndex        "3530"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3549"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .
+
+<http://linguateca.pt/harem#char=7572,7583>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "18 de Junho"^^xsd:string ;
+        nif:beginIndex        "7572"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "7583"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .
+
+<http://linguateca.pt/harem#char=7967,7981>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Design Gráfico"^^xsd:string ;
+        nif:beginIndex        "7967"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "7981"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .
+
+<http://linguateca.pt/harem#char=1576,1596>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ching- Hai Tsung Pao"^^xsd:string ;
+        nif:beginIndex        "1576"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1596"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .
+
+<http://linguateca.pt/harem#char=4565,4615>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Gabinete de Comunicação Social do Governo de Macau"^^xsd:string ;
+        nif:beginIndex        "4565"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4615"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1969,1974>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Macau"^^xsd:string ;
+        nif:beginIndex        "1969"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1974"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .
+
+<http://linguateca.pt/harem#char=8029,8043>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Fernando Gomes"^^xsd:string ;
+        nif:beginIndex        "8029"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "8043"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=471,477>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Lisboa"^^xsd:string ;
+        nif:beginIndex        "471"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "477"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .
+
+<http://linguateca.pt/harem#char=7478,7483>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "PORTO"^^xsd:string ;
+        nif:beginIndex        "7478"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "7483"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .
+
+<http://linguateca.pt/harem#char=6877,6885>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Internet"^^xsd:string ;
+        nif:beginIndex        "6877"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "6885"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .
+
+<http://linguateca.pt/harem#char=7242,7250>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "200 anos"^^xsd:string ;
+        nif:beginIndex        "7242"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "7250"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .
+
+<http://linguateca.pt/harem#char=7560,7565>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Porto"^^xsd:string ;
+        nif:beginIndex        "7560"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "7565"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .
+
+<http://linguateca.pt/harem#char=7771,7791>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Leal Senado de Macau"^^xsd:string ;
+        nif:beginIndex        "7771"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "7791"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=8382,8398>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Sinais de Yuanju"^^xsd:string ;
+        nif:beginIndex        "8382"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "8398"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .
+
+<http://linguateca.pt/harem#char=6128,6142>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Torre do Tombo"^^xsd:string ;
+        nif:beginIndex        "6128"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "6142"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .
+
+<http://linguateca.pt/harem#char=28,41>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "TERESA REBELO"^^xsd:string ;
+        nif:beginIndex        "28"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "41"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=6705,6710>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Macau"^^xsd:string ;
+        nif:beginIndex        "6705"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "6710"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .
+
+<http://linguateca.pt/harem#char=2324,2335>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "O Português"^^xsd:string ;
+        nif:beginIndex        "2324"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2335"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .
+
+<http://linguateca.pt/harem#char=7951,7961>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Fotografia"^^xsd:string ;
+        nif:beginIndex        "7951"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "7961"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .
+
+<http://linguateca.pt/harem#char=7450,7466>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "ORIENTE/OCIDENTE"^^xsd:string ;
+        nif:beginIndex        "7450"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "7466"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .
+
+<http://linguateca.pt/harem#char=3557,3564>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Chinesa"^^xsd:string ;
+        nif:beginIndex        "3557"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3564"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .
+
+<http://linguateca.pt/harem#char=5551,5575>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Unificação do Território"^^xsd:string ;
+        nif:beginIndex        "5551"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5575"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .
+
+<http://linguateca.pt/harem#char=3854,3859>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Abril"^^xsd:string ;
+        nif:beginIndex        "3854"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3859"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .
+
+<http://linguateca.pt/harem#char=741,755>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Torre do Tombo"^^xsd:string ;
+        nif:beginIndex        "741"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "755"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .
+
+<http://linguateca.pt/harem#char=8250,8262>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Wong On Yuen"^^xsd:string ;
+        nif:beginIndex        "8250"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "8262"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1857,1862>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Macau"^^xsd:string ;
+        nif:beginIndex        "1857"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1862"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .
+
+<http://linguateca.pt/harem#char=7896,7903>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Pintura"^^xsd:string ;
+        nif:beginIndex        "7896"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "7903"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .
+
+<http://linguateca.pt/harem#char=5400,5405>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Macau"^^xsd:string ;
+        nif:beginIndex        "5400"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5405"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .
+
+<http://linguateca.pt/harem#char=7311,7330>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Imprensa Portuguesa"^^xsd:string ;
+        nif:beginIndex        "7311"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "7330"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .
+
+<http://linguateca.pt/harem#char=4929,4933>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1999"^^xsd:string ;
+        nif:beginIndex        "4929"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4933"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .
+
+<http://linguateca.pt/harem#char=3486,3491>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Macau"^^xsd:string ;
+        nif:beginIndex        "3486"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3491"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .
+
+<http://linguateca.pt/harem#char=7469,7474>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "MACAU"^^xsd:string ;
+        nif:beginIndex        "7469"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "7474"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .
+
+<http://linguateca.pt/harem#char=5580,5600>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ecumenismo Religioso"^^xsd:string ;
+        nif:beginIndex        "5580"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5600"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .
+
+<http://linguateca.pt/harem#char=4534,4539>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "China"^^xsd:string ;
+        nif:beginIndex        "4534"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4539"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=2422,2455>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Revista Macau , n.º 47 , Março 96"^^xsd:string ;
+        nif:beginIndex        "2422"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2455"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .
+
+<http://linguateca.pt/harem#char=2614,2628>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Torre do Tombo"^^xsd:string ;
+        nif:beginIndex        "2614"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2628"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .
+
+<http://linguateca.pt/harem#char=8265,8278>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "António Ferro"^^xsd:string ;
+        nif:beginIndex        "8265"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "8278"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=6263,6269>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Va Kio"^^xsd:string ;
+        nif:beginIndex        "6263"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "6269"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .
+
+<http://linguateca.pt/harem#char=3164,3172>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Imprensa"^^xsd:string ;
+        nif:beginIndex        "3164"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3172"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .
+
+<http://linguateca.pt/harem#char=4694,4702>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Imprensa"^^xsd:string ;
+        nif:beginIndex        "4694"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4702"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .
+
+<http://linguateca.pt/harem#char=6502,6525>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Jornal Tribuna de Macau"^^xsd:string ;
+        nif:beginIndex        "6502"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "6525"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .
+
+<http://linguateca.pt/harem#char=7938,7945>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Gravura"^^xsd:string ;
+        nif:beginIndex        "7938"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "7945"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .
+
+<http://linguateca.pt/harem#char=2948,2977>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "História da Imprensa em Macau"^^xsd:string ;
+        nif:beginIndex        "2948"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2977"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .
+
+<http://linguateca.pt/harem#char=4889,4899>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Lei Básica"^^xsd:string ;
+        nif:beginIndex        "4889"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4899"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .
+
+<http://linguateca.pt/harem#char=5634,5660>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Sistema de Ensino em Macau"^^xsd:string ;
+        nif:beginIndex        "5634"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5660"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .
+
+<http://linguateca.pt/harem#char=2672,2677>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Macau"^^xsd:string ;
+        nif:beginIndex        "2672"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2677"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .
+
+<http://linguateca.pt/harem#char=3010,3035>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Biblioteca do Leal Senado"^^xsd:string ;
+        nif:beginIndex        "3010"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3035"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=330,345>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Missão de Macau"^^xsd:string ;
+        nif:beginIndex        "330"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "345"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=2892,2908>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Imprensa Chinesa"^^xsd:string ;
+        nif:beginIndex        "2892"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2908"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .
+
+<http://linguateca.pt/harem#char=267,272>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Macau"^^xsd:string ;
+        nif:beginIndex        "267"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "272"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=533,550>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Museu da Imprensa"^^xsd:string ;
+        nif:beginIndex        "533"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "550"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .
+
+<http://linguateca.pt/harem#char=3504,3521>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "II Guerra Mundial"^^xsd:string ;
+        nif:beginIndex        "3504"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3521"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .
+
+<http://linguateca.pt/harem#char=1760,1771>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Sun Iat Sen"^^xsd:string ;
+        nif:beginIndex        "1760"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1771"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=7486,7522>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Oriente/Ocidente : Artistas de Macau"^^xsd:string ;
+        nif:beginIndex        "7486"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "7522"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .
+
+<http://linguateca.pt/harem#char=5299,5307>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Imprensa"^^xsd:string ;
+        nif:beginIndex        "5299"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5307"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .
+
+<http://linguateca.pt/harem#char=4093,4104>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "25 de Abril"^^xsd:string ;
+        nif:beginIndex        "4093"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4104"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .
+
+<http://linguateca.pt/harem#char=2035,2060>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Monsenhor Manuel Teixeira"^^xsd:string ;
+        nif:beginIndex        "2035"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2060"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1062,1067>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Macau"^^xsd:string ;
+        nif:beginIndex        "1062"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1067"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .
+
+<http://linguateca.pt/harem#char=6975,6989>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Página da Lusa"^^xsd:string ;
+        nif:beginIndex        "6975"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "6989"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .
+
+<http://linguateca.pt/harem#char=7334,7339>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Macau"^^xsd:string ;
+        nif:beginIndex        "7334"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "7339"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .
+
+<http://linguateca.pt/harem#char=8149,8174>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "presidente do Leal Senado"^^xsd:string ;
+        nif:beginIndex        "8149"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "8174"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=6396,6404>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Imprensa"^^xsd:string ;
+        nif:beginIndex        "6396"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "6404"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .
+
+<http://linguateca.pt/harem#char=7909,7916>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Desenho"^^xsd:string ;
+        nif:beginIndex        "7909"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "7916"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .
+
+<http://linguateca.pt/harem#char=7254,7264>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Jornalismo"^^xsd:string ;
+        nif:beginIndex        "7254"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "7264"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .
+
+<http://linguateca.pt/harem#char=6594,6605>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ponto Final"^^xsd:string ;
+        nif:beginIndex        "6594"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "6605"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .
+
+<http://linguateca.pt/harem#char=6248,6254>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ou Mun"^^xsd:string ;
+        nif:beginIndex        "6248"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "6254"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .
+
+<http://linguateca.pt/harem#char=494,508>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "15 de Setembro"^^xsd:string ;
+        nif:beginIndex        "494"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "508"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .
+
+<http://linguateca.pt/harem#char=5837,5890>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "A Oferta dum Leão ao Imperador da China no séc . XVII"^^xsd:string ;
+        nif:beginIndex        "5837"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5890"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .
+
+<http://linguateca.pt/harem#char=91,132>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "200 Anos de Jornalismo Português em Macau"^^xsd:string ;
+        nif:beginIndex        "91"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "132"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .
+
+<http://linguateca.pt/harem#char=7796,7821>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Câmara Municipal do Porto"^^xsd:string ;
+        nif:beginIndex        "7796"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "7821"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=4618,4631>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Afonso Camões"^^xsd:string ;
+        nif:beginIndex        "4618"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4631"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=2471,2473>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "90"^^xsd:string ;
+        nif:beginIndex        "2471"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2473"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .
+
+<http://linguateca.pt/harem#char=8801,8806>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "F.A ."^^xsd:string ;
+        nif:beginIndex        "8801"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "8806"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=7922,7932>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ilustração"^^xsd:string ;
+        nif:beginIndex        "7922"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "7932"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .
+
+<http://linguateca.pt/harem#char=2343,2352>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "O Petardo"^^xsd:string ;
+        nif:beginIndex        "2343"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2352"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .
+
+<http://linguateca.pt/harem#char=6549,6564>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Futuro de Macau"^^xsd:string ;
+        nif:beginIndex        "6549"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "6564"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .
+
+<http://linguateca.pt/harem#char=2754,2761>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Oriente"^^xsd:string ;
+        nif:beginIndex        "2754"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2761"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .
+
+<http://linguateca.pt/harem#char=67,72>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "MACAU"^^xsd:string ;
+        nif:beginIndex        "67"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "72"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .
+
+<http://linguateca.pt/harem#char=4006,4011>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Macau"^^xsd:string ;
+        nif:beginIndex        "4006"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4011"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .
+
+<http://linguateca.pt/harem#char=3176,3181>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Macau"^^xsd:string ;
+        nif:beginIndex        "3176"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3181"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=2215,2222>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Oriente"^^xsd:string ;
+        nif:beginIndex        "2215"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2222"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .
+
+<http://linguateca.pt/harem#char=5981,5986>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Macau"^^xsd:string ;
+        nif:beginIndex        "5981"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5986"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .
+
+<http://linguateca.pt/harem#char=1375,1390>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Abelha da China"^^xsd:string ;
+        nif:beginIndex        "1375"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1390"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .
+
+<http://linguateca.pt/harem#char=7610,7615>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Julho"^^xsd:string ;
+        nif:beginIndex        "7610"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "7615"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .
+
+<http://linguateca.pt/harem#char=6947,6970>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Página Oficial de Macau"^^xsd:string ;
+        nif:beginIndex        "6947"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "6970"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .
+
+<http://linguateca.pt/harem#char=7859,7861>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "34"^^xsd:string ;
+        nif:beginIndex        "7859"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "7861"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .
+
+<http://linguateca.pt/harem#char=8791,8796>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Macau"^^xsd:string ;
+        nif:beginIndex        "8791"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "8796"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .
+
+<http://linguateca.pt/harem#char=8133,8146>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Sales Marques"^^xsd:string ;
+        nif:beginIndex        "8133"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "8146"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=933,950>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "A Abelha da China"^^xsd:string ;
+        nif:beginIndex        "933"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "950"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .
+
+<http://linguateca.pt/harem#char=3187,3191>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1824"^^xsd:string ;
+        nif:beginIndex        "3187"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3191"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .
+
+<http://linguateca.pt/harem#char=2182,2222>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "A Imprensa Portuguesa no Extremo Oriente"^^xsd:string ;
+        nif:beginIndex        "2182"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2222"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .
+
+<http://linguateca.pt/harem#char=7846,7849>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "144"^^xsd:string ;
+        nif:beginIndex        "7846"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "7849"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .
+
+<http://linguateca.pt/harem#char=5737,5745>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "História"^^xsd:string ;
+        nif:beginIndex        "5737"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5745"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .
+
+<http://linguateca.pt/harem#char=5605,5628>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Construção do Aeroporto"^^xsd:string ;
+        nif:beginIndex        "5605"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5628"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .
+
+<http://linguateca.pt/harem#char=5482,5493>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Portugueses"^^xsd:string ;
+        nif:beginIndex        "5482"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5493"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=3041,3070>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Biblioteca Sir Robert Ho Tung"^^xsd:string ;
+        nif:beginIndex        "3041"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3070"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=2400,2405>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Macau"^^xsd:string ;
+        nif:beginIndex        "2400"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2405"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8807> .

@@ -1,0 +1,134 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=394,417>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Palma de Ouro de Cannes"^^xsd:string ;
+        nif:beginIndex        "394"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "417"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,697> .
+
+<http://linguateca.pt/harem#char=60,71>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Underground"^^xsd:string ;
+        nif:beginIndex        "60"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "71"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,697> .
+
+<http://linguateca.pt/harem#char=12,23>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Underground"^^xsd:string ;
+        nif:beginIndex        "12"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "23"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,697> .
+
+<http://linguateca.pt/harem#char=79,93>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Emir Kusturica"^^xsd:string ;
+        nif:beginIndex        "79"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "93"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,697> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=180,189>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Kusturica"^^xsd:string ;
+        nif:beginIndex        "180"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "189"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,697> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=501,512>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Underground"^^xsd:string ;
+        nif:beginIndex        "501"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "512"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,697> .
+
+<http://linguateca.pt/harem#char=273,279>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Cannes"^^xsd:string ;
+        nif:beginIndex        "273"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "279"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,697> .
+
+<http://linguateca.pt/harem#char=636,649>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "ex-Jugoslávia"^^xsd:string ;
+        nif:beginIndex        "636"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "649"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,697> .
+
+<http://linguateca.pt/harem#char=106,124>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Festival de Cannes"^^xsd:string ;
+        nif:beginIndex        "106"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "124"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,697> .
+
+<http://linguateca.pt/harem#char=675,682>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Outubro"^^xsd:string ;
+        nif:beginIndex        "675"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "682"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,697> .
+
+<http://linguateca.pt/harem#char=338,357>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "cerca de 20 minutos"^^xsd:string ;
+        nif:beginIndex        "338"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "357"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,697> .
+
+<http://linguateca.pt/harem#char=484,495>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "192 minutos"^^xsd:string ;
+        nif:beginIndex        "484"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "495"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,697> .
+
+<http://linguateca.pt/harem#char=0,697>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "697"^^xsd:nonNegativeInteger ;
+        nif:isString    "Kusturica « Underground »O público e a imprensa que viram « Underground » , de Emir Kusturica , no último Festival de Cannes , verão de certa forma um outro filme quando a obra de Kusturica estrear comercialmente . Confirmando o que já corria quando o filme foi exibido em Cannes , o cineasta vai regressar à sala de montagem para cortar cerca de 20 minutos a essa obra demencial que recebeu a Palma de Ouro de Cannes , ex-aequo com « O Olhar de Ulisses » , de Theo Angelopoulos . Os 192 minutos de « Underground » -- mais de três horas -- deverão ser reduzidos a cerca de 170 minutos . O lançamento comercial do filme do realizador da ex-Jugoslávia está agora previsto para Outubro ou Novembro . "^^xsd:string .
+
+<http://linguateca.pt/harem#char=0,9>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Kusturica"^^xsd:string ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "9"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,697> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=435,453>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "O Olhar de Ulisses"^^xsd:string ;
+        nif:beginIndex        "435"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "453"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,697> .
+
+<http://linguateca.pt/harem#char=461,478>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Theo Angelopoulos"^^xsd:string ;
+        nif:beginIndex        "461"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "478"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,697> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=564,584>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "cerca de 170 minutos"^^xsd:string ;
+        nif:beginIndex        "564"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "584"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,697> .
+
+<http://linguateca.pt/harem#char=686,694>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Novembro"^^xsd:string ;
+        nif:beginIndex        "686"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "694"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,697> .

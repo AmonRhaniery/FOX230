@@ -1,0 +1,191 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=419,442>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Urbanização 25 de Abril"^^xsd:string ;
+        nif:beginIndex        "419"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "442"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2070> .
+
+<http://linguateca.pt/harem#char=1686,1693>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Governo"^^xsd:string ;
+        nif:beginIndex        "1686"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1693"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2070> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1018,1025>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "PÚBLICO"^^xsd:string ;
+        nif:beginIndex        "1018"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1025"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2070> .
+
+<http://linguateca.pt/harem#char=0,2070>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "2070"^^xsd:nonNegativeInteger ;
+        nif:isString    "Polémica em Vila do Conde PSD denuncia poluição A Comissão Política Concelhia do PSD de Vila do Conde divulgou recentemente um comunicado denunciando casos de poluição que assolam a freguesia de Ferreiró -- um bastião Socialista -- e que , no entender dos sociais-democratas , retratam «exemplos de má gestão» da Câmara Municipal . O documento «laranja» acusa a edilidade de não ter realizado as obras de saneamento da Urbanização 25 de Abril , cujos detritos , diz o comunicado , estão a ser lançados «a céu aberto» para um arruamento vizinho . Referem ainda a existência de uma sucata no «centro de uma zona residencial , onde as águas dos poços correm riscos de contaminação» . Finalmente , o PSD divulga que uma fábrica local , a Ferro-Têxtil , está a poluir o «ribeiro dos peixes» , colocando em causa o seu aproveitamento para as regas dos terrenos agrícolas que circundam aquela área . Confrontado com as acusações sociais-democratas , Saraiva Dias , vereador substituto do presidente da autarquia , referiu ao PÚBLICO que o comunicado do PSD contém «um conjunto de atoardas , distantes da realidade» . No entanto , o autarca reconhece que existem problemas na Urbanização 25 de Abril , que «a Câmara está a resolver , prevendo para breve a instalação dos contentores necessários» . Quanto à sucata , o vereador lembra que «foi o Governo de Cavaco Silva que legislou sobre essa matéria» , permitindo a permanência das sucatas até Maio de 1996 . De qualquer forma , a autarquia já comunicou aos proprietários que , após essa data , não irá permitir casos de poluição ambiental . Na mesma linha , o vereador lembra que a Ferro-Têxtil foi licenciada pelo Ministério da Indústria do Governo cessante , a quem deverá ser imputada a responsabilidade de eventuais problemas . Ao que o PÚBLICO apurou , a administração da empresa chegou recentemente a um acordo com a Direcção Regional do Ambiente para que os detritos sejam encaminhados para uma estação de tratamento de águas residuais a construir em Fradelos , no âmbito do projecto de despoluição do rio Ave . A.T.M. "^^xsd:string .
+
+<http://linguateca.pt/harem#char=1626,1638>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ferro-Têxtil"^^xsd:string ;
+        nif:beginIndex        "1626"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1638"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2070> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=943,955>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Saraiva Dias"^^xsd:string ;
+        nif:beginIndex        "943"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "955"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2070> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=195,203>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ferreiró"^^xsd:string ;
+        nif:beginIndex        "195"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "203"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2070> .
+
+<http://linguateca.pt/harem#char=1337,1360>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Governo de Cavaco Silva"^^xsd:string ;
+        nif:beginIndex        "1337"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1360"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2070> .
+
+<http://linguateca.pt/harem#char=2057,2060>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ave"^^xsd:string ;
+        nif:beginIndex        "2057"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2060"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2070> .
+
+<http://linguateca.pt/harem#char=2063,2069>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "A.T.M."^^xsd:string ;
+        nif:beginIndex        "2063"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2069"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2070> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=696,699>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "PSD"^^xsd:string ;
+        nif:beginIndex        "696"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "699"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2070> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1785,1792>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "PÚBLICO"^^xsd:string ;
+        nif:beginIndex        "1785"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1792"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2070> .
+
+<http://linguateca.pt/harem#char=1046,1049>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "PSD"^^xsd:string ;
+        nif:beginIndex        "1046"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1049"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2070> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1659,1682>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ministério da Indústria"^^xsd:string ;
+        nif:beginIndex        "1659"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1682"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2070> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=50,101>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Comissão Política Concelhia do PSD de Vila do Conde"^^xsd:string ;
+        nif:beginIndex        "50"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "101"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2070> .
+
+<http://linguateca.pt/harem#char=313,329>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Câmara Municipal"^^xsd:string ;
+        nif:beginIndex        "313"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "329"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2070> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=2002,2010>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Fradelos"^^xsd:string ;
+        nif:beginIndex        "2002"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2010"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2070> .
+
+<http://linguateca.pt/harem#char=218,228>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Socialista"^^xsd:string ;
+        nif:beginIndex        "218"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "228"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2070> .
+
+<http://linguateca.pt/harem#char=1201,1207>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Câmara"^^xsd:string ;
+        nif:beginIndex        "1201"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1207"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2070> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=26,29>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "PSD"^^xsd:string ;
+        nif:beginIndex        "26"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "29"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2070> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1437,1449>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Maio de 1996"^^xsd:string ;
+        nif:beginIndex        "1437"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1449"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2070> .
+
+<http://linguateca.pt/harem#char=1168,1191>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Urbanização 25 de Abril"^^xsd:string ;
+        nif:beginIndex        "1168"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1191"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2070> .
+
+<http://linguateca.pt/harem#char=12,25>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Vila do Conde"^^xsd:string ;
+        nif:beginIndex        "12"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "25"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2070> .
+
+<http://linguateca.pt/harem#char=734,746>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ferro-Têxtil"^^xsd:string ;
+        nif:beginIndex        "734"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "746"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2070> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1867,1896>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Direcção Regional do Ambiente"^^xsd:string ;
+        nif:beginIndex        "1867"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1896"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2070> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .

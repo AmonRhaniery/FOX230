@@ -1,0 +1,224 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=0,1467>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1467"^^xsd:nonNegativeInteger ;
+        nif:isString    "Sunab autua empresas por alta abusiva dos preços Da Sucursal de Brasília e da Reportagem Local A Sunab ( Superintendência Nacional de Abastecimento ) autuou 62 estabelecimentos comerciais em 16 Estados entre 27 de junho e 8 de julho último . O motivo da autuação foi a prática de aumento abusivo de preços acima da variação dos custos de acordo com a nova Lei Antitruste ( nº 8.884/94 ) . A fiscalização também foi motivada pelo descumprimento de normas de comercialização . Entre os autuados , estão seis supermercados e oito indústrias . A Sunab também constatou a prática de aumento abusivo de preços em outros 23 estabelecimentos comerciais . Supermercados A Procuradoria do Estado de São Paulo deve finalizar os pareceres sobre os sete supermercados autuados pelo Procon dentro de uma semana . Os autuados foram : O Barateiro , Carrefour , Pão de Açúcar , Cândia , Extra , Eldorado e Paes Mendonça . Eles teriam vendido em março acima da média dos últimos quatro meses de 93 . Os supermercadistas apresentaram defesa . Averiguação As empresas de vale-refeição deverão ser alvo de um processo de averiguação preliminar feito pelo governo . Em representação entregue ontem ao Ministério da Justiça , elas foram acusadas de terem formado cartel para aumentar em até 200 % a taxa cobrada pelos seus serviços . A representação foi encaminhada pelo comerciante paulista Ronaldo Cheguri de Almeida , em nome de cerca de 300 donos de bares e restaurantes de São Paulo . "^^xsd:string .
+
+<http://linguateca.pt/harem#char=1455,1464>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "São Paulo"^^xsd:string ;
+        nif:beginIndex        "1455"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1464"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1467> .
+
+<http://linguateca.pt/harem#char=1268,1273>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "200 %"^^xsd:string ;
+        nif:beginIndex        "1268"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1273"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1467> .
+
+<http://linguateca.pt/harem#char=977,979>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "93"^^xsd:string ;
+        nif:beginIndex        "977"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "979"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1467> .
+
+<http://linguateca.pt/harem#char=1409,1421>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "cerca de 300"^^xsd:string ;
+        nif:beginIndex        "1409"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1421"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1467> .
+
+<http://linguateca.pt/harem#char=191,193>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "16"^^xsd:string ;
+        nif:beginIndex        "191"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "193"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1467> .
+
+<http://linguateca.pt/harem#char=614,616>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "23"^^xsd:string ;
+        nif:beginIndex        "614"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "616"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1467> .
+
+<http://linguateca.pt/harem#char=208,219>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "27 de junho"^^xsd:string ;
+        nif:beginIndex        "208"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "219"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1467> .
+
+<http://linguateca.pt/harem#char=821,830>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Barateiro"^^xsd:string ;
+        nif:beginIndex        "821"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "830"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1467> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=78,94>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Reportagem Local"^^xsd:string ;
+        nif:beginIndex        "78"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "94"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1467> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=157,159>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "62"^^xsd:string ;
+        nif:beginIndex        "157"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "159"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1467> .
+
+<http://linguateca.pt/harem#char=833,842>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Carrefour"^^xsd:string ;
+        nif:beginIndex        "833"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "842"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1467> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=97,102>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Sunab"^^xsd:string ;
+        nif:beginIndex        "97"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "102"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1467> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=0,5>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Sunab"^^xsd:string ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1467> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1179,1200>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ministério da Justiça"^^xsd:string ;
+        nif:beginIndex        "1179"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1200"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1467> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=878,886>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Eldorado"^^xsd:string ;
+        nif:beginIndex        "878"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "886"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1467> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1369,1395>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ronaldo Cheguri de Almeida"^^xsd:string ;
+        nif:beginIndex        "1369"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1395"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1467> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=356,386>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Lei Antitruste ( nº 8.884/94 )"^^xsd:string ;
+        nif:beginIndex        "356"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "386"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1467> .
+
+<http://linguateca.pt/harem#char=52,72>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Sucursal de Brasília"^^xsd:string ;
+        nif:beginIndex        "52"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "72"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1467> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=663,698>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Procuradoria do Estado de São Paulo"^^xsd:string ;
+        nif:beginIndex        "663"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "698"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1467> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=870,875>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Extra"^^xsd:string ;
+        nif:beginIndex        "870"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "875"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1467> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=928,933>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "março"^^xsd:string ;
+        nif:beginIndex        "928"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "933"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1467> .
+
+<http://linguateca.pt/harem#char=222,232>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "8 de julho"^^xsd:string ;
+        nif:beginIndex        "222"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "232"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1467> .
+
+<http://linguateca.pt/harem#char=542,547>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Sunab"^^xsd:string ;
+        nif:beginIndex        "542"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "547"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1467> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=769,775>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Procon"^^xsd:string ;
+        nif:beginIndex        "769"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "775"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1467> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=889,902>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Paes Mendonça"^^xsd:string ;
+        nif:beginIndex        "889"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "902"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1467> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=105,147>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Superintendência Nacional de Abastecimento"^^xsd:string ;
+        nif:beginIndex        "105"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "147"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1467> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=845,858>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Pão de Açúcar"^^xsd:string ;
+        nif:beginIndex        "845"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "858"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1467> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=861,867>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Cândia"^^xsd:string ;
+        nif:beginIndex        "861"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "867"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1467> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .

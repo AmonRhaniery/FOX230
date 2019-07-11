@@ -1,0 +1,159 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=2947,2954>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Perales"^^xsd:string ;
+        nif:beginIndex        "2947"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2954"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3349> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1839,1843>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "DM64"^^xsd:string ;
+        nif:beginIndex        "1839"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1843"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3349> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=2674,2692>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Instituto Butantan"^^xsd:string ;
+        nif:beginIndex        "2674"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2692"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3349> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=2098,2104>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Brasil"^^xsd:string ;
+        nif:beginIndex        "2098"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2104"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3349> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=2602,2609>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Perales"^^xsd:string ;
+        nif:beginIndex        "2602"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2609"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3349> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=342,363>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Fundação Oswaldo Cruz"^^xsd:string ;
+        nif:beginIndex        "342"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "363"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3349> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=2698,2707>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "São Paulo"^^xsd:string ;
+        nif:beginIndex        "2698"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2707"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3349> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=332,339>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Fiocruz"^^xsd:string ;
+        nif:beginIndex        "332"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "339"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3349> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1830,1834>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "DM43"^^xsd:string ;
+        nif:beginIndex        "1830"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1834"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3349> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=691,704>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Jonas Perales"^^xsd:string ;
+        nif:beginIndex        "691"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "704"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3349> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1440,1444>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "DM43"^^xsd:string ;
+        nif:beginIndex        "1440"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1444"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3349> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3349>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "3349"^^xsd:nonNegativeInteger ;
+        nif:isString    "Há coisas que só a evolução faz para você . Por décadas os cientistas tiveram de quebrar a cabeça para criar antídotos contra o veneno das cobras . Agora , descobriram que uma solução potencialmente melhor foi \"desenvolvida\" ao longo de milhões de anos pelos gambás sul-americanos , que se alimentam de serpentes . Pesquisadores da Fiocruz ( Fundação Oswaldo Cruz ) identificaram duas moléculas no sangue dos gambás que têm essa função antiofídica e esperam utilizá-las não apenas para auxiliar quem sofre acidentes com cobras , mas também para tratar doenças humanas , como câncer e osteoartrite . \"Em testes in vitro , elas foram eficientes contra o câncer de mama , por exemplo\" , afirma Jonas Perales , do Laboratório de Toxinologia , que coordena os estudos . Perales , que é venezuelano , conta que a primeira pista sobre as substâncias antiofídicas veio da sabedoria popular de seu país . \"Na zona rural da Venezuela , as pessoas diziam que o gambá era resistente às picadas , mas não se sabia como\" , diz . Conforme as pesquisas progrediram , a equipe descobriu que a resistência não se estende só ao gambá propriamente dito , mas também às cuícas e outros parentes do animal , todos caçadores de cobras , que teriam tido vantagens em desenvolver tais defesas bioquímicas . Ao vasculhar o sangue dos animais em busca das moléculas responsáveis pela resistência , Perales e seus colegas chegaram a duas substâncias , conhecidas como DM43 e DM64 . São glicoproteínas ( grosso modo , proteínas unidas a uma forma de açúcar ) e , curiosamente , têm estrutura química parecida com a de substâncias do sistema de defesa do organismo , embora elas mesmas não sejam anticorpos . Não é impossível que o organismos dos gambás e afins tenha modificado substâncias já existentes para lidar com o desafio do veneno . Seja como for , a DM43 e a DM64 parecem especificamente talhadas para neutralizar os principais efeitos do veneno das serpentes da família das viperídeas , entre as quais se incluem as jararacas . As jararacas e afins são responsáveis por 90 % dos 20 mil acidentes anuais com cobras no Brasil . \"As substâncias são capazes de agir tanto contra o veneno de cobras sul-americanas quanto o de algumas asiáticas\" , diz Perales . A primeira molécula contra-ataca a ação das metaloproteases , compostos do veneno que causam forte hemorragia na vítima , enquanto a outra barra as substâncias que matam as células musculares de quem é picado . \"Cremos que elas seriam mais eficientes que os soros atuais para inibir tanto a atividade hemorrágica quanto a miotóxica [ que afeta os músculos ]\" , diz Perales . Para Ida Sano Martins , que estuda a fisiologia de venenos no Instituto Butantan , em São Paulo , a estratégia poderia vencer algumas limitações dos soros antiofídicos atuais . \"Mas o problema maior é o dano causado localmente logo depois da picada . Não adianta muito tentar neutralizá-lo depois que o tecido já foi alterado\" , diz . Perales e seus colegas também estão investigando a ação das substâncias contra doenças como o câncer . Motivo : algumas das mesmas moléculas do veneno de serpente parecem estar envolvidas nas doenças humanas . Segundo o pesquisador , a equipe inclusive pediu patentes sobre algumas dessas aplicações , mas , enquanto o pedido não for aprovado , Perales prefere não revelar exatamente do que se trata . "^^xsd:string .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=765,772>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Perales"^^xsd:string ;
+        nif:beginIndex        "765"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "772"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3349> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1447,1451>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "DM64"^^xsd:string ;
+        nif:beginIndex        "1447"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1451"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3349> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=2227,2234>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Perales"^^xsd:string ;
+        nif:beginIndex        "2227"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2234"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3349> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=710,736>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Laboratório de Toxinologia"^^xsd:string ;
+        nif:beginIndex        "710"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "736"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3349> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=3292,3299>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Perales"^^xsd:string ;
+        nif:beginIndex        "3292"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3299"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3349> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=914,923>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Venezuela"^^xsd:string ;
+        nif:beginIndex        "914"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "923"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3349> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1371,1378>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Perales"^^xsd:string ;
+        nif:beginIndex        "1371"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1378"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3349> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=2617,2633>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ida Sano Martins"^^xsd:string ;
+        nif:beginIndex        "2617"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2633"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3349> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .

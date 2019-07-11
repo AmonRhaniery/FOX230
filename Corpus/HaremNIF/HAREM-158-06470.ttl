@@ -1,0 +1,300 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=728,744>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Empreendedorismo"^^xsd:string ;
+        nif:beginIndex        "728"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "744"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1429> .
+
+<http://linguateca.pt/harem#char=148,153>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "R.J ."^^xsd:string ;
+        nif:beginIndex        "148"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "153"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1429> .
+
+<http://linguateca.pt/harem#char=465,512>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Sócia-Presidente do Grupo Full Jazz Comunicação"^^xsd:string ;
+        nif:beginIndex        "465"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "512"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1429> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=674,678>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "País"^^xsd:string ;
+        nif:beginIndex        "674"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "678"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1429> .
+
+<http://linguateca.pt/harem#char=288,307>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Maria Silvia Bastos"^^xsd:string ;
+        nif:beginIndex        "288"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "307"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1429> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=592,627>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Presidente da Franklin Covey Brasil"^^xsd:string ;
+        nif:beginIndex        "592"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "627"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1429> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=108,128>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Hotel Blue Tree Park"^^xsd:string ;
+        nif:beginIndex        "108"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "128"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1429> .
+
+<http://linguateca.pt/harem#char=440,464>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Christina Carvalho Pinto"^^xsd:string ;
+        nif:beginIndex        "440"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "464"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1429> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=562,575>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Investimentos"^^xsd:string ;
+        nif:beginIndex        "562"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "575"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1429> .
+
+<http://linguateca.pt/harem#char=52,80>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "K.L.A . Eventos Empresariais"^^xsd:string ;
+        nif:beginIndex        "52"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "80"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1429> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1243,1256>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Av . Paulista"^^xsd:string ;
+        nif:beginIndex        "1243"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1256"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1429> .
+
+<http://linguateca.pt/harem#char=747,769>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Vantagens Competitivas"^^xsd:string ;
+        nif:beginIndex        "747"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "769"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1429> .
+
+<http://linguateca.pt/harem#char=383,397>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Quem Ama Educa"^^xsd:string ;
+        nif:beginIndex        "383"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "397"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1429> .
+
+<http://linguateca.pt/harem#char=793,817>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Planejamento Estratégico"^^xsd:string ;
+        nif:beginIndex        "793"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "817"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1429> .
+
+<http://linguateca.pt/harem#char=179,199>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Luiza Helena Trajano"^^xsd:string ;
+        nif:beginIndex        "179"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "199"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1429> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=234,249>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Alberto Saraiva"^^xsd:string ;
+        nif:beginIndex        "234"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "249"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1429> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=820,829>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Liderança"^^xsd:string ;
+        nif:beginIndex        "820"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "829"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1429> .
+
+<http://linguateca.pt/harem#char=280,287>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "HabibŽs"^^xsd:string ;
+        nif:beginIndex        "280"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "287"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1429> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1158,1172>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Blue Tree Park"^^xsd:string ;
+        nif:beginIndex        "1158"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1172"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1429> .
+
+<http://linguateca.pt/harem#char=1173,1187>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Angra dos Reis"^^xsd:string ;
+        nif:beginIndex        "1173"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1187"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1429> .
+
+<http://linguateca.pt/harem#char=963,967>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "País"^^xsd:string ;
+        nif:beginIndex        "963"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "967"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1429> .
+
+<http://linguateca.pt/harem#char=832,849>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Gestão de Pessoas"^^xsd:string ;
+        nif:beginIndex        "832"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "849"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1429> .
+
+<http://linguateca.pt/harem#char=356,366>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Içami Tiba"^^xsd:string ;
+        nif:beginIndex        "356"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "366"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1429> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1015,1037>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Angra dos Reis - R.J ."^^xsd:string ;
+        nif:beginIndex        "1015"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1037"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1429> .
+
+<http://linguateca.pt/harem#char=772,790>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Marketing e Marcas"^^xsd:string ;
+        nif:beginIndex        "772"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "790"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1429> .
+
+<http://linguateca.pt/harem#char=154,167>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "João Dória Jr"^^xsd:string ;
+        nif:beginIndex        "154"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "167"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1429> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=997,1011>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Blue Tree Park"^^xsd:string ;
+        nif:beginIndex        "997"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1011"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1429> .
+
+<http://linguateca.pt/harem#char=400,416>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Famili Schurmann"^^xsd:string ;
+        nif:beginIndex        "400"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "416"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1429> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=200,233>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Superintendente do Magazine Luiza"^^xsd:string ;
+        nif:beginIndex        "200"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "233"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1429> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1271,1280>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "São Paulo"^^xsd:string ;
+        nif:beginIndex        "1271"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1280"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1429> .
+
+<http://linguateca.pt/harem#char=0,1429>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1429"^^xsd:nonNegativeInteger ;
+        nif:isString    "O Maior Encontro de Empresários do PaisDivulgação - K.L.A . Eventos Empresariais [ kla@emailserver.com.br ] Hotel Blue Tree Park - Angra dos Reis - R.J . João Dória Jr entrevista Luiza Helena Trajano Superintendente do Magazine Luiza Alberto Saraiva Fundador e Presidente da rede HabibŽs Maria Silvia Bastos Ex-Presidente da Companhia Siderúrgica Nacional Içami Tiba Autor do Livro« Quem Ama Educa » Famili Schurmann Família de Velejadores Christina Carvalho Pinto Sócia-Presidente do Grupo Full Jazz Comunicação Prof . Mauro Halfeld Colunista e Autor do livro« Investimentos » Paulo Kretley Presidente da Franklin Covey Brasil Conhecimento : 8 dos maiores especialistas do País trazem até você as mais modernas tendências em : Empreendedorismo , Vantagens Competitivas , Marketing e Marcas , Planejamento Estratégico , Liderança , Gestão de Pessoas .Negócios : Grande oportunidade para gerar negócios e novas parcerias com 500 empresários e executivos de todo o País .Lazer : Um mundo à parte no Blue Tree Park em Angra dos Reis - R.J . : quadras de tênis , ski aquático , vela , fitness , shows noturnos , tudo isso e muito mais . 2 a 5 de outubro de 2003 Blue Tree Park Angra dos Reis - R.J.Gostaria de receber mais informações?clique aqui Av . Paulista , 1159 conj . São Paulo - SPVocê está recebendo este e-mail gratuito através da conta projecto@informatics.sintef.no.Para cancelar o recebimento de mensagens clique aqui . "^^xsd:string .
+
+<http://linguateca.pt/harem#char=1137,1157>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "5 de outubro de 2003"^^xsd:string ;
+        nif:beginIndex        "1137"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1157"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1429> .
+
+<http://linguateca.pt/harem#char=131,145>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Angra dos Reis"^^xsd:string ;
+        nif:beginIndex        "131"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "145"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1429> .
+
+<http://linguateca.pt/harem#char=261,271>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Presidente"^^xsd:string ;
+        nif:beginIndex        "261"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "271"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1429> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=513,533>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Prof . Mauro Halfeld"^^xsd:string ;
+        nif:beginIndex        "513"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "533"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1429> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=578,591>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Paulo Kretley"^^xsd:string ;
+        nif:beginIndex        "578"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "591"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1429> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=924,927>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "500"^^xsd:string ;
+        nif:beginIndex        "924"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "927"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1429> .
+
+<http://linguateca.pt/harem#char=643,644>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "8"^^xsd:string ;
+        nif:beginIndex        "643"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "644"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1429> .
+
+<http://linguateca.pt/harem#char=1133,1134>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "2"^^xsd:string ;
+        nif:beginIndex        "1133"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1134"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1429> .
+
+<http://linguateca.pt/harem#char=308,355>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ex-Presidente da Companhia Siderúrgica Nacional"^^xsd:string ;
+        nif:beginIndex        "308"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "355"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1429> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .

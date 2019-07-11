@@ -1,0 +1,241 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=315,339>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "chanceler Andrei Kozirev"^^xsd:string ;
+        nif:beginIndex        "315"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "339"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1501> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1494,1498>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1991"^^xsd:string ;
+        nif:beginIndex        "1494"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1498"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1501> .
+
+<http://linguateca.pt/harem#char=519,526>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Genebra"^^xsd:string ;
+        nif:beginIndex        "519"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "526"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1501> .
+
+<http://linguateca.pt/harem#char=190,194>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Otan"^^xsd:string ;
+        nif:beginIndex        "190"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "194"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1501> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1152,1160>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Karadzic"^^xsd:string ;
+        nif:beginIndex        "1152"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1160"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1501> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1112,1126>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "União Européia"^^xsd:string ;
+        nif:beginIndex        "1112"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1126"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1501> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1289,1295>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Sérvia"^^xsd:string ;
+        nif:beginIndex        "1289"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1295"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1501> .
+
+<http://linguateca.pt/harem#char=731,735>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Otan"^^xsd:string ;
+        nif:beginIndex        "731"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "735"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1501> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=293,296>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "ONU"^^xsd:string ;
+        nif:beginIndex        "293"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "296"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1501> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1361,1368>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Croácia"^^xsd:string ;
+        nif:beginIndex        "1361"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1368"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1501> .
+
+<http://linguateca.pt/harem#char=34,40>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Moscou"^^xsd:string ;
+        nif:beginIndex        "34"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "40"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1501> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=0,6>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Rússia"^^xsd:string ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "6"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1501> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=112,119>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Genebra"^^xsd:string ;
+        nif:beginIndex        "112"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "119"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1501> .
+
+<http://linguateca.pt/harem#char=1088,1095>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Genebra"^^xsd:string ;
+        nif:beginIndex        "1088"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1095"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1501> .
+
+<http://linguateca.pt/harem#char=160,166>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Rússia"^^xsd:string ;
+        nif:beginIndex        "160"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "166"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1501> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=529,534>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Suíça"^^xsd:string ;
+        nif:beginIndex        "529"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "534"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1501> .
+
+<http://linguateca.pt/harem#char=1341,1347>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Zagreb"^^xsd:string ;
+        nif:beginIndex        "1341"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1347"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1501> .
+
+<http://linguateca.pt/harem#char=984,992>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Sarajevo"^^xsd:string ;
+        nif:beginIndex        "984"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "992"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1501> .
+
+<http://linguateca.pt/harem#char=0,1501>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1501"^^xsd:nonNegativeInteger ;
+        nif:isString    "Rússia já aceita ataque a sérvios Moscou diz que ação seria'último recurso' ; beligerantes voltam a negociar em Genebra Das agências internacionaisO governo da Rússia vai apoiar uma ação da Otan contra as posições sérvias ao redor de Sarajevo «como último recurso , para defender as tropas da ONU » , disse ontem o chanceler Andrei Kozirev .Ele acrescentou , porém , que o Conselho de Segurança da ONU deve ser consultado antes de qualquer ataque.Sérvios , croatas e muçulmanos retomaram ontem as negociações de paz em Genebra ( Suíça ) , a sete dias do fim do prazo dado pela Otan para que os sérvios retirem sua artilharia de Sarajevo .Os sérvios acusaram os muçulmanos de «má-fé» nas negociações para provocar os bombardeios da Otan .A aliança militar ocidental decidiu quarta-feira passada dar um ultimato aos sérvios da Bósnia para que recuem sua artilharia a no mínimo 20 km do centro de Sarajevo até a zero hora do dia 20 , sob pena de sofrerem ataques aéreos.O cessar-fogo em Sarajevo , acertado entre muçulmanos e sérvios na quarta-feira , também parecia estar sendo cumprido.Em Genebra , o mediador da União Européia , lorde Owen , disse que Karadzic aceitou o plano de união entre as três repúblicas que surgiriam da divisão da Bósnia .RelaçõesO vice-presidente da Iugoslávia ( Sérvia e Montenegro ) , Zeljiko Simic , foi ontem a Zagreb ( capital da Croácia ) , na primeira visita de um dirigente iugoslavo à antiga república da federação desde a guerra de independência croata , em 1991 . "^^xsd:string .
+
+<http://linguateca.pt/harem#char=577,581>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Otan"^^xsd:string ;
+        nif:beginIndex        "577"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "581"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1501> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1276,1286>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Iugoslávia"^^xsd:string ;
+        nif:beginIndex        "1276"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1286"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1501> .
+
+<http://linguateca.pt/harem#char=1313,1326>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Zeljiko Simic"^^xsd:string ;
+        nif:beginIndex        "1313"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1326"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1501> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=875,880>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "20 km"^^xsd:string ;
+        nif:beginIndex        "875"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "880"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1501> .
+
+<http://linguateca.pt/harem#char=234,242>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Sarajevo"^^xsd:string ;
+        nif:beginIndex        "234"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "242"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1501> .
+
+<http://linguateca.pt/harem#char=1298,1308>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Montenegro"^^xsd:string ;
+        nif:beginIndex        "1298"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1308"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1501> .
+
+<http://linguateca.pt/harem#char=1239,1245>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Bósnia"^^xsd:string ;
+        nif:beginIndex        "1239"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1245"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1501> .
+
+<http://linguateca.pt/harem#char=926,928>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "20"^^xsd:string ;
+        nif:beginIndex        "926"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "928"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1501> .
+
+<http://linguateca.pt/harem#char=373,401>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Conselho de Segurança da ONU"^^xsd:string ;
+        nif:beginIndex        "373"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "401"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1501> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=825,831>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Bósnia"^^xsd:string ;
+        nif:beginIndex        "825"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "831"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1501> .
+
+<http://linguateca.pt/harem#char=1129,1139>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "lorde Owen"^^xsd:string ;
+        nif:beginIndex        "1129"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1139"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1501> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=894,902>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Sarajevo"^^xsd:string ;
+        nif:beginIndex        "894"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "902"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1501> .
+
+<http://linguateca.pt/harem#char=628,636>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Sarajevo"^^xsd:string ;
+        nif:beginIndex        "628"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "636"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1501> .

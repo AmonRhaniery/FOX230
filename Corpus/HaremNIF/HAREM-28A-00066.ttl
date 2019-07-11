@@ -1,0 +1,858 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=21615,21620>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Perus"^^xsd:string ;
+        nif:beginIndex        "21615"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "21620"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> .
+
+<http://linguateca.pt/harem#char=21434,21441>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "janeiro"^^xsd:string ;
+        nif:beginIndex        "21434"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "21441"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> .
+
+<http://linguateca.pt/harem#char=18060,18067>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Marília"^^xsd:string ;
+        nif:beginIndex        "18060"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "18067"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> .
+
+<http://linguateca.pt/harem#char=1913,1919>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Brasil"^^xsd:string ;
+        nif:beginIndex        "1913"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1919"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> .
+
+<http://linguateca.pt/harem#char=16861,16894>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Professor Osvaldo Diniz Magalhães"^^xsd:string ;
+        nif:beginIndex        "16861"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "16894"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=298,315>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Central do Brasil"^^xsd:string ;
+        nif:beginIndex        "298"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "315"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> .
+
+<http://linguateca.pt/harem#char=11459,11468>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Beethoven"^^xsd:string ;
+        nif:beginIndex        "11459"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "11468"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=10216,10228>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Doutor Lopes"^^xsd:string ;
+        nif:beginIndex        "10216"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "10228"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=16368,16377>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "São Paulo"^^xsd:string ;
+        nif:beginIndex        "16368"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "16377"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> .
+
+<http://linguateca.pt/harem#char=2578,2588>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Itaporanga"^^xsd:string ;
+        nif:beginIndex        "2578"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2588"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> .
+
+<http://linguateca.pt/harem#char=12928,12957>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Escola Normal Livre de Agudos"^^xsd:string ;
+        nif:beginIndex        "12928"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "12957"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> .
+
+<http://linguateca.pt/harem#char=993,1000>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Marília"^^xsd:string ;
+        nif:beginIndex        "993"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1000"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> .
+
+<http://linguateca.pt/harem#char=4405,4414>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "São Paulo"^^xsd:string ;
+        nif:beginIndex        "4405"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4414"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> .
+
+<http://linguateca.pt/harem#char=2374,2384>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Itaporanga"^^xsd:string ;
+        nif:beginIndex        "2374"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2384"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> .
+
+<http://linguateca.pt/harem#char=365,372>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Central"^^xsd:string ;
+        nif:beginIndex        "365"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "372"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> .
+
+<http://linguateca.pt/harem#char=14021,14025>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Dops"^^xsd:string ;
+        nif:beginIndex        "14021"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "14025"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> .
+
+<http://linguateca.pt/harem#char=17262,17270>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "120 anos"^^xsd:string ;
+        nif:beginIndex        "17262"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "17270"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> .
+
+<http://linguateca.pt/harem#char=16146,16154>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Amazonas"^^xsd:string ;
+        nif:beginIndex        "16146"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "16154"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> .
+
+<http://linguateca.pt/harem#char=15133,15140>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Prestes"^^xsd:string ;
+        nif:beginIndex        "15133"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "15140"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=225,246>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Arlete Lopes Crispino"^^xsd:string ;
+        nif:beginIndex        "225"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "246"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> .
+
+<http://linguateca.pt/harem#char=21023,21038>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Avenida Pompéia"^^xsd:string ;
+        nif:beginIndex        "21023"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "21038"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> .
+
+<http://linguateca.pt/harem#char=258,267>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Pinheiros"^^xsd:string ;
+        nif:beginIndex        "258"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "267"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> .
+
+<http://linguateca.pt/harem#char=20359,20374>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Romeu e Julieta"^^xsd:string ;
+        nif:beginIndex        "20359"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "20374"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=16099,16103>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ford"^^xsd:string ;
+        nif:beginIndex        "16099"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "16103"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=16906,16909>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Rio"^^xsd:string ;
+        nif:beginIndex        "16906"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "16909"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> .
+
+<http://linguateca.pt/harem#char=17535,17550>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Pico do Jaraguá"^^xsd:string ;
+        nif:beginIndex        "17535"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "17550"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> .
+
+<http://linguateca.pt/harem#char=18261,18283>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Tênis Clube de Marília"^^xsd:string ;
+        nif:beginIndex        "18261"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "18283"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> .
+
+<http://linguateca.pt/harem#char=17860,17867>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Marília"^^xsd:string ;
+        nif:beginIndex        "17860"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "17867"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> .
+
+<http://linguateca.pt/harem#char=6469,6478>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "São Paulo"^^xsd:string ;
+        nif:beginIndex        "6469"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "6478"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> .
+
+<http://linguateca.pt/harem#char=3086,3093>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Marília"^^xsd:string ;
+        nif:beginIndex        "3086"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3093"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> .
+
+<http://linguateca.pt/harem#char=11480,11485>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Lizst"^^xsd:string ;
+        nif:beginIndex        "11480"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "11485"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=4597,4604>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Getúlio"^^xsd:string ;
+        nif:beginIndex        "4597"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4604"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=4019,4026>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Marília"^^xsd:string ;
+        nif:beginIndex        "4019"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4026"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> .
+
+<http://linguateca.pt/harem#char=3547,3556>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "São Paulo"^^xsd:string ;
+        nif:beginIndex        "3547"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3556"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> .
+
+<http://linguateca.pt/harem#char=15275,15288>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Dona Joelfina"^^xsd:string ;
+        nif:beginIndex        "15275"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "15288"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1753,1759>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Paraná"^^xsd:string ;
+        nif:beginIndex        "1753"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1759"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> .
+
+<http://linguateca.pt/harem#char=1922,1926>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1920"^^xsd:string ;
+        nif:beginIndex        "1922"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1926"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> .
+
+<http://linguateca.pt/harem#char=20521,20530>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Desdêmona"^^xsd:string ;
+        nif:beginIndex        "20521"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "20530"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=16259,16265>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Brasil"^^xsd:string ;
+        nif:beginIndex        "16259"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "16265"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> .
+
+<http://linguateca.pt/harem#char=1476,1490>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Rio de Janeiro"^^xsd:string ;
+        nif:beginIndex        "1476"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1490"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> .
+
+<http://linguateca.pt/harem#char=518,523>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Guará"^^xsd:string ;
+        nif:beginIndex        "518"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "523"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> .
+
+<http://linguateca.pt/harem#char=3027,3036>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Itaporaga"^^xsd:string ;
+        nif:beginIndex        "3027"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3036"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> .
+
+<http://linguateca.pt/harem#char=1976,1982>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Queluz"^^xsd:string ;
+        nif:beginIndex        "1976"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1982"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> .
+
+<http://linguateca.pt/harem#char=21370,21373>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Iná"^^xsd:string ;
+        nif:beginIndex        "21370"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "21373"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=11184,11200>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Regina Epingauss"^^xsd:string ;
+        nif:beginIndex        "11184"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "11200"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> .
+
+<http://linguateca.pt/harem#char=455,464>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Pinheiros"^^xsd:string ;
+        nif:beginIndex        "455"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "464"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> .
+
+<http://linguateca.pt/harem#char=11250,11257>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "21 anos"^^xsd:string ;
+        nif:beginIndex        "11250"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "11257"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> .
+
+<http://linguateca.pt/harem#char=4133,4150>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Revolução de 1930"^^xsd:string ;
+        nif:beginIndex        "4133"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4150"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> .
+
+<http://linguateca.pt/harem#char=12951,12957>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Agudos"^^xsd:string ;
+        nif:beginIndex        "12951"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "12957"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> .
+
+<http://linguateca.pt/harem#char=16600,16609>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "São Paulo"^^xsd:string ;
+        nif:beginIndex        "16600"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "16609"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> .
+
+<http://linguateca.pt/harem#char=9725,9734>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "São Paulo"^^xsd:string ;
+        nif:beginIndex        "9725"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "9734"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> .
+
+<http://linguateca.pt/harem#char=21417,21422>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "julho"^^xsd:string ;
+        nif:beginIndex        "21417"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "21422"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> .
+
+<http://linguateca.pt/harem#char=5260,5266>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Agudos"^^xsd:string ;
+        nif:beginIndex        "5260"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5266"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> .
+
+<http://linguateca.pt/harem#char=16313,16319>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Brasil"^^xsd:string ;
+        nif:beginIndex        "16313"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "16319"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> .
+
+<http://linguateca.pt/harem#char=18246,18257>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Domingueira"^^xsd:string ;
+        nif:beginIndex        "18246"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "18257"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> .
+
+<http://linguateca.pt/harem#char=1674,1683>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Pinheiros"^^xsd:string ;
+        nif:beginIndex        "1674"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1683"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> .
+
+<http://linguateca.pt/harem#char=21520,21529>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "São Paulo"^^xsd:string ;
+        nif:beginIndex        "21520"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "21529"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> .
+
+<http://linguateca.pt/harem#char=20109,20122>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Dalva Sentini"^^xsd:string ;
+        nif:beginIndex        "20109"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "20122"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> .
+
+<http://linguateca.pt/harem#char=17611,17617>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Santos"^^xsd:string ;
+        nif:beginIndex        "17611"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "17617"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> .
+
+<http://linguateca.pt/harem#char=4563,4570>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Getúlio"^^xsd:string ;
+        nif:beginIndex        "4563"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4570"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=20174,20188>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Gláucia Amaral"^^xsd:string ;
+        nif:beginIndex        "20174"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "20188"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=11471,11477>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Mozart"^^xsd:string ;
+        nif:beginIndex        "11471"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "11477"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=9903,9910>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Marília"^^xsd:string ;
+        nif:beginIndex        "9903"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "9910"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> .
+
+<http://linguateca.pt/harem#char=15208,15228>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Doutor Samuel Pessoa"^^xsd:string ;
+        nif:beginIndex        "15208"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "15228"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=17743,17757>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "98 anos e meio"^^xsd:string ;
+        nif:beginIndex        "17743"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "17757"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> .
+
+<http://linguateca.pt/harem#char=9199,9203>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "João"^^xsd:string ;
+        nif:beginIndex        "9199"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "9203"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=742,763>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "lá para os 5 , 6 anos"^^xsd:string ;
+        nif:beginIndex        "742"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "763"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> .
+
+<http://linguateca.pt/harem#char=19237,19246>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "São Paulo"^^xsd:string ;
+        nif:beginIndex        "19237"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "19246"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> .
+
+<http://linguateca.pt/harem#char=2291,2297>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Paraná"^^xsd:string ;
+        nif:beginIndex        "2291"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2297"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> .
+
+<http://linguateca.pt/harem#char=19086,19093>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "16 anos"^^xsd:string ;
+        nif:beginIndex        "19086"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "19093"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> .
+
+<http://linguateca.pt/harem#char=20775,20790>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Céu Cor de Rosa"^^xsd:string ;
+        nif:beginIndex        "20775"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "20790"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> .
+
+<http://linguateca.pt/harem#char=21389,21394>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Odila"^^xsd:string ;
+        nif:beginIndex        "21389"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "21394"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=18537,18548>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Domingueira"^^xsd:string ;
+        nif:beginIndex        "18537"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "18548"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> .
+
+<http://linguateca.pt/harem#char=9554,9556>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "44"^^xsd:string ;
+        nif:beginIndex        "9554"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "9556"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> .
+
+<http://linguateca.pt/harem#char=17977,17982>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Odila"^^xsd:string ;
+        nif:beginIndex        "17977"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "17982"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=20081,20093>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "miss Marília"^^xsd:string ;
+        nif:beginIndex        "20081"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "20093"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=14754,14756>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "45"^^xsd:string ;
+        nif:beginIndex        "14754"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "14756"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> .
+
+<http://linguateca.pt/harem#char=10123,10135>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Doutor Lopes"^^xsd:string ;
+        nif:beginIndex        "10123"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "10135"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=20416,20434>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Aberlado e Heloísa"^^xsd:string ;
+        nif:beginIndex        "20416"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "20434"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=14179,14189>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Caio Prado"^^xsd:string ;
+        nif:beginIndex        "14179"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "14189"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=10231,10244>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Dona Elisinha"^^xsd:string ;
+        nif:beginIndex        "10231"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "10244"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=14,35>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Arlete Lopes Crispino"^^xsd:string ;
+        nif:beginIndex        "14"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "35"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=21350,21360>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Miss Brown"^^xsd:string ;
+        nif:beginIndex        "21350"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "21360"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=577,594>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Central do Brasil"^^xsd:string ;
+        nif:beginIndex        "577"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "594"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> .
+
+<http://linguateca.pt/harem#char=12861,12867>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Agudos"^^xsd:string ;
+        nif:beginIndex        "12861"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "12867"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> .
+
+<http://linguateca.pt/harem#char=7446,7453>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Marília"^^xsd:string ;
+        nif:beginIndex        "7446"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "7453"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> .
+
+<http://linguateca.pt/harem#char=19127,19134>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "16 anos"^^xsd:string ;
+        nif:beginIndex        "19127"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "19134"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> .
+
+<http://linguateca.pt/harem#char=21637,21645>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Joelfina"^^xsd:string ;
+        nif:beginIndex        "21637"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "21645"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=14058,14078>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Presídio Maria Zélia"^^xsd:string ;
+        nif:beginIndex        "14058"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "14078"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> .
+
+<http://linguateca.pt/harem#char=21590,21600>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Casa Verde"^^xsd:string ;
+        nif:beginIndex        "21590"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "21600"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> .
+
+<http://linguateca.pt/harem#char=332,352>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "João de Araújo Lopes"^^xsd:string ;
+        nif:beginIndex        "332"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "352"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1324,1330>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Queluz"^^xsd:string ;
+        nif:beginIndex        "1324"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1330"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> .
+
+<http://linguateca.pt/harem#char=10149,10161>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Doutor Lopes"^^xsd:string ;
+        nif:beginIndex        "10149"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "10161"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=8266,8273>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Marília"^^xsd:string ;
+        nif:beginIndex        "8266"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "8273"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> .
+
+<http://linguateca.pt/harem#char=15118,15125>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Prestes"^^xsd:string ;
+        nif:beginIndex        "15118"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "15125"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=20554,20559>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Otelo"^^xsd:string ;
+        nif:beginIndex        "20554"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "20559"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=3054,3061>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Marília"^^xsd:string ;
+        nif:beginIndex        "3054"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3061"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> .
+
+<http://linguateca.pt/harem#char=7831,7838>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Marília"^^xsd:string ;
+        nif:beginIndex        "7831"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "7838"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> .
+
+<http://linguateca.pt/harem#char=398,426>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Elisa de Souza Valente Lopes"^^xsd:string ;
+        nif:beginIndex        "398"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "426"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=17558,17570>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Guarapiranga"^^xsd:string ;
+        nif:beginIndex        "17558"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "17570"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> .
+
+<http://linguateca.pt/harem#char=0,21677>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "21677"^^xsd:nonNegativeInteger ;
+        nif:isString    "Depoimento de Arlete Lopes Crispino P - Vamos começar , a senhora diga o seu nome completo , lugar onde a senhora nasceu , quando e nome dos seus pais , seus avós e , se possível , onde eles nasceram . R- Então , eu me chamo Arlete Lopes Crispino , nasci em Pinheiros , numa cidade pequenininha na Central do Brasil . Meus pais são João de Araújo Lopes , também da Central , da cidade de Resende e Elisa de Souza Valente Lopes , nascida em uma fazenda em Pinheiros e criada em pinheiros também . Depois ela estudou em Guará , viveram muito tempo na Central , naquela cidade da Central do Brasil . P - Conta alguma coisa da sua família : como foi sua infância , seus pais,seus irmãos , sua casa . R- A gente começa a ter lembrança da infância lá para os 5 , 6 anos . Antes não me recordo das coisas , sei das coisas porque minha mãe teve sempre o hábito do diário , então a gente sabe o que aconteceu na vida toda porque o diário dela é da vida inteira , mas da minha lembrança mesmo começa em Marília . Uma infância cheia de dificuldades porque meus pais tiveram muitos filhos e ele era um homem assim muito aventureiro ; ele tinha uma profissão mas ele se interessava por tudo , queria estar em todos os lugares ; então quando ele se casou com minha mãe ele era farmacêutico formado , então os primeiros filhos nasceram em Queluz onde ele tinha duas farmácias e uma posição muito boa . Minha mãe logo deixou de lecionar porque ele quis fazer o curso de medicina e foi para o Rio de Janeiro fazer o curso de medicina , então ela parou de lecionar , deixou a cadeira dela . Ele fez o curso de medicina , lá a família cresceu mais um pouco e depois de formado ele voltou para Pinheiros , que era a terra dela e um pouco dele também , aí comprou terras no Paraná , ele queria ser fazendeiro . Tinha idéias avançadas ; ele foi dono de uma fábrica de latas , que naquele tempo a lata era o máximo , estava entrando no Brasil , 1920 , antes até , ele foi dono do primeiro jornal de Queluz , que ele queria fazer circular as notícias , mas a cidade era tão pequena que antes do jornal ficar pronto , todo mundo já sabia de tudo . Assim ele se aventurou por muitas coisas e quando ele comprou a fazenda , ele praticamente largou a medicina e foi se dedicar a fazenda . Mas a fazenda era no norte do Paraná e eles então se mudaram para lá , foram morar em uma cidade pequena chamada Itaporanga ; lá a mamãe recomeçou a lecionar porque ela viu que ele se dedicava tanto a fazenda , ele se pegava tanto com aquilo que não dava , né , então ela voltou a lecionar . Então quando eu fui para Itaporanga eu fui no colo , tinha 2 anos . Lá mamãe teve mais filhos e ele sempre tudo o que ele ganhava , porque ele atendia também , a medicina , não é que ele abandonou de uma vez , mas ele se dedicava mais a fazenda e nesse tempo ele começou a ler sobre cooperativismo e queria fazer cooperativa então minha mãe sempre ali com o ordenado dela sustentando a família e ele com as fantasias dele . Ele ia fazendo tudo , ele queria tudo e depois de Itaporaga nós mudamos para Marília em 1929 , que não era a Marília de hoje , era uma coisinha . Não tinha calçamento , não tinha água encanada , luz elétrica já tinha e fomos para lá e a família aumentando , porque mamãe teve ao todo 13 filhos , né , e ele ali se firmou um pouquinho mais , mas sempre com aquelas idéias que ele externava muito de cooperativismo , ele já passou para socialismo e com o tempo ele ficou sendo o comodista ( comunista? ) da cidade . Então a toda hora ele era detido , era encaminhado para São Paulo e minha mãe lecionando e a família grande , a família grande . Mas a gente era criança e a vida para gente ótima , porque tinha o pai , tinha a mãe ; as vezes o pai viajava , né , entre aspas , se ausentava , depois voltava e a vida da gente era boa , alegre , a casa cheia de criança , muitos amigos , muita criançada em volta , mamãe sempre lecionando , muito querida . Então assim foi . Da primeira casinha que nós moramos , que era de tijolo , coisa rara em Marília , passamos para uma grande casa de madeira e lá ele pôs o consultório e até ia indo muito bem . Aí veio a Revolução de 1930 e depois a de 32 , né , então ele sempre comentava com a família o avanço das tropas legalistas , os paulistas se afastando , ele marcava no mapa e comentava tudo ; olha , não sei porque , ele ficou mal visto e foi preso pela primeira vez lá e veio para São Paulo e daí para cá ele foi diversas vezes detido e a mamãe sempre firme com a família , todo mundo estudou e ele nesse vai e vem . Foi assim no tempo do Getúlio também , foi ...depois do Getúlio , negócio de intentona , aquelas coisas todas , né ; e ele finalmente... caiu em ciladas , assim , até te contei , de porem material dentro do consultório dele e quando ele abriu a porta viu aquele material lá , não deu tempo de sair porque a policia entrou atrás dele , essas coisas injustas e tudo . Então nós éramos uma família visada de duas maneiras : muito respeitada , mas ao tempo assim , né , \"o pai deles é comunista\" , mas a mamãe nunca perdeu a linha dela , ela foi diretora em Marília do grupo escolar e todos fizeram o curso ginasial lá . Como não tinha mais nada para fazer lá , e a gente então fomos , uma a uma , fazendo escola normal em Agudos . Mas a vida para nós era muito boa , muito gostosa , porque mamãe não deixava faltar nada . Tinha uma vizinha nossa bem de família , bem economicamente , os pais tinham padaria , então ela adorava ir tomar lanche lá em casa porque todo dia tinha bolo de fubá , mamãe fazia bolo , ela achava que lá em casa tinha muito mais , né , mas a mamãe fazia da mão dela , né , naquele tempo punha o bolo em cima da chapa , punha a tampa em cima da panela e enchia de brasa em cima e ela sabia direitinho quando podia tirar a tampa e derrubar as brasas e o bolo já estava crescido ; quer dizer foi um tempo que não tinha nada , eu acho que hoje a vida é facílima , porque o que uma mulher tinha que trabalhar naquele tempo , né , de roupa para levar , para passar de ferro de brasa , eu passei muita roupa de ferro de brasa porque ela nos punha todas para trabalhar , e toca por brasa dentro do ferro e toca sacudir o ferro e toca soprar o ferro ; fazíamos todos esses trabalhos caseiros e ela bordava a roupa da gente , ela costurava a roupa da gente , então a gente estava sempre em ordem , mas ali , porque ela não perdia um minuto com outras coisas a não ser a família . Depois quando a gente veio aqui para São Paulo aí conhecemos o fogão elétrico , posteriormente o fogão a gás , nossa , quando a gente lembrava de Marília , o que era a vida dura , né , não tinha água encanada , a gente morava numa casa , essa casa de madeira , tirando água do poço , o poço até servia a nossa casa e a do vizinho ; tirando água do poço , enchendo tinas de água , carregando a água para cozinha , carregando a água para o chuveiro , que ele tinha uma cordinha , descia , o chuveiro era redondo e tinha um ralo em baixo por onde descia a água . Então quando enchia a água o ralo estava fechado aí a gente ia tomar banho e puxava o ralo pela cordinha , suspendia la qualquer coisa e a água descia pelo ralo ; a gente tomava banho de chuveiro , mas era um chuveiro improvisado , tudo improvisado . Então a gente conheceu a vida na forma mais dura , então acho que hoje a gente tem tudo , todos esses modernismos aí que veio em benefício da mulher , porque mulher sofria , viu ?(riso ) . Mas depois em Marília , depois de morarmos nessa casa grande tábua , papai começou a construir uma casa de tijolos e foi uma casa muito gostosa e ele teria sido o precursor das coisas , ele era muito para frente , sabe , por isso ele era inquieto . O quanto ele tinha de inquieto ela tinha de pé no chão para ali segurar as barras , né , então ele mandou já instalar canos e posteriormente , quando Marília recebeu água encanada , já estava em casa . Nessa casa também ele fez o poço e ao invés da gente puxar a água assim em balde , ele fez uma espécie de bomba , você sabe um filme de mocinho que eles bombam a água assim ? Então a gente bombava e cada um tinha que bombar um pouco e com isso enchia uma caixa alta que tinha no quintal e dessa caixa nos servia , então a gente já teve água encanada antes da água encanada chegar em Marília , que ele providenciava as coisas . Papai sempre que mudava para uma casa , a primeira preocupação dele era por um filtro de água para os filhos , os filhos tinham que ter tudo água filtrada , sempre uma preocupação assim . E dessa antecipação dele , então nós tivemos uma banheira dentro de casa , que erauma novidade também e também um sanitário , né , e lá fora tinha a fossa séptica então passava tudo pela fossa . Então ele foi assim , ele via as coisas , ele lia , se interessava , queria por em prática , ele vivia um pouquinho fora da época dele , adiantado . Mas a mamãe ali dentro sustentando tudo . P - Como é que ela enfrentava as situações ? R- Como ela enfrentava ? P - Principalmente quando seu pai... R- Com muita coragem , olha , com muita coragem . Eu me lembro dela falar muitas vezes assim : \" João , lembra nos seus filhos , deixa a situação mundial , pensa nos seus filhos . Você quer consertar o mundo João ? olha para os filhos !\" ( riso ) . Mas ele falava : \"o mundo é para eles , nós temos que consertar o mundo porque o mundo é para eles !\" . E eles ficavam assim , né , para acertar era difícil , porque ele via muito longe e ela via a família . Mas foi assim , mas a gente sempre admirou porque ele via mesmo na frente , quando nós mudamos para cá em 44 , ele já estava lendo muito sobre naturismo e falando muito de alimentação natural e ele teve , com uma pessoa que o ajudou , o primeiro restaurante naturista daqui de São Paulo . Comidas muito gostosa , mas não entrava carne , né , uma variedade enorme . Então tudo a gente vê que ele era na frente , ele era um precursor , sei lá . Agora lá em Marília a gente passou dificuldades , mas que eu criança não percebia . Comecei a perceber depois do ginásio que a gente era meio , olha , a gente não era excluída , não é , mais falavam assim : \"Ah , elas são filhas do Doutor Lopes .\" Falava em Doutor Lopes e todo mundo já sabia quem era . Então \"São filhas do Doutor Lopes e Dona Elisinha \" , que já era diretora naquele tempo lá , né , ela foi diretora substituta bastante tempo , ela nunca fez o concurso para direção ; naquele tempo punha-se assim para dirigir e ficava . E estudamos , né , eu ganhei um curso secundário grátis porque tinha sido uma boa aluna no quarto ano então recebi o diploma e recebi também a possibilidade de freqüentar o ginásio do estado sem pagar . E o ginásio , a gente tinha muita honra de freqüentar porque era um ginásio exigente , os professores começaram a modernizar o ensino , vamos dizer , né , o professor nos levando a noite para a parte de cima do colégio para a gente ver as estrelas , as constelações , localizar , localização de norte , sul , a criar laboratórios e a gente a freqüentar laboratórios , quer dizer , eram experiências simples , mas era uma novidade , era uma mudança no ensino , né ? Tivemos uma professora de música também maravilhosa , ela é viva até hoje , se chama Regina Epingauss ( ? ) , ela era moça , hoje eu sei que ela tinha 21 anos , mas para nós ela era uma senhora bonita , loira , filha de alemães e ela dava música de uma maneira completamente diferente . Ela levava trechos de óperas , árias , nos fazia pesquisar biografias de Beethoven , Mozart , Lizst , tudo e gente foi se interessando de tal maneira pela música que era uma matéria que a gente gostava , que ela levava uma vitrolinha , olha , porque naquele tempo era uma vitrola de dar corda , na sala de aula era uma coisa extraordinária . A professora de português também , que nos fazia ler livros e comentar livros e dizer dos personagens dos livros , era uma coisa tão diferente , era uma professora extraordinária também , se chamava Berta Camargo Vieira , uma coisa , nós a considerávamos uma sumidade . Ela providenciou a primeira biblioteca do ginásio com os alunos indo de casa em casa pedindo livros e a população dava os livros , né , e os livros eram depois os livros separados por matéria , por assunto , então foi organizado a primeira biblioteca , né e o todos os professores muito assim diferentes . O professor de química , gostaria de lembrar o nome dele , fazendo experiências com a gente...era , vamos dizer assim , uma palavra bem assim daquele tempo , era uma plêiade de professores muito bons , então a gente orgulho de estudar naquele ginásio . Que depois passou a ser estadual . Porque a gente comentava assim , quem não passa no nosso ginásio vai estudar no colégio das freiras . Então a gente tinha aquela coisa de criança , né, : nós estudamos numa escola mais exigente !\" Depois nos formamos e uma a uma minha mãe consegui que fosse estudar em Agudos , que era onde tinha uma escola normal livre que se chamava Escola Normal Livre de Agudos e era dirigida por freiras alemãs , essas freiras , a última delas morreu a pouco tempo , elas fizeram o ensino de Agudos , formaram olha , não sei quantas turmas de professoras&gt ; lá , né e eram muito modernas , vamos dizer também ; eram freiras que , aos sábados , punham o rádio para tocar no pátio interno e nós dançávamos . Isso era coisa que naquele tempo freira não fazia e elas nos deixavam a gente dançar , fazia carnaval , pulava . Elas nos levavam a chácaras para comer frutas , íamos em fila , nos tirávamos do internato então , porque éramos interna , eram freiras diferentes mesmo . Ficaram famosas na região porque eram muito abertas . Então esse tempo foi muito bom também para nós e então a vida foi passando e gente foi entendendo o porque daquela situação assim que antes nos envergonhava , mas depois deixou de envergonhar porque cada um tem o direito de pensar como pode , como quer e o meu pai pensava daquele jeito pelo bem de todos , ele pensava em todos , não pensava nele . Assim foi a vida dele , muitas vezes veio para cá , ficou no Dops que o trazia para cá , ficou no Presídio Maria Zélia , ali ele fezrelações , aí é que ele foi estudar a política , porque ele conheceu muita gente boa , Caio Prado , né , encaminhou ele a leituras muito boas , mas era uma vida de prisão . Então uma vez que meu pai ficou quase um ano e meio aqui , ele voltou gordo , a gente quase não reconheceu porque era ler , cantavam , jogavam dama , baralho , conversavam muito e as conversas eram muito instrutivas e ele cada vez foi se instruindo mais naquilo que ele era acusado sem dever , ele falava em cooperativismo , em socialismo e de repente ele tinha virado um comunista . P - Mas ele não militava assim , era só umas idéias ? R- Quando aqui o partido entrou na legalidade , em 45 , ele se aproximou mesmo do partido , porque aí ele já conhecia muita gente que ele tinha conhecido lá preso , sem conhecer , sem saber e durante os anos de legalidade , ele freqüentou , mas sempre com a recriminação da mamãe . Então quando caiu outras vez na ilegalidade , que foi Marechal Dutra que tirou a legalidade do partido , ali ele já era amigo até de Prestes , né , Prestes o visitou quando ele estava doente , tudo . Pessoas muito boas , o Doutor Samuel Pessoa , tudo gente boa , ele conheceu nessa época e Dona Joelfina ( ? ) foi muito boa também e então a gente tinha aquele receio , porque a mamãe não nos deixava , nesse ponto ela nos segurava . A gente admirava ele e via quantas coisas justas ele pensava , mas ao mesmo tempo não tinha coragem de aderir assim abertamente , né ? P - Ele conversava muito sobre política com vocês ? R- Nossa ! Ele lia os jornais : \"Vem aqui , vem aqui olha !\" e lia trechos ou passava em vermelho trechos e falava : \"Vocês precisam ler isto .\" E quando não nos fazia ouvir aquilo que ele estava lendo mesmo e falava : \"Vocês tem de ler as entrelinhas , não é só ler não , é pensar.\" E assim ele nos levou a um raciocínio que tudo que a gente lê agente fala \"o que será que tá nessas entrelinhas , tem coisa por aí\" . Me lembro quando a gente ainda mal entedia de nada ele falou : \"Olha aí , a Ford comprou uma concessão enorme de terras no Amazonas e assim que eles vão se apoderar das nossas terras !\" E agente então falava : \"Ah , já estão vendendo o Brasil \"( riso ) . Olha , tem tanta gente comprando o Brasil até hoje ( riso ) , não muda nada . P - Aqui em São Paulo ele continuou a mesma coisa ? R- Aqui ele se dedicou mais a medicina , bem mais , principalmente porque o naturismo deu muito retorno para ele . Ele criou também casa de banho a vapor , também nunca tinha ouvido falar que São Paulo tinha banho a vapor . Ele fez muito primitivamente , mas no consultório dele tinha banho a vapor . Então ele aliava o regime aos banhos a vapor , à ginástica , porque ele era um ginasta fervoroso , de fazer diariamente . Tinha um programa no rádio do Professor Osvaldo Diniz Magalhães , de lá do Rio , interessante ; ele fazia ginástica pelo rádio e ele nos acordava : \"Vamos , sai da cama , vocês ficam dormindo aí até tarde , vamos fazer ginástica !\" As vezes a gente acompanhava , as vezes tinha vindo de baile , não queria , mas ele sempre assim . Mas aqui ele se dedicou mais a medicina , bem mais e foi bem sucedido e tudo . E dizia que ia viver 120 anos ele dizia assim , tadinho : \"Vou enterrar vocês todos .\" Mas ele foi quase que com a idade que eu estou , ele foi com 68 anos , morreu de câncer . E ele se alimentava bem , ele não bebia , ele não fumava , ele ginasticava , ele fazia excursões , nos levava para o Pico do Jaraguá , para Guarapiranga , que naquele tempo não era nada , para Santos ; muita atividade que ele tinha e teve a doença fatal , né , e minha mãe que era magrinha , que lutava e tudo , viveu até os 98 anos e meio ( riso ) . Mas aqui então a vida , a gente já veio para cá recém formada , tivemos dias muito bons em Marília , a despedida de Marília foi uma festa que a gente fez em casa que coincidiu com o aniversário da minha irmã Odila , então foi uma festa que todo o pessoal do clube veio porque o que tinha em Marília ? Cinema , que nós íamos uma vez por semana só porque não tinha meios de mandar aquela turma toda ao cinema mais do que uma vez por semana ; baile , todos os domingos chamava-se Domingueira no Tênis Clube de Marília , a gente saia do cinema e aí fazia na avenida o footing , ficava que nem amostra , para lá e para cá , para lá e para cá e os moços parados , né , vendo as moças circularem e então a gente dava volta na avenida , era bem larga e após isso íamos para a Domingueira . A gente vinha sempre acompanhada de amigos , mamãe sempre perguntava \"com quem vocês voltar?\" e a gente falava com quem ia voltar e era aquela segurança absoluta porque eram moços , né , gente fina ( riso ) , não tinha perigo . Bailes que terminavam quatro da manhã também , saía-se , como hoje , a gente passava no bar , tomava café ou então comia pão fresco na padaria , mas ia para casa direitinho . \"vocês vieram com fulano?\" \"Viemos mamãe\" , pronto então estava tudo ok , né ? P - E os namoricos ? R- Os namoricos , saí de lá com 16 anos , naquele não namorava ainda com 16 anos . É porque aí eu fui interna , lá no internato é que eu comecei com namorico , e depois já fomos para São Paulo , mas eram namoros ...olha , tem sempre de tudo , né , a gente tinha aquela maneira da mamãe , que ela dava liberdade mas ao mesmo tempo ela cobrava , então a gente queria respeitar aquela liberdade que ela dava . Tinha de tudo né , tinha moças com mais liberdade , mas por exemplo , andar de namorado , de mão dada , de abraço , de beijo , mas nem sonhar ! Isso daí nem de jeito nenhum , isso daí foi bem depois e ainda com medida , ainda com bastante medida . Então esse último mês que a gente passou lá e fizemos a festa , que foi em casa e tudo , a vitrola ainda era vitrola de manivela , a gente dava corda e com sentia que a corda chegou , bom , aí punha os discos , punha a agulha , tocava ; tocava alguns discos aquela corda , depois renovava a corda . Mas foi muito gostosos , todos os moços foram , do Tênis , as amigas , a miss Marília que se chamava Dalva Sentini estava lá , uma outra que já tinha sido também , a Gláucia Amaral , todas as moças , porque a gente tinha muitas amizades . E no baile , agente distribuiu assim , para o moço e para a moça , o nome de amores famosos , vamos dizer assim Romeu e Julieta , Otelo e Desdêmona , que mais que tem ? Aberlado e Heloísa , esses amores famosos , né , e então um tinha que procurar o outro . se a moça era a Desdêmona , tinha que procurar o Otelo , né , e então depois que os pares se formaram , então teve a valsa e dançamos e tudo . Foi uma festa muito gostosa , eram essas festas inocentes que a gente fazia né , a música que deixou lembrança dessa festa foi Céu Cor de Rosa , uma música muito bonita , acho que nossa , naquele tempo não tinha isso de música estrangeira infiltrada aqui , né ? E depois então viemos para cá e aqui nós continuamos com essa tradição de festinhas em casa ; então essa casa da Avenida Pompéia , onde nós moramos 25 anos e que tinha um hall imenso , mas maior que isso só o hall era maior que isso e a sala de jantar maior que isso também , a gente fez muita festa lá . A gente era daquele tipo de moça do interior e fomos nos ambientando , devagarinho , devagarinho . Eu fui substituindo o grupo escolar Miss Brown , eu e a Iná , a minha irmã Odila logo , nós mudamos em julho e ela , em janeiro no ano seguinte , ela logo escolheu cadeira . Então ela não substitui aqui em São Paulo assim muito tempo e a gente substituíamos , era uma hora em Casa Verde , uma hora em Perus ( fim da fita ) Joelfina Mais uma palavra não decifrada "^^xsd:string .
+
+<http://linguateca.pt/harem#char=17389,17396>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "68 anos"^^xsd:string ;
+        nif:beginIndex        "17389"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "17396"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> .
+
+<http://linguateca.pt/harem#char=11927,11947>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Berta Camargo Vieira"^^xsd:string ;
+        nif:beginIndex        "11927"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "11947"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> .
+
+<http://linguateca.pt/harem#char=388,395>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Resende"^^xsd:string ;
+        nif:beginIndex        "388"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "395"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> .
+
+<http://linguateca.pt/harem#char=6578,6585>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Marília"^^xsd:string ;
+        nif:beginIndex        "6578"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "6585"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> .
+
+<http://linguateca.pt/harem#char=4165,4167>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "32"^^xsd:string ;
+        nif:beginIndex        "4165"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4167"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> .
+
+<http://linguateca.pt/harem#char=549,556>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Central"^^xsd:string ;
+        nif:beginIndex        "549"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "556"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> .
+
+<http://linguateca.pt/harem#char=20059,20064>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Tênis"^^xsd:string ;
+        nif:beginIndex        "20059"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "20064"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=17885,17892>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Marília"^^xsd:string ;
+        nif:beginIndex        "17885"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "17892"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> .
+
+<http://linguateca.pt/harem#char=3065,3069>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1929"^^xsd:string ;
+        nif:beginIndex        "3065"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3069"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> .
+
+<http://linguateca.pt/harem#char=9088,9092>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "João"^^xsd:string ;
+        nif:beginIndex        "9088"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "9092"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=2612,2618>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "2 anos"^^xsd:string ;
+        nif:beginIndex        "2612"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2618"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> .
+
+<http://linguateca.pt/harem#char=5095,5102>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Marília"^^xsd:string ;
+        nif:beginIndex        "5095"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5102"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> .
+
+<http://linguateca.pt/harem#char=21058,21065>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "25 anos"^^xsd:string ;
+        nif:beginIndex        "21058"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "21065"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> .
+
+<http://linguateca.pt/harem#char=3261,3263>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "13"^^xsd:string ;
+        nif:beginIndex        "3261"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3263"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> .
+
+<http://linguateca.pt/harem#char=15039,15053>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Marechal Dutra"^^xsd:string ;
+        nif:beginIndex        "15039"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "15053"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=20377,20394>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Otelo e Desdêmona"^^xsd:string ;
+        nif:beginIndex        "20377"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "20394"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,21677> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .

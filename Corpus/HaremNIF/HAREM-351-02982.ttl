@@ -1,0 +1,344 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=2232,2273>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "CotoNet - Tecnologias de Informação , Lda"^^xsd:string ;
+        nif:beginIndex        "2232"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2273"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2274> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1963,1966>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "TAC"^^xsd:string ;
+        nif:beginIndex        "1963"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1966"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2274> .
+
+<http://linguateca.pt/harem#char=1499,1515>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Rodrigo Maurício"^^xsd:string ;
+        nif:beginIndex        "1499"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1515"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2274> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1782,1812>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Tomografia Axial Computorizada"^^xsd:string ;
+        nif:beginIndex        "1782"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1812"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2274> .
+
+<http://linguateca.pt/harem#char=2173,2188>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Jornal Alvorada"^^xsd:string ;
+        nif:beginIndex        "2173"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2188"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2274> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1538,1548>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "2003-03-24"^^xsd:string ;
+        nif:beginIndex        "1538"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1548"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2274> .
+
+<http://linguateca.pt/harem#char=659,669>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "08 :46 :45"^^xsd:string ;
+        nif:beginIndex        "659"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "669"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2274> .
+
+<http://linguateca.pt/harem#char=164,181>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Governadora Civil"^^xsd:string ;
+        nif:beginIndex        "164"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "181"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2274> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=463,480>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Governadora Civil"^^xsd:string ;
+        nif:beginIndex        "463"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "480"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2274> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1303,1348>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Associação para o Desenvolvimento de Miragaia"^^xsd:string ;
+        nif:beginIndex        "1303"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1348"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2274> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=715,764>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Sector de Cultura da Câmara Municipal da Lourinhã"^^xsd:string ;
+        nif:beginIndex        "715"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "764"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2274> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=226,265>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Governadora Civil do Distrito de Lisboa"^^xsd:string ;
+        nif:beginIndex        "226"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "265"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2274> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=2002,2012>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Cedima/IRM"^^xsd:string ;
+        nif:beginIndex        "2002"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2012"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2274> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=645,655>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "2003-03-27"^^xsd:string ;
+        nif:beginIndex        "645"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "655"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2274> .
+
+<http://linguateca.pt/harem#char=2092,2096>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "José"^^xsd:string ;
+        nif:beginIndex        "2092"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2096"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2274> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=351,362>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "15 de Março"^^xsd:string ;
+        nif:beginIndex        "351"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "362"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2274> .
+
+<http://linguateca.pt/harem#char=690,698>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Lourinhã"^^xsd:string ;
+        nif:beginIndex        "690"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "698"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2274> .
+
+<http://linguateca.pt/harem#char=2133,2142>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "00 :59:26"^^xsd:string ;
+        nif:beginIndex        "2133"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2142"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2274> .
+
+<http://linguateca.pt/harem#char=2015,2023>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Montepio"^^xsd:string ;
+        nif:beginIndex        "2015"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2023"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2274> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=0,2274>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "2274"^^xsd:nonNegativeInteger ;
+        nif:isString    "Jornal Alvorada - OnlinePágina Inicial Notícias Portal Directório de Empresas Inquéritos de Opinião Assinaturas Contactos Pesquisar o SitePágina InicialPublicidade Governadora Civil visitou quatro instituições do Concelho - A Governadora Civil do Distrito de Lisboa , Teresa Caeiro , esteve de visita ao Concelho da Lourinhã , no passado sábado , dia 15 de Março . A visita iniciou-se na Associação Cultural , Recreativa e Desportiva da Marquiteira que recebeu a Governadora Civil com um almoço de caldeirada , com a particularidade de ter sido pescada e confeccionada por elementos dos órgãos sociais daquela colectividade.Última alteração dia 2003-03-27 às 08 :46 :45 Semana do Teatro na Lourinhã já arrancou - O Sector de Cultura da Câmara Municipal da Lourinhã , como forma de assinalar o Dia Mundial do Teatro está a promover , desde ontem e até sexta-feira , a Semana do Teatro . Nesse âmbito , a autarquia traz à Lourinhã 4 companhias de teatro com sessões dirigidas a todas as escolas do concelho ( desde o pré-escolar à secundária ) e à população.Última alteração dia 2003-03-25 às 12 :49 :37 Ouvir Som Rodrigo Maurício lança novo disco - Ao Entardecer é o nome do segundo disco , lançado pelo acordeonista Lourinhanense , Rodrigo Maurício e que será apresentado no próximo dia 24 de Maio , na Associação para o Desenvolvimento de Miragaia . Lançado cerca de dois anos após o primeiro trabalho discográfico , Ao Entardecer apresenta também catorze temas , sendo cinco da autoria do próprio Rodrigo Maurício .Última alteração dia 2003-03-24 às 08:57:03 Ovos de dinossauro vistos com o pormenor possível - O Museu da Lourinhã é conhecido pelos seus ovos e embriões de dinossauro , os únicos da Europa e dos mais antigos do Mundo . Desta vez o Museu lourinhanense está a usar Tomografia Axial Computorizada ( TAC ) para descobrir se existem mais ovos com embriões , os ossos dos dinossauros antes de Habitualmente usado para fins médicos , o equipamento de TAC foi disponibilizado pelas clínicas Cedima/IRM e Montepio das Caldas da Rainha em colaboração com os médicos Francisco Rita e José .Última alteração dia 2003-03-22 às 00 :59:26 Estatuto Editorial© 2002,2003 Jornal Alvorada - Todos os Direitos ReservadosRealização : CotoNet - Tecnologias de Informação , Lda "^^xsd:string .
+
+<http://linguateca.pt/harem#char=304,324>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Concelho da Lourinhã"^^xsd:string ;
+        nif:beginIndex        "304"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "324"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2274> .
+
+<http://linguateca.pt/harem#char=268,281>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Teresa Caeiro"^^xsd:string ;
+        nif:beginIndex        "268"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "281"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2274> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=388,448>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Associação Cultural , Recreativa e Desportiva da Marquiteira"^^xsd:string ;
+        nif:beginIndex        "388"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "448"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2274> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1091,1101>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "12 :49 :37"^^xsd:string ;
+        nif:beginIndex        "1091"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1101"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2274> .
+
+<http://linguateca.pt/harem#char=1750,1755>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Museu"^^xsd:string ;
+        nif:beginIndex        "1750"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1755"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2274> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=2075,2089>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Francisco Rita"^^xsd:string ;
+        nif:beginIndex        "2075"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2089"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2274> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1418,1431>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ao Entardecer"^^xsd:string ;
+        nif:beginIndex        "1418"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1431"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2274> .
+
+<http://linguateca.pt/harem#char=0,15>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Jornal Alvorada"^^xsd:string ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "15"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2274> .
+
+<http://linguateca.pt/harem#char=1077,1087>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "2003-03-25"^^xsd:string ;
+        nif:beginIndex        "1077"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1087"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2274> .
+
+<http://linguateca.pt/harem#char=1701,1707>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Europa"^^xsd:string ;
+        nif:beginIndex        "1701"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1707"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2274> .
+
+<http://linguateca.pt/harem#char=1615,1632>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Museu da Lourinhã"^^xsd:string ;
+        nif:beginIndex        "1615"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1632"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2274> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1148,1161>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ao Entardecer"^^xsd:string ;
+        nif:beginIndex        "1148"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1161"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2274> .
+
+<http://linguateca.pt/harem#char=2119,2129>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "2003-03-22"^^xsd:string ;
+        nif:beginIndex        "2119"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2129"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2274> .
+
+<http://linguateca.pt/harem#char=1730,1735>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Mundo"^^xsd:string ;
+        nif:beginIndex        "1730"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1735"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2274> .
+
+<http://linguateca.pt/harem#char=1552,1560>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "08:57:03"^^xsd:string ;
+        nif:beginIndex        "1552"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1560"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2274> .
+
+<http://linguateca.pt/harem#char=1232,1248>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Rodrigo Maurício"^^xsd:string ;
+        nif:beginIndex        "1232"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1248"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2274> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1112,1128>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Rodrigo Maurício"^^xsd:string ;
+        nif:beginIndex        "1112"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1128"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2274> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=929,930>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "4"^^xsd:string ;
+        nif:beginIndex        "929"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "930"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2274> .
+
+<http://linguateca.pt/harem#char=793,814>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Dia Mundial do Teatro"^^xsd:string ;
+        nif:beginIndex        "793"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "814"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2274> .
+
+<http://linguateca.pt/harem#char=867,883>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Semana do Teatro"^^xsd:string ;
+        nif:beginIndex        "867"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "883"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2274> .
+
+<http://linguateca.pt/harem#char=1815,1818>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "TAC"^^xsd:string ;
+        nif:beginIndex        "1815"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1818"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2274> .
+
+<http://linguateca.pt/harem#char=670,686>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Semana do Teatro"^^xsd:string ;
+        nif:beginIndex        "670"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "686"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2274> .
+
+<http://linguateca.pt/harem#char=2028,2044>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Caldas da Rainha"^^xsd:string ;
+        nif:beginIndex        "2028"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2044"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2274> .
+
+<http://linguateca.pt/harem#char=920,928>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Lourinhã"^^xsd:string ;
+        nif:beginIndex        "920"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "928"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2274> .
+
+<http://linguateca.pt/harem#char=1287,1297>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "24 de Maio"^^xsd:string ;
+        nif:beginIndex        "1287"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1297"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2274> .
+
+<http://linguateca.pt/harem#char=2163,2172>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "2002,2003"^^xsd:string ;
+        nif:beginIndex        "2163"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2172"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2274> .

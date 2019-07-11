@@ -1,0 +1,244 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=3087,3117>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Universidade da Beira Interior"^^xsd:string ;
+        nif:beginIndex        "3087"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3117"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3427> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=505,511>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Bilbau"^^xsd:string ;
+        nif:beginIndex        "505"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "511"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3427> .
+
+<http://linguateca.pt/harem#char=1850,1856>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Bilbau"^^xsd:string ;
+        nif:beginIndex        "1850"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1856"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3427> .
+
+<http://linguateca.pt/harem#char=1985,1991>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Leuven"^^xsd:string ;
+        nif:beginIndex        "1985"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1991"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3427> .
+
+<http://linguateca.pt/harem#char=2518,2525>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Bélgica"^^xsd:string ;
+        nif:beginIndex        "2518"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2525"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3427> .
+
+<http://linguateca.pt/harem#char=3027,3034>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Coimbra"^^xsd:string ;
+        nif:beginIndex        "3027"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3034"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3427> .
+
+<http://linguateca.pt/harem#char=3218,3239>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Universidade do Minho"^^xsd:string ;
+        nif:beginIndex        "3218"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3239"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3427> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=570,576>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Leuven"^^xsd:string ;
+        nif:beginIndex        "570"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "576"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3427> .
+
+<http://linguateca.pt/harem#char=2496,2502>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "França"^^xsd:string ;
+        nif:beginIndex        "2496"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2502"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3427> .
+
+<http://linguateca.pt/harem#char=2481,2489>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Alemanha"^^xsd:string ;
+        nif:beginIndex        "2481"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2489"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3427> .
+
+<http://linguateca.pt/harem#char=2034,2041>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Bélgica"^^xsd:string ;
+        nif:beginIndex        "2034"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2041"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3427> .
+
+<http://linguateca.pt/harem#char=341,347>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Bilbau"^^xsd:string ;
+        nif:beginIndex        "341"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "347"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3427> .
+
+<http://linguateca.pt/harem#char=1776,1783>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Espanha"^^xsd:string ;
+        nif:beginIndex        "1776"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1783"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3427> .
+
+<http://linguateca.pt/harem#char=2152,2158>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Europa"^^xsd:string ;
+        nif:beginIndex        "2152"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2158"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3427> .
+
+<http://linguateca.pt/harem#char=2055,2063>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Alemanha"^^xsd:string ;
+        nif:beginIndex        "2055"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2063"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3427> .
+
+<http://linguateca.pt/harem#char=48,56>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Economia"^^xsd:string ;
+        nif:beginIndex        "48"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "56"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3427> .
+
+<http://linguateca.pt/harem#char=1625,1631>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Bilbau"^^xsd:string ;
+        nif:beginIndex        "1625"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1631"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3427> .
+
+<http://linguateca.pt/harem#char=1641,1647>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Leuven"^^xsd:string ;
+        nif:beginIndex        "1641"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1647"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3427> .
+
+<http://linguateca.pt/harem#char=144,150>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Leuven"^^xsd:string ;
+        nif:beginIndex        "144"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "150"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3427> .
+
+<http://linguateca.pt/harem#char=2269,2276>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "10 anos"^^xsd:string ;
+        nif:beginIndex        "2269"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2276"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3427> .
+
+<http://linguateca.pt/harem#char=2066,2076>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Inglaterra"^^xsd:string ;
+        nif:beginIndex        "2066"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2076"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3427> .
+
+<http://linguateca.pt/harem#char=93,102>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Filosofia"^^xsd:string ;
+        nif:beginIndex        "93"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "102"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3427> .
+
+<http://linguateca.pt/harem#char=1805,1812>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Espanha"^^xsd:string ;
+        nif:beginIndex        "1805"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1812"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3427> .
+
+<http://linguateca.pt/harem#char=1971,1977>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Leuven"^^xsd:string ;
+        nif:beginIndex        "1971"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1977"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3427> .
+
+<http://linguateca.pt/harem#char=796,803>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Bélgica"^^xsd:string ;
+        nif:beginIndex        "796"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "803"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3427> .
+
+<http://linguateca.pt/harem#char=2442,2449>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Bélgica"^^xsd:string ;
+        nif:beginIndex        "2442"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2449"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3427> .
+
+<http://linguateca.pt/harem#char=23,29>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Biblau"^^xsd:string ;
+        nif:beginIndex        "23"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "29"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3427> .
+
+<http://linguateca.pt/harem#char=0,3427>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "3427"^^xsd:nonNegativeInteger ;
+        nif:isString    "Quantos anos esteve em Biblau ? Dois anos . Fiz Economia em dois anos , porque como já tinha Filosofia , estudei só dois anos , tal como fiz em Leuven . Fiz dois anos num , com dois exames . Tinha marcado -\"Quantos dias eu preciso para esta licenciatura?\" e lá me consegui safar . Recorda-se de algum momento especial que tivesse passado em Bilbau ? Tinha os emigrantes portugueses que lá estavam . Sabe que os portugueses no estrangeiro são mais amigos que cá em Portugal ? ! É extraordinário . Mesmo em Bilbau a colónia de portugueses juntáva-se de vez em quando . Em Leuven , os portugueses aquilo era um grupo . Não éramos contra os outros , se eles viessem a gente também os metia , mas sabendo que com os portugueses a gente podia sempre contar . Aconteceu-me uma coisa muito aborrecida na Bélgica . Lá íamos um grupo de portugueses . Ao sair de um autocarro havia uma senhora muito gorda , que levou muito tempo . E eu disse ao meu colega :-\"Espera que passe este trampolho.\" E no fim diz a senhora :-\"Muito obrigado que sou portuguesa .\" Coitadinha . Ficamos arrasados ! -\"Oh senhora desculpe ! É maneira de falar , nem pensamos sequer ofender . Era uma maneira de falar porque julgamos que ninguém nos entendia .\" Mas com esta ficamos bem . A senhora até compreendeu a nossa posição , que não era para ofender . Mas essa saíu-nos cara . Que tipo de actividades vocês portugueses faziam ? Saíamos , discutíamos os problemas , discutíamos as dificuldades que cada um tinha , ajudávamo-nso mutuamente . Moravam todos perto uns dos outros ? Cada um morava na sua residência universitária , mas juntávamo-nos sempre . De Bilbau foi para Leuven , como é que surgiu a ideia de ir para essa universidade ? Acabou a guerra , eu já pode ir para Leuven porque eu queria sair de Espanha porque já conhecia a Espanha . Mas de facto , estive muito bem em Bilbau , a universidade tem uma bela biblioteca e bons professores . Realmente gostei de lá estar , mas também gostei de Leuven porque Leuven tem uma vantagem que não tem Portugal . A Bélgica está entre a Alemanha , Inglaterra e a França e tem tudo o que há de novidade . É que nós estamos na cauda da Europa e as coisas chegam cá tarde . Eu quando cheguei cá pareceu-me que não arranjava trabalho porque nós estávamos 10 anos atrasados . Nós íamos 10 anos atrasados ao que lá estava , não por incapacidade , o português gosta de aprender e aprende bem as coisas , mas precisamente porque na Bélgica o que havia da Inglaterra , da Alemanha ou da França estava ali . A Bélgica estava bem situada , ao passo que nós estamos num extremo . Hoje já há mais comunicações , e as universidades estão mais desenvolvidas , infelizmente nem todos os instutitutos universitários . Eu sempre defendo , porque há uns que atacam que algumas universidades não tem categoria , e é verdade , mas eu sempre defendo que mais vale isso do que nada . Porque antes , quem é que da minha região ia para a universidade , só quem tinha algumas possibilidades e com grande sacrifício dos pais . Era para Coimbra , não havia outro sítio . Agora felizmente têm lá a Universidade da Beira Interior . Já me convidaram lá para reitor , mas eu não aceitei . Primeiro porque estava aqui a trabalhar na Universidade do Minho , que eu gostei imenso desde o princípio . Depois porque faltavam-me quatro anos para a jubilação , e o que é que eu ia lá fazer por autro anos ? Agora no fim da vida ? Não vale a pena . "^^xsd:string .
+
+<http://linguateca.pt/harem#char=1744,1750>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Leuven"^^xsd:string ;
+        nif:beginIndex        "1744"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1750"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3427> .
+
+<http://linguateca.pt/harem#char=464,472>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Portugal"^^xsd:string ;
+        nif:beginIndex        "464"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "472"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3427> .
+
+<http://linguateca.pt/harem#char=2299,2306>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "10 anos"^^xsd:string ;
+        nif:beginIndex        "2299"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2306"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3427> .
+
+<http://linguateca.pt/harem#char=2081,2087>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "França"^^xsd:string ;
+        nif:beginIndex        "2081"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2087"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3427> .
+
+<http://linguateca.pt/harem#char=2465,2475>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Inglaterra"^^xsd:string ;
+        nif:beginIndex        "2465"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2475"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3427> .
+
+<http://linguateca.pt/harem#char=2021,2029>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Portugal"^^xsd:string ;
+        nif:beginIndex        "2021"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2029"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3427> .

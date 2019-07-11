@@ -1,0 +1,149 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=439,463>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Universidade de Brasília"^^xsd:string ;
+        nif:beginIndex        "439"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "463"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1473> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=72,85>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Sistema Solar"^^xsd:string ;
+        nif:beginIndex        "72"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "85"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1473> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1248,1255>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Atacama"^^xsd:string ;
+        nif:beginIndex        "1248"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1255"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1473> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=203,250>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "\"Da Origem do Universo aos Grandes Telescópios\""^^xsd:string ;
+        nif:beginIndex        "203"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "250"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1473> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=274,286>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "João Steiner"^^xsd:string ;
+        nif:beginIndex        "274"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "286"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1473> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=799,805>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Gemini"^^xsd:string ;
+        nif:beginIndex        "799"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "805"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1473> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1352,1358>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Gemini"^^xsd:string ;
+        nif:beginIndex        "1352"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1358"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1473> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=131,137>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Gemini"^^xsd:string ;
+        nif:beginIndex        "131"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "137"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1473> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1270,1276>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Brasil"^^xsd:string ;
+        nif:beginIndex        "1270"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1276"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1473> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=341,389>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Sociedade Brasileira para o Progresso da Ciência"^^xsd:string ;
+        nif:beginIndex        "341"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "389"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1473> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=304,307>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "USP"^^xsd:string ;
+        nif:beginIndex        "304"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "307"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1473> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1186,1191>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Havaí"^^xsd:string ;
+        nif:beginIndex        "1186"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1191"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1473> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1194,1197>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "EUA"^^xsd:string ;
+        nif:beginIndex        "1194"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1197"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1473> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=993,999>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Gemini"^^xsd:string ;
+        nif:beginIndex        "993"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "999"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1473> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1473>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1473"^^xsd:nonNegativeInteger ;
+        nif:isString    "Astrônomos brasileiros esperam fotografar os primeiros planetas fora do Sistema Solar com a ajuda do maior telescópio do mundo , o Gemini , a partir do ano que vem . A informação foi dada na conferência \"Da Origem do Universo aos Grandes Telescópios\" , ministrada ontem por João Steiner , astrofísico da USP , durante a 52ª Reunião Anual da Sociedade Brasileira para o Progresso da Ciência . A reunião começou anteontem no campus da UnB ( Universidade de Brasília ) . O planeta mais distante até hoje fotografado é Plutão . \"Imagine alguém de fora da nossa galáxia que tente fotografar o Sol . Essa pessoa não perceberia a Terra , que seria ofuscada pela luminosidade solar\" , explicou Steiner . O mesmo acontece atualmente com os astrônomos que fotografam estrelas muito distantes . No entanto , o Gemini poderá \"enxergar\" planetas . Isso porque , além de medir luz , o telescópio mede calor , por meio de radiação infravermelha . E , embora não emitam luz , planetas geram calor . O projeto Gemini , resultado de um consórcio de sete países , envolve a construção de dois telescópios com um espelho de oito metros de diâmetro . Um dos telescópios já está pronto e em funcionamento no Havaí , EUA . O outro entrará em operação no ano que vem , em Atacama , Chile , e o Brasil terá direito a usá-lo 14 noites por ano . Segundo Steiner , os telescópios Gemini têm capacidade científica de observação e qualidade de imagem dez vezes superiores às de um telescópio espacial . "^^xsd:string .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1327,1334>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Steiner"^^xsd:string ;
+        nif:beginIndex        "1327"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1334"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1473> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=686,693>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Steiner"^^xsd:string ;
+        nif:beginIndex        "686"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "693"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1473> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=433,436>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "UnB"^^xsd:string ;
+        nif:beginIndex        "433"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "436"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1473> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1258,1263>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Chile"^^xsd:string ;
+        nif:beginIndex        "1258"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1263"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1473> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .

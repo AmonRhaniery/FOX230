@@ -1,0 +1,168 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=1254,1260>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "2,5 km"^^xsd:string ;
+        nif:beginIndex        "1254"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1260"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1616> .
+
+<http://linguateca.pt/harem#char=626,639>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Eason and Son"^^xsd:string ;
+        nif:beginIndex        "626"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "639"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1616> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1086,1102>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "O'Connell Street"^^xsd:string ;
+        nif:beginIndex        "1086"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1102"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1616> .
+
+<http://linguateca.pt/harem#char=1064,1078>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Grafton Street"^^xsd:string ;
+        nif:beginIndex        "1064"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1078"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1616> .
+
+<http://linguateca.pt/harem#char=71,81>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ilhas Aran"^^xsd:string ;
+        nif:beginIndex        "71"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "81"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1616> .
+
+<http://linguateca.pt/harem#char=756,772>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Condado de Clare"^^xsd:string ;
+        nif:beginIndex        "756"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "772"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1616> .
+
+<http://linguateca.pt/harem#char=1606,1613>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Kenmare"^^xsd:string ;
+        nif:beginIndex        "1606"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1613"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1616> .
+
+<http://linguateca.pt/harem#char=850,856>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Dublin"^^xsd:string ;
+        nif:beginIndex        "850"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "856"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1616> .
+
+<http://linguateca.pt/harem#char=269,282>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Book of Kells"^^xsd:string ;
+        nif:beginIndex        "269"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "282"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1616> .
+
+<http://linguateca.pt/harem#char=1563,1570>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Irlanda"^^xsd:string ;
+        nif:beginIndex        "1563"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1570"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1616> .
+
+<http://linguateca.pt/harem#char=0,1616>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1616"^^xsd:nonNegativeInteger ;
+        nif:isString    "C o m p r a s ... COMPRAS As melhores compras incluem os pulôveres das Ilhas Aran , os produtos de lã ( jaquetas , coletes , boinas , chapéus , saias ) , os cristais de Waterford , as cerâmicas , o artesanato em linho e as jóias e bijuterias inspiradas nos desenhos do Book of Kells e nos mitos celtas.As plantas locais e a vida selvagem também são inspiração para essa arte.O Condado de Galway produz o Claddagh ring \"tradicional anel de noivado \" feito em ouro , prata ou em pedras.Os artefatos religiosos também valem ser destacados.Ler é uma paixão nacional , portanto existem excelentes livrarias.Em Dublin , a maior é a Eason and Son ,que tem uma variedade enorme da literatura irlandesa.Os instrumentos musicais são feitos em várias regiões , mas o Condado de Clare é conhecido como \"the singing county\" .As harpas são especialmente feitas em Dublin e Mayo .Nào poderia esquecer , é claro do whiskey e de algumas guloseimas como as algas marinhas secas , que são comidas cruas ou misturadas na comida.Em Dublin passeie no shopping St . Stephen's Green , na Grafton Street e na a O'Connell Street .Tem muitas lojas para apreciar.Em Waterford , visite a fábrica de cristais Waterford ( Waterford Crystal Factory ) , que foi fundada em 1783 e fica a 2,5 km ao sul do centro da cidade.Você verá o processo de fabricação das peças.O linho irlandês é famoso no mundo todo e de alcance inigualado.Há uma variedade enorme que inclui colchas extravagantes , toalhas de mesa encaracoladas , guardanapos , etc. Enfeites em linho com finos entrelaços estão por toda a Irlanda , mas principalmente em Limerick e Kenmare . "^^xsd:string .
+
+<http://linguateca.pt/harem#char=1191,1216>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Waterford Crystal Factory"^^xsd:string ;
+        nif:beginIndex        "1191"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1216"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1616> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1595,1603>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Limerick"^^xsd:string ;
+        nif:beginIndex        "1595"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1603"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1616> .
+
+<http://linguateca.pt/harem#char=605,611>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Dublin"^^xsd:string ;
+        nif:beginIndex        "605"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "611"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1616> .
+
+<http://linguateca.pt/harem#char=1179,1188>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Waterford"^^xsd:string ;
+        nif:beginIndex        "1179"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1188"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1616> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1138,1147>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Waterford"^^xsd:string ;
+        nif:beginIndex        "1138"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1147"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1616> .
+
+<http://linguateca.pt/harem#char=859,863>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Mayo"^^xsd:string ;
+        nif:beginIndex        "859"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "863"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1616> .
+
+<http://linguateca.pt/harem#char=1038,1058>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "St . Stephen's Green"^^xsd:string ;
+        nif:beginIndex        "1038"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1058"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1616> .
+
+<http://linguateca.pt/harem#char=404,412>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Claddagh"^^xsd:string ;
+        nif:beginIndex        "404"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "412"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1616> .
+
+<http://linguateca.pt/harem#char=1240,1244>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1783"^^xsd:string ;
+        nif:beginIndex        "1240"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1244"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1616> .
+
+<http://linguateca.pt/harem#char=169,178>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Waterford"^^xsd:string ;
+        nif:beginIndex        "169"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "178"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1616> .
+
+<http://linguateca.pt/harem#char=1011,1017>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Dublin"^^xsd:string ;
+        nif:beginIndex        "1011"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1017"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1616> .
+
+<http://linguateca.pt/harem#char=377,394>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Condado de Galway"^^xsd:string ;
+        nif:beginIndex        "377"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "394"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1616> .

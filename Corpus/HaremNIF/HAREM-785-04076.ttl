@@ -1,0 +1,280 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=2809,2823>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "17 de Dezembro"^^xsd:string ;
+        nif:beginIndex        "2809"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2823"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4159> .
+
+<http://linguateca.pt/harem#char=118,124>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "PRODEP"^^xsd:string ;
+        nif:beginIndex        "118"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "124"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4159> .
+
+<http://linguateca.pt/harem#char=2757,2765>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Novembro"^^xsd:string ;
+        nif:beginIndex        "2757"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2765"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4159> .
+
+<http://linguateca.pt/harem#char=2913,2917>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1982"^^xsd:string ;
+        nif:beginIndex        "2913"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2917"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4159> .
+
+<http://linguateca.pt/harem#char=1873,1889>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "professor Romero"^^xsd:string ;
+        nif:beginIndex        "1873"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1889"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4159> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=3843,3852>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Guimarães"^^xsd:string ;
+        nif:beginIndex        "3843"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3852"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4159> .
+
+<http://linguateca.pt/harem#char=3556,3574>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Machado dos Santos"^^xsd:string ;
+        nif:beginIndex        "3556"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3574"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4159> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=3261,3267>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Pedras"^^xsd:string ;
+        nif:beginIndex        "3261"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3267"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4159> .
+
+<http://linguateca.pt/harem#char=2080,2085>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Braga"^^xsd:string ;
+        nif:beginIndex        "2080"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2085"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4159> .
+
+<http://linguateca.pt/harem#char=4029,4034>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Braga"^^xsd:string ;
+        nif:beginIndex        "4029"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4034"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4159> .
+
+<http://linguateca.pt/harem#char=2842,2861>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Diário da República"^^xsd:string ;
+        nif:beginIndex        "2842"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2861"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4159> .
+
+<http://linguateca.pt/harem#char=1509,1515>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Lisboa"^^xsd:string ;
+        nif:beginIndex        "1509"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1515"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4159> .
+
+<http://linguateca.pt/harem#char=1947,1963>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "professor Romero"^^xsd:string ;
+        nif:beginIndex        "1947"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1963"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4159> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=0,4159>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "4159"^^xsd:nonNegativeInteger ;
+        nif:isString    "E como eram as instalações ? Pobríssimas . Aquela faculdade que eles têm ainda fui eu que a constui , concorri para o PRODEP e ganhei . Já era professor na universidade do Minho , mas depois era jubilado trabalhava lá e aqui e como morreu o director de lá e , na altura , pediram-me para ficar por dois anos , estive que ficar oito anos , porque meti-me no PRODEP até que aquilo acabasse estive lá . E como veio para a universidade do Minho ? Quando se fundou a universidade do Minho , o professor Lloyd Braga formou a comissão instaladora . E eu pensava em cumprimentá-lo , eu era do outro lado , mas queria cumprimentá-lo porque eu fiquei contente quando ouvi eles a anunciarem , porque tudo o que é cultura é bom para uma nação . Com espanto meu , é ele que lá me vai visitar . Estivemos lá 1hora a falar e tal , e depois estava eu a dar aulas no Porto e recebo um telefonema da secretária que o reitor precisava urgentemente de falar comigo , - \"Olhe é impossível , porque eu estou aqui no Porto , dou aulas de manhã e de tarde , é um dia por semana , portanto só amanhã é que lé poderei ir.\" Eu julgava até que era para me dar os parabéns porque eu nesse dia fazia anos . Com grande espanto meu , diz-me assim o Lloyd Braga : \"Eu estava esta manhã a tomar banho e disse , eu vou convidar o professor Lúcio Craveiro .\" , \"Está bem ! Dê-me uma semana para pensar.\" . E ao fim da semana eu disse que sim , e portanto , passei para cá . Depois convidou-me para vice-reitor . Entretanto , ele tem que ir para Lisboa para construir a Universidade Nova , fica o professor Romero e eu . O professor Romero , que ainda vive , está muito doente , é quem devia ser o reitor . Mas o ministro tinha tido uma pega com ele em Lourenço Marques e não quis nomeá-lo . O que eu levei muito a mal . A organização da universidade foi ele que a ideou , estar em faculdades com está , foi o professor Romero . E acontece que o ministro não o queria para reitor . O professor Romero sabendo disso pediu um destacamento e fiquei eu sozinho . O ministro mandou-me chamar , \" O senhor será o reitor em Braga .\" . Eu disse : \"Oh senhor reitor vamos ver.\" , \"Não , porque eu nomeio-o .\" , \"Pois aí é que está o problema . É que eu não aceito ser reitor sem consultar a universidade.\" . Por isso é que eu sou o primeiro reitor eleito . Acho que na vida universitária o reitor tem de ser uma pessoa que a universidade aceite e que a universidade possa escolher , porque ela é que sabe o que precisa . Era a tradição antiga das universidades . Estivemos três quartos de hora a discutir , mas eu não . Ele não lhe convinha ir buscar outro porque já estava só eu , não tinha muito por onde escolher na altura e acabou por ceder . Acabou por ceder , isto foi a fins de Outubro , fins de Novembro , mandei para lá os resultados . Só no dia 17 de Dezembro é que apareceu no Diário da República . De que ano ? Foi em 1981 , mas só tomei posso em 1982 , em Janeiro , porque tinha que tomar posse no prazo de um mês e como no prazo de um mês era ao domingo , ia ser a 17 de Dezembro porque saiu no Diário da República a 17 de Dezembro , então contava-se o dia seguinte . E depois outra questão foram os vice-reitores . Ele queria impôr dois vice-reitores amigos dele , mas um era especialista em Pedras o outro era especialista em Química , e eu disse : \"Oh senhor ministro desculpe , mas não . Eu preciso é de engenheiros porque é para construir a universidade , para Humanidades estou eu para Filosofia . Preciso é de pessoas que me possam ajudar na construção . E então , acabou por ir o Machado dos Santos e João de Deus Pinheiro , que foram reitores a seguir , foram os meus vice-reitores , precisamente porque eu não sou engenheiro , era preciso construir , é preciso saber os planos.Estive três anos até ao limite da idade . Foi então , estava a começar , os terrenos de Guimarães foram no meu tempo que se compraram porque tínhamos lá uma casa emprestada mas a universidade , foi necessário encontrar o local e comprar os terrenos . Aqui a universidade em Braga , também alarguei os terrenos que tínhamos para a construção . Escolhemos bem os professores , eu e os meus vice-reitores . "^^xsd:string .
+
+<http://linguateca.pt/harem#char=3296,3303>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Química"^^xsd:string ;
+        nif:beginIndex        "3296"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3303"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4159> .
+
+<http://linguateca.pt/harem#char=488,509>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "professor Lloyd Braga"^^xsd:string ;
+        nif:beginIndex        "488"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "509"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4159> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=2739,2746>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Outubro"^^xsd:string ;
+        nif:beginIndex        "2739"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2746"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4159> .
+
+<http://linguateca.pt/harem#char=435,440>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Minho"^^xsd:string ;
+        nif:beginIndex        "435"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "440"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4159> .
+
+<http://linguateca.pt/harem#char=850,855>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Porto"^^xsd:string ;
+        nif:beginIndex        "850"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "855"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4159> .
+
+<http://linguateca.pt/harem#char=1560,1576>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "professor Romero"^^xsd:string ;
+        nif:beginIndex        "1560"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1576"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4159> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=994,999>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Porto"^^xsd:string ;
+        nif:beginIndex        "994"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "999"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4159> .
+
+<http://linguateca.pt/harem#char=3085,3099>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "17 de Dezembro"^^xsd:string ;
+        nif:beginIndex        "3085"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3099"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4159> .
+
+<http://linguateca.pt/harem#char=1586,1602>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "professor Romero"^^xsd:string ;
+        nif:beginIndex        "1586"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1602"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4159> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1716,1732>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Lourenço Marques"^^xsd:string ;
+        nif:beginIndex        "1716"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1732"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4159> .
+
+<http://linguateca.pt/harem#char=794,799>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1hora"^^xsd:string ;
+        nif:beginIndex        "794"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "799"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4159> .
+
+<http://linguateca.pt/harem#char=478,483>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Minho"^^xsd:string ;
+        nif:beginIndex        "478"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "483"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4159> .
+
+<http://linguateca.pt/harem#char=2923,2930>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Janeiro"^^xsd:string ;
+        nif:beginIndex        "2923"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2930"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4159> .
+
+<http://linguateca.pt/harem#char=1217,1228>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Lloyd Braga"^^xsd:string ;
+        nif:beginIndex        "1217"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1228"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4159> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=172,177>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Minho"^^xsd:string ;
+        nif:beginIndex        "172"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "177"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4159> .
+
+<http://linguateca.pt/harem#char=1295,1319>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "professor Lúcio Craveiro"^^xsd:string ;
+        nif:beginIndex        "1295"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1319"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4159> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=3460,3469>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Filosofia"^^xsd:string ;
+        nif:beginIndex        "3460"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3469"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4159> .
+
+<http://linguateca.pt/harem#char=3033,3047>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "17 de Dezembro"^^xsd:string ;
+        nif:beginIndex        "3033"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3047"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4159> .
+
+<http://linguateca.pt/harem#char=1533,1550>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Universidade Nova"^^xsd:string ;
+        nif:beginIndex        "1533"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1550"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4159> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=2884,2888>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1981"^^xsd:string ;
+        nif:beginIndex        "2884"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2888"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4159> .
+
+<http://linguateca.pt/harem#char=3434,3445>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Humanidades"^^xsd:string ;
+        nif:beginIndex        "3434"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3445"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4159> .
+
+<http://linguateca.pt/harem#char=357,363>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "PRODEP"^^xsd:string ;
+        nif:beginIndex        "357"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "363"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4159> .
+
+<http://linguateca.pt/harem#char=3577,3598>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "João de Deus Pinheiro"^^xsd:string ;
+        nif:beginIndex        "3577"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3598"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4159> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=3063,3082>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Diário da República"^^xsd:string ;
+        nif:beginIndex        "3063"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3082"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4159> .

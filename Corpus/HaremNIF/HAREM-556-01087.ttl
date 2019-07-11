@@ -1,0 +1,137 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=1920,1921>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1"^^xsd:string ;
+        nif:beginIndex        "1920"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1921"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2065> .
+
+<http://linguateca.pt/harem#char=300,301>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "5"^^xsd:string ;
+        nif:beginIndex        "300"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "301"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2065> .
+
+<http://linguateca.pt/harem#char=1829,1835>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "5.10-3"^^xsd:string ;
+        nif:beginIndex        "1829"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1835"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2065> .
+
+<http://linguateca.pt/harem#char=756,759>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "ATP"^^xsd:string ;
+        nif:beginIndex        "756"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "759"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2065> .
+
+<http://linguateca.pt/harem#char=1918,1923>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "5.106"^^xsd:string ;
+        nif:beginIndex        "1918"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1923"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2065> .
+
+<http://linguateca.pt/harem#char=816,820>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "AMPc"^^xsd:string ;
+        nif:beginIndex        "816"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "820"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2065> .
+
+<http://linguateca.pt/harem#char=1011,1014>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "ATP"^^xsd:string ;
+        nif:beginIndex        "1011"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1014"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2065> .
+
+<http://linguateca.pt/harem#char=696,699>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "AMP"^^xsd:string ;
+        nif:beginIndex        "696"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "699"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2065> .
+
+<http://linguateca.pt/harem#char=1892,1903>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "5.10-3/10-9"^^xsd:string ;
+        nif:beginIndex        "1892"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1903"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2065> .
+
+<http://linguateca.pt/harem#char=1757,1763>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "10-9 M"^^xsd:string ;
+        nif:beginIndex        "1757"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1763"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2065> .
+
+<http://linguateca.pt/harem#char=885,889>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "AMPc"^^xsd:string ;
+        nif:beginIndex        "885"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "889"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2065> .
+
+<http://linguateca.pt/harem#char=0,2065>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "2065"^^xsd:nonNegativeInteger ;
+        nif:isString    "SISTEMA ADENIL-CICLÁSICO Um dos mecanismos de transdução mais frequentemente utilizado pelas hormonas hidrófilas e pelos neurotransmissores , é o sistema adenil-ciclásico , assim designado pelo facto de recorrer a uma enzima , a adenil-ciclase . Em termos gerais , pode-se decompor este mecanismo em 5 etapas : Uma molécula mensageira entra em contacto com um receptor e a ele se fixa especificamente ; Nestas circunstâncias , a proteína receptora altera a sua conformação e adquire a propriedade de poder induzir a activação de várias ( n1 ) moléculas de adenil-ciclase ( proteína intrínseca da membrana ) ; A adenil-ciclase produz um mensageiro intracelular : a adenosina monofosfato cíclica ( AMP cíclico ou AMPc ) , a partir da adenosina trifosfato ou ATP . Cada molécula de adenil-ciclase produz n2 AMPc . Cada AMPc activa , por sua vez , uma outra enzimas , uma proteína quinase AMPc dependente , cuja missão consiste em fosforilar certas proteínas da célula , isto é , transferir para elas um fosfato do ATP ; Se a proteína fosforilada for uma enzimas , esta será activada e actuará de seguida sobre n3 outras moléculas X , transformando-as em outras tantas moléculas Y . No limite , uma só molécula mensageira induziu , sem penetrar na célula , a produção de n1xn2xn3 moléculas Y . Este mecanismo implicou a transdução do sinal externo num sinal interno ( o AMPc ) e a amplificação de sinal por uma cascata de activação enzimática . A cascata acima descrita compreende apenas duas enzimas . Em muitos casos concretos ( ver glicogenólise ) , verifica-se a existência de um maior número de enzimas intermédios , o que se traduz naturalmente , por uma maior amplificação de sinal . No homem , por cada descarga de adrenalina atinge uma concentração de 10-9 M e daí resulta um aumento da concentração da glucose no sangue de 5.10-3 . A amplificação de sinal hormonal pode ser estimada em 5.10-3/10-9 , isto é , em 5.106 vezes : 1 molécula de adrenalina desencadeia a libertação de 5 milhões de moléculas de glucose a partir do glicogénio armazenado no fígado . "^^xsd:string .
+
+<http://linguateca.pt/harem#char=1127,1128>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "X"^^xsd:string ;
+        nif:beginIndex        "1127"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1128"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2065> .
+
+<http://linguateca.pt/harem#char=1985,1994>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "5 milhões"^^xsd:string ;
+        nif:beginIndex        "1985"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1994"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2065> .
+
+<http://linguateca.pt/harem#char=1366,1370>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "AMPc"^^xsd:string ;
+        nif:beginIndex        "1366"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1370"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2065> .
+
+<http://linguateca.pt/harem#char=804,808>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "AMPc"^^xsd:string ;
+        nif:beginIndex        "804"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "808"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2065> .
+
+<http://linguateca.pt/harem#char=711,715>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "AMPc"^^xsd:string ;
+        nif:beginIndex        "711"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "715"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2065> .
+
+<http://linguateca.pt/harem#char=1175,1176>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Y"^^xsd:string ;
+        nif:beginIndex        "1175"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1176"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2065> .
+
+<http://linguateca.pt/harem#char=1286,1287>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Y"^^xsd:string ;
+        nif:beginIndex        "1286"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1287"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2065> .

@@ -1,0 +1,192 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=174,181>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Direito"^^xsd:string ;
+        nif:beginIndex        "174"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "181"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3510> .
+
+<http://linguateca.pt/harem#char=2361,2370>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Filosofia"^^xsd:string ;
+        nif:beginIndex        "2361"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2370"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3510> .
+
+<http://linguateca.pt/harem#char=500,507>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Deuston"^^xsd:string ;
+        nif:beginIndex        "500"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "507"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3510> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=961,982>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Universidade do Minho"^^xsd:string ;
+        nif:beginIndex        "961"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "982"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3510> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=163,171>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Economia"^^xsd:string ;
+        nif:beginIndex        "163"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "171"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3510> .
+
+<http://linguateca.pt/harem#char=634,642>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Portugal"^^xsd:string ;
+        nif:beginIndex        "634"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "642"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3510> .
+
+<http://linguateca.pt/harem#char=459,467>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Medicina"^^xsd:string ;
+        nif:beginIndex        "459"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "467"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3510> .
+
+<http://linguateca.pt/harem#char=554,561>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Espanha"^^xsd:string ;
+        nif:beginIndex        "554"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "561"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3510> .
+
+<http://linguateca.pt/harem#char=20,26>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Leuven"^^xsd:string ;
+        nif:beginIndex        "20"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "26"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3510> .
+
+<http://linguateca.pt/harem#char=54,71>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "2º Guerra Mundial"^^xsd:string ;
+        nif:beginIndex        "54"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "71"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3510> .
+
+<http://linguateca.pt/harem#char=2007,2014>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Bolonha"^^xsd:string ;
+        nif:beginIndex        "2007"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2014"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3510> .
+
+<http://linguateca.pt/harem#char=2614,2621>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Espanha"^^xsd:string ;
+        nif:beginIndex        "2614"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2621"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3510> .
+
+<http://linguateca.pt/harem#char=2041,2046>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ética"^^xsd:string ;
+        nif:beginIndex        "2041"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2046"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3510> .
+
+<http://linguateca.pt/harem#char=407,414>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Granada"^^xsd:string ;
+        nif:beginIndex        "407"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "414"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3510> .
+
+<http://linguateca.pt/harem#char=32,39>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1949/50"^^xsd:string ;
+        nif:beginIndex        "32"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "39"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3510> .
+
+<http://linguateca.pt/harem#char=82,88>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Bilbau"^^xsd:string ;
+        nif:beginIndex        "82"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "88"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3510> .
+
+<http://linguateca.pt/harem#char=213,220>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Espanha"^^xsd:string ;
+        nif:beginIndex        "213"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "220"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3510> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=228,251>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Universidade de Deuston"^^xsd:string ;
+        nif:beginIndex        "228"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "251"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3510> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=2473,2495>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Universidade de Leuven"^^xsd:string ;
+        nif:beginIndex        "2473"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2495"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3510> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=2274,2280>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Leuven"^^xsd:string ;
+        nif:beginIndex        "2274"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2280"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3510> .
+
+<http://linguateca.pt/harem#char=289,297>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Economia"^^xsd:string ;
+        nif:beginIndex        "289"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "297"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3510> .
+
+<http://linguateca.pt/harem#char=0,3510>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "3510"^^xsd:nonNegativeInteger ;
+        nif:isString    "Em que ano foi para Leuven ? Em 1949/50 . No tempo da 2º Guerra Mundial esteve em Bilbau ? De que forma sentia lá a guerra ? Tinha bons professores licenciados em Economia e Direito . Grande parte dos ministro de Espanha vêm da Universidade de Deuston , naquele tempo , porque estudava-se Economia a sério o que noutras universidades não se estudava . Em Espanha é preciso cuidado com as universidades . Em Granada , onde eu estive , a grande dificuldade era Medicina as outras não valiam nada . E a Deuston , em Economia é das melhores universidades de Espanha , nessa altura , as outra universidades consultávam-na . Como também em Portugal a universidade não é boa em tudo . A universidade são os professores , mais que as paredes são os professores . O Aguiar e Silva não é uma universidade , é um homem que percebe até japonês , todas as línguas , inglês , francês . E um homem desses vale uma universidade . O que valem são os professores e é nisso que a Universidade do Minho ainda pensa . Muitas vezes , há sempre nas instituições épocas de desenvolvimento e épocas de decadência , nós estamos numa época de desenvolvimento , felizmente . Está-se a formar,os professores não se formam de uma anos para o outro , leva tempo , mas sabe-se o que se quer e quando se sabe o que se quer , lá se chega . E que ambiente foi encontrar na Bélgica ? Muito bom em questão dos estudos , muito bem . Eles no estrangeiro eram muito amáveis . Nós não podíamos concorrer a nenhum prémio , isso agora já mudou . Eles não se importam de ganhar à custa dos estrangeiros . Os belgas gostam muito de mandar , mas apesar disso havia muito bons professores . Víamos coisas , que agora é que estão aqui a pôr , a gente podia escolher as cadeiras que queria . Havia as primeiras fundamentais e depois a gente escolhia as outras que nos convinham . Esse plano é determinado com professores , depois ia ao concelho , aprovavam o plano e depois seguia . O que é uma grande vantagem . Estamos a chegar agora a isso por causa de Bolonha . Eu ia para professor de Ética interessava-me cadeiras que não me interessava se fosse para a vida política . Há umas cadeiras fundamentais que têm que se aprender , masas outras a gente escolhe conforme o que e gente quer . E é nisto quer a universidade de Leuven é responsável . E tinha um conjunto de professores muito bom . Por exemplo , em Filosofia está muito boa . Os grandes professore morreram e os novos estão a formar-se . Que recordações tem da Universidade de Leuven ? Ai<in> gostei muito , da abertura de espírito e entrar em contacto com a cultura europeia vêm-me daí , porque eu em Espanha eram fechadotes . E os professores belgas estavam em contacto com a cultura alemã , é uma grande vantagem para nós , porque depois das aulas isso vinha ao de cima . E não sentiu nenhum clima pós-guerra ? Não , na parte universitária não surgiu essa situação . Na parte humana havia . Nós não gostamos nada dos belgas , sabe que a mulher belga preferia casar-se com um estrangeiro do que com um belga . Os belgas eram violentos com as mulheres e tudo mais . Eram pessoas amarguradas , no fundo ali passaram franceses , passaram alemães , e tinham uma certa amargura . E ficam sempre por baixo porque são uma nação pequena . De maneira que na vida deles , nós não nos dávamos muito bem com os belgas , mas a parte da universidade estava muito boa , estava em contacto com as correntes do mundo , e ali é uma grande universidade nesse aspecto , e isso para abrir os horizontes é muito bom . "^^xsd:string .
+
+<http://linguateca.pt/harem#char=513,521>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Economia"^^xsd:string ;
+        nif:beginIndex        "513"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "521"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3510> .
+
+<http://linguateca.pt/harem#char=1338,1345>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Bélgica"^^xsd:string ;
+        nif:beginIndex        "1338"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1345"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3510> .
+
+<http://linguateca.pt/harem#char=355,362>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Espanha"^^xsd:string ;
+        nif:beginIndex        "355"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "362"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3510> .
+
+<http://linguateca.pt/harem#char=757,771>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Aguiar e Silva"^^xsd:string ;
+        nif:beginIndex        "757"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "771"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3510> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .

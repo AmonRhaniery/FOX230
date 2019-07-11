@@ -1,0 +1,105 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=212,216>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1994"^^xsd:string ;
+        nif:beginIndex        "212"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "216"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,859> .
+
+<http://linguateca.pt/harem#char=282,292>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Nina Ricci"^^xsd:string ;
+        nif:beginIndex        "282"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "292"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,859> .
+
+<http://linguateca.pt/harem#char=351,360>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Lagerfeld"^^xsd:string ;
+        nif:beginIndex        "351"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "360"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,859> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=437,454>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Christian Lacroix"^^xsd:string ;
+        nif:beginIndex        "437"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "454"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,859> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=126,131>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Paris"^^xsd:string ;
+        nif:beginIndex        "126"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "131"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,859> .
+
+<http://linguateca.pt/harem#char=841,856>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Fernanda Scalzo"^^xsd:string ;
+        nif:beginIndex        "841"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "856"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,859> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=271,279>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Torrente"^^xsd:string ;
+        nif:beginIndex        "271"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "279"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,859> .
+
+<http://linguateca.pt/harem#char=0,859>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "859"^^xsd:nonNegativeInteger ;
+        nif:isString    "Desfile da Chanel tem influência surrealista De Paris Não foram só os manifestantes da escola pública que desfilaram ontem em Paris . No segundo dia das apresentações das coleções de alta-costura primavera-verão 1994 , desfilaram também os modelos de Christian Lacroix , Torrente e Nina Ricci . Inspirado no surrealismo e no mau tempo , segundo ele , Lagerfeld apresentou uma coleção dominada pelo preto , o branco e as transparências . Christian Lacroix carregou nas tintas na coleção que apresentou ontem no salão imperial do Hotel Intercontinental . Seu teto dourado e cortinas vermelhas eram , segundo ele , cenário mais adequado para seus modelos que as novas e despojadas salas do Carrousel du Louvre . Vários modelos inspirados no século 18 , redingotes com saias curtas , tudo com muita estampa , renda , bordado , laço , brilho . ( Fernanda Scalzo ) "^^xsd:string .
+
+<http://linguateca.pt/harem#char=687,706>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Carrousel du Louvre"^^xsd:string ;
+        nif:beginIndex        "687"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "706"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,859> .
+
+<http://linguateca.pt/harem#char=738,747>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "século 18"^^xsd:string ;
+        nif:beginIndex        "738"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "747"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,859> .
+
+<http://linguateca.pt/harem#char=48,53>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Paris"^^xsd:string ;
+        nif:beginIndex        "48"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "53"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,859> .
+
+<http://linguateca.pt/harem#char=528,550>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Hotel Intercontinental"^^xsd:string ;
+        nif:beginIndex        "528"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "550"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,859> .
+
+<http://linguateca.pt/harem#char=11,17>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Chanel"^^xsd:string ;
+        nif:beginIndex        "11"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "17"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,859> .
+
+<http://linguateca.pt/harem#char=251,268>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Christian Lacroix"^^xsd:string ;
+        nif:beginIndex        "251"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "268"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,859> .

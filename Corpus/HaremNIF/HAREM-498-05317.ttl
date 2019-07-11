@@ -1,0 +1,60 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=433,437>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "SPAM"^^xsd:string ;
+        nif:beginIndex        "433"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "437"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,618> .
+
+<http://linguateca.pt/harem#char=344,359>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Título Terceiro"^^xsd:string ;
+        nif:beginIndex        "344"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "359"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,618> .
+
+<http://linguateca.pt/harem#char=285,294>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Seção 301"^^xsd:string ;
+        nif:beginIndex        "285"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "294"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,618> .
+
+<http://linguateca.pt/harem#char=297,324>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Parágrafo ( a ) ( 2 ) ( c )"^^xsd:string ;
+        nif:beginIndex        "297"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "324"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,618> .
+
+<http://linguateca.pt/harem#char=376,437>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "105 Congresso Base das Normativas Internacionais sobre o SPAM"^^xsd:string ;
+        nif:beginIndex        "376"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "437"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,618> .
+
+<http://linguateca.pt/harem#char=163,178>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "R$500 a R$1.500"^^xsd:string ;
+        nif:beginIndex        "163"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "178"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,618> .
+
+<http://linguateca.pt/harem#char=0,618>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "618"^^xsd:nonNegativeInteger ;
+        nif:isString    "Sua Chance está Aqui ! !!megasucesso [ megasucesso@terra.com.br ]Está Desempregado?Cansado de procurar?Não sabe mais o que fazer?Ou quer apenas uma Renda Extra de R$500 a R$1.500 ?A Solução:CliqueEsta mensagem é enviada com a complacência da nova legislação sobre correio eletrônico , Seção 301 , Parágrafo ( a ) ( 2 ) ( c ) Decreto S . 1618 , Título Terceiro aprovado pelo « 105 Congresso Base das Normativas Internacionais sobre o SPAM ».Este E-mail não poderá ser considerado SPAM quando inclua uma forma de ser removido.Para ser removido de futuros correios , simplesmente responda indicando no Assunto : REMOVER. "^^xsd:string .
+
+<http://linguateca.pt/harem#char=325,341>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Decreto S . 1618"^^xsd:string ;
+        nif:beginIndex        "325"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "341"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,618> .

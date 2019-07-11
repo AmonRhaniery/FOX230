@@ -1,0 +1,103 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=348,353>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Seixo"^^xsd:string ;
+        nif:beginIndex        "348"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "353"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,767> .
+
+<http://linguateca.pt/harem#char=152,159>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Guifões"^^xsd:string ;
+        nif:beginIndex        "152"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "159"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,767> .
+
+<http://linguateca.pt/harem#char=303,314>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Cruz de Pau"^^xsd:string ;
+        nif:beginIndex        "303"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "314"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,767> .
+
+<http://linguateca.pt/harem#char=162,170>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Perafita"^^xsd:string ;
+        nif:beginIndex        "162"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "170"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,767> .
+
+<http://linguateca.pt/harem#char=173,194>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "S . Mamede de Infesta"^^xsd:string ;
+        nif:beginIndex        "173"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "194"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,767> .
+
+<http://linguateca.pt/harem#char=16,18>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "10"^^xsd:string ;
+        nif:beginIndex        "16"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "18"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,767> .
+
+<http://linguateca.pt/harem#char=72,95>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "cerca de 120 mil contos"^^xsd:string ;
+        nif:beginIndex        "72"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "95"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,767> .
+
+<http://linguateca.pt/harem#char=294,300>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Guarda"^^xsd:string ;
+        nif:beginIndex        "294"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "300"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,767> .
+
+<http://linguateca.pt/harem#char=38,58>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Câmara de Matosinhos"^^xsd:string ;
+        nif:beginIndex        "38"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "58"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,767> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=317,325>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Biquinha"^^xsd:string ;
+        nif:beginIndex        "317"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "325"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,767> .
+
+<http://linguateca.pt/harem#char=197,207>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Matosinhos"^^xsd:string ;
+        nif:beginIndex        "197"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "207"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,767> .
+
+<http://linguateca.pt/harem#char=0,767>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "767"^^xsd:nonNegativeInteger ;
+        nif:isString    "Matosinhos abre 10 parques infantis A Câmara de Matosinhos vai investir cerca de 120 mil contos na construção de dez parques infantis nas freguesias de Guifões , Perafita , S . Mamede de Infesta e Matosinhos . Os parques serão construídos nos complexos de habitação social de Sendim ( três ) , Guarda , Cruz de Pau e Biquinha ( dois em cada ) e do Seixo ( um ) . O projecto da autarquia prevê que os parques infantis sejam vedados , arborizados e dotados de equipamento urbano , como papeleiras , bancos de jardim e iluminação pública . Todos os brinquedos disponíveis para as crianças serão construídos em madeira , estando prevista a criação de uma área destinada aos mais pequenos ( dos três aos seis anos ) e outra para os mais velhos ( dos seis aos dez anos ) . "^^xsd:string .
+
+<http://linguateca.pt/harem#char=0,10>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Matosinhos"^^xsd:string ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "10"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,767> .
+
+<http://linguateca.pt/harem#char=276,282>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Sendim"^^xsd:string ;
+        nif:beginIndex        "276"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "282"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,767> .

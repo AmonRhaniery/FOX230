@@ -1,0 +1,1006 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=2791,2804>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Maria Eduarda"^^xsd:string ;
+        nif:beginIndex        "2791"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2804"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=13252,13257>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Baden"^^xsd:string ;
+        nif:beginIndex        "13252"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "13257"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> .
+
+<http://linguateca.pt/harem#char=12616,12633>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Mr . de Trevernes"^^xsd:string ;
+        nif:beginIndex        "12616"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "12633"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=16685,16693>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Alemanha"^^xsd:string ;
+        nif:beginIndex        "16685"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "16693"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> .
+
+<http://linguateca.pt/harem#char=3202,3206>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Rosa"^^xsd:string ;
+        nif:beginIndex        "3202"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3206"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=11107,11115>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Mac-Gren"^^xsd:string ;
+        nif:beginIndex        "11107"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "11115"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=9395,9400>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Paris"^^xsd:string ;
+        nif:beginIndex        "9395"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "9400"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> .
+
+<http://linguateca.pt/harem#char=16035,16045>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Marselhesa"^^xsd:string ;
+        nif:beginIndex        "16035"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "16045"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> .
+
+<http://linguateca.pt/harem#char=15336,15342>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Zuavos"^^xsd:string ;
+        nif:beginIndex        "15336"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "15342"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1820,1825>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Maria"^^xsd:string ;
+        nif:beginIndex        "1820"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1825"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=15465,15476>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Jeane d'Arc"^^xsd:string ;
+        nif:beginIndex        "15465"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "15476"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=9668,9674>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Senado"^^xsd:string ;
+        nif:beginIndex        "9668"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "9674"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=420,430>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "miss Sarah"^^xsd:string ;
+        nif:beginIndex        "420"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "430"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=16355,16359>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Rosa"^^xsd:string ;
+        nif:beginIndex        "16355"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "16359"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=8268,8277>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Monsenhor"^^xsd:string ;
+        nif:beginIndex        "8268"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "8277"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=13974,13979>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Baden"^^xsd:string ;
+        nif:beginIndex        "13974"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "13979"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> .
+
+<http://linguateca.pt/harem#char=1993,1999>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Carlos"^^xsd:string ;
+        nif:beginIndex        "1993"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1999"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=15774,15779>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Sédan"^^xsd:string ;
+        nif:beginIndex        "15774"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "15779"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> .
+
+<http://linguateca.pt/harem#char=1416,1421>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Maria"^^xsd:string ;
+        nif:beginIndex        "1416"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1421"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=5275,5281>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Carlos"^^xsd:string ;
+        nif:beginIndex        "5275"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5281"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=14878,14891>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Fontainebleau"^^xsd:string ;
+        nif:beginIndex        "14878"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "14891"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> .
+
+<http://linguateca.pt/harem#char=3284,3290>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Carlos"^^xsd:string ;
+        nif:beginIndex        "3284"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3290"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1571,1575>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Rosa"^^xsd:string ;
+        nif:beginIndex        "1571"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1575"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=6505,6515>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Inglaterra"^^xsd:string ;
+        nif:beginIndex        "6505"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "6515"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> .
+
+<http://linguateca.pt/harem#char=9586,9606>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Nobiliário de França"^^xsd:string ;
+        nif:beginIndex        "9586"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "9606"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> .
+
+<http://linguateca.pt/harem#char=2315,2321>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Carlos"^^xsd:string ;
+        nif:beginIndex        "2315"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2321"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=2835,2839>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Rosa"^^xsd:string ;
+        nif:beginIndex        "2835"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2839"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=9422,9435>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Parc Monceaux"^^xsd:string ;
+        nif:beginIndex        "9422"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "9435"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> .
+
+<http://linguateca.pt/harem#char=12,25>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Maria Eduarda"^^xsd:string ;
+        nif:beginIndex        "12"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "25"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=8494,8502>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Alemanha"^^xsd:string ;
+        nif:beginIndex        "8494"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "8502"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> .
+
+<http://linguateca.pt/harem#char=16549,16555>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "França"^^xsd:string ;
+        nif:beginIndex        "16549"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "16555"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=2587,2591>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Rosa"^^xsd:string ;
+        nif:beginIndex        "2587"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2591"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=944,954>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Isola-bela"^^xsd:string ;
+        nif:beginIndex        "944"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "954"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> .
+
+<http://linguateca.pt/harem#char=15524,15528>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Rosa"^^xsd:string ;
+        nif:beginIndex        "15524"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "15528"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=16760,16773>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Fontainebleau"^^xsd:string ;
+        nif:beginIndex        "16760"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "16773"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> .
+
+<http://linguateca.pt/harem#char=13711,13719>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Mac-Gren"^^xsd:string ;
+        nif:beginIndex        "13711"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "13719"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=16262,16271>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "República"^^xsd:string ;
+        nif:beginIndex        "16262"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "16271"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> .
+
+<http://linguateca.pt/harem#char=173,179>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Carlos"^^xsd:string ;
+        nif:beginIndex        "173"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "179"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=7266,7277>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Bele Helène"^^xsd:string ;
+        nif:beginIndex        "7266"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "7277"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> .
+
+<http://linguateca.pt/harem#char=0,16896>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "16896"^^xsd:nonNegativeInteger ;
+        nif:isString    "Capítulo XV Maria Eduarda e Carlos , que ficara essa noite nos Olivais na sua casinhola , acabavam de almoçar.O Domingos servira o café , e antes de sair deixara ao lado de Carlos a caixa de cigarretes e o Figaro .As duas janelas estavam abertas.Nem uma folha se movia no ar pesado da manhã encoberta , entristecida ainda por um dobre lento de sinos que morria ao longe nos campos.No banco de cortiça , sob as árvores , miss Sarah costurava preguiçosamente ; Rosa ao lado brincava na relva.E Carlos , que viera numa intimidade conjugal , com uma simples camisa de seda e um jaquetão de flanela , chegou então a cadeira para junto de Maria , tomou-lhe a mão , brincando-lhe com os anéis , numa lenta carícia :- Vamos a saber , meu amor...Decidiste , por fim ?Quando queres partir ?Nessa noite , entre os seus primeiros beijos de noiva , ela mostrara o desejo enternecido de não alterar o plano da Itália e dum ninho romântico entre as flores da Isola-bela : somente agora não iam esconder a inquietação duma felicidade culpada , mas gozar o repouso duma felicidade legítima.E , depois de todas as incertezas e tormentos que o tinham agitado desde o dia em que cruzara Maria Eduarda no Aterro , Carlos anelava também pelo momento de se instalar enfim no conforto dum amor sem dúvidas e sem sobressaltos :- Eu por mim abalava amanhã.Estou sôfrego de paz.Estou até sôfrego de preguiça ...Mas tu , dize , quando queres ? Maria não respondeu ; apenas o seu olhar sorriu , reconhecido e apaixonado.Depois , sem retirar a mão que a longa carícia de Carlos ainda prendia , chamou Rosa através da janela .- Mamã , espera , já vou !Passa-me umas migalhas ...Andam aqui uns pardais que ainda não almoçaram...- Não , vem cá.Quando ela apareceu à porta , toda de branco , corada , com uma das ultimas rosas de verão metida no cinto - Maria qui-la mais perto , entre eles , encostada aos seus joelhos.E , arranjando-lhe a fita solta do cabelo , perguntou , muito séria , muito comovida , se ela gostaria que Carlos viesse viver ver com elas de todo e ficar ali na Toca .Os olhos da pequena encheram-se de surpresa e de riso :-O quê !estar sempre , sempre aqui , mesmo de noite , toda a noite ?...E ter aqui as suas malas , as suas coisas ?...Ambos murmuraram - «sim» . Rosa então pulou , bateu as palmas , radiante , querendo que Carlos fosse já , já , buscar as suas malas e as suas coisas ...- Escuta , disse-lhe ainda Maria gravemente , retendo-a sobre os joelhos.E gostavas que ele fosse como o papá , e que , andasse sempre conosco , e que lhe obedecêssemos ambas , e que gostássemos muito dele ? Rosa ergueu para a mãe uma facesinha compenetrada , onde todo o sorriso se apagara .-Mas eu não posso gostar mais dele do que gosto !...Ambos a beijaram , num enternecimento que lhes humedecia os olhos.E Maria Eduarda , pela primeira vez diante de Rosa debruçando-se sobre ela , beijou de leve a testa de Carlos .A pequena ficou pasmada para o seu amigo , depois para a mãe.E pareceu compreender tudo ; escorregou dos joelhos de Maria , veio encostar-se a Carlos com uma meiguice humilde :- Queres que te chame papá , só a ti ?-Só a mim , disse ele , fechando-a toda nos braços.E assim obtiveram o consentimento de Rosa que fugiu , atirando a porta , com as mãos cheias de bolos para os pardais . Carlos levantou-se , tomou a cabeça de Maria entre as mãos , e contemplando-a profundamente , até à alma , murmurou num enlevo :-És perfeita !Ela desprendeu-se , com melancolia , daquela adoração que a perturbava .- Escuta ...Tenho ainda muito , muito que te dizer , infelizmente.Vamos para o nosso quiosque...Tu não tens nada que fazer , não ?E que tenhas , hoje és meu ...Vou já ter contigo.Leva as tuas cigarretes.Nos degraus do jardim , Carlos parou a olhar , a sentir a doçura velada do céu cinzento...E a vida pareceu-lhe adorável , duma poesia fina e triste , assim envolta naquela névoa macia onde nada resplandecia e nada cantava , e que tão favorável era para que dois corações , desinteressados do mundo e em desarmonia com ele , se abandonassem juntos ao contínuo encanto de estremecerem juntos na mudez e na sombra .- Vamos ter chuva , tio André , disse ele , passando junto do velho jardineiro que aparava o buxo.O tio André , atarantado , arrancou o chapéu.Ah !uma gota de água era bem necessária , depois da estiagem !O torrãosinho já estava com sede !E em casa todos bons ?A senhora ?A menina ?- Tudo bom , tio André , obrigado.E no seu desejo de ver todos em torno de si felizes como ele e como a terra sequiosa que ia ser consolada - Carlos meteu uma libra na mão do tio André , que ficou deslumbrado , sem ousar fechar os dedos sobre aquele ouro extraordinário que reluziu.Quando Maria entrou no quiosque trazia um cofre de sândalo.Atirou-o para o divã : fez sentar Carlos ao lado , bem confortável , entre almofadas : acendeu-lhe uma cigarrete.Depois agachou-se aos seus pés , sobre o tapete , como na humildade de uma confissão.- Estás bem assim ?Queres que o Domingos te traga água e cognac ?...Não ?Então ouve agora , quero-te contar tudo...Era toda a sua existência que ela desejava contar.Pensara mesmo em lha escrever numa carta interminável , como nos romances.Mas decidira antes tagarelar ali uma manhã inteira , aninhada aos seus pés .- Estás bem , não estás ? Carlos esperava , comovido.Sabia que aqueles lábios amados iam fazer revelações pungentes para o seu coração e amargas para o seu orgulho.Mas a confidência da sua vida completava a posse da sua pessoa : quando a conhecesse toda no seu passado senti-la-hia mais sua inteiramente.E no fundo tinha uma curiosidade insaciável dessas coisas que o deviam pungir e que o deviam humilhar.- Sim , conta ...Depois esquecemos tudo e para sempre.Mas agora dize , conta ...Onde nasceste tu por fim ?Nascera em Viena : mas pouco se recordava dos tempos de criança , quasi nada sabia do papá , a não ser a sua grande nobreza e a sua grande beleza .Tivera uma irmãsinha que morrera de dois anos e que se chamava Heloisa .A mamã , mais tarde , quando ela era já rapariga , não tolerava que lhe perguntassem pelo passado ; e dizia sempre que remexer a memória das coisas antigas prejudicava tanto como sacudir uma garrafa de vinho velho...De Viena apenas recordava confusamente largos passeios de árvores , militares vestidos de branco , e uma casa espelhada e dourada onde se dançava : ás vezes durante tempos ela ficava lá só com o avô , um velhinho triste e tímido , metido pelos cantos , que lhe contara histórias de navios.Depois tinham ido a Inglaterra : mas lembrava-se somente de ter atravessado um grande rumor de ruas , num dia de chuva , embrulhada em peles , sobre os joelhos dum escudeiro.As suas primeiras memórias mais nítidas datavam de Paris ; a mamã , já viúva , andava de luto pelo avô ; e ela tinha uma aia italiana que a levava todas as manhãs , com um arco e com uma péla , brincar aos Campos Elíseos .A noite costumava ver a mamã decotada , num quarto cheio de cetins e de luzes ; e um homem louro , um pouco brusco , que fumava sempre estirado pelos sofás , trazia-lhe de vez em quando uma boneca , e chamava-lhe mademoisele Triste-coeur por causa do seu arzinho sisudo.Enfim a mamã metera-a num convento ao pé de Tours - porque nessa idade , apesar de cantar já ao piano as valsas da Bele Helène , ainda não sabia soletrar.Fora nos jardins do convento , onde havia lindos lilases , que a mamã se separara dela numa paixão de lágrimas ; e ao lado esperava , para a consolar decerto , um sujeito muito grave , de bigodes encerados , a quem a Madre Superiora falara com veneração.A mamã ao principio vinha vê-la todos os meses , demorando-se em Tours dois , três dias ; trazia-lhe uma profusão de presentes , bonecas , bombons , lenços bordados , vestidos ricos , que lhe não permitia usar a regra severa do convento.Davam então passeios de carruagem pelos arredores de Tours : e havia sempre oficiais a cavalo , que escoltavam a caleche - e tratavam a mamã por tu.No convento as mestras , a Madre Superiora não gostavam destas saídas - nem mesmo que a mamã viesse acordar os corredores devotos com as suas risadas e o ruído das suas sedas ; ao mesmo tempo pareciam teme-la ; chamavam-lhe Madame la Comtesse .A mamã era muito amiga do general que comandava em Tours , e visitava o bispo . Monsenhor , quando vinha ao convento , fazia-lhe uma festinha especial na face e aludia risonhamente a son excelente mère.Depois a mamã começou a aparecer menos em Tours .Esteve um ano longe , quasi sem escrever , viajando na Alemanha ; voltou um dia , magra e coberta de luto , e ficou toda a manhã abraçada a ela a chorar.Mas na visita seguinte vinha mais moça , mais brilhante , mais ligeira , com dois grandes galgos brancos , anunciando uma romagem poética à Terra Santa e a todo o remoto Oriente .Ela tinha então quasi dezasseis anos : pela sua aplicação , os seus modos doces e graves , ganhara a afeição da Madre Superiora - que ás vezes , olhando-a com tristeza , acariciando-lhe o cabelo caído em duas tranças segundo a regra , lhe mostrava o desejo de a conservar sempre ao seu lado.Le monde , dizia ela , ne vous sera bon à rien , mon enfant !...Um dia , porém , apareceu para a levar para Paris , para a mamã , uma Madame de Chavigny , fidalga pobre , de caracóis brancos , que era como uma estampa de severidade e de virtude.O que ela chorara ao deixar o convento !Mais choraria se soubesse o que ía encontrar em Paris !A casa da mamã , no Parc Monceaux , era na realidade uma casa de jogo - mas recoberta de um luxo sério e fino.Os escudeiros tinham meias de seda ; os convidados , com grandes nomes no Nobiliário de França , conversavam de corridas , das Tulherias , dos discursos do Senado ; e as mesas de jogo armavam-se depois como uma distracção mais picante.Ela recolhia sempre ao seu quarto ás dez horas : Madame de Chavigny , que ficara como sua dama de companhia , ia com ela cedo ao Bois num coupé estufo de douairière.Pouco a pouco , porém , este grande verniz começou a estalar.A pobre mamã caíra sob o jugo dum Mr . de Trevernes , homem perigoso pela sua sedução pessoal e por uma desoladora falta de honra e de senso.A casa descaiu rapidamente numa boémia mal dourada e ruidosa .Quando ela madrugava , com os seus hábitos saudáveis do convento , encontrava paletós de homens por cima dos sofás : no mármore das consoles restavam pontas de charuto entre nódoas de champagne ; e nalgum quarto mais retirado ainda tinia o dinheiro dum bacarat talhado à claridade do sol.Depois uma noite , estando deitada , sentira de repente gritos , uma debandada brusca na escada ; veio encontrar a mamã estirada no tapete , desmaiada ; ela dissera-lhe apenas mais tarde , alagada em lágrimas , «que tinha havido uma desgraça» ...Mudaram então para um terceiro andar da Chaussée-d'Antin .Aí começou a aparecer uma gente desconhecida e suspeita.Eram Valachos grandes bigodes , Peruanos com diamantes falsos , e condes romanos que escondiam para dentro das mangas os punhos enxovalhados ...Por vezes entre esta malta vinha algum gentleman que não tirava o paletó , como num café-concerto.Um desses foi um irlandês , muito moço , Mac-Gren ... Madame de Champigny deixara-as desde que faltara o coupé severo , acolchoado de cetim ; e ela , só com a mãe , insensivelmente , fatalmente , fora-se misturando a essa vida tresnoitada de grogs e de bacarat.A mamã chamava a Mac-Gren o «bebé».Era com efeito uma criança estouvada e feliz.Namorara-se dela logo com o ardor , a efusão , o ímpeto dum irlandês ; e prometeu-lhe faze-la sua esposa apenas se emancipasse - porque Mac-Gren , menor ainda , vivia sobretudo das liberalidades de uma avó excêntrica e rica que o adorava , e que habitava a Provença numa vasta quinta onde tinha feras em jaulas ...E no entanto induzia-a sem cessar a fugir com ele , desesperado de a ver entre aqueles Valachos que cheiravam a genebra.O seu desejo era leva-la para Fontainebleau , para um cotage com trepadeiras de que falava sempre , e esperar aí tranquilamente a maioridade que lhe traria duas mil libras de renda .Decerto , era uma situação falsa : mas preferível a permanecer naquele meio depravado e brutal onde ela a cada instante corava ...A esse tempo a mamã parcela ir perdendo todo o senso , desarranjada de nervos , quasi irresponsável.As dificuldades crescentes estonteavam-na ; brigava com as criadas ; bebia champagne «pour s' étourdir».Para satisfazer as exigências de Mr . de Trevernes empenhara as suas jóias , e quasi todos os dias chorava com ciúmes dele.Por fim houve uma penhora : uma noite tiveram de enfardelar à pressa roupa num saco , e ir dormir a um hotel.E , pior , pior que tudo ! Mr . de Trevernes começava a olhar para ela dum modo que a assustava ...- Minha pobre Maria !murmurou Carlos , pálido , agarrando-lhe as mãos.Ela permaneceu um momento sufocada , com o rosto caído nos joelhos dele.Depois limpando as lágrimas que a enevoavam :- Aí estão as cartas de Mac-Gren , nesse cofre...Tenho-as guardado sempre para me justificar a mim mesma , se me é possível...Pede-me em todas que vá para Fontainebleau ; chama-me sua esposa ; jura que apenas juntos iremos ajoelhar-nos diante da avó , obter a sua indulgência ...Mil promessas !E era sincero...Que queres que te diga ?A mamã uma manhã partiu com uma súcia para Baden .Fiquei em Paris só , num hotel...Tinha um palpite , um terror que Trevernes aparecia ...E eu só !Estava tão transtornada que pensei em comprar um revólver...Mas quem veio foi Mac-Gren .E partira com ele , sem precipitação , como sua esposa , levando todas as suas malas.A mamã de volta de Baden correu a Fontainebleau , desvairada e trágica , amaldiçoando Mac-Gren , ameaçando-o com a prisão de Mazas , querendo esbofeteá-lo ; depois rompeu a chorar . Mac-Gren , como um bebé , agarrou-se a ela aos beijos , chorando também.A mamã terminou por os apertar a ambos contra o coração , já rendida , perdoando tudo , chamando-lhes «filhos da sua alma».Passou o dia em Fontainebleau , radiante , contando «a patuscada de Baden » , já com o plano de vir instalar-se no cotage , viver junto deles numa felicidade calma e nobre de avósinha ...Era em maio ; Mac-Gren , à noite , deitou um «fogo preso» no jardim.Começou um ano quieto e fácil.O seu único desejo era que a mamã vivesse com eles sossegadamente.Diante suas suplicas ela ficava pensativa , dizia :«Tens razão , veremos !»Depois remergulhava no torvelinho de MORF=\" ?,S\" Paris , de onde ressurgia uma manhã , num fiacre , estremunhada e aflita , com uma rica peliça sobre uma velha saia , a pedir-lhe cem francos ...Por fim nascera Rosa .Toda a sua ansiedade desde então fora legitimar a sua união.Mas Mac-Gren adiava , levianamente , com um medo pueril da avó.Era um perfeito bebé !Entretinha as manhãs a caçar pássaros com visco !E ao mesmo tempo terrivelmente teimoso : ela pouco a pouco perdera-lhe todo o respeito.No começo da primavera a mamã um dia apareceu em Fontainebleau com as suas malas , sucumbida , enojada da vida .Rompera enfim com Trevernes .Mas quasi imediatamente se consolou : e começou daí a adorar Mac-Gren com uma tão larga efusão de carícias , e achando-o tão lindo , que era ás vezes embaraçadora.Os dois passavam o dia , com copinhos de cognac , jogando o besigue.De repente rebentou a guerra com a Prússia . Mac-Gren entusiasmado , e apesar das suplicas delas , correra a alistar-se no batalhão de Zuavos de Charete ; a avó de resto aprovara este rasgo de amor pela França , e fizera-lhe numa carta em verso , em que celebrava Jeane d'Arc , uma larga remessa de dinheiro.Por esse tempo Rosa teve o garrotilho.Ela , sem lhe largar o leito , mal atendia ás noticias da guerra.Sabia apenas confusamente das primeiras batalhas perdidas na fronteira .Uma manhã a mamã rompeu-lhe no quarto , estonteada , em camisa : o exercito capitulara em Sédan , o imperador estava prisioneiro !«É o fim de tudo , é o fim de tudo !» dizia a mamã espavorida.Ela veio a Paris procurar noticias de Mac-Gren : na rua Royale teve de se refugiar num portão , diante do tumulto dum povo em delírio , aclamando , cantando a Marselhesa , em torno de uma caleche onde ia um homem , pálido como cera , com um cache-nez escarlate ao pescoço.E um sujeito ao lado , aterrado , disse-lhe que o povo fora buscar Rochefort à prisão e que estava , proclamada a República .Nada soubera de Mac-Gren .Começaram então dias de infinito sobressalto.Felizmente Rosa convalescia .Mas a pobre mamã causava dó , envelhecida de repente , sombria , prostrada numa cadeira , murmurando apenas :«É o fim de tudo , é o fim de tudo !»E parecia na verdade o fim da França .Cada dia uma batalha perdida ; regimentos presos , apinhados em wagons de gado , internados a todo o vapor para os presídios da Alemanha ; os prussianos marchando sobre Paris ...Não podiam permanecer em Fontainebleau ; o duro inverno começava ; e com o que venderam à pressa , com o dinheiro que Mac-Gren deixara , partiram para Londres . "^^xsd:string .
+
+<http://linguateca.pt/harem#char=3016,3021>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Maria"^^xsd:string ;
+        nif:beginIndex        "3016"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3021"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=2049,2053>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Toca"^^xsd:string ;
+        nif:beginIndex        "2049"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2053"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> .
+
+<http://linguateca.pt/harem#char=15914,15922>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Mac-Gren"^^xsd:string ;
+        nif:beginIndex        "15914"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "15922"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=28,34>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Carlos"^^xsd:string ;
+        nif:beginIndex        "28"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "34"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=5772,5777>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Viena"^^xsd:string ;
+        nif:beginIndex        "5772"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5777"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> .
+
+<http://linguateca.pt/harem#char=15236,15243>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Prússia"^^xsd:string ;
+        nif:beginIndex        "15236"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "15243"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=11664,11672>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Provença"^^xsd:string ;
+        nif:beginIndex        "11664"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "11672"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> .
+
+<http://linguateca.pt/harem#char=7624,7629>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Tours"^^xsd:string ;
+        nif:beginIndex        "7624"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "7629"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> .
+
+<http://linguateca.pt/harem#char=16853,16861>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Mac-Gren"^^xsd:string ;
+        nif:beginIndex        "16853"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "16861"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=10750,10766>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Chaussée-d'Antin"^^xsd:string ;
+        nif:beginIndex        "10750"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "10766"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> .
+
+<http://linguateca.pt/harem#char=4133,4142>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "tio André"^^xsd:string ;
+        nif:beginIndex        "4133"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4142"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=11120,11139>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Madame de Champigny"^^xsd:string ;
+        nif:beginIndex        "11120"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "11139"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=9170,9175>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Paris"^^xsd:string ;
+        nif:beginIndex        "9170"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "9175"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> .
+
+<http://linguateca.pt/harem#char=16289,16297>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Mac-Gren"^^xsd:string ;
+        nif:beginIndex        "16289"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "16297"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1193,1199>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Carlos"^^xsd:string ;
+        nif:beginIndex        "1193"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1199"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=9196,9214>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Madame de Chavigny"^^xsd:string ;
+        nif:beginIndex        "9196"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "9214"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=4684,4689>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Maria"^^xsd:string ;
+        nif:beginIndex        "4684"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4689"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=11808,11816>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Valachos"^^xsd:string ;
+        nif:beginIndex        "11808"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "11816"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=6199,6204>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Viena"^^xsd:string ;
+        nif:beginIndex        "6199"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "6204"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> .
+
+<http://linguateca.pt/harem#char=7849,7854>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Tours"^^xsd:string ;
+        nif:beginIndex        "7849"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "7854"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> .
+
+<http://linguateca.pt/harem#char=633,638>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Maria"^^xsd:string ;
+        nif:beginIndex        "633"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "638"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=15887,15892>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Paris"^^xsd:string ;
+        nif:beginIndex        "15887"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "15892"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> .
+
+<http://linguateca.pt/harem#char=3725,3731>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Carlos"^^xsd:string ;
+        nif:beginIndex        "3725"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3731"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=13269,13274>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Paris"^^xsd:string ;
+        nif:beginIndex        "13269"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "13274"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> .
+
+<http://linguateca.pt/harem#char=14381,14386>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Paris"^^xsd:string ;
+        nif:beginIndex        "14381"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "14386"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> .
+
+<http://linguateca.pt/harem#char=12390,12407>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Mr . de Trevernes"^^xsd:string ;
+        nif:beginIndex        "12390"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "12407"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=4537,4543>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Carlos"^^xsd:string ;
+        nif:beginIndex        "4537"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4543"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=459,463>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Rosa"^^xsd:string ;
+        nif:beginIndex        "459"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "463"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=7195,7200>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Tours"^^xsd:string ;
+        nif:beginIndex        "7195"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "7200"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> .
+
+<http://linguateca.pt/harem#char=12702,12707>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Maria"^^xsd:string ;
+        nif:beginIndex        "12702"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "12707"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=492,498>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Carlos"^^xsd:string ;
+        nif:beginIndex        "492"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "498"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=8883,8898>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Madre Superiora"^^xsd:string ;
+        nif:beginIndex        "8883"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "8898"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=112,120>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Domingos"^^xsd:string ;
+        nif:beginIndex        "112"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "120"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=7106,7118>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Triste-coeur"^^xsd:string ;
+        nif:beginIndex        "7106"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "7118"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> .
+
+<http://linguateca.pt/harem#char=13325,13334>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Trevernes"^^xsd:string ;
+        nif:beginIndex        "13325"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "13334"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=13548,13553>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Baden"^^xsd:string ;
+        nif:beginIndex        "13548"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "13553"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> .
+
+<http://linguateca.pt/harem#char=10856,10864>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Peruanos"^^xsd:string ;
+        nif:beginIndex        "10856"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "10864"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=8732,8743>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Terra Santa"^^xsd:string ;
+        nif:beginIndex        "8732"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "8743"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> .
+
+<http://linguateca.pt/harem#char=15932,15938>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Royale"^^xsd:string ;
+        nif:beginIndex        "15932"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "15938"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> .
+
+<http://linguateca.pt/harem#char=10007,10024>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Mr . de Trevernes"^^xsd:string ;
+        nif:beginIndex        "10007"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "10024"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=5971,5978>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Heloisa"^^xsd:string ;
+        nif:beginIndex        "5971"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5978"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> .
+
+<http://linguateca.pt/harem#char=16886,16893>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Londres"^^xsd:string ;
+        nif:beginIndex        "16886"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "16893"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> .
+
+<http://linguateca.pt/harem#char=7971,7986>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Madre Superiora"^^xsd:string ;
+        nif:beginIndex        "7971"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "7986"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=63,70>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Olivais"^^xsd:string ;
+        nif:beginIndex        "63"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "70"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> .
+
+<http://linguateca.pt/harem#char=14612,14620>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Mac-Gren"^^xsd:string ;
+        nif:beginIndex        "14612"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "14620"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=2892,2898>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Carlos"^^xsd:string ;
+        nif:beginIndex        "2892"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2898"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=16726,16731>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Paris"^^xsd:string ;
+        nif:beginIndex        "16726"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "16731"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> .
+
+<http://linguateca.pt/harem#char=6710,6715>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Paris"^^xsd:string ;
+        nif:beginIndex        "6710"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "6715"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> .
+
+<http://linguateca.pt/harem#char=9639,9648>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Tulherias"^^xsd:string ;
+        nif:beginIndex        "9639"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "9648"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> .
+
+<http://linguateca.pt/harem#char=6865,6879>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Campos Elíseos"^^xsd:string ;
+        nif:beginIndex        "6865"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "6879"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> .
+
+<http://linguateca.pt/harem#char=8762,8769>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Oriente"^^xsd:string ;
+        nif:beginIndex        "8762"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "8769"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> .
+
+<http://linguateca.pt/harem#char=8168,8186>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Madame la Comtesse"^^xsd:string ;
+        nif:beginIndex        "8168"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "8186"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> .
+
+<http://linguateca.pt/harem#char=2406,2411>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Maria"^^xsd:string ;
+        nif:beginIndex        "2406"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2411"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=14959,14968>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Trevernes"^^xsd:string ;
+        nif:beginIndex        "14959"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "14968"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=12718,12724>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Carlos"^^xsd:string ;
+        nif:beginIndex        "12718"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "12724"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=13615,13623>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Mac-Gren"^^xsd:string ;
+        nif:beginIndex        "13615"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "13623"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1167,1180>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Maria Eduarda"^^xsd:string ;
+        nif:beginIndex        "1167"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1180"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=11871,11884>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Fontainebleau"^^xsd:string ;
+        nif:beginIndex        "11871"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "11884"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> .
+
+<http://linguateca.pt/harem#char=13030,13043>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Fontainebleau"^^xsd:string ;
+        nif:beginIndex        "13030"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "13043"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> .
+
+<http://linguateca.pt/harem#char=15031,15039>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Mac-Gren"^^xsd:string ;
+        nif:beginIndex        "15031"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "15039"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=8432,8437>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Tours"^^xsd:string ;
+        nif:beginIndex        "8432"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "8437"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> .
+
+<http://linguateca.pt/harem#char=10829,10837>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Valachos"^^xsd:string ;
+        nif:beginIndex        "10829"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "10837"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=4213,4222>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "tio André"^^xsd:string ;
+        nif:beginIndex        "4213"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4222"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=9796,9814>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Madame de Chavigny"^^xsd:string ;
+        nif:beginIndex        "9796"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "9814"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=4966,4974>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Domingos"^^xsd:string ;
+        nif:beginIndex        "4966"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4974"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=4570,4579>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "tio André"^^xsd:string ;
+        nif:beginIndex        "4570"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4579"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=14542,14546>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Rosa"^^xsd:string ;
+        nif:beginIndex        "14542"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "14546"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=11344,11352>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Mac-Gren"^^xsd:string ;
+        nif:beginIndex        "11344"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "11352"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=206,212>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Figaro"^^xsd:string ;
+        nif:beginIndex        "206"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "212"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> .
+
+<http://linguateca.pt/harem#char=3323,3328>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Maria"^^xsd:string ;
+        nif:beginIndex        "3323"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3328"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=13434,13442>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Mac-Gren"^^xsd:string ;
+        nif:beginIndex        "13434"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "13442"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=13563,13576>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Fontainebleau"^^xsd:string ;
+        nif:beginIndex        "13563"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "13576"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> .
+
+<http://linguateca.pt/harem#char=13654,13659>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Mazas"^^xsd:string ;
+        nif:beginIndex        "13654"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "13659"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> .
+
+<http://linguateca.pt/harem#char=2254,2258>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Rosa"^^xsd:string ;
+        nif:beginIndex        "2254"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2258"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=9876,9880>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Bois"^^xsd:string ;
+        nif:beginIndex        "9876"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "9880"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> .
+
+<http://linguateca.pt/harem#char=1184,1190>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Aterro"^^xsd:string ;
+        nif:beginIndex        "1184"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1190"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> .
+
+<http://linguateca.pt/harem#char=13922,13935>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Fontainebleau"^^xsd:string ;
+        nif:beginIndex        "13922"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "13935"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> .
+
+<http://linguateca.pt/harem#char=14100,14104>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "maio"^^xsd:string ;
+        nif:beginIndex        "14100"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "14104"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> .
+
+<http://linguateca.pt/harem#char=1541,1547>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Carlos"^^xsd:string ;
+        nif:beginIndex        "1541"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1547"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=15346,15353>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Charete"^^xsd:string ;
+        nif:beginIndex        "15346"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "15353"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=3043,3049>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Carlos"^^xsd:string ;
+        nif:beginIndex        "3043"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3049"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=4408,4417>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "tio André"^^xsd:string ;
+        nif:beginIndex        "4408"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4417"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=12899,12907>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Mac-Gren"^^xsd:string ;
+        nif:beginIndex        "12899"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "12907"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=15404,15410>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "França"^^xsd:string ;
+        nif:beginIndex        "15404"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "15410"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> .
+
+<http://linguateca.pt/harem#char=11543,11551>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Mac-Gren"^^xsd:string ;
+        nif:beginIndex        "11543"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "11551"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=8239,8244>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Tours"^^xsd:string ;
+        nif:beginIndex        "8239"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "8244"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> .
+
+<http://linguateca.pt/harem#char=14107,14115>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Mac-Gren"^^xsd:string ;
+        nif:beginIndex        "14107"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "14115"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=7522,7537>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Madre Superiora"^^xsd:string ;
+        nif:beginIndex        "7522"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "7537"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=4770,4776>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Carlos"^^xsd:string ;
+        nif:beginIndex        "4770"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4776"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=896,902>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Itália"^^xsd:string ;
+        nif:beginIndex        "896"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "902"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> .
+
+<http://linguateca.pt/harem#char=16215,16224>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Rochefort"^^xsd:string ;
+        nif:beginIndex        "16215"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "16224"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=15246,15254>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Mac-Gren"^^xsd:string ;
+        nif:beginIndex        "15246"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "15254"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,16896> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .

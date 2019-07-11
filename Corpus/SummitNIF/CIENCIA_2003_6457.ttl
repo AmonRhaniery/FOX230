@@ -1,0 +1,145 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=699,703>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Sars"^^xsd:string ;
+        nif:beginIndex        "699"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "703"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1470> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1432,1437>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "China"^^xsd:string ;
+        nif:beginIndex        "1432"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1437"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1470> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=406,410>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Sars"^^xsd:string ;
+        nif:beginIndex        "406"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "410"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1470> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=242,248>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Xinhua"^^xsd:string ;
+        nif:beginIndex        "242"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "248"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1470> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1470>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1470"^^xsd:nonNegativeInteger ;
+        nif:isString    "Depois de ter sido acusada pela Organização Mundial da Saúde de ter mais casos de pneumonia asiática do que relatava publicamente , a China prometeu mais transparência na notificação de casos da doença . Segundo a agência de notícias oficial Xinhua , o comitê central do Partido Comunista Chinês , após uma reunião , alertou as autoridades de saúde a não esconder casos da pneumonia , conhecida pela sigla Sars ( síndrome respiratória aguda grave ) . \"Não deve haver demora nem fraude no relato dos casos\" , afirmou a agência , citando o comitê _cuja reunião foi liderada pelo presidente chinês , Hu Jintao . O encontro do partido ocorreu um dia depois de a OMS ter dito que Pequim tem 200 casos de Sars em vez dos 37 notificados . O governo chinês disse que tem agido com responsabilidade desde que a epidemia começou , na Província de Guangdong . Segundo o último relatório da OMS , a pneumonia asiática já matou 170 pessoas e infectou 3.461 nos cinco continentes . Só ontem , cinco pessoas morreram na Ásia _quatro delas em Hong Kong , de onde a doença se espalhou pelo mundo . Autoridades locais iniciaram ontem uma campanha de limpeza da cidade , para evitar mais contaminação . O Brasil , que até agora teve dois casos _ainda não confirmados_ , era o único país da América do Sul afetado . Mas , segundo a agência de notícias France Presse , a Venezuela já tem um caso suspeito : um homem de 48 anos que viajou recentemente à China . Com agências internacionais . "^^xsd:string .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=675,681>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Pequim"^^xsd:string ;
+        nif:beginIndex        "675"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "681"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1470> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1186,1192>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Brasil"^^xsd:string ;
+        nif:beginIndex        "1186"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1192"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1470> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1027,1036>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Hong Kong"^^xsd:string ;
+        nif:beginIndex        "1027"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1036"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1470> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1271,1285>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "América do Sul"^^xsd:string ;
+        nif:beginIndex        "1271"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1285"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1470> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=271,295>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Partido Comunista Chinês"^^xsd:string ;
+        nif:beginIndex        "271"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "295"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1470> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1350,1359>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Venezuela"^^xsd:string ;
+        nif:beginIndex        "1350"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1359"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1470> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=32,60>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Organização Mundial da Saúde"^^xsd:string ;
+        nif:beginIndex        "32"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "60"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1470> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=134,139>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "China"^^xsd:string ;
+        nif:beginIndex        "134"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "139"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1470> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1332,1345>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "France Presse"^^xsd:string ;
+        nif:beginIndex        "1332"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1345"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1470> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=597,606>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Hu Jintao"^^xsd:string ;
+        nif:beginIndex        "597"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "606"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1470> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=824,846>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Província de Guangdong"^^xsd:string ;
+        nif:beginIndex        "824"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "846"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1470> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=879,882>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "OMS"^^xsd:string ;
+        nif:beginIndex        "879"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "882"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1470> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=658,661>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "OMS"^^xsd:string ;
+        nif:beginIndex        "658"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "661"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1470> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .

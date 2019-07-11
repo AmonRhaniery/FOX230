@@ -1,0 +1,73 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=627,642>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Benjamin Gaston"^^xsd:string ;
+        nif:beginIndex        "627"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "642"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,921> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=336,350>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "S-nitrosotióis"^^xsd:string ;
+        nif:beginIndex        "336"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "350"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,921> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=792,809>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Instituto Burnham"^^xsd:string ;
+        nif:beginIndex        "792"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "809"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,921> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=812,822>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Califórnia"^^xsd:string ;
+        nif:beginIndex        "812"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "822"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,921> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=353,357>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Snos"^^xsd:string ;
+        nif:beginIndex        "353"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "357"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,921> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=773,786>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Stuart Lipton"^^xsd:string ;
+        nif:beginIndex        "773"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "786"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,921> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=264,288>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Universidade da Virgínia"^^xsd:string ;
+        nif:beginIndex        "264"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "288"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,921> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=291,294>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "EUA"^^xsd:string ;
+        nif:beginIndex        "291"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "294"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,921> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,921>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "921"^^xsd:nonNegativeInteger ;
+        nif:isString    "O mecanismo que faz as pessoas sentirem falta de ar em regiões montanhosas ou depois de uma corrida está fortemente ligado a gases da família do óxido nítrico , de acordo com estudo publicado na última edição da revista \"Nature\" ( www.nature.com ) . Cientistas da Universidade da Virgínia , EUA , descobriram que esses gases , chamados S-nitrosotióis ( Snos ) atuam em todos os níveis da regulação respiratória , fazendo com que os vasos sanguíneos e vias respiratórias dilatem , sinalizando a necessidade de oxigênio por parte dos tecidos e comunicando-se com as regiões cerebrais que controlam o desejo de respirar . Segundo Benjamin Gaston , um dos cientistas envolvidos na pesquisa , a descoberta pode abrir alternativas para o tratamento de disfunções respiratórias . Stuart Lipton , do Instituto Burnham , Califórnia , não duvida : \"Esse estudo tem lugar garantido nos manuais de fisiologia\" , diz . ( DA REDAÇÃO ) "^^xsd:string .

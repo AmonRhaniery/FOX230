@@ -1,0 +1,156 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=3389,3405>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Angelina Santoni"^^xsd:string ;
+        nif:beginIndex        "3389"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3405"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3478> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=2990,3000>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Quipangala"^^xsd:string ;
+        nif:beginIndex        "2990"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3000"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3478> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1506,1516>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Quipangala"^^xsd:string ;
+        nif:beginIndex        "1506"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1516"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3478> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=0,3478>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "3478"^^xsd:nonNegativeInteger ;
+        nif:isString    "Lembro-me que foi a trinta e um de Janeiro , pois o levámos para casa do capitão Galho ( era a mais próxima ) e o jovem degredado recebeu-nos à porta , num sólido e frio mutismo de mármore . Como sempre , no aniversário da sua desgraça , trazia vestido o uniforme de gala e o peito refulgia com o esplendor das medalhas . Após uma larga hesitação fez sinal para que entrássemos e ele próprio tratou de ir buscar uma esteira onde estendemos o morto . O padre chegou nessa altura , ainda compondo a batina e resfolegando como um cavalo marinho ; vinha afogado em suor , vacilante e desgrenhado , maldizendo alto a inclemência do Sol . Ao ver o capitão deteve-se com uma expressão de sincero desgosto : Merda ! -- exclamou -- tinha-me esquecido que hoje é trinta e um de Janeiro . Só nos atrevemos a sair com o nosso morto , para o levar à igreja , depois que o Sol começou a enfraquecer e o ar se encheu do canto ansioso das cigarras . Cá fora aguardava-nos o inevitável cortejo de carpideiras , \"velhas senhoras industriadas\" , como gostava de repetir Quipangala , \"no muito antigo e piedoso ofício de prantear a dor alheia\" . Nessa mesma noite baptizámos o estranho com o nome de Lázaro , rezámos por sua alma uma missa breve e ao entardecer do dia seguinte levámo-lo a enterrar com festiva pompa e circunstância . A banda do carpinteiro Brito acompanhou o féretro à frente de toda a população da vila , tocando para conforto geral as severas mas gradáveis marchas do costume.Fez o elogio do morto o velho Quipangala , conhecido aquém e além matos pelo fulgor do seu verbo , pela côncava voz de catástrofe e pela solenidade que pesa em tudo quanto dizia , ainda que nada de extraordinário tivesse para dizer . Para agrado de Deus Nosso Senhor e perpétuo logro de Satanás , o Maldito , criou para Lázaro uma vida novinha em folha , pródiga em devoções e em virtudes . Alongou-se em metáforas de inusitado brilho , falando do defunto como de um amigo de infância , recordando-nos a sua meninice ingénua , o mancebo grave e belo que ele havia sido . Ouvindo-o falar chorámos com ele lágrimas autênticas , já Lázaro se fazia parente de todos , já com a sua morte se extinguia irremissivelmente algo de nós . Estávamos nisto quando principiou a crescer do rio um grande rumor de vozes.Ninguém se voltou ou desfez a compostura ; mas em breve o alarido se tornou mais forte que a poderosa voz do orador e logo se fez tão claro que antes mesmo de vermos surgir os primeiros homens ( eram serviçais que trabalhavam na construção da ponte ) já todos tínhamos compreendido do que se tratava.Dessa vez o rio trouxera um cadáver de ossos acanhados , que podia ser de uma criança ou de uma mulher . Porém , este tinha já qualquer coisa de insensato : perdera quase inteiramente a cor , e o rosto ( porque demasiado inchado? ) não apresentava formas . Mesmo assim demos-lhe o nome de Ofélia e repetimos com ela o que fizéramos a Lázaro . Todavia a missa foi pobre e às exéquias faltou o lustro habitual . Quipangala tinha bebido em excesso e parecia um funâmbulo tentando a custo equilibrar-se nas altas pernas de garça . Ao invés do esperado elogio da morta quis produzir uma espécie de longa alegoria sobre a beleza da Mulher , mas depressa se tornou evidente que falava não da infeliz Ofélia , triste e desconjuntada na sua gaiola de tábuas , e sim da jovem e exuberante esposa do chefe do concelho , Angelina Santoni , por quem alimentava desde há anos uma pública paixão de adolescente . "^^xsd:string .
+
+<http://linguateca.pt/harem#char=2914,2920>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Lázaro"^^xsd:string ;
+        nif:beginIndex        "2914"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2920"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3478> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1338,1343>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Brito"^^xsd:string ;
+        nif:beginIndex        "1338"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1343"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3478> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=768,775>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Janeiro"^^xsd:string ;
+        nif:beginIndex        "768"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "775"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3478> .
+
+<http://linguateca.pt/harem#char=1796,1802>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Lázaro"^^xsd:string ;
+        nif:beginIndex        "1796"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1802"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3478> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=627,630>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Sol"^^xsd:string ;
+        nif:beginIndex        "627"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "630"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3478> .
+
+<http://linguateca.pt/harem#char=3206,3212>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Mulher"^^xsd:string ;
+        nif:beginIndex        "3206"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3212"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3478> .
+
+<http://linguateca.pt/harem#char=35,42>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Janeiro"^^xsd:string ;
+        nif:beginIndex        "35"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "42"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3478> .
+
+<http://linguateca.pt/harem#char=2869,2875>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ofélia"^^xsd:string ;
+        nif:beginIndex        "2869"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2875"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3478> .
+
+<http://linguateca.pt/harem#char=73,86>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "capitão Galho"^^xsd:string ;
+        nif:beginIndex        "73"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "86"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3478> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=859,862>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Sol"^^xsd:string ;
+        nif:beginIndex        "859"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "862"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3478> .
+
+<http://linguateca.pt/harem#char=1051,1061>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Quipangala"^^xsd:string ;
+        nif:beginIndex        "1051"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1061"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3478> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1180,1186>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Lázaro"^^xsd:string ;
+        nif:beginIndex        "1180"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1186"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3478> .
+
+<http://linguateca.pt/harem#char=3273,3279>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ofélia"^^xsd:string ;
+        nif:beginIndex        "3273"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3279"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3478> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1725,1742>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Deus Nosso Senhor"^^xsd:string ;
+        nif:beginIndex        "1725"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1742"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3478> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=2105,2111>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Lázaro"^^xsd:string ;
+        nif:beginIndex        "2105"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2111"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3478> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1763,1782>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Satanás , o Maldito"^^xsd:string ;
+        nif:beginIndex        "1763"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1782"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3478> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .

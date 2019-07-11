@@ -1,0 +1,149 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=829,848>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1ª . Guerra Mundial"^^xsd:string ;
+        nif:beginIndex        "829"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "848"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1549> .
+
+<http://linguateca.pt/harem#char=912,920>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Alemanha"^^xsd:string ;
+        nif:beginIndex        "912"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "920"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1549> .
+
+<http://linguateca.pt/harem#char=751,770>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Emmanuel Ringelblum"^^xsd:string ;
+        nif:beginIndex        "751"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "770"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1549> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=798,807>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "século XX"^^xsd:string ;
+        nif:beginIndex        "798"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "807"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1549> .
+
+<http://linguateca.pt/harem#char=959,968>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "6 milhões"^^xsd:string ;
+        nif:beginIndex        "959"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "968"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1549> .
+
+<http://linguateca.pt/harem#char=217,226>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1933-1945"^^xsd:string ;
+        nif:beginIndex        "217"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "226"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1549> .
+
+<http://linguateca.pt/harem#char=13,26>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Carlos Fontes"^^xsd:string ;
+        nif:beginIndex        "13"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "26"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1549> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1458,1466>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Alemanha"^^xsd:string ;
+        nif:beginIndex        "1458"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1466"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1549> .
+
+<http://linguateca.pt/harem#char=773,792>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "26 de Abril de 1941"^^xsd:string ;
+        nif:beginIndex        "773"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "792"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1549> .
+
+<http://linguateca.pt/harem#char=131,173>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Século XX : Entre o Progresso e a Barbárie"^^xsd:string ;
+        nif:beginIndex        "131"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "173"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1549> .
+
+<http://linguateca.pt/harem#char=52,119>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Século XXI A Nova Desordem Mundial : Os Sinais da Guerra EUA-Iraque"^^xsd:string ;
+        nif:beginIndex        "52"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "119"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1549> .
+
+<http://linguateca.pt/harem#char=851,860>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1914-1918"^^xsd:string ;
+        nif:beginIndex        "851"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "860"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1549> .
+
+<http://linguateca.pt/harem#char=27,35>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Director"^^xsd:string ;
+        nif:beginIndex        "27"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "35"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1549> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=38,51>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Carlos Fontes"^^xsd:string ;
+        nif:beginIndex        "38"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "51"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1549> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=0,1549>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1549"^^xsd:nonNegativeInteger ;
+        nif:isString    "confrontos . Carlos Fontes Director : Carlos Fontes Século XXI A Nova Desordem Mundial : Os Sinais da Guerra EUA-Iraque Em breve : Século XX : Entre o Progresso e a Barbárie O Estado Alemão , durante o período nazi ( 1933-1945 ) , pilhou sistematicamente os bens do judeus . Milhões deles foram mortos em campos de concentração , muitos pelo método a que chamavam \"morte pelo trabalho\" : os presos eram obrigados a trabalharem até á morte . \"Ouvi como o rabino de Varsóvia foi assassinado no Yom Kippur . Mandaram-no varrer a rua . Depois mandaram-no recolher o lixo no gorro de pele que trazia ; quando se baixou , cravaram-lhe por três vezes uma baioneta nas costas . Continuou a trabalhar e morreu a trabalhar\" . De Notas do Gueto de Varsóvia , de Emmanuel Ringelblum , 26 de Abril de 1941 . No século XX , às carnificinas da 1ª . Guerra Mundial ( 1914-1918 ) , sucedeu-se o delírio exterminador dos nazis na Alemanha . Entre as suas vítimas , contaram-se 6 milhões de judeus europeus , ou seja , 40 % da comunidade judaica mundial . Esta chacina é apenas a ponta de Iceberg de extermínios que tem varrido o mundo . Os motivos que alegadamente desencadearam estas carnificinas são os mais diversos : conflitos raciais , religiosos , étnicos ou políticos , etc. Qualquer coisa tem servido para justificar a morte do próximo , a sua exploração desenfreada , a pilhagem dos seus bens incluindo a anexação dos seus territórios . Grupo de jovens neonazis , na Alemanha actual , insultando um imigrante . Para nos contactar : carlos.fontes@megamail.pt "^^xsd:string .
+
+<http://linguateca.pt/harem#char=176,189>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Estado Alemão"^^xsd:string ;
+        nif:beginIndex        "176"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "189"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1549> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1000,1004>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "40 %"^^xsd:string ;
+        nif:beginIndex        "1000"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1004"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1549> .
+
+<http://linguateca.pt/harem#char=464,472>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Varsóvia"^^xsd:string ;
+        nif:beginIndex        "464"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "472"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1549> .
+
+<http://linguateca.pt/harem#char=719,745>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Notas do Gueto de Varsóvia"^^xsd:string ;
+        nif:beginIndex        "719"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "745"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1549> .
+
+<http://linguateca.pt/harem#char=492,502>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Yom Kippur"^^xsd:string ;
+        nif:beginIndex        "492"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "502"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1549> .

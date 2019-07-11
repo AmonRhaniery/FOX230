@@ -1,0 +1,165 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=412,417>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Drama"^^xsd:string ;
+        nif:beginIndex        "412"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "417"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1457> .
+
+<http://linguateca.pt/harem#char=438,442>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Deus"^^xsd:string ;
+        nif:beginIndex        "438"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "442"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1457> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=0,1457>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1457"^^xsd:nonNegativeInteger ;
+        nif:isString    "O Brazão da Minha Família Olá ! Sou o Diogo , tenho 16 anos e decidi criar esta página por mim , mas mais pela minha causa . Antes de falar da minha causa , vou tentar falar um pouco de mim : Nasci a 18 de Fevereiro de 1984 . Moro no Porto e estudo no 11º ano( Economia ).Pratico equitação(tornou-se a 5º máxima da minha vida ) , adoro história e não perco um bom documentário . Adoro cinema e prefiro filmes de Drama ou \" Históricos \" . Deus , a Pátria , O Rei , a Família e a equitação são as máximas da minha vida e a minha causa incere-se na 2º e na 3º máxima . Sou contra o federaliamo Europeu ( mas a favor da comunidade europeia das nações ) e sou monárquico . Ao contrário do que muitos pensam não herdei a vontade de ser Monárquico , pois na minha família não há um único monárquico a não ser eu . Contudo sou descendente de família Nobre pelo lado da minha mãe , mas nem por isso a minha família se torna Monárquica . Com isto entende-se que para ser Monárquico basta preferir a Instituição Real em deterioração da Republicana , não é preciso pertencer a famílias aristocráticas( como muitos pensam e mal , aproveitando-se disso para nos criticar ) . Podia dizer muito mais á cerca de mim e da minha causa , mas como não percebo muito de internet , vou perquisar mais um pouco para ver como é a estrutura da página , mais tarde falo mais de mim e da minha causa . Com os melhores cumprimentos e Saudações Monárquicas : Diogo Costa V . T . Pereira "^^xsd:string .
+
+<http://linguateca.pt/harem#char=200,223>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "18 de Fevereiro de 1984"^^xsd:string ;
+        nif:beginIndex        "200"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "223"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1457> .
+
+<http://linguateca.pt/harem#char=252,255>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "11º"^^xsd:string ;
+        nif:beginIndex        "252"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "255"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1457> .
+
+<http://linguateca.pt/harem#char=466,473>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Família"^^xsd:string ;
+        nif:beginIndex        "466"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "473"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1457> .
+
+<http://linguateca.pt/harem#char=1429,1456>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Diogo Costa V . T . Pereira"^^xsd:string ;
+        nif:beginIndex        "1429"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1456"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1457> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=915,925>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Monárquica"^^xsd:string ;
+        nif:beginIndex        "915"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "925"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1457> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=546,548>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "2º"^^xsd:string ;
+        nif:beginIndex        "546"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "548"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1457> .
+
+<http://linguateca.pt/harem#char=961,971>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Monárquico"^^xsd:string ;
+        nif:beginIndex        "961"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "971"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1457> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=730,740>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Monárquico"^^xsd:string ;
+        nif:beginIndex        "730"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "740"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1457> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=447,453>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Pátria"^^xsd:string ;
+        nif:beginIndex        "447"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "453"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1457> .
+
+<http://linguateca.pt/harem#char=554,556>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "3º"^^xsd:string ;
+        nif:beginIndex        "554"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "556"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1457> .
+
+<http://linguateca.pt/harem#char=423,433>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Históricos"^^xsd:string ;
+        nif:beginIndex        "423"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "433"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1457> .
+
+<http://linguateca.pt/harem#char=38,43>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Diogo"^^xsd:string ;
+        nif:beginIndex        "38"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "43"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1457> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=989,1005>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Instituição Real"^^xsd:string ;
+        nif:beginIndex        "989"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1005"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1457> .
+
+<http://linguateca.pt/harem#char=234,239>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Porto"^^xsd:string ;
+        nif:beginIndex        "234"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "239"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1457> .
+
+<http://linguateca.pt/harem#char=458,461>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Rei"^^xsd:string ;
+        nif:beginIndex        "458"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "461"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1457> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1025,1036>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Republicana"^^xsd:string ;
+        nif:beginIndex        "1025"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1036"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1457> .
+
+<http://linguateca.pt/harem#char=302,304>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "5º"^^xsd:string ;
+        nif:beginIndex        "302"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "304"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1457> .
+
+<http://linguateca.pt/harem#char=52,59>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "16 anos"^^xsd:string ;
+        nif:beginIndex        "52"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "59"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1457> .
+
+<http://linguateca.pt/harem#char=261,269>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Economia"^^xsd:string ;
+        nif:beginIndex        "261"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "269"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1457> .

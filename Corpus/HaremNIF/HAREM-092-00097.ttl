@@ -1,0 +1,241 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=913,925>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Porto Seguro"^^xsd:string ;
+        nif:beginIndex        "913"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "925"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1690> .
+
+<http://linguateca.pt/harem#char=960,973>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Trem do Forró"^^xsd:string ;
+        nif:beginIndex        "960"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "973"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1690> .
+
+<http://linguateca.pt/harem#char=625,635>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Pernambuco"^^xsd:string ;
+        nif:beginIndex        "625"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "635"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1690> .
+
+<http://linguateca.pt/harem#char=928,937>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Fortaleza"^^xsd:string ;
+        nif:beginIndex        "928"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "937"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1690> .
+
+<http://linguateca.pt/harem#char=664,685>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Excursões Pedagógicas"^^xsd:string ;
+        nif:beginIndex        "664"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "685"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1690> .
+
+<http://linguateca.pt/harem#char=263,273>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Pernambuco"^^xsd:string ;
+        nif:beginIndex        "263"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "273"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1690> .
+
+<http://linguateca.pt/harem#char=185,211>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Serrambi Viagens e Turismo"^^xsd:string ;
+        nif:beginIndex        "185"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "211"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1690> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=690,703>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Trem do Forró"^^xsd:string ;
+        nif:beginIndex        "690"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "703"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1690> .
+
+<http://linguateca.pt/harem#char=770,775>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "2.000"^^xsd:string ;
+        nif:beginIndex        "770"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "775"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1690> .
+
+<http://linguateca.pt/harem#char=1120,1125>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "junho"^^xsd:string ;
+        nif:beginIndex        "1120"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1125"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1690> .
+
+<http://linguateca.pt/harem#char=1444,1459>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "063.64.00.41-05"^^xsd:string ;
+        nif:beginIndex        "1444"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1459"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1690> .
+
+<http://linguateca.pt/harem#char=1482,1486>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "4316"^^xsd:string ;
+        nif:beginIndex        "1482"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1486"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1690> .
+
+<http://linguateca.pt/harem#char=0,26>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Serrambi Viagens e Turismo"^^xsd:string ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "26"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1690> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=865,871>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "6 dias"^^xsd:string ;
+        nif:beginIndex        "865"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "871"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1690> .
+
+<http://linguateca.pt/harem#char=1341,1347>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Graças"^^xsd:string ;
+        nif:beginIndex        "1341"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1347"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1690> .
+
+<http://linguateca.pt/harem#char=542,568>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Serrambi Viagens e Turismo"^^xsd:string ;
+        nif:beginIndex        "542"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "568"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1690> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=750,758>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "julho/99"^^xsd:string ;
+        nif:beginIndex        "750"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "758"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1690> .
+
+<http://linguateca.pt/harem#char=1192,1198>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "130 Km"^^xsd:string ;
+        nif:beginIndex        "1192"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1198"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1690> .
+
+<http://linguateca.pt/harem#char=940,945>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Natal"^^xsd:string ;
+        nif:beginIndex        "940"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "945"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1690> .
+
+<http://linguateca.pt/harem#char=0,1690>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1690"^^xsd:nonNegativeInteger ;
+        nif:isString    "Serrambi Viagens e Turismo Bem-vindo ao site da Serrambi Viagens e Turismo O objetivo deste site é oferecer todos os nossos serviços aos clientes e ao público em geral.Nossa História A Serrambi Viagens e Turismo é uma das mais tradicionais agências de viagens de Pernambuco .Com 12 anos de existência , a Serrambi oferece a seus clientes todos os serviços ligados a área de turismo como : passagens aéreas , excursões nacionais e internacionais , locação de automóveis no Brasil e no exterior , seguro viagem , congressos e etc. E tem mais A Serrambi Viagens e Turismo promove eventos de grande importância para o turismo de Pernambuco e do Brasil , destacamos as Excursões Pedagógicas , o Trem do Forró e as excursões com grupos de colégios ( só em julho/99 , cerca de 2.000 alunos de vários colégios viajaram conosco em excursões rodoviárias , de aproximadamente 6 dias de duração , para diversos destinos como Porto Seguro , Fortaleza , Natal etc ).Além do Trem do Forró , evento criado e produzido pela Serrambi Turismo , que hoje desponta como uma das principais atrações turística do Brasil que acontece no mês de junho .Leva turistas de todas as partes do país à cidade de Caruaru , à 130 Km da capital Pernambucana.Em média , são dez viagens a cada ano , transportando cerca de cinco mil passageiros.Endereço : Rua da Amizade , 38 , Graças , Recife - PE - CEP 52.011.260.Fone/Fax : ( 81 ) 423-5000.C.G.C 12.012.159/0001-05 - Embratur : 063.64.00.41-05 Abav Nº 117 - Snea Nº 4316 - Iata 5750217-4 Email : serrambi@truenet.com.br | A Empresa | Passagem Aérea | Locação de Automóveis | Seguro Viagem | | Galeria do Trem | Excursões Nacionais | Excursões Internacionais | Sua Palavra | "^^xsd:string .
+
+<http://linguateca.pt/harem#char=1319,1333>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Rua da Amizade"^^xsd:string ;
+        nif:beginIndex        "1319"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1333"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1690> .
+
+<http://linguateca.pt/harem#char=48,74>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Serrambi Viagens e Turismo"^^xsd:string ;
+        nif:beginIndex        "48"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "74"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1690> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1090,1096>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Brasil"^^xsd:string ;
+        nif:beginIndex        "1090"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1096"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1690> .
+
+<http://linguateca.pt/harem#char=1180,1187>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Caruaru"^^xsd:string ;
+        nif:beginIndex        "1180"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1187"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1690> .
+
+<http://linguateca.pt/harem#char=1494,1503>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "5750217-4"^^xsd:string ;
+        nif:beginIndex        "1494"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1503"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1690> .
+
+<http://linguateca.pt/harem#char=1350,1356>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Recife"^^xsd:string ;
+        nif:beginIndex        "1350"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1356"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1690> .
+
+<http://linguateca.pt/harem#char=1412,1430>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "12.012.159/0001-05"^^xsd:string ;
+        nif:beginIndex        "1412"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1430"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1690> .
+
+<http://linguateca.pt/harem#char=279,286>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "12 anos"^^xsd:string ;
+        nif:beginIndex        "279"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "286"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1690> .
+
+<http://linguateca.pt/harem#char=641,647>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Brasil"^^xsd:string ;
+        nif:beginIndex        "641"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "647"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1690> .
+
+<http://linguateca.pt/harem#char=1468,1471>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "117"^^xsd:string ;
+        nif:beginIndex        "1468"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1471"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1690> .
+
+<http://linguateca.pt/harem#char=305,313>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Serrambi"^^xsd:string ;
+        nif:beginIndex        "305"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "313"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1690> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1007,1023>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Serrambi Turismo"^^xsd:string ;
+        nif:beginIndex        "1007"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1023"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1690> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=472,478>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Brasil"^^xsd:string ;
+        nif:beginIndex        "472"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "478"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1690> .

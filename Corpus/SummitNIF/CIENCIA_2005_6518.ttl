@@ -1,0 +1,164 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=460,469>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Tocantins"^^xsd:string ;
+        nif:beginIndex        "460"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "469"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1544> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1393,1399>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Fapesp"^^xsd:string ;
+        nif:beginIndex        "1393"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1399"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1544> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=351,360>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "A . uriri"^^xsd:string ;
+        nif:beginIndex        "351"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "360"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1544> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=927,936>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Brescovit"^^xsd:string ;
+        nif:beginIndex        "927"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "936"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1544> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=393,397>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Pará"^^xsd:string ;
+        nif:beginIndex        "393"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "397"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1544> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=279,287>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Butantan"^^xsd:string ;
+        nif:beginIndex        "279"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "287"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1544> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1539,1541>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "SN"^^xsd:string ;
+        nif:beginIndex        "1539"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1541"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1544> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=425,439>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "A . lamellatus"^^xsd:string ;
+        nif:beginIndex        "425"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "439"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1544> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=363,373>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "A . blakei"^^xsd:string ;
+        nif:beginIndex        "363"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "373"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1544> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=293,299>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Goeldi"^^xsd:string ;
+        nif:beginIndex        "293"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "299"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1544> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=61,71>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Attacobius"^^xsd:string ;
+        nif:beginIndex        "61"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "71"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1544> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=442,454>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "A . carranca"^^xsd:string ;
+        nif:beginIndex        "442"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "454"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1544> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1402,1454>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Fundação de Amparo à Pesquisa do Estado de São Paulo"^^xsd:string ;
+        nif:beginIndex        "1402"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1454"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1544> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=414,422>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "A. Kitae"^^xsd:string ;
+        nif:beginIndex        "414"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "422"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1544> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1471,1532>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Conselho Nacional de Desenvolvimento Científico e Tecnológico"^^xsd:string ;
+        nif:beginIndex        "1471"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1532"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1544> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1544>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1544"^^xsd:nonNegativeInteger ;
+        nif:isString    "Se existem espécies \"malandras\" de aranha , são as do gênero Attacobius . Chamadas de aranhas-cavalgadoras , ganharam esse nome por um bom motivo : têm o hábito de montar na cabeça de formigas e sobreviver à custa desses insetos . Seis das nove aranhas descobertas pelo grupo do Butantan e do Goeldi são desse grupo de \"folgadas\" . Três ( A. tucuri , A . uriri e A . blakei ) foram achadas no Pará , outras três ( A. Kitae , A . lamellatus e A . carranca ) em Tocantins e na Bahia . \"Elas montam em cima da cabeça daquelas formigas graúdas [ as saúvas ] e vão embora , para dentro do formigueiro\" , conta Antonio Brescovit , do Butantan . Os cientistas não sabem qual é o truque que a aranha usa ( \"se emite um feromônio , algum outro sinal químico\" ) , mas o fato é que ela não é identificada como aranha . As formigas não a vêem como uma ameaça . \" É muito difícil saber o que acontece , porque o bicho vive enterrado\" , diz Brescovit . \"Mas a gente experimenta , tira a aranha de cima da cabeça da formiga , e ela volta correndo . E a formiga a carrega , não está nem aí . \"E , de fato , o azar é todo das formigas , porque essas aranhas , ao chegarem ao formigueiro , se alimentam dos ovos e do trabalho das trabalhadoras desavisadas . Esse comportamento já era conhecido antes , mas as descobertas vão acrescentar muito ao que já se entende dessas espécies . Os estudos são bancados pela Fapesp ( Fundação de Amparo à Pesquisa do Estado de São Paulo ) e pelo CNPq ( Conselho Nacional de Desenvolvimento Científico e Tecnológico ) . ( SN ) "^^xsd:string .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=628,636>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Butantan"^^xsd:string ;
+        nif:beginIndex        "628"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "636"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1544> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=475,480>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Bahia"^^xsd:string ;
+        nif:beginIndex        "475"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "480"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1544> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1464,1468>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "CNPq"^^xsd:string ;
+        nif:beginIndex        "1464"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1468"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1544> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=339,348>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "A. tucuri"^^xsd:string ;
+        nif:beginIndex        "339"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "348"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1544> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=605,622>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Antonio Brescovit"^^xsd:string ;
+        nif:beginIndex        "605"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "622"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1544> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .

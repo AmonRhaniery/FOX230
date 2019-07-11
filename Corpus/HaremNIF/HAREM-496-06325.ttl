@@ -1,0 +1,328 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=1404,1416>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Fibromialgia"^^xsd:string ;
+        nif:beginIndex        "1404"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1416"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5372> .
+
+<http://linguateca.pt/harem#char=3312,3324>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Fibromialgia"^^xsd:string ;
+        nif:beginIndex        "3312"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3324"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5372> .
+
+<http://linguateca.pt/harem#char=988,993>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "M79.0"^^xsd:string ;
+        nif:beginIndex        "988"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "993"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5372> .
+
+<http://linguateca.pt/harem#char=770,774>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1929"^^xsd:string ;
+        nif:beginIndex        "770"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "774"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5372> .
+
+<http://linguateca.pt/harem#char=2123,2147>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "entre os 20 e os 50 anos"^^xsd:string ;
+        nif:beginIndex        "2123"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2147"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5372> .
+
+<http://linguateca.pt/harem#char=2677,2689>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Fibromialgia"^^xsd:string ;
+        nif:beginIndex        "2677"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2689"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5372> .
+
+<http://linguateca.pt/harem#char=2004,2019>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "entre 2 % A 5 %"^^xsd:string ;
+        nif:beginIndex        "2004"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2019"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5372> .
+
+<http://linguateca.pt/harem#char=502,509>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Balfour"^^xsd:string ;
+        nif:beginIndex        "502"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "509"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5372> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=528,532>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1824"^^xsd:string ;
+        nif:beginIndex        "528"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "532"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5372> .
+
+<http://linguateca.pt/harem#char=779,799>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Síndrome Fibrosítica"^^xsd:string ;
+        nif:beginIndex        "779"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "799"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5372> .
+
+<http://linguateca.pt/harem#char=1697,1715>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Artrite Reumatóide"^^xsd:string ;
+        nif:beginIndex        "1697"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1715"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5372> .
+
+<http://linguateca.pt/harem#char=3051,3063>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Fibromialgia"^^xsd:string ;
+        nif:beginIndex        "3051"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3063"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5372> .
+
+<http://linguateca.pt/harem#char=4635,4637>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "FM"^^xsd:string ;
+        nif:beginIndex        "4635"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4637"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5372> .
+
+<http://linguateca.pt/harem#char=4235,4237>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "FM"^^xsd:string ;
+        nif:beginIndex        "4235"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4237"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5372> .
+
+<http://linguateca.pt/harem#char=734,743>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Fibrosite"^^xsd:string ;
+        nif:beginIndex        "734"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "743"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5372> .
+
+<http://linguateca.pt/harem#char=1022,1026>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1992"^^xsd:string ;
+        nif:beginIndex        "1022"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1026"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5372> .
+
+<http://linguateca.pt/harem#char=3856,3868>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Fibromialgia"^^xsd:string ;
+        nif:beginIndex        "3856"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3868"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5372> .
+
+<http://linguateca.pt/harem#char=1858,1870>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Fibromialgia"^^xsd:string ;
+        nif:beginIndex        "1858"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1870"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5372> .
+
+<http://linguateca.pt/harem#char=1745,1757>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Fibromialgia"^^xsd:string ;
+        nif:beginIndex        "1745"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1757"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5372> .
+
+<http://linguateca.pt/harem#char=905,909>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1981"^^xsd:string ;
+        nif:beginIndex        "905"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "909"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5372> .
+
+<http://linguateca.pt/harem#char=0,5372>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "5372"^^xsd:nonNegativeInteger ;
+        nif:isString    "Noções Básicas Síndrome de Fibromialgia é o termo médico que define uma condição clínica complexa de causa desconhecida e que é caracterizada por dor músculo-esquelética generalizada acompanhada de um cansaço extremo , perturbações do sono , perturbações cognitivas , entre outros sintomas.Ao contrário do que muitas pessoas pensam , a Fibromialgia não é uma doença nova embora só nos últimos 20 anos tivesse este enorme desenvolvimento.A associação de pontos dolorosos com reumatismo foi referida por Balfour ( Inglaterra ) em 1824 que descreveu pacientes com pontos musculares hipersensíveis à palpação e passíveis de desencadear dor irradiada.Historicamente a Fibromialgia tem sido apresentada sob vários nomes ao longo dos anos : Fibrosite ( 1904 ) , Miofibrosite ( 1929 ) , Síndrome Fibrosítica ( 1952 ) , Síndrome Fibromiálgica , entre outros ; tendo sido adoptado o nome de Fibromialgia apartir de 1981 .Esta foi classificada pela Organização Mundial de Saúde em 1990 com o código M79.0 , tendo sido reconhecida em 1992 como uma doença reumática.As queixas da Fibromialgia podem ser ligeiras ou graves , definindo assim um espectro funcional que vai do mero incómodo até à incapacidade para manter um emprego remunerado , as actividades domésticas ou mesmo para desfrutar o convívio com a família e com os amigos , o que torna a doença heterogénea nas suas manifestações.Actualmente sabe-se que a Fibromialgia é uma forma de reumatismo associada a uma maior sensibilidade do indivíduo perante um estímulo doloroso . O termo reumatismo pode ser justificado pelo facto da fibromialgia envolver músculos , tendões e ligamentos não envolvendo no entanto as articulações tal como acontece com a Artrite Reumatóide e a Osteoartrite . Apesar da Fibromialgia poder apresentar-se de uma forma extremamente dolorosa e incapacitante , ela não causa deformação.A Fibromialgia é uma doença comum que atinge homens , mulheres e crianças de todas as etnias e grupos sócio-económicos . Estima-se que sofram de FM entre 2 % A 5 % da população adulta , dependendo dos países . Da população atingida , entre 80 % a 90 % serão mulheres entre os 20 e os 50 anos . Sintomas Os sintomas e a sua intensidade são variáveis de pessoa para pessoa podendo até , na mesma pessoa , variar ao longo do tempo o que dificulta o tratamento e a adaptação do doente a um novo estilo de vida que lhe permita lidar com a doença.A Fibromialgia , também referida como FM é um síndrome por se tratar de um conjunto complexo de sintomas que à priori não parecem estar interligados.Esta afecta inúmeras partes do corpo o que leva a uma maior dificuldade em diagnosticar esta enfermidade.Os sintomas principais na Fibromialgia são:DorNa Fibromialgia a dor é crónica e difusa por todo o corpo e é muitas vezes descrita como queimadura , ardor ou picada . A intensidade da dor varia de acordo com as horas do dia , a intensidade dos esforços produzidos , a condição climatérica , a qualidade do sono na noite anterior , aspectos emocionais ou stress . Uma das características essenciais da Fibromialgia é também a existência de áreas sensíveis à pressão chamadas pontos dolorosos . Estes pontos dolorosos localizam-se em áreas bem identificadas sobre músculos , tendões e tecido adiposo e distribuem-se generalizada e simetricamente.FadigaA fadiga na Fibromialgia é um sintoma que afecta mais de 90 % dos doentes . Referida com maior intensidade de manhã e frequentemente agravada ao meio da tarde , a fadiga na Fibromialgia não passa com o repouso como acontece noutras situações , ela é persistente e muitas vezes referida como uma espécie de cansaço mental com grande dificuldade de concentração . A falta de energia , leva a que no dia a dia a execução de tarefas consideradas simples levem a pessoa à exaustão.Distúrbios do sonoMesmo dormindo o número de horas necessárias , os doentes com Fibromialgia referem acordar mais cansados do que quando se deitaram . Tal facto pode ser explicado por estes doentes não atingirem o estádio mais profundo do sono , o mesmo é superficial , verificando-se constantes acordares durante a noite . Desconhece-se a razão pela qual estes doentes têm esta perturbação , sabendo-se no entanto que o seu padrão de sono não é exclusivo da FM e é diferente do encontrado em doentes com depressão . Os distúrbios podem ser classificados como alterações quantitativas ( insónias , constantes acordares durante a noite ou sono de curta duração ) , ou alterações qualitativas ( não se acorda descansado , o sono não é reparador mesmo dormindo muitas horas ).Rigidez Para além da dor , a rigidez pode representar um problema para os doentes com FM . Ela é principalmente referida ao acordar ou após longos períodos de permanência na mesma posição , quer sentado quer em pé.Perturbações cognitivas Os défices cognitivos são normais na FM . Doentes relatam uma variedade de sintomas que podem variar de dia para dia . Estão incluidos nos sintomas , a dificuldade de concentração , falta de memória , confusão mental , etc.. Perturbações gastrointestinais Entre 40 e 70 % dos doentes com Fibromialgia referem problemas gastrointestinais dos quais se destacam a obstipação , diarreia , dores abdominais , gases e náuseas . Dores de cabeça São referidas por mais de 50 % dos doentes , dores de cabeça recorrentes assim como enxaquecas , que podem limitar a actividade diária do doente . "^^xsd:string .
+
+<http://linguateca.pt/harem#char=1067,1079>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Fibromialgia"^^xsd:string ;
+        nif:beginIndex        "1067"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1079"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5372> .
+
+<http://linguateca.pt/harem#char=512,522>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Inglaterra"^^xsd:string ;
+        nif:beginIndex        "512"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "522"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5372> .
+
+<http://linguateca.pt/harem#char=746,750>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1904"^^xsd:string ;
+        nif:beginIndex        "746"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "750"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5372> .
+
+<http://linguateca.pt/harem#char=2001,2003>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "FM"^^xsd:string ;
+        nif:beginIndex        "2001"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2003"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5372> .
+
+<http://linguateca.pt/harem#char=3473,3485>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Fibromialgia"^^xsd:string ;
+        nif:beginIndex        "3473"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3485"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5372> .
+
+<http://linguateca.pt/harem#char=938,966>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Organização Mundial de Saúde"^^xsd:string ;
+        nif:beginIndex        "938"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "966"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5372> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=663,675>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Fibromialgia"^^xsd:string ;
+        nif:beginIndex        "663"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "675"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5372> .
+
+<http://linguateca.pt/harem#char=27,39>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Fibromialgia"^^xsd:string ;
+        nif:beginIndex        "27"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "39"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5372> .
+
+<http://linguateca.pt/harem#char=2700,2712>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Fibromialgia"^^xsd:string ;
+        nif:beginIndex        "2700"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2712"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5372> .
+
+<http://linguateca.pt/harem#char=3357,3361>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "90 %"^^xsd:string ;
+        nif:beginIndex        "3357"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3361"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5372> .
+
+<http://linguateca.pt/harem#char=5243,5255>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "mais de 50 %"^^xsd:string ;
+        nif:beginIndex        "5243"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5255"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5372> .
+
+<http://linguateca.pt/harem#char=802,806>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1952"^^xsd:string ;
+        nif:beginIndex        "802"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "806"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5372> .
+
+<http://linguateca.pt/harem#char=881,893>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Fibromialgia"^^xsd:string ;
+        nif:beginIndex        "881"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "893"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5372> .
+
+<http://linguateca.pt/harem#char=970,974>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1990"^^xsd:string ;
+        nif:beginIndex        "970"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "974"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5372> .
+
+<http://linguateca.pt/harem#char=755,767>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Miofibrosite"^^xsd:string ;
+        nif:beginIndex        "755"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "767"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5372> .
+
+<http://linguateca.pt/harem#char=15,39>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Síndrome de Fibromialgia"^^xsd:string ;
+        nif:beginIndex        "15"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "39"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5372> .
+
+<http://linguateca.pt/harem#char=5043,5058>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Entre 40 e 70 %"^^xsd:string ;
+        nif:beginIndex        "5043"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5058"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5372> .
+
+<http://linguateca.pt/harem#char=4824,4826>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "FM"^^xsd:string ;
+        nif:beginIndex        "4824"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4826"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5372> .
+
+<http://linguateca.pt/harem#char=5075,5087>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Fibromialgia"^^xsd:string ;
+        nif:beginIndex        "5075"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5087"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5372> .
+
+<http://linguateca.pt/harem#char=393,400>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "20 anos"^^xsd:string ;
+        nif:beginIndex        "393"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "400"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5372> .
+
+<http://linguateca.pt/harem#char=2435,2437>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "FM"^^xsd:string ;
+        nif:beginIndex        "2435"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2437"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5372> .
+
+<http://linguateca.pt/harem#char=811,833>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Síndrome Fibromiálgica"^^xsd:string ;
+        nif:beginIndex        "811"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "833"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5372> .
+
+<http://linguateca.pt/harem#char=1720,1732>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Osteoartrite"^^xsd:string ;
+        nif:beginIndex        "1720"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1732"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5372> .
+
+<http://linguateca.pt/harem#char=2399,2411>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Fibromialgia"^^xsd:string ;
+        nif:beginIndex        "2399"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2411"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5372> .
+
+<http://linguateca.pt/harem#char=2090,2107>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "entre 80 % a 90 %"^^xsd:string ;
+        nif:beginIndex        "2090"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2107"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5372> .

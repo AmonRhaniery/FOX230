@@ -1,0 +1,330 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=1402,1415>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "União Indiana"^^xsd:string ;
+        nif:beginIndex        "1402"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1415"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2890> .
+
+<http://linguateca.pt/harem#char=0,2890>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "2890"^^xsd:nonNegativeInteger ;
+        nif:isString    "O Oeste da Índia - Goa Goa vai surpreênde-lo ! Passando por experiências indianas , pensará de repente que está a veranear no Mediterrâneo . As pequenas cidades estão construídas em redor de igrejas caiadas de branco e as soalheiras praias são emolduradas por buganvílias . As ruas têm nomes como Rua do Conde de Torres Novas e Avenida do Sagrado Coração de Jesus . A mistura das culturas portuguesa e indiana é evidente em todos os lugares . Na bermas das estradas , os goeses cristãos ergueram pequenas cruzes , tal como os seus antepassados hindus tinham erguido pequenos altares onde quer que pudessem . As esculturas de santos adornam os altares das catedrais de Goa . O tema é cristão , se bem que os rostos e expressões faciais sejam completamente indianos . As raparigas vão a igreja de véu preto e leque , e ouvem missa na sua língua nativa , concanim . Estas jovens colocam nas laterais das igrejas os mesmos jasmins de fragrâncias fortes que se oferecem a deusa hindu Shanta Durga . Os portugueses ficaram tão encantados com Goa que lhe chamaram a Pérola do Oriente . No ano de 1510 , a antiga Goa , a que os historiadores chamavam Govapuri ou Govarashtra , foi conquistada por Afonso de Albuquerque . Os portugueses fizeram da cidade a sua capital da Índia . Sob o domínio portugues , Goa converteu-se no centrodocatolicismo do Oriente , Em 1961 , Goa passou a fazer parte do território da União Indiana . Nos 100 km de costa de Goa encontram-se algumas das mais belas praias do Mundo . As largas extensões de areia fina , banhadas pelo sol dourado do amanhecer ao anoitecer tem atraído os amantes de sol de todo o Mundo . A praia de Calangute , no Mar Arábico , é um lugar de encontros por excelência . A uma hora de voo de Bombaim , Goa oferece uma atmosfera latina de praças , tabernas e gente amável . Visite a antiga Goa , capital dos portugueses , a 9 quilómetros de Pangim ( Nova Goa ) , a actual capital , para ver as catedrais ricamente adornadas . A mais famosa é a do Bom Jesus , onde se encontra o corpo mumificado de São Francisco Xavier , num ataúde de prata . Em tempos mais recuados , Goa foi também um florescente reino hindu , como o demonstra o complexo de templos de rodeiam a Pondá . Entre os mais importantes destacam-se o de Shanta Durga e o de Shri Munguesh , construidos há 400 anos . O exterior desses templos é como o dos modernos templos hindus . Não obstante , no interior , o tilintar dos lustres é uma característica única , inexistente nos templos hindus de outras paragens , mas presente nas igrejas católicas . Goa possui um aeroporto internacional onde aterram muitos voos charter . Há também voos directos provenientes das diferentes cidades da União . Yasco é o nome do terminal ferroviário . Há ainda muitos autocarros , vindos das cidades vizinhas mais importantes . O Goa Tourism Development Corporation Office organiza excursões a Goa . "^^xsd:string .
+
+<http://linguateca.pt/harem#char=1036,1039>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Goa"^^xsd:string ;
+        nif:beginIndex        "1036"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1039"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2890> .
+
+<http://linguateca.pt/harem#char=328,363>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Avenida do Sagrado Coração de Jesus"^^xsd:string ;
+        nif:beginIndex        "328"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "363"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2890> .
+
+<http://linguateca.pt/harem#char=2260,2272>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Shanta Durga"^^xsd:string ;
+        nif:beginIndex        "2260"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2272"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2890> .
+
+<http://linguateca.pt/harem#char=2884,2887>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Goa"^^xsd:string ;
+        nif:beginIndex        "2884"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2887"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2890> .
+
+<http://linguateca.pt/harem#char=1868,1881>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "9 quilómetros"^^xsd:string ;
+        nif:beginIndex        "1868"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1881"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2890> .
+
+<http://linguateca.pt/harem#char=1360,1363>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Goa"^^xsd:string ;
+        nif:beginIndex        "1360"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1363"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2890> .
+
+<http://linguateca.pt/harem#char=1155,1166>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Govarashtra"^^xsd:string ;
+        nif:beginIndex        "1155"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1166"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2890> .
+
+<http://linguateca.pt/harem#char=1263,1268>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Índia"^^xsd:string ;
+        nif:beginIndex        "1263"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1268"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2890> .
+
+<http://linguateca.pt/harem#char=668,671>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Goa"^^xsd:string ;
+        nif:beginIndex        "668"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "671"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2890> .
+
+<http://linguateca.pt/harem#char=1885,1891>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Pangim"^^xsd:string ;
+        nif:beginIndex        "1885"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1891"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2890> .
+
+<http://linguateca.pt/harem#char=1627,1632>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Mundo"^^xsd:string ;
+        nif:beginIndex        "1627"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1632"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2890> .
+
+<http://linguateca.pt/harem#char=2693,2698>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "União"^^xsd:string ;
+        nif:beginIndex        "2693"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2698"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2890> .
+
+<http://linguateca.pt/harem#char=979,991>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Shanta Durga"^^xsd:string ;
+        nif:beginIndex        "979"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "991"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2890> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1441,1444>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Goa"^^xsd:string ;
+        nif:beginIndex        "1441"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1444"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2890> .
+
+<http://linguateca.pt/harem#char=2113,2116>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Goa"^^xsd:string ;
+        nif:beginIndex        "2113"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2116"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2890> .
+
+<http://linguateca.pt/harem#char=1089,1093>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1510"^^xsd:string ;
+        nif:beginIndex        "1089"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1093"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2890> .
+
+<http://linguateca.pt/harem#char=1894,1902>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Nova Goa"^^xsd:string ;
+        nif:beginIndex        "1894"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1902"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2890> .
+
+<http://linguateca.pt/harem#char=2820,2862>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Goa Tourism Development Corporation Office"^^xsd:string ;
+        nif:beginIndex        "2820"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2862"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2890> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=297,325>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Rua do Conde de Torres Novas"^^xsd:string ;
+        nif:beginIndex        "297"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "325"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2890> .
+
+<http://linguateca.pt/harem#char=1646,1655>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Calangute"^^xsd:string ;
+        nif:beginIndex        "1646"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1655"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2890> .
+
+<http://linguateca.pt/harem#char=2,16>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Oeste da Índia"^^xsd:string ;
+        nif:beginIndex        "2"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "16"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2890> .
+
+<http://linguateca.pt/harem#char=1661,1672>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Mar Arábico"^^xsd:string ;
+        nif:beginIndex        "1661"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1672"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2890> .
+
+<http://linguateca.pt/harem#char=2701,2706>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Yasco"^^xsd:string ;
+        nif:beginIndex        "2701"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2706"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2890> .
+
+<http://linguateca.pt/harem#char=1297,1300>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Goa"^^xsd:string ;
+        nif:beginIndex        "1297"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1300"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2890> .
+
+<http://linguateca.pt/harem#char=1340,1347>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Oriente"^^xsd:string ;
+        nif:beginIndex        "1340"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1347"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2890> .
+
+<http://linguateca.pt/harem#char=1353,1357>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1961"^^xsd:string ;
+        nif:beginIndex        "1353"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1357"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2890> .
+
+<http://linguateca.pt/harem#char=2042,2062>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "São Francisco Xavier"^^xsd:string ;
+        nif:beginIndex        "2042"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2062"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2890> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1491,1496>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Mundo"^^xsd:string ;
+        nif:beginIndex        "1491"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1496"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2890> .
+
+<http://linguateca.pt/harem#char=2280,2293>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Shri Munguesh"^^xsd:string ;
+        nif:beginIndex        "2280"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2293"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2890> .
+
+<http://linguateca.pt/harem#char=126,138>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Mediterrâneo"^^xsd:string ;
+        nif:beginIndex        "126"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "138"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2890> .
+
+<http://linguateca.pt/harem#char=2557,2560>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Goa"^^xsd:string ;
+        nif:beginIndex        "2557"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2560"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2890> .
+
+<http://linguateca.pt/harem#char=1105,1108>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Goa"^^xsd:string ;
+        nif:beginIndex        "1105"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1108"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2890> .
+
+<http://linguateca.pt/harem#char=1189,1210>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Afonso de Albuquerque"^^xsd:string ;
+        nif:beginIndex        "1189"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1210"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2890> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=23,26>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Goa"^^xsd:string ;
+        nif:beginIndex        "23"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "26"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2890> .
+
+<http://linguateca.pt/harem#char=1747,1750>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Goa"^^xsd:string ;
+        nif:beginIndex        "1747"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1750"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2890> .
+
+<http://linguateca.pt/harem#char=1059,1076>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Pérola do Oriente"^^xsd:string ;
+        nif:beginIndex        "1059"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1076"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2890> .
+
+<http://linguateca.pt/harem#char=1991,2000>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Bom Jesus"^^xsd:string ;
+        nif:beginIndex        "1991"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2000"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2890> .
+
+<http://linguateca.pt/harem#char=1834,1837>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Goa"^^xsd:string ;
+        nif:beginIndex        "1834"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1837"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2890> .
+
+<http://linguateca.pt/harem#char=2209,2214>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Pondá"^^xsd:string ;
+        nif:beginIndex        "2209"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2214"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2890> .
+
+<http://linguateca.pt/harem#char=1737,1744>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Bombaim"^^xsd:string ;
+        nif:beginIndex        "1737"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1744"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2890> .
+
+<http://linguateca.pt/harem#char=2311,2319>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "400 anos"^^xsd:string ;
+        nif:beginIndex        "2311"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2319"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2890> .
+
+<http://linguateca.pt/harem#char=1143,1151>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Govapuri"^^xsd:string ;
+        nif:beginIndex        "1143"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1151"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2890> .
+
+<http://linguateca.pt/harem#char=1422,1428>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "100 km"^^xsd:string ;
+        nif:beginIndex        "1422"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1428"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2890> .
+
+<http://linguateca.pt/harem#char=19,22>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Goa"^^xsd:string ;
+        nif:beginIndex        "19"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "22"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2890> .

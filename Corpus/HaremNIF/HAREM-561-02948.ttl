@@ -1,0 +1,109 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=1309,1323>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Resort Martino"^^xsd:string ;
+        nif:beginIndex        "1309"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1323"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1324> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1016,1018>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "34"^^xsd:string ;
+        nif:beginIndex        "1016"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1018"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1324> .
+
+<http://linguateca.pt/harem#char=806,810>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "País"^^xsd:string ;
+        nif:beginIndex        "806"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "810"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1324> .
+
+<http://linguateca.pt/harem#char=626,660>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Estância de Cinco Estrelas Martino"^^xsd:string ;
+        nif:beginIndex        "626"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "660"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1324> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=22,32>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Costa Rica"^^xsd:string ;
+        nif:beginIndex        "22"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "32"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1324> .
+
+<http://linguateca.pt/harem#char=0,1324>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1324"^^xsd:nonNegativeInteger ;
+        nif:isString    "Os Melhores Hotéis da Costa Rica com Acomodações de Cinco EstrelasHotéis da costa rica , férias na américa central , estâncias na costa rica , spas de saúde , acomodações de cinco estrelas , estância com spa , recuperação física , recuperação emocional Hotel Martino Rodeado de jardins arranjados manualmente , instalações de alojamento excelentes e uma spa moderna , oferecendo a última tecnologia em boa forma e recuperação física e emocional , a Estância de Cinco Estrelas Martino atria pela sua beleza clássica .Situada dentro de um parqued de 6 acres e somente a alguns minutos do aeroporto internacional e da cidade , a Estância de Cinco Estrelas Martino éo lugar mais conveniente para se ficar na Costa Rica para umas férias agradáveis , e o lugar ideal a partir do qual você pode viajar por todo o País .A Estância Martino , um pequeno hotel de luxo de cinco estrelas , presta atenção particular a todos os detalhes , inspirado pela cadeia de hotéis europeia \" Chateau &amp;Relais \" . A Estância tem somente 34 suites júniores , porque nós acreditamos que só um hotel pequeno pode oferecer serviço perfeito.Por favor compreenda que ao entrar no nosso site todo o conteúdo éem Inglês . Adicionalmente , toda a correspondência deverá ser em Inglês.Clique aqui para entrarAll Content and Photos © 2001-2 Resort Martino "^^xsd:string .
+
+<http://linguateca.pt/harem#char=969,988>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Chateau &amp;Relais"^^xsd:string ;
+        nif:beginIndex        "969"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "988"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1324> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=253,266>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Hotel Martino"^^xsd:string ;
+        nif:beginIndex        "253"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "266"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1324> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=548,555>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "6 acres"^^xsd:string ;
+        nif:beginIndex        "548"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "555"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1324> .
+
+<http://linguateca.pt/harem#char=704,714>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Costa Rica"^^xsd:string ;
+        nif:beginIndex        "704"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "714"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1324> .
+
+<http://linguateca.pt/harem#char=1302,1308>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "2001-2"^^xsd:string ;
+        nif:beginIndex        "1302"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1308"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1324> .
+
+<http://linguateca.pt/harem#char=995,1003>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Estância"^^xsd:string ;
+        nif:beginIndex        "995"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1003"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1324> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=449,483>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Estância de Cinco Estrelas Martino"^^xsd:string ;
+        nif:beginIndex        "449"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "483"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1324> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=814,830>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Estância Martino"^^xsd:string ;
+        nif:beginIndex        "814"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "830"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1324> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .

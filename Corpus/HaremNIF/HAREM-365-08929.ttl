@@ -1,0 +1,281 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=2021,2025>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Marx"^^xsd:string ;
+        nif:beginIndex        "2021"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2025"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3551> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=3160,3181>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Histórias Filosóficas"^^xsd:string ;
+        nif:beginIndex        "3160"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3181"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3551> .
+
+<http://linguateca.pt/harem#char=3098,3107>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Filosofia"^^xsd:string ;
+        nif:beginIndex        "3098"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3107"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3551> .
+
+<http://linguateca.pt/harem#char=456,460>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1951"^^xsd:string ;
+        nif:beginIndex        "456"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "460"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3551> .
+
+<http://linguateca.pt/harem#char=2907,2915>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Alemanha"^^xsd:string ;
+        nif:beginIndex        "2907"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2915"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3551> .
+
+<http://linguateca.pt/harem#char=3273,3278>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Braga"^^xsd:string ;
+        nif:beginIndex        "3273"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3278"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3551> .
+
+<http://linguateca.pt/harem#char=463,465>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "52"^^xsd:string ;
+        nif:beginIndex        "463"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "465"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3551> .
+
+<http://linguateca.pt/harem#char=2922,2932>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Inglaterra"^^xsd:string ;
+        nif:beginIndex        "2922"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2932"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3551> .
+
+<http://linguateca.pt/harem#char=881,890>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Filosofia"^^xsd:string ;
+        nif:beginIndex        "881"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "890"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3551> .
+
+<http://linguateca.pt/harem#char=3395,3416>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "História da Filosofia"^^xsd:string ;
+        nif:beginIndex        "3395"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3416"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3551> .
+
+<http://linguateca.pt/harem#char=3284,3288>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1955"^^xsd:string ;
+        nif:beginIndex        "3284"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3288"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3551> .
+
+<http://linguateca.pt/harem#char=267,282>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ética Económica"^^xsd:string ;
+        nif:beginIndex        "267"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "282"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3551> .
+
+<http://linguateca.pt/harem#char=1926,1935>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Comunista"^^xsd:string ;
+        nif:beginIndex        "1926"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1935"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3551> .
+
+<http://linguateca.pt/harem#char=293,301>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Economia"^^xsd:string ;
+        nif:beginIndex        "293"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "301"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3551> .
+
+<http://linguateca.pt/harem#char=736,750>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Castelo Branco"^^xsd:string ;
+        nif:beginIndex        "736"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "750"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3551> .
+
+<http://linguateca.pt/harem#char=723,728>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Porto"^^xsd:string ;
+        nif:beginIndex        "723"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "728"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3551> .
+
+<http://linguateca.pt/harem#char=2191,2197>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Europa"^^xsd:string ;
+        nif:beginIndex        "2191"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2197"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3551> .
+
+<http://linguateca.pt/harem#char=1119,1129>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Comunistas"^^xsd:string ;
+        nif:beginIndex        "1119"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1129"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3551> .
+
+<http://linguateca.pt/harem#char=2489,2506>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Partido Comunista"^^xsd:string ;
+        nif:beginIndex        "2489"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2506"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3551> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=3315,3337>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Faculdade de Filosofia"^^xsd:string ;
+        nif:beginIndex        "3315"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3337"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3551> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=932,940>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Economia"^^xsd:string ;
+        nif:beginIndex        "932"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "940"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3551> .
+
+<http://linguateca.pt/harem#char=899,904>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ética"^^xsd:string ;
+        nif:beginIndex        "899"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "904"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3551> .
+
+<http://linguateca.pt/harem#char=1161,1169>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Economia"^^xsd:string ;
+        nif:beginIndex        "1161"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1169"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3551> .
+
+<http://linguateca.pt/harem#char=1201,1208>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Bélgica"^^xsd:string ;
+        nif:beginIndex        "1201"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1208"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3551> .
+
+<http://linguateca.pt/harem#char=2002,2008>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Europa"^^xsd:string ;
+        nif:beginIndex        "2002"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2008"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3551> .
+
+<http://linguateca.pt/harem#char=1034,1042>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Economia"^^xsd:string ;
+        nif:beginIndex        "1034"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1042"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3551> .
+
+<http://linguateca.pt/harem#char=0,3551>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "3551"^^xsd:nonNegativeInteger ;
+        nif:isString    "Então foi para a Bélgica e depois ? Aí gostei muito . Entrei em contacto com a cultura alemão , francesa e inglesa . Como surgiu a ideia de ir para lá ? Foi a convite de alguém ? Não é que eu vinha aqui para professor de Ética Económica e Política e a gente falar de Ética Económica sem saber Economia ou falar de Ética Política sem saber política , é fiar sem linha . Porque de facto só conhecendo bem..por isso é que a minha tese que já foi defendida em 1951 / 52 ainda está actualizada porque precisamente tem uma base económica e uma base política , que ainda hoje se discute . É claro que tem uns problemas que já estão desactualizados , mas a parte do problema social , do problema político-económico , ainda hoje no Porto , e em Castelo Branco ouvi dizer que os professores referem isso . Porque precisamente , isso foi a minha sorte , quando me disseram que o professor de Filosofia ia para Ética , também comecei a estudar Economia , porque a economia está na base de toda a nossa civilização e associado a alguns estudos de Economia \"coitadinhos dos operários\" e não passa disso . É o que se passa no partido Comunistas . O partido Comunista não sabe Economia . É que eles , isso aprendi na Bélgica , porque eles estão contra os patrões , mas sem os patrões não há operários . Na Bélgica os sindicatos tinham um economista com eles e viam o que cada patrão poderia pagar , o patrão quer sempre pagar menos , mas também se o operário pede a mais deitava a empresa abaixo . E portanto , os operários têm que ter pessoas capacitadas de estudar o problema , que esteja do lado deles , e que digam -\"Vocês podem pedir até tanto !\" Portanto ter uma base económica para o problema social é fundamental . Os operários devem saber o que podem exigir na empresa sem que a empresa vá abaixo , porque os patrões estão a explorar os operários quando paga a menos é porque não pode pagar . Há duas coisas em Portugal , no partido Comunista que não levam a nada . Uma é estarem ligados ao marxismo quando a Europa toda deixou Marx , aqui ainda dura por quase do Álvarro Cunhal . Sim senhor , foi um homem muito importante , hoje é um travão que está ultrapassado . É o único partico comunista da Europa que é marxita . É uma vergonha .Não se adapta à vida actual . Segundo , uma vez que há o mercado livre , as pessoas têm que se habituar ao sistema de uma nação de mercado livre e , portanto , precisam de ter gente competente que diga o que possam exigir , o resto é dar chicotadas no ar . O Partido Comunista vai abaixo , vai desaparecer po causa disso . Está a diminuir cada vez mais porque os jovens já não vão por aí porque a realidade é contrária . Claro , na altura quando eles começaram , pois muito bem , mas hoje já não , é uma questão de estarem atentos ao que se passa na Europa . Nós estamos cá numa ponta , nós temos que ter cuidado e as universidades , felizmente hoje , estamos em ligação com a Alemanha , com Inglaterra , Estados Unidos . Já não estamos isolados e isso é uma grande coisa e a nossa cultura tem evoluído muito devido a esse aspecto . Desde 1959 que temos faculdades de Filosofia em todas as universidades , o que não havia . Havia Histórias Filosóficas em 1911 , antes nem isso havia , depois em 1959 , depois de um congresso que houve aqui em Braga , em 1955 , onde resolveram pedir a Faculdade de Filosofia . Hoje existe . Hoje estamos num campo...já escreveram a História da Filosofia portuguesa , saíu agora . Estamos a tomar consciência de nós mesmos e dos nossos valores , e é isso que importa de uma universidade . "^^xsd:string .
+
+<http://linguateca.pt/harem#char=3225,3229>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1959"^^xsd:string ;
+        nif:beginIndex        "3225"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3229"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3551> .
+
+<http://linguateca.pt/harem#char=1142,1151>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Comunista"^^xsd:string ;
+        nif:beginIndex        "1142"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1151"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3551> .
+
+<http://linguateca.pt/harem#char=2780,2786>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Europa"^^xsd:string ;
+        nif:beginIndex        "2780"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2786"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3551> .
+
+<http://linguateca.pt/harem#char=3069,3073>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1959"^^xsd:string ;
+        nif:beginIndex        "3069"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3073"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3551> .
+
+<http://linguateca.pt/harem#char=3185,3189>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1911"^^xsd:string ;
+        nif:beginIndex        "3185"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3189"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3551> .
+
+<http://linguateca.pt/harem#char=17,24>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Bélgica"^^xsd:string ;
+        nif:beginIndex        "17"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "24"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3551> .
+
+<http://linguateca.pt/harem#char=1904,1912>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Portugal"^^xsd:string ;
+        nif:beginIndex        "1904"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1912"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3551> .
+
+<http://linguateca.pt/harem#char=1290,1297>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Bélgica"^^xsd:string ;
+        nif:beginIndex        "1290"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1297"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3551> .
+
+<http://linguateca.pt/harem#char=221,247>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ética Económica e Política"^^xsd:string ;
+        nif:beginIndex        "221"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "247"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3551> .
+
+<http://linguateca.pt/harem#char=2057,2071>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Álvarro Cunhal"^^xsd:string ;
+        nif:beginIndex        "2057"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2071"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3551> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=2935,2949>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Estados Unidos"^^xsd:string ;
+        nif:beginIndex        "2935"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2949"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3551> .
+
+<http://linguateca.pt/harem#char=314,328>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ética Política"^^xsd:string ;
+        nif:beginIndex        "314"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "328"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3551> .

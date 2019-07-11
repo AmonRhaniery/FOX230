@@ -1,0 +1,182 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=1334,1344>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Associação"^^xsd:string ;
+        nif:beginIndex        "1334"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1344"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1608> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=468,536>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Unidade de Doenças Infecciosas e Parasitárias do Hospital Egas Moniz"^^xsd:string ;
+        nif:beginIndex        "468"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "536"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1608> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1553,1555>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "70"^^xsd:string ;
+        nif:beginIndex        "1553"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1555"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1608> .
+
+<http://linguateca.pt/harem#char=0,1608>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1608"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abraço Página Principal ASSOCIAÇÃO DE APOIO A PESSOAS COM VIH/SIDA A ABRAÇO é uma Instituição Particular de Solidariedade Social . Organização não governamental sem fins lucrativos de prestação de serviçosna área da SIDA .Foi constituída por escritura pública em Junho de 1992 , formalizando e dando continuidade ao trabalho de um pequeno número de voluntáriosque , desde Dezembro de 1991 , prestava apoio psicológico , social e material a seropositivos internados na Unidade de Doenças Infecciosas e Parasitárias do Hospital Egas Moniz , e tentava melhorar as condições hospitalares.Os objectivos da Associação são :Apoio a pessoas afectadas pelo VIH/SIDA ;Apoio , treino e formação de trabalhadores e técnicos de saúde envolvidos com o VIH ;Prevenção da infecção , dirigida à população em geral e , especialmente , aos jovens , utilizadores de droga , trabalhadores do sexo , mulheres , gays , trangenders e reclusos;Luta contra a discriminação e defesa dos direitos das pessoas infectadas.A Associação dispõe de uma estrutura de cerca de vinte assalariados sendo portanto a sua actividade desenvolvida essencialmente através de voluntários . A sua acção tem âmbito nacional , dispondo de três centros de trabalho na área da grande Lisboa , um no Porto , aberto em Dezembro de 1994 , e um no Funchal , aberto em Dezembro de 1995 .A Associação está organizada por núcleos e delegações regionais , cada um deles reportando a um dos três membros da Comissão Executiva . Actualmente a Associação conta com cerca de 460 sócios e 650 voluntários ; destes , 70 trabalham connosco numa base regular e permanente . "^^xsd:string .
+
+<http://linguateca.pt/harem#char=738,741>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "VIH"^^xsd:string ;
+        nif:beginIndex        "738"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "741"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1608> .
+
+<http://linguateca.pt/harem#char=1234,1240>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Lisboa"^^xsd:string ;
+        nif:beginIndex        "1234"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1240"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1608> .
+
+<http://linguateca.pt/harem#char=0,6>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Abraço"^^xsd:string ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "6"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1608> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=372,388>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Dezembro de 1991"^^xsd:string ;
+        nif:beginIndex        "372"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "388"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1608> .
+
+<http://linguateca.pt/harem#char=648,656>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "VIH/SIDA"^^xsd:string ;
+        nif:beginIndex        "648"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "656"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1608> .
+
+<http://linguateca.pt/harem#char=1249,1254>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Porto"^^xsd:string ;
+        nif:beginIndex        "1249"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1254"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1608> .
+
+<http://linguateca.pt/harem#char=24,66>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "ASSOCIAÇÃO DE APOIO A PESSOAS COM VIH/SIDA"^^xsd:string ;
+        nif:beginIndex        "24"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "66"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1608> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1504,1516>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "cerca de 460"^^xsd:string ;
+        nif:beginIndex        "1504"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1516"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1608> .
+
+<http://linguateca.pt/harem#char=69,75>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "ABRAÇO"^^xsd:string ;
+        nif:beginIndex        "69"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "75"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1608> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1294,1301>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Funchal"^^xsd:string ;
+        nif:beginIndex        "1294"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1301"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1608> .
+
+<http://linguateca.pt/harem#char=1526,1529>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "650"^^xsd:string ;
+        nif:beginIndex        "1526"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1529"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1608> .
+
+<http://linguateca.pt/harem#char=216,220>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "SIDA"^^xsd:string ;
+        nif:beginIndex        "216"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "220"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1608> .
+
+<http://linguateca.pt/harem#char=82,128>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Instituição Particular de Solidariedade Social"^^xsd:string ;
+        nif:beginIndex        "82"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "128"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1608> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=263,276>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Junho de 1992"^^xsd:string ;
+        nif:beginIndex        "263"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "276"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1608> .
+
+<http://linguateca.pt/harem#char=994,1004>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Associação"^^xsd:string ;
+        nif:beginIndex        "994"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1004"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1608> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1448,1466>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Comissão Executiva"^^xsd:string ;
+        nif:beginIndex        "1448"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1466"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1608> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1267,1283>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Dezembro de 1994"^^xsd:string ;
+        nif:beginIndex        "1267"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1283"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1608> .
+
+<http://linguateca.pt/harem#char=1483,1493>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Associação"^^xsd:string ;
+        nif:beginIndex        "1483"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1493"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1608> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1314,1330>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Dezembro de 1995"^^xsd:string ;
+        nif:beginIndex        "1314"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1330"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1608> .
+
+<http://linguateca.pt/harem#char=601,611>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Associação"^^xsd:string ;
+        nif:beginIndex        "601"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "611"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1608> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .

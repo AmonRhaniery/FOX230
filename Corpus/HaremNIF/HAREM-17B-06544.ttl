@@ -1,0 +1,354 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=1629,1634>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Touro"^^xsd:string ;
+        nif:beginIndex        "1629"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1634"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3928> .
+
+<http://linguateca.pt/harem#char=1648,1653>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Vênus"^^xsd:string ;
+        nif:beginIndex        "1648"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1653"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3928> .
+
+<http://linguateca.pt/harem#char=2191,2193>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "6º"^^xsd:string ;
+        nif:beginIndex        "2191"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2193"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3928> .
+
+<http://linguateca.pt/harem#char=1176,1179>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Sol"^^xsd:string ;
+        nif:beginIndex        "1176"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1179"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3928> .
+
+<http://linguateca.pt/harem#char=1432,1437>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Marte"^^xsd:string ;
+        nif:beginIndex        "1432"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1437"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3928> .
+
+<http://linguateca.pt/harem#char=2883,2886>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Sol"^^xsd:string ;
+        nif:beginIndex        "2883"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2886"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3928> .
+
+<http://linguateca.pt/harem#char=2952,2959>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Saturno"^^xsd:string ;
+        nif:beginIndex        "2952"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2959"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3928> .
+
+<http://linguateca.pt/harem#char=312,319>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "12 anos"^^xsd:string ;
+        nif:beginIndex        "312"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "319"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3928> .
+
+<http://linguateca.pt/harem#char=174,181>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Júpiter"^^xsd:string ;
+        nif:beginIndex        "174"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "181"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3928> .
+
+<http://linguateca.pt/harem#char=1783,1788>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Vênus"^^xsd:string ;
+        nif:beginIndex        "1783"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1788"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3928> .
+
+<http://linguateca.pt/harem#char=2109,2112>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Lua"^^xsd:string ;
+        nif:beginIndex        "2109"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2112"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3928> .
+
+<http://linguateca.pt/harem#char=2053,2059>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Câncer"^^xsd:string ;
+        nif:beginIndex        "2053"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2059"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3928> .
+
+<http://linguateca.pt/harem#char=1440,1445>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Vênus"^^xsd:string ;
+        nif:beginIndex        "1440"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1445"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3928> .
+
+<http://linguateca.pt/harem#char=3048,3051>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "11º"^^xsd:string ;
+        nif:beginIndex        "3048"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3051"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3928> .
+
+<http://linguateca.pt/harem#char=838,861>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "18 de fevereiro de 1930"^^xsd:string ;
+        nif:beginIndex        "838"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "861"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3928> .
+
+<http://linguateca.pt/harem#char=1323,1333>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "21 de maio"^^xsd:string ;
+        nif:beginIndex        "1323"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1333"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3928> .
+
+<http://linguateca.pt/harem#char=2409,2422>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "22 de outubro"^^xsd:string ;
+        nif:beginIndex        "2409"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2422"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3928> .
+
+<http://linguateca.pt/harem#char=1666,1668>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "2º"^^xsd:string ;
+        nif:beginIndex        "1666"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1668"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3928> .
+
+<http://linguateca.pt/harem#char=2793,2799>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Plutão"^^xsd:string ;
+        nif:beginIndex        "2793"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2799"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3928> .
+
+<http://linguateca.pt/harem#char=2357,2359>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "7º"^^xsd:string ;
+        nif:beginIndex        "2357"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2359"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3928> .
+
+<http://linguateca.pt/harem#char=1349,1354>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Vênus"^^xsd:string ;
+        nif:beginIndex        "1349"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1354"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3928> .
+
+<http://linguateca.pt/harem#char=69,74>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Terra"^^xsd:string ;
+        nif:beginIndex        "69"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "74"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3928> .
+
+<http://linguateca.pt/harem#char=366,368>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "11"^^xsd:string ;
+        nif:beginIndex        "366"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "368"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3928> .
+
+<http://linguateca.pt/harem#char=1261,1266>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Touro"^^xsd:string ;
+        nif:beginIndex        "1261"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1266"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3928> .
+
+<http://linguateca.pt/harem#char=3822,3825>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Sul"^^xsd:string ;
+        nif:beginIndex        "3822"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3825"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3928> .
+
+<http://linguateca.pt/harem#char=301,304>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Sol"^^xsd:string ;
+        nif:beginIndex        "301"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "304"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3928> .
+
+<http://linguateca.pt/harem#char=2715,2720>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Libra"^^xsd:string ;
+        nif:beginIndex        "2715"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2720"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3928> .
+
+<http://linguateca.pt/harem#char=247,252>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Terra"^^xsd:string ;
+        nif:beginIndex        "247"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "252"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3928> .
+
+<http://linguateca.pt/harem#char=2927,2932>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Urano"^^xsd:string ;
+        nif:beginIndex        "2927"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2932"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3928> .
+
+<http://linguateca.pt/harem#char=3236,3241>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Aries"^^xsd:string ;
+        nif:beginIndex        "3236"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3241"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3928> .
+
+<http://linguateca.pt/harem#char=543,551>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Surveyor"^^xsd:string ;
+        nif:beginIndex        "543"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "551"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3928> .
+
+<http://linguateca.pt/harem#char=1450,1458>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Mercúrio"^^xsd:string ;
+        nif:beginIndex        "1450"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1458"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3928> .
+
+<http://linguateca.pt/harem#char=1640,1645>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Aries"^^xsd:string ;
+        nif:beginIndex        "1640"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1645"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3928> .
+
+<http://linguateca.pt/harem#char=226,228>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "12"^^xsd:string ;
+        nif:beginIndex        "226"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "228"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3928> .
+
+<http://linguateca.pt/harem#char=684,690>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Plutão"^^xsd:string ;
+        nif:beginIndex        "684"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "690"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3928> .
+
+<http://linguateca.pt/harem#char=2865,2880>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "21 de fevereiro"^^xsd:string ;
+        nif:beginIndex        "2865"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2880"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3928> .
+
+<http://linguateca.pt/harem#char=1611,1616>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Vênus"^^xsd:string ;
+        nif:beginIndex        "1611"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1616"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3928> .
+
+<http://linguateca.pt/harem#char=3641,3652>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "22 de marco"^^xsd:string ;
+        nif:beginIndex        "3641"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3652"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3928> .
+
+<http://linguateca.pt/harem#char=0,3928>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "3928"^^xsd:nonNegativeInteger ;
+        nif:isString    "Agora vou-lhes descrever cada um dos planetas que acompanham a nossa Terra , em torno do Sol , desde que o mundo é mundo , e que são os grandes significadores astrológicos . Júpiter : o maior de todo o sistema ; seu tamanho : 12 vezes maior que a Terra . Sua revolução sideral ( ou seja , em torno do Sol ) é de 12 anos . Sua luz é azul e brilhante como Vênus . Tem 11 satélites , sendo que três mais externos andam em sentido contrário aos outros . Existiam suposições de que esses três satélites fossem artificiais . Porém , a nave espacial Surveyor se aproximou o suficiente para poder pesquisá-los . A informação é de que possuem uma estrutura rochosa , de composição basáltica . Plutão apresenta muitos enigmas para a astronomia . Não se sabe se tem satélites e se ignora seu peso . Foi descoberto por cálculo matemático prévio , em 18 de fevereiro de 1930 .As casas ou residências dos planetas , de que estamos falando , têm como referência os signos do zodíaco . O Sol , que é o grande rei dessa família , marca o signo regente de cada um de nós , conforme a casa que estiver visitando no dia do nosso nascimento . Assim , em cada ano , no mês de nosso aniversário , o Sol estará transitando na casa do nosso signo , ou seja , no nosso domicílio solar . Touro é o signo seguinte . O sol o visita entre 21 de abril e 21 de maio , domicílio de Vênus . Signo de terra , feminino e fixo . Já sabemos , portanto , que os planetas Marte , Vênus , e Mercúrio são os senhores dos três primeiros signos do zodíaco.Cabe interpretar agora os fatos emocionais que o posicionamento desses planetas poderia produzir . Vênus , Senhor de Touro , em Aries . Vênus é Senhor de 2º signo e também símbolo de aquisição no amor . Detesta estar na casa de Marte , tão enérgico , afiado , anguloso . Vênus , que não é impetuoso e tem linhas suaves , no elemento fogo fará com que o amor seja intenso , mas pouco feliz , pois vai adquirir a instabilidade e os excessos marcianos . Se tem urgência em começar , não se interessa em chegar ao fim , não permanece.O signo de Câncer é feminino , do elemento água , e seu Senhor é a Lua . Signo cardeal , simboliza o lar , e no corpo humano representa o estômago.O 6º signo é feminino da terra e sucedente . No corpo humano governa os intestinos e a saúde em geral . Signo do emprego e dos empregados , é governado por Mercúrio .O 7º signo é visitado pelo sol entre 21 de setembro e 22 de outubro , é cardeal , do ar , masculino . Domicílio de vênus , exerce autoridade sobre as leis , os contratos de longa duração ( inclusive casamento ) . Confere sensibilidade para a beleza , mas também para a luta , e não raro os grandes generais são de libra . Estando em frente ao primeiro signo , Libra se refere ao relacionamento com o \"tu\" .Não iremos colocar a posição de Plutão , pois nesse dia ele se encontrava em Gêmeos .De 21 de janeiro a 21 de fevereiro o Sol se encontra em aquário.Tem como regente Urano ( tradicionalmente Saturno ) . Signo fixo , do ar e masculino . Gosta de novidades e ama a liberdade pessoal . É o 11º signo , científico por excelência , sobretudo na miniaturização e na eletrônica.Vamos agora enriquecer o nosso jogo , introduzindo a noção de ascendente . Assim como seu signo solar ( Aries , touro etc. ) é fixado pela data de nascimento , o seu ascendente é determinado pela hora em que você nasceu.Ao determinar a primeira casa ( ascendente ) pela hora do nascimento , o astrólogo fixará automaticamente as demais casas astrológicas , sempre no sentido anti-horário.Para calcular a ascendente , no entanto , sabemos que é necessário conhecer a hora do nascimento . Se você nasceu no dia 22 de marco às 6 horas da manhã , o seu ascendente é Aries , ou seja , o seu próprio signo solar . Digamos assim que o sol e o ascendente estão em conjunção:Apesar de no hemisfério Sul nós visualizarmos o zênite ao norte , a interpretação astrológica é válida para os dois hemisférios . "^^xsd:string .
+
+<http://linguateca.pt/harem#char=972,975>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Sol"^^xsd:string ;
+        nif:beginIndex        "972"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "975"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3928> .
+
+<http://linguateca.pt/harem#char=1740,1745>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Marte"^^xsd:string ;
+        nif:beginIndex        "1740"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1745"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3928> .
+
+<http://linguateca.pt/harem#char=3694,3699>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Aries"^^xsd:string ;
+        nif:beginIndex        "3694"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3699"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3928> .
+
+<http://linguateca.pt/harem#char=354,359>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Vênus"^^xsd:string ;
+        nif:beginIndex        "354"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "359"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3928> .
+
+<http://linguateca.pt/harem#char=2849,2862>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "21 de janeiro"^^xsd:string ;
+        nif:beginIndex        "2849"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2862"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3928> .
+
+<http://linguateca.pt/harem#char=2838,2844>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Gêmeos"^^xsd:string ;
+        nif:beginIndex        "2838"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2844"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3928> .
+
+<http://linguateca.pt/harem#char=2345,2353>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Mercúrio"^^xsd:string ;
+        nif:beginIndex        "2345"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2353"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3928> .
+
+<http://linguateca.pt/harem#char=2392,2406>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "21 de setembro"^^xsd:string ;
+        nif:beginIndex        "2392"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2406"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3928> .
+
+<http://linguateca.pt/harem#char=89,92>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Sol"^^xsd:string ;
+        nif:beginIndex        "89"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "92"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3928> .
+
+<http://linguateca.pt/harem#char=3656,3663>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "6 horas"^^xsd:string ;
+        nif:beginIndex        "3656"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3663"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3928> .
+
+<http://linguateca.pt/harem#char=1309,1320>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "21 de abril"^^xsd:string ;
+        nif:beginIndex        "1309"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1320"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3928> .

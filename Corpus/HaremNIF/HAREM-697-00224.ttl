@@ -1,0 +1,117 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=307,315>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Prossiga"^^xsd:string ;
+        nif:beginIndex        "307"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "315"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1451> .
+
+<http://linguateca.pt/harem#char=1426,1447>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ciência da Informação"^^xsd:string ;
+        nif:beginIndex        "1426"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1447"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1451> .
+
+<http://linguateca.pt/harem#char=267,271>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1997"^^xsd:string ;
+        nif:beginIndex        "267"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "271"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1451> .
+
+<http://linguateca.pt/harem#char=1371,1375>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "País"^^xsd:string ;
+        nif:beginIndex        "1371"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1375"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1451> .
+
+<http://linguateca.pt/harem#char=0,1451>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1451"^^xsd:nonNegativeInteger ;
+        nif:isString    "PROSSIGA : PORTAL COM UM MILHÃO DE VISITAS O Prossiga ( http ://www.prossiga.cnpq.br , programa do CNPq , direcionado para a informação e comunicação para a pesquisa , atingiu em março a marca de um milhão de visitas , desde o lançamento de suas primeiras páginas em 1997 . Número que reafirma a posição do Prossiga como o conjunto de sites da área de ciência e tecnologia mais visitado de toda a Internet brasileira . Esta marca histórica é explicada principalmente pela qualidade das informações disponibilizadas nas milhares de páginas dos serviços do Prossiga , tanto no que diz respeito às informações propriamente ditas , como também ao tratamento apurado que elas recebem . Dessa forma , o Prossiga cumpre a função crucial de ser o portal especializado em serviços de informação e comunicação para a pesquisa no País . Para tal , o Prossiga desenvolveu um conjunto de metodologias de seleção , ordenação e classificação das informações relevantes para a pesquisa que estavam dispersas na Internet , facilitando dessa forma a busca , ao mesmo tempo que cria condições favoráveis ao surgimento de comunidades virtuais de pesquisadores através dos seus vários serviços de comunicação . Este número de um milhão de visitas é um indicador bastante expressivo de que o Prossiga desempenha um importante papel para a ciência e a tecnologia que vêm sendo desenvolvidas no País . Visite o DataGrama Zero a Revista Eletrônica de Ciência da Informação ou "^^xsd:string .
+
+<http://linguateca.pt/harem#char=179,184>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "março"^^xsd:string ;
+        nif:beginIndex        "179"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "184"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1451> .
+
+<http://linguateca.pt/harem#char=839,847>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Prossiga"^^xsd:string ;
+        nif:beginIndex        "839"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "847"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1451> .
+
+<http://linguateca.pt/harem#char=697,705>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Prossiga"^^xsd:string ;
+        nif:beginIndex        "697"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "705"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1451> .
+
+<http://linguateca.pt/harem#char=45,53>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Prossiga"^^xsd:string ;
+        nif:beginIndex        "45"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "53"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1451> .
+
+<http://linguateca.pt/harem#char=1387,1401>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "DataGrama Zero"^^xsd:string ;
+        nif:beginIndex        "1387"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1401"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1451> .
+
+<http://linguateca.pt/harem#char=1270,1278>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Prossiga"^^xsd:string ;
+        nif:beginIndex        "1270"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1278"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1451> .
+
+<http://linguateca.pt/harem#char=0,8>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "PROSSIGA"^^xsd:string ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "8"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1451> .
+
+<http://linguateca.pt/harem#char=555,563>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Prossiga"^^xsd:string ;
+        nif:beginIndex        "555"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "563"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1451> .
+
+<http://linguateca.pt/harem#char=819,823>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "País"^^xsd:string ;
+        nif:beginIndex        "819"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "823"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1451> .
+
+<http://linguateca.pt/harem#char=99,103>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "CNPq"^^xsd:string ;
+        nif:beginIndex        "99"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "103"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1451> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=397,405>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Internet"^^xsd:string ;
+        nif:beginIndex        "397"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "405"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1451> .

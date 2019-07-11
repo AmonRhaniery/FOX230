@@ -1,0 +1,329 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=1247,1259>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "S . Martinho"^^xsd:string ;
+        nif:beginIndex        "1247"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1259"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1917> .
+
+<http://linguateca.pt/harem#char=12,20>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Interior"^^xsd:string ;
+        nif:beginIndex        "12"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "20"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1917> .
+
+<http://linguateca.pt/harem#char=1542,1547>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Douro"^^xsd:string ;
+        nif:beginIndex        "1542"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1547"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1917> .
+
+<http://linguateca.pt/harem#char=965,971>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Mouros"^^xsd:string ;
+        nif:beginIndex        "965"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "971"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1917> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1369,1379>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "D . Teresa"^^xsd:string ;
+        nif:beginIndex        "1369"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1379"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1917> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=691,699>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "S . João"^^xsd:string ;
+        nif:beginIndex        "691"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "699"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1917> .
+
+<http://linguateca.pt/harem#char=1631,1637>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Aregos"^^xsd:string ;
+        nif:beginIndex        "1631"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1637"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1917> .
+
+<http://linguateca.pt/harem#char=466,472>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Mouros"^^xsd:string ;
+        nif:beginIndex        "466"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "472"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1917> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1176,1244>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Honras de Cardoso , de Cantim , de Fonseca , de Paredes e de Temonde"^^xsd:string ;
+        nif:beginIndex        "1176"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1244"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1917> .
+
+<http://linguateca.pt/harem#char=1438,1459>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "20 de Outubro de 1513"^^xsd:string ;
+        nif:beginIndex        "1438"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1459"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1917> .
+
+<http://linguateca.pt/harem#char=1337,1351>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Fernando Magno"^^xsd:string ;
+        nif:beginIndex        "1337"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1351"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1917> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=904,911>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Resende"^^xsd:string ;
+        nif:beginIndex        "904"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "911"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1917> .
+
+<http://linguateca.pt/harem#char=915,920>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Porto"^^xsd:string ;
+        nif:beginIndex        "915"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "920"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1917> .
+
+<http://linguateca.pt/harem#char=298,306>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Mogueira"^^xsd:string ;
+        nif:beginIndex        "298"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "306"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1917> .
+
+<http://linguateca.pt/harem#char=61,73>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "S . Martinho"^^xsd:string ;
+        nif:beginIndex        "61"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "73"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1917> .
+
+<http://linguateca.pt/harem#char=534,545>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Reconquista"^^xsd:string ;
+        nif:beginIndex        "534"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "545"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1917> .
+
+<http://linguateca.pt/harem#char=211,215>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Pena"^^xsd:string ;
+        nif:beginIndex        "211"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "215"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1917> .
+
+<http://linguateca.pt/harem#char=1424,1434>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "D . Manuel"^^xsd:string ;
+        nif:beginIndex        "1424"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1434"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1917> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=241,245>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Paus"^^xsd:string ;
+        nif:beginIndex        "241"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "245"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1917> .
+
+<http://linguateca.pt/harem#char=567,579>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "S . Martinho"^^xsd:string ;
+        nif:beginIndex        "567"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "579"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1917> .
+
+<http://linguateca.pt/harem#char=252,260>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Mogueira"^^xsd:string ;
+        nif:beginIndex        "252"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "260"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1917> .
+
+<http://linguateca.pt/harem#char=793,799>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Mouros"^^xsd:string ;
+        nif:beginIndex        "793"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "799"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1917> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1751,1757>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Lamego"^^xsd:string ;
+        nif:beginIndex        "1751"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1757"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1917> .
+
+<http://linguateca.pt/harem#char=361,368>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Romanos"^^xsd:string ;
+        nif:beginIndex        "361"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "368"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1917> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=0,1917>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1917"^^xsd:nonNegativeInteger ;
+        nif:isString    "Uma vila no Interior Um simbolo de grande belezaAs terras de S . Martinho foram povoadas desde remotas eras , graças à fertilidade do rio Bestança e à facilidade de defesas naturais e pontos estratégicos como a Pena ou Pedra Sobreposta , em Paus , e a Mogueira , perto de S . Martinho .No morro da Mogueira há vestígios evidentes da presença dos Celtas , e dos Romanos .Trata-se de um castro romanizado.A estes povos seguiram-se os Suevos , os Visigodos , depois os Mouros que lhe deram o nome , e por fim , os povoadores cristãos da Reconquista .Atendendo ao nome « S . Martinho » , pode concluir-se que deve ter sido paróquia desde os primórdios da cristianização destas paragens . Paus , S . João e Gosende eram , nessa época , simples povoados desta freguesia .Dada a sua fertilidade , os Mouros com todas as suas forças a reconquista cristã , motivo pelo qual , sendo já cristão todo o noroeste( de Resende ao Porto ) e estando ainda S . Martinho nas mãos dos Mouros , os cristãos de Resende , falando de S . Martinho , lhe chamavam de « Mouros ».Após a reconquista , em 1058 , tentou-se o repovoamento com a doação de terras a senhores da nobreza , concretamente com as Honras de Cardoso , de Cantim , de Fonseca , de Paredes e de Temonde . S . Martinho foi concelho desde tempos anteriores à nacionalidade , pois recebeu foral de Fernando Magno , confirmado por D . Teresa em 1 de Março de 1121 , e novo foral do rei D . Manuel em 20 de Outubro de 1513 .Foi também julgado medieval , abrangendo uma longa faixa de território , desde o Douro à cruz do Rossão no montemuro , e desde a serra das Meadas a terras do concelho de Aregos e da honra de Resende .O julgado foi suprimido por decreto de 28 de Dezembro de 1840 e incorporado na comarca de Lamego e o concelho foi extinto em 24 de Outubro de 1855 , data em que , tanto o concelho como o julgado passaram a fazer parte do concelho e da comarca de Resende . "^^xsd:string .
+
+<http://linguateca.pt/harem#char=1010,1022>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "S . Martinho"^^xsd:string ;
+        nif:beginIndex        "1010"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1022"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1917> .
+
+<http://linguateca.pt/harem#char=1558,1564>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Rossão"^^xsd:string ;
+        nif:beginIndex        "1558"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1564"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1917> .
+
+<http://linguateca.pt/harem#char=989,996>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Resende"^^xsd:string ;
+        nif:beginIndex        "989"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "996"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1917> .
+
+<http://linguateca.pt/harem#char=684,688>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Paus"^^xsd:string ;
+        nif:beginIndex        "684"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "688"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1917> .
+
+<http://linguateca.pt/harem#char=219,235>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Pedra Sobreposta"^^xsd:string ;
+        nif:beginIndex        "219"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "235"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1917> .
+
+<http://linguateca.pt/harem#char=1907,1914>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Resende"^^xsd:string ;
+        nif:beginIndex        "1907"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1914"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1917> .
+
+<http://linguateca.pt/harem#char=346,352>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Celtas"^^xsd:string ;
+        nif:beginIndex        "346"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "352"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1917> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1076,1080>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1058"^^xsd:string ;
+        nif:beginIndex        "1076"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1080"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1917> .
+
+<http://linguateca.pt/harem#char=1700,1722>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "28 de Dezembro de 1840"^^xsd:string ;
+        nif:beginIndex        "1700"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1722"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1917> .
+
+<http://linguateca.pt/harem#char=939,951>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "S . Martinho"^^xsd:string ;
+        nif:beginIndex        "939"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "951"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1917> .
+
+<http://linguateca.pt/harem#char=1600,1606>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Meadas"^^xsd:string ;
+        nif:beginIndex        "1600"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1606"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1917> .
+
+<http://linguateca.pt/harem#char=138,146>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Bestança"^^xsd:string ;
+        nif:beginIndex        "138"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "146"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1917> .
+
+<http://linguateca.pt/harem#char=702,709>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Gosende"^^xsd:string ;
+        nif:beginIndex        "702"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "709"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1917> .
+
+<http://linguateca.pt/harem#char=1043,1049>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Mouros"^^xsd:string ;
+        nif:beginIndex        "1043"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1049"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1917> .
+
+<http://linguateca.pt/harem#char=432,438>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Suevos"^^xsd:string ;
+        nif:beginIndex        "432"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "438"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1917> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1652,1659>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Resende"^^xsd:string ;
+        nif:beginIndex        "1652"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1659"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1917> .
+
+<http://linguateca.pt/harem#char=444,453>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Visigodos"^^xsd:string ;
+        nif:beginIndex        "444"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "453"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1917> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1383,1401>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1 de Março de 1121"^^xsd:string ;
+        nif:beginIndex        "1383"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1401"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1917> .
+
+<http://linguateca.pt/harem#char=272,284>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "S . Martinho"^^xsd:string ;
+        nif:beginIndex        "272"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "284"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1917> .
+
+<http://linguateca.pt/harem#char=1786,1807>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "24 de Outubro de 1855"^^xsd:string ;
+        nif:beginIndex        "1786"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1807"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1917> .

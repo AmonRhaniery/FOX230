@@ -1,0 +1,129 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=41,60>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Promidia Tecnologia"^^xsd:string ;
+        nif:beginIndex        "41"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "60"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2265> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=2221,2232>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Cadê Médico"^^xsd:string ;
+        nif:beginIndex        "2221"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2232"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2265> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1480,1495>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Paul Engerhardt"^^xsd:string ;
+        nif:beginIndex        "1480"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1495"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2265> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=310,317>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Oriente"^^xsd:string ;
+        nif:beginIndex        "310"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "317"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2265> .
+
+<http://linguateca.pt/harem#char=0,11>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Cadê Médico"^^xsd:string ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "11"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2265> .
+
+<http://linguateca.pt/harem#char=1694,1710>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Michael Heltemes"^^xsd:string ;
+        nif:beginIndex        "1694"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1710"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2265> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=2068,2079>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Sérgio Maia"^^xsd:string ;
+        nif:beginIndex        "2068"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2079"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2265> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=909,911>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "13"^^xsd:string ;
+        nif:beginIndex        "909"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "911"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2265> .
+
+<http://linguateca.pt/harem#char=854,858>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "maio"^^xsd:string ;
+        nif:beginIndex        "854"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "858"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2265> .
+
+<http://linguateca.pt/harem#char=753,758>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Viena"^^xsd:string ;
+        nif:beginIndex        "753"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "758"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2265> .
+
+<http://linguateca.pt/harem#char=0,2265>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "2265"^^xsd:nonNegativeInteger ;
+        nif:isString    "Cadê Médico - www.cadLOCALedico.com.br - Promidia Tecnologia Home Chat Info Med Classificados Notícias Doutor Online Forúm Shop Med e-mail Guia Médico Escolha uma opção Medicos Clinicas Hospitais Laboratorios Emergencias Veterinarios Farmacias Instituição........... ..... Acupuntura e impotência Conhecida no Oriente há milhares de anos , a acupuntura tem sido utilizada em tratamentos para problemas que vão de dor nas costas a depressão . A partir de agora , pelo menos de acordo com pesquisadores austríacos , a impotência pode ser acrescentada a esta lista . As causas da impotência variam de hormônios desequilibrados a problemas emocionais . E justamente este último aspecto foi objeto de estudo por parte de pesquisadores do Hospital Leinz , em Viena . Os resultados preliminares , divulgados em um encontro de urologistas realizado no início de maio , mostraram-se promissores para os pacientes . Os 13 voluntários que participaram da pesquisa , todos com 42 anos , foram divididos em dois grupos . Todos tiveram agulhas espetadas no corpo , só que um dos grupos recebeu as agulhas em locais não relacionados com o problema , já que os médicos queriam comprovar a existência do \"efeito placebo\" , ou seja , se os pacientes seriam sugestionados pelo tratamento . A experiência durou cerca de dois meses e os resultados se mostraram animadores : \"Dois terços dos pacientes que receberam o tratamento verdadeiro relataram bons resultados e se consideraram curados\" , relata Paul Engerhardt , coordenador do estudo . O outro terço , segundo ele , contou ter notado ereções um pouco melhores , mas não o suficiente para se sentirem curados . \"Por isso , acrescentei Viagra ao tratamento\" . Michael Heltemes , outro médico participante do encontro de urologistas na Áustria , destacou o fato de que profissionais e pacientes estão sempre em busca de um medicamento mágico para curar a impotência , \"mas é interessante notar que uma parte dos médicos está seguindo um caminho por onde os recursos do próprio organismo são utilizados para corrigir a disfunção\" . Por Sérgio Maia , Shop Med / Info Med / Classificados / Notícias / Doutor Online Chat / Home / e-mail /Forúm Todos os direitos reservados , Copyrigth 2000 , Cadê Médico Resolução recomendada 800 x 600 "^^xsd:string .
+
+<http://linguateca.pt/harem#char=1769,1776>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Áustria"^^xsd:string ;
+        nif:beginIndex        "1769"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1776"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2265> .
+
+<http://linguateca.pt/harem#char=1670,1676>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Viagra"^^xsd:string ;
+        nif:beginIndex        "1670"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1676"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2265> .
+
+<http://linguateca.pt/harem#char=2255,2264>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "800 x 600"^^xsd:string ;
+        nif:beginIndex        "2255"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2264"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2265> .
+
+<http://linguateca.pt/harem#char=2214,2218>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "2000"^^xsd:string ;
+        nif:beginIndex        "2214"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2218"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2265> .
+
+<http://linguateca.pt/harem#char=965,972>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "42 anos"^^xsd:string ;
+        nif:beginIndex        "965"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "972"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2265> .
+
+<http://linguateca.pt/harem#char=733,747>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Hospital Leinz"^^xsd:string ;
+        nif:beginIndex        "733"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "747"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2265> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .

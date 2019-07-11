@@ -1,0 +1,88 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=442,451>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Hong Kong"^^xsd:string ;
+        nif:beginIndex        "442"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "451"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1463> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=189,192>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "EUA"^^xsd:string ;
+        nif:beginIndex        "189"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "192"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1463> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1245,1248>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "PB2"^^xsd:string ;
+        nif:beginIndex        "1245"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1248"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1463> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1398,1405>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Kawaoka"^^xsd:string ;
+        nif:beginIndex        "1398"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1405"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1463> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=153,186>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Universidade de Wisconsin-Madison"^^xsd:string ;
+        nif:beginIndex        "153"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "186"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1463> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1463>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1463"^^xsd:nonNegativeInteger ;
+        nif:isString    "Uma alteração num único gene é capaz de transformar um vírus inofensivo no agente causador de uma gripe mortal . A descoberta , segundo pesquisadores da Universidade de Wisconsin-Madison ( EUA ) , poderá levar à compreensão de como as epidemias da doença surgem e qual a melhor forma de combatê-las . A equipe liderada por Yoshihiro Kawaoka analisou amostras do H5N1 , o vírus influenza que , em 1997 , matou 6 das 18 pessoas infectadas , em Hong Kong . Essas amostras foram inoculadas em camundongos e , de acordo com os sintomas apresentados pelos animais , foram divididas em dois grupos . O primeiro grupo causava uma forma de infecção letal , matando os camundongos , e o segundo provocava apenas problemas respiratórios como sintomas . Para descobrir a razão dessa diferença , Kawaoka usou uma estratégia de \"engenheirar\" os vírus , trocando genes entre as linhagens virais . Desse modo , conseguiu identificar qual deles era o responsável pela maior capacidade de infecção do influenza . \"Uma mudança de apenas uma base [ letra ] no gene PB2 [ que resultou na modificação de um aminoácido na proteína por ele codificada ] parece ser a causa da virulência do influenza\" , explica . Os cientistas ainda não sabem exatamente qual o papel do PB2 , mas ele parece codificar uma enzima responsável pela indução de um número maior de partículas virais nas células infectadas . O estudo do grupo de Kawaoka está na edição de hoje da revista científica \"Science\" . "^^xsd:string .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=323,340>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Yoshihiro Kawaoka"^^xsd:string ;
+        nif:beginIndex        "323"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "340"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1463> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=362,366>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "H5N1"^^xsd:string ;
+        nif:beginIndex        "362"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "366"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1463> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1045,1048>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "PB2"^^xsd:string ;
+        nif:beginIndex        "1045"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1048"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1463> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1451,1460>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "\"Science\""^^xsd:string ;
+        nif:beginIndex        "1451"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1460"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1463> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=783,790>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Kawaoka"^^xsd:string ;
+        nif:beginIndex        "783"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "790"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1463> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .

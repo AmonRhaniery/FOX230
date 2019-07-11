@@ -1,0 +1,190 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=1249,1250>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "3"^^xsd:string ;
+        nif:beginIndex        "1249"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1250"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2220> .
+
+<http://linguateca.pt/harem#char=1156,1157>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "2"^^xsd:string ;
+        nif:beginIndex        "1156"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1157"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2220> .
+
+<http://linguateca.pt/harem#char=366,376>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Aeroclubes"^^xsd:string ;
+        nif:beginIndex        "366"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "376"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2220> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1268,1269>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1"^^xsd:string ;
+        nif:beginIndex        "1268"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1269"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2220> .
+
+<http://linguateca.pt/harem#char=1142,1143>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "9"^^xsd:string ;
+        nif:beginIndex        "1142"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1143"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2220> .
+
+<http://linguateca.pt/harem#char=1799,1816>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Cmdt . João Filhó"^^xsd:string ;
+        nif:beginIndex        "1799"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1816"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2220> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=15,41>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Aeroclube de Torres Vedras"^^xsd:string ;
+        nif:beginIndex        "15"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "41"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2220> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1979,1983>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "ACTV"^^xsd:string ;
+        nif:beginIndex        "1979"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1983"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2220> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=2103,2107>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "ACTV"^^xsd:string ;
+        nif:beginIndex        "2103"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2107"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2220> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=0,2220>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "2220"^^xsd:nonNegativeInteger ;
+        nif:isString    "Actv Home Page Aeroclube de Torres Vedras Esta Página está no SAPO .[ Page Banner Image ].Benvindos à página Web do Aeroclube de Torres Vedras .Se quer saber algo mais do nosso clube , das nossas actividades , ou do que poderá usufruir sendo sócio do nosso clube , prossiga nesta visita à nossa página .Nesta página do ACTV pode ficar a conhecer um dos mais antigos Aeroclubes nacionais.Dar a conhecer alguns apontamentos históricos , mas principalmente as nossa actividades , de lazer ou formação profissional , tal é o nosso objectivo.Disfrute desta informação.E venha ter connosco para nos conhecer melhor e , quem sabe , dar os seus primeiros passos nesta aventura que é VOAR ![ HRule Image ].Quem SomosSomos um dos mais antigos aeroclubes nacionais , comemoramos este ano 51 anos de existência.Voamos e ensinamos a voar desde 1946 !Somos um clube dedicado à divulgação e ao ensino aeronáutico , oferecemos em ambiente de amizade , os mais baixos preços e grande qualidade.Estamos situados junto à praia de Santa Cruz , no concelho de Torres Vedras , tendo a nossa sede nas nossas instalações no aeródromo municipal.Dispomos uma frota de 9 aviões , de 2 e 4 lugares , um planador e um ultra ligeiro com motor.A nossa Escola de Pilotagem utiliza 3 salas de aulas , 1 quais em Lisboa , estando equipada com modernos meios audio visuais.Dispomos um laboratório para a prática de comunicações aeronáuticas e de um treinador de procedimentos de voo assistido por computador.Voam connosco actualmente dezenas de pilotos todos os anos , por prazer , para treino ou para aumentar a sua experiência de voo , tendo em vista um futuro acesso a uma carreira de piloto profissional.A nossa Escola de Pilotagem ajudou a formar dezenas de pilotos particulares e profissionais , sendo actualmente dirigida pelo Cmdt . João Filhó , um profissional da aviação que trabalha na Portugália , e que é um entre as dezenas de profissionais que iniciaram ou reforçaram a sua actividade de pilotos no ACTV .Comentários sobre esta página podem ser enviados por e-mail para pedromaya@mail.telepac.ptContactos com o ACTV para : ACTV Aeródromo Municipal de Santa Cruz 2560 SILVEIRA ou por e-mail para opsactv@actv.pt ou pedromaya@mail.telepac.pt "^^xsd:string .
+
+<http://linguateca.pt/harem#char=2108,2155>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Aeródromo Municipal de Santa Cruz 2560 SILVEIRA"^^xsd:string ;
+        nif:beginIndex        "2108"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2155"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2220> .
+
+<http://linguateca.pt/harem#char=1862,1872>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Portugália"^^xsd:string ;
+        nif:beginIndex        "1862"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1872"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2220> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=831,835>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1946"^^xsd:string ;
+        nif:beginIndex        "831"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "835"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2220> .
+
+<http://linguateca.pt/harem#char=319,323>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "ACTV"^^xsd:string ;
+        nif:beginIndex        "319"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "323"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2220> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1160,1161>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "4"^^xsd:string ;
+        nif:beginIndex        "1160"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1161"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2220> .
+
+<http://linguateca.pt/harem#char=1279,1285>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Lisboa"^^xsd:string ;
+        nif:beginIndex        "1279"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1285"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2220> .
+
+<http://linguateca.pt/harem#char=62,66>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "SAPO"^^xsd:string ;
+        nif:beginIndex        "62"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "66"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2220> .
+
+<http://linguateca.pt/harem#char=116,142>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Aeroclube de Torres Vedras"^^xsd:string ;
+        nif:beginIndex        "116"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "142"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2220> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1221,1240>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Escola de Pilotagem"^^xsd:string ;
+        nif:beginIndex        "1221"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1240"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2220> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1039,1052>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Torres Vedras"^^xsd:string ;
+        nif:beginIndex        "1039"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1052"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2220> .
+
+<http://linguateca.pt/harem#char=2091,2095>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "ACTV"^^xsd:string ;
+        nif:beginIndex        "2091"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2095"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2220> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1011,1021>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Santa Cruz"^^xsd:string ;
+        nif:beginIndex        "1011"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1021"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2220> .
+
+<http://linguateca.pt/harem#char=109,112>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Web"^^xsd:string ;
+        nif:beginIndex        "109"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "112"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2220> .
+
+<http://linguateca.pt/harem#char=777,784>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "51 anos"^^xsd:string ;
+        nif:beginIndex        "777"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "784"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2220> .
+
+<http://linguateca.pt/harem#char=1681,1700>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Escola de Pilotagem"^^xsd:string ;
+        nif:beginIndex        "1681"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1700"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2220> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .

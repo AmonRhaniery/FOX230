@@ -1,0 +1,411 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=1547,1551>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1947"^^xsd:string ;
+        nif:beginIndex        "1547"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1551"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2075> .
+
+<http://linguateca.pt/harem#char=1282,1361>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Diagnostic des Tumeurs Cérébrales et l`Épreuve de l`Encephalographie artérielle"^^xsd:string ;
+        nif:beginIndex        "1282"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1361"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2075> .
+
+<http://linguateca.pt/harem#char=700,708>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Portugal"^^xsd:string ;
+        nif:beginIndex        "700"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "708"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2075> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1872,1899>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Júlio Dinis e a Psicanálise"^^xsd:string ;
+        nif:beginIndex        "1872"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1899"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2075> .
+
+<http://linguateca.pt/harem#char=1792,1796>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1915"^^xsd:string ;
+        nif:beginIndex        "1792"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1796"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2075> .
+
+<http://linguateca.pt/harem#char=992,998>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Lisboa"^^xsd:string ;
+        nif:beginIndex        "992"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "998"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2075> .
+
+<http://linguateca.pt/harem#char=934,942>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Vaticano"^^xsd:string ;
+        nif:beginIndex        "934"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "942"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2075> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1951,1955>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1925"^^xsd:string ;
+        nif:beginIndex        "1951"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1955"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2075> .
+
+<http://linguateca.pt/harem#char=536,553>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Partido Centrista"^^xsd:string ;
+        nif:beginIndex        "536"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "553"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2075> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=836,845>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1914-1918"^^xsd:string ;
+        nif:beginIndex        "836"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "845"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2075> .
+
+<http://linguateca.pt/harem#char=1667,1671>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1900"^^xsd:string ;
+        nif:beginIndex        "1667"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1671"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2075> .
+
+<http://linguateca.pt/harem#char=614,626>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Sidónio Pais"^^xsd:string ;
+        nif:beginIndex        "614"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "626"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2075> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=233,253>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Partido Progressista"^^xsd:string ;
+        nif:beginIndex        "233"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "253"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2075> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1801,1818>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "O Conflito Sexual"^^xsd:string ;
+        nif:beginIndex        "1801"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1818"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2075> .
+
+<http://linguateca.pt/harem#char=11,18>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ciência"^^xsd:string ;
+        nif:beginIndex        "11"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "18"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2075> .
+
+<http://linguateca.pt/harem#char=63,72>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1874-1955"^^xsd:string ;
+        nif:beginIndex        "63"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "72"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2075> .
+
+<http://linguateca.pt/harem#char=1821,1825>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1922"^^xsd:string ;
+        nif:beginIndex        "1821"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1825"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2075> .
+
+<http://linguateca.pt/harem#char=649,683>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ministro dos Negócios Estrangeiros"^^xsd:string ;
+        nif:beginIndex        "649"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "683"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2075> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=712,719>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Espanha"^^xsd:string ;
+        nif:beginIndex        "712"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "719"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2075> .
+
+<http://linguateca.pt/harem#char=1382,1387>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Paris"^^xsd:string ;
+        nif:beginIndex        "1382"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1387"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2075> .
+
+<http://linguateca.pt/harem#char=1766,1789>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "As Bases da Psicanálise"^^xsd:string ;
+        nif:beginIndex        "1766"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1789"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2075> .
+
+<http://linguateca.pt/harem#char=0,2075>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "2075"^^xsd:nonNegativeInteger ;
+        nif:isString    "Figuras da Ciência em Portugal Figuras Egas Moniz Egas Moniz ( 1874-1955 ) , natural de Avanca , formou-se em medicina ( 1899 ) , manifestando de princípio grande interesse pela actividade política . Em 1903 foi eleito deputado pelo Partido Progressista . Lutou contra a Ditadura de João Franco , tendo participado na tentativa golpista de 28 de Janeiro de 1908 . Após a implantação da 1ª . Republica ( 1910-1926 ) , aderiu ao novo regime , tendo comabtido ao lado de António José de Almeida no Partido Evolucionista . Em 1916 formou o Partido Centrista de vida efémera . Em 1917 entra para o Governo populista de Sidónio Pais , exercendo os cargos Ministro dos Negócios Estrangeiros , embaixador de Portugal em Espanha , e depois o de presidente da delegação portuguesa à Conferência de Paz , em Paris , no final da I Guerra Mundial ( 1914-1918 ) . Foi ainda o obreiro no restabelecimento das relações diplomáticas de Portugal com o Vaticano . Foi professor das Universidade de Coimbra e de Lisboa , onde regeu a cadeira de Neurologia . Realizou pela primeira vez a angiografia cerebral do homem , contribuindo com estes exames radiológicos , para o diagnóstico de tumores cerebrais e para os progressos de neurocirurgia . A primeira descrição desta operação aparece na sua obra \" Diagnostic des Tumeurs Cérébrales et l`Épreuve de l`Encephalographie artérielle \" , obra publica em Paris ( 1931 ) . Foi ainda o notável criador de uma nova forma de cirurgia cerebral - a leucotomia pré-frontal . Em reconhecimento dos seus méritos científicos , em 1947 , foi-lhe atribuido o Prémio Nobel Medicina e Fisiologia . Entre as suas numeras obras destacam-se : Vida Sexual ( 1900 ) , onde dá conta das modernas teorias europeias , nomeadamente da psicanálise de S . Freud ; As Bases da Psicanálise ( 1915 ) , O Conflito Sexual ( 1922 ) , Conferências Médicas ( quatro volumes ) , Júlio Dinis e a Psicanálise ( 1920 ) , A Necrofilia de Camilo Castelo Branco ( 1925 ) , Confidências de um Investigador Científico ( 1949 ) , A Nossa Casa ( 1950 ) . Carlos Fontes Navegando na Filosofia "^^xsd:string .
+
+<http://linguateca.pt/harem#char=50,60>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Egas Moniz"^^xsd:string ;
+        nif:beginIndex        "50"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "60"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2075> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=2038,2051>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Carlos Fontes"^^xsd:string ;
+        nif:beginIndex        "2038"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2051"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2075> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=593,600>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Governo"^^xsd:string ;
+        nif:beginIndex        "593"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "600"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2075> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=271,294>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ditadura de João Franco"^^xsd:string ;
+        nif:beginIndex        "271"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "294"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2075> .
+
+<http://linguateca.pt/harem#char=340,361>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "28 de Janeiro de 1908"^^xsd:string ;
+        nif:beginIndex        "340"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "361"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2075> .
+
+<http://linguateca.pt/harem#char=1025,1035>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Neurologia"^^xsd:string ;
+        nif:beginIndex        "1025"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1035"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2075> .
+
+<http://linguateca.pt/harem#char=203,207>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1903"^^xsd:string ;
+        nif:beginIndex        "203"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "207"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2075> .
+
+<http://linguateca.pt/harem#char=575,579>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1917"^^xsd:string ;
+        nif:beginIndex        "575"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "579"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2075> .
+
+<http://linguateca.pt/harem#char=1902,1906>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1920"^^xsd:string ;
+        nif:beginIndex        "1902"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1906"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2075> .
+
+<http://linguateca.pt/harem#char=1653,1664>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Vida Sexual"^^xsd:string ;
+        nif:beginIndex        "1653"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1664"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2075> .
+
+<http://linguateca.pt/harem#char=22,30>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Portugal"^^xsd:string ;
+        nif:beginIndex        "22"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "30"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2075> .
+
+<http://linguateca.pt/harem#char=403,412>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1910-1926"^^xsd:string ;
+        nif:beginIndex        "403"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "412"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2075> .
+
+<http://linguateca.pt/harem#char=495,516>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Partido Evolucionista"^^xsd:string ;
+        nif:beginIndex        "495"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "516"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2075> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=2029,2033>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1950"^^xsd:string ;
+        nif:beginIndex        "2029"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2033"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2075> .
+
+<http://linguateca.pt/harem#char=1960,2002>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Confidências de um Investigador Científico"^^xsd:string ;
+        nif:beginIndex        "1960"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2002"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2075> .
+
+<http://linguateca.pt/harem#char=386,400>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1ª . Republica"^^xsd:string ;
+        nif:beginIndex        "386"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "400"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2075> .
+
+<http://linguateca.pt/harem#char=1390,1394>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1931"^^xsd:string ;
+        nif:beginIndex        "1390"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1394"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2075> .
+
+<http://linguateca.pt/harem#char=2065,2074>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Filosofia"^^xsd:string ;
+        nif:beginIndex        "2065"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2074"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2075> .
+
+<http://linguateca.pt/harem#char=88,94>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Avanca"^^xsd:string ;
+        nif:beginIndex        "88"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "94"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2075> .
+
+<http://linguateca.pt/harem#char=773,791>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Conferência de Paz"^^xsd:string ;
+        nif:beginIndex        "773"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "791"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2075> .
+
+<http://linguateca.pt/harem#char=468,491>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "António José de Almeida"^^xsd:string ;
+        nif:beginIndex        "468"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "491"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2075> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1911,1948>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "A Necrofilia de Camilo Castelo Branco"^^xsd:string ;
+        nif:beginIndex        "1911"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1948"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2075> .
+
+<http://linguateca.pt/harem#char=797,802>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Paris"^^xsd:string ;
+        nif:beginIndex        "797"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "802"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2075> .
+
+<http://linguateca.pt/harem#char=39,49>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Egas Moniz"^^xsd:string ;
+        nif:beginIndex        "39"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "49"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2075> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1754,1763>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "S . Freud"^^xsd:string ;
+        nif:beginIndex        "1754"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1763"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2075> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=2005,2009>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1949"^^xsd:string ;
+        nif:beginIndex        "2005"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2009"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2075> .
+
+<http://linguateca.pt/harem#char=121,125>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1899"^^xsd:string ;
+        nif:beginIndex        "121"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "125"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2075> .
+
+<http://linguateca.pt/harem#char=2014,2026>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "A Nossa Casa"^^xsd:string ;
+        nif:beginIndex        "2014"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2026"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2075> .
+
+<http://linguateca.pt/harem#char=919,927>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Portugal"^^xsd:string ;
+        nif:beginIndex        "919"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "927"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2075> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=963,986>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Universidade de Coimbra"^^xsd:string ;
+        nif:beginIndex        "963"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "986"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2075> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1574,1608>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Prémio Nobel Medicina e Fisiologia"^^xsd:string ;
+        nif:beginIndex        "1574"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1608"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2075> .
+
+<http://linguateca.pt/harem#char=817,833>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "I Guerra Mundial"^^xsd:string ;
+        nif:beginIndex        "817"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "833"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2075> .
+
+<http://linguateca.pt/harem#char=1830,1850>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Conferências Médicas"^^xsd:string ;
+        nif:beginIndex        "1830"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1850"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2075> .
+
+<http://linguateca.pt/harem#char=522,526>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1916"^^xsd:string ;
+        nif:beginIndex        "522"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "526"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2075> .

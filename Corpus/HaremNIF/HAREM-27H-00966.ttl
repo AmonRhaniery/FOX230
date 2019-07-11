@@ -1,0 +1,97 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=283,290>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "82 anos"^^xsd:string ;
+        nif:beginIndex        "283"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "290"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,859> .
+
+<http://linguateca.pt/harem#char=226,231>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "06h50"^^xsd:string ;
+        nif:beginIndex        "226"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "231"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,859> .
+
+<http://linguateca.pt/harem#char=549,559>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "500 metros"^^xsd:string ;
+        nif:beginIndex        "549"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "559"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,859> .
+
+<http://linguateca.pt/harem#char=407,412>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Porto"^^xsd:string ;
+        nif:beginIndex        "407"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "412"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,859> .
+
+<http://linguateca.pt/harem#char=0,859>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "859"^^xsd:nonNegativeInteger ;
+        nif:isString    "Incêndio em habitação causa dois feridos Um incêndio numa habitação provocou ontem de madrugada um ferido grave e um ligeiro , em Leça da Palmeira , Matosinhos , informou fonte dos bombeiros . O fogo , que deflagrou cerca das 06h50 numa casa térrea , causou ferimentos numa idosa de 82 anos , o caso mais grave , e no seu enteado , um homem de 32 anos , ambos transportados para o Hospital de São João , no Porto . Segundo a fonte , o incêndio ocorreu numa habitação situada numa \"ilha\" , na Rua Coronel Sarsfield , em Leça da Palmeira , a cerca de 500 metros do quartel dos Bombeiros Voluntários de Matosinhos-Leça , o que facilitou a pronta intervenção para impedir que as chamas atingissem as casas vizinhas . No combate às chamas , cujas causas são desconhecidas , estiveram envolvidos oito homens dos Voluntários de Matosinhos-Leça , com duas viaturas . "^^xsd:string .
+
+<http://linguateca.pt/harem#char=130,146>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Leça da Palmeira"^^xsd:string ;
+        nif:beginIndex        "130"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "146"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,859> .
+
+<http://linguateca.pt/harem#char=492,513>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Rua Coronel Sarsfield"^^xsd:string ;
+        nif:beginIndex        "492"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "513"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,859> .
+
+<http://linguateca.pt/harem#char=381,401>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Hospital de São João"^^xsd:string ;
+        nif:beginIndex        "381"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "401"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,859> .
+
+<http://linguateca.pt/harem#char=149,159>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Matosinhos"^^xsd:string ;
+        nif:beginIndex        "149"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "159"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,859> .
+
+<http://linguateca.pt/harem#char=519,535>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Leça da Palmeira"^^xsd:string ;
+        nif:beginIndex        "519"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "535"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,859> .
+
+<http://linguateca.pt/harem#char=344,351>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "32 anos"^^xsd:string ;
+        nif:beginIndex        "344"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "351"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,859> .
+
+<http://linguateca.pt/harem#char=575,615>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Bombeiros Voluntários de Matosinhos-Leça"^^xsd:string ;
+        nif:beginIndex        "575"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "615"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,859> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=585,615>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Voluntários de Matosinhos-Leça"^^xsd:string ;
+        nif:beginIndex        "585"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "615"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,859> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .

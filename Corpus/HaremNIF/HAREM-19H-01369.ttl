@@ -1,0 +1,70 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=704,713>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Pentágono"^^xsd:string ;
+        nif:beginIndex        "704"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "713"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,716> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=372,378>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Iraque"^^xsd:string ;
+        nif:beginIndex        "372"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "378"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,716> .
+
+<http://linguateca.pt/harem#char=548,552>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "F-15"^^xsd:string ;
+        nif:beginIndex        "548"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "552"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,716> .
+
+<http://linguateca.pt/harem#char=620,626>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Mossul"^^xsd:string ;
+        nif:beginIndex        "620"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "626"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,716> .
+
+<http://linguateca.pt/harem#char=232,241>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Pentágono"^^xsd:string ;
+        nif:beginIndex        "232"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "241"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,716> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=667,674>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Turquia"^^xsd:string ;
+        nif:beginIndex        "667"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "674"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,716> .
+
+<http://linguateca.pt/harem#char=0,716>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "716"^^xsd:nonNegativeInteger ;
+        nif:isString    "Norte-americanos disparam contra posições iraquianasAparelhos norte-americanos dispararam mísseis e lançaram bombas sobre posições iraquianas no norte do país «em resposta a disparos de artilharia anti-aérea» do Iraque , anunciou o Pentágono em comunicado.Segundo o departamento da defesa , aviões F-15 «que efectuavam voos de rotina na zona de exclusão aérea no norte do Iraque » dispararam primeiro três mísseis e lançaram bombas guiadas por laser contra um centro de comando militar e uma estação de rádio.Um pouco mais tarde , outros aparelhos F-15 lançaram cinco bombas contra objectivos não identificados perto de Mossul .Os aparelhos regressaram à sua base na Turquia , acrescenta o comunicado do Pentágono . "^^xsd:string .
+
+<http://linguateca.pt/harem#char=298,302>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "F-15"^^xsd:string ;
+        nif:beginIndex        "298"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "302"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,716> .
+
+<http://linguateca.pt/harem#char=212,218>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Iraque"^^xsd:string ;
+        nif:beginIndex        "212"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "218"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,716> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .

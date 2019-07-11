@@ -1,0 +1,265 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=48,59>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "José Sarney"^^xsd:string ;
+        nif:beginIndex        "48"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "59"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2775> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=2328,2340>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Wilson Romão"^^xsd:string ;
+        nif:beginIndex        "2328"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2340"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2775> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=487,493>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Itamar"^^xsd:string ;
+        nif:beginIndex        "487"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "493"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2775> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1980,1994>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "José de Castro"^^xsd:string ;
+        nif:beginIndex        "1980"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1994"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2775> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1457,1476>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Aristides Junqueira"^^xsd:string ;
+        nif:beginIndex        "1457"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1476"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2775> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=2201,2203>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "MP"^^xsd:string ;
+        nif:beginIndex        "2201"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2203"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2775> .
+
+<http://linguateca.pt/harem#char=2207,2210>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "URV"^^xsd:string ;
+        nif:beginIndex        "2207"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2210"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2775> .
+
+<http://linguateca.pt/harem#char=1865,1868>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "FHC"^^xsd:string ;
+        nif:beginIndex        "1865"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1868"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2775> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1106,1112>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Telerj"^^xsd:string ;
+        nif:beginIndex        "1106"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1112"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2775> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=807,821>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "José de Castro"^^xsd:string ;
+        nif:beginIndex        "807"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "821"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2775> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1588,1597>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Congresso"^^xsd:string ;
+        nif:beginIndex        "1588"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1597"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2775> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1568,1571>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "FHC"^^xsd:string ;
+        nif:beginIndex        "1568"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1571"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2775> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=62,77>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Fernando Collor"^^xsd:string ;
+        nif:beginIndex        "62"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "77"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2775> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1305,1311>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Itamar"^^xsd:string ;
+        nif:beginIndex        "1305"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1311"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2775> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=675,689>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "José de Castro"^^xsd:string ;
+        nif:beginIndex        "675"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "689"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2775> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=0,2775>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "2775"^^xsd:nonNegativeInteger ;
+        nif:isString    "Quem produziu a crise Três presidentes seguidos José Sarney , Fernando Collor e Itamar Franco incluiram por diversas vezes entre seus presumíveis feitos , a manutenção da democracia e das liberdades . Nada mais falso . Em alguns momentos de seu governo , os três comportaram-se como incendiários . Não conseguiram colocar a democracia em xeque , mais pelo amadurecimento da sociedade civil e militar , do que por convicção democrática propriamente dita . Desde o início de seu governo , Itamar foi estimulado por seus auxiliares menos escrupulosos a criar situações de confronto , que permitissem ao grupo ganhar espaço de manobra , ainda que às custas de crises políticas . José de Castro Agora , há indícios consistentes de que o principal estimulador dessa atitude de Itamar foi o presidente da Telerj , José de Castro , para recuperar a influência que tinha sobre o governo . Desde que Itamar assumiu o governo , depois de denúncias da imprensa José de Castro foi obrigado a voltar atrás em diversas operações pouco claras , articuladas tanto na Consultoria Geral da República quanto na presidência da Telerj . De lá para cá , José de Castro limitou-se a sobreviver politicamente alimentando algumas colunas com notas pouco convincentes , a respeito de uma suposta influência que ainda mantinha sobre Itamar só divulgadas devido ao fato de ter a Telerj sob seu controle . A crise já tinha sido solucionada , após uma reunião na casa do procurador geral Aristides Junqueira , que juntou as principais lideranças do Congresso , membros do Supremo Tribunal Federal e FHC . Lideranças do Congresso , empenhadas em resolver a atual crise institucional , suspeitam que José de Castro tenha se valido de duas circunstancias para influenciar o presidente a criar o impasse atual . De um lado , sentimentos menores de Itamar , com ciúmes da popularidade conquistada por FHC , em contraste com sua própria imagem , arruinada após os episódios do sambódromo . \"Alma árida\" Este papel de José de Castro teria ficado claro segundo fontes parlamentares quando procurou FHC , com um comportamento classificado de autoritário e arrogante por estas fontes , dizendo-lhe que Itamar \"proibira\" qualquer alteração na MP da URV . A informação teria sido passado em tom de ordem . No fim da tarde , as declarações do diretor da Polícia Federal , Wilson Romão , demonstram que o presidente está apostando em um endurecimento político . Só um impasse grave conseguirá mudar o atual sistema institucional e convencer os donos do Estado a permitirem sua reforma por uma constituinte exclusiva , composta por representantes da sociedade civil . Mas o impasse atual não tem grandeza . É hora de se encarar seriamente a hipótese de processar o presidente da República por crime de responsabilidade . "^^xsd:string .
+
+<http://linguateca.pt/harem#char=771,777>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Itamar"^^xsd:string ;
+        nif:beginIndex        "771"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "777"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2775> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1813,1819>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Itamar"^^xsd:string ;
+        nif:beginIndex        "1813"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1819"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2775> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1667,1681>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "José de Castro"^^xsd:string ;
+        nif:beginIndex        "1667"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1681"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2775> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=2310,2325>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Polícia Federal"^^xsd:string ;
+        nif:beginIndex        "2310"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2325"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2775> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=2161,2167>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Itamar"^^xsd:string ;
+        nif:beginIndex        "2161"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2167"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2775> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=949,963>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "José de Castro"^^xsd:string ;
+        nif:beginIndex        "949"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "963"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2775> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=2059,2062>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "FHC"^^xsd:string ;
+        nif:beginIndex        "2059"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2062"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2775> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=798,804>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Telerj"^^xsd:string ;
+        nif:beginIndex        "798"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "804"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2775> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1050,1080>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Consultoria Geral da República"^^xsd:string ;
+        nif:beginIndex        "1050"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1080"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2775> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1350,1356>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Telerj"^^xsd:string ;
+        nif:beginIndex        "1350"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1356"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2775> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=2508,2514>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Estado"^^xsd:string ;
+        nif:beginIndex        "2508"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2514"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2775> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1131,1145>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "José de Castro"^^xsd:string ;
+        nif:beginIndex        "1131"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1145"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2775> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=2719,2742>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "presidente da República"^^xsd:string ;
+        nif:beginIndex        "2719"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2742"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2775> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1541,1565>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Supremo Tribunal Federal"^^xsd:string ;
+        nif:beginIndex        "1541"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1565"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2775> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=890,896>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Itamar"^^xsd:string ;
+        nif:beginIndex        "890"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "896"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2775> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1518,1527>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Congresso"^^xsd:string ;
+        nif:beginIndex        "1518"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1527"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2775> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=80,93>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Itamar Franco"^^xsd:string ;
+        nif:beginIndex        "80"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "93"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2775> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .

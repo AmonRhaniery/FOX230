@@ -1,0 +1,368 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=668,672>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "King"^^xsd:string ;
+        nif:beginIndex        "668"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "672"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5037> .
+
+<http://linguateca.pt/harem#char=74,79>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Belly"^^xsd:string ;
+        nif:beginIndex        "74"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "79"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5037> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=474,488>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Estados Unidos"^^xsd:string ;
+        nif:beginIndex        "474"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "488"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5037> .
+
+<http://linguateca.pt/harem#char=37,43>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "R.E.M."^^xsd:string ;
+        nif:beginIndex        "37"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "43"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5037> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=975,980>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Tanya"^^xsd:string ;
+        nif:beginIndex        "975"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "980"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5037> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=2537,2545>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Breeders"^^xsd:string ;
+        nif:beginIndex        "2537"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2545"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5037> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=18,22>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "King"^^xsd:string ;
+        nif:beginIndex        "18"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "22"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5037> .
+
+<http://linguateca.pt/harem#char=177,179>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "20"^^xsd:string ;
+        nif:beginIndex        "177"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "179"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5037> .
+
+<http://linguateca.pt/harem#char=4029,4036>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Beatles"^^xsd:string ;
+        nif:beginIndex        "4029"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4036"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5037> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=237,254>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "ex-Throwing Muses"^^xsd:string ;
+        nif:beginIndex        "237"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "254"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5037> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=257,268>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "ex-Breeders"^^xsd:string ;
+        nif:beginIndex        "257"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "268"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5037> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1378,1383>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Belly"^^xsd:string ;
+        nif:beginIndex        "1378"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1383"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5037> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=460,465>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Belly"^^xsd:string ;
+        nif:beginIndex        "460"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "465"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5037> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=3305,3310>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Tanya"^^xsd:string ;
+        nif:beginIndex        "3305"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3310"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5037> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=764,778>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Throwing Muses"^^xsd:string ;
+        nif:beginIndex        "764"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "778"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5037> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=3544,3548>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Star"^^xsd:string ;
+        nif:beginIndex        "3544"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3548"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5037> .
+
+<http://linguateca.pt/harem#char=1172,1176>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "King"^^xsd:string ;
+        nif:beginIndex        "1172"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1176"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5037> .
+
+<http://linguateca.pt/harem#char=2073,2077>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Star"^^xsd:string ;
+        nif:beginIndex        "2073"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2077"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5037> .
+
+<http://linguateca.pt/harem#char=3793,3797>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "King"^^xsd:string ;
+        nif:beginIndex        "3793"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3797"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5037> .
+
+<http://linguateca.pt/harem#char=494,505>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Reino Unido"^^xsd:string ;
+        nif:beginIndex        "494"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "505"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5037> .
+
+<http://linguateca.pt/harem#char=677,684>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "PÚBLICO"^^xsd:string ;
+        nif:beginIndex        "677"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "684"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5037> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=2942,2948>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Boston"^^xsd:string ;
+        nif:beginIndex        "2942"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2948"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5037> .
+
+<http://linguateca.pt/harem#char=390,398>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Portugal"^^xsd:string ;
+        nif:beginIndex        "390"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "398"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5037> .
+
+<http://linguateca.pt/harem#char=142,148>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "R.E.M."^^xsd:string ;
+        nif:beginIndex        "142"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "148"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5037> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=737,750>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Tanya Donnely"^^xsd:string ;
+        nif:beginIndex        "737"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "750"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5037> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=785,793>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Breeders"^^xsd:string ;
+        nif:beginIndex        "785"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "793"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5037> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=5026,5036>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Jorge Dias"^^xsd:string ;
+        nif:beginIndex        "5026"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5036"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5037> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=3995,4005>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Glyn Jones"^^xsd:string ;
+        nif:beginIndex        "3995"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4005"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5037> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=2165,2176>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Reino Unido"^^xsd:string ;
+        nif:beginIndex        "2165"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2176"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5037> .
+
+<http://linguateca.pt/harem#char=4054,4059>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Clash"^^xsd:string ;
+        nif:beginIndex        "4054"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4059"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5037> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=2134,2148>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Estados Unidos"^^xsd:string ;
+        nif:beginIndex        "2134"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2148"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5037> .
+
+<http://linguateca.pt/harem#char=0,5037>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "5037"^^xsd:nonNegativeInteger ;
+        nif:isString    "Belly depois de « King » e antes dos R.E.M. «Somos de pequenas cidades»Os Belly são o nome mais pequeno que aparece no cartaz da actuação dos R.E.M. prevista para o próximo dia 20 , em Lisboa . Será então a altura de ver Tanya Donnely , ex-Throwing Muses e ex-Breeders , e ouvir algumas das canções do seu grupo . Em antecipação , fica a conversa com o guitarrista Tom Gorman .Apesar de em Portugal serem conhecidos apenas por uma minoria de interessados , os Belly são nos Estados Unidos e no Reino Unido um sucesso já com alguma dimensão . Tom Gorman , guitarrista do grupo , conta-nos o que se passou à volta desse sucesso e as opções tomadas para o novo álbum , « King » . PÚBLICO -- Os Belly começaram um pouco como «a vingança» de Tanya Donnely , depois das Throwing Muses e das Breeders , mas neste álbum parece haver mais contribuições dos outros elementos . Estão finalmente a desenvolver-se num colectivo ? TOM GORMAN -- Esse era o objectivo desde o início . Mas a Tanya tinha tantas canções acumuladas ... Além disso , leva muito tempo aprender a tocar juntos e desenvolver um estilo conjunto . Mas com o tempo isso acontece . É um processo que nunca acaba e « King » é o exemplo de um passo em frente.P. -- De há alguns anos para cá , tem havido uma certa tendência para as bandas lideradas por mulheres utilizarem esse facto para chamar a atenção . No entanto , os Belly nunca tentaram tirar muito partido dos seus pontos de vista femininos ...R. -- A maneira como funcionamos parece-nos natural . Há uma dinâmica entre fêmeas e machos . Consideramo-nos como uma banda , quatro pessoas que fazem música , e acontece que uns são rapazes e outros raparigas . O facto de sermos liderados por uma mulher é só um pormenor e não sentimos necessidade de explorar o facto.P. -- O que é que a banda sabe sobre as canções da Tanya ?R. -- De um modo geral , a banda tem uma ideia vaga do que as canções significam . Ela não gosta de explicar muito o conteúdo , porque acha que as pessoas devem ouvir as palavras dentro da canção e dar-lhes um significado próprio.P. -- « Star » , o vosso primeiro álbum , chegou à marca de ouro nos Estados Unidos e à de prata no Reino Unido . Vocês , que vinham do circuito independente , estavam à espera desse sucesso?R. -- Não , não estávamos à espera . Quando « Star » saiu pensámos : «Se tivermos sorte , talvez vendamos cem mil discos .» Mas agora , olhando para trás e notando que a paisagem da música popular estava a mudar , sobretudo na América , quase que não me surpreendo . O facto de as Breeders e outras bandas terem conseguido vender bem , mais ou menos na mesma altura , faz com que não seja assim tão estranho . No entanto , nós estamos interessados em música pop , mas num sentido um tanto para o clássico , não necessariamente naquele dos tops.P. -- E foi fácil suportar as pressões do sucesso que de repente cresceu à vossa volta?R. -- Sim , até um certo ponto . A Tanya agora vive em Boston mas , de certa forma , somos todos de pequenas cidades e lá ninguém nos conhece . O que nos permite fugir de tudo . Fazer digressões da maneira como nós o fizemos é definitivamente trabalho duro , mas a páginas tantas entra-se num mundo muito próprio e tudo o que está à volta -- a imprensa , etc. -- acaba por já não ter importância .P. -- No entanto , a Tanya tem afirmado em entrevistas que o turbilhão a deixou um bocado fora de si , e que agora quer mais controlo sobre as coisas . Isso resultou num álbum mais tenso e planeado , que é o que este « King » parece ser quando comparado com « Star »?R. -- Eu não lhe chamaria planeado . Mas , à medida que se vai conhecendo as etapas deste caminho , vai-se sabendo melhor como as coisas funcionam e o que se quer . Desta vez , no estúdio , sabíamos mais o que se estava a passar . Acho que « King » não é um álbum tão fácil quanto « Star » , mas acontecem nele mais coisas interessantes . Só que leva mais algum tempo a apercebermo-nos . E é mais cru e directo.P. -- O facto de terem convidado Glyn Jones , que trabalhou com os Beatles , os Stones , os Clash e uma série de bandas míticas , para produtor foi uma forma de tentarem captar um certo classicismo para « King »?R. -- Sim . Nós queríamos que este disco tivesse um som próprio , que não soasse à altura em que foi gravado . Além disso , ele sugeriu que a gravação fosse feita em regime «live» , o que foi bom por causa da rodagem ao vivo que já tínhamos . Mas o motivo principal da escolha foi que não queríamos um produtor do momento.P. -- Como se vêem ao integrar a tournée dos R.E.M. ? Foi uma porta para entrar no grande «show»do rock'n'roll?R. -- É uma oportunidade de tocar em sítios novos e para audiências muito maiores . De conseguir uma certa exposição . Acho que o nosso som não é muito parecido com o deles , mas acho que pode cair um pouco na mesma categoria . Por isso , talvez consigamos ganhar novos interessados . Estamos todos muito ansiosos por esses concertos , mas não sabemos muito bem o que podemos esperar . Mas acho que vai ser divertido . Jorge Dias "^^xsd:string .
+
+<http://linguateca.pt/harem#char=542,552>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Tom Gorman"^^xsd:string ;
+        nif:beginIndex        "542"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "552"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5037> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=4042,4048>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Stones"^^xsd:string ;
+        nif:beginIndex        "4042"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4048"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5037> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=365,375>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Tom Gorman"^^xsd:string ;
+        nif:beginIndex        "365"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "375"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5037> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=4167,4171>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "King"^^xsd:string ;
+        nif:beginIndex        "4167"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4171"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5037> .
+
+<http://linguateca.pt/harem#char=3503,3507>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "King"^^xsd:string ;
+        nif:beginIndex        "3503"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3507"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5037> .
+
+<http://linguateca.pt/harem#char=1828,1833>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Tanya"^^xsd:string ;
+        nif:beginIndex        "1828"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1833"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5037> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=4541,4547>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "R.E.M."^^xsd:string ;
+        nif:beginIndex        "4541"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4547"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5037> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=691,696>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Belly"^^xsd:string ;
+        nif:beginIndex        "691"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "696"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5037> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=2922,2927>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Tanya"^^xsd:string ;
+        nif:beginIndex        "2922"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2927"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5037> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=2302,2306>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Star"^^xsd:string ;
+        nif:beginIndex        "2302"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2306"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5037> .
+
+<http://linguateca.pt/harem#char=0,5>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Belly"^^xsd:string ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5037> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=221,234>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Tanya Donnely"^^xsd:string ;
+        nif:beginIndex        "221"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "234"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5037> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=3834,3838>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Star"^^xsd:string ;
+        nif:beginIndex        "3834"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3838"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5037> .
+
+<http://linguateca.pt/harem#char=185,191>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Lisboa"^^xsd:string ;
+        nif:beginIndex        "185"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "191"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5037> .
+
+<http://linguateca.pt/harem#char=2483,2490>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "América"^^xsd:string ;
+        nif:beginIndex        "2483"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2490"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5037> .
+
+<http://linguateca.pt/harem#char=917,927>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "TOM GORMAN"^^xsd:string ;
+        nif:beginIndex        "917"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "927"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5037> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .

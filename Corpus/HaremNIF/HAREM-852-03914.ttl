@@ -1,0 +1,311 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=1991,2005>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Santa Catarina"^^xsd:string ;
+        nif:beginIndex        "1991"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2005"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2688> .
+
+<http://linguateca.pt/harem#char=1113,1115>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "KS"^^xsd:string ;
+        nif:beginIndex        "1113"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1115"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2688> .
+
+<http://linguateca.pt/harem#char=2062,2071>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Intelbras"^^xsd:string ;
+        nif:beginIndex        "2062"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2071"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2688> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=772,781>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Intelbras"^^xsd:string ;
+        nif:beginIndex        "772"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "781"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2688> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=626,635>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Intelbras"^^xsd:string ;
+        nif:beginIndex        "626"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "635"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2688> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1730,1739>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Intelbras"^^xsd:string ;
+        nif:beginIndex        "1730"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1739"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2688> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=850,854>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1987"^^xsd:string ;
+        nif:beginIndex        "850"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "854"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2688> .
+
+<http://linguateca.pt/harem#char=2307,2313>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Brasil"^^xsd:string ;
+        nif:beginIndex        "2307"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2313"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2688> .
+
+<http://linguateca.pt/harem#char=0,2688>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "2688"^^xsd:nonNegativeInteger ;
+        nif:isString    ".... Intelbras - Empresa .... \" A organização tem como princípio que o bom resultado só será obtido através da satisfação e superação das necessidades dos clientes , da manutenção de um moral elevado dos colaboradores e do atendimento das expectativas dos acionistas . Foi assim , praticando esta verdadeira \"política da qualidade\" , que a Intelbras alcançou a liderança no mercado nacional , também se destacando no cenário internacional com uma forte presença na América Latina . Intelbras é a marca do telefone no Brasil . E qualidade é a marca da Intelbras \" . 1976 , um marco histórico da telefonia brasileira . Nascia a Intelbras . Desde o início o objetivo era audacioso : tornar-se a maior fabricante brasileira de centrais e aparelhos telefônicos . Para isso , a Intelbras direcionou sua atuação para a qualidade total de seus produtos . Em 1987 , foi a primeira empresa a lançar uma Central tipo PABX com tecnologia nacional . Durante muitos anos , a Intelbras foi a fornecedora de quase todos os programas de telefonia governamentais . Em 1990 , lançou aparelhos telefônicos , terminais inteligentes ( KS ) , micro centrais e pequenas centrais , além de peças e acessórios , direcionando sua atuação para a iniciativa privada . Em 1992 , uma nova filosofia administrativa foi implantada , criando Programas de Qualidade e de Gestão Participativa , aumentando a produtividade e a competitividade no mercado . As exportações iniciaram em 1996 , principalmente para os países da América Latina .Em 1996 , o certificado ISO 9001 atestou seu nível de qualidade internacional . Hoje , o nome Intelbras é uma marca de qualidade e avanço tecnológico . Uma posição alcançada , passo a passo , numa longa história de sucesso . A Intelbras nasceu em 1976 com um desafio : ser uma das primeiras empresas brasileiras a atuar no mercado de telecomunicações . Um desafio plenamente superado , tanto que hoje já é a primeira em participação no mercado nacional . Com sede em São José , estado de Santa Catarina , cidade vizinha da turística capital Florianópolis , a Intelbras conta com uma área total de mais de 36 mil m² , sendo 15 mil m² de área construída . Ali atuam mais de 600 funcionários , profissionais altamente treinados e especializados em produzir qualidade . Fábrica : São José - Santa Catarina - Brasil Intelbras S/A - Indústria de Telecomunicação Eletrônica Brasileira Rodovia BR 101 , Km 212 , Área Industrial 88.104-800 - São José - SC - Brasil Fones : Dpto . Comercial : ( 048 ) 281-9600 Dpto . Compras : ( 048 ) 281-9620 Dpto . Marketing : ( 48 ) 281 9595 Dpto . Técnico : ( 48 ) 281 9900 Fax : ( 048 ) 281-9505 CGC/ MF : 82.901.000/0001-27 Inscr . Estadual : 250.082.764 "^^xsd:string .
+
+<http://linguateca.pt/harem#char=465,479>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "América Latina"^^xsd:string ;
+        nif:beginIndex        "465"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "479"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2688> .
+
+<http://linguateca.pt/harem#char=2572,2586>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Dpto . Técnico"^^xsd:string ;
+        nif:beginIndex        "2572"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2586"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2688> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1050,1054>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1990"^^xsd:string ;
+        nif:beginIndex        "1050"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1054"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2688> .
+
+<http://linguateca.pt/harem#char=961,970>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Intelbras"^^xsd:string ;
+        nif:beginIndex        "961"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "970"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2688> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=2167,2178>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "mais de 600"^^xsd:string ;
+        nif:beginIndex        "2167"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2178"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2688> .
+
+<http://linguateca.pt/harem#char=2126,2135>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "15 mil m²"^^xsd:string ;
+        nif:beginIndex        "2126"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2135"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2688> .
+
+<http://linguateca.pt/harem#char=1597,1606>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Intelbras"^^xsd:string ;
+        nif:beginIndex        "1597"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1606"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2688> .
+
+<http://linguateca.pt/harem#char=893,900>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Central"^^xsd:string ;
+        nif:beginIndex        "893"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "900"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2688> .
+
+<http://linguateca.pt/harem#char=2044,2057>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Florianópolis"^^xsd:string ;
+        nif:beginIndex        "2044"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2057"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2688> .
+
+<http://linguateca.pt/harem#char=1487,1501>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "América Latina"^^xsd:string ;
+        nif:beginIndex        "1487"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1501"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2688> .
+
+<http://linguateca.pt/harem#char=517,523>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Brasil"^^xsd:string ;
+        nif:beginIndex        "517"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "523"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2688> .
+
+<http://linguateca.pt/harem#char=1970,1978>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "São José"^^xsd:string ;
+        nif:beginIndex        "1970"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1978"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2688> .
+
+<http://linguateca.pt/harem#char=2467,2483>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Dpto . Comercial"^^xsd:string ;
+        nif:beginIndex        "2467"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2483"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2688> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1527,1535>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "ISO 9001"^^xsd:string ;
+        nif:beginIndex        "1527"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1535"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2688> .
+
+<http://linguateca.pt/harem#char=551,560>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Intelbras"^^xsd:string ;
+        nif:beginIndex        "551"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "560"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2688> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=2676,2687>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "250.082.764"^^xsd:string ;
+        nif:beginIndex        "2676"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2687"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2688> .
+
+<http://linguateca.pt/harem#char=5,14>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Intelbras"^^xsd:string ;
+        nif:beginIndex        "5"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "14"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2688> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=2638,2656>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "82.901.000/0001-27"^^xsd:string ;
+        nif:beginIndex        "2638"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2656"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2688> .
+
+<http://linguateca.pt/harem#char=906,910>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "PABX"^^xsd:string ;
+        nif:beginIndex        "906"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "910"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2688> .
+
+<http://linguateca.pt/harem#char=2100,2117>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "mais de 36 mil m²"^^xsd:string ;
+        nif:beginIndex        "2100"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2117"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2688> .
+
+<http://linguateca.pt/harem#char=1506,1510>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1996"^^xsd:string ;
+        nif:beginIndex        "1506"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1510"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2688> .
+
+<http://linguateca.pt/harem#char=2314,2380>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Intelbras S/A - Indústria de Telecomunicação Eletrônica Brasileira"^^xsd:string ;
+        nif:beginIndex        "2314"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2380"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2688> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=2503,2517>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Dpto . Compras"^^xsd:string ;
+        nif:beginIndex        "2503"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2517"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2688> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1750,1754>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1976"^^xsd:string ;
+        nif:beginIndex        "1750"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1754"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2688> .
+
+<http://linguateca.pt/harem#char=1242,1246>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1992"^^xsd:string ;
+        nif:beginIndex        "1242"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1246"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2688> .
+
+<http://linguateca.pt/harem#char=1447,1451>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1996"^^xsd:string ;
+        nif:beginIndex        "1447"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1451"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2688> .
+
+<http://linguateca.pt/harem#char=482,491>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Intelbras"^^xsd:string ;
+        nif:beginIndex        "482"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "491"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2688> .
+
+<http://linguateca.pt/harem#char=2290,2304>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Santa Catarina"^^xsd:string ;
+        nif:beginIndex        "2290"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2304"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2688> .
+
+<http://linguateca.pt/harem#char=2279,2287>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "São José"^^xsd:string ;
+        nif:beginIndex        "2279"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2287"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2688> .
+
+<http://linguateca.pt/harem#char=340,349>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Intelbras"^^xsd:string ;
+        nif:beginIndex        "340"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "349"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2688> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=565,569>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1976"^^xsd:string ;
+        nif:beginIndex        "565"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "569"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2688> .
+
+<http://linguateca.pt/harem#char=2381,2458>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Rodovia BR 101 , Km 212 , Área Industrial 88.104-800 - São José - SC - Brasil"^^xsd:string ;
+        nif:beginIndex        "2381"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2458"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2688> .
+
+<http://linguateca.pt/harem#char=2537,2553>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Dpto . Marketing"^^xsd:string ;
+        nif:beginIndex        "2537"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2553"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2688> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .

@@ -1,0 +1,224 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1810,1818>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Amazonas"^^xsd:string ;
+        nif:beginIndex        "1810"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1818"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3715> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=846,853>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Stevani"^^xsd:string ;
+        nif:beginIndex        "846"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "853"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3715> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1641,1643>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "SP"^^xsd:string ;
+        nif:beginIndex        "1641"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1643"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3715> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=3648,3655>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Stevani"^^xsd:string ;
+        nif:beginIndex        "3648"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3655"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3715> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1971,2009>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Universidade Estadual de San Francisco"^^xsd:string ;
+        nif:beginIndex        "1971"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2009"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3715> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=228,234>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Brasil"^^xsd:string ;
+        nif:beginIndex        "228"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "234"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3715> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1583,1624>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Parque Estadual Turístico do Alto Ribeira"^^xsd:string ;
+        nif:beginIndex        "1583"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1624"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3715> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=2012,2026>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Estados Unidos"^^xsd:string ;
+        nif:beginIndex        "2012"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2026"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3715> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=2907,2914>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Stevani"^^xsd:string ;
+        nif:beginIndex        "2907"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2914"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3715> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=728,744>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Sudeste Asiático"^^xsd:string ;
+        nif:beginIndex        "728"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "744"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3715> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=31,34>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "USP"^^xsd:string ;
+        nif:beginIndex        "31"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "34"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3715> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1272,1278>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Brasil"^^xsd:string ;
+        nif:beginIndex        "1272"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1278"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3715> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=3457,3460>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "GFP"^^xsd:string ;
+        nif:beginIndex        "3457"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3460"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3715> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1200,1207>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Stevani"^^xsd:string ;
+        nif:beginIndex        "1200"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1207"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3715> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1630,1638>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Iporanga"^^xsd:string ;
+        nif:beginIndex        "1630"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1638"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3715> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1701,1719>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Mato Grosso do Sul"^^xsd:string ;
+        nif:beginIndex        "1701"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1719"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3715> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=856,861>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Folha"^^xsd:string ;
+        nif:beginIndex        "856"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "861"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3715> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1949,1965>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Dennis Desjardin"^^xsd:string ;
+        nif:beginIndex        "1949"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1965"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3715> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1902,1936>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Instituto de Botânica de São Paulo"^^xsd:string ;
+        nif:beginIndex        "1902"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1936"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3715> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=518,521>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "USP"^^xsd:string ;
+        nif:beginIndex        "518"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "521"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3715> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1881,1896>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Marina Capelari"^^xsd:string ;
+        nif:beginIndex        "1881"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1896"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3715> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=480,504>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Cassius Vinicius Stevani"^^xsd:string ;
+        nif:beginIndex        "480"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "504"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3715> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1052,1063>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Aristóteles"^^xsd:string ;
+        nif:beginIndex        "1052"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1063"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3715> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1688,1698>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Costa Rica"^^xsd:string ;
+        nif:beginIndex        "1688"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1698"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3715> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3715>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "3715"^^xsd:nonNegativeInteger ;
+        nif:isString    "O trabalho de pesquisadores da USP está revelando uma série de novas espécies de um tipo todo especial de fungo : pequenos cogumelos que emitem uma misteriosa luminosidade verde no escuro . As criaturas , antes desconhecidas no Brasil , podem ajudar a elucidar o mecanismo bioquímico que leva à produção de luz em fungos . Além disso , com um pouco mais de estudo , poderiam servir como sensores vivos de poluição ou mesmo fontes de moléculas úteis para a biotecnologia . Segundo Cassius Vinicius Stevani , químico da USP que coordena os estudos , é possível que o material recolhido abranja pelo menos dez espécies novas . Não é pouca coisa , já que no mundo todo se conhecem só 42 espécies do fungo , quase todas restritas ao Sudeste Asiático . \"Já temos uma descrita , a Gerronema viridilucens , e seis já estão em fase de descrição\" , contou Stevani à Folha . Mistério antigoEm fungos , a bioluminescência _trocando em miúdos , a luminosidade produzida por seres vivos_ é um fenômeno conhecido há milênios , tendo sido descrito pelo filósofo grego Aristóteles ( século 4º a . C. ) . Os cientistas , no entanto , continuam sem saber como ela funciona . Foi na esperança de entender o fenômeno que Stevani e seus colaboradores se puseram a procurar cogumelos do tipo no Brasil . \" É provável que nenhum pesquisador tivesse identificado espécies no Brasil porque é preciso procurá-los à noite . Além do mais , a luz é muito fraca , até sob o luar\" , explica o químico . Com base em relatos de moradores e muita paciência na coleta , a equipe chegou aos cogumelos em dois locais : o Parque Estadual Turístico do Alto Ribeira , em Iporanga ( SP ) e uma área de mata ciliar no município de Costa Rica , Mato Grosso do Sul . Outros relatos sugerem que fungos do mesmo tipo podem ser encontrados no Tocantins e no Amazonas . A identificação e descrição está sendo feita com a ajuda de Marina Capelari , do Instituto de Botânica de São Paulo , e <i\"PER\">Dennis Desjardin , da Universidade Estadual de San Francisco ( Estados Unidos ) . A emissão de luz é efêmera . Os cogumelos , que na verdade são apenas uma espécie de órgão sexual do fungo , duram entre 24 e 48 horas . Eles é que emitem luz , que aparentemente pode vir tanto da parte inferior do chapéu quanto do \"cabo\" ou do cogumelo inteiro . Algumas espécies surgem da casca de árvores vivas , enquanto outras se alimentam de matéria vegetal em decomposição . Apesar da rapidez do processo , os pesquisadores descobriram como cultivar o G . viridilucens em laboratório e verificaram que ele pode funcionar como uma espécie de sensor de poluição . É que a luz parece variar de acordo com a concentração de poluentes aplicados sobre o fungo . \"Dessa forma , você teria um parâmetro rápido de medir e fácil de avaliar , ao contrário de outros biossensores com fungos , que exigem tempo maior de aplicação e tratamento estatístico mais complicado\" , explica Stevani . Como os fungos ajudam a reciclar nutrientes , têm um importante papel na manutenção da saúde dos ecossistemas _outra razão para usá-los como indicadores . Finalmente , com informações mais detalhadas sobre o mecanismo da luminescência , uma série de aplicações úteis pode surgir . É que os estudos de biologia molecular dependem muito de reações que geram luz e de proteínas fluorescentes de diversas cores . Quando um pesquisador quer saber se determinado gene está ativo ou não , por exemplo , gruda nele o trecho de DNA correspondente à GFP ( proteína fluorescente verde ) . Se o gene for ativado , a proteína \"acende\" , dedurando-o . \"Como as técnicas desse tipo têm limitações , é sempre bom contar com novas opções\" , avalia Stevani , com a ressalva de que os estudos ainda estão no começo . "^^xsd:string .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=2490,2506>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "G . viridilucens"^^xsd:string ;
+        nif:beginIndex        "2490"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2506"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3715> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1795,1804>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Tocantins"^^xsd:string ;
+        nif:beginIndex        "1795"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1804"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3715> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1350,1356>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Brasil"^^xsd:string ;
+        nif:beginIndex        "1350"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1356"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3715> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .

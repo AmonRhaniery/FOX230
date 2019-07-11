@@ -1,0 +1,191 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1458>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1458"^^xsd:nonNegativeInteger ;
+        nif:isString    "O Ibama ( Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis ) aplicou , desde maio passado , multas de cerca de R$ 50 milhões a pelo menos 200 fazendeiros cujas terras estão às margens do Taquari . Segundo o Ibama , nas propriedades multadas houve desmatamento nas margens do rio , com a finalidade de abrir espaço à agricultura ou à criação de gado . Em conseqüência , a erosão despejou toneladas de terra no Taquari . \" O objetivo é despertar a consciência ambiental . A multa pode ser reduzida em 90 % se for apresentado um plano de recuperação da área\" , afirmou o gerente-executivo do Ibama em Campo Grande ( MS ) , Nereu Fontes . O coordenador do Programa Pantanal do Ministério do Meio Ambiente , Paulo Guilherme Cabral , recebeu o estudo da Embrapa sobre o Taquari no início de julho . Ele disse que a ministra Marina Silva criou um grupo de trabalho para analisar as propostas . Existem , segundo Cabral , projetos polêmicos dentro do estudo , como a dragagem ( retirada de terra do rio ) . \"Onde vamos colocar essa terra no Pantanal ?\" , questiona . A Sema ( Secretaria do Meio Ambiente de Mato Grosso do Sul ) informou que defende a dragagem e estuda a contratação de uma empresa para o serviço . A situação do rio Taquari motivou a criação do Programa Pantanal , quando o então presidente Fernando Henrique Cardoso , em 1995 , sobrevoou a região e ficou impressionado com o rio assoreado , invadindo fazendas . ( EO e HC ) "^^xsd:string .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=613,618>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ibama"^^xsd:string ;
+        nif:beginIndex        "613"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "618"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1458> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=622,634>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Campo Grande"^^xsd:string ;
+        nif:beginIndex        "622"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "634"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1458> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=10,82>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis"^^xsd:string ;
+        nif:beginIndex        "10"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "82"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1458> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1448,1450>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "EO"^^xsd:string ;
+        nif:beginIndex        "1448"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1450"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1458> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=697,724>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ministério do Meio Ambiente"^^xsd:string ;
+        nif:beginIndex        "697"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "724"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1458> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=2,7>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ibama"^^xsd:string ;
+        nif:beginIndex        "2"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "7"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1458> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1249,1256>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Taquari"^^xsd:string ;
+        nif:beginIndex        "1249"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1256"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1458> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=842,854>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Marina Silva"^^xsd:string ;
+        nif:beginIndex        "842"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "854"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1458> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=788,795>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Taquari"^^xsd:string ;
+        nif:beginIndex        "788"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "795"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1458> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1278,1295>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Programa Pantanal"^^xsd:string ;
+        nif:beginIndex        "1278"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1295"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1458> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1453,1455>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "HC"^^xsd:string ;
+        nif:beginIndex        "1453"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1455"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1458> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1085,1089>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Sema"^^xsd:string ;
+        nif:beginIndex        "1085"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1089"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1458> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=231,236>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ibama"^^xsd:string ;
+        nif:beginIndex        "231"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "236"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1458> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=644,656>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Nereu Fontes"^^xsd:string ;
+        nif:beginIndex        "644"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "656"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1458> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1092,1141>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Secretaria do Meio Ambiente de Mato Grosso do Sul"^^xsd:string ;
+        nif:beginIndex        "1092"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1141"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1458> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=676,693>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Programa Pantanal"^^xsd:string ;
+        nif:beginIndex        "676"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "693"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1458> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=433,440>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Taquari"^^xsd:string ;
+        nif:beginIndex        "433"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "440"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1458> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=727,749>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Paulo Guilherme Cabral"^^xsd:string ;
+        nif:beginIndex        "727"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "749"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1458> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=637,639>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "MS"^^xsd:string ;
+        nif:beginIndex        "637"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "639"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1458> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=211,218>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Taquari"^^xsd:string ;
+        nif:beginIndex        "211"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "218"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1458> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=929,935>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Cabral"^^xsd:string ;
+        nif:beginIndex        "929"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "935"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1458> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=772,779>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Embrapa"^^xsd:string ;
+        nif:beginIndex        "772"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "779"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1458> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1324,1349>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Fernando Henrique Cardoso"^^xsd:string ;
+        nif:beginIndex        "1324"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1349"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1458> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .

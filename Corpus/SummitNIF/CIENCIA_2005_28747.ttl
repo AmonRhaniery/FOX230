@@ -1,0 +1,106 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=135,159>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Universidade de Michigan"^^xsd:string ;
+        nif:beginIndex        "135"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "159"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1802> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1796,1799>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "RJL"^^xsd:string ;
+        nif:beginIndex        "1796"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1799"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1802> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1662,1669>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Nisbett"^^xsd:string ;
+        nif:beginIndex        "1662"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1669"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1802> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1353,1360>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Nisbett"^^xsd:string ;
+        nif:beginIndex        "1353"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1360"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1802> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=658,663>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Folha"^^xsd:string ;
+        nif:beginIndex        "658"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "663"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1802> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=685,711>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Departamento de Psicologia"^^xsd:string ;
+        nif:beginIndex        "685"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "711"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1802> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=664,679>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Richard Nisbett"^^xsd:string ;
+        nif:beginIndex        "664"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "679"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1802> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=163,172>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ann Arbor"^^xsd:string ;
+        nif:beginIndex        "163"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "172"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1802> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1672,1676>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Chua"^^xsd:string ;
+        nif:beginIndex        "1672"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1676"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1802> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=755,771>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Hannah Faye Chua"^^xsd:string ;
+        nif:beginIndex        "755"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "771"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1802> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=179,193>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Estados Unidos"^^xsd:string ;
+        nif:beginIndex        "179"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "193"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1802> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=862,867>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "China"^^xsd:string ;
+        nif:beginIndex        "862"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "867"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1802> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1802>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1802"^^xsd:nonNegativeInteger ;
+        nif:isString    "Chineses e americanos enxergam o mundo de jeitos distintos _literalmente , a julgar por uma pesquisa publicada hoje . Pesquisadores da Universidade de Michigan em Ann Arbor , nos Estados Unidos , sugerem que os olhos de asiáticos tendem a ver uma imagem no seu conjunto , prestando tanto atenção ao que está em primeiro plano quanto no fundo , enquanto os americanos demoram mais o olhar no objeto central de um quadro . \"As diferenças não são minúsculas . Depois do primeiro segundo , os americanos olharam mais para o objeto central do que para o fundo durante 600 milissegundos , enquanto isso só aconteceu por 40 milissegundos com os chineses\" , disse à Folha Richard Nisbett , do Departamento de Psicologia da universidade . Ele credita à sua colega Hannah Faye Chua a idéia de testar de forma visual um dado já verificado verbalmente . Pessoas nascidas na China têm mais facilidade de se lembrar de um objeto quando o vêem pela segunda vez com o mesmo fundo que aparecia na primeira olhada _o que já não acontece com os americanos . Se isso é verdade , em que estágio da percepção ou do processamento da imagem estaria a diferença ? Foi o que o grupo testou , usando óculos que rastreiam o movimento dos olhos ( veja quadro à dir . ) . De fato , os chineses olhavam mais para o fundo , com mais intensidade e enfocando mais áreas da imagem . Para Nisbett , diferenças culturais _principalmente na educação das crianças_ explicariam essa assimetria . \"Mães americanas tendem a usar mais substantivos , e a usar mais objetos ao brincar com seus filhos pequenos . Já as chinesas e coreanas utilizam mais verbos e enfocam mais relações sociais\" , afirma ele . Nisbett e Chua pretendem agora ver se diferenças como essas se manifestam entre outras culturas . O estudo está na revista \"PNAS\" . ( RJL ) "^^xsd:string .

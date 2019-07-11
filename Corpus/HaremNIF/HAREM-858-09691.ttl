@@ -1,0 +1,39 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=0,353>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "353"^^xsd:nonNegativeInteger ;
+        nif:isString    "VEJA NA TV e COMPRE AQUI PELA METADE DO PREÇO Detalhes Na TV por R$ 399,00 Aqui por 6 de R$ 33,00 clique aqui e veja mais Para se descadastrar de nosso mailing , clique aqui . Todos nossas campanhas de E-Mail Marketing contam com sistema automático de descadastramento de e-mails . Esta promoção tem válidade de uma semana ou até acabarem os estoques . "^^xsd:string .
+
+<http://linguateca.pt/harem#char=202,218>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "E-Mail Marketing"^^xsd:string ;
+        nif:beginIndex        "202"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "218"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,353> .
+
+<http://linguateca.pt/harem#char=89,97>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "R$ 33,00"^^xsd:string ;
+        nif:beginIndex        "89"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "97"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,353> .
+
+<http://linguateca.pt/harem#char=84,85>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "6"^^xsd:string ;
+        nif:beginIndex        "84"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "85"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,353> .
+
+<http://linguateca.pt/harem#char=65,74>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "R$ 399,00"^^xsd:string ;
+        nif:beginIndex        "65"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "74"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,353> .

@@ -1,0 +1,188 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=2446,2470>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "brigadeiro Eduardo Gomes"^^xsd:string ;
+        nif:beginIndex        "2446"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2470"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2713> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1206,1212>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Brasil"^^xsd:string ;
+        nif:beginIndex        "1206"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1212"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2713> .
+
+<http://linguateca.pt/harem#char=681,692>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Força Aérea"^^xsd:string ;
+        nif:beginIndex        "681"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "692"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2713> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1268,1282>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Getúlio Vargas"^^xsd:string ;
+        nif:beginIndex        "1268"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1282"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2713> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=2488,2493>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Nação"^^xsd:string ;
+        nif:beginIndex        "2488"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2493"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2713> .
+
+<http://linguateca.pt/harem#char=2035,2044>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Toneleros"^^xsd:string ;
+        nif:beginIndex        "2035"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2044"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2713> .
+
+<http://linguateca.pt/harem#char=304,309>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Nação"^^xsd:string ;
+        nif:beginIndex        "304"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "309"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2713> .
+
+<http://linguateca.pt/harem#char=1963,1969>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Catete"^^xsd:string ;
+        nif:beginIndex        "1963"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1969"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2713> .
+
+<http://linguateca.pt/harem#char=62,68>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Alcino"^^xsd:string ;
+        nif:beginIndex        "62"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "68"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2713> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=0,2713>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "2713"^^xsd:nonNegativeInteger ;
+        nif:isString    "A gente não pensava em liquidar um inocente.Nosso plano , que Alcino estragou , era pegar Lacerda surpresa , de emboscada , desprevenido e só.Precipitado , vendo unicamente a recompensa que lhe cabia , o pistoleiro levou por água abaixo um plano , cuidadosamente calculado , que já tinha três meses ...A Nação entretanto não está bestializada nem perdeu a noção da diferença ética entre o bem e o mal , e da antítese jurídica entre a lei e o crime.Ao contrário , cessada a justa e magoada emoção pela perda do eminente Getúlio Vargas , os pescadores de votos , à sombra de sua memória , não conseguiram convencer -- nem aos menos argutos -- que os valorosos e honrados oficiais da Força Aérea não passem de simples carrascos de uma nova inquisição e que Gregório Fortunato seja , pela sua inocência e probidade , modelo à imitação da juventude brasileira .Se tal viesse a acontecer este país estaria irremediavelmente condenado ao apodrecimento prematuro.Fique , pois , cada um com o paradigma que lhe convenha : Eduardo Gomes ou Gregório Fortunato !O povo não hesitará , por mais doloroso que seja escrever este contraste , entre um herói autêntico , uma reserva moral da Pátria , um soldado de Deus e do Brasil , e o chefe de um bando de sicários , a quem o próprio Getúlio Vargas foi forçado a expulsar do Palácio e da sua companhia , como traidor de sua confiança.Contava , porém , com uma decisão da Justiça Eleitoral a seu favor.A decisão se cumpriu e a faixa presidência ... ainda uma vez , em solenidade pública , no peito do ditador deposto em 1945 .Dois dias mais tarde revelava o sr . Gustavo Capanema que ouvira do Presidente Getúlio Vargas estas palavras : «Esses assassinos são os meus maiores inimigos» Coerente com sua tradição -- era ainda viva a lembrança de palavras semelhantes a propósito do massacre do jornalista Nestor Moreira -- limitou-se a enunciar a frase exigida pelo decreto do cargo.Na realidade , nenhum impulso enérgico partiu do Catete , no sentido de desvendar a verdade inteira sobre o crime da rua Toneleros .O corpo do eleitorado , pela maioria dos votantes que dividiram seus votos pelos outros dois candidatos , indicou claramente que não preferia o nome do antigo ditador.Sufragado e reconhecido... por uma minoria , portanto , o sr . Getúlio Vargas voltava ao poder apertado entre as tenazes de duas claras verdades:Ao tomar conhecimento do crime e depois de se inteirar dos seus pormenores , declarou o brigadeiro Eduardo Gomes : «Para honra da Nação , confio que esse crime não ficará impune».Coerente com essa palavras , daí por diante , dia a dia , minuto por minuto , promoveu todas as medidas a seu alcance e jogou seu prestígio no desempenho de apurar a verdade . "^^xsd:string .
+
+<http://linguateca.pt/harem#char=1591,1612>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "sr . Gustavo Capanema"^^xsd:string ;
+        nif:beginIndex        "1591"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1612"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2713> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=519,533>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Getúlio Vargas"^^xsd:string ;
+        nif:beginIndex        "519"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "533"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2713> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1836,1850>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Nestor Moreira"^^xsd:string ;
+        nif:beginIndex        "1836"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1850"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2713> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1013,1026>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Eduardo Gomes"^^xsd:string ;
+        nif:beginIndex        "1013"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1026"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2713> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1030,1048>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Gregório Fortunato"^^xsd:string ;
+        nif:beginIndex        "1030"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1048"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2713> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1627,1652>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Presidente Getúlio Vargas"^^xsd:string ;
+        nif:beginIndex        "1627"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1652"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2713> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1196,1200>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Deus"^^xsd:string ;
+        nif:beginIndex        "1196"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1200"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2713> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1309,1316>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Palácio"^^xsd:string ;
+        nif:beginIndex        "1309"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1316"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2713> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=2271,2290>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "sr . Getúlio Vargas"^^xsd:string ;
+        nif:beginIndex        "2271"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2290"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2713> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=754,772>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Gregório Fortunato"^^xsd:string ;
+        nif:beginIndex        "754"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "772"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2713> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1173,1179>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Pátria"^^xsd:string ;
+        nif:beginIndex        "1173"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1179"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2713> .
+
+<http://linguateca.pt/harem#char=1553,1557>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1945"^^xsd:string ;
+        nif:beginIndex        "1553"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1557"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2713> .
+
+<http://linguateca.pt/harem#char=1405,1422>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Justiça Eleitoral"^^xsd:string ;
+        nif:beginIndex        "1405"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1422"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2713> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=90,97>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Lacerda"^^xsd:string ;
+        nif:beginIndex        "90"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "97"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2713> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .

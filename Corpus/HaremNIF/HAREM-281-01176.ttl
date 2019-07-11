@@ -1,0 +1,136 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=1317,1339>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Presidente da Direcção"^^xsd:string ;
+        nif:beginIndex        "1317"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1339"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1409> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=378,382>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "2001"^^xsd:string ;
+        nif:beginIndex        "378"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "382"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1409> .
+
+<http://linguateca.pt/harem#char=0,1409>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1409"^^xsd:nonNegativeInteger ;
+        nif:isString    "BOMBEIROS VOLUNTÁRIOS DE VILA NOVA DE OLIVEIRINHA Clique aqui para ENTRAR NO MENU( Fotografia do Quartel Construído em 1935 )CLIQUE AQUI para enviar uma mensagemVisitas desde 13/05/2001 Mensagem do Presidente da Direcção Caros amigos dos Bombeiros :A nossa página na Internet já está activa desde o dia 13 de Maio de 2001 , data em que se comemorou mais uma Festa dos Carolos ( 2001 ) .A Festa dos Carolos é uma tradição desta terra que os Bombeiros querem manter viva neste começo do novo milénio.E como nesta nova era as solicitações são diversas , os Bombeiros Voluntários de Vila Nova de Oliveirinha têm bem presente os novos desafios.Assim , paralelamente à construção do Novo Quartel dos Bombeiros --temos dado passos bastante importantes!-- , vamos continuar a melhorar esta página na Internet .Continuamos a receber conteúdos para dotarmos esta página com bastante informação , pelo que a vossa ajuda pode ser determinante . Para tal,podem escrever-nos , enviar um fax ou uma mensagem via correio electrónico . Para isso , visite a página de CONTACTOS .Vamos todos ajudar os Bombeiros .Vamos todos divulgar aquilo que é este corpo , o Corpo dos Bombeiros Voluntários de V . Nova de Oliveirinha .Caros amigos , fiquem pois atentos às actualizações desta página.Com os melhores cumprimentos . Eduardo Pereira ( Presidente da Direcção )NOTA:Clique aqui ou na imagem do Quartel para continuar a navegar ! "^^xsd:string .
+
+<http://linguateca.pt/harem#char=554,603>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Bombeiros Voluntários de Vila Nova de Oliveirinha"^^xsd:string ;
+        nif:beginIndex        "554"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "603"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1409> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=238,247>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Bombeiros"^^xsd:string ;
+        nif:beginIndex        "238"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "247"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1409> .
+
+<http://linguateca.pt/harem#char=358,375>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Festa dos Carolos"^^xsd:string ;
+        nif:beginIndex        "358"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "375"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1409> .
+
+<http://linguateca.pt/harem#char=267,275>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Internet"^^xsd:string ;
+        nif:beginIndex        "267"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "275"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1409> .
+
+<http://linguateca.pt/harem#char=388,405>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Festa dos Carolos"^^xsd:string ;
+        nif:beginIndex        "388"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "405"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1409> .
+
+<http://linguateca.pt/harem#char=1299,1314>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Eduardo Pereira"^^xsd:string ;
+        nif:beginIndex        "1299"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1314"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1409> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=792,800>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Internet"^^xsd:string ;
+        nif:beginIndex        "792"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "800"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1409> .
+
+<http://linguateca.pt/harem#char=1083,1092>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Bombeiros"^^xsd:string ;
+        nif:beginIndex        "1083"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1092"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1409> .
+
+<http://linguateca.pt/harem#char=0,49>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "BOMBEIROS VOLUNTÁRIOS DE VILA NOVA DE OLIVEIRINHA"^^xsd:string ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "49"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1409> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=198,220>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Presidente da Direcção"^^xsd:string ;
+        nif:beginIndex        "198"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "220"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1409> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=119,123>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1935"^^xsd:string ;
+        nif:beginIndex        "119"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "123"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1409> .
+
+<http://linguateca.pt/harem#char=303,321>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "13 de Maio de 2001"^^xsd:string ;
+        nif:beginIndex        "303"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "321"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1409> .
+
+<http://linguateca.pt/harem#char=175,185>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "13/05/2001"^^xsd:string ;
+        nif:beginIndex        "175"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "185"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1409> .
+
+<http://linguateca.pt/harem#char=1143,1201>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Corpo dos Bombeiros Voluntários de V . Nova de Oliveirinha"^^xsd:string ;
+        nif:beginIndex        "1143"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1201"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1409> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=440,449>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Bombeiros"^^xsd:string ;
+        nif:beginIndex        "440"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "449"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1409> .

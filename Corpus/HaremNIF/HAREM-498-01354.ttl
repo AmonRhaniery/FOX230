@@ -1,0 +1,95 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=474,492>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Mr . Cat -Calçados"^^xsd:string ;
+        nif:beginIndex        "474"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "492"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,688> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=137,144>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "38 anos"^^xsd:string ;
+        nif:beginIndex        "137"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "144"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,688> .
+
+<http://linguateca.pt/harem#char=495,516>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Bromberg -Construtora"^^xsd:string ;
+        nif:beginIndex        "495"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "516"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,688> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=408,433>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Oriental Jóias e Relógios"^^xsd:string ;
+        nif:beginIndex        "408"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "433"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,688> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=519,528>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Fornitura"^^xsd:string ;
+        nif:beginIndex        "519"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "528"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,688> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=221,229>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Campinas"^^xsd:string ;
+        nif:beginIndex        "221"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "229"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,688> .
+
+<http://linguateca.pt/harem#char=0,688>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "688"^^xsd:nonNegativeInteger ;
+        nif:isString    "Vital &amp;Cremonezzi enviarcremonezi [ enviarcremonezi@ieg.com.br ].Visite nosso site - clique aqui Mudando o Conceito contabilidadeCom 38 anos de atuação no mercado , é um dos maiores centros de atendimento contábil de Campinas e região.Formado por uma equipe com mais de 15 colaboradores , o escritório hoje soma experiência e dinamismo a um novo conceito de fazer contabilidade.Alguns nossos clientes :* Oriental Jóias e Relógios * Boot Co -Calçados * Modelo Calçados * Mr . Cat -Calçados * Bromberg -Construtora * Fornitura Visite nosso site :www.vitaecremonezzi.com.br0800 770 8552 ( Chamadas locais ).Tel : ( 19 ) 3232-0366clique aqui para excluir seu e-mail da lista Mr . Counter "^^xsd:string .
+
+<http://linguateca.pt/harem#char=0,21>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Vital &amp;Cremonezzi"^^xsd:string ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "21"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,688> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=436,453>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Boot Co -Calçados"^^xsd:string ;
+        nif:beginIndex        "436"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "453"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,688> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=456,471>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Modelo Calçados"^^xsd:string ;
+        nif:beginIndex        "456"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "471"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,688> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=675,687>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Mr . Counter"^^xsd:string ;
+        nif:beginIndex        "675"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "687"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,688> .
+
+<http://linguateca.pt/harem#char=266,276>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "mais de 15"^^xsd:string ;
+        nif:beginIndex        "266"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "276"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,688> .

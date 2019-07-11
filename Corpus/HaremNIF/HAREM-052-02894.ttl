@@ -1,0 +1,331 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=2050,2059>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "São Paulo"^^xsd:string ;
+        nif:beginIndex        "2050"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2059"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2401> .
+
+<http://linguateca.pt/harem#char=102,116>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Estados Unidos"^^xsd:string ;
+        nif:beginIndex        "102"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "116"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2401> .
+
+<http://linguateca.pt/harem#char=1982,1998>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Jornal do Nikkey"^^xsd:string ;
+        nif:beginIndex        "1982"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1998"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2401> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=0,2401>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "2401"^^xsd:nonNegativeInteger ;
+        nif:isString    "Nihonline DestaquesConheça Marcio Suzuki , o cóuboi nikkei que sonha seguir carreira em Las Vegas nos Estados Unidos . Baladas : Confira as datas das próximas festas da comunidade jovem nipo-brasileira Lançamento ! Maria Helena Sato acaba de lançar o livro \" Bonsais e Haicais \" em prol da Igreja Santa Cruz . Dizem que a máquina tem derrotado o homem . Nesse game é homem contra homem . O nosso reporter \" Jappa \" esteve presente em uma das edições do Mercado Mundo Mix , confira a reportagem . O Grupo Escoteiro Caramuru prepara mais um super Bazar para você ! Confira ! Últimas Notícias Amazing Party : A criatividade e a animação do pessoal foi a marca registrada desta festa . Você sabia que o Kendi Yamai ( Planet Dance ) é candidato a vereador na cidade de Sorocaba ? Pois é , tanto é verdade que a Nihonline está torcendo para que ele consiga chegar lá . Boa Sorte Kendi ! Promoções Cadastre-se para concorrer a vip's nas seguintes festas : - Amazing Party III - Metro Tech 6 - Whisky Party &gt ; Whisky Party ( Campinas ) : Aqui na Nihonline você ganha desconto para esta super festa ! Esporte Diversos Judo : Esse ano não deu para a nossa Vânia Ishii , mas você conseguiu entender a luta ? Se a resposta é não , então clique aqui ! Cultura : Venha conhecer o Museu da Imigração Japonesa , um dos maiores patrimônios da comunidade nipo-brasileira . Beisebol e Softbol : Este é um dos esportes que mais possui praticantes nikkeys , venha saber um pouco mais sobre ele . Abeuni : Saiba um pouco mais sobre uma das miores entidades da comunidade , veja também o relato de alguns integrantes . Atletas brasileiros brilham no \" Hungarian Youth Table Tennis World Festival \" - na foto ao lado : Lincon Yassuda , Gustavo Tsuboi e seu parceiro romeno Ibirapuera ganha mudas de cerejeira : O parque do Ibirapuera ganhou 100 pés de cerejeira . A iniciativa é da Comissão das Cidades Irmãs São Paulo - Osaka , que plantou-as próximo ao Pavilhão Japonês . Coma à vontade : A equipe do Jornal do Nikkey esteve pesquisando um lado gostoso da Liberdade em São Paulo . Leia a matéria sobre alguns tipos de bentô\" que podem ser encontrados . Receba gratuitamente Há pouco das eleições , você pretende votar de que maneira ? Já tenho candidato Em um conhecido Em um indicado Branco ou Nulo Não sei ainda Política de Privacidade | Termos de Uso | Fale Conosco Nihonline.com.br- 2000 - Todos direitos reservados "^^xsd:string .
+
+<http://linguateca.pt/harem#char=215,232>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Maria Helena Sato"^^xsd:string ;
+        nif:beginIndex        "215"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "232"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2401> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=0,9>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Nihonline"^^xsd:string ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "9"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2401> .
+
+<http://linguateca.pt/harem#char=88,97>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Las Vegas"^^xsd:string ;
+        nif:beginIndex        "88"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "97"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2401> .
+
+<http://linguateca.pt/harem#char=1715,1729>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Gustavo Tsuboi"^^xsd:string ;
+        nif:beginIndex        "1715"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1729"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2401> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1149,1160>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Vânia Ishii"^^xsd:string ;
+        nif:beginIndex        "1149"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1160"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2401> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1478,1484>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Abeuni"^^xsd:string ;
+        nif:beginIndex        "1478"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1484"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2401> .
+
+<http://linguateca.pt/harem#char=1242,1249>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Cultura"^^xsd:string ;
+        nif:beginIndex        "1242"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1249"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2401> .
+
+<http://linguateca.pt/harem#char=2295,2318>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Política de Privacidade"^^xsd:string ;
+        nif:beginIndex        "2295"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2318"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2401> .
+
+<http://linguateca.pt/harem#char=986,998>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Whisky Party"^^xsd:string ;
+        nif:beginIndex        "986"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "998"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2401> .
+
+<http://linguateca.pt/harem#char=699,710>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Kendi Yamai"^^xsd:string ;
+        nif:beginIndex        "699"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "710"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2401> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=764,772>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Sorocaba"^^xsd:string ;
+        nif:beginIndex        "764"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "772"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2401> .
+
+<http://linguateca.pt/harem#char=290,307>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Igreja Santa Cruz"^^xsd:string ;
+        nif:beginIndex        "290"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "307"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2401> .
+
+<http://linguateca.pt/harem#char=1005,1017>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Whisky Party"^^xsd:string ;
+        nif:beginIndex        "1005"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1017"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2401> .
+
+<http://linguateca.pt/harem#char=951,968>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Amazing Party III"^^xsd:string ;
+        nif:beginIndex        "951"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "968"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2401> .
+
+<http://linguateca.pt/harem#char=1820,1823>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "100"^^xsd:string ;
+        nif:beginIndex        "1820"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1823"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2401> .
+
+<http://linguateca.pt/harem#char=806,815>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Nihonline"^^xsd:string ;
+        nif:beginIndex        "806"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "815"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2401> .
+
+<http://linguateca.pt/harem#char=1934,1950>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Pavilhão Japonês"^^xsd:string ;
+        nif:beginIndex        "1934"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1950"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2401> .
+
+<http://linguateca.pt/harem#char=971,983>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Metro Tech 6"^^xsd:string ;
+        nif:beginIndex        "971"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "983"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2401> .
+
+<http://linguateca.pt/harem#char=1802,1812>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ibirapuera"^^xsd:string ;
+        nif:beginIndex        "1802"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1812"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2401> .
+
+<http://linguateca.pt/harem#char=1861,1905>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Comissão das Cidades Irmãs São Paulo - Osaka"^^xsd:string ;
+        nif:beginIndex        "1861"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1905"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2401> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=407,412>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Jappa"^^xsd:string ;
+        nif:beginIndex        "407"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "412"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2401> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1269,1296>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Museu da Imigração Japonesa"^^xsd:string ;
+        nif:beginIndex        "1269"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1296"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2401> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1112,1116>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Judo"^^xsd:string ;
+        nif:beginIndex        "1112"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1116"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2401> .
+
+<http://linguateca.pt/harem#char=873,878>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Kendi"^^xsd:string ;
+        nif:beginIndex        "873"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "878"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2401> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=713,725>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Planet Dance"^^xsd:string ;
+        nif:beginIndex        "713"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "725"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2401> .
+
+<http://linguateca.pt/harem#char=453,470>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Mercado Mundo Mix"^^xsd:string ;
+        nif:beginIndex        "453"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "470"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2401> .
+
+<http://linguateca.pt/harem#char=1369,1376>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Softbol"^^xsd:string ;
+        nif:beginIndex        "1369"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1376"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2401> .
+
+<http://linguateca.pt/harem#char=1095,1102>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Esporte"^^xsd:string ;
+        nif:beginIndex        "1095"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1102"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2401> .
+
+<http://linguateca.pt/harem#char=1698,1712>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Lincon Yassuda"^^xsd:string ;
+        nif:beginIndex        "1698"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1712"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2401> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=2037,2046>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Liberdade"^^xsd:string ;
+        nif:beginIndex        "2037"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2046"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2401> .
+
+<http://linguateca.pt/harem#char=498,522>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Grupo Escoteiro Caramuru"^^xsd:string ;
+        nif:beginIndex        "498"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "522"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2401> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=27,40>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Marcio Suzuki"^^xsd:string ;
+        nif:beginIndex        "27"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "40"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2401> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1041,1050>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Nihonline"^^xsd:string ;
+        nif:beginIndex        "1041"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1050"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2401> .
+
+<http://linguateca.pt/harem#char=1752,1762>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ibirapuera"^^xsd:string ;
+        nif:beginIndex        "1752"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1762"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2401> .
+
+<http://linguateca.pt/harem#char=545,550>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Bazar"^^xsd:string ;
+        nif:beginIndex        "545"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "550"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2401> .
+
+<http://linguateca.pt/harem#char=1020,1028>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Campinas"^^xsd:string ;
+        nif:beginIndex        "1020"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1028"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2401> .
+
+<http://linguateca.pt/harem#char=1358,1366>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Beisebol"^^xsd:string ;
+        nif:beginIndex        "1358"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1366"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2401> .
+
+<http://linguateca.pt/harem#char=2368,2372>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "2000"^^xsd:string ;
+        nif:beginIndex        "2368"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2372"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2401> .
+
+<http://linguateca.pt/harem#char=590,603>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Amazing Party"^^xsd:string ;
+        nif:beginIndex        "590"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "603"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2401> .
+
+<http://linguateca.pt/harem#char=259,276>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Bonsais e Haicais"^^xsd:string ;
+        nif:beginIndex        "259"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "276"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2401> .
+
+<http://linguateca.pt/harem#char=1632,1675>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Hungarian Youth Table Tennis World Festival"^^xsd:string ;
+        nif:beginIndex        "1632"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1675"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2401> .

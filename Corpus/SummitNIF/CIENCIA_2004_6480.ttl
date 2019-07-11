@@ -1,0 +1,119 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1056,1063>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Vitória"^^xsd:string ;
+        nif:beginIndex        "1056"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1063"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1634> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=200,209>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Rodrigues"^^xsd:string ;
+        nif:beginIndex        "200"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "209"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1634> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1164,1170>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Brasil"^^xsd:string ;
+        nif:beginIndex        "1164"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1170"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1634> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1634>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1634"^^xsd:nonNegativeInteger ;
+        nif:isString    "O ministro Roberto Rodrigues ( Agricultura ) anunciou ontem o nascimento da bezerra Vitoriosa . O animal é um clone gerado a partir de um clone _a vaca Vitória , que havia sido clonada em 2001 . Para Rodrigues , a cria coloca a genética do país em destaque no cenário mundial . Clayton Campanhola , diretor-presidente da Embrapa , afirma que o método ajudará na multiplicação de animais de elevado valor genético ou na reprodução dos ameaçados de extinção . \"Se há um animal de boa qualidade genética , a gente consegue manter isso em um filho [ clonado ] do animal , mesmo que esteja velho . É a reprodução da qualidade . \"Segundo Campanhola , a técnica pode ser aplicada imediatamente na produção de carne e de leite . \" A técnica existe , pode ser utilizada e já foi testada . Agora é uma questão de aplicar e de divulgar melhor esse conhecimento . \"Vitoriosa é o resultado de um experimento realizado pela Embrapa ( Empresa Brasileira de Pesquisa Agropecuária ) . Ela surgiu a partir de células isoladas de um pedaço de pele retirado da orelha da vaca Vitória , que foi o primeiro clone bovino da América Latina , nascida em 2001 . \" O clone do clone coloca o Brasil na vanguarda científica desse assunto , como já está no seqüenciamento [soletração ] de genoma\" , afirmou Rodrigues . Nesse experimento , foram produzidos 35 embriões em seguida transferidos para 17 receptoras , as chamadas mães de aluguel . Vitoriosa , que tem 15 dias , é a terceira tentativa do órgão de criar um clone a partir de outro . No ano passado , duas cópias de Vitória morreram , uma no oitavo mês de gestação e outra 36 horas depois do nascimento . "^^xsd:string .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1277,1286>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Rodrigues"^^xsd:string ;
+        nif:beginIndex        "1277"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1286"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1634> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=84,93>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Vitoriosa"^^xsd:string ;
+        nif:beginIndex        "84"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "93"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1634> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=910,917>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Embrapa"^^xsd:string ;
+        nif:beginIndex        "910"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "917"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1634> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=11,28>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Roberto Rodrigues"^^xsd:string ;
+        nif:beginIndex        "11"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "28"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1634> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=632,642>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Campanhola"^^xsd:string ;
+        nif:beginIndex        "632"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "642"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1634> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=321,328>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Embrapa"^^xsd:string ;
+        nif:beginIndex        "321"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "328"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1634> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=920,963>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Empresa Brasileira de Pesquisa Agropecuária"^^xsd:string ;
+        nif:beginIndex        "920"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "963"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1634> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=152,159>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Vitória"^^xsd:string ;
+        nif:beginIndex        "152"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "159"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1634> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=278,296>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Clayton Campanhola"^^xsd:string ;
+        nif:beginIndex        "278"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "296"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1634> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1101,1115>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "América Latina"^^xsd:string ;
+        nif:beginIndex        "1101"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1115"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1634> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1413,1422>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Vitoriosa"^^xsd:string ;
+        nif:beginIndex        "1413"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1422"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1634> .

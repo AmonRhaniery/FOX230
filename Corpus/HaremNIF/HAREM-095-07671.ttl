@@ -1,0 +1,341 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=81,103>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Faculdade de Filosofia"^^xsd:string ;
+        nif:beginIndex        "81"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "103"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4391> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=778,800>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ministério da Educação"^^xsd:string ;
+        nif:beginIndex        "778"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "800"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4391> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=4330,4338>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "História"^^xsd:string ;
+        nif:beginIndex        "4330"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4338"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4391> .
+
+<http://linguateca.pt/harem#char=3218,3240>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Faculdade de Filosofia"^^xsd:string ;
+        nif:beginIndex        "3218"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3240"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4391> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=32,40>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Portugal"^^xsd:string ;
+        nif:beginIndex        "32"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "40"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4391> .
+
+<http://linguateca.pt/harem#char=2482,2509>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Universidade Nova de Lisboa"^^xsd:string ;
+        nif:beginIndex        "2482"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2509"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4391> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=3846,3854>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Portugal"^^xsd:string ;
+        nif:beginIndex        "3846"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3854"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4391> .
+
+<http://linguateca.pt/harem#char=2141,2151>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "D .Pedro V"^^xsd:string ;
+        nif:beginIndex        "2141"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2151"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4391> .
+
+<http://linguateca.pt/harem#char=569,575>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Lisboa"^^xsd:string ;
+        nif:beginIndex        "569"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "575"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4391> .
+
+<http://linguateca.pt/harem#char=3341,3349>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Portugal"^^xsd:string ;
+        nif:beginIndex        "3341"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3349"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4391> .
+
+<http://linguateca.pt/harem#char=3231,3240>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Filosofia"^^xsd:string ;
+        nif:beginIndex        "3231"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3240"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4391> .
+
+<http://linguateca.pt/harem#char=3029,3051>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Faculdade de Filosofia"^^xsd:string ;
+        nif:beginIndex        "3029"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3051"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4391> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=3545,3554>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "7 pesetas"^^xsd:string ;
+        nif:beginIndex        "3545"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3554"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4391> .
+
+<http://linguateca.pt/harem#char=4034,4042>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Portugal"^^xsd:string ;
+        nif:beginIndex        "4034"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4042"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4391> .
+
+<http://linguateca.pt/harem#char=1828,1834>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Lisboa"^^xsd:string ;
+        nif:beginIndex        "1828"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1834"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4391> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=927,933>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Lisboa"^^xsd:string ;
+        nif:beginIndex        "927"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "933"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4391> .
+
+<http://linguateca.pt/harem#char=3770,3790>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Filosofia da Ciência"^^xsd:string ;
+        nif:beginIndex        "3770"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3790"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4391> .
+
+<http://linguateca.pt/harem#char=3122,3127>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Julho"^^xsd:string ;
+        nif:beginIndex        "3122"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3127"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4391> .
+
+<http://linguateca.pt/harem#char=1505,1523>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Machado dos Santos"^^xsd:string ;
+        nif:beginIndex        "1505"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1523"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4391> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=4217,4220>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "400"^^xsd:string ;
+        nif:beginIndex        "4217"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4220"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4391> .
+
+<http://linguateca.pt/harem#char=4063,4067>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1955"^^xsd:string ;
+        nif:beginIndex        "4063"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4067"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4391> .
+
+<http://linguateca.pt/harem#char=4021,4030>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Filosofia"^^xsd:string ;
+        nif:beginIndex        "4021"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4030"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4391> .
+
+<http://linguateca.pt/harem#char=3452,3461>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "4 pesetas"^^xsd:string ;
+        nif:beginIndex        "3452"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3461"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4391> .
+
+<http://linguateca.pt/harem#char=133,155>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Faculdade de Filosofia"^^xsd:string ;
+        nif:beginIndex        "133"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "155"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4391> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=4284,4306>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Faculdade de Filosofia"^^xsd:string ;
+        nif:beginIndex        "4284"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4306"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4391> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=2179,2186>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Gualtar"^^xsd:string ;
+        nif:beginIndex        "2179"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2186"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4391> .
+
+<http://linguateca.pt/harem#char=3061,3068>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1952/52"^^xsd:string ;
+        nif:beginIndex        "3061"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3068"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4391> .
+
+<http://linguateca.pt/harem#char=176,197>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Universidade do Minho"^^xsd:string ;
+        nif:beginIndex        "176"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "197"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4391> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=2312,2323>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "24 de Abril"^^xsd:string ;
+        nif:beginIndex        "2312"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2323"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4391> .
+
+<http://linguateca.pt/harem#char=3178,3200>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Faculdade de Filosofia"^^xsd:string ;
+        nif:beginIndex        "3178"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3200"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4391> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=2241,2247>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Lisboa"^^xsd:string ;
+        nif:beginIndex        "2241"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2247"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4391> .
+
+<http://linguateca.pt/harem#char=3527,3534>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Granada"^^xsd:string ;
+        nif:beginIndex        "3527"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3534"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4391> .
+
+<http://linguateca.pt/harem#char=0,4391>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "4391"^^xsd:nonNegativeInteger ;
+        nif:isString    "E depois da Bélgica regressou a Portugal ? Fiz o doutoramento e depois estive na Faculdade de Filosofia . Fui três vezes director da Faculdade de Filosofia e depois vim para a Universidade do Minho , fui vice-reitor e reitor . E eu que nunca quis governar tive essa pouca sorte . Quando eu saí foi uma libertação . Eu gosto é de investigar , tenho muito gosto nisso . O pobre do reitor anda a resolver problemas que aparecem não sabe Deus quando nem como . Agora a universidade está mais desenvolvida , mas naquele tempo ainda era pior . Ia quase todas as semanas para Lisboa para resolver os problemas . Isso ajudou-me muito porque conheci o Ministério da Educação por dentro , porque bater à porta falsa é perder tempo , procurar bater à porta que nos interessa . E conheci o Ministério da Educação e isso deu-me muito jeito porque sabia lá quem mandava e quem resolvia os problemas e quem os impedia . Mas eu tinha que ir a Lisboa , e essas viajens pela estrada antiga , a comer nesses restaurantes das estradas miseráveis , geralmente com uns azeites que já tinham servido no outro dia . Eu dáva-me mal com essas comidas e andar sempre para trás e para diante para resolver qualquer problema . Foi muito doloroso nesse aspecto . Na universidade não . Aqui tínhamos uma boa equipa , éramos amigos e trabalhávamos . A Universidade do Minho tem uma equipa boa desde o princípio . Pela primeira vez candidata-se um reitor que não é da equipa . Este reitor ainda foi da comissão instaladora , assim como o Machado dos Santos . Agora pela primeira vez vai a reitor uma pessoa que já não é da equipa inicial . O que também é bom . é bom que se vá desenvolvendo , mas quer dizer que a equipa era muito unida e trabalhou com gosto , com sacrifício , mas trabalhou com gosto , contra tudo e contra todos porque é muito difícil vencer Lisboa . Começamos as aulas um ano mais cedo do que o que tínhamos planeado . Olhe aqui no Largo do Paço coemçaram as aulas , nesta sala que agora está dividida , tinha outra na entrada , aí onde está o correiro e o salão medieval . Começamos as aulas um ano mais cedo , ainda não tínhamos feitos os pavilhões na D .Pedro V , depois é que passou para Gualtar . Começamos as aulas um ano mais cedo porque havia em Lisboa , nós começamos em Fevereiro de 1974 e dois meses depois veio o 24 de Abril , passou-se bastantes dificuldades . Êxitos por um lado e dificuldades por outro e uma delas é que o ministro queria acabar com as universidades novas , só a Universidade Nova de Lisboa é que havia de existir . E nós que não tínhamos alunos , os alunos são uma força , começamos um ano mais cedo para ter alunos para poder a nossa voz ser mais forte . E de facto , a coisa acabou , essa ideia de acabar com a Universidade do Minho acabou , até pelo contrário . Mas quanto mais cedo , até nestas instalações , mas foi assim que começou . Eu fui dos primeiros professores a dar aulas ali , onde estão agora as Relações Públicas . Ali dei a primeira aula , ainda me lembro disso . Mas começou a leccionar na Faculdade de Filosofia ? Foi em 1952/52 . Eu sei que fiz o meu doutoramento em Novembro e em Julho do ano seguinte foi nomeado director . Como era a Faculdade de Filosofia nessa altura ? A Faculdade de Filosofia em biblioteca estava muito bem e em muito bom estado , era das melhores bibliotecas de Filosofia de Portugal . Está muito em dia porque aproveitamos quando durante a guerra o escudo valia muito , o escudo valia 4 pesetas , hoje uma peseta vale uns escudos . Eu sei que na altura nós em Granada pagávamos 7 pesetas por dia . Para nós uma peseta custava 4 tostões . E foi nessa altura que se formou a biblioteca , comprávamos os livros muito baratos . Tem um conjunto de professores muito bons . Morreu aqui há dias o professor de Filosofia da Ciência , que era o melhor professor de Filosofia e Ciência em Portugal , Passo Sousa Alves . Os outros professores já morreram todos , de facto , mas era um grupo de professores muito bons e impôs-se a Portugal . O primeiro congresso de Filosofia em Portugal , foi feito aqui em 1955 e vieram cá todas as universidades e como tínhamos medo que algumas não viessem , convidamos alguns estrangeiros . Mas felizmente vieram . Estávamos 400 congressistas e foi quando eles pensaram em fundar no estado a Faculdade de Filosofia , que não existia a de História e Filosofia separada . Precisamente hoje já estão . "^^xsd:string .
+
+<http://linguateca.pt/harem#char=3593,3602>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "4 tostões"^^xsd:string ;
+        nif:beginIndex        "3593"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3602"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4391> .
+
+<http://linguateca.pt/harem#char=3857,3874>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Passo Sousa Alves"^^xsd:string ;
+        nif:beginIndex        "3857"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3874"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4391> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1919,1932>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Largo do Paço"^^xsd:string ;
+        nif:beginIndex        "1919"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1932"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4391> .
+
+<http://linguateca.pt/harem#char=2932,2949>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Relações Públicas"^^xsd:string ;
+        nif:beginIndex        "2932"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2949"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4391> .
+
+<http://linguateca.pt/harem#char=2733,2754>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Universidade do Minho"^^xsd:string ;
+        nif:beginIndex        "2733"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2754"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4391> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=4341,4350>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Filosofia"^^xsd:string ;
+        nif:beginIndex        "4341"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4350"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4391> .
+
+<http://linguateca.pt/harem#char=3108,3116>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Novembro"^^xsd:string ;
+        nif:beginIndex        "3108"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3116"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4391> .
+
+<http://linguateca.pt/harem#char=643,665>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ministério da Educação"^^xsd:string ;
+        nif:beginIndex        "643"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "665"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4391> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=3823,3842>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Filosofia e Ciência"^^xsd:string ;
+        nif:beginIndex        "3823"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3842"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4391> .
+
+<http://linguateca.pt/harem#char=3986,3994>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Portugal"^^xsd:string ;
+        nif:beginIndex        "3986"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3994"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4391> .
+
+<http://linguateca.pt/harem#char=2267,2284>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Fevereiro de 1974"^^xsd:string ;
+        nif:beginIndex        "2267"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2284"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4391> .
+
+<http://linguateca.pt/harem#char=1320,1341>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Universidade do Minho"^^xsd:string ;
+        nif:beginIndex        "1320"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1341"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4391> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=12,19>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Bélgica"^^xsd:string ;
+        nif:beginIndex        "12"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "19"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4391> .

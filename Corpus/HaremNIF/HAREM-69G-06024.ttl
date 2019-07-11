@@ -1,0 +1,1038 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=6107,6113>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Câmara"^^xsd:string ;
+        nif:beginIndex        "6107"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "6113"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=2811,2814>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "CEC"^^xsd:string ;
+        nif:beginIndex        "2811"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2814"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1191,1195>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "A.H."^^xsd:string ;
+        nif:beginIndex        "1191"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1195"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=2290,2293>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "DRV"^^xsd:string ;
+        nif:beginIndex        "2290"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2293"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=7438,7442>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "ICEP"^^xsd:string ;
+        nif:beginIndex        "7438"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "7442"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=10272,10291>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Orçamento de Estado"^^xsd:string ;
+        nif:beginIndex        "10272"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "10291"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> .
+
+<http://linguateca.pt/harem#char=796,813>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Almeida Henriques"^^xsd:string ;
+        nif:beginIndex        "796"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "813"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=3850,3854>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "2002"^^xsd:string ;
+        nif:beginIndex        "3850"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3854"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> .
+
+<http://linguateca.pt/harem#char=5533,5539>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Centro"^^xsd:string ;
+        nif:beginIndex        "5533"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5539"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> .
+
+<http://linguateca.pt/harem#char=3203,3207>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "A.H."^^xsd:string ;
+        nif:beginIndex        "3203"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3207"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=3980,3983>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "CEC"^^xsd:string ;
+        nif:beginIndex        "3980"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3983"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=0,12674>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "12674"^^xsd:nonNegativeInteger ;
+        nif:isString    "Almeida Henriques , presidente da Associação Industrial da Região de Viseu ( AIRV ) , é o novo rosto do Conselho Empresarial do Centro ( CEC ) . Para o seu mandato até 2002 à frente deste órgão , o \"patrão do centro\" tem como objectivos tornar o CECnum lobby de pressão junto dos poderes regionais e poder central e apostar cada vez mais na Câmara da Indústria e do Comércio . Consciente de que as realidades empresariais dos seis distritos que constituem o CEC são diferentes , Almeida Henriques acredita que há pontos de convergência que têm que ser desenvolvidos por forma a tornar o sector empresarial da região cada vez mais forte , apostando igualmente na internacionalização Diário Regional de Viseu ( DRV ) : Quais são os principais objectivos do Conselho Empresarial do Centro ( CEC ) ? Almeida Henriques ( A.H. ) : O CEC foi criado numa lógica de unir as associações da Região Centro , quer sejam industriais , quer sejam comerciais , quer sejam agrícolas . O primeiro objectivo foi basicamente juntar as associações para criar um lobby empresarial forte e mais consistente . Este foi o módulo que esteve na criação do CEC . DRV : O CEC está integrado nalguma estrutura nacional ? A.H. : Não , não está . No fundo é uma união das associações da Região Centro . É um exemplo único a nível nacional . Há um muito parecido do Norte e outro no Alentejo , mas nada que se compare ao CEC em termos de estrutura organizacional e na representatividade . Hoje o CEC representa quase 40 associações dos seis distritos da Região Centro . DRV : E então porque é que não está filiado numa estrutura nacional ? A.H. : Essa é uma discussão que neste momento está a correr internamente e que eu suscitei na minha candidatura : a necessidade de aumento do CEC e especialização dos sectores . Estamos a tentar encontrar aqui uma forma intermédia . Como não pertencemos ainda a nenhuma das confederações , pelo facto de sermos um órgão regional , numa reunião do executivo deliberámos que associações que temos dentro da Confederação do Comércio , dentro da Confederação do Turismo irão , para já , fazer a ponte entre os associados do CEC e as próprias confederações , nomeadamente através da busca de informação . Este é um tema mesmo actual em termos da remodelação interna que estamos a fazer . DRV : Como funciona o CEC ? A.H. : Funciona como uma plataforma de entendimento . A sua principal vocação é criar um espaço de entendimento entre as próprias associações para aproveitamento de sinergias . Só que já funciona um bocado para além disso . Hoje o CEC tem uma estrutura devidamente organizada , tem alguns programas que desenvolve em rede com as associações e é também um facilitador de programas , isto é : as associações utilizam a capa do CEC para poderem mais facilmente reivindicar as suas pretensões . O CEC é o interlocutor natural junto da CCR para todas as associações da região centro , portanto junto do poder regional . Começa também a ser interlocutor natural junto do poder central . Funciona um bocado dentro desta plataforma de alguns serviços que presta , mas também de uma ligação que faz aos poderes regional e central . DRV : Esta ligação com o poder central é feita de que forma ? A.H. : Em relação ao poder nacional é um espaço que estamos a conquistar aos poucos e no qual ainda temos que dar um salto bastante grande . O CEC tem que ser olhado como um parceiro social , não o é neste momento nem é reconhecido como tal . Neste âmbito das parcerias sociais , o próprio Governo deverá ter o cuidado de começar a solicitar ao CEC participação e nós podemos participar nas comissões especializadas e estar cada vez mais próximos das tomadas de decisão e afluir nessas mesmas decisões . Achamos que a Região Centro deverá ter um papel forte na tomada de decisões . DRV : Quais as propostas do CEC , durante este seu mandato , até 2002 ? A.H. : São três os pilares que apresentei para o meu mandato . O principal é desenvolver e implementar a característica do CEC enquanto lobby de pressão . Para tal , é preciso unir as forças do Centro e encontrar pontos de convergência DRV : E é fácil ? A.H. : É obvio que não . A mensagem que eu tenho feito passar nas associações é que elas não são complementares no âmbito territorial , mas se desenvolvermos todos um trabalho concentrado , mais facilmente conseguiremos um desenvolvimento harmonioso do tecido empresarial , uma maior competitividade para as empresa e mais qualidade . DRV : Mas há diferenças entre , por exemplo , o tecido empresarial de Viseu e o de Aveiro . De que forma é que se poderá conciliar este desenvolvimento harmonioso ? A.H. : Há indicadores que são comuns a todo o país . É evidente que os seis distritos da Região Centro são extremamente diversificados . Também estes distritos têm caracteristicas diferentes , mas há aspectos de convergência e temos desde logo que encontrar e procurar o que nos une , saber que os distritos têm muito em comum e que as associações aí têm uma função complementar umas das outras . É preciso não esquecer que haverá concerteza dossiers em que os distritos irão ser concorrentes entre si . O que nós pensamos é que o CEC pode ser uma plataforma de entendimento . Se o empresariado se conseguir pôr de acordo em relação a questões básicas mais facilmente poderemos influenciar , por exemplo , as decisões políticas . No fundo é o lobby de pressão . Inclusivamente vamos criar um conselho de presidentes para discutir determinadas matérias . Temos que criar o hábito de chamar os membros do Governo a virem ao Centro discutirem as questões . Por exemplo , e porque não , dizer ao ministro das Finanças para vir cá e discutir o Orçamento de Estado connosco e a Reforma Fiscal DRV : E quanto aos restantes pilares do mandato ? A . H . : Um outro pilar prende-se com a Câmara do Comércio e Industria . O CEC foi reconhecido há dois anos como Câmara do Comércio e Industria . Já foi desenvolvendo algumas valências e ganhando alguma estrutura e do ponto de vista das relações transfronteiriças já se tem vindo a desenvolver alguns programas.A perspectiva para o futuro é desenvolver esta Câmara em três vertentes : internacionalização , ambiente e qualidade e ao mesmo tempo criar serviços . Isto é , queremos desenvolver um tribunal arbitral para a actividade empresarial dentro da Câmara , queremos apresentar junto do Governo um projecto de criação de um cartório de competências especializado que possa funcionar nestes seis distritos . Queremos que efectivamente a Câmara seja cada vez mais uma realidade e que a nossa dinâmica esteja à frente da própria regulamentação porque as câmaras estão legisladas mas não estão regulamentadas . As Câmaras deverão assumir responsabilidades que resultem de uma contratualização com o Estado porque há serviços que o Estado presta mal e que as Câmaras poderão prestar , permitindo ao tecido empresarial ser cada vez mais competitivo . A Câmara deve ser de facto uma estrutura forte . DRV : De que modo o tecido empresarial da região poderá chegar à internacionalização ? A . H . : Muitas vezes procura-se dar a imagem de que a Região Centro é essencialmente agrícola e florestal . Mas o certo é que esta região hoje também já tem espaços de afirmação . É óbvio que a internacionalização tem que ser um objectivo prioritário . Temos aqui um manancial que se chamam relações transfronteiriças e da qual estamos ainda a tirar pouco partido . Temos que encontrar formas junto do ICEP de lançar para além fronteiras a internacionalização das nossa empresas , procurando as comunidades emigrantes para podermos investir , identificando os países da Europa onde seja mais fácil chegar , não esquecendo os PALOPS e o Brasil . DRV : Mas neste momento como é que se pode pensar em internacionalização se , por exemplo , ainda há muito para fazer no que diz respeito à fixação de empresas nesta zona ? A . H . : Nós temos que queimar aqui as várias etapas . Se o CEC se quer afirmar e dar o salto qualitativo , no fundo é aumentar a percentagem do PIB , para o fazer crescer estas várias políticas têm que ser desenvolvidas em simultâneo . Se ficarmos à espera por determinados indicadores para dar o salto não o vamos conseguir . Agora é claro que vamos continuar a solicitar ao Governo medidas que visem fixar o investimento e que visem alguns distritos da região que sofrem com a desertificação . Temos que ter noção deste equilíbrio ao mesmo tempo que defendemos incentivos para cativar investimentos para Viseu , para a Guarda e Castelo Branco . Temos que ter uma visão global das coisas e procurar pontos de equilíbrio , desenvolvendo políticas simultâneas . DRV : Quantas empresas representa o CEC ? A.H : Representa para cima de 30 mil empresas , dos mais variados sectores . Há um aspecto que está nos meu horizontes , digamos que todas as associações têm lugar no CEC , mesmo as que ainda não estão . Ainda recentemente aderiu a Associação Comercial de Aveiro . O CEC também tem algumas associações sectorias e nós vamos tentar incrementar a representatividade do sector agrícola , onde se inclui também os vinhos . Nem é tão relevante as empresas , o importante é que quanto mais associações tivermos mais representatividade terá o CEC . A maior parte das valências que criamos é para depois serem desenvolvidas em rede com as várias associações . E é precisamente este ponto que constitui o terceiro pilar daquilo que é o meu plano para o mandato e que é ao arrancar um conjunto de apoio às associações , dar lugar às associações mais pequenas criando programas que elas possam executar , designadamente de apoio às micro empresas , e promover a qualificação das próprias pequenas empresas.Ora , para tal , é necessário estar atento aos vários estadios da economia da região , procurando encontrar formas de ajudar essa mesma economia nos seus vários estratos a ser mais competitiva , aumentar a sua produtividade e procurar a sua internacionalização . DRV : Concordou com a remodelação feita nas pastas da Economia e das Finanças ? A . H : Esta é uma opinião pessoal e não como presidente do CEC . Entendo que o Ministério da Economia deva ser o ministério das empresas e procurar fazer realmente um bom trabalho . Por outro lado , tem que estar atento às empresas públicas e exigir que não tenha que ser o Orçamento de Estado a suportar os défices que estas empresas têm.A economia tem que ser cada vez mais privatizada . A tendência natural é que todos os sectores da economia portuguesa estejam privatizados , podendo haver uma ou outra que possa continuar nas mãos do Estado .Hoje , o próprio Estado tem que encontrar mecanismos de poder executar as coisas de uma forma rápida , mas desde o acto de decisão até à concretização vai um grande tempo , perfeitamente desnecessário . O Estado tem é que avançar com a reforma administrativa . Nós sabemos que temos um excedente de pessoas e sabemos bem a forma de funcionamento . O Estado em vez de estar a tentar encontrar formas de ultrapassar as suas deficiencias , deverá começar pela privatização dos serviços . Esta mentalidade do Estado está a prejudicar a mentalidade empreendedora dos portugueses . As pessoas , hoje em dia , não pensam numa lógica de empreendurismo . Isto é um tipo de mentalidade que vai da própria forma como o Estado funciona . Não se pode exigir só aos empresários para serem competitivos num Estado que não funciona . DRV : Qual é o peso que a região de Viseu tem , a nível empresarial , no CEC . A . H . : Viseu tem duas realidades muito distintas : a Dão-Lafões e o Douro Sul . Se ligarmos aos dados da Dão-Lafões , Viseu deu um salto espantoso e hoje estará muito acima da média . Agora , os indicadores do Douro Sul são preocupantes porque não se tem apostado naquela zona . A falta de vias de comunicação e a falta de apostas noutras áreas faz com que a zona vá ficando para trás . Na AIRV ( Associação Industrial da Região de Viseu ) há algumas empresas do norte do distrito e é já uma das intenções estar mais perto das empresas daquela zona , estando prevista a abertura de uma delegação da AIRV naquela região , assim como na parte sul do distrito . DRV : E em termos de internacionalização das empresas da região de Viseu , como é que é ? E quais são os principais problemas com que se deparam ? A . H . : Há bons exemplos de empresas da nossa região que estão no mercado espanhol de uma forma bem competitiva , por exemplo na área da cerâmica . O acto de internacionalizar é tanto encontrar parceiros do lado de lá e importar , como chegar lá e vender o nosso produto.Há um problema de qualificação de quadros e as pessoas hoje não podem procurar um emprego para a vida toda , tem que haver uma flexibilidade mental . "^^xsd:string .
+
+<http://linguateca.pt/harem#char=2127,2130>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "CEC"^^xsd:string ;
+        nif:beginIndex        "2127"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2130"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=5748,5755>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "A . H ."^^xsd:string ;
+        nif:beginIndex        "5748"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5755"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=8232,8239>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Governo"^^xsd:string ;
+        nif:beginIndex        "8232"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "8239"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=12251,12258>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "A . H ."^^xsd:string ;
+        nif:beginIndex        "12251"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "12258"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=12044,12048>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "AIRV"^^xsd:string ;
+        nif:beginIndex        "12044"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "12048"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=8891,8921>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Associação Comercial de Aveiro"^^xsd:string ;
+        nif:beginIndex        "8891"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "8921"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=7672,7678>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Brasil"^^xsd:string ;
+        nif:beginIndex        "7672"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "7678"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> .
+
+<http://linguateca.pt/harem#char=11442,11449>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "A . H ."^^xsd:string ;
+        nif:beginIndex        "11442"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "11449"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=755,785>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Conselho Empresarial do Centro"^^xsd:string ;
+        nif:beginIndex        "755"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "785"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=7034,7041>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "A . H ."^^xsd:string ;
+        nif:beginIndex        "7034"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "7041"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=5514,5521>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Governo"^^xsd:string ;
+        nif:beginIndex        "5514"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5521"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=5862,5892>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Câmara do Comércio e Industria"^^xsd:string ;
+        nif:beginIndex        "5862"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5892"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=4529,4535>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Aveiro"^^xsd:string ;
+        nif:beginIndex        "4529"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4535"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> .
+
+<http://linguateca.pt/harem#char=1521,1534>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Região Centro"^^xsd:string ;
+        nif:beginIndex        "1521"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1534"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> .
+
+<http://linguateca.pt/harem#char=2849,2852>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "CCR"^^xsd:string ;
+        nif:beginIndex        "2849"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2852"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=7661,7667>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "PALOPS"^^xsd:string ;
+        nif:beginIndex        "7661"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "7667"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> .
+
+<http://linguateca.pt/harem#char=11050,11056>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Estado"^^xsd:string ;
+        nif:beginIndex        "11050"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "11056"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=3813,3816>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "CEC"^^xsd:string ;
+        nif:beginIndex        "3813"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3816"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=2012,2036>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Confederação do Comércio"^^xsd:string ;
+        nif:beginIndex        "2012"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2036"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=9195,9198>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "CEC"^^xsd:string ;
+        nif:beginIndex        "9195"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "9198"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=12171,12176>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Viseu"^^xsd:string ;
+        nif:beginIndex        "12171"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "12176"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> .
+
+<http://linguateca.pt/harem#char=6340,6347>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Governo"^^xsd:string ;
+        nif:beginIndex        "6340"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "6347"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=11498,11508>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Dão-Lafões"^^xsd:string ;
+        nif:beginIndex        "11498"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "11508"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> .
+
+<http://linguateca.pt/harem#char=11452,11457>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Viseu"^^xsd:string ;
+        nif:beginIndex        "11452"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "11457"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> .
+
+<http://linguateca.pt/harem#char=9986,9994>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Finanças"^^xsd:string ;
+        nif:beginIndex        "9986"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "9994"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> .
+
+<http://linguateca.pt/harem#char=5824,5827>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "CEC"^^xsd:string ;
+        nif:beginIndex        "5824"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5827"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1537,1540>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "DRV"^^xsd:string ;
+        nif:beginIndex        "1537"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1540"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=2743,2746>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "CEC"^^xsd:string ;
+        nif:beginIndex        "2743"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2746"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=3548,3551>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "CEC"^^xsd:string ;
+        nif:beginIndex        "3548"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3551"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1350,1358>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Alentejo"^^xsd:string ;
+        nif:beginIndex        "1350"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1358"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> .
+
+<http://linguateca.pt/harem#char=7090,7103>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Região Centro"^^xsd:string ;
+        nif:beginIndex        "7090"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "7103"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> .
+
+<http://linguateca.pt/harem#char=0,17>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Almeida Henriques"^^xsd:string ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "17"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=10895,10901>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Estado"^^xsd:string ;
+        nif:beginIndex        "10895"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "10901"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=4093,4096>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "DRV"^^xsd:string ;
+        nif:beginIndex        "4093"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4096"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=8653,8656>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "CEC"^^xsd:string ;
+        nif:beginIndex        "8653"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "8656"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1749,1752>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "CEC"^^xsd:string ;
+        nif:beginIndex        "1749"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1752"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=6807,6814>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Câmaras"^^xsd:string ;
+        nif:beginIndex        "6807"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "6814"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=10077,10099>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ministério da Economia"^^xsd:string ;
+        nif:beginIndex        "10077"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "10099"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=3785,3788>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "DRV"^^xsd:string ;
+        nif:beginIndex        "3785"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3788"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=104,134>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Conselho Empresarial do Centro"^^xsd:string ;
+        nif:beginIndex        "104"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "134"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=4111,4115>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "A.H."^^xsd:string ;
+        nif:beginIndex        "4111"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4115"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=827,830>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "CEC"^^xsd:string ;
+        nif:beginIndex        "827"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "830"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=9971,9979>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Economia"^^xsd:string ;
+        nif:beginIndex        "9971"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "9979"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> .
+
+<http://linguateca.pt/harem#char=8486,8500>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Castelo Branco"^^xsd:string ;
+        nif:beginIndex        "8486"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "8500"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> .
+
+<http://linguateca.pt/harem#char=1388,1391>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "CEC"^^xsd:string ;
+        nif:beginIndex        "1388"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1391"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=2318,2322>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "A.H."^^xsd:string ;
+        nif:beginIndex        "2318"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2322"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=8617,8620>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "DRV"^^xsd:string ;
+        nif:beginIndex        "8617"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "8620"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=4051,4057>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Centro"^^xsd:string ;
+        nif:beginIndex        "4051"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4057"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> .
+
+<http://linguateca.pt/harem#char=1135,1138>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "DRV"^^xsd:string ;
+        nif:beginIndex        "1135"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1138"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=7915,7918>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "CEC"^^xsd:string ;
+        nif:beginIndex        "7915"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "7918"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=4446,4449>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "DRV"^^xsd:string ;
+        nif:beginIndex        "4446"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4449"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=5650,5669>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Orçamento de Estado"^^xsd:string ;
+        nif:beginIndex        "5650"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5669"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> .
+
+<http://linguateca.pt/harem#char=1129,1132>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "CEC"^^xsd:string ;
+        nif:beginIndex        "1129"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1132"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=11513,11522>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Douro Sul"^^xsd:string ;
+        nif:beginIndex        "11513"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "11522"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> .
+
+<http://linguateca.pt/harem#char=168,172>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "2002"^^xsd:string ;
+        nif:beginIndex        "168"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "172"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> .
+
+<http://linguateca.pt/harem#char=8462,8467>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Viseu"^^xsd:string ;
+        nif:beginIndex        "8462"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "8467"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> .
+
+<http://linguateca.pt/harem#char=8676,8695>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "para cima de 30 mil"^^xsd:string ;
+        nif:beginIndex        "8676"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "8695"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> .
+
+<http://linguateca.pt/harem#char=1143,1146>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "CEC"^^xsd:string ;
+        nif:beginIndex        "1143"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1146"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=341,374>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Câmara da Indústria e do Comércio"^^xsd:string ;
+        nif:beginIndex        "341"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "374"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=7681,7684>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "DRV"^^xsd:string ;
+        nif:beginIndex        "7681"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "7684"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=4700,4713>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Região Centro"^^xsd:string ;
+        nif:beginIndex        "4700"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4713"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> .
+
+<http://linguateca.pt/harem#char=10285,10291>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Estado"^^xsd:string ;
+        nif:beginIndex        "10285"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "10291"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=7606,7612>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Europa"^^xsd:string ;
+        nif:beginIndex        "7606"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "7612"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> .
+
+<http://linguateca.pt/harem#char=5698,5701>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "DRV"^^xsd:string ;
+        nif:beginIndex        "5698"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5701"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=4611,4615>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "A.H."^^xsd:string ;
+        nif:beginIndex        "4611"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4615"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=10537,10543>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Estado"^^xsd:string ;
+        nif:beginIndex        "10537"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "10543"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=3346,3349>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "CEC"^^xsd:string ;
+        nif:beginIndex        "3346"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3349"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=2049,2072>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Confederação do Turismo"^^xsd:string ;
+        nif:beginIndex        "2049"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2072"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=5683,5697>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Reforma Fiscal"^^xsd:string ;
+        nif:beginIndex        "5683"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5697"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> .
+
+<http://linguateca.pt/harem#char=1607,1611>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "A.H."^^xsd:string ;
+        nif:beginIndex        "1607"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1611"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=8826,8829>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "CEC"^^xsd:string ;
+        nif:beginIndex        "8826"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "8829"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=11655,11664>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Douro Sul"^^xsd:string ;
+        nif:beginIndex        "11655"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "11664"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> .
+
+<http://linguateca.pt/harem#char=682,706>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Diário Regional de Viseu"^^xsd:string ;
+        nif:beginIndex        "682"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "706"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1333,1338>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Norte"^^xsd:string ;
+        nif:beginIndex        "1333"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1338"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> .
+
+<http://linguateca.pt/harem#char=77,81>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "AIRV"^^xsd:string ;
+        nif:beginIndex        "77"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "81"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=709,712>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "DRV"^^xsd:string ;
+        nif:beginIndex        "709"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "712"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=7854,7861>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "A . H ."^^xsd:string ;
+        nif:beginIndex        "7854"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "7861"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=6302,6308>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Câmara"^^xsd:string ;
+        nif:beginIndex        "6302"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "6308"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=2549,2552>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "CEC"^^xsd:string ;
+        nif:beginIndex        "2549"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2552"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=9917,9920>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "DRV"^^xsd:string ;
+        nif:beginIndex        "9917"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "9920"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=11835,11839>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "AIRV"^^xsd:string ;
+        nif:beginIndex        "11835"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "11839"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=3721,3734>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Região Centro"^^xsd:string ;
+        nif:beginIndex        "3721"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3734"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> .
+
+<http://linguateca.pt/harem#char=8000,8003>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "PIB"^^xsd:string ;
+        nif:beginIndex        "8000"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "8003"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> .
+
+<http://linguateca.pt/harem#char=6748,6754>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Estado"^^xsd:string ;
+        nif:beginIndex        "6748"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "6754"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=11563,11568>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Viseu"^^xsd:string ;
+        nif:beginIndex        "11563"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "11568"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> .
+
+<http://linguateca.pt/harem#char=5142,5145>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "CEC"^^xsd:string ;
+        nif:beginIndex        "5142"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5145"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=10562,10568>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Estado"^^xsd:string ;
+        nif:beginIndex        "10562"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "10568"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=6663,6670>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Câmaras"^^xsd:string ;
+        nif:beginIndex        "6663"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "6670"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=137,140>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "CEC"^^xsd:string ;
+        nif:beginIndex        "137"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "140"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=3493,3500>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Governo"^^xsd:string ;
+        nif:beginIndex        "3493"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3500"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=12104,12107>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "DRV"^^xsd:string ;
+        nif:beginIndex        "12104"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "12107"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=6489,6495>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Câmara"^^xsd:string ;
+        nif:beginIndex        "6489"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "6495"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=5789,5819>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Câmara do Comércio e Industria"^^xsd:string ;
+        nif:beginIndex        "5789"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5819"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=11436,11439>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "CEC"^^xsd:string ;
+        nif:beginIndex        "11436"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "11439"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=788,791>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "CEC"^^xsd:string ;
+        nif:beginIndex        "788"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "791"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=11363,11366>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "DRV"^^xsd:string ;
+        nif:beginIndex        "11363"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "11366"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=8926,8929>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "CEC"^^xsd:string ;
+        nif:beginIndex        "8926"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "8929"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=11399,11404>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Viseu"^^xsd:string ;
+        nif:beginIndex        "11399"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "11404"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> .
+
+<http://linguateca.pt/harem#char=3857,3861>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "A.H."^^xsd:string ;
+        nif:beginIndex        "3857"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3861"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=6947,6950>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "DRV"^^xsd:string ;
+        nif:beginIndex        "6947"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "6950"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=8659,8662>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "A.H"^^xsd:string ;
+        nif:beginIndex        "8659"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "8662"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=3141,3144>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "DRV"^^xsd:string ;
+        nif:beginIndex        "3141"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3144"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=458,461>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "CEC"^^xsd:string ;
+        nif:beginIndex        "458"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "461"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=816,820>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "A.H."^^xsd:string ;
+        nif:beginIndex        "816"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "820"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=479,496>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Almeida Henriques"^^xsd:string ;
+        nif:beginIndex        "479"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "496"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=11842,11882>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Associação Industrial da Região de Viseu"^^xsd:string ;
+        nif:beginIndex        "11842"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "11882"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=34,74>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Associação Industrial da Região de Viseu"^^xsd:string ;
+        nif:beginIndex        "34"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "74"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=880,893>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Região Centro"^^xsd:string ;
+        nif:beginIndex        "880"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "893"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> .
+
+<http://linguateca.pt/harem#char=1484,1486>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "40"^^xsd:string ;
+        nif:beginIndex        "1484"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1486"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> .
+
+<http://linguateca.pt/harem#char=11550,11560>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Dão-Lafões"^^xsd:string ;
+        nif:beginIndex        "11550"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "11560"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> .
+
+<http://linguateca.pt/harem#char=1463,1466>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "CEC"^^xsd:string ;
+        nif:beginIndex        "1463"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1466"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=2312,2315>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "CEC"^^xsd:string ;
+        nif:beginIndex        "2312"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2315"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=10057,10060>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "CEC"^^xsd:string ;
+        nif:beginIndex        "10057"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "10060"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=10750,10756>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Estado"^^xsd:string ;
+        nif:beginIndex        "10750"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "10756"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=9997,10002>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "A . H"^^xsd:string ;
+        nif:beginIndex        "9997"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "10002"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=8477,8483>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Guarda"^^xsd:string ;
+        nif:beginIndex        "8477"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "8483"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> .
+
+<http://linguateca.pt/harem#char=4516,4521>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Viseu"^^xsd:string ;
+        nif:beginIndex        "4516"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4521"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> .
+
+<http://linguateca.pt/harem#char=6900,6906>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Câmara"^^xsd:string ;
+        nif:beginIndex        "6900"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "6906"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1255,1268>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Região Centro"^^xsd:string ;
+        nif:beginIndex        "1255"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1268"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> .
+
+<http://linguateca.pt/harem#char=6780,6786>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Estado"^^xsd:string ;
+        nif:beginIndex        "6780"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "6786"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=5616,5624>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Finanças"^^xsd:string ;
+        nif:beginIndex        "5616"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5624"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> .
+
+<http://linguateca.pt/harem#char=11253,11259>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Estado"^^xsd:string ;
+        nif:beginIndex        "11253"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "11259"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,12674> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .

@@ -1,0 +1,124 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=434,440>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Líbano"^^xsd:string ;
+        nif:beginIndex        "434"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "440"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1045> .
+
+<http://linguateca.pt/harem#char=40,49>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Hizbollah"^^xsd:string ;
+        nif:beginIndex        "40"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "49"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1045> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=881,891>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Mais de 70"^^xsd:string ;
+        nif:beginIndex        "881"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "891"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1045> .
+
+<http://linguateca.pt/harem#char=184,199>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Partido de Deus"^^xsd:string ;
+        nif:beginIndex        "184"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "199"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1045> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=324,339>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "10h00 de Lisboa"^^xsd:string ;
+        nif:beginIndex        "324"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "339"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1045> .
+
+<http://linguateca.pt/harem#char=959,968>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Hizbollah"^^xsd:string ;
+        nif:beginIndex        "959"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "968"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1045> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=172,181>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Hizbollah"^^xsd:string ;
+        nif:beginIndex        "172"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "181"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1045> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=446,453>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Kawkaba"^^xsd:string ;
+        nif:beginIndex        "446"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "453"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1045> .
+
+<http://linguateca.pt/harem#char=708,718>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "20 minutos"^^xsd:string ;
+        nif:beginIndex        "708"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "718"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1045> .
+
+<http://linguateca.pt/harem#char=532,537>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Síria"^^xsd:string ;
+        nif:beginIndex        "532"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "537"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1045> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=458,478>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Resistência Islâmica"^^xsd:string ;
+        nif:beginIndex        "458"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "478"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1045> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=520,524>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Irão"^^xsd:string ;
+        nif:beginIndex        "520"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "524"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1045> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=852,857>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Bekaa"^^xsd:string ;
+        nif:beginIndex        "852"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "857"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1045> .
+
+<http://linguateca.pt/harem#char=495,504>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Hizbollah"^^xsd:string ;
+        nif:beginIndex        "495"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "504"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1045> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=0,1045>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1045"^^xsd:nonNegativeInteger ;
+        nif:isString    "Quatro militares mortos em atentados do Hizbollah Quatros militares israelitas morreram ontem num duplo ataque com explosivos reivindicado pelo grupo fundamentalista xiita Hizbollah ( Partido de Deus ) , segundo o primeiro balanço oficial . Uma bomba de forte potência telecomandada explodiu pouco antes do meio dia local ( 10h00 de Lisboa ) na estrada para Marjayoun , onde se situa o quartel-general das forças israelitas no sul do Líbano , em Kawkaba . A Resistência Islâmica , ala armada do Hizbollah , apoiada pelo Irão e pela Síria , reivindicou o ataque num comunicado em que disse que visara «uma coluna de líderes israelitas» . Segundo o mesmo comunicado , um segundo engenho explosivo foi activado 20 minutos mais tarde , à chegada de reforços israelitas . O duplo atentado foi seguido de forte tiroteio israelita contra o sul da planície de Bekaa , sob controlo sírio . Mais de 70 obuses cairam em meia hora nas encostas e colinas da área , onde o Hizbollah está bem implantado , segundo a polícia libanesa , que não deu pormenores . "^^xsd:string .
+
+<http://linguateca.pt/harem#char=358,367>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Marjayoun"^^xsd:string ;
+        nif:beginIndex        "358"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "367"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1045> .

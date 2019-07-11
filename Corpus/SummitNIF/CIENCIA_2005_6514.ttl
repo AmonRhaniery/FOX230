@@ -1,0 +1,64 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=643,659>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Emiko de Resende"^^xsd:string ;
+        nif:beginIndex        "643"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "659"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1192> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=463,470>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Taquari"^^xsd:string ;
+        nif:beginIndex        "463"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "470"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1192> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=917,924>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Taquari"^^xsd:string ;
+        nif:beginIndex        "917"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "924"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1192> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1187,1189>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "HC"^^xsd:string ;
+        nif:beginIndex        "1187"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1189"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1192> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=377,385>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Pantanal"^^xsd:string ;
+        nif:beginIndex        "377"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "385"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1192> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=32,39>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Taquari"^^xsd:string ;
+        nif:beginIndex        "32"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "39"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1192> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1192>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1192"^^xsd:nonNegativeInteger ;
+        nif:isString    "A inundação permanente no baixo Taquari é conseqüência da obstrução do fluxo do rio na região da planície , onde seu leito foi reduzido devido ao acúmulo de sedimentos . O estudo da Embrapa verificou que esse processo de assoreamento do rio foi acelerado a partir da década de 1970 . Naquela época , o governo militar incentivou o povoamento de áreas do planalto do entorno do Pantanal para o desenvolvimento da agricultura e pecuária . \"Aquela área toda do alto Taquari é , na sua maior parte , arenosa . Se você tirar a cobertura vegetal para colocar pasto ou agricultura , a primeira chuva arrasta uma enormidade de areia para o rio\" , diz Emiko de Resende . A destruição de trechos da vegetação que acompanha o curso do rio ( chamada de mata ciliar ) também contribuiu para o problema . Os sedimentos são arrastados para a parte baixa do rio . Como a correnteza na planície é muito fraca , há acúmulo no fundo do Taquari . \" O leito do rio ficou tão alto que está acima das áreas laterais , as planícies . Quando o rio arromba [ abre um canal e a água invade a planície ] , não volta mais para o leito na época da seca , porque o leito está mais alto que o campo\" , explica . ( EO e HC ) "^^xsd:string .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1182,1184>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "EO"^^xsd:string ;
+        nif:beginIndex        "1182"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1184"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1192> .

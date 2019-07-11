@@ -1,0 +1,94 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=566,592>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Agrupamentos de Escuteiros"^^xsd:string ;
+        nif:beginIndex        "566"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "592"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,727> .
+
+<http://linguateca.pt/harem#char=429,450>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Câmara de Santo Tirso"^^xsd:string ;
+        nif:beginIndex        "429"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "450"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,727> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=415,423>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Dezembro"^^xsd:string ;
+        nif:beginIndex        "415"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "423"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,727> .
+
+<http://linguateca.pt/harem#char=130,145>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Mérito Nacional"^^xsd:string ;
+        nif:beginIndex        "130"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "145"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,727> .
+
+<http://linguateca.pt/harem#char=95,116>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Câmara de Santo Tirso"^^xsd:string ;
+        nif:beginIndex        "95"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "116"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,727> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=72,75>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "CNE"^^xsd:string ;
+        nif:beginIndex        "72"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "75"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,727> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=334,365>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Movimento Escuteiro de Portugal"^^xsd:string ;
+        nif:beginIndex        "334"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "365"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,727> .
+
+<http://linguateca.pt/harem#char=20,41>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Câmara de Santo Tirso"^^xsd:string ;
+        nif:beginIndex        "20"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "41"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,727> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=0,727>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "727"^^xsd:nonNegativeInteger ;
+        nif:isString    "Escutismo distingue Câmara de Santo Tirso O Corpo Nacional de Escutas ( CNE ) atribuiu ontem à Câmara de Santo Tirso o diploma de Mérito Nacional , a sua mais alta distinção , pelo «apoio incondicional da autarquia ao escutismo no concelho» . A atribuição desta distinção surge no âmbito das comemorações dos 75 anos de existência do Movimento Escuteiro de Portugal , cujas festividades decorreram durante o mês de Dezembro . «A Câmara de Santo Tirso tem apoiado , incondicionalmente e desde sempre , o escutismo no concelho , criando melhores condições para que os Agrupamentos de Escuteiros existentes no município façam chegar às escolas e aos jovens locais os seus inúmeros projectos educativos» , sublinhou fonte da CNE . "^^xsd:string .
+
+<http://linguateca.pt/harem#char=721,724>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "CNE"^^xsd:string ;
+        nif:beginIndex        "721"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "724"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,727> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=309,316>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "75 anos"^^xsd:string ;
+        nif:beginIndex        "309"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "316"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,727> .
+
+<http://linguateca.pt/harem#char=44,69>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Corpo Nacional de Escutas"^^xsd:string ;
+        nif:beginIndex        "44"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "69"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,727> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .

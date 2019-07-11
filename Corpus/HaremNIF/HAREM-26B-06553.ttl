@@ -1,0 +1,349 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=1303,1330>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Assembleia Nacional Popular"^^xsd:string ;
+        nif:beginIndex        "1303"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1330"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2835> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=2397,2408>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "S . Nicolau"^^xsd:string ;
+        nif:beginIndex        "2397"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2408"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2835> .
+
+<http://linguateca.pt/harem#char=2826,2832>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Sahara"^^xsd:string ;
+        nif:beginIndex        "2826"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2832"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2835> .
+
+<http://linguateca.pt/harem#char=1513,1526>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Julho de 1975"^^xsd:string ;
+        nif:beginIndex        "1513"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1526"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2835> .
+
+<http://linguateca.pt/harem#char=946,950>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1956"^^xsd:string ;
+        nif:beginIndex        "946"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "950"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2835> .
+
+<http://linguateca.pt/harem#char=2502,2506>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Fogo"^^xsd:string ;
+        nif:beginIndex        "2502"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2506"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2835> .
+
+<http://linguateca.pt/harem#char=1180,1185>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "PAIGC"^^xsd:string ;
+        nif:beginIndex        "1180"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1185"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2835> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1188,1196>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Portugal"^^xsd:string ;
+        nif:beginIndex        "1188"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1196"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2835> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=2411,2422>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Santo Antão"^^xsd:string ;
+        nif:beginIndex        "2411"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2422"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2835> .
+
+<http://linguateca.pt/harem#char=1887,1892>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "455Km"^^xsd:string ;
+        nif:beginIndex        "1887"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1892"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2835> .
+
+<http://linguateca.pt/harem#char=320,326>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Brasil"^^xsd:string ;
+        nif:beginIndex        "320"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "326"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2835> .
+
+<http://linguateca.pt/harem#char=2425,2433>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Boavista"^^xsd:string ;
+        nif:beginIndex        "2425"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2433"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2835> .
+
+<http://linguateca.pt/harem#char=2391,2394>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Sal"^^xsd:string ;
+        nif:beginIndex        "2391"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2394"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2835> .
+
+<http://linguateca.pt/harem#char=1896,1910>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Costa Africana"^^xsd:string ;
+        nif:beginIndex        "1896"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1910"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2835> .
+
+<http://linguateca.pt/harem#char=976,1035>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Partido Africano para a Independência da Guiné e Cabo Verde"^^xsd:string ;
+        nif:beginIndex        "976"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1035"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2835> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=2706,2709>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Sal"^^xsd:string ;
+        nif:beginIndex        "2706"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2709"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2835> .
+
+<http://linguateca.pt/harem#char=81,93>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Maio de 1460"^^xsd:string ;
+        nif:beginIndex        "81"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "93"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2835> .
+
+<http://linguateca.pt/harem#char=2291,2310>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Continente Africano"^^xsd:string ;
+        nif:beginIndex        "2291"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2310"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2835> .
+
+<http://linguateca.pt/harem#char=2436,2447>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Santa Luzia"^^xsd:string ;
+        nif:beginIndex        "2436"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2447"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2835> .
+
+<http://linguateca.pt/harem#char=1532,1536>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1991"^^xsd:string ;
+        nif:beginIndex        "1532"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1536"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2835> .
+
+<http://linguateca.pt/harem#char=2668,2672>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Fogo"^^xsd:string ;
+        nif:beginIndex        "2668"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2672"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2835> .
+
+<http://linguateca.pt/harem#char=953,967>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Amílcar Cabral"^^xsd:string ;
+        nif:beginIndex        "953"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "967"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2835> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=21,31>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Cabo Verde"^^xsd:string ;
+        nif:beginIndex        "21"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "31"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2835> .
+
+<http://linguateca.pt/harem#char=1999,2006>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "4033Km2"^^xsd:string ;
+        nif:beginIndex        "1999"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2006"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2835> .
+
+<http://linguateca.pt/harem#char=225,229>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1462"^^xsd:string ;
+        nif:beginIndex        "225"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "229"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2835> .
+
+<http://linguateca.pt/harem#char=1126,1148>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "19 de Dezembro de 1974"^^xsd:string ;
+        nif:beginIndex        "1126"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1148"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2835> .
+
+<http://linguateca.pt/harem#char=2480,2488>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Santiago"^^xsd:string ;
+        nif:beginIndex        "2480"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2488"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2835> .
+
+<http://linguateca.pt/harem#char=2710,2714>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Maio"^^xsd:string ;
+        nif:beginIndex        "2710"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2714"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2835> .
+
+<http://linguateca.pt/harem#char=2644,2656>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "2.830 metros"^^xsd:string ;
+        nif:beginIndex        "2644"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2656"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2835> .
+
+<http://linguateca.pt/harem#char=1338,1356>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "5 de Julho de 1975"^^xsd:string ;
+        nif:beginIndex        "1338"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1356"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2835> .
+
+<http://linguateca.pt/harem#char=2717,2725>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Boavista"^^xsd:string ;
+        nif:beginIndex        "2717"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2725"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2835> .
+
+<http://linguateca.pt/harem#char=139,147>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Santiago"^^xsd:string ;
+        nif:beginIndex        "139"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "147"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2835> .
+
+<http://linguateca.pt/harem#char=2273,2280>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Alísios"^^xsd:string ;
+        nif:beginIndex        "2273"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2280"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2835> .
+
+<http://linguateca.pt/harem#char=298,304>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Europa"^^xsd:string ;
+        nif:beginIndex        "298"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "304"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2835> .
+
+<http://linguateca.pt/harem#char=2350,2360>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Barlavento"^^xsd:string ;
+        nif:beginIndex        "2350"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2360"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2835> .
+
+<http://linguateca.pt/harem#char=2455,2464>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Sotavento"^^xsd:string ;
+        nif:beginIndex        "2455"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2464"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2835> .
+
+<http://linguateca.pt/harem#char=2377,2388>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "S . Vicente"^^xsd:string ;
+        nif:beginIndex        "2377"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2388"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2835> .
+
+<http://linguateca.pt/harem#char=1038,1043>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "PAIGC"^^xsd:string ;
+        nif:beginIndex        "1038"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1043"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2835> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1714,1718>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Cabo"^^xsd:string ;
+        nif:beginIndex        "1714"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1718"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2835> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1420,1428>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Portugal"^^xsd:string ;
+        nif:beginIndex        "1420"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1428"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2835> .
+
+<http://linguateca.pt/harem#char=0,2835>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "2835"^^xsd:nonNegativeInteger ;
+        nif:isString    "História As ilhas de Cabo Verde foram descobertas por navegadores portugueses em Maio de 1460 , sem indícios de presença humana anterior . Santiago foi a ilha mais favorável para a ocupação e assim o povoamento começa ali em 1462 . Dada a sua posição estratégica , nas rotas que ligavam entre si a Europa , a África e o Brasil , as ilhas serviram de entreposto comercial e de aprovisionamento , com particular destaque no tráfego de escravos . Cedo , o arquipélago tornou-se num centro de concentração e dispersão de homens , plantas e animais . Com a abolição do comércio de escravos e a constante deterioração das condições climáticas , Cabo Verde entrou em decadência e passou a viver com base numa economia pobre , de subsistência . Europeus livres e escravos da costa africana fundiram-se num só povo , o caboverdiano , com uma forma de estar e viver muito própria e o crioulo emergiu como idioma da comunidade maioritariamente mestiça . Em 1956 , Amílcar Cabral criou o Partido Africano para a Independência da Guiné e Cabo Verde ( PAIGC ) , lutando contra o colonialismo e iniciando uma marcha para a independência . A 19 de Dezembro de 1974 foi assinado um acordo entre o PAIGC e Portugal , instaurando-se um governo de transição em Cabo Verde . Este mesmo Governo preparou as eleições para uma Assembleia Nacional Popular que em 5 de Julho de 1975 proclamou a independência . A demarcação cultural em relação a Portugal e a divulgação de ideias nacionalistas conduziram à independência do arquipélago em Julho de 1975 . Em 1991 , na sequência das primeiras eleições pluripartidárias realizadas no país , foi instituída uma democracia parlamentar com todas as instituições de uma democracia moderna . Hoje Cabo verde é um país com estabilidade e paz sociais , pelo que goza de crédito junto de governos , empresas e instituições financeiras internacionais . Geografia Situadas a 455Km da Costa Africana , as dez ilhas e os oito ilhéus do Arquipélago de Cabo Verde , estendem-se por cerca de 4033Km2 e foram formadas pela acumulação de rochas , resultantes de erupções sobre as plataformas submarinas . O arquipélago tem , de uma forma geral , um aspecto imponente e majestoso . Algumas ilhas são áridas , mas noutras a vegetação é exuberante , tropical . Os ventos Alísios vindos do Continente Africano , dividem o país em dois grupos , o de Barlavento constituído por S . Vicente , Sal , S . Nicolau , Santo Antão , Boavista e Santa Luzia e o de Sotavento pelas ilhas de Santiago Maio Brava e Fogo . O relevo da maior parte das ilhas é acidentado , com altitudes que ultrapassam os mil metros em algumas ilhas atingindo mesmo cerca de 2.830 metros na ilha do Fogo . As três ilhas mais orientais , Sal Maio e Boavista , têm um relevo mais plano e um clima mais árido por estarem expostas aos ventos secos e quentes do Sahara . "^^xsd:string .
+
+<http://linguateca.pt/harem#char=639,649>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Cabo Verde"^^xsd:string ;
+        nif:beginIndex        "639"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "649"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2835> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1946,1971>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Arquipélago de Cabo Verde"^^xsd:string ;
+        nif:beginIndex        "1946"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1971"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2835> .
+
+<http://linguateca.pt/harem#char=2489,2493>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Maio"^^xsd:string ;
+        nif:beginIndex        "2489"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2493"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2835> .
+
+<http://linguateca.pt/harem#char=309,315>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "África"^^xsd:string ;
+        nif:beginIndex        "309"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "315"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2835> .
+
+<http://linguateca.pt/harem#char=2494,2499>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Brava"^^xsd:string ;
+        nif:beginIndex        "2494"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2499"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2835> .
+
+<http://linguateca.pt/harem#char=1265,1272>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Governo"^^xsd:string ;
+        nif:beginIndex        "1265"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1272"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2835> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1241,1251>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Cabo Verde"^^xsd:string ;
+        nif:beginIndex        "1241"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1251"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2835> .

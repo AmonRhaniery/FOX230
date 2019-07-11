@@ -1,0 +1,205 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=161,175>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Rio de Janeiro"^^xsd:string ;
+        nif:beginIndex        "161"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "175"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1715> .
+
+<http://linguateca.pt/harem#char=1466,1472>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Nuzman"^^xsd:string ;
+        nif:beginIndex        "1466"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1472"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1715> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=246,258>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Escola Naval"^^xsd:string ;
+        nif:beginIndex        "246"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "258"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1715> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1151,1154>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "205"^^xsd:string ;
+        nif:beginIndex        "1151"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1154"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1715> .
+
+<http://linguateca.pt/harem#char=1237,1254>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Miriam D'Agostini"^^xsd:string ;
+        nif:beginIndex        "1237"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1254"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1715> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1217,1234>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Fernando Meligeni"^^xsd:string ;
+        nif:beginIndex        "1217"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1234"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1715> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=580,606>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Comitê Olímpico Brasileiro"^^xsd:string ;
+        nif:beginIndex        "580"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "606"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1715> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=126,132>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Sydney"^^xsd:string ;
+        nif:beginIndex        "126"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "132"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1715> .
+
+<http://linguateca.pt/harem#char=348,354>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Sydney"^^xsd:string ;
+        nif:beginIndex        "348"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "354"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1715> .
+
+<http://linguateca.pt/harem#char=1701,1706>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Jogos"^^xsd:string ;
+        nif:beginIndex        "1701"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1706"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1715> .
+
+<http://linguateca.pt/harem#char=72,75>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Rio"^^xsd:string ;
+        nif:beginIndex        "72"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "75"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1715> .
+
+<http://linguateca.pt/harem#char=1126,1132>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Sydney"^^xsd:string ;
+        nif:beginIndex        "1126"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1132"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1715> .
+
+<http://linguateca.pt/harem#char=548,562>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "15 de setembro"^^xsd:string ;
+        nif:beginIndex        "548"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "562"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1715> .
+
+<http://linguateca.pt/harem#char=0,1715>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1715"^^xsd:nonNegativeInteger ;
+        nif:isString    "Untitled Document : : Delegação olímpica brasileira tem agenda cheia no Rio Parte dos atletas que vão representar o Brasil em Sydney estiveram ontem de manhã no Rio de Janeiro , para tirar a foto oficial da delegação.A cerimônia foi realizada na Escola Naval da cidade.Junto com os 90 atletas olímpicos presentes estavam 40 profissionais que vão a Sydney , entre médicos , psicólogos , chefes de equipe e presidentes de confederações.Todos vestiam o uniforme social , que será usado no desfile da Cerimônia de Abertura dos Jogos Olímpicos , no dia 15 de setembro .O presidente do Comitê Olímpico Brasileiro ( COB ) , Carlos Arthur Nuzman , também participou do evento.Após a foto oficial , os integrantes da delegação foram vacinados contra a gripe australiana.Em seguida participaram do seminário \" Transformando sonhos em medalhas \" , do médico e consultor Roberto Shyniashiki , que acompanhará a delegação aos Jogos .Ele enfocou a importância da força do pensamento para a realização do sonho olímpico.Esse foi o primeiro evento de integração dos atletas promovido pelo COB .De acordo com o comitê , a equipe brasileira em Sydney será composta por 205 atletas.Esse número pode aumentar caso os tenistas André Sá , Fernando Meligeni e Miriam D'Agostini consigam a classificação pelo ranking geográfico das associações de tênis e o velocista Sanderlei Parrela seja absolvido da acusação de doping.O doping , aliás , foi um tema bastante presente durante o evento . Nuzman alertou os atletas para que não comam nada que não seja oferecido por um componente da comissão técnica de sua modalidade.O presidente do COB enfocou que seria uma vergonha ter de enfrentar um caso positivo de doping durante os Jogos .VOLTAR "^^xsd:string .
+
+<http://linguateca.pt/harem#char=1611,1614>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "COB"^^xsd:string ;
+        nif:beginIndex        "1611"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1614"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1715> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=800,832>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Transformando sonhos em medalhas"^^xsd:string ;
+        nif:beginIndex        "800"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "832"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1715> .
+
+<http://linguateca.pt/harem#char=1073,1076>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "COB"^^xsd:string ;
+        nif:beginIndex        "1073"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1076"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1715> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=282,284>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "90"^^xsd:string ;
+        nif:beginIndex        "282"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "284"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1715> .
+
+<http://linguateca.pt/harem#char=913,918>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Jogos"^^xsd:string ;
+        nif:beginIndex        "913"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "918"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1715> .
+
+<http://linguateca.pt/harem#char=321,323>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "40"^^xsd:string ;
+        nif:beginIndex        "321"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "323"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1715> .
+
+<http://linguateca.pt/harem#char=859,878>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Roberto Shyniashiki"^^xsd:string ;
+        nif:beginIndex        "859"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "878"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1715> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1206,1214>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "André Sá"^^xsd:string ;
+        nif:beginIndex        "1206"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1214"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1715> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=497,538>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Cerimônia de Abertura dos Jogos Olímpicos"^^xsd:string ;
+        nif:beginIndex        "497"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "538"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1715> .
+
+<http://linguateca.pt/harem#char=617,637>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Carlos Arthur Nuzman"^^xsd:string ;
+        nif:beginIndex        "617"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "637"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1715> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=609,612>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "COB"^^xsd:string ;
+        nif:beginIndex        "609"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "612"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1715> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=116,122>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Brasil"^^xsd:string ;
+        nif:beginIndex        "116"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "122"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1715> .
+
+<http://linguateca.pt/harem#char=1343,1360>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Sanderlei Parrela"^^xsd:string ;
+        nif:beginIndex        "1343"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1360"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1715> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .

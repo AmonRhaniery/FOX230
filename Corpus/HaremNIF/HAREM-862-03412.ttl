@@ -1,0 +1,293 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=374,410>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Comissão de Controle e Gestão Fiscal"^^xsd:string ;
+        nif:beginIndex        "374"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "410"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2416> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=706,710>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "INSS"^^xsd:string ;
+        nif:beginIndex        "706"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "710"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2416> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=749,773>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Universidade de Brasília"^^xsd:string ;
+        nif:beginIndex        "749"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "773"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2416> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=358,369>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "30 de junho"^^xsd:string ;
+        nif:beginIndex        "358"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "369"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2416> .
+
+<http://linguateca.pt/harem#char=776,779>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "UnB"^^xsd:string ;
+        nif:beginIndex        "776"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "779"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2416> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1393,1397>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1998"^^xsd:string ;
+        nif:beginIndex        "1393"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1397"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2416> .
+
+<http://linguateca.pt/harem#char=201,237>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Divisão na Coordenação Geral do INSS"^^xsd:string ;
+        nif:beginIndex        "201"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "237"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2416> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1058,1109>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Gratificação de Desempenho por Atividade Tributária"^^xsd:string ;
+        nif:beginIndex        "1058"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1109"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2416> .
+
+<http://linguateca.pt/harem#char=127,130>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "150"^^xsd:string ;
+        nif:beginIndex        "127"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "130"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2416> .
+
+<http://linguateca.pt/harem#char=897,901>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1998"^^xsd:string ;
+        nif:beginIndex        "897"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "901"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2416> .
+
+<http://linguateca.pt/harem#char=1612,1634>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Direito Previdenciário"^^xsd:string ;
+        nif:beginIndex        "1612"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1634"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2416> .
+
+<http://linguateca.pt/harem#char=1481,1506>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Legislação Previdenciária"^^xsd:string ;
+        nif:beginIndex        "1481"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1506"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2416> .
+
+<http://linguateca.pt/harem#char=1757,1790>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Regulamento da Previdência Social"^^xsd:string ;
+        nif:beginIndex        "1757"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1790"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2416> .
+
+<http://linguateca.pt/harem#char=1262,1282>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Luiz Alberto Lazinho"^^xsd:string ;
+        nif:beginIndex        "1262"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1282"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2416> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1233,1259>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Arrecadação Fiscal do INSS"^^xsd:string ;
+        nif:beginIndex        "1233"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1259"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2416> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=2214,2232>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Previdência Social"^^xsd:string ;
+        nif:beginIndex        "2214"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2232"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2416> .
+
+<http://linguateca.pt/harem#char=680,690>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "30 de maio"^^xsd:string ;
+        nif:beginIndex        "680"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "690"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2416> .
+
+<http://linguateca.pt/harem#char=877,881>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "INSS"^^xsd:string ;
+        nif:beginIndex        "877"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "881"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2416> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=491,523>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ministério de Orçamento e Gestão"^^xsd:string ;
+        nif:beginIndex        "491"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "523"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2416> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=32,36>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "INSS"^^xsd:string ;
+        nif:beginIndex        "32"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "36"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2416> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=2172,2184>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Lei 9.876/99"^^xsd:string ;
+        nif:beginIndex        "2172"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2184"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2416> .
+
+<http://linguateca.pt/harem#char=1042,1049>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "R$3.613"^^xsd:string ;
+        nif:beginIndex        "1042"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1049"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2416> .
+
+<http://linguateca.pt/harem#char=1519,1539>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Luiz Alberto Lazinho"^^xsd:string ;
+        nif:beginIndex        "1519"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1539"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2416> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1112,1116>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "GDAT"^^xsd:string ;
+        nif:beginIndex        "1112"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1116"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2416> .
+
+<http://linguateca.pt/harem#char=1444,1457>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Contabilidade"^^xsd:string ;
+        nif:beginIndex        "1444"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1457"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2416> .
+
+<http://linguateca.pt/harem#char=1012,1022>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "R$2.409,66"^^xsd:string ;
+        nif:beginIndex        "1012"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1022"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2416> .
+
+<http://linguateca.pt/harem#char=0,2416>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "2416"^^xsd:nonNegativeInteger ;
+        nif:isString    "Concurso Para Auditor Fiscal do INSS Já está pronta a minuta do edital do concurso para auditor fiscal do INSS , que oferecerá 150 vagas , prometidas pelo governo federal , conforme revelou o chefe de Divisão na Coordenação Geral do INSS , Maurílio Gonçalves Dias . O INSS aguarda apenas a autorização oficial , para dar início ao processo seletivo . No dia 30 de junho , a Comissão de Controle e Gestão Fiscal , do Ministério da Fazenda , publicou , no Diário Oficial , uma recomendação ao Ministério de Orçamento e Gestão , pela autorização para a abertura de concursos . No total , a oferta será de 3.728 vagas , em carreiras de nível superior , conforme promessa feita no dia 30 de maio . Uma fonte do INSS disse que é grande a possibilidade da Universidade de Brasília ( UnB ) organizar o seu concurso . A instituição é a mesma que coordenou o último processo seletivo do INSS , realizado em 1998 . Para participar do concurso é necessário ter concluído curso superior em qualquer área . A remuneração é de R$2.409,66 , podendo chegar a R$3.613 , com a Gratificação de Desempenho por Atividade Tributária ( GDAT ) , obtida em função do alcance das metas de arrecadação e dos resultados obtidos com a fiscalização . O diretor de Arrecadação Fiscal do INSS , Luiz Alberto Lazinho , acredita que o conteúdo programático das provas seguirá o modelo do último processo seletivo , realizado em 1998 . \"Os candidatos devem dar especial atenção a Contabilidade , Direito Tributário e Legislação Previdenciária \" , sugeriu Luiz Alberto Lazinho . Para aqueles que vão participar do processo seletivo , o professor de Direito Previdenciário Fábio Zambite dá uma dica importante : os candidatos devem estudar com bastante atenção o Decreto 3.048/99 , que aprova o Regulamento da Previdência Social . \" A Legislação é muito extensa . Ao invés de estudar as Leis de Custeio e de Benefícios , além do Regulamento da Previdência Social sugiro que o candidato estude diretamente o Decreto 3.048/99 , que reproduz o que dizem essas leis . Assim , o candidato ganha tempo na hora de estudar\" , orienta . Outra sugestão do professor é que os concorrentes analisem com especial atenção a Lei 9.876/99 , que introduz alterações na Previdência Social . \"Uma dessas alterações diz respeito à mudança no cálculo das aposentadorias . Essa lei também cria o fator previdenciário , que certamente será uma das questões da prova\" , disse . "^^xsd:string .
+
+<http://linguateca.pt/harem#char=240,263>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Maurílio Gonçalves Dias"^^xsd:string ;
+        nif:beginIndex        "240"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "263"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2416> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1969,1985>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Decreto 3.048/99"^^xsd:string ;
+        nif:beginIndex        "1969"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1985"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2416> .
+
+<http://linguateca.pt/harem#char=454,468>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Diário Oficial"^^xsd:string ;
+        nif:beginIndex        "454"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "468"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2416> .
+
+<http://linguateca.pt/harem#char=1849,1880>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Leis de Custeio e de Benefícios"^^xsd:string ;
+        nif:beginIndex        "1849"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1880"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2416> .
+
+<http://linguateca.pt/harem#char=268,272>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "INSS"^^xsd:string ;
+        nif:beginIndex        "268"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "272"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2416> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1891,1924>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Regulamento da Previdência Social"^^xsd:string ;
+        nif:beginIndex        "1891"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1924"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2416> .
+
+<http://linguateca.pt/harem#char=602,607>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "3.728"^^xsd:string ;
+        nif:beginIndex        "602"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "607"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2416> .
+
+<http://linguateca.pt/harem#char=1635,1648>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Fábio Zambite"^^xsd:string ;
+        nif:beginIndex        "1635"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1648"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2416> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=416,437>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ministério da Fazenda"^^xsd:string ;
+        nif:beginIndex        "416"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "437"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2416> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=106,110>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "INSS"^^xsd:string ;
+        nif:beginIndex        "106"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "110"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2416> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1460,1478>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Direito Tributário"^^xsd:string ;
+        nif:beginIndex        "1460"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1478"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2416> .
+
+<http://linguateca.pt/harem#char=1725,1741>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Decreto 3.048/99"^^xsd:string ;
+        nif:beginIndex        "1725"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1741"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2416> .

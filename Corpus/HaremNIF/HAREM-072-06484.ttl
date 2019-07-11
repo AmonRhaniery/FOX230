@@ -1,0 +1,274 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=1206,1209>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Cia"^^xsd:string ;
+        nif:beginIndex        "1206"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1209"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1576> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=402,405>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Gap"^^xsd:string ;
+        nif:beginIndex        "402"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "405"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1576> .
+
+<http://linguateca.pt/harem#char=1267,1272>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Magda"^^xsd:string ;
+        nif:beginIndex        "1267"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1272"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1576> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=925,928>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Cia"^^xsd:string ;
+        nif:beginIndex        "925"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "928"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1576> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=456,461>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Bahia"^^xsd:string ;
+        nif:beginIndex        "456"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "461"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1576> .
+
+<http://linguateca.pt/harem#char=409,420>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Neide Mello"^^xsd:string ;
+        nif:beginIndex        "409"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "420"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1576> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=192,196>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "DKNY"^^xsd:string ;
+        nif:beginIndex        "192"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "196"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1576> .
+
+<http://linguateca.pt/harem#char=1287,1300>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Luciana Abrão"^^xsd:string ;
+        nif:beginIndex        "1287"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1300"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1576> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=295,301>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Brasil"^^xsd:string ;
+        nif:beginIndex        "295"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "301"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1576> .
+
+<http://linguateca.pt/harem#char=824,827>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Cia"^^xsd:string ;
+        nif:beginIndex        "824"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "827"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1576> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1571,1575>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "2000"^^xsd:string ;
+        nif:beginIndex        "1571"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1575"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1576> .
+
+<http://linguateca.pt/harem#char=981,993>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Sérgio Porto"^^xsd:string ;
+        nif:beginIndex        "981"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "993"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1576> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=0,17>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Jornal Light News"^^xsd:string ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "17"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1576> .
+
+<http://linguateca.pt/harem#char=1391,1401>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Moniquinha"^^xsd:string ;
+        nif:beginIndex        "1391"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1401"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1576> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=258,272>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Nathália Costa"^^xsd:string ;
+        nif:beginIndex        "258"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "272"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1576> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=322,328>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Tóquio"^^xsd:string ;
+        nif:beginIndex        "322"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "328"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1576> .
+
+<http://linguateca.pt/harem#char=219,231>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ralfh Lauren"^^xsd:string ;
+        nif:beginIndex        "219"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "231"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1576> .
+
+<http://linguateca.pt/harem#char=1361,1367>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "agosto"^^xsd:string ;
+        nif:beginIndex        "1361"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1367"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1576> .
+
+<http://linguateca.pt/harem#char=777,790>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Celeste Costa"^^xsd:string ;
+        nif:beginIndex        "777"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "790"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1576> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=101,112>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Nova Iorque"^^xsd:string ;
+        nif:beginIndex        "101"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "112"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1576> .
+
+<http://linguateca.pt/harem#char=958,961>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "UNO"^^xsd:string ;
+        nif:beginIndex        "958"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "961"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1576> .
+
+<http://linguateca.pt/harem#char=1550,1568>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "XDreams Multimídia"^^xsd:string ;
+        nif:beginIndex        "1550"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1568"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1576> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=490,499>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ana Paula"^^xsd:string ;
+        nif:beginIndex        "490"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "499"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1576> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=599,604>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "ICBEU"^^xsd:string ;
+        nif:beginIndex        "599"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "604"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1576> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1144,1153>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "São Paulo"^^xsd:string ;
+        nif:beginIndex        "1144"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1153"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1576> .
+
+<http://linguateca.pt/harem#char=82,97>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Aline Nakashima"^^xsd:string ;
+        nif:beginIndex        "82"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "97"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1576> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=996,1011>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Mônica Monteiro"^^xsd:string ;
+        nif:beginIndex        "996"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1011"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1576> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=864,881>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Qualidade de Vida"^^xsd:string ;
+        nif:beginIndex        "864"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "881"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1576> .
+
+<http://linguateca.pt/harem#char=724,727>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "ACI"^^xsd:string ;
+        nif:beginIndex        "724"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "727"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1576> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1109,1113>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "DADO"^^xsd:string ;
+        nif:beginIndex        "1109"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1113"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1576> .
+
+<http://linguateca.pt/harem#char=572,584>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Energy Sport"^^xsd:string ;
+        nif:beginIndex        "572"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "584"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1576> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=20,31>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Agosto 2000"^^xsd:string ;
+        nif:beginIndex        "20"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "31"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1576> .
+
+<http://linguateca.pt/harem#char=0,1576>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1576"^^xsd:nonNegativeInteger ;
+        nif:isString    "Jornal Light News - Agosto 2000 mm Agosto 2000 · Babados - Encontrei com a modelo Aline Nakashima em Nova Iorque e saímos para almoçar.Ela me contou dos seus trabalhos , entre eles fotos para DKNY e campanha mundial de Ralfh Lauren .- Enquanto isso a modelo Nathália Costa descansou uns dias no Brasil , após temporada em Tóquio .Retorna aos Estados Unidos onde está morando , para fazer a campanha da Gap .- Neide Mello e Mariza Romero foram descansar na Bahia .Que coisa boa .- Gente , a Ana Paula cortou o cabelo...Que gracinha .- Lindos os aparelhos novos da academia Energy Sport .Parabéns!- O ICBEU está novamente ampliando o seu espaço.Que maravilha !- Muito disputada a palestra de moda e comportamento realizada na ACI para o grupo de mulheres empresárias da cidade . Celeste Costa está de parabéns pela idéia .- A Cia está ministrando o segundo curso de Qualidade de Vida para mulheres.Obtenham mais informações na Cia . - Dia desses fomos jogar \" UNO \" na residência de Sérgio Porto e Mônica Monteiro .Foi muito divertido , temos uma amiga nossa que comeu , bebeu e até dormiu no sofá.Sem falar no DADO ...- O famoso cabeleireiro de São Paulo continua vindo todas as segundas-feiras no salão da Cia para cuidar do visual de quem está na moda .- A modelete Magda e minha amiga Luciana Abrão foram umas das que completaram mais uma primavera no mês de agosto .- Já me falaram que a Moniquinha está indo dar pinta no ponto de encontro.Não estou entendendo .· .Conheça : Colunistas Light News A.C . Parcerias Anuncie Sugestão de Pauta Contato XDreams Multimídia ' 2000 "^^xsd:string .
+
+<http://linguateca.pt/harem#char=35,46>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Agosto 2000"^^xsd:string ;
+        nif:beginIndex        "35"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "46"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1576> .
+
+<http://linguateca.pt/harem#char=423,436>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Mariza Romero"^^xsd:string ;
+        nif:beginIndex        "423"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "436"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1576> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=342,356>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Estados Unidos"^^xsd:string ;
+        nif:beginIndex        "342"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "356"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1576> .

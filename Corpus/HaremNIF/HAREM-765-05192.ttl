@@ -1,0 +1,368 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=2500,2506>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Leuven"^^xsd:string ;
+        nif:beginIndex        "2500"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2506"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5462> .
+
+<http://linguateca.pt/harem#char=554,570>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Carneiro Pacheco"^^xsd:string ;
+        nif:beginIndex        "554"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "570"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5462> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=53,58>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Braga"^^xsd:string ;
+        nif:beginIndex        "53"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "58"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5462> .
+
+<http://linguateca.pt/harem#char=2213,2220>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Espanha"^^xsd:string ;
+        nif:beginIndex        "2213"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2220"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5462> .
+
+<http://linguateca.pt/harem#char=4391,4400>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Andalusia"^^xsd:string ;
+        nif:beginIndex        "4391"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4400"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5462> .
+
+<http://linguateca.pt/harem#char=2058,2064>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Leuven"^^xsd:string ;
+        nif:beginIndex        "2058"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2064"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5462> .
+
+<http://linguateca.pt/harem#char=4061,4070>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Barcelona"^^xsd:string ;
+        nif:beginIndex        "4061"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4070"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5462> .
+
+<http://linguateca.pt/harem#char=290,292>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Sé"^^xsd:string ;
+        nif:beginIndex        "290"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "292"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5462> .
+
+<http://linguateca.pt/harem#char=1640,1662>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Faculdade de Filosofia"^^xsd:string ;
+        nif:beginIndex        "1640"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1662"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5462> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1956,1964>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Política"^^xsd:string ;
+        nif:beginIndex        "1956"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1964"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5462> .
+
+<http://linguateca.pt/harem#char=1310,1327>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Antero de Quental"^^xsd:string ;
+        nif:beginIndex        "1310"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1327"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5462> .
+
+<http://linguateca.pt/harem#char=2316,2322>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "França"^^xsd:string ;
+        nif:beginIndex        "2316"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2322"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5462> .
+
+<http://linguateca.pt/harem#char=2685,2691>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Leuven"^^xsd:string ;
+        nif:beginIndex        "2685"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2691"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5462> .
+
+<http://linguateca.pt/harem#char=1847,1854>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Deuston"^^xsd:string ;
+        nif:beginIndex        "1847"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1854"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5462> .
+
+<http://linguateca.pt/harem#char=1724,1732>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Economia"^^xsd:string ;
+        nif:beginIndex        "1724"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1732"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5462> .
+
+<http://linguateca.pt/harem#char=4940,4948>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Andalusa"^^xsd:string ;
+        nif:beginIndex        "4940"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4948"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5462> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=841,852>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Congregados"^^xsd:string ;
+        nif:beginIndex        "841"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "852"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5462> .
+
+<http://linguateca.pt/harem#char=1838,1844>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Bilbau"^^xsd:string ;
+        nif:beginIndex        "1838"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1844"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5462> .
+
+<http://linguateca.pt/harem#char=644,654>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "século XVI"^^xsd:string ;
+        nif:beginIndex        "644"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "654"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5462> .
+
+<http://linguateca.pt/harem#char=1684,1698>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ética Política"^^xsd:string ;
+        nif:beginIndex        "1684"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1698"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5462> .
+
+<http://linguateca.pt/harem#char=1100,1107>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "19 anos"^^xsd:string ;
+        nif:beginIndex        "1100"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1107"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5462> .
+
+<http://linguateca.pt/harem#char=1967,1973>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Leuven"^^xsd:string ;
+        nif:beginIndex        "1967"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1973"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5462> .
+
+<http://linguateca.pt/harem#char=1751,1757>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Bilbau"^^xsd:string ;
+        nif:beginIndex        "1751"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1757"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5462> .
+
+<http://linguateca.pt/harem#char=4805,4812>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Espanha"^^xsd:string ;
+        nif:beginIndex        "4805"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4812"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5462> .
+
+<http://linguateca.pt/harem#char=1410,1415>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Braga"^^xsd:string ;
+        nif:beginIndex        "1410"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1415"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5462> .
+
+<http://linguateca.pt/harem#char=3349,3359>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "País Basco"^^xsd:string ;
+        nif:beginIndex        "3349"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3359"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5462> .
+
+<http://linguateca.pt/harem#char=1584,1589>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Braga"^^xsd:string ;
+        nif:beginIndex        "1584"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1589"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5462> .
+
+<http://linguateca.pt/harem#char=5429,5436>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Espanha"^^xsd:string ;
+        nif:beginIndex        "5429"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5436"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5462> .
+
+<http://linguateca.pt/harem#char=74,76>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Sé"^^xsd:string ;
+        nif:beginIndex        "74"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "76"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5462> .
+
+<http://linguateca.pt/harem#char=1666,1681>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ética Económica"^^xsd:string ;
+        nif:beginIndex        "1666"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1681"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5462> .
+
+<http://linguateca.pt/harem#char=3008,3011>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "4-1"^^xsd:string ;
+        nif:beginIndex        "3008"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3011"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5462> .
+
+<http://linguateca.pt/harem#char=1021,1038>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Dr . Alberto Feio"^^xsd:string ;
+        nif:beginIndex        "1021"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1038"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5462> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1893,1900>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Deuston"^^xsd:string ;
+        nif:beginIndex        "1893"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1900"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5462> .
+
+<http://linguateca.pt/harem#char=716,725>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Bom-Jesus"^^xsd:string ;
+        nif:beginIndex        "716"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "725"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5462> .
+
+<http://linguateca.pt/harem#char=2985,2992>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Espanha"^^xsd:string ;
+        nif:beginIndex        "2985"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2992"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5462> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=4768,4778>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Sevilhanas"^^xsd:string ;
+        nif:beginIndex        "4768"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4778"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5462> .
+
+<http://linguateca.pt/harem#char=4827,4836>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Salamanca"^^xsd:string ;
+        nif:beginIndex        "4827"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4836"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5462> .
+
+<http://linguateca.pt/harem#char=2349,2354>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Paris"^^xsd:string ;
+        nif:beginIndex        "2349"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2354"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5462> .
+
+<http://linguateca.pt/harem#char=2481,2483>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "9h"^^xsd:string ;
+        nif:beginIndex        "2481"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2483"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5462> .
+
+<http://linguateca.pt/harem#char=2968,2975>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Portgal"^^xsd:string ;
+        nif:beginIndex        "2968"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2975"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5462> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=2252,2258>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "França"^^xsd:string ;
+        nif:beginIndex        "2252"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2258"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5462> .
+
+<http://linguateca.pt/harem#char=3859,3868>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Península"^^xsd:string ;
+        nif:beginIndex        "3859"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3868"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5462> .
+
+<http://linguateca.pt/harem#char=147,154>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Barroca"^^xsd:string ;
+        nif:beginIndex        "147"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "154"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5462> .
+
+<http://linguateca.pt/harem#char=1095,1097>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "18"^^xsd:string ;
+        nif:beginIndex        "1095"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1097"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5462> .
+
+<http://linguateca.pt/harem#char=1531,1540>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Filosofia"^^xsd:string ;
+        nif:beginIndex        "1531"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1540"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5462> .
+
+<http://linguateca.pt/harem#char=1547,1552>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Braga"^^xsd:string ;
+        nif:beginIndex        "1547"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1552"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5462> .
+
+<http://linguateca.pt/harem#char=0,5462>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "5462"^^xsd:nonNegativeInteger ;
+        nif:isString    "Qual a lembrança mais antiga que guarda da cidade de Braga ? Lembro-me da Sé antes da Restauração que era toda pintada de branco por dentro , toda Barroca , infelizmente tiraram essa parte toda , infelizmente não aproveitaram , deram cabo de tudo , podiam aproveitar para um museu . Hoje a Sé está completamente diferente por dentro . Ainda há fotografias por aí . Coisas muito solenes.Então , as cerimónias religiosas eram muito solenes . Nós íamos passar todos as quintas-feiras , os feriados , naquele tempo os feriados eram à quinta-feira , só com o Carneiro Pacheco é que passou da quinta para sábado , o feriado da semana . Mas já vem do século XVI o feriado à quinta-feira e nós à quinta-feira , íamos para o Bom-Jesus a quinta-feira toda . E eu aproveitava a tarde para vir aqui à biblioteca pública , que esteve a princípio ali nos Congregados , naquele edifício depois passou para aqui , Largo do Paço . E eu depois aproveitava a quinta-feira para vir para a biblioteca . Por sinal , o director da biblioteca , Dr . Alberto Feio , ficova muito admirado e depois dizia assim :\"Um rapaz 18 / 19 anos a quer consular a biblioteca ? E interesse tem pela biblioteca?\" - \"Olhe tenho porque gosto de ler os escritores portugueses que nós tivemos . E gostava de encontrar outros autores .\" Comecei a estudar Antero de Quental . E depois vinha para a biblioteca para saber isso . Veio morar para que sítio de Braga ? Onde moro agora , mas a casa é diferente , a casa foi abaixo e agora está mais nova , mas é no mesmo sítio . Fez Filosofia cá em Braga e depois ? Fiz Filosofia cá em Braga . Depois convidaram-me para ser professor aqui na Faculdade de Filosofia de Ética Económica e Ética Política e portanto , fui estudar Economia para Deuston , em Bilbau , que ainda existe muito mais desenvolvida . O nome é basco , mas fica mesmo em Bilbau . Deuston é a região , aquele bairro chamava-se Deuston , onde está a universidade . Depois dali , fui estudar Política a Leuven , já tinha acabado a guerra . E depois aqui defendi a tese . Como foi a viagem para Leuven ? De comboio , não havia os aviões , era de comboio por aí fora . Quanto tempo é que demorou ? Saímos daqui ao fim da tarde , atravessamos de noite Espanha , madrugávamos na fronteira da França . Estivemos umas horas à espera do comboio . Anoiteci em França e chegamos de madrugada a Paris . Tivemos que pegar nas malas , porque no metropolitano tivemos que mudar para outra estação . Depois da outra estação , eram 9h da manhã , para Leuven .Era uma aventura , mas quando a gente é rapaz novo , a gente vai com isso . Hoje seria mais doloroso essa viagem , íamos de avião que é mais simples . Que recordações guarda de Leuven ? Para mim , primeiro caí lá muito bem porque era português . Eles não podem com os castelhanos e como eu também não podia , por outros motivos que eu já contei , de maneira que me dei muito bem . Eu lembro-me de um caso que em aconteceu , espantoso . Houve uma altura em que Portgal ganhou a Espanha em futebol por 4-1 , mas quem meteu um golo foi um basco . E na aula recebem-me com uma salva-de-palmas . Eu fiquei espantado ! - \"Sim senhor , vocês ganharam ao espanhóis , mas nós portámo-nos bem porque nós é que metemos o golo . Os vascos não ficaramos mal , quem ficou mal foram os castelhanos .\" Veja como as coisas são . Isto que está a acontecer no País Basco , não me admira porque aquilo parecia uma terra ocupada , eles não podiam aprender basco nas escolas . As famílias são muito apegadas às tradições . As famílias é que falam basco , por isso é que ainda se mantém a língua . Eu lembro-me que um dia visitei uma família , e chegam os meninos da escola e como viram um hóspede saudaram em castelhano , o pai imediatamente : \"Menino , castelhano é na escola , aqui é basco.\" Eu gostei de ver aquilo , que é uma língua dificílima , das antigas línguas da Península que ainda se conserva por causa daquela gente ser agarrada aos seus costumes . De facto , caí ali muito bem nesse aspecto . Também havia lá alunos que não eram basco , nem castelhanos eram de Barcelona , catalães também nos dávamos muito bem . Eles também não se dão bem com os castelhanos . Por isso é que eu digo que Espanha não é uma nação , é um conjunto de nações . Os alunos é outra coisa , não se dão conta dos castelhanos , nem nada , o que querem é gozar a vida . Os que quiserem ter um ambiente alegre é ir para Andalusia , são maravilhosos , riem , falam , o que é prometem , mas não acredites e , promessas . -\"Amanhã vamos a tal lado .\" São capazes de não aparecer , mas não é por mal , é por apareceu uma coisa e esqueceram-se da outra . É outro género , mas gostam de viver a vida . E a mulher espanhola não é castelhana .Quem pôs o nome da mulher espanhola , que nós hoje chamamos \" Sevilhanas \" , que se impôs a toda a Espanha . A mulher de Salamanca é igual à portuguesa não tinha diferença nenhuma naquele tempo . Mas quem impôs o tipo de mulher foi a Andalusa . Que nós hoje a mulher mudou muito por causa da televisão . Tem uma influência enorme e foi uma grande vantagem por esse lado . Eu estranhava que via lá a apanhar azeitonas , lá eram onde se fazia o azeite , mulheres com unhas pintadas a apanhar azeitona do chão . Nós , portugueses ríamo-nos . -\"Mas que é isto !?\" A mulher andalusa tinha muita coisa que não tinha a castelhana e que hoje impôs . Por isso se hoje falar em espanhola eu distingoporque andei por várias partes em Espanha e vi por dentro aquilo . "^^xsd:string .
+
+<http://linguateca.pt/harem#char=898,911>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Largo do Paço"^^xsd:string ;
+        nif:beginIndex        "898"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "911"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5462> .
+
+<http://linguateca.pt/harem#char=4188,4195>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Espanha"^^xsd:string ;
+        nif:beginIndex        "4188"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4195"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5462> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1568,1577>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Filosofia"^^xsd:string ;
+        nif:beginIndex        "1568"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1577"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5462> .
+
+<http://linguateca.pt/harem#char=1738,1745>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Deuston"^^xsd:string ;
+        nif:beginIndex        "1738"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1745"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5462> .

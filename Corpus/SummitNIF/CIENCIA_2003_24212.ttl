@@ -1,0 +1,179 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=637,647>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Frozen Zoo"^^xsd:string ;
+        nif:beginIndex        "637"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "647"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2980> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2980>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "2980"^^xsd:nonNegativeInteger ;
+        nif:isString    "Biotecnólogos e ambientalistas travaram uma rara aliança na semana passada para comemorar um episódio singular : duas vacas deram cria em Iowa , EUA . Os filhotes não são delas , mas clones de outra espécie , o banteng , um tipo de gado ameaçado de extinção . A realização é fruto de uma parceria entre a companhia de biotecnologia Advanced Cell Technology , de Massachusetts , o Centro Sioux , de Iowa , e o Centro para Reprodução de Espécies Ameaçadas da Sociedade Zoológica de San Diego , na Califórnia . Os dois nascimentos , ocorridos em 1º e 3 de abril , marcam o início de uma nova fase para um projeto que já atraía interesse _o Frozen Zoo ( ou Zoológico Congelado , na tradução para o português ) . A idéia , iniciada em 1976 , era coletar e preservar criogenicamente ( em baixas temperaturas ) amostras celulares de animais ameaçados de extinção , com a esperança de estudá-los e , quem sabe , ressuscitá-los quando a tecnologia assim o permitisse . Hoje , a coleção do Frozen Zoo , que é coordenado pelo geneticista Oliver Ryder , é a maior do mundo . São cerca de 1.800 amostras e 335 espécies diferentes com o material genético preservado . O material vai desde os notórios pandas e condores até os menos conhecidos bantengs _parentes asiáticos raros do gado comum que estão à beira do esquecimento . Hoje há menos de 10 mil exemplares remanescentes . A primeira tentativa de trazer um membro do Frozen Zoo de volta do mundo dos animais perdidos foi com um gauro , outra espécie rara de gado . Uma gravidez acabou levando ao nascimento de um animal , em 2001 . O clone morreu dois dias depois . Os dois bantengs produzidos em Iowa já viveram mais do que isso . Um deles , nascido no dia 1º , está em boa saúde . O segundo está mais debilitado . Mas Ryder não arrisca palpite sobre qual deles pode sobreviver . \"Até mesmo o que está bem pode mudar de condição da noite para o dia\" , diz . A fase crítica para os dois animais é de duas a três semanas . Depois desse período , quem sobreviver será levado ao Zôo de San Diego , onde viverá com seus colegas de espécie . A equipe não tem planos futuros de clonagem no momento . \"Agora queremos ver como esses animais se comportam e como se reproduzem\" , diz Ryder . \"Esse é um projeto para os próximos cinco ou seis anos . \"Os dois filhotes , que ainda não têm nome , são cópias genéticas idênticas de um banteng macho que morreu no Parque Selvagem Animal de San Diego em 1980 . No início , a ACT preparou 30 óvulos de vaca , extraindo-lhes o núcleo e fundindo-os com células adultas preservadas do banteng de San Diego . A fusão , feita com ajuda de um choque elétrico , faz com que o óvulo se comporte como se tivesse sido fertilizado , iniciando o processo de divisão celular e criando um embrião . Ele é então implantado numa vaca , que serve como barriga de aluguel . Clonar animais continua sendo uma tarefa difícil . Dos 30 embriões originais , 11 resultaram em gravidez . Desses , só dois chegaram ao nascimento . "^^xsd:string .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=2025,2034>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "San Diego"^^xsd:string ;
+        nif:beginIndex        "2025"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2034"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2980> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1409,1419>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Frozen Zoo"^^xsd:string ;
+        nif:beginIndex        "1409"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1419"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2980> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1762,1767>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ryder"^^xsd:string ;
+        nif:beginIndex        "1762"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1767"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2980> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=2568,2577>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "San Diego"^^xsd:string ;
+        nif:beginIndex        "2568"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2577"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2980> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=495,505>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Califórnia"^^xsd:string ;
+        nif:beginIndex        "495"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "505"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2980> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=362,375>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Massachusetts"^^xsd:string ;
+        nif:beginIndex        "362"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "375"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2980> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=398,402>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Iowa"^^xsd:string ;
+        nif:beginIndex        "398"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "402"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2980> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=480,489>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "San Diego"^^xsd:string ;
+        nif:beginIndex        "480"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "489"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2980> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=409,476>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Centro para Reprodução de Espécies Ameaçadas da Sociedade Zoológica"^^xsd:string ;
+        nif:beginIndex        "409"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "476"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2980> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=138,142>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Iowa"^^xsd:string ;
+        nif:beginIndex        "138"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "142"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2980> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=2391,2426>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Parque Selvagem Animal de San Diego"^^xsd:string ;
+        nif:beginIndex        "2391"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2426"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2980> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=2216,2221>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ryder"^^xsd:string ;
+        nif:beginIndex        "2216"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2221"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2980> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=653,672>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Zoológico Congelado"^^xsd:string ;
+        nif:beginIndex        "653"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "672"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2980> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=145,148>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "EUA"^^xsd:string ;
+        nif:beginIndex        "145"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "148"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2980> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=332,356>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Advanced Cell Technology"^^xsd:string ;
+        nif:beginIndex        "332"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "356"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2980> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1639,1643>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Iowa"^^xsd:string ;
+        nif:beginIndex        "1639"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1643"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2980> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=980,990>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Frozen Zoo"^^xsd:string ;
+        nif:beginIndex        "980"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "990"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2980> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=2451,2454>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "ACT"^^xsd:string ;
+        nif:beginIndex        "2451"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2454"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2980> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1027,1039>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Oliver Ryder"^^xsd:string ;
+        nif:beginIndex        "1027"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1039"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2980> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=380,392>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Centro Sioux"^^xsd:string ;
+        nif:beginIndex        "380"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "392"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2980> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .

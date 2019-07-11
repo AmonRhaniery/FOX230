@@ -1,0 +1,192 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=732,738>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Brasil"^^xsd:string ;
+        nif:beginIndex        "732"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "738"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1728> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=120,128>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Amazônia"^^xsd:string ;
+        nif:beginIndex        "120"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "128"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1728> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=276,288>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Carlos Nobre"^^xsd:string ;
+        nif:beginIndex        "276"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "288"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1728> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1231,1258>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ministério do Meio Ambiente"^^xsd:string ;
+        nif:beginIndex        "1231"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1258"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1728> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1684,1686>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "MA"^^xsd:string ;
+        nif:beginIndex        "1684"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1686"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1728> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1664,1666>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "PA"^^xsd:string ;
+        nif:beginIndex        "1664"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1666"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1728> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1650,1661>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Paragominas"^^xsd:string ;
+        nif:beginIndex        "1650"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1661"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1728> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=2,43>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Instituto Nacional de Pesquisas Espaciais"^^xsd:string ;
+        nif:beginIndex        "2"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "43"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1728> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1376,1386>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "ONG Imazon"^^xsd:string ;
+        nif:beginIndex        "1376"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1386"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1728> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=316,338>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "\"Cenários da Amazônia\""^^xsd:string ;
+        nif:beginIndex        "316"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "338"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1728> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1204,1227>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Coordenação da Amazônia"^^xsd:string ;
+        nif:beginIndex        "1204"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1227"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1728> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=365,369>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "SBPC"^^xsd:string ;
+        nif:beginIndex        "365"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "369"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1728> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1710,1725>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "WILSON SILVEIRA"^^xsd:string ;
+        nif:beginIndex        "1710"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1725"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1728> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1691,1698>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Humaitá"^^xsd:string ;
+        nif:beginIndex        "1691"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1698"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1728> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1701,1703>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "AM"^^xsd:string ;
+        nif:beginIndex        "1701"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1703"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1728> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1671,1681>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Açailândia"^^xsd:string ;
+        nif:beginIndex        "1671"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1681"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1728> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1261,1276>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Mary Allegretti"^^xsd:string ;
+        nif:beginIndex        "1261"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1276"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1728> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1351,1370>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Adalberto Veríssimo"^^xsd:string ;
+        nif:beginIndex        "1351"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1370"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1728> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=46,50>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Inpe"^^xsd:string ;
+        nif:beginIndex        "46"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "50"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1728> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=928,931>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "CO2"^^xsd:string ;
+        nif:beginIndex        "928"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "931"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1728> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=714,719>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Nobre"^^xsd:string ;
+        nif:beginIndex        "714"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "719"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1728> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1728>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1728"^^xsd:nonNegativeInteger ;
+        nif:isString    "O Instituto Nacional de Pesquisas Espaciais ( Inpe ) prediz um aumento de temperatura de até 5C nas áreas mais secas da Amazônia , em 50 anos , se a emissão de gases por queimadas permanecer nos níveis atuais . Esse é o pior panorama climático previsto pelo instituto , disse Carlos Nobre , que participou do debate \"Cenários da Amazônia\" , na 52ª Reunião Anual da SBPC . Ele afirmou que o aumento de temperatura , que pode chegar a 3C nas áreas úmidas , seria um desastre . A elevação de temperatura viria acompanhada de redução das chuvas em até 15 % , aumentando o risco de incêndio _inexistente há três décadas . Os dois fenômenos climáticos combinados levariam à desertificação de algumas áreas , disse ele . Nobre disse que o Brasil está entre os dez países que mais poluem a atmosfera com a emissão de gás carbônico por causa do desmatamento com queimadas . O Brasil emite 280 milhões de toneladas de carbono ( sobretudo CO2 , ou gás carbônico ) na atmosfera por ano . Desse total , 200 milhões se devem ao desmatamento . O gás carbônico é o principal causador do efeito estufa ( retenção do calor solar na atmosfera ) . O desmatamento da Amazônia atingiu 16.926 km2 em 99 , disse a secretária de Coordenação da Amazônia do Ministério do Meio Ambiente , Mary Allegretti . Foi melhor que em 98 ( 17.383 km2 ) . \"Há tendência de queda\" , disse . Adalberto Veríssimo , da ONG Imazon , apresentou estudo segundo o qual as cidades em regiões amazônicas ocupadas de forma predatória duram por volta de 23 anos . Depois disso , entram em colapso total , por falta de uma política de desenvolvimento sustentável . Ele citou como exemplo as cidades de Paragominas ( PA ) , Açailândia ( MA ) e Humaitá ( AM ) . ( WILSON SILVEIRA ) "^^xsd:string .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=867,873>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Brasil"^^xsd:string ;
+        nif:beginIndex        "867"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "873"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1728> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1146,1154>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Amazônia"^^xsd:string ;
+        nif:beginIndex        "1146"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1154"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1728> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .

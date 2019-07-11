@@ -1,0 +1,146 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1096,1108>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Takao Someya"^^xsd:string ;
+        nif:beginIndex        "1096"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1108"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,4077> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=2246,2257>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "\"Eu , Robô\""^^xsd:string ;
+        nif:beginIndex        "2246"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2257"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,4077> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=3666,3672>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "\"PNAS\""^^xsd:string ;
+        nif:beginIndex        "3666"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3672"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,4077> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1949,1963>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "União Européia"^^xsd:string ;
+        nif:beginIndex        "1949"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1963"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,4077> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1663,1685>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Universidade de Tóquio"^^xsd:string ;
+        nif:beginIndex        "1663"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1685"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,4077> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=3565,3571>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Someya"^^xsd:string ;
+        nif:beginIndex        "3565"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3571"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,4077> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1890,1895>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Japão"^^xsd:string ;
+        nif:beginIndex        "1890"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1895"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,4077> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=2538,2544>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Someya"^^xsd:string ;
+        nif:beginIndex        "2538"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2544"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,4077> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=2309,2321>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Isaac Asimov"^^xsd:string ;
+        nif:beginIndex        "2309"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2321"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,4077> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=3633,3661>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Academia de Ciências dos EUA"^^xsd:string ;
+        nif:beginIndex        "3633"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3661"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,4077> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=2302,2308>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Rússia"^^xsd:string ;
+        nif:beginIndex        "2302"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2308"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,4077> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,4077>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "4077"^^xsd:nonNegativeInteger ;
+        nif:isString    "A ficção científica americana _na forma de livros ou de filmes_ é fascinada por robôs , mas na prática são japoneses os que mais usam esses auxiliares automatizados do ser humano _seja na indústria , seja em residências . Uma nova pesquisa japonesa , no entanto , promete juntar as duas coisas no futuro . A Universidade de Tóquio desenvolveu uma pele artificial para robôs que imita uma parcela significativa das qualidades e capacidades da pele humana normal . A curto e médio prazo , abrem-se várias possibilidades de aplicações práticas . A longo , longuíssimo prazo , poderá surgir uma pele biônica , que poderia tanto ser aplicada a robôs com formas humanas quanto ser utilizada em pessoas de verdade . E com um detalhe holywoodiano : a pele-robô futura poderá ir além da sua concorrente biológica , sendo capaz de detectar melhor várias coisas , ou mesmo realizando truques que nenhuma pessoa é capaz de fazer hoje _perceber radiações diferentes da luz visível , nuanças muito sutis de tato e de temperatura ou mesmo som . Seria uma espécie de superpoder biônico . Além do tatoA equipe de Takao Someya já havia , no ano passado , anunciado o desenvolvimento de uma pele artificial capaz de sentir diferenças de pressão _ou seja , uma forma de tato . Mas seria preciso ir além , pois o tato dá outras informações ao organismo , como a temperatura dos objetos tocados . Além disso , a pele é extremamente maleável , adaptando-se muito bem aos movimentos do corpo . O ideal para uma pele artificial seria ser \"conformal\" , segundo o jargão da engenharia _isto é , ela deveria ser capaz de se adequar de modo maleável à forma requisitada . Os pesquisadores da Universidade de Tóquio não querem fazer ficção científica . A pesquisa busca aplicações práticas da tecnologia . O Japão é o líder mundial quase inconteste em robótica . No ano passado , existiam 352,2 mil robôs industriais no Japão , contra 121,3 mil nos EUA e 266,1 mil nos países da União Européia , o chega a um total de quase 1 milhão em todo os países do mundo . Da ficção à pesquisaA palavra robô , com o sentido empregado pelas pessoas hoje , surgiu em uma peça de 1920 do dramaturgo checo Karel Capek ( 1890-1938 ) . O termo foi muito popularizado na ficção graças ao livro \"Eu , Robô\" ( 1950 ) , do escritor americano nascido na Rússia Isaac Asimov ( 1920-1992 ) . A mais nova versão cinematográfica do filme tem o ator Will Smith no papel principal . Smith tem um braço-robô com uma cobertura de pele artificial que pode ser reposta com um spray . A tecnologia de Someya e colegas ainda está bem longe disso . Mas está caminhando a passos largos . Eles usaram um fino filme plástico como base para uma série de circuitos eletrônicos baseados em estruturas de material orgânico . E desta vez foram além do que havia sido reportado no ano passado _além de pressão , os semicondutores orgânicos puderam detectar temperatura com precisão . FlexibilidadeA pele vem na forma de uma rede flexível , capaz de \"conformabilidade\" , adaptando-se , por exemplo , à superfície de um ovo . Ainda está bem longe da capacidade da pele humana . Um dos protótipos iniciais continha uma rede de 16 sensores de pressão por centímetros quadrado . Já a ponta dos dedos de um ser humano possui cerca de 1.500 sensores de pressão ( menos em outros pontos do corpo , contudo ) . Mas um robô industrial não precisaria de tanta precisão para suas atividades rotineiras . A pele-robô pode ter usos muito variados . Nem precisaria estar em um robô . Pode ser uma espécie de tapete sensível , por exemplo . O trabalho de Someya e seus colegas está publicado na última edição da revista da Academia de Ciências dos EUA , a \"PNAS\" ( www.pnas.org ) . Segundo eles , a pele humana ainda é bem mais complexa do que as imitações desenvolvidas até agora . Mas , escreveram eles no artigo hoje divulgado , \"vai ser possível no futuro próximo fazer uma pele eletrônica que tenha funções que a pele humana não tem ao integrar vários sensores , não apenas para pressão e temperatura , mas também para luz , umidade , esforço e ultrassônicos\" . "^^xsd:string .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=2161,2172>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Karel Capek"^^xsd:string ;
+        nif:beginIndex        "2161"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2172"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,4077> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=2393,2403>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Will Smith"^^xsd:string ;
+        nif:beginIndex        "2393"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2403"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,4077> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=308,330>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Universidade de Tóquio"^^xsd:string ;
+        nif:beginIndex        "308"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "330"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,4077> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1919,1922>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "EUA"^^xsd:string ;
+        nif:beginIndex        "1919"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1922"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,4077> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1778,1783>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Japão"^^xsd:string ;
+        nif:beginIndex        "1778"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1783"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,4077> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=2398,2403>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Smith"^^xsd:string ;
+        nif:beginIndex        "2398"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2403"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,4077> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .

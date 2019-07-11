@@ -1,0 +1,245 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=1883,1887>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "2002"^^xsd:string ;
+        nif:beginIndex        "1883"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1887"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1919> .
+
+<http://linguateca.pt/harem#char=1731,1742>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Condomínios"^^xsd:string ;
+        nif:beginIndex        "1731"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1742"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1919> .
+
+<http://linguateca.pt/harem#char=1714,1728>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Obras Públicas"^^xsd:string ;
+        nif:beginIndex        "1714"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1728"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1919> .
+
+<http://linguateca.pt/harem#char=673,689>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "TEXSA Portuguesa"^^xsd:string ;
+        nif:beginIndex        "673"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "689"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1919> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=544,548>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Java"^^xsd:string ;
+        nif:beginIndex        "544"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "548"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1919> .
+
+<http://linguateca.pt/harem#char=1165,1180>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "49.879,79 euros"^^xsd:string ;
+        nif:beginIndex        "1165"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1180"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1919> .
+
+<http://linguateca.pt/harem#char=1279,1297>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Cremilde Domingues"^^xsd:string ;
+        nif:beginIndex        "1279"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1297"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1919> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=333,351>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Fernando Domingues"^^xsd:string ;
+        nif:beginIndex        "333"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "351"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1919> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=865,872>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Coimbra"^^xsd:string ;
+        nif:beginIndex        "865"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "872"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1919> .
+
+<http://linguateca.pt/harem#char=1861,1868>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Netpage"^^xsd:string ;
+        nif:beginIndex        "1861"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1868"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1919> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1342,1358>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "124.699,48 euros"^^xsd:string ;
+        nif:beginIndex        "1342"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1358"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1919> .
+
+<http://linguateca.pt/harem#char=199,207>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Portugal"^^xsd:string ;
+        nif:beginIndex        "199"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "207"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1919> .
+
+<http://linguateca.pt/harem#char=1370,1378>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Isotexsa"^^xsd:string ;
+        nif:beginIndex        "1370"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1378"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1919> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1186,1190>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1989"^^xsd:string ;
+        nif:beginIndex        "1186"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1190"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1919> .
+
+<http://linguateca.pt/harem#char=1695,1711>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Construção Civil"^^xsd:string ;
+        nif:beginIndex        "1695"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1711"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1919> .
+
+<http://linguateca.pt/harem#char=779,793>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "7.481,97 euros"^^xsd:string ;
+        nif:beginIndex        "779"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "793"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1919> .
+
+<http://linguateca.pt/harem#char=1389,1391>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "30"^^xsd:string ;
+        nif:beginIndex        "1389"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1391"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1919> .
+
+<http://linguateca.pt/harem#char=0,1919>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1919"^^xsd:nonNegativeInteger ;
+        nif:isString    "Isotexsa - Impermeabilização para a Construção Civil , Lda : : : : : :.. Última actualização : 09-01-2003 Nº de visitas : Localização | Contacto | Produtos | Obras | Técnica | Tempo Exclusividade em Portugal Uma empresa com força para investir neste novo produto . É o que comprova a entrevista da semana com o Gerente da Isotexsa , Fernando Domingues . Sorry , your browser doesn't support Java ( tm ) . Sorry , your browser doesn't support Java ( tm ) . Sorry , your browser doesn't support Java ( tm ) . Sorry , your browser doesn't support Java ( tm ) . Era uma vez ... Fundada e iniciada a actividade em 1971 , foi uma das primeiras empresas a representar produtos da TEXSA Portuguesa , dando origem assim ao seu nome Isotexsa . Situada em Leiria , com um capital social de 7.481,97 euros , inicia o mercado do distrito de Santarém e posteriormente , Leiria e Coimbra . Poucos anos depois , passa a gastar produtos de outros fornecedores nacionais e internacionais onde alarga a sua actividade a todo o país . Em 1986 , houve uma reestruturação da empresa e um dos sócios vende a sua quota . A Isotexsa fica com dois sócios e o capital social é aumentado para 49.879,79 euros . Em 1989 , a empresa é adquirida pelos actuais sócios gerentes , Fernando Domingues , sua esposa Cremilde Domingues e filhos , aumentando o capital social para 124.699,48 euros . Hoje , a Isotexsa conta com 30 colaboradores especializados na aplicação e gestão da mesma . Tem como principal objectivo , a qualidade de vida nos edifícios , onde o morador é cada vez mais exigente e merecedor de toda a informação , por parte dos projectistas , promotores , instaladoras e construtores . Com o sector de mercado na Construção Civil , Obras Públicas , Condomínios e obras particulares , a Isotexsa comercializa e aplica os seus produtos , em todo o continente e arquipélagos . by - Netpage - Copyright © 2002 - Todos os direitos reservados "^^xsd:string .
+
+<http://linguateca.pt/harem#char=95,105>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "09-01-2003"^^xsd:string ;
+        nif:beginIndex        "95"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "105"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1919> .
+
+<http://linguateca.pt/harem#char=442,446>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Java"^^xsd:string ;
+        nif:beginIndex        "442"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "446"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1919> .
+
+<http://linguateca.pt/harem#char=1247,1265>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Fernando Domingues"^^xsd:string ;
+        nif:beginIndex        "1247"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1265"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1919> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=745,751>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Leiria"^^xsd:string ;
+        nif:beginIndex        "745"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "751"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1919> .
+
+<http://linguateca.pt/harem#char=609,613>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1971"^^xsd:string ;
+        nif:beginIndex        "609"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "613"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1919> .
+
+<http://linguateca.pt/harem#char=391,395>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Java"^^xsd:string ;
+        nif:beginIndex        "391"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "395"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1919> .
+
+<http://linguateca.pt/harem#char=1018,1022>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1986"^^xsd:string ;
+        nif:beginIndex        "1018"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1022"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1919> .
+
+<http://linguateca.pt/harem#char=0,58>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Isotexsa - Impermeabilização para a Construção Civil , Lda"^^xsd:string ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "58"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1919> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=856,862>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Leiria"^^xsd:string ;
+        nif:beginIndex        "856"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "862"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1919> .
+
+<http://linguateca.pt/harem#char=723,731>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Isotexsa"^^xsd:string ;
+        nif:beginIndex        "723"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "731"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1919> .
+
+<http://linguateca.pt/harem#char=1099,1107>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Isotexsa"^^xsd:string ;
+        nif:beginIndex        "1099"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1107"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1919> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=828,836>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Santarém"^^xsd:string ;
+        nif:beginIndex        "828"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "836"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1919> .
+
+<http://linguateca.pt/harem#char=1768,1776>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Isotexsa"^^xsd:string ;
+        nif:beginIndex        "1768"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1776"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1919> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=493,497>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Java"^^xsd:string ;
+        nif:beginIndex        "493"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "497"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1919> .
+
+<http://linguateca.pt/harem#char=311,330>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Gerente da Isotexsa"^^xsd:string ;
+        nif:beginIndex        "311"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "330"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1919> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .

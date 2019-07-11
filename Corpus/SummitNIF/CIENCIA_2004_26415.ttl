@@ -1,0 +1,97 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=578,589>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Cro-Magnons"^^xsd:string ;
+        nif:beginIndex        "578"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "589"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1730> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=226,232>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Canadá"^^xsd:string ;
+        nif:beginIndex        "226"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "232"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1730> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=710,755>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Associação Americana para o Avanço da Ciência"^^xsd:string ;
+        nif:beginIndex        "710"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "755"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1730> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=534,540>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Israel"^^xsd:string ;
+        nif:beginIndex        "534"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "540"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1730> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1730>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1730"^^xsd:nonNegativeInteger ;
+        nif:isString    "Para um desavisado parece até obsessão freudiana , mas Hendrik Poynar está pedindo a todos os seus conhecidos a maior quantidade de fezes possível _quanto mais velhas , melhores . Bioantropólogo da Universidade MacMaster , no Canadá , está prestes a investigar a relação entre neandertais e humanos modernos olhando não para seus crânios , mas para o que eles defecavam _e para as moléculas que podem contar a história deles , ocultas ali dentro . \"Estamos recolhendo amostras de coprólitos [ fezes fossilizadas ] de duas cavernas em Israel com 40 mil anos , onde provavelmente Cro-Magnons [ os primeiros humanos modernos ] e neandertais viveram lado a lado\" , contou o pesquisador durante a reunião da AAAS ( Associação Americana para o Avanço da Ciência ) . Dadas as características muito especiais de preservação que as fezes podem alcançar , há grandes chances de elas terem preservado mais DNA do que o que se pode extrair de ossos , bem como proteínas e outras moléculas . Poynar pretende usar esse material , que segundo ele tende a ter aparência e consistência de chocolate , para extrair o máximo de informação possível sobre os dois grupos de humanos que habitaram a Palestina no fim da Era do Gelo . Os sedimentos da caverna , que formam uma impressionante série temporal que vai até 150 mil anos atrás , também vão ser peneirados . \"Depois disso , o que você faz é basicamente sequenciar tudo o que está ali e examinar toda a cadeia de relações alimentares , ecológicas e de parentesco das pessoas e animais que habitaram a caverna\" , afirma . Poynar também disse estar apostando todas as suas fichas para a melhor compreensão da evolução humana na chamada paleoproteômica _o estudo das proteínas em fósseis . ( RJL ) "^^xsd:string .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=55,69>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Hendrik Poynar"^^xsd:string ;
+        nif:beginIndex        "55"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "69"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1730> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=979,985>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Poynar"^^xsd:string ;
+        nif:beginIndex        "979"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "985"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1730> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1177,1186>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Palestina"^^xsd:string ;
+        nif:beginIndex        "1177"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1186"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1730> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=198,220>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Universidade MacMaster"^^xsd:string ;
+        nif:beginIndex        "198"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "220"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1730> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=703,707>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "AAAS"^^xsd:string ;
+        nif:beginIndex        "703"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "707"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1730> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1556,1562>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Poynar"^^xsd:string ;
+        nif:beginIndex        "1556"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1562"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1730> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1724,1727>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "RJL"^^xsd:string ;
+        nif:beginIndex        "1724"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1727"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1730> .

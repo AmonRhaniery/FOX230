@@ -1,0 +1,380 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=99,111>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "25 por cento"^^xsd:string ;
+        nif:beginIndex        "99"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "111"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3925> .
+
+<http://linguateca.pt/harem#char=2,19>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Sr . Agenor Maria"^^xsd:string ;
+        nif:beginIndex        "2"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "19"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3925> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1448,1451>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Sni"^^xsd:string ;
+        nif:beginIndex        "1448"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1451"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3925> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=952,957>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "União"^^xsd:string ;
+        nif:beginIndex        "952"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "957"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3925> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=2811,2821>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "César Cals"^^xsd:string ;
+        nif:beginIndex        "2811"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2821"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3925> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=3420,3427>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Governo"^^xsd:string ;
+        nif:beginIndex        "3420"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3427"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3925> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=902,905>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Sni"^^xsd:string ;
+        nif:beginIndex        "902"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "905"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3925> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=250,262>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "34 por cento"^^xsd:string ;
+        nif:beginIndex        "250"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "262"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3925> .
+
+<http://linguateca.pt/harem#char=400,414>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Sr . José Lins"^^xsd:string ;
+        nif:beginIndex        "400"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "414"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3925> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=3862,3871>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Orçamento"^^xsd:string ;
+        nif:beginIndex        "3862"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3871"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3925> .
+
+<http://linguateca.pt/harem#char=0,3925>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "3925"^^xsd:nonNegativeInteger ;
+        nif:isString    "O Sr . Agenor Maria -- Eu sei , é um percentual ; o que nós tiramos , com o nosso craqueamento , é 25 por cento . Mas , mesmo assim , se nós podemos adicionar 20 por cento de álcool a essa gasolina , nós passamos a ter um energia própria da ordem de 34 por cento , não é Senador José Lins ?O Sr . José Lins -- Também o Rio Grande do Norte está produzindo óleo , com boas perspectivas para o futuro.O Sr . José Lins -- O que houve de distorção no comentário foi , exatamente , a notícia de que o Governo teria incumbido o Sni de interferir na gestão das estaduais . Isto não é verdade . Não é verdade , mesmo porque tal decisão desvirtuaria , totalmente , até o objetivo do sistema , que é simplesmente perceber e informar . A tomada de decisão é do administrador , é a autoridade executiva . Isso não significa que o Governo não tenha preocupação com o controle das estatais . Nada disso . E nem que o Sni não saiba o que ali se passa . O orçamento da União , Senador Mendes Canale , é de mais de quatro trilhões de cruzeiros . Para mim isso não é um mal em si . Não significa muito . V.Exa . sabe que só o orçamento da Previdência Social é quase igual ao da União . Este ano de 1982 deve elevar-se à casa dos três trilhões de cruzeiros.O Sr . Mendes Canale -- Então , há essa preocupação segunda do Governo em fiscalizar , só que estranhamos que essa fiscalização viesse por um órgão informativo ; ele não é um órgão fiscalizador . Mais outra : o Sni informa , e informa bem . Nós , de Mato Grosso do Sul , sabemos bem disso . Infelizmente , aquilo que ele informa fica depois ao sabor , ao apetite daquele que deverá ou não cumprir , como foi o caso , por exemplo -- é tão batido , mas a gente tem sempre que citar , para ficar registrado -- o caso de Pedro Pedrossian . Foi um relatório perfeito do Sni , que infelizmente não foi cumprido . E eu tenho conhecimento de vários outros assuntos nestes sentido . Eu não posso deixar de louvar a atitude de V.Exa . , prestando assim esses informes à Casa , de forma tão clara e insofismável . Mais uma vez ressalto que absolutamente não tive a intenção de ferir a Petrobrás ; falamos de forma geral . O Sr . José Fragelli -- Nobre Líder , é uma satisfação podermos sentir e pensar da mesma maneira , quando os debates , tantas vezes , levamos a pronunciamentos diferentes . Ouvimos com o melhor agrado essa exposição de V.Exa . a respeito dos progressos da Petrobrás na produção do óleo em nosso País . E quando aqui reclamamos e quando censuramos as atividades do Governo , através de determinados Ministérios , o fazemos com a melhor das intenções , de dar uma contribuição crítica à obra administrativa do Governo . Agora , por exemplo , me é bastante grato assinalar que , no meu modo de ver , esse desempenho da Petrobrás deve muito ao desempenho do Ministro César Cals . Homem de um extraordinário dinamismo , um homem , ao meu ver , que tem além de seus conhecimentos um profundo conhecimento pragmático dos problemas , incansável na busca de soluções . Diria mesmo quer como administrador César Cals é até um idealista . O Sr . José Lins -- Senador José Fragelli , V.Exa . acaba de fazer justiça a um homem que , realmente , tem dado duro de si pelo País . Em função disso , o sistema entrou em sérias dificuldades no ano passado , quando um déficit de mais de 150 bilhões de cruzeiros prejudicou o seu desempenho . Sabemos , também , do esforço que foi feito pelo Governo para encontrar uma maneira de aumentar a Receita da Previdência , para que nenhum dos seus beneficiários fosse prejudicado . Essa medidas resultaram , inclusive , no aumento , indesejável mas necessário , das contribuições de patrões e empregados que , afinal , estão surtindo , no corrente ano , os seus efeitos positivos . Houve aumento na arrecadação do Instituto . Cerca de 1 trilhão e 400 bilhões de cruzeiros no ano passado , o Orçamento passará este ano cerca de 2 trilhões e 800 bilhões . "^^xsd:string .
+
+<http://linguateca.pt/harem#char=271,288>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Senador José Lins"^^xsd:string ;
+        nif:beginIndex        "271"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "288"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3925> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1997,2001>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Casa"^^xsd:string ;
+        nif:beginIndex        "1997"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2001"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3925> .
+
+<http://linguateca.pt/harem#char=2656,2663>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Governo"^^xsd:string ;
+        nif:beginIndex        "2656"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2663"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3925> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=3078,3092>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Sr . José Lins"^^xsd:string ;
+        nif:beginIndex        "3078"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3092"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3925> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=817,824>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Governo"^^xsd:string ;
+        nif:beginIndex        "817"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "824"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3925> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1239,1257>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Sr . Mendes Canale"^^xsd:string ;
+        nif:beginIndex        "1239"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1257"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3925> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=2404,2413>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Petrobrás"^^xsd:string ;
+        nif:beginIndex        "2404"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2413"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3925> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=521,524>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Sni"^^xsd:string ;
+        nif:beginIndex        "521"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "524"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3925> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=3120,3127>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "V.Exa ."^^xsd:string ;
+        nif:beginIndex        "3120"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3127"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3925> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=292,306>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Sr . José Lins"^^xsd:string ;
+        nif:beginIndex        "292"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "306"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3925> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=2764,2773>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Petrobrás"^^xsd:string ;
+        nif:beginIndex        "2764"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2773"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3925> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=319,338>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Rio Grande do Norte"^^xsd:string ;
+        nif:beginIndex        "319"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "338"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3925> .
+
+<http://linguateca.pt/harem#char=2546,2557>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ministérios"^^xsd:string ;
+        nif:beginIndex        "2546"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2557"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3925> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=3096,3117>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Senador José Fragelli"^^xsd:string ;
+        nif:beginIndex        "3096"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3117"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3925> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1802,1805>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Sni"^^xsd:string ;
+        nif:beginIndex        "1802"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1805"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3925> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1954,1961>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "V.Exa ."^^xsd:string ;
+        nif:beginIndex        "1954"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1961"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3925> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=2512,2519>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Governo"^^xsd:string ;
+        nif:beginIndex        "2512"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2519"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3925> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=159,171>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "20 por cento"^^xsd:string ;
+        nif:beginIndex        "159"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "171"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3925> .
+
+<http://linguateca.pt/harem#char=1120,1138>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Previdência Social"^^xsd:string ;
+        nif:beginIndex        "1120"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1138"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3925> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=2367,2374>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "V.Exa ."^^xsd:string ;
+        nif:beginIndex        "2367"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2374"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3925> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=2443,2447>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "País"^^xsd:string ;
+        nif:beginIndex        "2443"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2447"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3925> .
+
+<http://linguateca.pt/harem#char=3785,3794>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Instituto"^^xsd:string ;
+        nif:beginIndex        "3785"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3794"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3925> .
+
+<http://linguateca.pt/harem#char=495,502>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Governo"^^xsd:string ;
+        nif:beginIndex        "495"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "502"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3925> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1085,1090>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "V.Exa"^^xsd:string ;
+        nif:beginIndex        "1085"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1090"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3925> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=2802,2821>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ministro César Cals"^^xsd:string ;
+        nif:beginIndex        "2802"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2821"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3925> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=3797,3842>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Cerca de 1 trilhão e 400 bilhões de cruzeiros"^^xsd:string ;
+        nif:beginIndex        "3797"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3842"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3925> .
+
+<http://linguateca.pt/harem#char=2111,2120>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Petrobrás"^^xsd:string ;
+        nif:beginIndex        "2111"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2120"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3925> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1487,1505>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Mato Grosso do Sul"^^xsd:string ;
+        nif:beginIndex        "1487"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1505"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3925> .
+
+<http://linguateca.pt/harem#char=3898,3922>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "2 trilhões e 800 bilhões"^^xsd:string ;
+        nif:beginIndex        "3898"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3922"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3925> .
+
+<http://linguateca.pt/harem#char=1179,1183>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1982"^^xsd:string ;
+        nif:beginIndex        "1179"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1183"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3925> .
+
+<http://linguateca.pt/harem#char=1300,1307>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Governo"^^xsd:string ;
+        nif:beginIndex        "1300"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1307"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3925> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=960,981>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Senador Mendes Canale"^^xsd:string ;
+        nif:beginIndex        "960"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "981"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3925> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1159,1164>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "União"^^xsd:string ;
+        nif:beginIndex        "1159"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1164"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3925> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1754,1770>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Pedro Pedrossian"^^xsd:string ;
+        nif:beginIndex        "1754"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1770"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3925> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=3205,3209>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "País"^^xsd:string ;
+        nif:beginIndex        "3205"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3209"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3925> .
+
+<http://linguateca.pt/harem#char=2150,2168>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Sr . José Fragelli"^^xsd:string ;
+        nif:beginIndex        "2150"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2168"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3925> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=3308,3340>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "mais de 150 bilhões de cruzeiros"^^xsd:string ;
+        nif:beginIndex        "3308"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3340"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3925> .
+
+<http://linguateca.pt/harem#char=3469,3491>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Receita da Previdência"^^xsd:string ;
+        nif:beginIndex        "3469"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3491"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3925> .

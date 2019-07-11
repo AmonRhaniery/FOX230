@@ -1,0 +1,279 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=1905,1912>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Setúbal"^^xsd:string ;
+        nif:beginIndex        "1905"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1912"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2075> .
+
+<http://linguateca.pt/harem#char=233,237>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "APSS"^^xsd:string ;
+        nif:beginIndex        "233"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "237"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2075> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=2057,2072>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ford/Volkswagen"^^xsd:string ;
+        nif:beginIndex        "2057"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2072"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2075> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1755,1759>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Júri"^^xsd:string ;
+        nif:beginIndex        "1755"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1759"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2075> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1132,1146>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "18 de Setembro"^^xsd:string ;
+        nif:beginIndex        "1132"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1146"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2075> .
+
+<http://linguateca.pt/harem#char=1448,1464>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Porto de Setúbal"^^xsd:string ;
+        nif:beginIndex        "1448"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1464"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2075> .
+
+<http://linguateca.pt/harem#char=637,651>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Coelho da Mota"^^xsd:string ;
+        nif:beginIndex        "637"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "651"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2075> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=346,354>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "17 horas"^^xsd:string ;
+        nif:beginIndex        "346"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "354"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2075> .
+
+<http://linguateca.pt/harem#char=540,544>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "APSS"^^xsd:string ;
+        nif:beginIndex        "540"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "544"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2075> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=263,273>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "200 contos"^^xsd:string ;
+        nif:beginIndex        "263"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "273"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2075> .
+
+<http://linguateca.pt/harem#char=67,84>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Alexandre Marques"^^xsd:string ;
+        nif:beginIndex        "67"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "84"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2075> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1708,1733>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Conselho de Administração"^^xsd:string ;
+        nif:beginIndex        "1708"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1733"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2075> .
+
+<http://linguateca.pt/harem#char=630,634>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "APSS"^^xsd:string ;
+        nif:beginIndex        "630"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "634"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2075> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1186,1190>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "APSS"^^xsd:string ;
+        nif:beginIndex        "1186"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1190"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2075> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=326,340>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "10 de Setembro"^^xsd:string ;
+        nif:beginIndex        "326"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "340"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2075> .
+
+<http://linguateca.pt/harem#char=23,25>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "10"^^xsd:string ;
+        nif:beginIndex        "23"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "25"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2075> .
+
+<http://linguateca.pt/harem#char=1127,1129>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "10"^^xsd:string ;
+        nif:beginIndex        "1127"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1129"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2075> .
+
+<http://linguateca.pt/harem#char=1955,1962>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Setúbal"^^xsd:string ;
+        nif:beginIndex        "1955"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1962"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2075> .
+
+<http://linguateca.pt/harem#char=1618,1622>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "APSS"^^xsd:string ;
+        nif:beginIndex        "1618"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1622"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2075> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=670,690>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Eduardo Carqueijeiro"^^xsd:string ;
+        nif:beginIndex        "670"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "690"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2075> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=0,2075>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "2075"^^xsd:nonNegativeInteger ;
+        nif:isString    "Prémios atribuídos dia 10 Concurso do logotipo de Setúbal terminou Alexandre Marques foi o vencedor do concurso de criação do logotipo para o porto de Setúbal aberto recentemente pela Administração dos Portos de Setúbal e Sesimbra ( APSS ) , ganhando o prémio de 200 contos . A cerimónia da entrega dos prémios será feita dia 10 de Setembro , às 17 horas , na sede da APSS . Com este concurso , a APSS teve como objectivo conseguir um logotipo para promoção da imagem comercial do porto de Setúbal , mantendo-se o logotipo institucional da APSS . O júri do concurso foi constituído pelo presidente do conselho de administração da APSS , Coelho da Mota , pelo arquitecto Eduardo Carqueijeiro e pelo artista plástico Rogério Chora .O júri deliberou ainda atribuir o segundo prémio , no valor de 150 contos , a Miguel Bernardes e o terceiro a Rui Leal , que assim ficará com 75 contos . Na cerimónia , serão também entregues vinte menções honrosas , da selecção dos quinhentos trabalhos apresentados . Todos os desenhos a concurso , vindos de todo o país , estarão em exposição no «hall» do Centro Comercial Jumbo de Setúbal , de 10 a 18 de Setembro . Recorde-se que com este concurso , a APSS também procurou envolver os estabelecimentos de ensino da região de Setúbal , dentro da sua perspectiva de abertura do porto às escolas , já iniciada com a visita de várias turmas às instalações portuárias.Nos termos do concurso , o logotipo terá a frase « Porto de Setúbal » e/ou « Port of Setubal » , só podendo incluir três cores e os trabalhos foram apresentados como anónimos . Todos os desenhos premiados são pertença da APSS e qualquer um poderá ser adoptado como logotipo do porto de Setúbal , por decisão do Conselho de Administração , depois de ouvido o Júri , estipula ainda o regulamento do concurso , pelo que se mantém a curiosidade de saber qual e de quem é o logotipo a ser utilizado pelo porto de Setúbal .Com esta aposta na imagem , os portos de Setúbal e Sesimbra preparam-se para o fim da década , quando tiverem como grande cliente a fábrica da Ford/Volkswagen . "^^xsd:string .
+
+<http://linguateca.pt/harem#char=1259,1266>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Setúbal"^^xsd:string ;
+        nif:beginIndex        "1259"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1266"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2075> .
+
+<http://linguateca.pt/harem#char=840,848>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Rui Leal"^^xsd:string ;
+        nif:beginIndex        "840"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "848"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2075> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=151,158>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Setúbal"^^xsd:string ;
+        nif:beginIndex        "151"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "158"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2075> .
+
+<http://linguateca.pt/harem#char=1088,1121>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Centro Comercial Jumbo de Setúbal"^^xsd:string ;
+        nif:beginIndex        "1088"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1121"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2075> .
+
+<http://linguateca.pt/harem#char=184,230>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Administração dos Portos de Setúbal e Sesimbra"^^xsd:string ;
+        nif:beginIndex        "184"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "230"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2075> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1683,1690>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Setúbal"^^xsd:string ;
+        nif:beginIndex        "1683"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1690"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2075> .
+
+<http://linguateca.pt/harem#char=50,57>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Setúbal"^^xsd:string ;
+        nif:beginIndex        "50"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "57"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2075> .
+
+<http://linguateca.pt/harem#char=793,803>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "150 contos"^^xsd:string ;
+        nif:beginIndex        "793"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "803"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2075> .
+
+<http://linguateca.pt/harem#char=872,881>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "75 contos"^^xsd:string ;
+        nif:beginIndex        "872"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "881"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2075> .
+
+<http://linguateca.pt/harem#char=808,824>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Miguel Bernardes"^^xsd:string ;
+        nif:beginIndex        "808"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "824"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2075> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=715,728>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Rogério Chora"^^xsd:string ;
+        nif:beginIndex        "715"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "728"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2075> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=397,401>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "APSS"^^xsd:string ;
+        nif:beginIndex        "397"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "401"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2075> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1965,1973>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Sesimbra"^^xsd:string ;
+        nif:beginIndex        "1965"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1973"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2075> .
+
+<http://linguateca.pt/harem#char=1474,1489>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Port of Setubal"^^xsd:string ;
+        nif:beginIndex        "1474"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1489"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2075> .
+
+<http://linguateca.pt/harem#char=368,372>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "APSS"^^xsd:string ;
+        nif:beginIndex        "368"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "372"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2075> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=490,497>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Setúbal"^^xsd:string ;
+        nif:beginIndex        "490"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "497"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2075> .

@@ -1,0 +1,436 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=637,671>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Assembleia Geral das Nações Unidas"^^xsd:string ;
+        nif:beginIndex        "637"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "671"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6613> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=4250,4269>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Provedor de Justiça"^^xsd:string ;
+        nif:beginIndex        "4250"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4269"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6613> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=581,622>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Declaração Universal dos Direitos Humanos"^^xsd:string ;
+        nif:beginIndex        "581"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "622"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6613> .
+
+<http://linguateca.pt/harem#char=1312,1323>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Timor-Leste"^^xsd:string ;
+        nif:beginIndex        "1312"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1323"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6613> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=2167,2173>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Estado"^^xsd:string ;
+        nif:beginIndex        "2167"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2173"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6613> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=5978,5985>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Governo"^^xsd:string ;
+        nif:beginIndex        "5978"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5985"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6613> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=371,415>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Senhores Representantes do Corpo Diplomático"^^xsd:string ;
+        nif:beginIndex        "371"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "415"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6613> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=4691,4698>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Governo"^^xsd:string ;
+        nif:beginIndex        "4691"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4698"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6613> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1442,1453>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "16.o a 73.o"^^xsd:string ;
+        nif:beginIndex        "1442"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1453"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6613> .
+
+<http://linguateca.pt/harem#char=675,697>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "10 de Dezembro de 1948"^^xsd:string ;
+        nif:beginIndex        "675"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "697"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6613> .
+
+<http://linguateca.pt/harem#char=329,370>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Senhores Comandantes das F-FDTL e da PNTL"^^xsd:string ;
+        nif:beginIndex        "329"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "370"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6613> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=6088,6116>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Convenções das Nações Unidas"^^xsd:string ;
+        nif:beginIndex        "6088"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "6116"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6613> .
+
+<http://linguateca.pt/harem#char=427,435>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Senhores"^^xsd:string ;
+        nif:beginIndex        "427"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "435"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6613> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=5657,5661>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "2003"^^xsd:string ;
+        nif:beginIndex        "5657"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5661"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6613> .
+
+<http://linguateca.pt/harem#char=192,253>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Senhor Vice-Representante Especial do Secretário-Geral da ONU"^^xsd:string ;
+        nif:beginIndex        "192"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "253"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6613> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=470,486>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Direitos Humanos"^^xsd:string ;
+        nif:beginIndex        "470"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "486"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6613> .
+
+<http://linguateca.pt/harem#char=0,45>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Sua Excelência Senhor Presidente da República"^^xsd:string ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "45"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6613> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1117,1128>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Timor-Leste"^^xsd:string ;
+        nif:beginIndex        "1117"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1128"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6613> .
+
+<http://linguateca.pt/harem#char=4179,4190>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Timor-Leste"^^xsd:string ;
+        nif:beginIndex        "4179"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4190"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6613> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1927,1943>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Setembro de 2001"^^xsd:string ;
+        nif:beginIndex        "1927"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1943"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6613> .
+
+<http://linguateca.pt/harem#char=3413,3424>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Timor-Leste"^^xsd:string ;
+        nif:beginIndex        "3413"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3424"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6613> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=3298,3310>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Constituição"^^xsd:string ;
+        nif:beginIndex        "3298"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3310"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6613> .
+
+<http://linguateca.pt/harem#char=6395,6406>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Timor-Leste"^^xsd:string ;
+        nif:beginIndex        "6395"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "6406"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6613> .
+
+<http://linguateca.pt/harem#char=3523,3534>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Timor-Leste"^^xsd:string ;
+        nif:beginIndex        "3523"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3534"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6613> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=4964,4975>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Timor-Leste"^^xsd:string ;
+        nif:beginIndex        "4964"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4975"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6613> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=4194,4215>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Conselho de Ministros"^^xsd:string ;
+        nif:beginIndex        "4194"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4215"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6613> .
+
+<http://linguateca.pt/harem#char=2284,2290>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Estado"^^xsd:string ;
+        nif:beginIndex        "2284"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2290"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6613> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1946,1958>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Maio de 2002"^^xsd:string ;
+        nif:beginIndex        "1946"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1958"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6613> .
+
+<http://linguateca.pt/harem#char=4752,4759>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Governo"^^xsd:string ;
+        nif:beginIndex        "4752"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4759"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6613> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1602,1649>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Governo da República Democrática de Timor-Leste"^^xsd:string ;
+        nif:beginIndex        "1602"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1649"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6613> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1463,1475>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Constituição"^^xsd:string ;
+        nif:beginIndex        "1463"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1475"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6613> .
+
+<http://linguateca.pt/harem#char=839,850>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Timor-Leste"^^xsd:string ;
+        nif:beginIndex        "839"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "850"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6613> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=5772,5783>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Timor-Leste"^^xsd:string ;
+        nif:beginIndex        "5772"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5783"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6613> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=3800,3811>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Timor-Leste"^^xsd:string ;
+        nif:beginIndex        "3800"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3811"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6613> .
+
+<http://linguateca.pt/harem#char=3350,3364>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "10 de Dezembro"^^xsd:string ;
+        nif:beginIndex        "3350"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3364"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6613> .
+
+<http://linguateca.pt/harem#char=5519,5562>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Plano de Acção Nacional de Direitos Humanos"^^xsd:string ;
+        nif:beginIndex        "5519"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5562"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6613> .
+
+<http://linguateca.pt/harem#char=0,6613>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "6613"^^xsd:nonNegativeInteger ;
+        nif:isString    "Sua Excelência Senhor Presidente da República Sua Excelência Senhor Presidente do Parlamento Nacional Senhor Representante Especial do Secretário-Geral da ONU Caros Colegas Membros do Governo Senhor Vice-Representante Especial do Secretário-Geral da ONU e Representante Residente do Programa de Desenvolvimento das Nações Unidas Senhores Comandantes das F-FDTL e da PNTL Senhores Representantes do Corpo Diplomático Senhoras e Senhores Uma vez mais celebramos o dia dos Direitos Humanos proclamado há cinquenta anos atrás.Este ano assinala-se o quinquagésimo quinto aniversário da Declaração Universal dos Direitos Humanos adoptado pela Assembleia Geral das Nações Unidas em 10 de Dezembro de 1948 que se tornou o padrão universal para a defesa e promoção dos direitos humanos em todo o mundo.Durante os 25 anos de ocupação estrangeira de Timor-Leste o desrespeito pelos direitos humanos foi uma constante na vida dos timorenses . Por isso , o respeito e a promoção dos direitos humanos têm sido sempre uma preocupação para os timorenses . Aliás foram no passado recente motivos da nossa luta de libertação.O povo de Timor-Leste entende as ideias básicas de direitos humanos quando pedem mais segurança , liberdade , igualdade e justiça bem como desenvolvimento económico para cada um deles e as suas famílias . Timor-Leste como país independente está empenhado no respeito , na defesa e na promoção dos direitos humanos . No preâmbulo e nos 16.o a 73.o da nossa Constituição é explícito e inequívoco o apoio aos direitos , deveres , liberdades e garantias fundamentais e de outros direitos análogos.O Governo da República Democrática de Timor-Leste tem reiterado e demonstrado o seu empenho em criar e manter um ambiente seguro onde haja o respeito pelos direitos humanos , considerando e incluindo estes como aspectos nucleares na política do desenvolvimento.Por exemplo , o Plano Nacional de Desenvolvimento elaborado entre Setembro de 2001 e Maio de 2002 através de um processo participativo no qual se destaca o \" Road Map \" para o desenvolvimento do país nos próximos vinte anos , baseia-se em princípios fundamentais dos direitos humanos.Na área da educação o Estado reconhece e garante ao cidadão o direito à educação criando um sistema público de ensino básico universal . O Estado promove a literacia , aquisição de conhecimentos e capacitação aos cidadãos de forma a que possam participar activamente no desenvolvimento económico , social e político;Promove também a igualdade social e a unidade nacional , factores pertinentes a estabilidade do país e de cada um dos cidadãos.Promove a igualdade do género , o acesso as oportunidades , serviços , bens e privilégios , a não-discriminação no trabalho e noutras oportunidades.Defende e impulsiona o tratamento igual aos diversos grupos das populações de áreas diferentes;Tem feito esforços no sentido de impregnar a honestidade , imparcialidade , professionalismo , integridade , empenho , dedicação ao trabalho , eficiência , transparência e responsabilidade nos serviços públicos;Tem promovido o respeito e preservação dos valores e culturas dos vários grupos que constituem a sociedade timorense;A democracia , soberania , respeito dos direitos humanos e o princípio da legalidade , igualdade perante a lei , etc. estão consagrados na Constituição .Como devem recordar-se reunimo-nos em 10 de Dezembro do ano passado para celebrarmos a assinatura de Timor-Leste dos tratados e convenções aos quais se obrigou.Hoje , temos razões para celebrar este dia aquí em Timor-Leste .É justo dizer que se verificaram avanços significativos no sector dos direitos humanos durante o corrente ano . Os direitos consagrados na Declaração Universal os quais se incluem os direitos civis , políticos , económicos , sociais e culturais são respeitados em Timor-Leste . O direito à igualdade , o direito à vida , a liberdade e segurança e integridade pessoal , a proibição da tortura , da discriminação e de tratamentos degradantes , o direito à justiça , a privacidade , a crença , a liberdade de opinião , de associação , a segurança social , o direito ao trabalho e a educação , estão entre outros consagrados na lei fundamental de Timor-Leste .O Conselho de Ministros aprovou o projecto de lei sobre o Provedor de Justiça que está neste momento no Parlamento Nacional . É preocupação do Governo promover a boa governação.A formação e o treino das Falintil - Forças de Defesa de Timor-Leste , da Polícia Nacional de Timor-Leste e dos guardas prisionais são orientados pelos princípios dos direitos humanos . O mesmo acontece com o desenvolvimento e a implementação dos programas para os direitos das mulheres e das crianças . É do interesse do Governo que haja melhor aproximação entre as instituições do Governo e as ONGs bem como com outras organizações.Contudo , existe um certo número de áreas que necessitam de atenção urgente . Como por exemplo , a adaptação do direito interno aos tratados e convenções de que Timor-Leste é parte e o reforço do sistema judiciário e prisional.O Governo está ciente e entende que ao melhorar a opinião pública e da aceitação dos seus direitos e obrigações contribuirá ao fortalecimento e a defesa contra os abusos e violações dos direitos humanos . Esta é a razão da criação e do desenvolvimento de mecanismos de forma a assegurar a primazia dos direitos humanos em Timor-Leste e também de combater violações de direitos humanos onde quer que aconteçam.O Governo e os representantes de grupos de direitos humanos estão a elaborar um Plano de Acção Nacional de Direitos Humanos com o objectivo de realizar através de acções concretas os instrumentos ratificados em 2002 e 2003 . Este Plano criará estruturas apropriadas de forma a promover e tutelar efectivamente os direitos humanos em Timor-Leste identificando também as prioridades , criando programas e fiscalizando os mecanismos de forma consistente e de harmonia com os propósitos políticos , culturais , legais , sociais e económicos.O Governo pretende incentivar , no próximo ano , diversidades sociais , económicas e culturais de acordo com as Convenções das Nações Unidas sobre os direitos económicos , sociais e culturais . No entanto , para que se possa realizar é necessário que haja contribuição de todos.O respeito pelos direitos humanos depende de cada um de nós , como indivíduos , organizações e instituições . Para que se torne realidade em Timor-Leste é necessário que cada um de nós seja um verdadeiro actor no processo.Vamos todos celebrar esta data exercendo e gozando os direitos a nós inerentes não esquecendo contudo das nossas obrigações . Obrigado ! "^^xsd:string .
+
+<http://linguateca.pt/harem#char=5441,5448>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Governo"^^xsd:string ;
+        nif:beginIndex        "5441"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5448"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6613> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=5650,5654>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "2002"^^xsd:string ;
+        nif:beginIndex        "5650"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5654"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6613> .
+
+<http://linguateca.pt/harem#char=1877,1910>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Plano Nacional de Desenvolvimento"^^xsd:string ;
+        nif:beginIndex        "1877"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1910"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6613> .
+
+<http://linguateca.pt/harem#char=5669,5674>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Plano"^^xsd:string ;
+        nif:beginIndex        "5669"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5674"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6613> .
+
+<http://linguateca.pt/harem#char=4765,4769>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "ONGs"^^xsd:string ;
+        nif:beginIndex        "4765"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4769"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6613> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=4296,4315>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Parlamento Nacional"^^xsd:string ;
+        nif:beginIndex        "4296"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4315"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6613> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=184,191>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Governo"^^xsd:string ;
+        nif:beginIndex        "184"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "191"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6613> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=256,328>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Representante Residente do Programa de Desenvolvimento das Nações Unidas"^^xsd:string ;
+        nif:beginIndex        "256"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "328"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6613> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=4443,4474>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Polícia Nacional de Timor-Leste"^^xsd:string ;
+        nif:beginIndex        "4443"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4474"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6613> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=5352,5363>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Timor-Leste"^^xsd:string ;
+        nif:beginIndex        "5352"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5363"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6613> .
+
+<http://linguateca.pt/harem#char=4406,4437>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Forças de Defesa de Timor-Leste"^^xsd:string ;
+        nif:beginIndex        "4406"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4437"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6613> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=4395,4403>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Falintil"^^xsd:string ;
+        nif:beginIndex        "4395"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4403"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6613> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=102,158>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Senhor Representante Especial do Secretário-Geral da ONU"^^xsd:string ;
+        nif:beginIndex        "102"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "158"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6613> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=416,424>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Senhoras"^^xsd:string ;
+        nif:beginIndex        "416"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "424"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6613> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=3675,3695>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Declaração Universal"^^xsd:string ;
+        nif:beginIndex        "3675"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3695"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6613> .
+
+<http://linguateca.pt/harem#char=5032,5039>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Governo"^^xsd:string ;
+        nif:beginIndex        "5032"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5039"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6613> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=4335,4342>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Governo"^^xsd:string ;
+        nif:beginIndex        "4335"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4342"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6613> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=2019,2027>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Road Map"^^xsd:string ;
+        nif:beginIndex        "2019"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2027"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6613> .
+
+<http://linguateca.pt/harem#char=46,101>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Sua Excelência Senhor Presidente do Parlamento Nacional"^^xsd:string ;
+        nif:beginIndex        "46"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "101"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6613> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=804,811>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "25 anos"^^xsd:string ;
+        nif:beginIndex        "804"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "811"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6613> .

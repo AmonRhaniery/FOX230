@@ -1,0 +1,191 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=577,584>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Jardins"^^xsd:string ;
+        nif:beginIndex        "577"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "584"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1698> .
+
+<http://linguateca.pt/harem#char=274,299>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Jardins do Paço Episcopal"^^xsd:string ;
+        nif:beginIndex        "274"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "299"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1698> .
+
+<http://linguateca.pt/harem#char=260,265>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Braga"^^xsd:string ;
+        nif:beginIndex        "260"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "265"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1698> .
+
+<http://linguateca.pt/harem#char=527,545>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Rua Eça de Queirós"^^xsd:string ;
+        nif:beginIndex        "527"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "545"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1698> .
+
+<http://linguateca.pt/harem#char=1068,1073>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Braga"^^xsd:string ;
+        nif:beginIndex        "1068"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1073"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1698> .
+
+<http://linguateca.pt/harem#char=1652,1657>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Braga"^^xsd:string ;
+        nif:beginIndex        "1652"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1657"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1698> .
+
+<http://linguateca.pt/harem#char=1375,1380>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Porto"^^xsd:string ;
+        nif:beginIndex        "1375"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1380"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1698> .
+
+<http://linguateca.pt/harem#char=1386,1393>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Caminha"^^xsd:string ;
+        nif:beginIndex        "1386"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1393"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1698> .
+
+<http://linguateca.pt/harem#char=494,499>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Braga"^^xsd:string ;
+        nif:beginIndex        "494"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "499"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1698> .
+
+<http://linguateca.pt/harem#char=404,416>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Santos Silva"^^xsd:string ;
+        nif:beginIndex        "404"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "416"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1698> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=775,797>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Faculdade de Filosofia"^^xsd:string ;
+        nif:beginIndex        "775"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "797"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1698> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=0,1698>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1698"^^xsd:nonNegativeInteger ;
+        nif:isString    "Foi a primeira vez que veio a Braga ? Foi a primeira vez e comecei aqui os meus estudos superiores . Qual a primeira imagem que teve de Braga ? Como era a cidade ? Era pequeníssima . Este monumento , Biblioteca Pública , que é dos mais antigos , mais belos de Braga eram os Jardins do Paço Episcopal . Na parte de baixo tinha uma capela , que depois tiraram , e aqui em cima uma parede alta que já foi o Santos Silva que a deitou abaixo . E já lhe disse :\" O senhor criou o melhor monumento de Braga que não se vê.\" Essa rua , Rua Eça de Queirós , não existia , foi tirada dos Jardins deste Palácio , que era Episcopal , depois passou para Biblioteca Pública e depois para a Universidade do Minho . Como é que era a cidade ? A prática cultural começou a desenvolver-se com a Faculdade de Filosofia e tivemos aí congressos nacionais . Até é curioso que o congresso foi promovido pela Faculdade de Filosofia , mas foi aqui realizado porque aqui era a Biblioteca Pública , era o sítio onde tínhamos possibilidades de reunir as pessoas . Como fez a viagem de Espanha para Braga ? De comboio . Como foi essa viajem ? Recordo-me da primeira vez que fui para Oia porque foi a primeira vez que vi o mar , que eu sou do interior . Da Covilhã para Espanha e depois para aqui . Quando eu vim para aqui ainda me lembra que a viajem foi de noite e chegou-se de madrugada , já vínhamos do Porto para Caminha . Eu lembro-me que nesse dia à noite eu fui e procurei apanhar a água do mar , tocar o mar pela primeira vez . É curioso tinha eu já 18 anos . Coisa que agora é inconcebivel porque a juventude de agora tem mais mobilidade que tinha naquele tempo . Veio para Braga para estudar ? Para estudar Filosofia . "^^xsd:string .
+
+<http://linguateca.pt/harem#char=1152,1155>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Oia"^^xsd:string ;
+        nif:beginIndex        "1152"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1155"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1698> .
+
+<http://linguateca.pt/harem#char=200,218>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Biblioteca Pública"^^xsd:string ;
+        nif:beginIndex        "200"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "218"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1698> .
+
+<http://linguateca.pt/harem#char=136,141>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Braga"^^xsd:string ;
+        nif:beginIndex        "136"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "141"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1698> .
+
+<http://linguateca.pt/harem#char=883,905>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Faculdade de Filosofia"^^xsd:string ;
+        nif:beginIndex        "883"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "905"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1698> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1238,1245>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Espanha"^^xsd:string ;
+        nif:beginIndex        "1238"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1245"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1698> .
+
+<http://linguateca.pt/harem#char=1225,1232>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Covilhã"^^xsd:string ;
+        nif:beginIndex        "1225"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1232"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1698> .
+
+<http://linguateca.pt/harem#char=1055,1062>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Espanha"^^xsd:string ;
+        nif:beginIndex        "1055"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1062"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1698> .
+
+<http://linguateca.pt/harem#char=591,598>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Palácio"^^xsd:string ;
+        nif:beginIndex        "591"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "598"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1698> .
+
+<http://linguateca.pt/harem#char=30,35>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Braga"^^xsd:string ;
+        nif:beginIndex        "30"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "35"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1698> .
+
+<http://linguateca.pt/harem#char=1527,1534>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "18 anos"^^xsd:string ;
+        nif:beginIndex        "1527"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1534"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1698> .
+
+<http://linguateca.pt/harem#char=1686,1695>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Filosofia"^^xsd:string ;
+        nif:beginIndex        "1686"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1695"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1698> .
+
+<http://linguateca.pt/harem#char=640,658>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Biblioteca Pública"^^xsd:string ;
+        nif:beginIndex        "640"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "658"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1698> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=675,696>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Universidade do Minho"^^xsd:string ;
+        nif:beginIndex        "675"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "696"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1698> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=949,967>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Biblioteca Pública"^^xsd:string ;
+        nif:beginIndex        "949"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "967"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1698> .

@@ -1,0 +1,147 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=10,14>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "17 %"^^xsd:string ;
+        nif:beginIndex        "10"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "14"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1354> .
+
+<http://linguateca.pt/harem#char=1113,1127>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "18 de Setembro"^^xsd:string ;
+        nif:beginIndex        "1113"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1127"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1354> .
+
+<http://linguateca.pt/harem#char=61,75>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "74,2 por cento"^^xsd:string ;
+        nif:beginIndex        "61"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "75"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1354> .
+
+<http://linguateca.pt/harem#char=449,455>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Madrid"^^xsd:string ;
+        nif:beginIndex        "449"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "455"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1354> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1090,1093>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "ETA"^^xsd:string ;
+        nif:beginIndex        "1090"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1093"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1354> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=378,392>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "52,9 por cento"^^xsd:string ;
+        nif:beginIndex        "378"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "392"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1354> .
+
+<http://linguateca.pt/harem#char=966,978>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "17 por cento"^^xsd:string ;
+        nif:beginIndex        "966"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "978"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1354> .
+
+<http://linguateca.pt/harem#char=589,603>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "14,6 por cento"^^xsd:string ;
+        nif:beginIndex        "589"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "603"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1354> .
+
+<http://linguateca.pt/harem#char=267,275>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "El Mundo"^^xsd:string ;
+        nif:beginIndex        "267"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "275"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1354> .
+
+<http://linguateca.pt/harem#char=958,961>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "ETA"^^xsd:string ;
+        nif:beginIndex        "958"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "961"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1354> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=799,813>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "74,8 por cento"^^xsd:string ;
+        nif:beginIndex        "799"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "813"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1354> .
+
+<http://linguateca.pt/harem#char=708,722>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "11,7 por cento"^^xsd:string ;
+        nif:beginIndex        "708"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "722"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1354> .
+
+<http://linguateca.pt/harem#char=1021,1035>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "60,5 por cento"^^xsd:string ;
+        nif:beginIndex        "1021"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1035"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1354> .
+
+<http://linguateca.pt/harem#char=307,310>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "600"^^xsd:string ;
+        nif:beginIndex        "307"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "310"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1354> .
+
+<http://linguateca.pt/harem#char=739,753>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "74,2 por cento"^^xsd:string ;
+        nif:beginIndex        "739"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "753"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1354> .
+
+<http://linguateca.pt/harem#char=1217,1231>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "24,7 por cento"^^xsd:string ;
+        nif:beginIndex        "1217"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1231"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1354> .
+
+<http://linguateca.pt/harem#char=172,186>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "17,7 por cento"^^xsd:string ;
+        nif:beginIndex        "172"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "186"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1354> .
+
+<http://linguateca.pt/harem#char=0,1354>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1354"^^xsd:nonNegativeInteger ;
+        nif:isString    "Espanha : 17 % bascos a favor da independênciaUma maioria de 74,2 por cento dos bascos é a favor de um referendo sobre a autodeterminação na região espanhola , mas somente 17,7 por cento é pela independência , de acordo com uma sondagem ontem publicada pelo jornal « El Mundo ».A sondagem , num universo de 600 pessoas e com margem de erro de quatro por cento , aponta para que 52,9 por cento dos bascos gostaria de uma maior autonomia em relação a Madrid .O estatuto actual do país basco espanhol , que tem já autonomia nomeadamente em matéria fiscal , de educação e segurança , satisfaz 14,6 por cento das pessoas interrogadas.Dos inquiridos , 14,1 por cento rejeita o referendo sobre a autodeterminação , 11,7 por cento não respondeu e 74,2 por cento disse ser a favor.Ainda segundo a sondagem , 74,8 por cento dos bascos condena a campanha de guerrilha urbana , desenvolvida presentemente por grupos de jovens separatistas próximos da organização armada ETA , e 17 por cento considera-a «compreensível».Do conjunto , 60,5 por cento crê que a trégua por período ilimitado anunciada pela ETA e a decorrer desde 18 de Setembro passado tende ao abandono definitivo das armas pela organização independentista , contra 24,7 por cento que pensa o contrário.A trégua criou esperança de que acabe a violência , que em três décadas causou mais de 800 mortos . "^^xsd:string .
+
+<http://linguateca.pt/harem#char=646,660>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "14,1 por cento"^^xsd:string ;
+        nif:beginIndex        "646"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "660"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1354> .
+
+<http://linguateca.pt/harem#char=1333,1344>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "mais de 800"^^xsd:string ;
+        nif:beginIndex        "1333"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1344"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1354> .

@@ -1,0 +1,185 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=2172,2175>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "PMN"^^xsd:string ;
+        nif:beginIndex        "2172"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2175"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2319> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2319>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "2319"^^xsd:nonNegativeInteger ;
+        nif:isString    "Os ministérios da Agricultura e da Ciência e Tecnologia defenderam ontem o uso da soja transgênica na produção do biodiesel para abastecer parte da frota nacional de veículos . A idéia foi lançada pelo ministro Roberto Amaral ( Ciência e Tecnologia ) e detalhada ontem durante a abertura do 1º Congresso Internacional de Biodiesel , realizado em Ribeirão Preto e promovido pela USP ( Universidade de São Paulo ) da cidade . A intenção do governo é usar parte da soja transgênica já plantada no país , e que está com seu consumo proibido , na produção do combustível . Cálculos iniciais do ministério apontam que o programa nacional do biodiesel pode representar uma economia anual de R$ 1,8 bilhão de litros de diesel importado pelo Brasil e gerar 200 mil empregos no campo . Francelino Grando , secretário de Política Tecnológica Empresarial do MCT ( Ministério da Ciência e Tecnologia ) , disse que a proposta é \"uma equação lógica\" . \"Temos que ter em mente que a soja transgênica não desaparecerá no próximo ano . E precisamos ter uma alternativa . \" O ministro da Agricultura , Roberto Rodrigues , afirmou que o uso da soja transgênica \" é uma boa idéia\" . Ele defendeu até que se continue produzindo esse tipo de soja para \"esmagá-la\" e transformá-la em biodiesel . Essa proposta , ainda segundo o ministro da Agricultura , será discutida pelo governo . \"Assim que tivermos uma posição , cada ministério vai tratar de sua parte\" , afirmou Rodrigues . O secretário do MCT também defendeu a manutenção da produção dos transgênicos . \"Um assunto produtivo não pode ser tratado pela polícia\" , afirmou . Francelino Grando e Roberto Rodrigues chegaram ao evento de Ribeirão num microônibus movido a biodiesel . \" É para mostrar que isso é uma realidade , que não é um sonho nem um discurso\" , afirmou Rodrigues . O projeto , desenvolvido pela USP de Ribeirão , consegue produzir o biodiesel a partir da mistura de óleo vegetal _incluindo o de soja_ e etanol , álcool derivado da cana-de-açúcar . A tecnologia difere do biodiesel utilizado em outras partes do mundo , que usa o metanol _um derivado do petróleo . Ainda ontem , o prefeito de Ribeirão , Gilberto Maggioni ( PMN ) , assinou uma carta de intenção com a USP para colocar parte da frota da administração municipal movida a biodiesel , já a partir de junho . "^^xsd:string .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1802,1811>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Rodrigues"^^xsd:string ;
+        nif:beginIndex        "1802"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1811"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2319> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=384,409>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Universidade de São Paulo"^^xsd:string ;
+        nif:beginIndex        "384"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "409"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2319> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=346,360>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ribeirão Preto"^^xsd:string ;
+        nif:beginIndex        "346"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "360"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2319> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=846,849>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "MCT"^^xsd:string ;
+        nif:beginIndex        "846"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "849"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2319> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=776,793>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Francelino Grando"^^xsd:string ;
+        nif:beginIndex        "776"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "793"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2319> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=378,381>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "USP"^^xsd:string ;
+        nif:beginIndex        "378"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "381"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2319> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=211,225>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Roberto Amaral"^^xsd:string ;
+        nif:beginIndex        "211"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "225"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2319> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1473,1476>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "MCT"^^xsd:string ;
+        nif:beginIndex        "1473"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1476"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2319> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=291,330>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1º Congresso Internacional de Biodiesel"^^xsd:string ;
+        nif:beginIndex        "291"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "330"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2319> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=2216,2219>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "USP"^^xsd:string ;
+        nif:beginIndex        "2216"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2219"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2319> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1666,1674>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ribeirão"^^xsd:string ;
+        nif:beginIndex        "1666"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1674"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2319> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=2152,2169>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Gilberto Maggioni"^^xsd:string ;
+        nif:beginIndex        "2152"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2169"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2319> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1626,1643>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Roberto Rodrigues"^^xsd:string ;
+        nif:beginIndex        "1626"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1643"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2319> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1606,1623>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Francelino Grando"^^xsd:string ;
+        nif:beginIndex        "1606"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1623"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2319> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1844,1847>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "USP"^^xsd:string ;
+        nif:beginIndex        "1844"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1847"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2319> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=2141,2149>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ribeirão"^^xsd:string ;
+        nif:beginIndex        "2141"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2149"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2319> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=733,739>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Brasil"^^xsd:string ;
+        nif:beginIndex        "733"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "739"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2319> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1083,1100>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Roberto Rodrigues"^^xsd:string ;
+        nif:beginIndex        "1083"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1100"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2319> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1091,1100>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Rodrigues"^^xsd:string ;
+        nif:beginIndex        "1091"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1100"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2319> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=852,886>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ministério da Ciência e Tecnologia"^^xsd:string ;
+        nif:beginIndex        "852"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "886"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2319> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1851,1859>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ribeirão"^^xsd:string ;
+        nif:beginIndex        "1851"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1859"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2319> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .

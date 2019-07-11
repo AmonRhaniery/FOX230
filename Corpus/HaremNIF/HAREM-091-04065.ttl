@@ -1,0 +1,336 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=1176,1181>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Moura"^^xsd:string ;
+        nif:beginIndex        "1176"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1181"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1965> .
+
+<http://linguateca.pt/harem#char=568,601>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "A Mulher no Inicio do Novo Século"^^xsd:string ;
+        nif:beginIndex        "568"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "601"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1965> .
+
+<http://linguateca.pt/harem#char=1722,1738>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Jogos Municipais"^^xsd:string ;
+        nif:beginIndex        "1722"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1738"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1965> .
+
+<http://linguateca.pt/harem#char=1659,1675>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Jogos Municipais"^^xsd:string ;
+        nif:beginIndex        "1659"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1675"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1965> .
+
+<http://linguateca.pt/harem#char=1002,1051>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Grupo 28 da Associação dos Escuteiros de Portugal"^^xsd:string ;
+        nif:beginIndex        "1002"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1051"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1965> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=252,261>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "St Aleixo"^^xsd:string ;
+        nif:beginIndex        "252"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "261"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1965> .
+
+<http://linguateca.pt/harem#char=1525,1543>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Estádio do M.A.C ."^^xsd:string ;
+        nif:beginIndex        "1525"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1543"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1965> .
+
+<http://linguateca.pt/harem#char=199,218>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Póvoa de S . Miguel"^^xsd:string ;
+        nif:beginIndex        "199"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "218"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1965> .
+
+<http://linguateca.pt/harem#char=154,164>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Freguesias"^^xsd:string ;
+        nif:beginIndex        "154"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "164"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1965> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=0,17>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Concelho de Moura"^^xsd:string ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "17"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1965> .
+
+<http://linguateca.pt/harem#char=629,654>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Câmara Municipal de Moura"^^xsd:string ;
+        nif:beginIndex        "629"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "654"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1965> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1957,1964>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "800x600"^^xsd:string ;
+        nif:beginIndex        "1957"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1964"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1965> .
+
+<http://linguateca.pt/harem#char=470,480>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "15 de Maio"^^xsd:string ;
+        nif:beginIndex        "470"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "480"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1965> .
+
+<http://linguateca.pt/harem#char=1588,1624>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Grupo Desportivo e Cultural de Neves"^^xsd:string ;
+        nif:beginIndex        "1588"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1624"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1965> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=489,494>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "9.30H"^^xsd:string ;
+        nif:beginIndex        "489"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "494"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1965> .
+
+<http://linguateca.pt/harem#char=1105,1132>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Rádio e Jornal «A Planície»"^^xsd:string ;
+        nif:beginIndex        "1105"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1132"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1965> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1333,1339>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Câmara"^^xsd:string ;
+        nif:beginIndex        "1333"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1339"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1965> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=526,531>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Moura"^^xsd:string ;
+        nif:beginIndex        "526"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "531"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1965> .
+
+<http://linguateca.pt/harem#char=1680,1706>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "2º Encontro de Basquetebol"^^xsd:string ;
+        nif:beginIndex        "1680"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1706"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1965> .
+
+<http://linguateca.pt/harem#char=818,849>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Direitos Sexuais e Reprodutivos"^^xsd:string ;
+        nif:beginIndex        "818"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "849"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1965> .
+
+<http://linguateca.pt/harem#char=189,198>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Amareleja"^^xsd:string ;
+        nif:beginIndex        "189"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "198"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1965> .
+
+<http://linguateca.pt/harem#char=900,937>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Direitos da Maternidade e Paternidade"^^xsd:string ;
+        nif:beginIndex        "900"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "937"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1965> .
+
+<http://linguateca.pt/harem#char=1518,1521>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "16h"^^xsd:string ;
+        nif:beginIndex        "1518"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1521"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1965> .
+
+<http://linguateca.pt/harem#char=219,228>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "St Amador"^^xsd:string ;
+        nif:beginIndex        "219"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "228"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1965> .
+
+<http://linguateca.pt/harem#char=229,235>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Safara"^^xsd:string ;
+        nif:beginIndex        "229"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "235"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1965> .
+
+<http://linguateca.pt/harem#char=0,1965>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1965"^^xsd:nonNegativeInteger ;
+        nif:isString    "Concelho de Moura - Alentejo Digital [ Home ].Bem Vindos ao Concelho de Moura , terra do bom azeite Utilidades História Turismo Concelho Câmara Municipal Freguesias St Agostinho e S . João Amareleja Póvoa de S . Miguel St Amador Safara Sobral da Adiça St Aleixo Restauração Fotografias Termas Educação Hotelaria Farmácias Telefones Úteis Serviços Públicos Eventos?Cinema para o Mês de Maio ? Jogos Desportivos Municipais Informação A Mulher no Inicio do Novo Século Dia 15 de Maio , pelas 9.30H , no Cine-Teatro Caridade , em Moura irá realizar-se um Fórum intitulado A Mulher no Inicio do Novo Século , tendo como organização a Câmara Municipal de Moura e a colaboração da Associação de Mulheres do Concelho de Moura .Este Fórum será divido em vários painéis onde serão discutidos os mais variados temas tais como os Direitos Sexuais e Reprodutivos , a Participação da Mulher no Poder Local e ainda Direitos da Maternidade e Paternidade e a Política de Emprego e Inserção .Um Brinquedo por uma CausaO Grupo 28 da Associação dos Escuteiros de Portugal , com colaboração da Câmara Municipal de Moura , e o Rádio e Jornal «A Planície» , apelam a todos os munícipes da cidade de Moura , para procurar entre os brinquedos que já estão encostados a um canto e que podem vir a fazer muitas crianças felizes para os entregar na recepção da Câmara , para no dia 1 de Junho se poder ver um sorriso nos rosto de muitas crianças.Desporto ?Futebol Campeonato Distrital de Seniores ( 1ª Divisão ) Realiza-se dia 20 de Maio , pelas 16h no Estádio do M.A.C . mais um jogo entre Moura Atlético Clube e e Grupo Desportivo e Cultural de Neves ? Pesca Desportiva ( inserido nos Jogos Municipais ) ? 2º Encontro de Basquetebol ( inserido nos Jogos Municipais ) ?CinemaExorcistaDestaqueJOGOS DESPORTIVOS MUNICIPAISServiços Agenda Regional Compadre Revista de Imprensa Classificados Anedotas Tempo Webmail SMS Alentejo Digital ©.Todos os Direitos ReservadosResolução aconselhada 800x600 "^^xsd:string .
+
+<http://linguateca.pt/harem#char=385,389>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Maio"^^xsd:string ;
+        nif:beginIndex        "385"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "389"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1965> .
+
+<http://linguateca.pt/harem#char=1627,1643>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Pesca Desportiva"^^xsd:string ;
+        nif:beginIndex        "1627"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1643"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1965> .
+
+<http://linguateca.pt/harem#char=236,251>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Sobral da Adiça"^^xsd:string ;
+        nif:beginIndex        "236"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "251"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1965> .
+
+<http://linguateca.pt/harem#char=165,177>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "St Agostinho"^^xsd:string ;
+        nif:beginIndex        "165"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "177"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1965> .
+
+<http://linguateca.pt/harem#char=20,36>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Alentejo Digital"^^xsd:string ;
+        nif:beginIndex        "20"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "36"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1965> .
+
+<http://linguateca.pt/harem#char=1563,1583>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Moura Atlético Clube"^^xsd:string ;
+        nif:beginIndex        "1563"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1583"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1965> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=500,520>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Cine-Teatro Caridade"^^xsd:string ;
+        nif:beginIndex        "500"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "520"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1965> .
+
+<http://linguateca.pt/harem#char=60,77>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Concelho de Moura"^^xsd:string ;
+        nif:beginIndex        "60"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "77"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1965> .
+
+<http://linguateca.pt/harem#char=137,153>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Câmara Municipal"^^xsd:string ;
+        nif:beginIndex        "137"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "153"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1965> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1073,1098>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Câmara Municipal de Moura"^^xsd:string ;
+        nif:beginIndex        "1073"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1098"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1965> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1499,1509>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "20 de Maio"^^xsd:string ;
+        nif:beginIndex        "1499"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1509"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1965> .
+
+<http://linguateca.pt/harem#char=392,420>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Jogos Desportivos Municipais"^^xsd:string ;
+        nif:beginIndex        "392"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "420"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1965> .
+
+<http://linguateca.pt/harem#char=1436,1483>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Campeonato Distrital de Seniores ( 1ª Divisão )"^^xsd:string ;
+        nif:beginIndex        "1436"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1483"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1965> .
+
+<http://linguateca.pt/harem#char=942,972>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Política de Emprego e Inserção"^^xsd:string ;
+        nif:beginIndex        "942"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "972"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1965> .
+
+<http://linguateca.pt/harem#char=1888,1904>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Alentejo Digital"^^xsd:string ;
+        nif:beginIndex        "1888"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1904"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1965> .
+
+<http://linguateca.pt/harem#char=1354,1364>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1 de Junho"^^xsd:string ;
+        nif:beginIndex        "1354"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1364"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1965> .
+
+<http://linguateca.pt/harem#char=854,891>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Participação da Mulher no Poder Local"^^xsd:string ;
+        nif:beginIndex        "854"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "891"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1965> .
+
+<http://linguateca.pt/harem#char=674,717>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Associação de Mulheres do Concelho de Moura"^^xsd:string ;
+        nif:beginIndex        "674"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "717"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1965> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=432,465>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "A Mulher no Inicio do Novo Século"^^xsd:string ;
+        nif:beginIndex        "432"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "465"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1965> .
+
+<http://linguateca.pt/harem#char=180,188>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "S . João"^^xsd:string ;
+        nif:beginIndex        "180"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "188"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1965> .

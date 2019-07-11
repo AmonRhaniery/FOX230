@@ -1,0 +1,260 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=1861,1873>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1.000.000$00"^^xsd:string ;
+        nif:beginIndex        "1861"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1873"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2094> .
+
+<http://linguateca.pt/harem#char=1743,1749>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "UNICEF"^^xsd:string ;
+        nif:beginIndex        "1743"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1749"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2094> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1666,1674>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Soporcel"^^xsd:string ;
+        nif:beginIndex        "1666"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1674"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2094> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1629,1634>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Timor"^^xsd:string ;
+        nif:beginIndex        "1629"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1634"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2094> .
+
+<http://linguateca.pt/harem#char=1613,1623>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "965.081$00"^^xsd:string ;
+        nif:beginIndex        "1613"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1623"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2094> .
+
+<http://linguateca.pt/harem#char=837,841>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "BPSM"^^xsd:string ;
+        nif:beginIndex        "837"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "841"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2094> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=174,204>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Agência Fontes Pereira de Melo"^^xsd:string ;
+        nif:beginIndex        "174"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "204"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2094> .
+
+<http://linguateca.pt/harem#char=1901,1907>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "UNICEF"^^xsd:string ;
+        nif:beginIndex        "1901"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1907"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2094> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=464,470>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "LISBOA"^^xsd:string ;
+        nif:beginIndex        "464"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "470"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2094> .
+
+<http://linguateca.pt/harem#char=828,834>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Unicef"^^xsd:string ;
+        nif:beginIndex        "828"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "834"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2094> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1952,1965>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "10.000.000$00"^^xsd:string ;
+        nif:beginIndex        "1952"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1965"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2094> .
+
+<http://linguateca.pt/harem#char=1923,1939>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Portugal Telecom"^^xsd:string ;
+        nif:beginIndex        "1923"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1939"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2094> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1133,1155>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Dec . 40 : Lei nº74/99"^^xsd:string ;
+        nif:beginIndex        "1133"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1155"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2094> .
+
+<http://linguateca.pt/harem#char=284,292>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Internet"^^xsd:string ;
+        nif:beginIndex        "284"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "292"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2094> .
+
+<http://linguateca.pt/harem#char=1586,1603>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Solvay Portuguesa"^^xsd:string ;
+        nif:beginIndex        "1586"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1603"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2094> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1692,1704>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1.043.000$00"^^xsd:string ;
+        nif:beginIndex        "1692"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1704"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2094> .
+
+<http://linguateca.pt/harem#char=2086,2091>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Timor"^^xsd:string ;
+        nif:beginIndex        "2086"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2091"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2094> .
+
+<http://linguateca.pt/harem#char=1523,1536>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Universidades"^^xsd:string ;
+        nif:beginIndex        "1523"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1536"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2094> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1813,1823>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Moçambique"^^xsd:string ;
+        nif:beginIndex        "1813"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1823"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2094> .
+
+<http://linguateca.pt/harem#char=0,2094>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "2094"^^xsd:nonNegativeInteger ;
+        nif:isString    "Campanhas DonativosPode fazer o seu donativo para o Comité Português para a UNICEF utilizando umas das seguintes vias : - Transferência bancária junto do Banco Sotto Mayor - Agência Fontes Pereira de Melo , para o NIB 00.33.0000.50131901229.05 ( pode efectuar esta transferência pela Internet através do site do seu banco ) - Por cheque passado à ordem do Comité Português para a UNICEF e enviado para a Avenida António Augusto de Aguiar , 56-3.º Esq.º , 1069-115 LISBOA - Por vale postal ImprimirEm qualquer dos casos , por favor preencha o seguinte formulário ( essencial se pretende que seja emitido um recibo do seu donativo para efeitos de dedução nos impostos ) :Quero fazer um donativo do valor de : euros Envio cheque nª do banco à ordem de unicef . Pretendo fazer uma transferência bancária da conta nº do banco para a Unicef ( BPSM NIB 00.33.0000.50131901229.05 ) . Nome : Apelido : Empresa : Telefone : Morada : Código Postal : - Localidade : E-mail : Quero receber um recibo : Sim Não Contribuinte Nº : * * necessário para a emissão do recibo O seu donativo é dedutível nos impostos , ao abrigo do estatuto do mecenato ( Dec . 40 : Lei nº74/99 ) Caso envie cheque ou vale postal , imprima o formulário preenchido correctamente e junte-o ao seu donativo . Imprimir Acção do comité português Num mundo sem fronteiras Longe dos olhares da comunicação social , a UNICEF também trabalha em programas de médio e longo prazo Para estes resultados muitos contribuiram v Os Bancos , os Centros Comerciais , as Escolas e Universidades venderam os nossos cartões . v Uma iniciativa da Solvay Portuguesa , reuniu 965.081$00 para Timor . v Uma colaboração regular da Soporcel , contribuiu com 1.043.000$00 , enviados para os recursos gerais da UNICEF . v Uma acção da Cartier , doou 2.000.000$00 para os órfãos de Moçambique . v A campanha da Tioccha , ofereceu 1.000.000$00 para os recursos gerais da UNICEF . v A acção da Portugal Telecom resultou em 10.000.000$00 para o Kosovo . v A participação anual numa campanha da Seguradora Allianz Portugal , permitiu enviar 5.083.618$00 para Timor . "^^xsd:string .
+
+<http://linguateca.pt/harem#char=154,171>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Banco Sotto Mayor"^^xsd:string ;
+        nif:beginIndex        "154"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "171"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2094> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1842,1849>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Tioccha"^^xsd:string ;
+        nif:beginIndex        "1842"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1849"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2094> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=52,82>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Comité Português para a UNICEF"^^xsd:string ;
+        nif:beginIndex        "52"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "82"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2094> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1782,1794>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "2.000.000$00"^^xsd:string ;
+        nif:beginIndex        "1782"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1794"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2094> .
+
+<http://linguateca.pt/harem#char=356,386>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Comité Português para a UNICEF"^^xsd:string ;
+        nif:beginIndex        "356"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "386"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2094> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1477,1483>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Bancos"^^xsd:string ;
+        nif:beginIndex        "1477"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1483"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2094> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=404,437>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Avenida António Augusto de Aguiar"^^xsd:string ;
+        nif:beginIndex        "404"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "437"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2094> .
+
+<http://linguateca.pt/harem#char=1767,1774>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Cartier"^^xsd:string ;
+        nif:beginIndex        "1767"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1774"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2094> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1973,1979>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Kosovo"^^xsd:string ;
+        nif:beginIndex        "1973"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1979"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2094> .
+
+<http://linguateca.pt/harem#char=2022,2049>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Seguradora Allianz Portugal"^^xsd:string ;
+        nif:beginIndex        "2022"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2049"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2094> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1513,1520>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Escolas"^^xsd:string ;
+        nif:beginIndex        "1513"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1520"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2094> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1371,1377>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "UNICEF"^^xsd:string ;
+        nif:beginIndex        "1371"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1377"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2094> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1489,1507>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Centros Comerciais"^^xsd:string ;
+        nif:beginIndex        "1489"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1507"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2094> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=2068,2080>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "5.083.618$00"^^xsd:string ;
+        nif:beginIndex        "2068"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2080"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2094> .

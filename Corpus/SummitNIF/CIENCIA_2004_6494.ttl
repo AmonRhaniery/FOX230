@@ -1,0 +1,113 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=729,744>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "George W . Bush"^^xsd:string ;
+        nif:beginIndex        "729"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "744"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1265> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=664,673>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Sir David"^^xsd:string ;
+        nif:beginIndex        "664"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "673"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1265> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1167,1170>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "EUA"^^xsd:string ;
+        nif:beginIndex        "1167"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1170"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1265> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1259,1262>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "RJL"^^xsd:string ;
+        nif:beginIndex        "1259"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1262"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1265> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=286,303>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "John Schellnhuber"^^xsd:string ;
+        nif:beginIndex        "286"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "303"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1265> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1249,1254>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "David"^^xsd:string ;
+        nif:beginIndex        "1249"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1254"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1265> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=772,790>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Protocolo de Kyoto"^^xsd:string ;
+        nif:beginIndex        "772"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "790"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1265> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=413,417>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "AAAS"^^xsd:string ;
+        nif:beginIndex        "413"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "417"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1265> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=309,323>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Centro Tyndall"^^xsd:string ;
+        nif:beginIndex        "309"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "323"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1265> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=239,250>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Reino Unido"^^xsd:string ;
+        nif:beginIndex        "239"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "250"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1265> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=441,451>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "David King"^^xsd:string ;
+        nif:beginIndex        "441"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "451"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1265> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1061,1072>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Reino Unido"^^xsd:string ;
+        nif:beginIndex        "1061"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1072"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1265> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=327,334>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Norwich"^^xsd:string ;
+        nif:beginIndex        "327"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "334"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1265> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1265>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1265"^^xsd:nonNegativeInteger ;
+        nif:isString    "Estabilizar os níveis de dióxido de carbono na atmosfera e evitar as versões mais assustadoras do aquecimento global causado por esse gás podem custar 1 % da riqueza produzida na Terra por ano , de acordo com um estudo de pesquisadores no Reino Unido . A estimativa foi apresentada por John Schellnhuber , do Centro Tyndall em Norwich , numa conferência sobre os efeitos da mudança climática durante a reunião da AAAS . Capitaneados por sir David King , o principal assessor científico do governo britânico , os pesquisadores não pouparam esforços para demonstrar que o aquecimento global já está pondo em risco as vidas e a economia humanas em diversas regiões . Sir David não poupou críticas à política ambiental do presidente George W . Bush , que se recusa a apoiar o Protocolo de Kyoto , tratado para reduzir as emissões de dióxido de carbono que intensificam o efeito estufa . Esse mecanismo é o equivalente geológico de um cobertor numa noite fria , que aquece a atmosfera da Terra retendo radiação do Sol que de outro modo se dissiparia no espaço . \" O Reino Unido se propôs a reduzir suas emissões de gás carbônico em 60 % até 2050 , e gostaríamos de ver os EUA tomando medidas semelhantes , mas não é o que está acontecendo\" , afirmou sir David . ( RJL ) "^^xsd:string .

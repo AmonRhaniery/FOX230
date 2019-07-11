@@ -1,0 +1,98 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=817,819>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "SN"^^xsd:string ;
+        nif:beginIndex        "817"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "819"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,822> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=735,771>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Wilkinson Microwave Anisotropy Probe"^^xsd:string ;
+        nif:beginIndex        "735"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "771"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,822> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=369,377>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Big Bang"^^xsd:string ;
+        nif:beginIndex        "369"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "377"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,822> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=286,294>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Universo"^^xsd:string ;
+        nif:beginIndex        "286"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "294"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,822> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=728,732>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "WMAP"^^xsd:string ;
+        nif:beginIndex        "728"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "732"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,822> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,12>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "George Smoot"^^xsd:string ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "12"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,822> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=406,418>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "George Gamow"^^xsd:string ;
+        nif:beginIndex        "406"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "418"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,822> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=121,125>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Cobe"^^xsd:string ;
+        nif:beginIndex        "121"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "125"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,822> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=128,154>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Cosmic Background Explorer"^^xsd:string ;
+        nif:beginIndex        "128"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "154"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,822> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,822>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "822"^^xsd:nonNegativeInteger ;
+        nif:isString    "George Smoot é figurinha carimbada no estudo da radiação cósmica de fundo . Foi o principal cientista ligado ao satélite Cobe ( Cosmic Background Explorer ) , que em 1992 revelou flutuações de \"temperatura\" na radiação _na verdade um eco do Big Bang , explosão que teria dado origem ao Universo . Ela foi descoberta em 1965 , depois de ter sido prevista pelo modelo do Big Bang criado pelo russo-americano George Gamow . Mas ninguém conseguira detectar flutuações até o Cobe . A partir das flutuações , é possível estimar a quantidade de matéria e energia existente no Universo e a idade do cosmos , entre outras descobertas importantes . Os resultados do Cobe foram relevantes , mas o estado da arte são as imagens do satélite WMAP ( Wilkinson Microwave Anisotropy Probe ) , cujos primeiros dados saíram em 2003 . ( SN ) "^^xsd:string .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=470,474>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Cobe"^^xsd:string ;
+        nif:beginIndex        "470"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "474"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,822> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=569,577>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Universo"^^xsd:string ;
+        nif:beginIndex        "569"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "577"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,822> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=241,249>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Big Bang"^^xsd:string ;
+        nif:beginIndex        "241"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "249"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,822> .

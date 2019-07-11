@@ -1,0 +1,103 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1683,1688>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Folha"^^xsd:string ;
+        nif:beginIndex        "1683"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1688"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2987> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=2635,2652>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Irapuan Rodrigues"^^xsd:string ;
+        nif:beginIndex        "2635"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2652"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2987> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1503,1513>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Via Láctea"^^xsd:string ;
+        nif:beginIndex        "1503"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1513"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2987> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2987>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "2987"^^xsd:nonNegativeInteger ;
+        nif:isString    "Cientistas do Centro de Estudos de Saclay , na França , parecem ter encontrado o primeiro indício de que a Via Láctea esteja cercada por um verdadeiro campo minado de buracos negros _cerca de 1 milhão ao todo , eles estimam . A pesquisa , que sai publicada hoje na revista britânica \"Nature\" ( www.nature.com ) , é a primeira a constatar que um buraco negro está orbitando o centro da Via Láctea fora do plano do disco galáctico . Atualmente , o objeto está a aproximadamente 6.000 anos-luz do Sol _uma distância pequena , se comparada ao tamanho da galáxia , com seus 100 mil anos-luz de diâmetro . O objeto em questão _um sistema duplo composto por um buraco negro sendo orbitado por uma estrela anã_ já havia sido detectado desde o ano passado , mas só agora os cientistas puderam se assegurar de que ele não pertencia ao disco galáctico . Um buraco negro é o resultado do colapso de uma estrela muito maciça . A força gravitacional existente em suas imediações é tão forte que nem a luz consegue escapar . Por isso é tão complicado identificar esses objetos . Atualmente , o único meio seguro de aferir sua presença é observar astros próximos que estejam sob influência de sua gravidade . A equipe rastreou a trajetória do buraco negro usando novas observações e a análise de dados anteriores , coletados por 43 anos . A partir dessas observações , eles calcularam a órbita do astro e constataram que se trata de um objeto que passa a maior parte do tempo no halo galáctico _a região que circunda a Via Láctea . Além de \"morar\" no halo , aparentemente ele também \"nasceu\" lá , dizem os cientistas . \"Há duas boas evidências de que ele tenha se formado no próprio halo\" , disse à Folha Felix Mirabel , pesquisador que liderou o grupo . \"Uma é a trajetória em si , outra é o quanto a estrela vizinha foi consumida pelo buraco negro , o que indica que o conjunto é muito velho . \"Busca contínuaUm buraco negro nascido na própria Via Láctea que tivesse sido atirado para fora posteriormente , provavelmente pela explosão de uma estrela ( fenômeno conhecido como supernova ) , era justamente o que Mirabel vinha procurando desde que iniciou sua pesquisa , há cinco anos . Ainda não foi desta vez que ele achou , mas a meta pode não estar longe . Seu grupo está atualmente concluindo um segundo estudo , que deve nos próximos meses ser submetido a uma revista científica , abordando não um , mas cinco astros , sendo um deles o mencionado na pesquisa publicada hoje . O material incluirá um segundo buraco negro pertencente ao halo galáctico . E um dos astros \"parece ter um sinal de que tenha sido 'chutado' para fora da galáxia\" , diz Irapuan Rodrigues , pesquisador brasileiro do grupo , que pela primeira vez publica na \"Nature\" . A nova pesquisa promete ter impacto ainda maior no meio científico do que o estudo atual . Segundo Rodrigues , a equipe vai propor uma nova classificação para objetos do tipo , dividindo-os entre os pertencentes ao halo e os que vêm do disco galáctico . "^^xsd:string .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=2643,2652>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Rodrigues"^^xsd:string ;
+        nif:beginIndex        "2643"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2652"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2987> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1689,1702>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Felix Mirabel"^^xsd:string ;
+        nif:beginIndex        "1689"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1702"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2987> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=107,117>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Via Láctea"^^xsd:string ;
+        nif:beginIndex        "107"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "117"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2987> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=385,395>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Via Láctea"^^xsd:string ;
+        nif:beginIndex        "385"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "395"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2987> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=2097,2104>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Mirabel"^^xsd:string ;
+        nif:beginIndex        "2097"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2104"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2987> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=47,53>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "França"^^xsd:string ;
+        nif:beginIndex        "47"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "53"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2987> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1930,1940>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Via Láctea"^^xsd:string ;
+        nif:beginIndex        "1930"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1940"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2987> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=14,41>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Centro de Estudos de Saclay"^^xsd:string ;
+        nif:beginIndex        "14"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "41"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2987> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=283,291>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "\"Nature\""^^xsd:string ;
+        nif:beginIndex        "283"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "291"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2987> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .

@@ -1,0 +1,216 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=1211,1222>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Secretários"^^xsd:string ;
+        nif:beginIndex        "1211"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1222"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1954> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1377,1399>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Prêmio Pereira Barreto"^^xsd:string ;
+        nif:beginIndex        "1377"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1399"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1954> .
+
+<http://linguateca.pt/harem#char=1524,1542>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Hospital São Paulo"^^xsd:string ;
+        nif:beginIndex        "1524"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1542"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1954> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=244,255>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "UNIFESP/EPM"^^xsd:string ;
+        nif:beginIndex        "244"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "255"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1954> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=269,273>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1937"^^xsd:string ;
+        nif:beginIndex        "269"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "273"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1954> .
+
+<http://linguateca.pt/harem#char=1113,1145>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Wladimir da Prússia Gomes Ferraz"^^xsd:string ;
+        nif:beginIndex        "1113"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1145"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1954> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1187,1208>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Jair Xavier Guimarães"^^xsd:string ;
+        nif:beginIndex        "1187"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1208"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1954> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=824,827>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "DCC"^^xsd:string ;
+        nif:beginIndex        "824"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "827"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1954> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=72,75>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "DCC"^^xsd:string ;
+        nif:beginIndex        "72"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "75"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1954> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=152,160>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "DCC/CAPB"^^xsd:string ;
+        nif:beginIndex        "152"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "160"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1954> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=65,68>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "DCC"^^xsd:string ;
+        nif:beginIndex        "65"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "68"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1954> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1760,1762>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "20"^^xsd:string ;
+        nif:beginIndex        "1760"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1762"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1954> .
+
+<http://linguateca.pt/harem#char=1722,1744>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Prêmio Pereira Barreto"^^xsd:string ;
+        nif:beginIndex        "1722"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1744"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1954> .
+
+<http://linguateca.pt/harem#char=1227,1235>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "DCC/CAPB"^^xsd:string ;
+        nif:beginIndex        "1227"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1235"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1954> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=644,647>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "DCC"^^xsd:string ;
+        nif:beginIndex        "644"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "647"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1954> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1677,1717>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Congresso Acadêmico Paulista de Medicina"^^xsd:string ;
+        nif:beginIndex        "1677"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1717"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1954> .
+
+<http://linguateca.pt/harem#char=419,444>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Prêmio \"Pereira Barretto\""^^xsd:string ;
+        nif:beginIndex        "419"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "444"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1954> .
+
+<http://linguateca.pt/harem#char=1569,1587>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Medicina e Cultura"^^xsd:string ;
+        nif:beginIndex        "1569"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1587"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1954> .
+
+<http://linguateca.pt/harem#char=720,747>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Escola Paulista de Medicina"^^xsd:string ;
+        nif:beginIndex        "720"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "747"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1954> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1630,1645>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "janeiro de 1939"^^xsd:string ;
+        nif:beginIndex        "1630"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1645"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1954> .
+
+<http://linguateca.pt/harem#char=1662,1665>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "DCC"^^xsd:string ;
+        nif:beginIndex        "1662"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1665"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1954> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1148,1158>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Presidente"^^xsd:string ;
+        nif:beginIndex        "1148"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1158"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1954> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=78,149>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Departamento de Cultura Científica do Centro Acadêmico Pereira Barretto"^^xsd:string ;
+        nif:beginIndex        "78"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "149"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1954> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=528,568>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Congresso Acadêmico Paulista de Medicina"^^xsd:string ;
+        nif:beginIndex        "528"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "568"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1954> .
+
+<http://linguateca.pt/harem#char=0,1954>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1954"^^xsd:nonNegativeInteger ;
+        nif:isString    "HISTÓRICO Esta seção traz de volta um pouco da longa história do DCC .O DCC - Departamento de Cultura Científica do Centro Acadêmico Pereira Barretto ( DCC/CAPB ) , órgão responsável pela representação e encaminhamento científico dos alunos da UNIFESP/EPM , fundado em 1937 , atua junto aos alunos promovendo vários cursos extracurriculares , palestras , conferências e discussões de interesse à área médica.Organiza o Prêmio \"Pereira Barretto\" , importante e conceituada premiação anual de trabalhos científicos acadêmicos , o Congresso Acadêmico Paulista de Medicina ( CAPM ) , cursos de computação , cursos de idiomas e Revista científica . DCC - Como começou Os alunos sempre estiveram envolvidos na estruturação da Escola Paulista de Medicina .Poucos anos após sua fundação as atividades estudantis se intensificaram.O DCC surge em cinco de maio de 1937 graças ao apoio de professores e ao espirito virtuoso de acadêmicos que , no afã de realizar algo mais do que apenas seguir seus currículos , inauguraram uma história de trabalho , dedicação e abnegação.Seus primeiros diretores foram os então acadêmicos Wladimir da Prússia Gomes Ferraz ( Presidente ) , Arulemo Santos Novaes e Jair Xavier Guimarães ( Secretários ).O DCC/CAPB iniciou seus trabalhos coordenando atividades extracurriculares como Cursos , Congresso Acadêmico e instituindo Prêmios Científicos , como o Prêmio Pereira Barreto , e organizando revista científica voltada para a divulgação de trabalhos produzidos por alunos da escola e por internos do Hospital São Paulo .A revista foi denominada Medicina e Cultura e teve o seu primeiro número publicado em janeiro de 1939 .Atualmente , o DCC organiza o Congresso Acadêmico Paulista de Medicina , o Prêmio Pereira Barreto e , em média , 20 cursos de extensão universitária por ano , que contam com a presença de acadêmicos desta e demais instituições de ensino médico.Temos aumentado a cada ano o reconhecimento de nossos cursos . "^^xsd:string .
+
+<http://linguateca.pt/harem#char=837,858>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "cinco de maio de 1937"^^xsd:string ;
+        nif:beginIndex        "837"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "858"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1954> .
+
+<http://linguateca.pt/harem#char=1163,1184>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Arulemo Santos Novaes"^^xsd:string ;
+        nif:beginIndex        "1163"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1184"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1954> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=571,575>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "CAPM"^^xsd:string ;
+        nif:beginIndex        "571"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "575"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1954> .

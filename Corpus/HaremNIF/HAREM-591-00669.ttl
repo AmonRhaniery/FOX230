@@ -1,0 +1,287 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=498,507>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "2003-2005"^^xsd:string ;
+        nif:beginIndex        "498"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "507"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1593> .
+
+<http://linguateca.pt/harem#char=1080,1086>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Estado"^^xsd:string ;
+        nif:beginIndex        "1080"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1086"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1593> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=316,326>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "28-03-2003"^^xsd:string ;
+        nif:beginIndex        "316"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "326"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1593> .
+
+<http://linguateca.pt/harem#char=1360,1366>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "APOGEP"^^xsd:string ;
+        nif:beginIndex        "1360"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1366"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1593> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=616,628>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Parque Mayer"^^xsd:string ;
+        nif:beginIndex        "616"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "628"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1593> .
+
+<http://linguateca.pt/harem#char=0,1593>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1593"^^xsd:nonNegativeInteger ;
+        nif:isString    "APOGEP Procurar : em : Escolha um canal... A APOGEP Notícias Eventos Associados Certificações Links Perguntas Frequentes Espaço do Sócio Sobre a IPMA Universo IPMA In English Contacte-nos Adesão A APOGEP Notícias Eventos Associados Certificações Espaço do Sócio Perguntas Frequentes Sobre a IPMA Universo IPMA Links 28-03-2003 Convocatória para Assembleia GeralEstá agendada para o próximo dia 26 uma sessão da Assembleia Geral Ordinária da APOGEP para a eleição dos Corpos Gerentes para o triénio 2003-2005 .Com abertura das urnas de voto para as 17 horas , a reunião que decorrerá no Hotel Lisboa Plaza , junto do Parque Mayer , tem o seu inicio marcado para as 18 horas , onde para além da eleição se realizará a aprovação do Relatório e Contas de 2002 e a apresentação do plano de actividades e orçamento para 2003 Sovnet organiza o 17º congresso mundial da IPMA O 17º congresso mundial em Gestão de Projectos decorrerá entre os dias 4 a 6 do Junho , em Moscovo , tendo como principais linhas de acção a análise da gestão de projectos na sociedade , nos negócios e no próprio Estado . O evento incluirá também conferências sobre a gestão inovadora de projectos e no desenvolvimento de serviços profissionais . Além disso , serão apresentados vários casos práticos e as melhores práticas nesta área . Notícias EVM e gestão de riscos em análise WeDo adere à APOGEP IPMA alarga presença internacional Eventos SOVNET - Congresso Mundial IPMA , Moscovo - Russia In English | Contacte-nos | Adesão © 2002 Associação Portuguesa de Gestão de Projectos Concepção e Produção : Link Consulting S.A . "^^xsd:string .
+
+<http://linguateca.pt/harem#char=291,295>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "IPMA"^^xsd:string ;
+        nif:beginIndex        "291"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "295"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1593> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=45,51>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "APOGEP"^^xsd:string ;
+        nif:beginIndex        "45"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "51"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1593> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=0,6>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "APOGEP"^^xsd:string ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "6"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1593> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1454,1460>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Russia"^^xsd:string ;
+        nif:beginIndex        "1454"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1460"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1593> .
+
+<http://linguateca.pt/harem#char=837,840>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "17º"^^xsd:string ;
+        nif:beginIndex        "837"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "840"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1593> .
+
+<http://linguateca.pt/harem#char=942,952>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "6 do Junho"^^xsd:string ;
+        nif:beginIndex        "942"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "952"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1593> .
+
+<http://linguateca.pt/harem#char=1410,1416>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "SOVNET"^^xsd:string ;
+        nif:beginIndex        "1410"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1416"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1593> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=159,163>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "IPMA"^^xsd:string ;
+        nif:beginIndex        "159"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "163"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1593> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1419,1441>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Congresso Mundial IPMA"^^xsd:string ;
+        nif:beginIndex        "1419"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1441"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1593> .
+
+<http://linguateca.pt/harem#char=394,396>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "26"^^xsd:string ;
+        nif:beginIndex        "394"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "396"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1593> .
+
+<http://linguateca.pt/harem#char=586,604>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Hotel Lisboa Plaza"^^xsd:string ;
+        nif:beginIndex        "586"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "604"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1593> .
+
+<http://linguateca.pt/harem#char=1571,1592>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Link Consulting S.A ."^^xsd:string ;
+        nif:beginIndex        "1571"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1592"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1593> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1503,1568>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Associação Portuguesa de Gestão de Projectos Concepção e Produção"^^xsd:string ;
+        nif:beginIndex        "1503"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1568"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1593> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=819,825>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Sovnet"^^xsd:string ;
+        nif:beginIndex        "819"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "825"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1593> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=894,913>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Gestão de Projectos"^^xsd:string ;
+        nif:beginIndex        "894"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "913"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1593> .
+
+<http://linguateca.pt/harem#char=145,149>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "IPMA"^^xsd:string ;
+        nif:beginIndex        "145"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "149"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1593> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1444,1451>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Moscovo"^^xsd:string ;
+        nif:beginIndex        "1444"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1451"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1593> .
+
+<http://linguateca.pt/harem#char=862,866>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "IPMA"^^xsd:string ;
+        nif:beginIndex        "862"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "866"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1593> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=467,482>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Corpos Gerentes"^^xsd:string ;
+        nif:beginIndex        "467"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "482"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1593> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=869,872>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "17º"^^xsd:string ;
+        nif:beginIndex        "869"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "872"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1593> .
+
+<http://linguateca.pt/harem#char=664,672>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "18 horas"^^xsd:string ;
+        nif:beginIndex        "664"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "672"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1593> .
+
+<http://linguateca.pt/harem#char=814,818>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "2003"^^xsd:string ;
+        nif:beginIndex        "814"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "818"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1593> .
+
+<http://linguateca.pt/harem#char=958,965>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Moscovo"^^xsd:string ;
+        nif:beginIndex        "958"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "965"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1593> .
+
+<http://linguateca.pt/harem#char=411,447>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Assembleia Geral Ordinária da APOGEP"^^xsd:string ;
+        nif:beginIndex        "411"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "447"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1593> .
+
+<http://linguateca.pt/harem#char=548,556>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "17 horas"^^xsd:string ;
+        nif:beginIndex        "548"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "556"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1593> .
+
+<http://linguateca.pt/harem#char=197,203>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "APOGEP"^^xsd:string ;
+        nif:beginIndex        "197"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "203"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1593> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=305,309>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "IPMA"^^xsd:string ;
+        nif:beginIndex        "305"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "309"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1593> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1498,1502>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "2002"^^xsd:string ;
+        nif:beginIndex        "1498"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1502"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1593> .
+
+<http://linguateca.pt/harem#char=1367,1371>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "IPMA"^^xsd:string ;
+        nif:beginIndex        "1367"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1371"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1593> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=729,755>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Relatório e Contas de 2002"^^xsd:string ;
+        nif:beginIndex        "729"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "755"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1593> .
+
+<http://linguateca.pt/harem#char=938,939>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "4"^^xsd:string ;
+        nif:beginIndex        "938"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "939"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1593> .
+
+<http://linguateca.pt/harem#char=1347,1351>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "WeDo"^^xsd:string ;
+        nif:beginIndex        "1347"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1351"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1593> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .

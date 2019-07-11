@@ -1,0 +1,94 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1946,1953>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Clapham"^^xsd:string ;
+        nif:beginIndex        "1946"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1953"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2367> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=441,446>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "UCP-3"^^xsd:string ;
+        nif:beginIndex        "441"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "446"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2367> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=178,186>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "\"Nature\""^^xsd:string ;
+        nif:beginIndex        "178"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "186"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2367> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=665,670>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "UCP-3"^^xsd:string ;
+        nif:beginIndex        "665"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "670"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2367> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1760,1785>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Universidade de Cambridge"^^xsd:string ;
+        nif:beginIndex        "1760"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1785"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2367> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1821,1826>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "UCP-3"^^xsd:string ;
+        nif:beginIndex        "1821"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1826"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2367> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1701,1719>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "SmithKline Beecham"^^xsd:string ;
+        nif:beginIndex        "1701"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1719"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2367> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1467,1472>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "UCP-3"^^xsd:string ;
+        nif:beginIndex        "1467"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1472"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2367> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=616,621>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "UCP-1"^^xsd:string ;
+        nif:beginIndex        "616"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "621"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2367> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1788,1799>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Reino Unido"^^xsd:string ;
+        nif:beginIndex        "1788"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1799"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2367> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1662,1674>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "John Clapham"^^xsd:string ;
+        nif:beginIndex        "1662"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1674"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2367> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2367>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "2367"^^xsd:nonNegativeInteger ;
+        nif:isString    "Um tratamento para a obesidade que faz você comer mais , perder peso e reduzir a taxa de gordura do corpo é o que sugere um estudo britânico publicado hoje na revista científica \"Nature\" . Por enquanto é só sugestão : o tratamento foi testado em camundongos . Mas os resultados levaram os cientistas a chamar o próprio estudo de \"abordagem promissora\" contra a obesidade . No centro do método está um gene humano descoberto recentemente , o UCP-3 , cujos mecanismos de ação ainda não são totalmente conhecidos . Sabe-se que está envolvido no processamento de energia pelas células e que um gene da mesma família , o UCP-1 , está ligado à queima de gordura . O gene UCP-3 foi inserido em camundongos e manipulado para produzir , em excesso , a proteína determinada por ele . Os camundongos com essa alteração genética comeram até 54 % mais que os camundongos normais . Apesar disso , pesavam até 23 % a menos que seus companheiros . A porcentagem de tecido adiposo ( gordura ) sobre o volume total do corpo dos bichos também diminuiu _nos machos , em 44 % ; nas fêmeas , em 57 % . Sua atividade física não diferiu significativamente em relação à dos camundongos normais . Isso quer dizer que os camundongos transgênicos reduziram a gordura de seu corpo , em relação à massa muscular , sem fazer ginástica . Os animais magros consumiram mais energia até para respirar . Em vez de armazenar a comida como gordura , transformaram-na em calor . Novos remédios O fato de o UCP-3 ser um gene humano facilita aplicações clínicas da pesquisa . Um dos caminhos seria sua superestimulação . \"Esse é um alvo viável para remédios contra a obesidade\" , disse um dos autores , John Clapham , da empresa farmacêutica SmithKline Beecham , que fez o estudo em colaboração com a Universidade de Cambridge , Reino Unido . Drogas baseadas no UCP-3 teriam pouco em comum com os moderadores de apetite usados hoje . \"Elas funcionariam do outro lado da equação\" , disse Clapham . Em vez de reduzir a ingestão de energia , aumentariam seu consumo pelo corpo _o que , atualmente , é conseguido com o aumento de exercícios físicos . Clapham não prevê fórmulas mágicas para os sedentários . Ele afirmou que dieta e exercícios devem continuar a protagonizar tratamentos para emagrecer . É preciso saber , agora , se há um limite para a superativação do gene _e quais os seus efeitos colaterais . "^^xsd:string .

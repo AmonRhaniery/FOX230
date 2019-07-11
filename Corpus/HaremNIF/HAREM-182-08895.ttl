@@ -1,0 +1,308 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=561,568>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Megatom"^^xsd:string ;
+        nif:beginIndex        "561"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "568"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1770> .
+
+<http://linguateca.pt/harem#char=0,1770>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1770"^^xsd:nonNegativeInteger ;
+        nif:isString    "Jornal Bom Dia - O diário do Médio Piracicaba Maguila participa do Casseta &amp; Planeta O ex-boxeador Adílson Maguila gravou na terça-feira uma participação especial no quadro Mundo Bombado , do programa Casseta &amp; Planeta Urgente ! . Maguila interpretou Dr . Maguilovitch , um psicanalista que cura Maçaranduba ( Claudio Manuel ) de um um princípio de depressão detectado por Montanha ( Bussunda ) . Depois de muito esforço , o doutor faz uma regressão em Maçaranduba , que resolve sua crise existencial e volta a ter a sua velha agressividade Mudanças no Megatom O diretor Aloysio Legey deixou o comando do Megatom para cuidar dos especiais de fim de ano da Globo . Mario Lúcio Vaz , diretor da Central Globo de Controle de Qualidade assumiu a supervisão do humorístico . Note &amp; Anote : pressão Continua baixa a audiência do Nota &amp; Anote . Como prevíamos , a entrada de Claudete Troiano não provocou uma melhoria nos índices , que continua estacionado nos 4 pontos . Acontece que a Record está pagando um salário de R$ 300 mil para a experiência apresentado , e espera o retorno . Para piorar , muitos espectadores querem a volta de Cátia Fonseca . Claudete afirma que está tranqüila , mas a pressão sobre ela é cada vez maior . Ministério da Justiça recua Os censores de Zé Gregori elaboram um ofício advertindo a Rede Record por causa da exibição do filme Fogo contra Fogo em horário impróprio no último domingo . Entretanto , o Ministério da Justiça decidiu não enviar o ofício para a emissora . Aparentemente , censores e chefes do ministério não estão falando a mesma língua . Vale destacar que o PSDB vinha negociando um acordo com a Igreja Universal . Melhor resolução 800x600 16 bit's © copyright 2000 , Jornal Bom Dia Todos os Direitos Reservados "^^xsd:string .
+
+<http://linguateca.pt/harem#char=996,1002>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Record"^^xsd:string ;
+        nif:beginIndex        "996"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1002"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1770> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1243,1264>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ministério da Justiça"^^xsd:string ;
+        nif:beginIndex        "1243"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1264"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1770> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=239,246>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Maguila"^^xsd:string ;
+        nif:beginIndex        "239"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "246"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1770> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=664,669>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Globo"^^xsd:string ;
+        nif:beginIndex        "664"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "669"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1770> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1286,1296>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Zé Gregori"^^xsd:string ;
+        nif:beginIndex        "1286"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1296"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1770> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=970,971>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "4"^^xsd:string ;
+        nif:beginIndex        "970"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "971"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1770> .
+
+<http://linguateca.pt/harem#char=613,620>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Megatom"^^xsd:string ;
+        nif:beginIndex        "613"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "620"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1770> .
+
+<http://linguateca.pt/harem#char=884,900>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Claudete Troiano"^^xsd:string ;
+        nif:beginIndex        "884"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "900"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1770> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=778,794>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Note &amp; Anote"^^xsd:string ;
+        nif:beginIndex        "778"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "794"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1770> .
+
+<http://linguateca.pt/harem#char=1445,1466>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ministério da Justiça"^^xsd:string ;
+        nif:beginIndex        "1445"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1466"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1770> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=67,88>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Casseta &amp; Planeta"^^xsd:string ;
+        nif:beginIndex        "67"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "88"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1770> .
+
+<http://linguateca.pt/harem#char=461,472>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Maçaranduba"^^xsd:string ;
+        nif:beginIndex        "461"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "472"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1770> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1726,1740>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Jornal Bom Dia"^^xsd:string ;
+        nif:beginIndex        "1726"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1740"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1770> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=701,739>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Central Globo de Controle de Qualidade"^^xsd:string ;
+        nif:beginIndex        "701"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "739"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1770> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=318,332>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Claudio Manuel"^^xsd:string ;
+        nif:beginIndex        "318"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "332"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1770> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1719,1723>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "2000"^^xsd:string ;
+        nif:beginIndex        "1719"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1723"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1770> .
+
+<http://linguateca.pt/harem#char=103,118>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Adílson Maguila"^^xsd:string ;
+        nif:beginIndex        "103"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "118"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1770> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=381,389>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Montanha"^^xsd:string ;
+        nif:beginIndex        "381"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "389"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1770> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1698,1700>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "16"^^xsd:string ;
+        nif:beginIndex        "1698"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1700"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1770> .
+
+<http://linguateca.pt/harem#char=1690,1697>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "800x600"^^xsd:string ;
+        nif:beginIndex        "1690"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1697"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1770> .
+
+<http://linguateca.pt/harem#char=835,851>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Nota &amp; Anote"^^xsd:string ;
+        nif:beginIndex        "835"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "851"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1770> .
+
+<http://linguateca.pt/harem#char=29,45>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Médio Piracicaba"^^xsd:string ;
+        nif:beginIndex        "29"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "45"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1770> .
+
+<http://linguateca.pt/harem#char=672,687>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Mario Lúcio Vaz"^^xsd:string ;
+        nif:beginIndex        "672"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "687"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1770> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1030,1040>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "R$ 300 mil"^^xsd:string ;
+        nif:beginIndex        "1030"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1040"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1770> .
+
+<http://linguateca.pt/harem#char=1654,1670>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Igreja Universal"^^xsd:string ;
+        nif:beginIndex        "1654"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1670"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1770> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=392,400>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Bussunda"^^xsd:string ;
+        nif:beginIndex        "392"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "400"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1770> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=304,315>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Maçaranduba"^^xsd:string ;
+        nif:beginIndex        "304"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "315"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1770> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1616,1620>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "PSDB"^^xsd:string ;
+        nif:beginIndex        "1616"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1620"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1770> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1329,1340>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Rede Record"^^xsd:string ;
+        nif:beginIndex        "1329"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1340"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1770> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1163,1171>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Claudete"^^xsd:string ;
+        nif:beginIndex        "1163"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1171"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1770> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=46,53>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Maguila"^^xsd:string ;
+        nif:beginIndex        "46"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "53"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1770> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=177,190>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Mundo Bombado"^^xsd:string ;
+        nif:beginIndex        "177"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "190"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1770> .
+
+<http://linguateca.pt/harem#char=1372,1388>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Fogo contra Fogo"^^xsd:string ;
+        nif:beginIndex        "1372"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1388"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1770> .
+
+<http://linguateca.pt/harem#char=579,592>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Aloysio Legey"^^xsd:string ;
+        nif:beginIndex        "579"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "592"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1770> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=0,14>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Jornal Bom Dia"^^xsd:string ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "14"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1770> .
+
+<http://linguateca.pt/harem#char=205,226>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Casseta &amp; Planeta"^^xsd:string ;
+        nif:beginIndex        "205"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "226"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1770> .
+
+<http://linguateca.pt/harem#char=259,276>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Dr . Maguilovitch"^^xsd:string ;
+        nif:beginIndex        "259"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "276"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1770> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1147,1160>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Cátia Fonseca"^^xsd:string ;
+        nif:beginIndex        "1147"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1160"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1770> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .

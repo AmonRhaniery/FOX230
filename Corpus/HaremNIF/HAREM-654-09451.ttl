@@ -1,0 +1,442 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=1910,1917>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ziraldo"^^xsd:string ;
+        nif:beginIndex        "1910"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1917"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2202> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=482,490>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Alemanha"^^xsd:string ;
+        nif:beginIndex        "482"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "490"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2202> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1822,1826>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Lula"^^xsd:string ;
+        nif:beginIndex        "1822"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1826"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2202> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=995,1001>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Hitler"^^xsd:string ;
+        nif:beginIndex        "995"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1001"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2202> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=31,39>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Khomeini"^^xsd:string ;
+        nif:beginIndex        "31"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "39"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2202> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=630,642>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Reza Pahlevi"^^xsd:string ;
+        nif:beginIndex        "630"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "642"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2202> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=563,567>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1979"^^xsd:string ;
+        nif:beginIndex        "563"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "567"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2202> .
+
+<http://linguateca.pt/harem#char=1157,1161>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Lula"^^xsd:string ;
+        nif:beginIndex        "1157"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1161"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2202> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=502,524>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Segunda Guerra Mundial"^^xsd:string ;
+        nif:beginIndex        "502"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "524"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2202> .
+
+<http://linguateca.pt/harem#char=1404,1415>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Che Guevara"^^xsd:string ;
+        nif:beginIndex        "1404"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1415"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2202> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=193,213>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Sucursal de Brasília"^^xsd:string ;
+        nif:beginIndex        "193"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "213"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2202> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1939,1941>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "80"^^xsd:string ;
+        nif:beginIndex        "1939"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1941"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2202> .
+
+<http://linguateca.pt/harem#char=1546,1548>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "PT"^^xsd:string ;
+        nif:beginIndex        "1546"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1548"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2202> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1721,1728>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Playboy"^^xsd:string ;
+        nif:beginIndex        "1721"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1728"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2202> .
+
+<http://linguateca.pt/harem#char=776,778>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "PT"^^xsd:string ;
+        nif:beginIndex        "776"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "778"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2202> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=365,369>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Lula"^^xsd:string ;
+        nif:beginIndex        "365"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "369"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2202> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1230,1238>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Khomeini"^^xsd:string ;
+        nif:beginIndex        "1230"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1238"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2202> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=233,258>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Luiz Inácio Lula da Silva"^^xsd:string ;
+        nif:beginIndex        "233"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "258"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2202> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1487,1491>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Lula"^^xsd:string ;
+        nif:beginIndex        "1487"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1491"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2202> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=360,362>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "PT"^^xsd:string ;
+        nif:beginIndex        "360"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "362"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2202> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1355,1359>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Lula"^^xsd:string ;
+        nif:beginIndex        "1355"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1359"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2202> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=527,536>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1939-1945"^^xsd:string ;
+        nif:beginIndex        "527"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "536"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2202> .
+
+<http://linguateca.pt/harem#char=154,169>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "GUSTAVO KRIEGER"^^xsd:string ;
+        nif:beginIndex        "154"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "169"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2202> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=287,295>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Khomeini"^^xsd:string ;
+        nif:beginIndex        "287"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "295"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2202> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1395,1401>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Gandhi"^^xsd:string ;
+        nif:beginIndex        "1395"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1401"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2202> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=781,785>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Lula"^^xsd:string ;
+        nif:beginIndex        "781"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "785"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2202> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=2040,2047>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ziraldo"^^xsd:string ;
+        nif:beginIndex        "2040"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2047"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2202> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=707,740>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Sindicato dos Metalúrgicos do ABC"^^xsd:string ;
+        nif:beginIndex        "707"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "740"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2202> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1363,1367>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1979"^^xsd:string ;
+        nif:beginIndex        "1363"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1367"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2202> .
+
+<http://linguateca.pt/harem#char=2102,2113>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "mais de 500"^^xsd:string ;
+        nif:beginIndex        "2102"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2113"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2202> .
+
+<http://linguateca.pt/harem#char=2188,2201>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Agência Folha"^^xsd:string ;
+        nif:beginIndex        "2188"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2201"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2202> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1146,1154>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Khomeini"^^xsd:string ;
+        nif:beginIndex        "1146"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1154"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2202> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=22,28>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Hitler"^^xsd:string ;
+        nif:beginIndex        "22"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "28"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2202> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1620,1626>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Palmas"^^xsd:string ;
+        nif:beginIndex        "1620"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1626"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2202> .
+
+<http://linguateca.pt/harem#char=261,273>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Adolf Hitler"^^xsd:string ;
+        nif:beginIndex        "261"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "273"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2202> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1629,1631>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "TO"^^xsd:string ;
+        nif:beginIndex        "1629"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1631"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2202> .
+
+<http://linguateca.pt/harem#char=53,55>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "PT"^^xsd:string ;
+        nif:beginIndex        "53"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "55"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2202> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=541,549>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Khomeini"^^xsd:string ;
+        nif:beginIndex        "541"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "549"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2202> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=815,822>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Playboy"^^xsd:string ;
+        nif:beginIndex        "815"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "822"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2202> .
+
+<http://linguateca.pt/harem#char=2153,2157>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Lula"^^xsd:string ;
+        nif:beginIndex        "2153"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2157"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2202> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=2126,2140>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Rio de Janeiro"^^xsd:string ;
+        nif:beginIndex        "2126"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2140"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2202> .
+
+<http://linguateca.pt/harem#char=1206,1209>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Irã"^^xsd:string ;
+        nif:beginIndex        "1206"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1209"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2202> .
+
+<http://linguateca.pt/harem#char=1382,1392>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Tiradentes"^^xsd:string ;
+        nif:beginIndex        "1382"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1392"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2202> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=2170,2182>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "ABNOR GONDIN"^^xsd:string ;
+        nif:beginIndex        "2170"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2182"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2202> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1967,1971>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Lula"^^xsd:string ;
+        nif:beginIndex        "1967"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1971"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2202> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=657,660>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Irã"^^xsd:string ;
+        nif:beginIndex        "657"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "660"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2202> .
+
+<http://linguateca.pt/harem#char=1418,1430>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Fidel Castro"^^xsd:string ;
+        nif:beginIndex        "1418"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1430"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2202> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1018,1024>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Hitler"^^xsd:string ;
+        nif:beginIndex        "1018"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1024"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2202> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1785,1792>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Playboy"^^xsd:string ;
+        nif:beginIndex        "1785"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1792"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2202> .
+
+<http://linguateca.pt/harem#char=170,189>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "ELVIS CESAR BONASSA"^^xsd:string ;
+        nif:beginIndex        "170"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "189"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2202> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=666,679>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "julho de 1979"^^xsd:string ;
+        nif:beginIndex        "666"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "679"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2202> .
+
+<http://linguateca.pt/harem#char=1433,1445>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Mao Tsé-Tung"^^xsd:string ;
+        nif:beginIndex        "1433"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1445"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2202> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=138,145>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Playboy"^^xsd:string ;
+        nif:beginIndex        "138"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "145"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2202> .
+
+<http://linguateca.pt/harem#char=151,153>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "79"^^xsd:string ;
+        nif:beginIndex        "151"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "153"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2202> .
+
+<http://linguateca.pt/harem#char=439,445>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Hitler"^^xsd:string ;
+        nif:beginIndex        "439"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "445"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2202> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=0,2202>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "2202"^^xsd:nonNegativeInteger ;
+        nif:isString    "Lula declarou admirar Hitler e Khomeini Candidato do PT disse ontem que não se lembra de ter feito essa afirmação em entrevista à revista Playboy , em 79 GUSTAVO KRIEGER ELVIS CESAR BONASSA Da Sucursal de Brasília Elogios feitos por Luiz Inácio Lula da Silva a Adolf Hitler e ao aiatolá Khomeini são uma das preocupações do comando da campanha presidencial do PT . Lula declarou \"admiração\" pelos dois no início de sua carreira política . Hitler foi o ditador alemão que comandou a Alemanha nazista na Segunda Guerra Mundial ( 1939-1945 ) . Khomeini liderou , em 1979 , a revolução xiita ( radicais mulçumanos ) que derrubou o xá Reza Pahlevi do governo do Irã . Em julho de 1979 , quando era presidente do Sindicato dos Metalúrgicos do ABC paulista e articulava a criação do PT , Lula deu uma entrevista à revista Playboy , na qual citou os dois líderes como duas figuras políticas pelas quais ele nutria admiração . Dedicação O então sindicalista elogiou a \"disposição , força e dedicação\" de Hitler e afirmou : \" O Hitler , mesmo errado , tinha aquilo que eu admiro num homem , o fogo de se propor a fazer alguma coisa e tentar fazer\" . Sobre Khomeini , Lula disse : \"Eu não conheço muita coisa sobre o Irã , mas a força que o Khomeini mostrou , a determinação de acabar com aquele regime do xá foi um negócio sério\" . A lista de figuras admiradas por Lula em 1979 incluia ainda Tiradentes , Gandhi , Che Guevara , Fidel Castro e Mao Tsé-Tung . Este tipo de declaração , que mostra o Lula radical do movimento sindical , preocupa a direção do PT , empenhada em vender uma imagem mais moderada nas eleições . Ontem em Palmas ( TO ) , o candidato petista disse que não se lembra de ter feito essas declarações à revista Playboy . Desconhecimento \"Eu desconheço que haja entrevista da Playboy em que eu falo isso\" , disse Lula . O líder petista não quis comentar também uma entrevista prestada pelo cartunista Ziraldo à mesma revista , em 80 , quando disse que ouviu Lula dizer que das feministas ele só queria o sexo . \" É só perguntar ao Ziraldo se eu disse isso e sobre o que disse em um debate com mais de 500 mulheres no Rio de Janeiro \" , afirmou Lula . Colaborou ABNOR GONDIN , da Agência Folha "^^xsd:string .
+
+<http://linguateca.pt/harem#char=0,4>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Lula"^^xsd:string ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2202> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .

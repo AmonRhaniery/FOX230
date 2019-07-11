@@ -1,0 +1,558 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=3390,3398>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Medicina"^^xsd:string ;
+        nif:beginIndex        "3390"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3398"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4437> .
+
+<http://linguateca.pt/harem#char=693,704>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Lloyd Braga"^^xsd:string ;
+        nif:beginIndex        "693"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "704"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4437> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=2579,2607>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "professor Machado dos Santos"^^xsd:string ;
+        nif:beginIndex        "2579"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2607"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4437> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=151,158>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Coimbra"^^xsd:string ;
+        nif:beginIndex        "151"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "158"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4437> .
+
+<http://linguateca.pt/harem#char=2385,2405>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Palácio da Vila Flôr"^^xsd:string ;
+        nif:beginIndex        "2385"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2405"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4437> .
+
+<http://linguateca.pt/harem#char=1170,1176>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Taipas"^^xsd:string ;
+        nif:beginIndex        "1170"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1176"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4437> .
+
+<http://linguateca.pt/harem#char=3067,3076>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Guimarães"^^xsd:string ;
+        nif:beginIndex        "3067"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3076"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4437> .
+
+<http://linguateca.pt/harem#char=1757,1769>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "3.500 contos"^^xsd:string ;
+        nif:beginIndex        "1757"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1769"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4437> .
+
+<http://linguateca.pt/harem#char=457,466>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Vila Real"^^xsd:string ;
+        nif:beginIndex        "457"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "466"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4437> .
+
+<http://linguateca.pt/harem#char=2612,2624>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "João de Deus"^^xsd:string ;
+        nif:beginIndex        "2612"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2624"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4437> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=3960,3977>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Freitas do Amaral"^^xsd:string ;
+        nif:beginIndex        "3960"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3977"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4437> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1111,1119>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Barcelos"^^xsd:string ;
+        nif:beginIndex        "1111"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1119"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4437> .
+
+<http://linguateca.pt/harem#char=161,166>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Porto"^^xsd:string ;
+        nif:beginIndex        "161"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "166"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4437> .
+
+<http://linguateca.pt/harem#char=58,63>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Braga"^^xsd:string ;
+        nif:beginIndex        "58"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "63"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4437> .
+
+<http://linguateca.pt/harem#char=210,232>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Faculdade de Filosofia"^^xsd:string ;
+        nif:beginIndex        "210"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "232"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4437> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=2254,2271>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Freitas do Amaral"^^xsd:string ;
+        nif:beginIndex        "2254"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2271"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4437> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1537,1546>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Guimarães"^^xsd:string ;
+        nif:beginIndex        "1537"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1546"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4437> .
+
+<http://linguateca.pt/harem#char=444,451>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Covilhã"^^xsd:string ;
+        nif:beginIndex        "444"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "451"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4437> .
+
+<http://linguateca.pt/harem#char=304,312>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Portugal"^^xsd:string ;
+        nif:beginIndex        "304"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "312"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4437> .
+
+<http://linguateca.pt/harem#char=4398,4407>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Guimarães"^^xsd:string ;
+        nif:beginIndex        "4398"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4407"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4437> .
+
+<http://linguateca.pt/harem#char=1145,1150>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Braga"^^xsd:string ;
+        nif:beginIndex        "1145"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1150"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4437> .
+
+<http://linguateca.pt/harem#char=3109,3119>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "15 minutos"^^xsd:string ;
+        nif:beginIndex        "3109"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3119"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4437> .
+
+<http://linguateca.pt/harem#char=1666,1675>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Guimarães"^^xsd:string ;
+        nif:beginIndex        "1666"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1675"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4437> .
+
+<http://linguateca.pt/harem#char=4072,4085>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Santos Simões"^^xsd:string ;
+        nif:beginIndex        "4072"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4085"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4437> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=878,888>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Inglaterra"^^xsd:string ;
+        nif:beginIndex        "878"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "888"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4437> .
+
+<http://linguateca.pt/harem#char=3895,3903>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Economia"^^xsd:string ;
+        nif:beginIndex        "3895"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3903"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4437> .
+
+<http://linguateca.pt/harem#char=3788,3796>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Medicina"^^xsd:string ;
+        nif:beginIndex        "3788"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3796"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4437> .
+
+<http://linguateca.pt/harem#char=3206,3219>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "prof . Romero"^^xsd:string ;
+        nif:beginIndex        "3206"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3219"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4437> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=2682,2700>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Machado dos Santos"^^xsd:string ;
+        nif:beginIndex        "2682"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2700"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4437> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=2327,2336>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Guimarães"^^xsd:string ;
+        nif:beginIndex        "2327"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2336"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4437> .
+
+<http://linguateca.pt/harem#char=4413,4419>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Monção"^^xsd:string ;
+        nif:beginIndex        "4413"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4419"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4437> .
+
+<http://linguateca.pt/harem#char=4303,4316>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Santos Simões"^^xsd:string ;
+        nif:beginIndex        "4303"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4316"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4437> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1704,1720>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Quinta da Armada"^^xsd:string ;
+        nif:beginIndex        "1704"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1720"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4437> .
+
+<http://linguateca.pt/harem#char=4133,4142>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Guimarães"^^xsd:string ;
+        nif:beginIndex        "4133"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4142"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4437> .
+
+<http://linguateca.pt/harem#char=3753,3766>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Pinto Machado"^^xsd:string ;
+        nif:beginIndex        "3753"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3766"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4437> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=0,4437>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "4437"^^xsd:nonNegativeInteger ;
+        nif:isString    "E como surgiu a ideia de construir uma universidade cá em Braga ? Isso foi ideia do Veiga Simão . O Veiga Simão ao fazer a reforma das universidades , Coimbra , Porto e Lisboa , entendeu que Braga já tinha uma Faculdade de Filosofia e que era uma cidade universitária , e era das partes mais povoadas de Portugal , como sabe ainda hoje é o sítio mais jovem da Europa , já está a perdé-lo , mas ainda é . Pôs a universidade aqui , em Évora e na Covilhã e em Vila Real os institutos universitários , que depois passaram a universidade , mas eram institutos universitários . As universidades eram Porto , Lisboa e Minho . Felizmente , o primeiro reitor foi um homem execpcional . Isto deve-se ao Lloyd Braga , quando ele na primeira reunião que tivemos disse : \"Vamos fazer uma universidade completa . Não temos obrigação de seguir as outras .\" A ideia dele , \" Campus \" trouxe da Inglaterra , por a universidade toda num campus e não como está na Covilhã , em cada parte da cidade está uma coisa , a universidade não está reunida . E até queria um só e não queria em Braga . Nós a princípio , também se pensou em Barcelos , mas a que ganhou entre Braga e Guimarães foi as Taipas porque era um monte por nossa conta , podia-se fazer ali toda a universidade . A gente ia para lá trabalhar durante o dia e à noite ia cada um para sua casa . Acontece que os de Guimarães julgavam , e hoje estão arrependidos , não queriam , queriam uma coisa em Guimarães , e Viana prescindiu também podia ser em Viana segundo a lei a Engenharia Naval . Os de Guimarães disseram : \"Ponham lá o que quiserem , mas que isso vá para Guimarães .\" E como o governo nos obrigou a ter em Braga e Guimarães , o oficiais venderam-nos a Quinta da Armada , onde está a universidade hoje por 3.500 contos . Eles disseram : \"Desde de que nos façam uma casa para os oficiais no Porto é o preço , são 3.500 contos .\" . Depois arrependeram-se e queríamos comprar a parte \"condutiz\" e já nos queriam 50 mil contos . \"Não , não ! Isso mais tarde é barato , que isto foi baratíssimo.\" . Em Guimarães a parte onde está a universidade , já fui eu que comprei esses terrenos . Nós não queríamos ficar metidos ali na cidade , hoje já estamos asfixiados , já se previa , mas o governo obrigou-nos . O Freitas do Amaral e outros obrigaram-nos a ir para lá . Então ficamos em Guimarães e aqui . Em Guimarães a princípio tínhamos lá o Palácio da Vila Flôr , onde estivemos provisoriamente , e depois fomos comprando o terreno onde está hoje a universidade . Isso já foi no meu tempo . E depois o grande desenvolvimento foi com o professor Machado dos Santos , o João de Deus esteve pouco tempo , foi para ministro da Educação , e o Machado dos Santos foi nomeado reitor . Esteve 10 anos porque eu fiz os estatutos e contava depois esteve duas vezes e portanto foi o reitor que deu grande desenvolvimento porque as universidades eram subsidíadas em função do número de estudantes , por isso convinha ter mais , ao início tínhamos até de mais , mas foi bom porque nos foi dando dinheiro para construir a universidade . Guimarães agora com a auto-estrada fica a 15 minutos de distância . Quem fazia parte da comissão instaladora ? O professor Lloyd Braga , o prof . Romero , era eu , o Pinto Machado que quis fundar a faculdade de Medicina e que agora está à frente . Mudou para cá , mas depois teve que mudar para o Porto para a faculdade de Medicina , mas agora está a trabalhar cá . E havia depois o director das obras públicas , que não interessa , também pertenceu mas mudou com o tempo . O secretário que foi o doutor Cabral que ainda aí está , depois mudou para este administrador que aí está . O Freitas do Amaral foi alguns meses , depois meteu-se na política e deixou , mas foi dos primeiros . O Pinto Machado tinha a faculdade de Medicina , o professor Romero tinha a de Engenharia , eu tinha a parte de Humanidades , Ciências Sociais e Economia . Eu tinha as letras só , a princípio , porque quando o Freitas do Amaral se foi embora fiquei eu , porque eu era o único de humanidades . Éramos estes , depois veio o Santos Simões , que é o que está à frente da universidade em Guimarães e que foi substituir o Freitas do Amaral . Guimarães tinha muito poder junto do governo naquele tempo . Mas foi uma sorte , ainda hoje somos muito amigos com o Santos Simões , ainda estamos em relação com ele e agora vai-se fundar uma unidade cultural em Guimarães , em Monção e em Guimarães . "^^xsd:string .
+
+<http://linguateca.pt/harem#char=859,865>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Campus"^^xsd:string ;
+        nif:beginIndex        "859"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "865"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4437> .
+
+<http://linguateca.pt/harem#char=3364,3369>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Porto"^^xsd:string ;
+        nif:beginIndex        "3364"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3369"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4437> .
+
+<http://linguateca.pt/harem#char=3233,3246>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Pinto Machado"^^xsd:string ;
+        nif:beginIndex        "3233"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3246"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4437> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=3651,3668>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Freitas do Amaral"^^xsd:string ;
+        nif:beginIndex        "3651"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3668"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4437> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=2729,2736>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "10 anos"^^xsd:string ;
+        nif:beginIndex        "2729"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2736"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4437> .
+
+<http://linguateca.pt/harem#char=3801,3817>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "professor Romero"^^xsd:string ;
+        nif:beginIndex        "3801"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3817"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4437> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=3180,3201>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "professor Lloyd Braga"^^xsd:string ;
+        nif:beginIndex        "3180"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3201"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4437> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1863,1875>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "3.500 contos"^^xsd:string ;
+        nif:beginIndex        "1863"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1875"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4437> .
+
+<http://linguateca.pt/harem#char=3278,3286>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Medicina"^^xsd:string ;
+        nif:beginIndex        "3278"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3286"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4437> .
+
+<http://linguateca.pt/harem#char=1490,1495>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Viana"^^xsd:string ;
+        nif:beginIndex        "1490"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1495"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4437> .
+
+<http://linguateca.pt/harem#char=1453,1458>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Viana"^^xsd:string ;
+        nif:beginIndex        "1453"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1458"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4437> .
+
+<http://linguateca.pt/harem#char=3829,3839>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Engenharia"^^xsd:string ;
+        nif:beginIndex        "3829"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3839"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4437> .
+
+<http://linguateca.pt/harem#char=2048,2057>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Guimarães"^^xsd:string ;
+        nif:beginIndex        "2048"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2057"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4437> .
+
+<http://linguateca.pt/harem#char=1153,1162>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Guimarães"^^xsd:string ;
+        nif:beginIndex        "1153"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1162"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4437> .
+
+<http://linguateca.pt/harem#char=602,608>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Lisboa"^^xsd:string ;
+        nif:beginIndex        "602"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "608"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4437> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=945,952>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Covilhã"^^xsd:string ;
+        nif:beginIndex        "945"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "952"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4437> .
+
+<http://linguateca.pt/harem#char=360,366>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Europa"^^xsd:string ;
+        nif:beginIndex        "360"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "366"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4437> .
+
+<http://linguateca.pt/harem#char=611,616>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Minho"^^xsd:string ;
+        nif:beginIndex        "611"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "616"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4437> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=4186,4195>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Guimarães"^^xsd:string ;
+        nif:beginIndex        "4186"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4195"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4437> .
+
+<http://linguateca.pt/harem#char=3564,3577>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "doutor Cabral"^^xsd:string ;
+        nif:beginIndex        "3564"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3577"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4437> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1960,1973>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "50 mil contos"^^xsd:string ;
+        nif:beginIndex        "1960"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1973"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4437> .
+
+<http://linguateca.pt/harem#char=1607,1616>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Guimarães"^^xsd:string ;
+        nif:beginIndex        "1607"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1616"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4437> .
+
+<http://linguateca.pt/harem#char=100,111>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Veiga Simão"^^xsd:string ;
+        nif:beginIndex        "100"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "111"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4437> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=3876,3892>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ciências Sociais"^^xsd:string ;
+        nif:beginIndex        "3876"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3892"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4437> .
+
+<http://linguateca.pt/harem#char=169,175>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Lisboa"^^xsd:string ;
+        nif:beginIndex        "169"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "175"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4437> .
+
+<http://linguateca.pt/harem#char=3862,3873>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Humanidades"^^xsd:string ;
+        nif:beginIndex        "3862"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3873"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4437> .
+
+<http://linguateca.pt/harem#char=1512,1528>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Engenharia Naval"^^xsd:string ;
+        nif:beginIndex        "1512"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1528"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4437> .
+
+<http://linguateca.pt/harem#char=4166,4183>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Freitas do Amaral"^^xsd:string ;
+        nif:beginIndex        "4166"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4183"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4437> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1355,1364>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Guimarães"^^xsd:string ;
+        nif:beginIndex        "1355"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1364"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4437> .
+
+<http://linguateca.pt/harem#char=1439,1448>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Guimarães"^^xsd:string ;
+        nif:beginIndex        "1439"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1448"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4437> .
+
+<http://linguateca.pt/harem#char=594,599>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Porto"^^xsd:string ;
+        nif:beginIndex        "594"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "599"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4437> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=4425,4434>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Guimarães"^^xsd:string ;
+        nif:beginIndex        "4425"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4434"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4437> .
+
+<http://linguateca.pt/harem#char=1065,1070>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Braga"^^xsd:string ;
+        nif:beginIndex        "1065"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1070"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4437> .
+
+<http://linguateca.pt/harem#char=433,438>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Évora"^^xsd:string ;
+        nif:beginIndex        "433"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "438"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4437> .
+
+<http://linguateca.pt/harem#char=1841,1846>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Porto"^^xsd:string ;
+        nif:beginIndex        "1841"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1846"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4437> .
+
+<http://linguateca.pt/harem#char=84,95>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Veiga Simão"^^xsd:string ;
+        nif:beginIndex        "84"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "95"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4437> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=191,196>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Braga"^^xsd:string ;
+        nif:beginIndex        "191"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "196"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4437> .
+
+<http://linguateca.pt/harem#char=1658,1663>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Braga"^^xsd:string ;
+        nif:beginIndex        "1658"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1663"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4437> .
+
+<http://linguateca.pt/harem#char=2667,2675>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Educação"^^xsd:string ;
+        nif:beginIndex        "2667"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2675"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4437> .
+
+<http://linguateca.pt/harem#char=2349,2358>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Guimarães"^^xsd:string ;
+        nif:beginIndex        "2349"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2358"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,4437> .

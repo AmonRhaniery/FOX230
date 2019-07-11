@@ -1,0 +1,105 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=238,244>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Brasil"^^xsd:string ;
+        nif:beginIndex        "238"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "244"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,442> .
+
+<http://linguateca.pt/harem#char=3,19>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Reportagem Local"^^xsd:string ;
+        nif:beginIndex        "3"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "19"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,442> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=189,191>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "PC"^^xsd:string ;
+        nif:beginIndex        "189"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "191"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,442> .
+
+<http://linguateca.pt/harem#char=425,439>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "CI-Compucenter"^^xsd:string ;
+        nif:beginIndex        "425"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "439"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,442> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=113,118>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Corel"^^xsd:string ;
+        nif:beginIndex        "113"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "118"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,442> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=303,312>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "The Artic"^^xsd:string ;
+        nif:beginIndex        "303"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "312"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,442> .
+
+<http://linguateca.pt/harem#char=134,137>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "250"^^xsd:string ;
+        nif:beginIndex        "134"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "137"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,442> .
+
+<http://linguateca.pt/harem#char=416,421>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "R$ 29"^^xsd:string ;
+        nif:beginIndex        "416"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "421"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,442> .
+
+<http://linguateca.pt/harem#char=335,355>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Aviation Photography"^^xsd:string ;
+        nif:beginIndex        "335"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "355"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,442> .
+
+<http://linguateca.pt/harem#char=162,176>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Corel Photo CD"^^xsd:string ;
+        nif:beginIndex        "162"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "176"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,442> .
+
+<http://linguateca.pt/harem#char=70,76>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "CD-ROM"^^xsd:string ;
+        nif:beginIndex        "70"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "76"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,442> .
+
+<http://linguateca.pt/harem#char=0,442>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "442"^^xsd:nonNegativeInteger ;
+        nif:isString    "Da Reportagem Local Uma boa opção de programas para quem tem drive de CD-ROM no computador é a linha de fotos da Corel . Composta por 250 títulos em CD , a linha Corel Photo CD funciona em PC e Macintosh . Entre os títulos disponíveis no Brasil estão \" Fireworks \" , com fotos de fogos de artifício , \" The Artic \" ( neve e gelo ) e \" Aviation Photography \" ( aviões ) . Cada CD , com cem fotos de uso livre , custa R$ 29 na CI-Compucenter . "^^xsd:string .
+
+<http://linguateca.pt/harem#char=253,262>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Fireworks"^^xsd:string ;
+        nif:beginIndex        "253"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "262"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,442> .
+
+<http://linguateca.pt/harem#char=194,203>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Macintosh"^^xsd:string ;
+        nif:beginIndex        "194"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "203"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,442> .

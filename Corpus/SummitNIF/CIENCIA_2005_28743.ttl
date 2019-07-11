@@ -1,0 +1,98 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1898,1905>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Atlanta"^^xsd:string ;
+        nif:beginIndex        "1898"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1905"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2696> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=2565,2573>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ferguson"^^xsd:string ;
+        nif:beginIndex        "2565"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2573"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2696> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1772,1779>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Londres"^^xsd:string ;
+        nif:beginIndex        "1772"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1779"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2696> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1750,1766>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Imperial College"^^xsd:string ;
+        nif:beginIndex        "1750"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1766"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2696> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1997,2006>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Tailândia"^^xsd:string ;
+        nif:beginIndex        "1997"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2006"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2696> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1908,1911>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "EUA"^^xsd:string ;
+        nif:beginIndex        "1908"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1911"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2696> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1874,1892>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Universidade Emory"^^xsd:string ;
+        nif:beginIndex        "1874"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1892"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2696> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=525,548>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Primeira Guerra Mundial"^^xsd:string ;
+        nif:beginIndex        "525"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "548"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2696> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1727,1744>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Neil M . Ferguson"^^xsd:string ;
+        nif:beginIndex        "1727"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1744"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2696> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1849,1868>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ira M . Longini Jr."^^xsd:string ;
+        nif:beginIndex        "1849"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1868"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2696> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2696>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "2696"^^xsd:nonNegativeInteger ;
+        nif:isString    "Mesmo supondo o pior _que o vírus da gripe do frango possa ser transmitido de pessoa a pessoa_ , seria possível conter um surto da doença antes que ela se transforme em uma epidemia de proporções letais e mundiais . Estudos baseados em modelos de computador , publicados nos dois principais periódicos científicos do planeta , indicam que diagnóstico rápido , quarentena de doentes e tratamento em massa com antivirais seriam capazes de impedir algo semelhante ao que aconteceu com a chamada gripe espanhola , logo depois da Primeira Guerra Mundial . Essa epidemia de gripe , ou influenza , matou de 20 milhões a 40 milhões de pessoas em apenas dois anos _a imprecisão das estimativas , tal como a grandeza dos números , já deixam claro o impacto da tragédia . Para que se tenha uma idéia , os combates de 1914 a 1918 mataram perto de 10 milhões de pessoas . A gripe aviária que atualmente já afeta vários países asiáticos ainda não é um problema grave de saúde pública para o ser humano . Apesar de grande mortandade entre as aves , foram poucos os casos afetando seres humanos . As vítimas se infectam por inalação ou ingestão do vírus nas fezes e nas secreções das aves cujo organismo foi invadido . Mas os cientistas se preocupam com a possibilidade de que mutações aleatórias no vírus acabem criando cepas capazes de serem transmitidas de pessoa a pessoa , criando o potencial de uma nova pandemia _uma epidemia de proporções globais . As duas equipes de pesquisadores fizeram estudos semelhantes e divulgaram os resultados nas edições desta semana das revistas \"Nature\" ( www.nature.com ) , que circula hoje , e \"Science\" ( www.sciencemag.org ) , que sai publicada amanhã . O estudo na britânica \"Nature\" é de autoria de Neil M . Ferguson , do Imperial College , de Londres , e mais sete colaboradores ; o da americana \"Science\" foi feito por Ira M . Longini Jr. , da Universidade Emory , em Atlanta ( EUA ) , e mais sete colegas . Os dados para as simulações de computador foram obtidos na Tailândia , um país do sudeste asiático que , além de estar vulnerável à doença , dispunha de um conjunto de estatísticas detalhado e adequado aos modelos . Como se trata de uma potencial transmissão de pessoa a pessoa , era fundamental saber qual o grau de contatos que uma vítima teria para passar o vírus a outras . Após rodar os modelos , os pesquisadores apresentaram uma boa e uma má notícia . A boa é a conclusão de que se pode conter a gripe do frango . A má é que será preciso mais que uma boa idéia para conter o avanço da doença . \"Para ser eficaz\" , disse Ferguson , \"você precisa de uma combinação de estratégias . Nenhuma isoladamente conseguiria prevenir com sucesso uma epidemia . \" "^^xsd:string .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1618,1627>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "\"Science\""^^xsd:string ;
+        nif:beginIndex        "1618"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1627"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2696> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .

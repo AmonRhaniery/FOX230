@@ -1,0 +1,240 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=350,384>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Federação Internacional de Futebol"^^xsd:string ;
+        nif:beginIndex        "350"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "384"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1589> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=158,162>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1998"^^xsd:string ;
+        nif:beginIndex        "158"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "162"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1589> .
+
+<http://linguateca.pt/harem#char=923,926>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "129"^^xsd:string ;
+        nif:beginIndex        "923"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "926"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1589> .
+
+<http://linguateca.pt/harem#char=1249,1264>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Lothar Matthaus"^^xsd:string ;
+        nif:beginIndex        "1249"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1264"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1589> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1175,1189>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Roberto Baggio"^^xsd:string ;
+        nif:beginIndex        "1175"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1189"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1589> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=556,563>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ronaldo"^^xsd:string ;
+        nif:beginIndex        "556"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "563"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1589> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1109,1120>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "George Weah"^^xsd:string ;
+        nif:beginIndex        "1109"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1120"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1589> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1267,1271>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1991"^^xsd:string ;
+        nif:beginIndex        "1267"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1271"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1589> .
+
+<http://linguateca.pt/harem#char=0,6>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Zidane"^^xsd:string ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "6"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1589> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1564,1571>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Mundial"^^xsd:string ;
+        nif:beginIndex        "1564"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1571"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1589> .
+
+<http://linguateca.pt/harem#char=0,1589>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1589"^^xsd:nonNegativeInteger ;
+        nif:isString    "Zidane poderá ser eleito hoje o «jogador do ano» Três jogadores , o brasileiro Ronaldo , o croata Davor Suker e o francês Zinedine Zidane , marcaram o ano de 1998 e são os pretendentes ao troféu de melhor futebolista mundial da FIFA , a conhecer hoje em Barcelona . Uma distinção inacessível para a maioria dos futebolistas mundiais , atribuída pela Federação Internacional de Futebol ( FIFA ) e que visa enaltecer aquele que foi o melhor jogador mundial do ano transacto . Hoje , em cerimónia a realizar no Teatro Municipal de Barcelona , quem sucederá a Ronaldo - jogador que venceu o troféu nos dois últimos anos - , a avaliar pelas previsões , será Zinedine Zidane , considerado pela generalidade dos observadores o jogador mais valioso do Mundial de França'98 . Pelo oitavo ano , o melhor jogador mundial da FIFA será escolhido por um painel de técnicos de selecções nacionais de todos os continentes . Este ano serão 129 treinadores a votar , o que constitui um recorde . Nos últimos dois anos o troféu foi arrecadado por Ronaldo , que volta a ser candidato . Como seus antecessores figuram o liberiano George Weah ( 1995 ) , o brasileiro Romário ( 1994 ) , o italiano Roberto Baggio ( 1993 ) , o holandês Marco Van Basten ( 1992 ) e o alemão Lothar Matthaus ( 1991 ) . Na cerimónia serão ainda distinguidas a melhor selecção nacional ( são favoritas a de França e a do Brasil ) e a que mais progrediu no \"ranking\" da FIFA , além de serem atribuídos o prémio \"fair-play\" , as bolas de ouro , prata e bronze e troféus para distinguir os melhores jogadores no Mundial , entre outros . "^^xsd:string .
+
+<http://linguateca.pt/harem#char=1155,1159>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1994"^^xsd:string ;
+        nif:beginIndex        "1155"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1159"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1589> .
+
+<http://linguateca.pt/harem#char=1362,1368>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "França"^^xsd:string ;
+        nif:beginIndex        "1362"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1368"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1589> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=813,817>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "FIFA"^^xsd:string ;
+        nif:beginIndex        "813"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "817"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1589> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=744,764>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Mundial de França'98"^^xsd:string ;
+        nif:beginIndex        "744"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "764"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1589> .
+
+<http://linguateca.pt/harem#char=1212,1228>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Marco Van Basten"^^xsd:string ;
+        nif:beginIndex        "1212"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1228"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1589> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=122,137>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Zinedine Zidane"^^xsd:string ;
+        nif:beginIndex        "122"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "137"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1589> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1231,1235>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1992"^^xsd:string ;
+        nif:beginIndex        "1231"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1235"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1589> .
+
+<http://linguateca.pt/harem#char=1424,1428>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "FIFA"^^xsd:string ;
+        nif:beginIndex        "1424"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1428"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1589> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1123,1127>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1995"^^xsd:string ;
+        nif:beginIndex        "1123"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1127"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1589> .
+
+<http://linguateca.pt/harem#char=1028,1035>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ronaldo"^^xsd:string ;
+        nif:beginIndex        "1028"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1035"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1589> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=254,263>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Barcelona"^^xsd:string ;
+        nif:beginIndex        "254"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "263"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1589> .
+
+<http://linguateca.pt/harem#char=508,537>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Teatro Municipal de Barcelona"^^xsd:string ;
+        nif:beginIndex        "508"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "537"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1589> .
+
+<http://linguateca.pt/harem#char=228,232>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "FIFA"^^xsd:string ;
+        nif:beginIndex        "228"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "232"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1589> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1376,1382>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Brasil"^^xsd:string ;
+        nif:beginIndex        "1376"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1382"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1589> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=79,86>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ronaldo"^^xsd:string ;
+        nif:beginIndex        "79"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "86"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1589> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=98,109>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Davor Suker"^^xsd:string ;
+        nif:beginIndex        "98"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "109"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1589> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1192,1196>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1993"^^xsd:string ;
+        nif:beginIndex        "1192"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1196"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1589> .
+
+<http://linguateca.pt/harem#char=387,391>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "FIFA"^^xsd:string ;
+        nif:beginIndex        "387"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "391"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1589> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=653,668>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Zinedine Zidane"^^xsd:string ;
+        nif:beginIndex        "653"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "668"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1589> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1145,1152>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Romário"^^xsd:string ;
+        nif:beginIndex        "1145"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1152"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1589> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .

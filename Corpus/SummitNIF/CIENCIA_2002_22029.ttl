@@ -1,0 +1,228 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=2096,2101>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Maldi"^^xsd:string ;
+        nif:beginIndex        "2096"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2101"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3516> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3516>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "3516"^^xsd:nonNegativeInteger ;
+        nif:isString    "Os físicos gostam de dizer que a biologia estaria perdida sem eles . Um grupo do Instituto de Física da USP está ajudando a inflar ainda mais o ego da categoria , ao construir o primeiro aparelho no país que usa laser para analisar moléculas biológicas . O instrumento tem um nome indecifrável : espectrômetro de massa de ionização por dessorção a laser com auxílio de matriz ( Maldi , na sigla em inglês ) . Mas sua função pode ser definida de um jeito bem simples : uma balança para pesar proteínas . O Maldi , cuja invenção rendeu o Prêmio Nobel de Química deste ano para o japonês Koichi Tanaka , é a principal ferramenta dos estudos de proteômica , ciência que busca entender como as proteínas interagem para pôr um organismo em funcionamento . Por ser de operação delicado , também é um aparelho caro : um espectrômetro de massa para proteômica custa , em média , cerca de US$ 500 mil . A Fapesp ( Fundação de Amparo à Pesquisa do Estado de São Paulo ) , que pretendia comprar Maldis para executar seu projeto proteoma , teve de desistir da idéia após a desvalorização do real , no começo do semestre . Precisou se contentar com um empréstimo de duas máquinas durante seis meses para iniciar o trabalho . O Maldi feito pelo grupo do LIP ( Laboratório de Instrumentação e Partículas ) , do Instituto de Física , também financiado pela Fapesp , saiu bem mais em conta : US$ 50 mil da concepção à construção . Mas que ninguém pense que o objetivo do grupo da USP é produzi-los em série para atender ao projeto proteoma . \" A nossa idéia é desenvolver a tecnologia e treinar pessoal\" , diz a física nuclear Suzana Salem Vasconcelos , do LIP . \"Isso não é um equipamento que vise aplicação comercial\" , afirmou . O aparelho de Maldi foi projetado e construído ao longo dos últimos dois anos pelo grupo de Vasconcelos , do qual também fazem parte os pesquisadores Olacio Dietzsch , Eduardo Macchione , Kiyomi Koide e José Hirata . Ele está sendo testado na análise de polímeros ( longas cadeias de uma mesma molécula ) e , dentro de seis meses , deverá ser usado rotineiramente com proteínas . O Maldi \"pesa\" as moléculas bombardeando a amostra que se quer estudar com pulsos de laser . A energia faz com que a proteína fique carregada eletricamente ( ionizada ) . Nesse estado , ela pode ser submetida a um campo elétrico num tubo de vácuo e \"voar\" por esse tubo até um detector . A massa da proteína , então , pode ser calculada . Quanto mais leve a molécula , menos tempo ela leva para atravessar o tubo . A combinação de carga e tempo de vôo permite identificar a \"assinatura\" de cada proteína . O grupo já tem em funcionamento um outro espectrômetro que também \"pesa\" moléculas orgânicas , mas usando uma técnica mais antiga : o bombardeamento da amostra e feito por partículas de califórnio ( um elemento radioativo ) em vez de laser . Ele tem sido usado com sucesso em colaboração com bioquímicos da USP para a identificação de pigmentos em algas e de peptídeos ( pequenas proteínas ) em feijão . Nenhum dos aparelhos tem desempenho semelhante a um comercial . Mas o grupo do LIP não troca a sua traquitana por nenhuma outra . \"Quando você importa um equipamento , está comprando uma caixa preta\" , diz Macchione . \"Aqui podemos ajustar o aparelho às nossas necessidades . \" O grupo diz de saída que não tem nenhuma intenção de montar uma empresa para fazer espectrômetros em série . \"[ Mas ] não tenho restrição nenhuma em passar para a frente os desenhos e o conhecimento da tecnologia\" , diz Vasconcelos . "^^xsd:string .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=3502,3513>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Vasconcelos"^^xsd:string ;
+        nif:beginIndex        "3502"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3513"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3516> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=3210,3219>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Macchione"^^xsd:string ;
+        nif:beginIndex        "3210"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3219"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3516> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1806,1817>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Vasconcelos"^^xsd:string ;
+        nif:beginIndex        "1806"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1817"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3516> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1902,1914>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Kiyomi Koide"^^xsd:string ;
+        nif:beginIndex        "1902"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1914"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3516> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1917,1928>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "José Hirata"^^xsd:string ;
+        nif:beginIndex        "1917"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1928"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3516> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=895,901>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Fapesp"^^xsd:string ;
+        nif:beginIndex        "895"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "901"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3516> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1882,1899>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Eduardo Macchione"^^xsd:string ;
+        nif:beginIndex        "1882"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1899"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3516> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1239,1242>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "LIP"^^xsd:string ;
+        nif:beginIndex        "1239"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1242"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3516> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=81,100>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Instituto de Física"^^xsd:string ;
+        nif:beginIndex        "81"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "100"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3516> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1295,1314>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Instituto de Física"^^xsd:string ;
+        nif:beginIndex        "1295"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1314"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3516> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1340,1346>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Fapesp"^^xsd:string ;
+        nif:beginIndex        "1340"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1346"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3516> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=983,988>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Maldi"^^xsd:string ;
+        nif:beginIndex        "983"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "988"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3516> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=904,956>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Fundação de Amparo à Pesquisa do Estado de São Paulo"^^xsd:string ;
+        nif:beginIndex        "904"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "956"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3516> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=104,107>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "USP"^^xsd:string ;
+        nif:beginIndex        "104"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "107"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3516> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=552,559>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Química"^^xsd:string ;
+        nif:beginIndex        "552"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "559"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3516> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1728,1733>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Maldi"^^xsd:string ;
+        nif:beginIndex        "1728"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1733"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3516> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1245,1287>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Laboratório de Instrumentação e Partículas"^^xsd:string ;
+        nif:beginIndex        "1245"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1287"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3516> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=3083,3086>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "LIP"^^xsd:string ;
+        nif:beginIndex        "3083"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3086"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3516> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1462,1465>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "USP"^^xsd:string ;
+        nif:beginIndex        "1462"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1465"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3516> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1639,1642>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "LIP"^^xsd:string ;
+        nif:beginIndex        "1639"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1642"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3516> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=536,548>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Prêmio Nobel"^^xsd:string ;
+        nif:beginIndex        "536"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "548"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3516> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=378,383>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Maldi"^^xsd:string ;
+        nif:beginIndex        "378"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "383"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3516> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=505,510>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Maldi"^^xsd:string ;
+        nif:beginIndex        "505"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "510"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3516> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=2907,2910>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "USP"^^xsd:string ;
+        nif:beginIndex        "2907"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2910"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3516> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1864,1879>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Olacio Dietzsch"^^xsd:string ;
+        nif:beginIndex        "1864"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1879"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3516> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1609,1633>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Suzana Salem Vasconcelos"^^xsd:string ;
+        nif:beginIndex        "1609"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1633"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3516> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=585,598>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Koichi Tanaka"^^xsd:string ;
+        nif:beginIndex        "585"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "598"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3516> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .

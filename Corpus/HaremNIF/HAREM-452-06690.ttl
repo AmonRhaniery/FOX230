@@ -1,0 +1,233 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=1820,1829>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "N.R.F.C ."^^xsd:string ;
+        nif:beginIndex        "1820"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1829"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2213> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1515,1519>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1981"^^xsd:string ;
+        nif:beginIndex        "1515"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1519"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2213> .
+
+<http://linguateca.pt/harem#char=929,935>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Estado"^^xsd:string ;
+        nif:beginIndex        "929"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "935"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2213> .
+
+<http://linguateca.pt/harem#char=0,28>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Niteroi Rugby Football Clube"^^xsd:string ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "28"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2213> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=170,178>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Alemanha"^^xsd:string ;
+        nif:beginIndex        "170"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "178"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2213> .
+
+<http://linguateca.pt/harem#char=1982,1988>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Estado"^^xsd:string ;
+        nif:beginIndex        "1982"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1988"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2213> .
+
+<http://linguateca.pt/harem#char=1298,1305>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Niterói"^^xsd:string ;
+        nif:beginIndex        "1298"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1305"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2213> .
+
+<http://linguateca.pt/harem#char=476,483>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "anos 70"^^xsd:string ;
+        nif:beginIndex        "476"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "483"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2213> .
+
+<http://linguateca.pt/harem#char=386,389>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Sul"^^xsd:string ;
+        nif:beginIndex        "386"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "389"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2213> .
+
+<http://linguateca.pt/harem#char=0,2213>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "2213"^^xsd:nonNegativeInteger ;
+        nif:isString    "Niteroi Rugby Football Clube Página do time de Handebol O Handebol chegou ao Brasil em meados da década de cinqüenta através dos funcionários da Volkswagen que vindos da Alemanha trouxeram consigo a principal diversão que tinham em seu país de origem para que fosse utilizada em seus momentos de folga.O contato com funcionários brasileiros e a imigração de europeus para os estados do Sul do país fizeram com que este jogo , já popular em sua região , se disseminasse.Já nos anos 70 , um grupo de brasileiros , profissionais de educação física , interessados no aperfeiçoamento do esporte , partiram para Romênia buscando maiores informações , em cursos , no país que até então era um dos principais campeões mundiais do esporte.Entre esses professores destacava-se o niteroiense Ronaldo Barros Goldoni que trouxe para a cidade o que havia de mais moderno no Handebol e as principais técnicas de iniciação.A principal equipe do Estado na época era dirigida por Ronaldo Goldoni , equipe esta que tinha em seu corpo de jogadores , futuros professores de Educação Física .A união e o intercâmbio de Ronaldo e estes , já então , professores de Educação Física que fizeram os cursos de handebol no exterior , foram os responsáveis pela difusão do esporte no país , fazendo com que , conseqüentemente , Niterói e o Estado do Rio de Janeiro se tornassem um dos principais celeiros de formação de jogadores do Brasil .Cansados de terem que contar com a boa vontade dos dirigentes de grandes clubes com o novo esporte , em 1981 os principais jogadores de Niterói , até então jogando no C . R. Flamengo , juntaram-se ao clube no qual muitos deles praticavam também o rugby , formando então , a equipe de handebol do Niterói Rugby .Neste mesmo ano , o Niterói Rugby Handball conquistava o primeiro lugar na Taça Rio de Janeiro .O N.R.F.C . sempre foi formador de grandes atletas do handebol disputando e obtendo títulos em campeonatos com a presença de grandes e tradicionais clubes de nosso Estado .Nossas equipes já há algum tempo estão sendo dirigidas pelo professor Brasil , uma das brilhantes crias de Ronaldo Goldone que mesmo não estando a frente de nossas equipes continua atuando nas atividades do Niterói Rugby . "^^xsd:string .
+
+<http://linguateca.pt/harem#char=1310,1334>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Estado do Rio de Janeiro"^^xsd:string ;
+        nif:beginIndex        "1310"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1334"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2213> .
+
+<http://linguateca.pt/harem#char=1141,1156>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Educação Física"^^xsd:string ;
+        nif:beginIndex        "1141"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1156"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2213> .
+
+<http://linguateca.pt/harem#char=781,803>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ronaldo Barros Goldoni"^^xsd:string ;
+        nif:beginIndex        "781"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "803"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2213> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1053,1068>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Educação Física"^^xsd:string ;
+        nif:beginIndex        "1053"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1068"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2213> .
+
+<http://linguateca.pt/harem#char=145,155>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Volkswagen"^^xsd:string ;
+        nif:beginIndex        "145"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "155"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2213> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1403,1409>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Brasil"^^xsd:string ;
+        nif:beginIndex        "1403"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1409"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2213> .
+
+<http://linguateca.pt/harem#char=2050,2066>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "professor Brasil"^^xsd:string ;
+        nif:beginIndex        "2050"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2066"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2213> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1578,1593>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "C . R. Flamengo"^^xsd:string ;
+        nif:beginIndex        "1578"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1593"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2213> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1742,1764>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Niterói Rugby Handball"^^xsd:string ;
+        nif:beginIndex        "1742"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1764"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2213> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=2197,2210>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Niterói Rugby"^^xsd:string ;
+        nif:beginIndex        "2197"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2210"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2213> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=2097,2112>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ronaldo Goldone"^^xsd:string ;
+        nif:beginIndex        "2097"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2112"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2213> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=606,613>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Romênia"^^xsd:string ;
+        nif:beginIndex        "606"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "613"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2213> .
+
+<http://linguateca.pt/harem#char=1707,1720>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Niterói Rugby"^^xsd:string ;
+        nif:beginIndex        "1707"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1720"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2213> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1797,1816>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Taça Rio de Janeiro"^^xsd:string ;
+        nif:beginIndex        "1797"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1816"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2213> .
+
+<http://linguateca.pt/harem#char=1097,1104>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ronaldo"^^xsd:string ;
+        nif:beginIndex        "1097"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1104"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2213> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1547,1554>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Niterói"^^xsd:string ;
+        nif:beginIndex        "1547"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1554"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2213> .
+
+<http://linguateca.pt/harem#char=962,977>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ronaldo Goldoni"^^xsd:string ;
+        nif:beginIndex        "962"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "977"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2213> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=860,868>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Handebol"^^xsd:string ;
+        nif:beginIndex        "860"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "868"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2213> .
+
+<http://linguateca.pt/harem#char=58,66>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Handebol"^^xsd:string ;
+        nif:beginIndex        "58"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "66"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2213> .
+
+<http://linguateca.pt/harem#char=47,55>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Handebol"^^xsd:string ;
+        nif:beginIndex        "47"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "55"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2213> .
+
+<http://linguateca.pt/harem#char=77,83>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Brasil"^^xsd:string ;
+        nif:beginIndex        "77"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "83"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2213> .

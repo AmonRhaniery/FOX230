@@ -1,0 +1,42 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,941>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "941"^^xsd:nonNegativeInteger ;
+        nif:isString    "A hipótese de que buracos negros possam se formar sem a ocorrência anterior de uma explosão violenta , simplesmente sofrendo uma implosão e sumindo , ganhou novo impulso ontem . Um estudo defendendo a idéia foi publicado on-line pela revista científica norte-americana \"Science\" ( www.sciencexpress.org ) . Os resultados do trabalho , que tem como autores pesquisadores franceses e argentinos e o astrofísico brasileiro Irapuan Rodrigues , haviam sido noticiados pela Folha em março , antes de o estudo ser selecionado para publicação . Nele , os pesquisadores mostram que o buraco negro ( objeto tão denso que a gravidade impede que a luz escape ) do sistema binário conhecido como Cygnus X-1 se formou a partir de uma explosão sutil , reforçando a hipótese de que estrelas muito maciças possam implodir sem antes ejetar suas camadas exteriores . A pesquisa sairá na edição impressa da \"Science\" no dia 16 de maio . ( DA REPORTAGEM LOCAL ) "^^xsd:string .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=468,473>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Folha"^^xsd:string ;
+        nif:beginIndex        "468"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "473"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,941> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=683,689>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Cygnus"^^xsd:string ;
+        nif:beginIndex        "683"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "689"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,941> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=420,437>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Irapuan Rodrigues"^^xsd:string ;
+        nif:beginIndex        "420"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "437"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,941> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=269,278>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "\"Science\""^^xsd:string ;
+        nif:beginIndex        "269"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "278"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,941> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .

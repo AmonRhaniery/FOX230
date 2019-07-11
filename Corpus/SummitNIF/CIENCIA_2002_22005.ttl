@@ -1,0 +1,216 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1236,1245>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "rio Arade"^^xsd:string ;
+        nif:beginIndex        "1236"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1245"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2915> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=2688,2696>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Rambelli"^^xsd:string ;
+        nif:beginIndex        "2688"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2696"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2915> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=528,531>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "MAE"^^xsd:string ;
+        nif:beginIndex        "528"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "531"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2915> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=2197,2205>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Portugal"^^xsd:string ;
+        nif:beginIndex        "2197"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2205"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2915> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=2396,2404>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Rambelli"^^xsd:string ;
+        nif:beginIndex        "2396"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2404"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2915> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=2316,2336>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "pavilhão de Portugal"^^xsd:string ;
+        nif:beginIndex        "2316"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2336"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2915> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=2484,2516>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "\"Arqueologia Até Debaixo D'Água\""^^xsd:string ;
+        nif:beginIndex        "2484"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2516"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2915> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=2017,2051>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Instituto Português de Arqueologia"^^xsd:string ;
+        nif:beginIndex        "2017"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2051"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2915> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1339,1347>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Algarve\""^^xsd:string ;
+        nif:beginIndex        "1339"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1347"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2915> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1044,1050>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Silves"^^xsd:string ;
+        nif:beginIndex        "1044"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1050"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2915> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=2367,2373>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Lisboa"^^xsd:string ;
+        nif:beginIndex        "2367"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2373"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2915> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=461,473>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Flávio Rizzi"^^xsd:string ;
+        nif:beginIndex        "461"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "473"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2915> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=2151,2166>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Francisco Alves"^^xsd:string ;
+        nif:beginIndex        "2151"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2166"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2915> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=283,292>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "rio Arade"^^xsd:string ;
+        nif:beginIndex        "283"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "292"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2915> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1961,2013>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Centro Nacional de Arqueologia Náutica e Subaquática"^^xsd:string ;
+        nif:beginIndex        "1961"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2013"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2915> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=298,313>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "sul de Portugal"^^xsd:string ;
+        nif:beginIndex        "298"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "313"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2915> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=537,541>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "USP_"^^xsd:string ;
+        nif:beginIndex        "537"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "541"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2915> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=2519,2534>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Editora Maranta"^^xsd:string ;
+        nif:beginIndex        "2519"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2534"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2915> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=493,525>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Museu de Arqueologia e Etnologia"^^xsd:string ;
+        nif:beginIndex        "493"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "525"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2915> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=419,434>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Gilson Rambelli"^^xsd:string ;
+        nif:beginIndex        "419"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "434"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2915> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1279,1285>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Silves"^^xsd:string ;
+        nif:beginIndex        "1279"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1285"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2915> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=2239,2272>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "galeão Nossa Senhora dos Mártires"^^xsd:string ;
+        nif:beginIndex        "2239"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2272"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2915> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=2537,2546>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "São Paulo"^^xsd:string ;
+        nif:beginIndex        "2537"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2546"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2915> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1419,1422>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "MAE"^^xsd:string ;
+        nif:beginIndex        "1419"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1422"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2915> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=437,458>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Paulo Bava de Camargo"^^xsd:string ;
+        nif:beginIndex        "437"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "458"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2915> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2915>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "2915"^^xsd:nonNegativeInteger ;
+        nif:isString    "Eles não acharam nenhum tesouro de pirata , nem esmeraldas , rubis ou moedas de ouro e prata . Acharam vários pedaços de madeira e cordas apodrecendo , alguns em melhor estado . Mas a equipe internacional de arqueólogos subaquáticos , incluindo brasileiros , que trabalhou na foz do rio Arade , no sul de Portugal , já pôde pelo menos sepultar um mito _o de que ali haveria um navio viking naufragado . Os brasileiros _Gilson Rambelli , Paulo Bava de Camargo e Flávio Rizzi , pesquisadores do Museu de Arqueologia e Etnologia ( MAE ) da USP_ acharam mesmo restos de um ou dois navios antigos , possivelmente portugueses dos século 15 ou 16 , da chamada tradição ibero-atlântica . Eles encontraram uma quilha ( a espinha dorsal de uma embarcação ) com quase quatro metros de comprimento , e a ponta de uma caverna , peça encaixada transversalmente à quilha que forma o esqueleto do navio . Mesmo sem confirmar o relato histórico feito por um cronista árabe , no ano de 996 , de que navios vikings teriam afundado a caminho de atacar a cidade de Silves , os arqueólogos puderam encontrar um tesouro de outro tipo : a riqueza de artefatos de várias origens ali depositados pelas sucessivas levas de ocupantes do território português . \" O rio Arade foi a principal rota de acesso a Silves desde a implantação dos estabelecimentos fenícios no Algarve\" , escrevem os três brasileiros em artigo a ser publicado na revista do MAE . Segundo os arqueólogos , \"durante a escavação foram encontrados inúmeros fragmentos , principalmente cerâmicos , que vão desde ânforas romanas até utensílios inteiros do século 16 , passando pela cerâmica árabe\" . Entre as peças mais bem preservadas está um raro cadernal , uma caixa achatada de madeira com duas fendas , em cada uma das quais há uma roldana móvel . O cadernal poderia fazer parte do sistema de cabos ( cordas ) que sustentaria um dos mastros . A escavação deste ano , realizada em julho e agosto , foi organizada pelo Centro Nacional de Arqueologia Náutica e Subaquática do Instituto Português de Arqueologia . Participaram arqueólogos e estudantes de oito países . A coordenação foi do arqueólogo português Francisco Alves , um dos pioneiros na área em Portugal e responsável pelos trabalhos no galeão Nossa Senhora dos Mártires , cujos achados foram a atração central do pavilhão de Portugal na exposição internacional de Lisboa em 1998 , a Expo-98 . Rambelli , que coordenou a participação brasileira , está lançando nesta semana o livro \"Arqueologia Até Debaixo D'Água\" ( Editora Maranta , São Paulo , 2002 ) . O livro é o primeiro no país a descrever esse aspecto da arqueologia , em geral associado negativamente com a \"caça a tesouros\" . Rambelli mostra como o principal objetivo da arqueologia , tanto em cima como embaixo d'água , é a busca de conhecimento , não de suvenires . O livro também busca conscientizar os mergulhadores sobre o patrimônio subaquático . "^^xsd:string .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=2386,2393>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Expo-98"^^xsd:string ;
+        nif:beginIndex        "2386"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2393"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2915> .

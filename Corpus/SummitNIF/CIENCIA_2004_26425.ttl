@@ -1,0 +1,123 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=539,572>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Universidade Federal de São Paulo"^^xsd:string ;
+        nif:beginIndex        "539"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "572"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3315> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=2413,2420>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "América"^^xsd:string ;
+        nif:beginIndex        "2413"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2420"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3315> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=258,272>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Domingos Matos"^^xsd:string ;
+        nif:beginIndex        "258"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "272"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3315> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=2397,2405>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Flamengo"^^xsd:string ;
+        nif:beginIndex        "2397"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2405"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3315> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=2035,2040>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Matos"^^xsd:string ;
+        nif:beginIndex        "2035"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2040"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3315> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1738,1741>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "EUA"^^xsd:string ;
+        nif:beginIndex        "1738"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1741"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3315> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=2278,2282>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "UFPA"^^xsd:string ;
+        nif:beginIndex        "2278"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2282"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3315> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1723,1731>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Alemanha"^^xsd:string ;
+        nif:beginIndex        "1723"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1731"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3315> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=3200,3205>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Matos"^^xsd:string ;
+        nif:beginIndex        "3200"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3205"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3315> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3315>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "3315"^^xsd:nonNegativeInteger ;
+        nif:isString    "Parar de tomar o coquetel de medicamentos contra o vírus causador da Aids não é necessariamente algo ruim _contanto que o paciente siga as instruções do médico e não se aventure a interromper o tratamento sozinho . Essa conclusão veio de um estudo feito por Domingos Matos , 36 , médico da Universidade Federal do Pará . A partir da observação de 35 pacientes entre julho de 1999 e meados de 2000 , ele constatou que um terço dos pacientes é beneficiado por uma parada de três meses no consumo das drogas . Orientado por Ricardo Diaz , da Universidade Federal de São Paulo , Matos fez dessa pesquisa seu estudo de doutorado . Os resultados são importante referência para os médicos decidirem se e quando devem seguir uma estratégia de interrupção estruturada ao receitar drogas contra o HIV . Esse método começou a ser introduzido no rol das formas de combater o vírus em 1999 , quando começaram a aparecer variantes do HIV que já não eram mais sensíveis aos medicamentos existentes . A idéia dos médicos foi então incitar , ao menos temporariamente , uma guerra entre as versões fracas do vírus , que estavam sucumbindo ao tratamento , e as versões resistentes , cada vez em maior número no organismo . Ao interromper o tratamento , os vírus sem resistência voltariam a proliferar e a competir com os insensíveis . Se eles vencessem essa batalha , bastaria reintroduzir o mesmo medicamento algum tempo depois para que ele voltasse a reduzir a contagem viral no organismo _matando os vencedores da guerra dos vírus . Desde 1999 , outras drogas surgiram e a estratégia da interrupção segue em debate . \"Ela não é recomendada como um consenso de terapia\" , diz Matos . O estudo brasileiro , junto com outros dois , feitos na Alemanha e nos EUA , coloca a questão sob um prisma realista . Não diz que é a melhor coisa do mundo , mas aponta a possibilidade de resultados positivos , no caso de esgotamento das alternativas . Claro que as variáveis para a melhor estratégia de interrupção ainda estão longe de esclarecidas . Na pesquisa de Matos , foi adotada uma parada de três meses . No estudo alemão , foram dois meses . E há médicos que tentam estratégias as mais variadas , como interrupção aos fins de semana ou mesmo semanas alternadas com ou sem o medicamento . O médico da UFPA usa uma metáfora futebolística para explicar a variação no tempo de interrupção . \"Imagine que temos a torcida do Flamengo e a do América . Se tirarmos a comida dos flamenguistas , quanto tempo vai levar para que os torcedores americanos os superem em número ? Esse é o período em que podemos realizar a interrupção\" , diz . Para ele , em condições ideais , o método funcionaria melhor em pacientes que tivessem um quadro estável , com baixa contagem de vírus e forte presença de células de defesa . Mas , por razões éticas , não se pode fazer experimentos de interrupção com esses pacientes . Todos os 35 estudados já não respondiam mais aos tratamentos convencionais quando foram escalados para a pesquisa . \"Acho que a contribuição do nosso trabalho é que no passado parecia um crime parar de tomar a droga . Hoje , se um médico propuser isso ao paciente , ele não tem medo , sabe que não vai morrer amanhã\" , diz Matos . A pesquisa foi divulgada na edição deste mês da revista \"Pesquisa Fapesp\" ( revistapesquisa .fapesp.br ) . "^^xsd:string .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=521,533>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ricardo Diaz"^^xsd:string ;
+        nif:beginIndex        "521"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "533"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3315> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=290,318>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Universidade Federal do Pará"^^xsd:string ;
+        nif:beginIndex        "290"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "318"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3315> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=575,580>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Matos"^^xsd:string ;
+        nif:beginIndex        "575"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "580"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3315> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1659,1664>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Matos"^^xsd:string ;
+        nif:beginIndex        "1659"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1664"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3315> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=3264,3281>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "\"Pesquisa Fapesp\""^^xsd:string ;
+        nif:beginIndex        "3264"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3281"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3315> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .

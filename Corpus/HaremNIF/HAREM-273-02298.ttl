@@ -1,0 +1,1033 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=2842,2849>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Córsega"^^xsd:string ;
+        nif:beginIndex        "2842"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2849"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> .
+
+<http://linguateca.pt/harem#char=2237,2254>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Borussia Dortmund"^^xsd:string ;
+        nif:beginIndex        "2237"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2254"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=2313,2327>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Kaiserslautern"^^xsd:string ;
+        nif:beginIndex        "2313"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2327"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=2330,2332>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "32"^^xsd:string ;
+        nif:beginIndex        "2330"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2332"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> .
+
+<http://linguateca.pt/harem#char=1963,1966>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "0-0"^^xsd:string ;
+        nif:beginIndex        "1963"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1966"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> .
+
+<http://linguateca.pt/harem#char=1036,1039>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "0-0"^^xsd:string ;
+        nif:beginIndex        "1036"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1039"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> .
+
+<http://linguateca.pt/harem#char=1933,1960>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Estugarda-Borussia Dortmund"^^xsd:string ;
+        nif:beginIndex        "1933"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1960"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> .
+
+<http://linguateca.pt/harem#char=2536,2544>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Duisburg"^^xsd:string ;
+        nif:beginIndex        "2536"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2544"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=3187,3196>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Taça UEFA"^^xsd:string ;
+        nif:beginIndex        "3187"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3196"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> .
+
+<http://linguateca.pt/harem#char=2004,2027>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Dynamo Dresden-Hamburgo"^^xsd:string ;
+        nif:beginIndex        "2004"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2027"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> .
+
+<http://linguateca.pt/harem#char=2096,2099>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "0-1"^^xsd:string ;
+        nif:beginIndex        "2096"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2099"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> .
+
+<http://linguateca.pt/harem#char=1285,1288>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "4-0"^^xsd:string ;
+        nif:beginIndex        "1285"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1288"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> .
+
+<http://linguateca.pt/harem#char=1157,1167>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Hany Ramzy"^^xsd:string ;
+        nif:beginIndex        "1157"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1167"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=2485,2500>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Bayer Uerdingen"^^xsd:string ;
+        nif:beginIndex        "2485"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2500"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1727,1741>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Kaiserslautern"^^xsd:string ;
+        nif:beginIndex        "1727"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1741"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=455,465>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "João Paulo"^^xsd:string ;
+        nif:beginIndex        "455"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "465"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1203,1206>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "3-0"^^xsd:string ;
+        nif:beginIndex        "1203"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1206"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> .
+
+<http://linguateca.pt/harem#char=415,422>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Quinito"^^xsd:string ;
+        nif:beginIndex        "415"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "422"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=2574,2580>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "França"^^xsd:string ;
+        nif:beginIndex        "2574"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2580"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> .
+
+<http://linguateca.pt/harem#char=2405,2413>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Hamburgo"^^xsd:string ;
+        nif:beginIndex        "2405"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2413"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=2552,2566>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Dynamo Dresden"^^xsd:string ;
+        nif:beginIndex        "2552"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2566"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1293,1296>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "67'"^^xsd:string ;
+        nif:beginIndex        "1293"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1296"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> .
+
+<http://linguateca.pt/harem#char=1668,1671>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "2-0"^^xsd:string ;
+        nif:beginIndex        "1668"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1671"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> .
+
+<http://linguateca.pt/harem#char=1468,1482>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Steffen Freund"^^xsd:string ;
+        nif:beginIndex        "1468"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1482"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=2817,2823>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Bastia"^^xsd:string ;
+        nif:beginIndex        "2817"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2823"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=764,778>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Torreense-Leça"^^xsd:string ;
+        nif:beginIndex        "764"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "778"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> .
+
+<http://linguateca.pt/harem#char=1268,1278>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Marco Bode"^^xsd:string ;
+        nif:beginIndex        "1268"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1278"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=211,216>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Amora"^^xsd:string ;
+        nif:beginIndex        "211"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "216"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=476,479>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Gil"^^xsd:string ;
+        nif:beginIndex        "476"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "479"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=2868,2871>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "3-1"^^xsd:string ;
+        nif:beginIndex        "2868"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2871"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> .
+
+<http://linguateca.pt/harem#char=299,307>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ovarense"^^xsd:string ;
+        nif:beginIndex        "299"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "307"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1556,1565>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Estugarda"^^xsd:string ;
+        nif:beginIndex        "1556"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1565"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> .
+
+<http://linguateca.pt/harem#char=1245,1257>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Bernd Hobsch"^^xsd:string ;
+        nif:beginIndex        "1245"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1257"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=897,914>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Borussia Dortmund"^^xsd:string ;
+        nif:beginIndex        "897"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "914"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=869,882>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Werder Bremen"^^xsd:string ;
+        nif:beginIndex        "869"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "882"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=73,107>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "26ª jornada da II Divisão de Honra"^^xsd:string ;
+        nif:beginIndex        "73"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "107"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> .
+
+<http://linguateca.pt/harem#char=644,647>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "26ª"^^xsd:string ;
+        nif:beginIndex        "644"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "647"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> .
+
+<http://linguateca.pt/harem#char=2030,2033>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1-1"^^xsd:string ;
+        nif:beginIndex        "2030"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2033"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> .
+
+<http://linguateca.pt/harem#char=3020,3026>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Bastia"^^xsd:string ;
+        nif:beginIndex        "3020"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3026"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=803,829>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "União Lamas-Paços Ferreira"^^xsd:string ;
+        nif:beginIndex        "803"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "829"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> .
+
+<http://linguateca.pt/harem#char=2285,2310>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Borussia Moenchengladbach"^^xsd:string ;
+        nif:beginIndex        "2285"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2310"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=852,858>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Bremen"^^xsd:string ;
+        nif:beginIndex        "852"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "858"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=2273,2282>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "34 pontos"^^xsd:string ;
+        nif:beginIndex        "2273"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2282"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> .
+
+<http://linguateca.pt/harem#char=1969,1995>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Bochum-Borussia M'Gladbach"^^xsd:string ;
+        nif:beginIndex        "1969"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1995"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> .
+
+<http://linguateca.pt/harem#char=1888,1891>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "23ª"^^xsd:string ;
+        nif:beginIndex        "1888"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1891"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> .
+
+<http://linguateca.pt/harem#char=1006,1009>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "5-1"^^xsd:string ;
+        nif:beginIndex        "1006"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1009"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> .
+
+<http://linguateca.pt/harem#char=2226,2228>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "23"^^xsd:string ;
+        nif:beginIndex        "2226"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2228"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> .
+
+<http://linguateca.pt/harem#char=2065,2068>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1-0"^^xsd:string ;
+        nif:beginIndex        "2065"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2068"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> .
+
+<http://linguateca.pt/harem#char=19,33>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ovarense-Amora"^^xsd:string ;
+        nif:beginIndex        "19"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "33"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> .
+
+<http://linguateca.pt/harem#char=2140,2143>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1-1"^^xsd:string ;
+        nif:beginIndex        "2140"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2143"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> .
+
+<http://linguateca.pt/harem#char=1927,1930>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "5-1"^^xsd:string ;
+        nif:beginIndex        "1927"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1930"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> .
+
+<http://linguateca.pt/harem#char=1998,2001>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "0-2"^^xsd:string ;
+        nif:beginIndex        "1998"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2001"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> .
+
+<http://linguateca.pt/harem#char=530,537>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Madeira"^^xsd:string ;
+        nif:beginIndex        "530"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "537"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> .
+
+<http://linguateca.pt/harem#char=2662,2684>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Taça da Liga de França"^^xsd:string ;
+        nif:beginIndex        "2662"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2684"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> .
+
+<http://linguateca.pt/harem#char=3102,3116>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Anton Drobnjak"^^xsd:string ;
+        nif:beginIndex        "3102"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3116"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=2905,2920>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Bruno Rodriguez"^^xsd:string ;
+        nif:beginIndex        "2905"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2920"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=2531,2533>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "14"^^xsd:string ;
+        nif:beginIndex        "2531"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2533"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> .
+
+<http://linguateca.pt/harem#char=572,581>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Académica"^^xsd:string ;
+        nif:beginIndex        "572"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "581"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=3077,3091>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Franck Burnier"^^xsd:string ;
+        nif:beginIndex        "3077"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3091"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=3119,3122>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "88'"^^xsd:string ;
+        nif:beginIndex        "3119"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3122"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> .
+
+<http://linguateca.pt/harem#char=1054,1062>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Borussia"^^xsd:string ;
+        nif:beginIndex        "1054"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1062"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=361,368>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Emanuel"^^xsd:string ;
+        nif:beginIndex        "361"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "368"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1485,1500>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Matthias Sammer"^^xsd:string ;
+        nif:beginIndex        "1485"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1500"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1704,1718>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Heiko Herrlich"^^xsd:string ;
+        nif:beginIndex        "1704"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1718"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=2433,2440>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Colónia"^^xsd:string ;
+        nif:beginIndex        "2433"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2440"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1603,1610>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "12 anos"^^xsd:string ;
+        nif:beginIndex        "1603"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1610"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> .
+
+<http://linguateca.pt/harem#char=2586,2590>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Taça"^^xsd:string ;
+        nif:beginIndex        "2586"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2590"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> .
+
+<http://linguateca.pt/harem#char=2257,2270>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Werder Bremen"^^xsd:string ;
+        nif:beginIndex        "2257"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2270"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=2852,2863>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Montpellier"^^xsd:string ;
+        nif:beginIndex        "2852"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2863"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=2760,2763>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Raí"^^xsd:string ;
+        nif:beginIndex        "2760"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2763"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=2381,2383>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "25"^^xsd:string ;
+        nif:beginIndex        "2381"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2383"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> .
+
+<http://linguateca.pt/harem#char=255,265>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Rui Maside"^^xsd:string ;
+        nif:beginIndex        "255"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "265"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=2465,2467>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "21"^^xsd:string ;
+        nif:beginIndex        "2465"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2467"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> .
+
+<http://linguateca.pt/harem#char=2508,2514>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Bochum"^^xsd:string ;
+        nif:beginIndex        "2508"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2514"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=2363,2365>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "30"^^xsd:string ;
+        nif:beginIndex        "2363"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2365"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> .
+
+<http://linguateca.pt/harem#char=2503,2505>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "16"^^xsd:string ;
+        nif:beginIndex        "2503"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2505"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> .
+
+<http://linguateca.pt/harem#char=702,718>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Penafiel-Rio Ave"^^xsd:string ;
+        nif:beginIndex        "702"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "718"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> .
+
+<http://linguateca.pt/harem#char=2386,2402>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Bayer Leverkusen"^^xsd:string ;
+        nif:beginIndex        "2386"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2402"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=3141,3153>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Taça da Liga"^^xsd:string ;
+        nif:beginIndex        "3141"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3153"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> .
+
+<http://linguateca.pt/harem#char=2443,2462>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Eintracht Frankfurt"^^xsd:string ;
+        nif:beginIndex        "2443"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2462"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1350,1364>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Andreas Herzog"^^xsd:string ;
+        nif:beginIndex        "1350"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1364"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=468,471>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "56'"^^xsd:string ;
+        nif:beginIndex        "468"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "471"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> .
+
+<http://linguateca.pt/harem#char=2036,2062>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Bayern Munique-TSV Munique"^^xsd:string ;
+        nif:beginIndex        "2036"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2062"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> .
+
+<http://linguateca.pt/harem#char=2734,2742>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Le Havre"^^xsd:string ;
+        nif:beginIndex        "2734"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2742"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=2180,2198>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Karlsruher-Colónia"^^xsd:string ;
+        nif:beginIndex        "2180"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2198"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> .
+
+<http://linguateca.pt/harem#char=482,485>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "72'"^^xsd:string ;
+        nif:beginIndex        "482"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "485"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> .
+
+<http://linguateca.pt/harem#char=1222,1234>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Mario Basler"^^xsd:string ;
+        nif:beginIndex        "1222"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1234"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1615,1640>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Borussia Moenchengladbach"^^xsd:string ;
+        nif:beginIndex        "1615"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1640"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=2569,2571>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "12"^^xsd:string ;
+        nif:beginIndex        "2569"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2571"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> .
+
+<http://linguateca.pt/harem#char=1301,1309>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Duisburg"^^xsd:string ;
+        nif:beginIndex        "1301"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1309"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=159,163>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ovar"^^xsd:string ;
+        nif:beginIndex        "159"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "163"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> .
+
+<http://linguateca.pt/harem#char=11,16>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Honra"^^xsd:string ;
+        nif:beginIndex        "11"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "16"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> .
+
+<http://linguateca.pt/harem#char=1133,1136>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "18'"^^xsd:string ;
+        nif:beginIndex        "1133"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1136"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> .
+
+<http://linguateca.pt/harem#char=832,851>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Aves-Campomaiorense"^^xsd:string ;
+        nif:beginIndex        "832"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "851"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> .
+
+<http://linguateca.pt/harem#char=2480,2482>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "20"^^xsd:string ;
+        nif:beginIndex        "2480"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2482"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> .
+
+<http://linguateca.pt/harem#char=2335,2343>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Freiburg"^^xsd:string ;
+        nif:beginIndex        "2335"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2343"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=2174,2177>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "2-4"^^xsd:string ;
+        nif:beginIndex        "2174"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2177"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> .
+
+<http://linguateca.pt/harem#char=1447,1465>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Stephane Chapuisat"^^xsd:string ;
+        nif:beginIndex        "1447"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1465"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=3094,3097>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "82'"^^xsd:string ;
+        nif:beginIndex        "3094"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3097"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> .
+
+<http://linguateca.pt/harem#char=1079,1088>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Estugarda"^^xsd:string ;
+        nif:beginIndex        "1079"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1088"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> .
+
+<http://linguateca.pt/harem#char=0,3216>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "3216"^^xsd:nonNegativeInteger ;
+        nif:isString    "Empates na Honra O Ovarense-Amora e o Nacional-Académica , dois jogos da 26ª jornada da II Divisão de Honra antecipados para ontem , terminaram empatados . Em Ovar , a equipa da casa esteve mesmo a perder com o Amora , quando um erro defensivo permitiu a Rui Maside inaugurar o marcador ( 14' ) . A Ovarense atacava mais , mas só aos 64' conseguiu marcar , por Emanuel , que de cabeça concluiu um canto marcado por Quinito . O Amora teve dois expulsos -- João Paulo ( 56' ) e Gil ( 72' ) -- mas manteve o empate até ao final . Na Madeira , o Nacional empatou a zero com a Académica num jogo fraco e onde o calor foi o dado mais assinalável . A 26ª jornada ficará completa hoje com os seguintes jogos : Penafiel-Rio Ave , Famalicão-Espinho , Portimonense-Estoril , Torreense-Leça , Feirense-Felgueiras , União Lamas-Paços Ferreira e Aves-Campomaiorense Bremen à frenteO Werder Bremen já alcançou o Borussia Dortmund no primeiro lugar do campeonato alemão de futebol , tendo anteontem vencido o Duisburg por 5-1 e beneficiado do empate ( 0-0 ) cedido pelo Borussia na deslocação a Estugarda . O Werder Bremen abriu o marcador logo aos 18' pelo líbero egípcio Hany Ramzy e chegou ao intervalo a ganhar por 3-0 , com golos de Mario Basler ( 24' ) e Bernd Hobsch ( 36' ) . Marco Bode fez o 4-0 aos 67' , o Duisburg reduziu por Markkus Marin ( 78' ) e foi Andreas Herzog quem estabeleceu o resultado final , a sete minutos do fim . Sem poder contar com Stephane Chapuisat , Steffen Freund e Matthias Sammer , o Borussia não foi ontem além de um empate a zero em Estugarda , onde só ganhou uma vez nos últimos 12 anos . O Borussia Moenchengladbach , que venceu em Bochum por 2-0 ( golos de Thomas Kastenmaier e Heiko Herrlich ) , e o Kaiserslautern , que derrotou o Schalke por 1-0 ( golo de Steffan Kuntz ) aproximaram-se dos líderes , estando agora a apenas dois pontos . Eis os resultados da 23ª jornada : Werder Bremen-Duisburg , 5-1 ; Estugarda-Borussia Dortmund , 0-0 ; Bochum-Borussia M'Gladbach , 0-2 ; Dynamo Dresden-Hamburgo , 1-1 ; Bayern Munique-TSV Munique , 1-0 ; Schalke-Kaiserslautern , 0-1 ; Bayer Uerdingen-Eintracht Frankfurt , 1-1 ; Bayer Leverkusen-Freiburg , 2-4 ; Karlsruher-Colónia , 0-0 . Classificação após 23 jogos : Borussia Dortmund e Werder Bremen , 34 pontos ; Borussia Moenchengladbach e Kaiserslautern , 32 ; Freiburg e Bayern Munique , 30 ; Karlsruher , 25 ; Bayer Leverkusen , Hamburgo e Estugarda , 22 ; Colónia e Eintracht Frankfurt , 21 ; Schalke , 20 ; Bayer Uerdingen , 16 ; Bochum e TSV Munique , 14 ; Duisburg , 13 ; Dynamo Dresden , 12 . França teve Taça O Paris St . Germain e o Bastia ficaram ontem apurados para a final da Taça da Liga de França , em futebol . A equipa parisiense venceu fora o Le Havre , com um golo de Raí na conversão de um penalti , e defrontará na final o Bastia , que derrotou na Córsega o Montpellier por 3-1 . O Bastia marcou primeiro , por Bruno Rodriguez ( 43' ) , mas Thierry Laurey chegou ao empate seis minutos depois . E só nos últimos dez minutos o Bastia assegurou a presença na final , com dois golos de Franck Burnier ( 82' ) e Anton Drobnjak ( 88' ) . O vencedor da Taça da Liga terá direito a estar presente na Taça UEFA da próxima época . "^^xsd:string .
+
+<http://linguateca.pt/harem#char=721,738>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Famalicão-Espinho"^^xsd:string ;
+        nif:beginIndex        "721"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "738"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> .
+
+<http://linguateca.pt/harem#char=1657,1663>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Bochum"^^xsd:string ;
+        nif:beginIndex        "1657"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1663"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> .
+
+<http://linguateca.pt/harem#char=2547,2549>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "13"^^xsd:string ;
+        nif:beginIndex        "2547"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2549"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> .
+
+<http://linguateca.pt/harem#char=1683,1701>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Thomas Kastenmaier"^^xsd:string ;
+        nif:beginIndex        "1683"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1701"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1237,1240>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "24'"^^xsd:string ;
+        nif:beginIndex        "1237"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1240"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> .
+
+<http://linguateca.pt/harem#char=1771,1774>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1-0"^^xsd:string ;
+        nif:beginIndex        "1771"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1774"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> .
+
+<http://linguateca.pt/harem#char=741,761>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Portimonense-Estoril"^^xsd:string ;
+        nif:beginIndex        "741"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "761"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> .
+
+<http://linguateca.pt/harem#char=2201,2204>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "0-0"^^xsd:string ;
+        nif:beginIndex        "2201"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2204"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> .
+
+<http://linguateca.pt/harem#char=2517,2528>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "TSV Munique"^^xsd:string ;
+        nif:beginIndex        "2517"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2528"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=2876,2882>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Bastia"^^xsd:string ;
+        nif:beginIndex        "2876"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2882"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1759,1766>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Schalke"^^xsd:string ;
+        nif:beginIndex        "1759"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1766"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1785,1798>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Steffan Kuntz"^^xsd:string ;
+        nif:beginIndex        "1785"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1798"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=2616,2622>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Bastia"^^xsd:string ;
+        nif:beginIndex        "2616"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2622"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=427,432>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Amora"^^xsd:string ;
+        nif:beginIndex        "427"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "432"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=2368,2378>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Karlsruher"^^xsd:string ;
+        nif:beginIndex        "2368"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2378"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=2428,2430>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "22"^^xsd:string ;
+        nif:beginIndex        "2428"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2430"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> .
+
+<http://linguateca.pt/harem#char=2346,2360>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Bayern Munique"^^xsd:string ;
+        nif:beginIndex        "2346"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2360"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=542,550>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Nacional"^^xsd:string ;
+        nif:beginIndex        "542"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "550"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=2146,2171>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Bayer Leverkusen-Freiburg"^^xsd:string ;
+        nif:beginIndex        "2146"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2171"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> .
+
+<http://linguateca.pt/harem#char=1093,1106>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Werder Bremen"^^xsd:string ;
+        nif:beginIndex        "1093"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1106"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=334,337>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "64'"^^xsd:string ;
+        nif:beginIndex        "334"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "337"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> .
+
+<http://linguateca.pt/harem#char=289,292>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "14'"^^xsd:string ;
+        nif:beginIndex        "289"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "292"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> .
+
+<http://linguateca.pt/harem#char=2593,2611>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Paris St . Germain"^^xsd:string ;
+        nif:beginIndex        "2593"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2611"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1322,1335>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Markkus Marin"^^xsd:string ;
+        nif:beginIndex        "1322"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1335"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=2923,2926>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "43'"^^xsd:string ;
+        nif:beginIndex        "2923"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2926"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> .
+
+<http://linguateca.pt/harem#char=2470,2477>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Schalke"^^xsd:string ;
+        nif:beginIndex        "2470"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2477"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=2102,2137>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Bayer Uerdingen-Eintracht Frankfurt"^^xsd:string ;
+        nif:beginIndex        "2102"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2137"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> .
+
+<http://linguateca.pt/harem#char=2071,2093>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Schalke-Kaiserslautern"^^xsd:string ;
+        nif:beginIndex        "2071"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2093"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> .
+
+<http://linguateca.pt/harem#char=1902,1924>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Werder Bremen-Duisburg"^^xsd:string ;
+        nif:beginIndex        "1902"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1924"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> .
+
+<http://linguateca.pt/harem#char=1260,1263>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "36'"^^xsd:string ;
+        nif:beginIndex        "1260"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1263"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> .
+
+<http://linguateca.pt/harem#char=2416,2425>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Estugarda"^^xsd:string ;
+        nif:beginIndex        "2416"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2425"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1505,1513>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Borussia"^^xsd:string ;
+        nif:beginIndex        "1505"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1513"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=993,1001>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Duisburg"^^xsd:string ;
+        nif:beginIndex        "993"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1001"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=781,800>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Feirense-Felgueiras"^^xsd:string ;
+        nif:beginIndex        "781"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "800"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> .
+
+<http://linguateca.pt/harem#char=38,56>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Nacional-Académica"^^xsd:string ;
+        nif:beginIndex        "38"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "56"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> .
+
+<http://linguateca.pt/harem#char=1338,1341>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "78'"^^xsd:string ;
+        nif:beginIndex        "1338"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1341"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> .
+
+<http://linguateca.pt/harem#char=2935,2949>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Thierry Laurey"^^xsd:string ;
+        nif:beginIndex        "2935"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2949"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3216> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .

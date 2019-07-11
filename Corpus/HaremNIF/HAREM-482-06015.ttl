@@ -1,0 +1,257 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=815,861>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Associação Brasileira dos Psicólogos Espíritas"^^xsd:string ;
+        nif:beginIndex        "815"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "861"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2605> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=68,74>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "ABRAPE"^^xsd:string ;
+        nif:beginIndex        "68"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "74"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2605> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1008,1019>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Tanatologia"^^xsd:string ;
+        nif:beginIndex        "1008"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1019"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2605> .
+
+<http://linguateca.pt/harem#char=2577,2591>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Gamaliel André"^^xsd:string ;
+        nif:beginIndex        "2577"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2591"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2605> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1116,1135>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Dependência Química"^^xsd:string ;
+        nif:beginIndex        "1116"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1135"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2605> .
+
+<http://linguateca.pt/harem#char=2465,2473>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Simpósio"^^xsd:string ;
+        nif:beginIndex        "2465"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2473"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2605> .
+
+<http://linguateca.pt/harem#char=878,891>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ercília Zilli"^^xsd:string ;
+        nif:beginIndex        "878"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "891"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2605> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1197,1205>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "18 :30hs"^^xsd:string ;
+        nif:beginIndex        "1197"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1205"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2605> .
+
+<http://linguateca.pt/harem#char=925,936>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Márcia Fuga"^^xsd:string ;
+        nif:beginIndex        "925"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "936"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2605> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=0,2605>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "2605"^^xsd:nonNegativeInteger ;
+        nif:isString    "Artigo 02 ASSOCIAÇÃO BRASILEIRA DE PSICÓLOGOS ESPÍRITAS Parceria da ABRAPE e Centro Espírita \"Jesus é o Caminho\" ( Guarulhos SP ) Em 22 de setembro , o \" C.E.Jesus é o Caminho \" , teve o prazer de abrir suas portas para permitir a realização de um evento que pela sua própria proposta , denominou-se \" Simpósio da Vida \" .O Simpósio foi constituído pela exposição de quatro diferentes expositores , com quatro diferentes temas/propostas.Embora diferentes quanto ao tema , a seqüência da apresentação dos assuntos forneceu uma certa coerência , correlação e aplicabilidade entre si , fato aliás , desejável em tudo que se faz/recebe , pois a vida é una.Os expositores espíritas , profissionais nas áreas de Psicologia e Medicina Psiquiátrica , que entre outras atividades são membros ativos na Diretoria da ABRAPE - Associação Brasileira dos Psicólogos Espíritas .Expositor Tema Ercília Zilli ( psicóloga ) Síndrome do Pânico Márcia Fuga ( psicóloga ) Mediunidade em Crianças Fátima R. Saldanha ( psicóloga ) Tanatologia -Acompanhamento de pacientes terminais e suas famílias Dr . João Lourenço ( medico Psiquiatra ) Dependência Química O evento iniciou às 14:00hs , com término prorrogado para às 18 :30hs , considerando tempo regulamentar para exposição , tempo para perguntas , respostas e intervalo.Durante o tempo estipulado para exposição , os oradores tiveram a oportunidade de mostrar o quanto é importante e necessário estar-se pensando com seriedade sobre os temas abordados.Dada a escassez de tempo e a abrangência da matéria , já se firmou um compromisso de durante 1997 , a casa estar novamente abrindo portas , para desta vez , receber cada orador , individualmente , para fazer uma exposição mais detalhada sobre o assunto a ser tratado.A proposta acima , foi quase que uma exigência dos próprios assistentes que vieram para o evento.Recebemos na casa , pessoas de Guarulhos , Grande São Paulo e Interior Paulista , além de muitas ligações recebidas de várias localidades onde o evento foi divulgado.Esteve também presente , participando e entrevistando os expositores , a Rádio Boa Nova , uma emissora desta cidade.Este assunto , não poderia ser fechado , sem se mencionar a boa vontade dos muitos colaboradores que tornaram o evento tão \"perfeito\" .Foi uma grande oportunidade para mostrar que não existe nem grandes nem pequenos entre as criaturas bem intencionadas.Considerando a adesão e resultados , podemos acreditar que este foi só o primeiro Simpósio , bem chamado da Vida .Se Deus quiser , muitos outros virão!Fraternalmente , C.E . \"Jesus é o Caminho\" Gamaliel André , Presidente "^^xsd:string .
+
+<http://linguateca.pt/harem#char=951,974>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Mediunidade em Crianças"^^xsd:string ;
+        nif:beginIndex        "951"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "974"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2605> .
+
+<http://linguateca.pt/harem#char=975,993>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Fátima R. Saldanha"^^xsd:string ;
+        nif:beginIndex        "975"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "993"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2605> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=133,147>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "22 de setembro"^^xsd:string ;
+        nif:beginIndex        "133"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "147"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2605> .
+
+<http://linguateca.pt/harem#char=1910,1927>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Interior Paulista"^^xsd:string ;
+        nif:beginIndex        "1910"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1927"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2605> .
+
+<http://linguateca.pt/harem#char=1075,1093>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Dr . João Lourenço"^^xsd:string ;
+        nif:beginIndex        "1075"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1093"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2605> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1577,1581>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1997"^^xsd:string ;
+        nif:beginIndex        "1577"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1581"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2605> .
+
+<http://linguateca.pt/harem#char=10,55>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "ASSOCIAÇÃO BRASILEIRA DE PSICÓLOGOS ESPÍRITAS"^^xsd:string ;
+        nif:beginIndex        "10"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "55"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2605> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=115,127>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Guarulhos SP"^^xsd:string ;
+        nif:beginIndex        "115"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "127"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2605> .
+
+<http://linguateca.pt/harem#char=2087,2101>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Rádio Boa Nova"^^xsd:string ;
+        nif:beginIndex        "2087"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2101"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2605> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=706,716>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Psicologia"^^xsd:string ;
+        nif:beginIndex        "706"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "716"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2605> .
+
+<http://linguateca.pt/harem#char=1156,1163>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "14:00hs"^^xsd:string ;
+        nif:beginIndex        "1156"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1163"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2605> .
+
+<http://linguateca.pt/harem#char=2594,2604>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Presidente"^^xsd:string ;
+        nif:beginIndex        "2594"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2604"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2605> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=2500,2504>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Deus"^^xsd:string ;
+        nif:beginIndex        "2500"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2504"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2605> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=324,332>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Simpósio"^^xsd:string ;
+        nif:beginIndex        "324"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "332"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2605> .
+
+<http://linguateca.pt/harem#char=1891,1907>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Grande São Paulo"^^xsd:string ;
+        nif:beginIndex        "1891"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1907"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2605> .
+
+<http://linguateca.pt/harem#char=2551,2576>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "C.E . \"Jesus é o Caminho\""^^xsd:string ;
+        nif:beginIndex        "2551"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2576"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2605> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=719,740>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Medicina Psiquiátrica"^^xsd:string ;
+        nif:beginIndex        "719"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "740"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2605> .
+
+<http://linguateca.pt/harem#char=793,812>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Diretoria da ABRAPE"^^xsd:string ;
+        nif:beginIndex        "793"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "812"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2605> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=77,112>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Centro Espírita \"Jesus é o Caminho\""^^xsd:string ;
+        nif:beginIndex        "77"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "112"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2605> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=906,924>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Síndrome do Pânico"^^xsd:string ;
+        nif:beginIndex        "906"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "924"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2605> .
+
+<http://linguateca.pt/harem#char=7,9>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "02"^^xsd:string ;
+        nif:beginIndex        "7"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "9"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2605> .
+
+<http://linguateca.pt/harem#char=1879,1888>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Guarulhos"^^xsd:string ;
+        nif:beginIndex        "1879"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1888"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2605> .
+
+<http://linguateca.pt/harem#char=154,175>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "C.E.Jesus é o Caminho"^^xsd:string ;
+        nif:beginIndex        "154"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "175"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2605> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=302,318>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Simpósio da Vida"^^xsd:string ;
+        nif:beginIndex        "302"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "318"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2605> .

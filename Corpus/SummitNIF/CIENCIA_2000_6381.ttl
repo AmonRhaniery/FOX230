@@ -1,0 +1,107 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=158,160>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "UE"^^xsd:string ;
+        nif:beginIndex        "158"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "160"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1396> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=283,300>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Comissão Européia"^^xsd:string ;
+        nif:beginIndex        "283"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "300"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1396> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=577,583>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "França"^^xsd:string ;
+        nif:beginIndex        "577"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "583"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1396> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1369,1371>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "UE"^^xsd:string ;
+        nif:beginIndex        "1369"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1371"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1396> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=101,115>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "União Européia"^^xsd:string ;
+        nif:beginIndex        "101"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "115"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1396> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=67,73>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "França"^^xsd:string ;
+        nif:beginIndex        "67"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "73"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1396> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=262,280>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Parlamento Europeu"^^xsd:string ;
+        nif:beginIndex        "262"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "280"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1396> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=681,697>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Elisabeth Guigou"^^xsd:string ;
+        nif:beginIndex        "681"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "697"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1396> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=789,793>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "CCNE"^^xsd:string ;
+        nif:beginIndex        "789"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "793"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1396> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=303,324>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Conselho de Ministros"^^xsd:string ;
+        nif:beginIndex        "303"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "324"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1396> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1396>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1396"^^xsd:nonNegativeInteger ;
+        nif:isString    "Após o anúncio do sequenciamento do genoma , na semana passada , a França resiste como único país da União Européia a não permitir patenteamento de genes . A UE adota , desde junho de 1998 , diretiva favorável ao patenteamento de genes . O texto , redigido pelo Parlamento Europeu , Comissão Européia e Conselho de Ministros , utiliza o princípio de que \"o genoma não é patenteável , mas a sequência de um gene pode ser\" . No entanto , há restrições . O patenteamento só pode ser aplicado em pesquisas ligadas a doenças genéticas em que o funcionamento do gene é detalhado . A França é o único país que se recusa a aceitar a determinação européia . A ministra da Justiça do país , Elisabeth Guigou, disse que a norma é incompatível com as leis francesas de bioética . No início do mês , o CCNE ( Comitê Consultivo Nacional de Ética ) , órgão que orienta o governo francês sobre aspectos éticos da biotecnologia , reforçou a posição da ministra , alegando que \"o conhecimento da sequência de um gene não pode ser assimilado como produto patenteado e , portanto , não é patenteável\" . \"Bem comum da humanidade , ( o sequenciamento de genes ) não pode ser limitado por patentes que pretendem , em nome do direito de propriedade industrial , proteger a exclusividade desse conhecimento\" , diz parecer do CCNE . O assunto deve ser debatido durante a presidência francesa da UE , no segundo semestre . "^^xsd:string .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1300,1304>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "CCNE"^^xsd:string ;
+        nif:beginIndex        "1300"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1304"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1396> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=796,832>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Comitê Consultivo Nacional de Ética "^^xsd:string ;
+        nif:beginIndex        "796"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "832"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1396> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .

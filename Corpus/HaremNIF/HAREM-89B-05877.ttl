@@ -1,0 +1,183 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=6597,6610>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "doutora Kawas"^^xsd:string ;
+        nif:beginIndex        "6597"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "6610"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,7187> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=2298,2304>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "3,3 kg"^^xsd:string ;
+        nif:beginIndex        "2298"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2304"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,7187> .
+
+<http://linguateca.pt/harem#char=2691,2693>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "12"^^xsd:string ;
+        nif:beginIndex        "2691"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2693"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,7187> .
+
+<http://linguateca.pt/harem#char=7109,7114>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Fonte"^^xsd:string ;
+        nif:beginIndex        "7109"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "7114"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,7187> .
+
+<http://linguateca.pt/harem#char=6369,6395>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Universidade Johns Hopkins"^^xsd:string ;
+        nif:beginIndex        "6369"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "6395"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,7187> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=2980,2998>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "entre 11 e 14 anos"^^xsd:string ;
+        nif:beginIndex        "2980"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2998"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,7187> .
+
+<http://linguateca.pt/harem#char=6583,6592>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Canal 100"^^xsd:string ;
+        nif:beginIndex        "6583"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "6592"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,7187> .
+
+<http://linguateca.pt/harem#char=0,7187>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "7187"^^xsd:nonNegativeInteger ;
+        nif:isString    "UNIDADE 1 CÉLULAS , HEREDITARIEDADE E FUNÇÕES VITAIS . CAPÍTULO 1 - CRESCIMENTO O homem é o mamífero mais evoluído da escala zoológica . Apresenta postura ereta e cérebro bastante evoluído , capaz de aprender , memorizar , desenvolver e transmitir aquilo que aprende . O corpo humano é constituído por vários órgãos que , em conjunto , formam o que denominamos organismo . O organismo humano apresenta uma integração entre a forma e a função de seus órgãos , ambas interligadas com a parte emocional . Essa integração e interligação diferem de indivíduo para indivíduo , mesmo que pertençam a uma mesma família . Por exemplo , uma criança cresce ou engorda mais que sua irmã , tem gostos diferentes , reações alérgicas a determinadas substâncias etc. No entanto , características como a cor dos cabelos e dos olhos , o formato do nariz e da boca são próprias de cada indivíduo , que as herda de seus pais e transmite-as a seus filhos . Desde o nascimento , o organismo humano , ao se desenvolver , vai sofrendo transformações sucessivas . É ao conjunto dessas transformações que chamamos de crescimento corporal . O crescimento se dá através de um aumento do organismo . Começa dentro do corpo da mãe , quando se inicia a gravidez : as células sexuais masculina e feminina se unem , formando a célula-ovo . Esta começa a se dividir , até formar um novo indivíduo . O crescimento ocorrido nesse período , até a criança nascer , é chamado crescimento intra-uterino . Em seguida , inicia-se o crescimento pós-natal , que vai do nascimento até o final da adolescência , por volta dos 20 anos de idade . Durante esse período , ocorre o grande crescimento corporal : aumento da altura e do peso , acompanhado pelo crescimento dos ossos e das vísceras ( fígado , rins etc. ) . O indivíduo atinge a idade adulta com o amadurecimento de todas as suas funções orgânicas e o desenvolvimento da sua estrutura emocional . ETAPAS DO CRESCIMENTO PÓS-NATAL Antes de se transformar num adulto , o indivíduo passa por diferentes etapas de crescimento físico , de desenvolvimento de suas funções orgânicas e emocionais . São três as etapas de crescimento pelas ele passa : a infância , a puberdade e a adolescência . INFÂNCIA Ao nascer , a criança do sexo masculino pesa aproximadamente 3,4 kg e a do sexo feminino , 3,3 kg . Esse peso duplica dos quatro aos cinco meses e triplica até o final do primeiro ano de vida . [ tabela ] Após dois anos de idade , o crescimento se dá em fases alternadas , com períodos comumente chamados \"recheios\" e \"estirões\" . Nos períodos de \"rec heio\" , a criança engorda mais e cresce pouco ; nas fases de \"estirão\" , a criança \"estica\" . A infância vai aproximadamente até os 12 de idade , quando então o indivíduo entra na puberdade . PUBERDADE A puberdade é a passagem progressiva da infância para a adolescência , durante a qual ocorrem transformações físicas e emocionais , ligadas à maturação sexual . As meninas atingem a puberdade mais cedo que os meninos , entre 11 e 14 anos . Nessa fase , elas crescem muito , ficam maiores que os meninos da mesma idade . Crescem não só na altura : há também amadurecimento das funções internas de seu organismo , suas mamas se desenvolvem e têm início seus períodos menstruais . Os meninos atingem a puberdade entre 13 e 15 anos . Nessa fase , observa-se crescimento de seus genitais , aparecimento de pêlos em algumas regiões do corpo , mudança da voz e engrossamento do nariz . Após essa fase , tanto meninos como meninas entram na adolescência . ADOLESCÊNCIA A adolescência vai dos 15 até aproximadamente os 20 anos de idade . Nela , o desenvolvimento se completa e o organismo alcança seu total amadurecimento . FASE ADULTA Por volta dos 20 anos , o corpo humano tem seu crescimento estabilizado . Os ossos deixam de crescer e todos os órgãos encontram seu equilíbrio , pois atingiram o desenvolvimento necessário para desempenhar plenamente suas funções . Assim , dos 20 aos 30 anos , o organismo funciona em toda a sua potência , sendo grande sua produtividade física e mental . Após os 30 anos , alguns órgãos começam a envelhecer . O organismo sofre modificações e , à medida que os anos passam , entra em declínio . VOCABULÁRIO Características herdadas e transmitidas : são as características que um indivíduo recebe de seus pais , através do material genético , e que é capaz de transmitir aos seus filhos . Funções orgânicas : são as funções executadas pelos órgãos que , em conjunto , formam o organismo como um todo . Funções emocionais : são as funções dependentes da atividade cerebral , envolvendo o pensamento e a memória . Períodos menstruais : são períodos cíclicos observados nas fêmeas dos mamíferos . Em geral , a menstruação repete-se , na mulher , a cada 28 dias e se manifesta pela descamação da parede do útero , com conseqüente perda de sangue . RESUMO 0 homem é o mamífero mais evoluído : tem postura ereta e cérebro bastante desenvovido . Seu organismo é constituído por vários órgãos , que funcionam de modo integrado e interligado com a parte emocional . Cada indivíduo possui características próprias , herdadas de seus pais , e é capaz de transmiti-las a seus filhos . Ao conjunto de transformações que o organismo sofre ao se desenvolver chamamos crescimento corporal , que pode ser intra-uterino e pós-natal . 0 intra-uterino é o que se observa quando o individuo ainda se encontra dentro do organismo materno . 0 pós-natal começa com o nascimento e vai até o final da adolescência ; suas fases são : infância , puberdade e adolescência . Por volta dos 20 anos , o crescimento se estabiliza ; é o fim da adolescência e o início da idade adulta . Após os 30 anos , o organismo começa sua fase de declínio , falando-se então em envelhecimento . LEITURA A primeira coisa que se associa à velhice é a decadência mental . 0 que as pessoas não se dão conta , em geral , é que o cérebro decai muito mais por falta de estímulo e de uso do que por causas biológicas . 0 cérebro atinge seu pique de crescimento em torno dos 20 anos de idade e , então , começa a perder massa . Essa perda é quase insignificante e só vai fazer alguma diferença , em geral , quando a pessoa passa dos 70 anos . ''Até atingir essa idade , os neurônios , quando estimulados , cuidam de estabelecer novas conexões , o que compensa a perda de massa física\" , diz a neurologista americana Claudia Kawas , da Universidade Johns Hopkins . \"As pessoas envelhecem aos 60 anos não por uma lei da natureza , mas por uma questão psicológica\" , ensina o carioca Carlinhos Niemeyer , produtor de cinema , de 69 anos , o criador do Canal 100 . A doutora Kawas aconselha as pessoas a se manter sempre dispostas a enfrentar novos desafios intelectuais , exercitar a mente com leituras e conviver num ambiente culturalmente renovador como a grande terapia para preservar o cérebro jovem por muito tempo . \" A maioria das pessoas experimenta algumas reações normais , como uma lentidão maior para responder a determinadas questões ou para reagir a impulsos nérvosos , mas isso não significa perda de memória ou de habilidade intelectual\" , diz ela . ( Do artigo Fonte da juventude , publicado em Veja , 25 de julho de 1990 , p. 56-63 . ) . "^^xsd:string .
+
+<http://linguateca.pt/harem#char=3940,3947>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "30 anos"^^xsd:string ;
+        nif:beginIndex        "3940"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3947"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,7187> .
+
+<http://linguateca.pt/harem#char=6515,6533>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Carlinhos Niemeyer"^^xsd:string ;
+        nif:beginIndex        "6515"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "6533"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,7187> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=5649,5656>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "30 anos"^^xsd:string ;
+        nif:beginIndex        "5649"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5656"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,7187> .
+
+<http://linguateca.pt/harem#char=2252,2274>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "aproximadamente 3,4 kg"^^xsd:string ;
+        nif:beginIndex        "2252"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2274"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,7187> .
+
+<http://linguateca.pt/harem#char=7143,7180>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Veja , 25 de julho de 1990 , p. 56-63"^^xsd:string ;
+        nif:beginIndex        "7143"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "7180"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,7187> .
+
+<http://linguateca.pt/harem#char=6425,6432>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "60 anos"^^xsd:string ;
+        nif:beginIndex        "6425"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "6432"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,7187> .
+
+<http://linguateca.pt/harem#char=6350,6363>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Claudia Kawas"^^xsd:string ;
+        nif:beginIndex        "6350"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "6363"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,7187> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=3541,3578>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "dos 15 até aproximadamente os 20 anos"^^xsd:string ;
+        nif:beginIndex        "3541"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3578"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,7187> .
+
+<http://linguateca.pt/harem#char=6167,6174>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "70 anos"^^xsd:string ;
+        nif:beginIndex        "6167"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "6174"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,7187> .
+
+<http://linguateca.pt/harem#char=1566,1587>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "por volta dos 20 anos"^^xsd:string ;
+        nif:beginIndex        "1566"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1587"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,7187> .
+
+<http://linguateca.pt/harem#char=4739,4746>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "28 dias"^^xsd:string ;
+        nif:beginIndex        "4739"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4746"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,7187> .
+
+<http://linguateca.pt/harem#char=5996,6016>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "em torno dos 20 anos"^^xsd:string ;
+        nif:beginIndex        "5996"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "6016"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,7187> .
+
+<http://linguateca.pt/harem#char=5534,5555>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Por volta dos 20 anos"^^xsd:string ;
+        nif:beginIndex        "5534"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5555"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,7187> .
+
+<http://linguateca.pt/harem#char=3929,3947>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "dos 20 aos 30 anos"^^xsd:string ;
+        nif:beginIndex        "3929"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3947"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,7187> .
+
+<http://linguateca.pt/harem#char=3688,3709>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Por volta dos 20 anos"^^xsd:string ;
+        nif:beginIndex        "3688"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3709"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,7187> .
+
+<http://linguateca.pt/harem#char=3270,3288>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "entre 13 e 15 anos"^^xsd:string ;
+        nif:beginIndex        "3270"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3288"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,7187> .
+
+<http://linguateca.pt/harem#char=6560,6567>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "69 anos"^^xsd:string ;
+        nif:beginIndex        "6560"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "6567"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,7187> .

@@ -1,0 +1,173 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1429,1433>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Sars"^^xsd:string ;
+        nif:beginIndex        "1429"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1433"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3323> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=2593,2600>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Zanotto"^^xsd:string ;
+        nif:beginIndex        "2593"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2600"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3323> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=3318,3321>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "USP"^^xsd:string ;
+        nif:beginIndex        "3318"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3321"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3323> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=2183,2188>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Folha"^^xsd:string ;
+        nif:beginIndex        "2183"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2188"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3323> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=434,455>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Urbani Sars-associado"^^xsd:string ;
+        nif:beginIndex        "434"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "455"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3323> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=985,1014>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Institutos Nacionais de Saúde"^^xsd:string ;
+        nif:beginIndex        "985"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1014"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3323> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1027,1030>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "EUA"^^xsd:string ;
+        nif:beginIndex        "1027"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1030"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3323> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=549,554>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "China"^^xsd:string ;
+        nif:beginIndex        "549"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "554"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3323> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=836,840>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Sars"^^xsd:string ;
+        nif:beginIndex        "836"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "840"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3323> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=669,682>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Paolo Zanotto"^^xsd:string ;
+        nif:beginIndex        "669"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "682"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3323> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=688,691>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "USP"^^xsd:string ;
+        nif:beginIndex        "688"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "691"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3323> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=2692,2698>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Urbani"^^xsd:string ;
+        nif:beginIndex        "2692"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2698"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3323> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3323>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "3323"^^xsd:nonNegativeInteger ;
+        nif:isString    "O vírus causador da pneumonia asiática deve entrar , ao lado do HIV , do Ebola e da febre amarela , para a enorme galeria dos patógenos assassinos que saíram da natureza e atingiram seres humanos . Estudos genéticos mostram , no entanto , que ele não pertence a uma outra classe _a dos assassinos mutantes . E isso pode ser uma boa notícia . Segundo pesquisadores que estudam a evolução do parasita , cujo nome oficial é \"coronavírus Urbani Sars-associado\", a mais nova dor de cabeça da humanidade parasitava algum animal _possivelmente uma ave_ na China e , por alguma razão , \"pulou\" a barreira de espécies . \"Esse vírus é antigo e é uma zoonose\" , diz o virologista Paolo Zanotto , da USP , que está preparando um diagnóstico molecular da pneumonia . Essa antiguidade pode significar que o causador da doença , também conhecida como Sars ( sigla em inglês para síndrome respiratória aguda grave ) , não sofre mutações com tanta facilidade . Isso é tudo o que esperam órgãos como os Institutos Nacionais de Saúde ( NIH ) dos EUA , que correm atrás de uma vacina para a doença . Quanto mais facilmente um vírus sofre mutações , ou seja , trocas ou perdas de \"letras\" químicas nos seus genes , mais difícil é a obtenção de vacinas eficientes . O caso clássico de vírus tornado assassino por uma mutação é o da gripe de 1918 , a chamada gripe espanhola . Ela matou cerca de 20 milhões de pessoas . Assim como o agente causador da Sars , o vírus da gripe espanhola surgiu na China , país com uma grande população rural , onde porcos e aves costumam ser criados juntos e perto demais de humanos . O que o tornou um matador tão eficiente foi uma recombinação : genes de uma linhagem de vírus da gripe de patos e de uma linhagem de vírus de porcos se misturaram , dando origem a um patógeno contra o qual seres humanos simplesmente não tinham defesa . Assim como o influenza , vírus causador da gripe , os coronavírus ( que , em humanos , costumam causar apenas resfriados ) são sujeitos a recombinação . Mas esse não parece ser o caso do coronavírus da Sars . \"As análises feitas com diferentes genes sequenciados até o momento indicam que esse não parece ser um recombinante\" , disse à Folha a médica Teresa Peret , dos CDC ( Centros para Controle e Prevenção de Doenças ) dos EUA , uma brasileira que integrou a equipe que identificou o vírus . Cientistas chineses estão tentando , agora , descobrir de que animal o novo coronavírus saltou para os humanos . Identificar essa espécie _o reservatório , na linguagem técnica_ é importante para quebrar a cadeia de transmissão da epidemia . Segundo Zanotto , o animal que se procura é muito provavelmente uma ave . Para o cientista , o coronavírus Urbani pode ter um calcanhar-de-aquiles : o tamanho de seu genoma . Com 29 mil pares de \"letras\" , é um dos maiores genomas de vírus de RNA conhecidos . \"Para ter um genoma desse tamanho , ele precisa de grande fidelidade de replicação\" , afirma Zanotto . Ou seja : algum mecanismo genético que faça a partícula produzir cópias de si mesma sem muitas trocas de \"letras\" no RNA . Isso pode ser uma boa coisa , avalia , já que a tendência do vírus seria a de mudar pouco , facilitando a produção de uma vacina . \"Existem no mercado vacinas para coronavírus de aves e cachorros . E elas funcionam bem\" , afirmou o pesquisador da USP. "^^xsd:string .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=64,67>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "HIV"^^xsd:string ;
+        nif:beginIndex        "64"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "67"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3323> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=2274,2277>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "EUA"^^xsd:string ;
+        nif:beginIndex        "2274"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2277"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3323> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=2223,2267>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Centros para Controle e Prevenção de Doenças"^^xsd:string ;
+        nif:beginIndex        "2223"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2267"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3323> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=2938,2945>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Zanotto"^^xsd:string ;
+        nif:beginIndex        "2938"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2945"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3323> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=2217,2220>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "CDC"^^xsd:string ;
+        nif:beginIndex        "2217"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2220"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3323> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1017,1020>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "NIH"^^xsd:string ;
+        nif:beginIndex        "1017"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1020"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3323> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1473,1478>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "China"^^xsd:string ;
+        nif:beginIndex        "1473"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1478"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3323> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=2198,2210>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Teresa Peret"^^xsd:string ;
+        nif:beginIndex        "2198"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2210"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3323> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=2049,2053>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Sars"^^xsd:string ;
+        nif:beginIndex        "2049"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2053"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3323> .

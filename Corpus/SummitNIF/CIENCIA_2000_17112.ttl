@@ -1,0 +1,147 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1898,1905>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Tundisi"^^xsd:string ;
+        nif:beginIndex        "1898"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1905"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1908> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=221,250>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Organização das Nações Unidas"^^xsd:string ;
+        nif:beginIndex        "221"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "250"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1908> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=569,587>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Charles Vörösmarty"^^xsd:string ;
+        nif:beginIndex        "569"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "587"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1908> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1550,1556>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "México"^^xsd:string ;
+        nif:beginIndex        "1550"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1556"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1908> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=398,401>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "ONU"^^xsd:string ;
+        nif:beginIndex        "398"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "401"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1908> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=684,694>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Vörösmarty"^^xsd:string ;
+        nif:beginIndex        "684"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "694"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1908> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=593,622>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Universidade de New Hampshire"^^xsd:string ;
+        nif:beginIndex        "593"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "622"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1908> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1441,1453>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ásia Central"^^xsd:string ;
+        nif:beginIndex        "1441"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1453"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1908> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=629,643>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Estados Unidos"^^xsd:string ;
+        nif:beginIndex        "629"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "643"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1908> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1216,1221>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Folha"^^xsd:string ;
+        nif:beginIndex        "1216"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1221"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1908> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=215,218>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "ONU"^^xsd:string ;
+        nif:beginIndex        "215"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "218"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1908> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1429,1435>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "África"^^xsd:string ;
+        nif:beginIndex        "1429"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1435"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1908> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1708,1728>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "José Galizia Tundisi"^^xsd:string ;
+        nif:beginIndex        "1708"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1728"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1908> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1908>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1908"^^xsd:nonNegativeInteger ;
+        nif:isString    "O mundo está mais seco do que se imaginava . Um estudo publicado na edição de hoje da revista \"Science\" afirma que 1,75 bilhão de pessoas já enfrentam severa escassez de água no planeta . A estimativa anterior , da ONU ( Organização das Nações Unidas ) , calculava em meio bilhão o número de indivíduos expostos atualmente ao problema . Por severa escassez de água potável , entende-se , segundo a ONU , o uso de mais de 40 % das reservas do líquido disponíveis em uma região para consumo industrial , doméstico e agrícola . O trabalho foi coordenado pelo geocientista Charles Vörösmarty , da Universidade de New Hampshire , nos Estados Unidos . Para realizar o cálculo , a equipe de Vörösmarty dividiu o mundo em 60 mil microrregiões . Depois , estimou a quantidade de água doce sustentável ( presente em rios e reservatórios de superfície ) disponível em cada região . A projeção dos cientistas para o ano 2025 é que 3,3 bilhões de pessoas não tenham mais água para irrigação _a atividade humana que mais consome o líquido . Todos os cálculos anteriores levavam em conta macrorregiões , como países e continentes . Eram , portanto , menos precisos . \" O que nós fizemos foi um ajuste fino\" , disse o pesquisador à Folha , por telefone . \"Descobrimos que os recursos hídricos locais em algumas áreas estão simplesmente esgotados\" , afirmou . Metrópoles na miraAs áreas mais atingidas , claro , são as regiões áridas do norte da África , da Ásia Central e do Oriente Médio . Mas zonas de intensa urbanização recente , como o sul dos EUA e o norte do México , também foram incluídas no novo mapa da escassez . \" A demanda aumenta de forma drástica no mundo todo\" , afirmou o especialista em recursos hídricos José Galizia Tundisi , do Instituto Internacional de Ecologia , em São Carlos ( SP ) . \"As metrópoles não têm recursos hídricos suficientes para suportar o crescimento populacional\" , disse Tundisi . "^^xsd:string .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1788,1790>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "SP"^^xsd:string ;
+        nif:beginIndex        "1788"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1790"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1908> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1775,1785>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "São Carlos"^^xsd:string ;
+        nif:beginIndex        "1775"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1785"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1908> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1734,1769>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Instituto Internacional de Ecologia"^^xsd:string ;
+        nif:beginIndex        "1734"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1769"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1908> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1533,1536>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "EUA"^^xsd:string ;
+        nif:beginIndex        "1533"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1536"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1908> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .

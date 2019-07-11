@@ -1,0 +1,314 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=2377,2381>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Word"^^xsd:string ;
+        nif:beginIndex        "2377"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2381"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2816> .
+
+<http://linguateca.pt/harem#char=1884,1891>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "NBR6022"^^xsd:string ;
+        nif:beginIndex        "1884"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1891"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2816> .
+
+<http://linguateca.pt/harem#char=1035,1054>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Literatura Cinzenta"^^xsd:string ;
+        nif:beginIndex        "1035"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1054"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2816> .
+
+<http://linguateca.pt/harem#char=263,334>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Escola de Ciência da Informação da Universidade Federal de Minas Gerais"^^xsd:string ;
+        nif:beginIndex        "263"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "334"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2816> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=626,635>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "V ENANCIB"^^xsd:string ;
+        nif:beginIndex        "626"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "635"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2816> .
+
+<http://linguateca.pt/harem#char=955,977>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Informação e Sociedade"^^xsd:string ;
+        nif:beginIndex        "955"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "977"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2816> .
+
+<http://linguateca.pt/harem#char=980,993>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ação Cultural"^^xsd:string ;
+        nif:beginIndex        "980"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "993"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2816> .
+
+<http://linguateca.pt/harem#char=1192,1213>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ciência da Informação"^^xsd:string ;
+        nif:beginIndex        "1192"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1213"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2816> .
+
+<http://linguateca.pt/harem#char=59,68>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "V ENANCIB"^^xsd:string ;
+        nif:beginIndex        "59"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "68"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2816> .
+
+<http://linguateca.pt/harem#char=907,926>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Redes de Informação"^^xsd:string ;
+        nif:beginIndex        "907"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "926"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2816> .
+
+<http://linguateca.pt/harem#char=1144,1168>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Inteligência Competitiva"^^xsd:string ;
+        nif:beginIndex        "1144"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1168"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2816> .
+
+<http://linguateca.pt/harem#char=1948,1955>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "NBR6028"^^xsd:string ;
+        nif:beginIndex        "1948"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1955"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2816> .
+
+<http://linguateca.pt/harem#char=2644,2686>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Comissão de Avaliação de Trabalhos ENANCIB"^^xsd:string ;
+        nif:beginIndex        "2644"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2686"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2816> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=2516,2524>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Internet"^^xsd:string ;
+        nif:beginIndex        "2516"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2524"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2816> .
+
+<http://linguateca.pt/harem#char=1108,1141>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Planejamento e Gestão de Sistemas"^^xsd:string ;
+        nif:beginIndex        "1108"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1141"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2816> .
+
+<http://linguateca.pt/harem#char=93,115>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "14 de novembro de 2003"^^xsd:string ;
+        nif:beginIndex        "93"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "115"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2816> .
+
+<http://linguateca.pt/harem#char=88,90>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "10"^^xsd:string ;
+        nif:beginIndex        "88"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "90"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2816> .
+
+<http://linguateca.pt/harem#char=2756,2772>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Belo HorizonteMG"^^xsd:string ;
+        nif:beginIndex        "2756"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2772"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2816> .
+
+<http://linguateca.pt/harem#char=858,881>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Teoria da Classificação"^^xsd:string ;
+        nif:beginIndex        "858"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "881"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2816> .
+
+<http://linguateca.pt/harem#char=1877,1881>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "ABNT"^^xsd:string ;
+        nif:beginIndex        "1877"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1881"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2816> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=770,808>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Informação Tecnológica e para Negócios"^^xsd:string ;
+        nif:beginIndex        "770"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "808"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2816> .
+
+<http://linguateca.pt/harem#char=814,843>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Representação do Conhecimento"^^xsd:string ;
+        nif:beginIndex        "814"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "843"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2816> .
+
+<http://linguateca.pt/harem#char=887,904>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Novas Tecnologias"^^xsd:string ;
+        nif:beginIndex        "887"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "904"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2816> .
+
+<http://linguateca.pt/harem#char=158,248>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Associação Nacional de Pesquisa e Pós-Graduação em ciência da Informação e Biblioteconomia"^^xsd:string ;
+        nif:beginIndex        "158"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "248"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2816> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1175,1213>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Epistemologia da Ciência da Informação"^^xsd:string ;
+        nif:beginIndex        "1175"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1213"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2816> .
+
+<http://linguateca.pt/harem#char=638,687>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Informação , Conhecimento e Transdisciplinaridade"^^xsd:string ;
+        nif:beginIndex        "638"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "687"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2816> .
+
+<http://linguateca.pt/harem#char=0,2816>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "2816"^^xsd:nonNegativeInteger ;
+        nif:isString    "V ENCONTRO NACIONAL DE PESQUISA EM CIÊNCIA DA INFORMAÇÃO ( V ENANCIB ) Belo Horizonte , 10 a 14 de novembro de 2003 Primeiro anúncio e chamada de trabalhos A Associação Nacional de Pesquisa e Pós-Graduação em ciência da Informação e Biblioteconomia ( ANCIB ) e a Escola de Ciência da Informação da Universidade Federal de Minas Gerais ( ECI-UFMG ) convidam os pesquisadores que atuam na área de ciência da informação para refletir em sobre os rumos da área e a apresentarem suas pesquisas . ** * Normas para apresentação de trabalhos As pesquisas a serem apresentadas devem estar em consonância com a temática proposta para o V ENANCIB , Informação , Conhecimento e Transdisciplinaridade , bem como se enquadrarem nos temas dos grupos de estudo da ANCIB , a saber : 1 . Informação Tecnológica e para Negócios ;2 . Representação do Conhecimento / Indexação / Teoria da Classificação ;3 . Novas Tecnologias / Redes de Informação / Educação à Distância ;4 . Informação e Sociedade / Ação Cultural ;5 . Comunicação e Produção Científica / Literatura Cinzenta 6 . Formação Profissional e Mercado de Trabalho ;7 . Planejamento e Gestão de Sistemas / Inteligência Competitiva ; 8 . Epistemologia da Ciência da Informação . Os trabalhos deverão ser entregues em texto integral , observando-se tanto a estrutura conceitual e a pertinência com a Ciência da Informação , quanto a estrutura formal do texto , que visa a publicação dos anais : · estrutura conceitual : . abrangência e pertinência do conteúdo ; . clareza e articulação dos conceitos e idéias ; . atualização dos conceitos . · estrutura formal : . serão selecionadas pesquisas que apresentem pelo menos uma das seguintes especificidades : 1 . estar concluída 2 . encontrar-se em fase de análise de dados 3 . ser financiada ; . indicação do grupo temático ao qual a pesquisa se enquadra ; . adequação do trabalho às normas da ABNT : NBR6022 ( Apresentação de artigos em publicações periódicas ) ; NBR6028 ( Resumos ) ; NBR6023 ( Referências bibliográficas - elaboração ) ; . a inclusão de tabelas , gráficos e ilustrações deverá obedecer às Normas de apresentação tabular , do IBGE ; . o ( s) nome ( s) do ( s) principal ( is ) pesquisador ( es ) deverá ( ão ) remeter para nota de rodapé a identificação do título maior , vínculo institucional e e-mail ; . os trabalhos deverão ter de 10 a 20 páginas , digitadas em programa Word , fonte Times New Roman , tamanho 12 , espaço duplo , sem paginação . Entrega dos trabalhos Os trabalhos poderão ser enviados : · via Internet , para o endereço : ancib@eci.ufmg.br , ou · em disquete devidamente etiquetado e uma cópia impressa para o endereço : Comissão de Avaliação de Trabalhos ENANCIB Escola de Ciência da Informação da UFMG Caixa Postal 1606 30.161-970 Belo HorizonteMG · prazo para entrega : 30 de abril de 2003 "^^xsd:string .
+
+<http://linguateca.pt/harem#char=71,85>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Belo Horizonte"^^xsd:string ;
+        nif:beginIndex        "71"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "85"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2816> .
+
+<http://linguateca.pt/harem#char=1970,1977>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "NBR6023"^^xsd:string ;
+        nif:beginIndex        "1970"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1977"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2816> .
+
+<http://linguateca.pt/harem#char=2337,2344>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "10 a 20"^^xsd:string ;
+        nif:beginIndex        "2337"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2344"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2816> .
+
+<http://linguateca.pt/harem#char=1059,1102>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Formação Profissional e Mercado de Trabalho"^^xsd:string ;
+        nif:beginIndex        "1059"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1102"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2816> .
+
+<http://linguateca.pt/harem#char=2687,2726>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Escola de Ciência da Informação da UFMG"^^xsd:string ;
+        nif:beginIndex        "2687"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2726"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2816> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=0,56>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "V ENCONTRO NACIONAL DE PESQUISA EM CIÊNCIA DA INFORMAÇÃO"^^xsd:string ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "56"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2816> .
+
+<http://linguateca.pt/harem#char=251,256>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "ANCIB"^^xsd:string ;
+        nif:beginIndex        "251"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "256"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2816> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=337,345>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "ECI-UFMG"^^xsd:string ;
+        nif:beginIndex        "337"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "345"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2816> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=2416,2418>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "12"^^xsd:string ;
+        nif:beginIndex        "2416"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2418"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2816> .
+
+<http://linguateca.pt/harem#char=929,949>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Educação à Distância"^^xsd:string ;
+        nif:beginIndex        "929"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "949"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2816> .
+
+<http://linguateca.pt/harem#char=999,1032>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Comunicação e Produção Científica"^^xsd:string ;
+        nif:beginIndex        "999"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1032"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2816> .
+
+<http://linguateca.pt/harem#char=2390,2405>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Times New Roman"^^xsd:string ;
+        nif:beginIndex        "2390"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2405"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2816> .
+
+<http://linguateca.pt/harem#char=2796,2815>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "30 de abril de 2003"^^xsd:string ;
+        nif:beginIndex        "2796"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2815"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2816> .
+
+<http://linguateca.pt/harem#char=748,753>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "ANCIB"^^xsd:string ;
+        nif:beginIndex        "748"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "753"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2816> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=2128,2132>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "IBGE"^^xsd:string ;
+        nif:beginIndex        "2128"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2132"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2816> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=846,855>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Indexação"^^xsd:string ;
+        nif:beginIndex        "846"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "855"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2816> .

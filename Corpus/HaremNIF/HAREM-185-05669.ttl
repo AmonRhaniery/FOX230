@@ -1,0 +1,319 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=2079,2083>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1640"^^xsd:string ;
+        nif:beginIndex        "2079"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2083"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3166> .
+
+<http://linguateca.pt/harem#char=2182,2189>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Marinha"^^xsd:string ;
+        nif:beginIndex        "2182"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2189"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3166> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=2215,2221>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "África"^^xsd:string ;
+        nif:beginIndex        "2215"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2221"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3166> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=2101,2107>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Lisboa"^^xsd:string ;
+        nif:beginIndex        "2101"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2107"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3166> .
+
+<http://linguateca.pt/harem#char=1513,1519>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Lisboa"^^xsd:string ;
+        nif:beginIndex        "1513"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1519"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3166> .
+
+<http://linguateca.pt/harem#char=3159,3163>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1934"^^xsd:string ;
+        nif:beginIndex        "3159"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3163"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3166> .
+
+<http://linguateca.pt/harem#char=16,23>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Espanha"^^xsd:string ;
+        nif:beginIndex        "16"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "23"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3166> .
+
+<http://linguateca.pt/harem#char=1241,1250>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Barcelona"^^xsd:string ;
+        nif:beginIndex        "1241"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1250"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3166> .
+
+<http://linguateca.pt/harem#char=1955,1964>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Venezuela"^^xsd:string ;
+        nif:beginIndex        "1955"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1964"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3166> .
+
+<http://linguateca.pt/harem#char=3128,3133>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Braga"^^xsd:string ;
+        nif:beginIndex        "3128"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3133"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3166> .
+
+<http://linguateca.pt/harem#char=3092,3094>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "18"^^xsd:string ;
+        nif:beginIndex        "3092"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3094"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3166> .
+
+<http://linguateca.pt/harem#char=1529,1537>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Portugal"^^xsd:string ;
+        nif:beginIndex        "1529"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1537"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3166> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1463,1469>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Lisboa"^^xsd:string ;
+        nif:beginIndex        "1463"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1469"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3166> .
+
+<http://linguateca.pt/harem#char=2979,2986>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Castela"^^xsd:string ;
+        nif:beginIndex        "2979"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2986"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3166> .
+
+<http://linguateca.pt/harem#char=2204,2210>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Brasil"^^xsd:string ;
+        nif:beginIndex        "2204"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2210"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3166> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=2224,2227>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Goa"^^xsd:string ;
+        nif:beginIndex        "2224"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2227"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3166> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=236,252>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Linhais da Serra"^^xsd:string ;
+        nif:beginIndex        "236"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "252"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3166> .
+
+<http://linguateca.pt/harem#char=1944,1952>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Colombia"^^xsd:string ;
+        nif:beginIndex        "1944"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1952"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3166> .
+
+<http://linguateca.pt/harem#char=0,3166>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "3166"^^xsd:nonNegativeInteger ;
+        nif:isString    "Quando foi para Espanha foi a primeira vez que saiu de casa dos seus pais ?Foi.Eu sempre gostei de aventuras.Este gostar de brincar e de aventuras é uma coisa que eu tenho de juventude , não sei porquê , talvez por sair muito cedo para Linhais da Serra , depois para a Covilhã .E em toda a parte tinha o meu grupo de amigos , com quem me dava bem , e também vi a ida para Espanha como uma aventura e disse : - «Vamos lá ver !»Como correu esse tempo que esteve em Espanha ?Olhe , não perdi o meu tempo , porque estudava , era o principal e depois , nós não gostávamos dos espanhóis.Eu vivi em Espanha em três partes.Espanha não é uma nação , é um conjunto de nações.Nós não gostamos é dos castelhanos.Nós quando falamos dos espanhóis , referimo-nos aos castelhanos.O meu pai também é da fronteira , ainda hoje não podem ver os castelhanos , porque o castelhano o que quer é mandar , quer sempre o pé em cima dos outros e ninguém aguenta isso.E olhe uma das razões porque se fundou Portugal , repare que D.Afonso Henriques vai por aí fora e a gente não sabe , nem ainda ninguém explicou , porque é que o português nunca quis ser castelhano.São psicologicamente diferentes.E o castelhano esteve à frente de Espanha e fez a união de Espanha .Em Barcelona , os catalães não podem com os castelhanos , e em Bilbau são os vascos que não podem com os castelhanos e os galegos também não , são mais nossos amigos do que dos castelhanos.Se Filipe II tem posto a capital em Lisboa , como ele pensou , e não pôs a capital em Lisboa , quando Portugal se uniu a Espanha , com medo da Armada Inglesa , e foi pôr Madrid , no meio de Espanha , onde não chegava a Armada Inglesa .Mas se ele tivesse posto em Lisboa , hoje éramos capazes de ser espanhóis porque os portugueses tem muito mais capacidade de unir os povos do que qualquer outra nação.Veja que os nosso impérios , o Brasil é tão grande com a Europa e não tem separatismos.O espanhol , o castelhano é Colombia , Venezuela , Argentina , tudo separado.E se arte portuguesa , é curioso que não é pelas armas que fazemos isso , e quando em 1640 , os fidalgos em Lisboa proclamam a indepêndencia , o povo vai todo com eles e revolta-se.Nós sem Marinha , sem nada .O Brasil , a África , Goa , volta tudo sem Marinha .É esta arte dos portugueses em unir os povos , é uma coisa extraordinária e por isso , muitas vezes pergunto , como é que os romanos em três séculos acabaram com os lusitanos e uniram todos os povos e os àrabes estiveram cá sete séculos e não somos árabes ?Já me deram a explicação , é que os árabes ao princípio não eram fundamentalistas , vinham cá receber o tributo e iam-se embora , e como o tributo era menor que o dos visigodos não fez questão.Quando eles quiseram impor o islamismo já a reconquista ia por ai fora , já não conseguiram.Fizeram mártires em Sevilha , mas não conseguiram e foram postos de cá para fora.Isso são coisas interessantes e explicam muito da maneira de ser dos povos.Como eu estive na parte de Castela não me ligava muito com eles , ao passo que a minha vida em Portugal , eu vim para cá , para Braga , com 18 / 19 anos .E a minha vida foi em Braga .Eu sou bracarense desde 1934 . "^^xsd:string .
+
+<http://linguateca.pt/harem#char=1860,1866>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Brasil"^^xsd:string ;
+        nif:beginIndex        "1860"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1866"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3166> .
+
+<http://linguateca.pt/harem#char=3047,3055>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Portugal"^^xsd:string ;
+        nif:beginIndex        "3047"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3055"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3166> .
+
+<http://linguateca.pt/harem#char=1548,1555>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Espanha"^^xsd:string ;
+        nif:beginIndex        "1548"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1555"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3166> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1204,1211>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Espanha"^^xsd:string ;
+        nif:beginIndex        "1204"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1211"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3166> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1430,1439>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Filipe II"^^xsd:string ;
+        nif:beginIndex        "1430"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1439"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3166> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=2245,2252>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Marinha"^^xsd:string ;
+        nif:beginIndex        "2245"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2252"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3166> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=463,470>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Espanha"^^xsd:string ;
+        nif:beginIndex        "463"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "470"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3166> .
+
+<http://linguateca.pt/harem#char=3097,3104>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "19 anos"^^xsd:string ;
+        nif:beginIndex        "3097"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3104"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3166> .
+
+<http://linguateca.pt/harem#char=1002,1020>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "D.Afonso Henriques"^^xsd:string ;
+        nif:beginIndex        "1002"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1020"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3166> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=592,599>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Espanha"^^xsd:string ;
+        nif:beginIndex        "592"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "599"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3166> .
+
+<http://linguateca.pt/harem#char=1570,1584>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Armada Inglesa"^^xsd:string ;
+        nif:beginIndex        "1570"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1584"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3166> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=980,988>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Portugal"^^xsd:string ;
+        nif:beginIndex        "980"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "988"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3166> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1690,1696>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Lisboa"^^xsd:string ;
+        nif:beginIndex        "1690"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1696"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3166> .
+
+<http://linguateca.pt/harem#char=3080,3085>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Braga"^^xsd:string ;
+        nif:beginIndex        "3080"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3085"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3166> .
+
+<http://linguateca.pt/harem#char=372,379>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Espanha"^^xsd:string ;
+        nif:beginIndex        "372"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "379"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3166> .
+
+<http://linguateca.pt/harem#char=1597,1603>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Madrid"^^xsd:string ;
+        nif:beginIndex        "1597"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1603"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3166> .
+
+<http://linguateca.pt/harem#char=1967,1976>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Argentina"^^xsd:string ;
+        nif:beginIndex        "1967"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1976"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3166> .
+
+<http://linguateca.pt/harem#char=269,276>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Covilhã"^^xsd:string ;
+        nif:beginIndex        "269"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "276"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3166> .
+
+<http://linguateca.pt/harem#char=1229,1236>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Espanha"^^xsd:string ;
+        nif:beginIndex        "1229"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1236"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3166> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1646,1660>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Armada Inglesa"^^xsd:string ;
+        nif:beginIndex        "1646"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1660"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3166> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1617,1624>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Espanha"^^xsd:string ;
+        nif:beginIndex        "1617"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1624"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3166> .
+
+<http://linguateca.pt/harem#char=1301,1307>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Bilbau"^^xsd:string ;
+        nif:beginIndex        "1301"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1307"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3166> .
+
+<http://linguateca.pt/harem#char=1886,1892>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Europa"^^xsd:string ;
+        nif:beginIndex        "1886"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1892"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3166> .
+
+<http://linguateca.pt/harem#char=2816,2823>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Sevilha"^^xsd:string ;
+        nif:beginIndex        "2816"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2823"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3166> .

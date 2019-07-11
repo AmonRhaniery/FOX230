@@ -1,0 +1,181 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=652,664>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Alziro Zarur"^^xsd:string ;
+        nif:beginIndex        "652"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "664"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1174> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=918,926>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Portugal"^^xsd:string ;
+        nif:beginIndex        "918"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "926"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1174> .
+
+<http://linguateca.pt/harem#char=1147,1169>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Semente da Boa vontade"^^xsd:string ;
+        nif:beginIndex        "1147"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1169"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1174> .
+
+<http://linguateca.pt/harem#char=0,21>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Legião da Boa Vontade"^^xsd:string ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "21"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1174> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=284,289>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Porto"^^xsd:string ;
+        nif:beginIndex        "284"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "289"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1174> .
+
+<http://linguateca.pt/harem#char=604,615>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Rádio Globo"^^xsd:string ;
+        nif:beginIndex        "604"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "615"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1174> .
+
+<http://linguateca.pt/harem#char=392,413>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Legião da Boa Vontade"^^xsd:string ;
+        nif:beginIndex        "392"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "413"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1174> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=90,94>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "10º."^^xsd:string ;
+        nif:beginIndex        "90"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "94"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1174> .
+
+<http://linguateca.pt/harem#char=791,812>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Legião da Boa Vontade"^^xsd:string ;
+        nif:beginIndex        "791"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "812"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1174> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=931,952>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Legião da Boa Vontade"^^xsd:string ;
+        nif:beginIndex        "931"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "952"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1174> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=830,833>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "4.º"^^xsd:string ;
+        nif:beginIndex        "830"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "833"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1174> .
+
+<http://linguateca.pt/harem#char=129,137>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Portugal"^^xsd:string ;
+        nif:beginIndex        "129"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "137"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1174> .
+
+<http://linguateca.pt/harem#char=667,683>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "José Paiva Netto"^^xsd:string ;
+        nif:beginIndex        "667"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "683"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1174> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=50,71>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Legião da Boa Vontade"^^xsd:string ;
+        nif:beginIndex        "50"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "71"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1174> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=31,35>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "10º."^^xsd:string ;
+        nif:beginIndex        "31"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "35"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1174> .
+
+<http://linguateca.pt/harem#char=577,596>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Hora da Boa Vontade"^^xsd:string ;
+        nif:beginIndex        "577"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "596"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1174> .
+
+<http://linguateca.pt/harem#char=1100,1118>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Um passo em frente"^^xsd:string ;
+        nif:beginIndex        "1100"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1118"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1174> .
+
+<http://linguateca.pt/harem#char=541,553>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Alziro Zarur"^^xsd:string ;
+        nif:beginIndex        "541"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "553"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1174> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=0,1174>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1174"^^xsd:nonNegativeInteger ;
+        nif:isString    "Legião da Boa Vontade comemora 10º. aniversário A Legião da Boa Vontade comemora amanhã o 10º. aniversário da sua implantação em Portugal com cerimónias de carácter religioso e de convívio -- disse ontem fonte da organização . Uma reunião terá lugar no espaço de cultura ecuménica do Porto , que contará com a presença de benfeitores , colaboradores , amigos e simpatizantes interessados . A Legião da Boa Vontade , instituição educacional , cultural , beneficente e filantrópica , foi fundada no Brasil pelo jornalista , radialista e poeta Alziro Zarur no programa de rádio « Hora da Boa Vontade » , na Rádio Globo do Rio de Janeiro . Após a morte de Alziro Zarur , José Paiva Netto , também jornalista , radialista e escritor , presidiu a esta obra , tendo-a expandido a outros países . A Legião da Boa Vontade ocupa , hoje , o 4.º lugar entre as organizações inscritas na Organização Mundial das Nações Unidas . Em Portugal , a Legião da Boa Vontade iniciou o seu trabalho a 2 de Março de 1989 , dando ajuda material e espiritual à população portuguesa mais carenciada através de programas como « Um passo em frente » , « Ronda-da-caridade » e Semente da Boa vontade » . "^^xsd:string .
+
+<http://linguateca.pt/harem#char=875,912>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Organização Mundial das Nações Unidas"^^xsd:string ;
+        nif:beginIndex        "875"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "912"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1174> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1125,1142>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ronda-da-caridade"^^xsd:string ;
+        nif:beginIndex        "1125"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1142"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1174> .
+
+<http://linguateca.pt/harem#char=497,503>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Brasil"^^xsd:string ;
+        nif:beginIndex        "497"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "503"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1174> .
+
+<http://linguateca.pt/harem#char=619,633>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Rio de Janeiro"^^xsd:string ;
+        nif:beginIndex        "619"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "633"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1174> .
+
+<http://linguateca.pt/harem#char=978,996>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "2 de Março de 1989"^^xsd:string ;
+        nif:beginIndex        "978"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "996"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1174> .

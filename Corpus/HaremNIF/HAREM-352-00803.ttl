@@ -1,0 +1,206 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=233,237>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1961"^^xsd:string ;
+        nif:beginIndex        "233"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "237"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2681> .
+
+<http://linguateca.pt/harem#char=645,661>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Grande São Paulo"^^xsd:string ;
+        nif:beginIndex        "645"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "661"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2681> .
+
+<http://linguateca.pt/harem#char=2525,2529>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1996"^^xsd:string ;
+        nif:beginIndex        "2525"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2529"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2681> .
+
+<http://linguateca.pt/harem#char=2158,2167>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "MARFINITE"^^xsd:string ;
+        nif:beginIndex        "2158"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2167"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2681> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=464,486>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Rua Costa Aguiar , 590"^^xsd:string ;
+        nif:beginIndex        "464"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "486"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2681> .
+
+<http://linguateca.pt/harem#char=1442,1451>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "MARFINITE"^^xsd:string ;
+        nif:beginIndex        "1442"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1451"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2681> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=2562,2583>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "35 milhões de dólares"^^xsd:string ;
+        nif:beginIndex        "2562"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2583"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2681> .
+
+<http://linguateca.pt/harem#char=502,510>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ipiranga"^^xsd:string ;
+        nif:beginIndex        "502"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "510"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2681> .
+
+<http://linguateca.pt/harem#char=0,2681>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "2681"^^xsd:nonNegativeInteger ;
+        nif:isString    "Marfinite - Origem -Quem Somos ?DADOS SOBRE A EMPRESA Colocada entre as três primeiras no «ranking» dos fabricantes de produtos moldados com injeção de termoplástico , a MARFINITE é uma empresa de capital 100 % nacional , fundada em 1961 e pode ser considerada a pioneira no ramo de termoplásticos a abrir pontos de venda em todo o país , desde 1970 .Atualmente conta com 250 revendedores espalhados por todo o território nacional.Tem loja e depósito instalados à Rua Costa Aguiar , 590 , no bairro do Ipiranga , na capital paulista.Emprega diretamente 600 pessoas.A administração , vendas e a fábrica da MARFINITE ficam em Itaquaquecetuba , na Grande São Paulo , num terreno de 230 mil metros quadrados , com 25 mil metros quadrados de área construída.Basicamente a empresa trabalha com injeção de termoplásticos ( polipropileno e polietileno ) .Utiliza-se de resinas da indústria petroquímica nacional , que são modificadas na fábrica de Itaquaquecetuba , com cargas minerais , fibras e estabilizantes à luz , seguindo formulações tecnicamente das mais avançadas para acrescentar qualidade extra aos produtos.Possui mais de 60 máquinas de injeção , contando com equipamentos do tipo prensa BATTENFELD , capaz de produzir monoblocos de até 35 Kg .de plástico injetável por vez.A empresa tem capacidade instalada para produzir 12.000 toneladas / ano .Muito conhecida pelo grande público como produtora de móveis para jardim , praia e campo a MARFINITE conta com as seguintes linhas de produtos : a ) móveis e objetos para exteriores : jardim , piscina , praia e campo b ) móveis e objetos para interiores : indústria , comércio e residências c ) caixas p / armazenagem , acondicionamento e transportes de produtos diversos e «containers» de vários tamanhos d ) utensílios domésticos : com mais de 120 itens , que vão de bacias e baldes a potes térmicos e saladeiras centrífugas e ) construção civil : caixas d' água com reservatórios com capacidade para até mil litros , bem como cones para sinalização de ruas , estradas e obras f ) embalagens para indústria alimentícia . g ) bolas de boliche e bilhar e esferas para desodorantes tipo \"roll-on \" Em 1997 a MARFINITE tem como objetivo reforçar o plano de expansão de sua área comercial , ampliando seu leque de revendedores.Com a meta de aumentar seus pontos de venda , a MARFINITE abre perspectivas de negócios e geração de empregos , através de novos distribuidores no Brasil e no exterior que estejam interessados em vender no varejo suas múltiplas linhas de produtos.Em 1996 seu faturamento foi da ordem de 35 milhões de dólares .A filosofia da empresa é a de sempre investir na produção e desenvolvimento de novos produtos . "^^xsd:string .
+
+<http://linguateca.pt/harem#char=1192,1202>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "BATTENFELD"^^xsd:string ;
+        nif:beginIndex        "1192"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1202"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2681> .
+
+<http://linguateca.pt/harem#char=710,733>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "25 mil metros quadrados"^^xsd:string ;
+        nif:beginIndex        "710"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "733"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2681> .
+
+<http://linguateca.pt/harem#char=1118,1128>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "mais de 60"^^xsd:string ;
+        nif:beginIndex        "1118"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1128"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2681> .
+
+<http://linguateca.pt/harem#char=940,955>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Itaquaquecetuba"^^xsd:string ;
+        nif:beginIndex        "940"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "955"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2681> .
+
+<http://linguateca.pt/harem#char=1327,1349>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "12.000 toneladas / ano"^^xsd:string ;
+        nif:beginIndex        "1327"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1349"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2681> .
+
+<http://linguateca.pt/harem#char=345,349>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1970"^^xsd:string ;
+        nif:beginIndex        "345"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "349"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2681> .
+
+<http://linguateca.pt/harem#char=2323,2332>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "MARFINITE"^^xsd:string ;
+        nif:beginIndex        "2323"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2332"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2681> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=679,703>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "230 mil metros quadrados"^^xsd:string ;
+        nif:beginIndex        "679"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "703"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2681> .
+
+<http://linguateca.pt/harem#char=2151,2155>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1997"^^xsd:string ;
+        nif:beginIndex        "2151"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2155"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2681> .
+
+<http://linguateca.pt/harem#char=1789,1800>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "mais de 120"^^xsd:string ;
+        nif:beginIndex        "1789"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1800"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2681> .
+
+<http://linguateca.pt/harem#char=0,9>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Marfinite"^^xsd:string ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "9"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2681> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=205,210>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "100 %"^^xsd:string ;
+        nif:beginIndex        "205"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "210"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2681> .
+
+<http://linguateca.pt/harem#char=553,556>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "600"^^xsd:string ;
+        nif:beginIndex        "553"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "556"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2681> .
+
+<http://linguateca.pt/harem#char=170,179>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "MARFINITE"^^xsd:string ;
+        nif:beginIndex        "170"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "179"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2681> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=372,375>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "250"^^xsd:string ;
+        nif:beginIndex        "372"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "375"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2681> .
+
+<http://linguateca.pt/harem#char=2422,2428>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Brasil"^^xsd:string ;
+        nif:beginIndex        "2422"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2428"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2681> .
+
+<http://linguateca.pt/harem#char=624,639>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Itaquaquecetuba"^^xsd:string ;
+        nif:beginIndex        "624"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "639"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2681> .
+
+<http://linguateca.pt/harem#char=1241,1246>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "35 Kg"^^xsd:string ;
+        nif:beginIndex        "1241"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1246"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2681> .
+
+<http://linguateca.pt/harem#char=605,614>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "MARFINITE"^^xsd:string ;
+        nif:beginIndex        "605"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "614"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2681> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .

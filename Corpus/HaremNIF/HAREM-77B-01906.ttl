@@ -1,0 +1,342 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=2943,2951>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Portugal"^^xsd:string ;
+        nif:beginIndex        "2943"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2951"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5854> .
+
+<http://linguateca.pt/harem#char=2799,2807>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Portugal"^^xsd:string ;
+        nif:beginIndex        "2799"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2807"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5854> .
+
+<http://linguateca.pt/harem#char=36,43>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "América"^^xsd:string ;
+        nif:beginIndex        "36"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "43"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5854> .
+
+<http://linguateca.pt/harem#char=1482,1489>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Espanha"^^xsd:string ;
+        nif:beginIndex        "1482"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1489"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5854> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1372,1380>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Amazonas"^^xsd:string ;
+        nif:beginIndex        "1372"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1380"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5854> .
+
+<http://linguateca.pt/harem#char=2352,2356>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1810"^^xsd:string ;
+        nif:beginIndex        "2352"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2356"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5854> .
+
+<http://linguateca.pt/harem#char=1233,1239>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Brasil"^^xsd:string ;
+        nif:beginIndex        "1233"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1239"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5854> .
+
+<http://linguateca.pt/harem#char=1958,1964>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Brasil"^^xsd:string ;
+        nif:beginIndex        "1958"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1964"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5854> .
+
+<http://linguateca.pt/harem#char=5598,5607>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "25 libras"^^xsd:string ;
+        nif:beginIndex        "5598"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5607"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5854> .
+
+<http://linguateca.pt/harem#char=2051,2057>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Brasil"^^xsd:string ;
+        nif:beginIndex        "2051"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2057"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5854> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1543,1553>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Sacramento"^^xsd:string ;
+        nif:beginIndex        "1543"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1553"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5854> .
+
+<http://linguateca.pt/harem#char=1743,1749>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Brasil"^^xsd:string ;
+        nif:beginIndex        "1743"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1749"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5854> .
+
+<http://linguateca.pt/harem#char=3675,3685>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "século XIX"^^xsd:string ;
+        nif:beginIndex        "3675"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3685"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5854> .
+
+<http://linguateca.pt/harem#char=141,149>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Portugal"^^xsd:string ;
+        nif:beginIndex        "141"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "149"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5854> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1460,1468>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Portugal"^^xsd:string ;
+        nif:beginIndex        "1460"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1468"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5854> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=2991,2995>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1827"^^xsd:string ;
+        nif:beginIndex        "2991"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2995"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5854> .
+
+<http://linguateca.pt/harem#char=2030,2038>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Portugal"^^xsd:string ;
+        nif:beginIndex        "2030"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2038"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5854> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=5623,5636>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "60 mil libras"^^xsd:string ;
+        nif:beginIndex        "5623"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5636"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5854> .
+
+<http://linguateca.pt/harem#char=2568,2576>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Portugal"^^xsd:string ;
+        nif:beginIndex        "2568"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2576"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5854> .
+
+<http://linguateca.pt/harem#char=5472,5486>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "110 mil libras"^^xsd:string ;
+        nif:beginIndex        "5472"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5486"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5854> .
+
+<http://linguateca.pt/harem#char=3311,3321>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "século XIX"^^xsd:string ;
+        nif:beginIndex        "3311"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3321"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5854> .
+
+<http://linguateca.pt/harem#char=207,214>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Espanha"^^xsd:string ;
+        nif:beginIndex        "207"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "214"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5854> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=2393,2403>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Inglaterra"^^xsd:string ;
+        nif:beginIndex        "2393"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2403"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5854> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=463,470>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Espanha"^^xsd:string ;
+        nif:beginIndex        "463"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "470"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5854> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1128,1130>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "54"^^xsd:string ;
+        nif:beginIndex        "1128"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1130"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5854> .
+
+<http://linguateca.pt/harem#char=5489,5502>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "50 mil libras"^^xsd:string ;
+        nif:beginIndex        "5489"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5502"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5854> .
+
+<http://linguateca.pt/harem#char=1107,1117>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Inglaterra"^^xsd:string ;
+        nif:beginIndex        "1107"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1117"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5854> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=2185,2195>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Inglaterra"^^xsd:string ;
+        nif:beginIndex        "2185"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2195"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5854> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1896,1906>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Inglaterra"^^xsd:string ;
+        nif:beginIndex        "1896"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1906"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5854> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=2438,2446>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Napoleão"^^xsd:string ;
+        nif:beginIndex        "2438"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2446"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5854> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=76,87>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "século XVII"^^xsd:string ;
+        nif:beginIndex        "76"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "87"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5854> .
+
+<http://linguateca.pt/harem#char=392,400>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Portugal"^^xsd:string ;
+        nif:beginIndex        "392"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "400"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5854> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1680,1687>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "América"^^xsd:string ;
+        nif:beginIndex        "1680"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1687"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5854> .
+
+<http://linguateca.pt/harem#char=5582,5588>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "15.000"^^xsd:string ;
+        nif:beginIndex        "5582"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5588"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5854> .
+
+<http://linguateca.pt/harem#char=1121,1125>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1642"^^xsd:string ;
+        nif:beginIndex        "1121"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1125"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5854> .
+
+<http://linguateca.pt/harem#char=1314,1320>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "França"^^xsd:string ;
+        nif:beginIndex        "1314"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1320"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5854> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=0,5854>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "5854"^^xsd:nonNegativeInteger ;
+        nif:isString    "A Evolução Da Colônia portuguesa na América , a partir da segunda metade do século XVII , será profundamente marcada pelo novo rumo que toma Portugal como potência colonial . Na época em que esteve ligado à Espanha , perdeu esse país o melhor de seus entrepostos orientais , ao mesmo tempo que a melhor parte da colônia americana era ocupada pelos holandeses . Ao recuperar a independência , Portugal encontrou-se em posição extremamente débil , pois a ameaça da Espanha -- que por mais de um quarto de século não reconheceu essa independência -- pesava permanentemente sobre o território metropolitano . Por outro lado , pequeno reino , perdido o comércio oriental e desorganizado o mercado do açúcar , não dispunha de meios para defender o que lhe sobrara das colônias numa época de crescente atividade imperialista . A neutralidade em face das grandes potências era impraticável . Portugal compreendeu , assim , que para sobreviver como metrópole colonial deveria ligar o seu destino a uma grande potência , o que significaria necessariamente alienar parte de sua soberania . Os acordos concluídos com a Inglaterra em 1642 - 54 - 61 estruturaram essa aliança que marcará profundamente a vida política e econômica de Portugal e do Brasil durante os dois séculos seguintes . Aí conseguiu o governo lusitano que a França renunciasse a quaisquer reclamações sobre a foz do Amazonas e a quaisquer direitos de navegação nesse rio . Igualmente nessa conferência , Portugal conseguiu da Espanha o reconhecimento de seus direitos sobre a colônia do Sacramento . Ambos os acordos receberam a garantia direta da Inglaterra e vieram a constituir fundamentos da estabilidade territorial da América portuguesa .Transferindo-se o governo português para o Brasil sob a proteção inglesa e operando-se a independência sem descontinuidade na chefia do governo , os privilégios econômicos de que se beneficiava a Inglaterra em Portugal transferiram-se automaticamente para o Brasil independente . Com efeito , se bem haja conseguido separar-se de Portugal em 1822 , o Brasil necessitou vários decênios mais para eliminar a tutelagem que , graças a sólidos acordos internacionais , mantinha sobre ele a Inglaterra . Esses acordos foram firmados em momentos difíceis e constituíam , dentro da tradição das relações luso-inglesas , pagamentos em privilégios econômicos de 1810 foram firmados contra a garantia da Inglaterra de que nenhum governo imposto por Napoleão em Portugal seria reconhecido . Por eles se transferiam para o Brasil todos os privilégios de que gozavam os ingleses em Portugal -- inclusive os de extraterritorialidade -- e se lhes reconhecia demais uma tarifa preferencial . Tudo indica que negociando esses acordos o governo português tinha estritamente em vista a continuidade da casa reinante em Portugal , enquanto os ingleses se preocupavam em firmar-se definitivamente na colônia , cujas perspectivas eram bem mais promissoras que as de Portugal . Eliminando o obstáculo do tratado de 1827 , estava aberto o caminho para a elevação da tarifa e o conseqüente aumento do poder financeiro do governo central , cuja autoridade se consolida definitivamente nessa etapa . O passivo político da colônia portuguesa estava liquidado . Contudo , do ponto de vista de sua estrutura econômica , o Brasil da metade do século XIX não diferia muito do que fora nos três séculos anteriores . A estrutura econômica , baseada principalmente no trabalho escravo , se mantivera imutável nas etapas de expansão e decadência . A ausência de tensões internas , resultante dessa imutabilidade , é responsável pelo atraso relativo da industrialização . A expansão cafeeira da segunda metade do século XIX , durante a qual se modificam as bases do sistema econômico , constituiu uma etapa de transição econômica , assim como a primeira metade desse século representou uma fase de transição política . É das tensoes internas da economia cafeeira em sua etapa de crise que surgirão os elementos de um sistema econômico autônomo capaz de gerar o seu próprio impulso de crescimento , concluindo-se então definitivamente a etapa colonial da economia brasileira .O rápido Desenvolvimento da indústria açucareira , malgrado as enormes dificuldades decorrentes do meio físico , da hostilidade do silvícola e do custo dos transportes , indica claramente que o esforço do governo português se concentrara nesse setor . O privilégio , outorgado ao donatário , de so ele fabricar moenda e engenho de água , denota ser a lavoura do açúcar a que se tinha especialmente em mira introduzir . Favores especiais foram concedidos subsequentemente àqueles que instalassem engenhos : isenções de tributos , garantia contra a penhora dos instrumentos de produção , honrarias e títulos , etc. As dificuldades maiores , encontradas na etapa inicial , advieram da escassez de mão-de-obra . O aproveitamento do escravo indígena , em que aparentemente se baseavam todos os planos iniciais , resultou inviável na escala requerida pelas empresas agrícolas de grande envergadura que eram os engenhos de açúcar . A mão-de-obra africana chegou para a expansão da empresa , que já estava instalada . É quando a rentabilidade do negócio está assegurada que entram em cena , na escala necessária , os escravos africanos : base de um sistema de produção mais eficiente e mais densamente capitalizado . Os gastos monetários de reposição , que cabe deduzir para obter o monte da renda líquida , podem ser estimados grosso modo em 110 mil libras : 50 mil libras para reposição dos escravos -- admitindo-se uma vida média útil de oito anos , 15.000 escravos 25 libras por cabeça - e 60 mil libras para a parte de equipamentos importados - admitindo-se que a terça parte do capital fixo ( inclusive escravos ) estivesse constituída por equipamentos importados e que estes tivessem uma vida útil média de dez anos . "^^xsd:string .
+
+<http://linguateca.pt/harem#char=1133,1135>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "61"^^xsd:string ;
+        nif:beginIndex        "1133"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1135"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5854> .
+
+<http://linguateca.pt/harem#char=2042,2046>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1822"^^xsd:string ;
+        nif:beginIndex        "2042"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2046"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5854> .
+
+<http://linguateca.pt/harem#char=884,892>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Portugal"^^xsd:string ;
+        nif:beginIndex        "884"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "892"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5854> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1910,1918>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Portugal"^^xsd:string ;
+        nif:beginIndex        "1910"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1918"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5854> .
+
+<http://linguateca.pt/harem#char=1219,1227>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Portugal"^^xsd:string ;
+        nif:beginIndex        "1219"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1227"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5854> .
+
+<http://linguateca.pt/harem#char=2510,2516>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Brasil"^^xsd:string ;
+        nif:beginIndex        "2510"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2516"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5854> .
+
+<http://linguateca.pt/harem#char=2450,2458>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Portugal"^^xsd:string ;
+        nif:beginIndex        "2450"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2458"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5854> .
+
+<http://linguateca.pt/harem#char=3291,3297>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Brasil"^^xsd:string ;
+        nif:beginIndex        "3291"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3297"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5854> .
+
+<http://linguateca.pt/harem#char=1604,1614>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Inglaterra"^^xsd:string ;
+        nif:beginIndex        "1604"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1614"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5854> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .

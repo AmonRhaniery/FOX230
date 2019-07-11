@@ -1,0 +1,251 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=716,726>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Tecnologia"^^xsd:string ;
+        nif:beginIndex        "716"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "726"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1994> .
+
+<http://linguateca.pt/harem#char=1497,1505>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Portugal"^^xsd:string ;
+        nif:beginIndex        "1497"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1505"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1994> .
+
+<http://linguateca.pt/harem#char=1143,1154>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Subcontrata"^^xsd:string ;
+        nif:beginIndex        "1143"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1154"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1994> .
+
+<http://linguateca.pt/harem#char=1772,1775>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "AEP"^^xsd:string ;
+        nif:beginIndex        "1772"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1775"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1994> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=190,218>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Feira Internacional do Porto"^^xsd:string ;
+        nif:beginIndex        "190"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "218"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1994> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=97,104>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Exponor"^^xsd:string ;
+        nif:beginIndex        "97"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "104"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1994> .
+
+<http://linguateca.pt/harem#char=160,171>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Visionarium"^^xsd:string ;
+        nif:beginIndex        "160"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "171"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1994> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1198,1210>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Intermáquina"^^xsd:string ;
+        nif:beginIndex        "1198"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1210"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1994> .
+
+<http://linguateca.pt/harem#char=706,713>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ciência"^^xsd:string ;
+        nif:beginIndex        "706"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "713"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1994> .
+
+<http://linguateca.pt/harem#char=0,40>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Feira da Ciência , Tecnologia e Inovação"^^xsd:string ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "40"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1994> .
+
+<http://linguateca.pt/harem#char=235,257>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "10 de Novembro de 2001"^^xsd:string ;
+        nif:beginIndex        "235"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "257"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1994> .
+
+<http://linguateca.pt/harem#char=1528,1538>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Tecnologia"^^xsd:string ;
+        nif:beginIndex        "1528"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1538"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1994> .
+
+<http://linguateca.pt/harem#char=1518,1525>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ciência"^^xsd:string ;
+        nif:beginIndex        "1518"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1525"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1994> .
+
+<http://linguateca.pt/harem#char=262,264>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1ª"^^xsd:string ;
+        nif:beginIndex        "262"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "264"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1994> .
+
+<http://linguateca.pt/harem#char=1157,1194>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Feira Internacional de Subcontratação"^^xsd:string ;
+        nif:beginIndex        "1157"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1194"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1994> .
+
+<http://linguateca.pt/harem#char=1776,1783>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Exponor"^^xsd:string ;
+        nif:beginIndex        "1776"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1783"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1994> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1541,1549>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Inovação"^^xsd:string ;
+        nif:beginIndex        "1541"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1549"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1994> .
+
+<http://linguateca.pt/harem#char=1213,1303>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Feira Internacional de Máquinas para a Indústria de Rochas Ornamentais , Cerâmicas e Vidro"^^xsd:string ;
+        nif:beginIndex        "1213"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1303"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1994> .
+
+<http://linguateca.pt/harem#char=41,48>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Exponor"^^xsd:string ;
+        nif:beginIndex        "41"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "48"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1994> .
+
+<http://linguateca.pt/harem#char=0,1994>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1994"^^xsd:nonNegativeInteger ;
+        nif:isString    "Feira da Ciência , Tecnologia e Inovação Exponor [ mailing@milenar.pt ] LA FERIA DE CIENCIA 2001 Exponor - Feira Internacional do Porto Tecnologia e Inovação ! Visionarium CESAE A EXPONOR - Feira Internacional do Porto organiza de 7 a 10 de Novembro de 2001 , a 1ª edição da Feira da Ciência , Tecnologia e Inovação .Nos últimos anos , Portugal tem vindo a investir em infra-estruturas de natureza tecnológica e em recursos humanos qualificados , tendo em vista potenciar a função de interface com o mundo empresarial.Estes investimentos permitiram um desenvolvimento significativo do lado da «oferta» que deverá ser acompanhada por um envolvimento mais directo das empresas .Esta feira pretende abordar a Ciência , Tecnologia e Inovação como instrumentos catalisadores para o desenvolvimento da economia , promoção da inovação e modernização empresarial.Permitirá , para além da apresentação de projectos e entidades , rentabilizar todo o potencial de investigação e desenvolvimento orientados estrategicamente para um apoio efectivo às empresas.Em simultâneo com a Feira da Ciência , Tecnologia e Inovação terão lugar as seguintes feiras :· Subcontrata - Feira Internacional de Subcontratação .· Intermáquina - Feira Internacional de Máquinas para a Indústria de Rochas Ornamentais , Cerâmicas e Vidro .· Jornadas de Inovação - Organizado pela Agência de Inovação .Todo este conjunto de iniciativas pretende , para além de preencher uma lacuna existente , evidenciar tudo o que de bem se faz em Portugal ao nível da Ciência , Tecnologia e Inovação , contando com a presença de numerosas entidades e empresas.Por forma a garantir o sucesso da Feira realizar-se-ão paralelamente actividades tais como seminários temáticos e uma mostra de robótica .Não perca este evento . AEP Exponor - info@exponor.pt Copyright® 2001 Esta mensagem foi enviada por:O seu e-mail :diana .santos@informatics.sintef.no e o seu ID : 30168 Altere o seu e-mail.Recomende esta mensagem a um amigo.Remova o seu e-mail . "^^xsd:string .
+
+<http://linguateca.pt/harem#char=1067,1107>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Feira da Ciência , Tecnologia e Inovação"^^xsd:string ;
+        nif:beginIndex        "1067"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1107"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1994> .
+
+<http://linguateca.pt/harem#char=180,187>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "EXPONOR"^^xsd:string ;
+        nif:beginIndex        "180"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "187"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1994> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=172,177>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "CESAE"^^xsd:string ;
+        nif:beginIndex        "172"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "177"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1994> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=231,232>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "7"^^xsd:string ;
+        nif:beginIndex        "231"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "232"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1994> .
+
+<http://linguateca.pt/harem#char=107,135>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Feira Internacional do Porto"^^xsd:string ;
+        nif:beginIndex        "107"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "135"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1994> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1346,1365>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Agência de Inovação"^^xsd:string ;
+        nif:beginIndex        "1346"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1365"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1994> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1644,1649>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Feira"^^xsd:string ;
+        nif:beginIndex        "1644"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1649"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1994> .
+
+<http://linguateca.pt/harem#char=729,737>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Inovação"^^xsd:string ;
+        nif:beginIndex        "729"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "737"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1994> .
+
+<http://linguateca.pt/harem#char=336,344>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Portugal"^^xsd:string ;
+        nif:beginIndex        "336"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "344"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1994> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1911,1916>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "30168"^^xsd:string ;
+        nif:beginIndex        "1911"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1916"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1994> .
+
+<http://linguateca.pt/harem#char=1813,1817>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "2001"^^xsd:string ;
+        nif:beginIndex        "1813"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1817"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1994> .
+
+<http://linguateca.pt/harem#char=1307,1327>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Jornadas de Inovação"^^xsd:string ;
+        nif:beginIndex        "1307"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1327"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1994> .
+
+<http://linguateca.pt/harem#char=275,315>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Feira da Ciência , Tecnologia e Inovação"^^xsd:string ;
+        nif:beginIndex        "275"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "315"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1994> .
+
+<http://linguateca.pt/harem#char=72,96>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "LA FERIA DE CIENCIA 2001"^^xsd:string ;
+        nif:beginIndex        "72"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "96"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1994> .

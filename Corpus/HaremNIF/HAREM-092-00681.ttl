@@ -1,0 +1,194 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=1747,1753>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Brasil"^^xsd:string ;
+        nif:beginIndex        "1747"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1753"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1835> .
+
+<http://linguateca.pt/harem#char=1292,1311>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Vila de Santo Amaro"^^xsd:string ;
+        nif:beginIndex        "1292"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1311"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1835> .
+
+<http://linguateca.pt/harem#char=563,567>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1960"^^xsd:string ;
+        nif:beginIndex        "563"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "567"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1835> .
+
+<http://linguateca.pt/harem#char=1343,1350>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "36 anos"^^xsd:string ;
+        nif:beginIndex        "1343"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1350"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1835> .
+
+<http://linguateca.pt/harem#char=852,863>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Itapecerica"^^xsd:string ;
+        nif:beginIndex        "852"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "863"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1835> .
+
+<http://linguateca.pt/harem#char=0,1835>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1835"^^xsd:nonNegativeInteger ;
+        nif:isString    "Mosteiro São Geraldo de São Paulo Segunda fase de nossa história A segunda fase da história de Itapecerica que se costuma identificar estende-se desde a vinda dos colonos alemães , em 1828 , até nossos dias . Esta fase pós<ec> 1828 é tida como um processo de recolonização , uma nova fundação que teria redirecionado a história para os dias atuais . A valorização dessa fase histórica é reforçada pela falta de documentação sobre a fase anterior . Mas este hiato histórico é questionado pelo geógrafo Pasquale Petrone , que argumenta existir , ainda na década de 1960 , fortes traços herdados de uma cultura indígena , especialmente nas atividades agrícolas ( Corrêa , 1999 , p.16 ) . O antigo aldeamento foi então transformado em colônia e os alemães ocuparam uma localidade denominada quilombo . Mas , novamente , as características paisagísticas de Itapecerica , com matas cerradas e relevo acidentado , mostravam-se mesmo mais adequadas para abrigar negros refugiados em quilombos do que para colonos europeus . Assim , a maior parte dos colonos alemães acabou deslocando-se para Santo Amaro . Em 1841 , a colônia foi elevada à categoria de Freguesia de Itapecerica pela Lei Provincial no 12 , excluindo-se assim da jurisdição da Vila Piratininga e incluída na jurisdição da recém-criada Vila de Santo Amaro , à qual ficou subordinada por 36 anos . Em 08 de maio de 1877 , a Lei Provincial nº 33 eleva Itapecerica à categoria de Vila , atribuindo-lhe emancipação política e administrativa e , desmembrando-a da então de Santo Amaro . Mas essa emancipação não apagou ainda os sinais de decadência que ainda marcavam Itapecerica desde a expulsão dos jesuítas . Estrada de Itapecerica , sem número - Bairro da Ressaca Itapecerica da Serra , SP - Brasil Tel. : ( 0xx11 )&gt;7947-1378 Fax : ( 0xx11 )7947-1143 E-mail : csj@csasp.g12.br "^^xsd:string .
+
+<http://linguateca.pt/harem#char=1619,1630>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Itapecerica"^^xsd:string ;
+        nif:beginIndex        "1619"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1630"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1835> .
+
+<http://linguateca.pt/harem#char=1433,1437>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Vila"^^xsd:string ;
+        nif:beginIndex        "1433"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1437"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1835> .
+
+<http://linguateca.pt/harem#char=1234,1250>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Vila Piratininga"^^xsd:string ;
+        nif:beginIndex        "1234"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1250"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1835> .
+
+<http://linguateca.pt/harem#char=1084,1095>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Santo Amaro"^^xsd:string ;
+        nif:beginIndex        "1084"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1095"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1835> .
+
+<http://linguateca.pt/harem#char=24,33>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "São Paulo"^^xsd:string ;
+        nif:beginIndex        "24"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "33"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1835> .
+
+<http://linguateca.pt/harem#char=95,106>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Itapecerica"^^xsd:string ;
+        nif:beginIndex        "95"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "106"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1835> .
+
+<http://linguateca.pt/harem#char=0,20>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Mosteiro São Geraldo"^^xsd:string ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "20"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1835> .
+
+<http://linguateca.pt/harem#char=227,231>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1828"^^xsd:string ;
+        nif:beginIndex        "227"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "231"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1835> .
+
+<http://linguateca.pt/harem#char=1356,1374>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "08 de maio de 1877"^^xsd:string ;
+        nif:beginIndex        "1356"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1374"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1835> .
+
+<http://linguateca.pt/harem#char=660,680>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Corrêa , 1999 , p.16"^^xsd:string ;
+        nif:beginIndex        "660"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "680"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1835> .
+
+<http://linguateca.pt/harem#char=1101,1105>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1841"^^xsd:string ;
+        nif:beginIndex        "1101"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1105"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1835> .
+
+<http://linguateca.pt/harem#char=501,517>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Pasquale Petrone"^^xsd:string ;
+        nif:beginIndex        "501"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "517"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1835> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1701,1739>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Bairro da Ressaca Itapecerica da Serra"^^xsd:string ;
+        nif:beginIndex        "1701"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1739"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1835> .
+
+<http://linguateca.pt/harem#char=1406,1417>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Itapecerica"^^xsd:string ;
+        nif:beginIndex        "1406"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1417"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1835> .
+
+<http://linguateca.pt/harem#char=1379,1399>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Lei Provincial nº 33"^^xsd:string ;
+        nif:beginIndex        "1379"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1399"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1835> .
+
+<http://linguateca.pt/harem#char=1145,1169>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Freguesia de Itapecerica"^^xsd:string ;
+        nif:beginIndex        "1145"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1169"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1835> .
+
+<http://linguateca.pt/harem#char=1524,1535>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Santo Amaro"^^xsd:string ;
+        nif:beginIndex        "1524"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1535"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1835> .
+
+<http://linguateca.pt/harem#char=1742,1744>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "SP"^^xsd:string ;
+        nif:beginIndex        "1742"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1744"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1835> .
+
+<http://linguateca.pt/harem#char=1663,1685>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Estrada de Itapecerica"^^xsd:string ;
+        nif:beginIndex        "1663"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1685"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1835> .
+
+<http://linguateca.pt/harem#char=1175,1195>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Lei Provincial no 12"^^xsd:string ;
+        nif:beginIndex        "1175"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1195"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1835> .
+
+<http://linguateca.pt/harem#char=184,188>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1828"^^xsd:string ;
+        nif:beginIndex        "184"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "188"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1835> .

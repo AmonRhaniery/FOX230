@@ -1,0 +1,246 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=3764,3771>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Mindlin"^^xsd:string ;
+        nif:beginIndex        "3764"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3771"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3774> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1090,1127>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "A conturbada história das bibliotecas"^^xsd:string ;
+        nif:beginIndex        "1090"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1127"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3774> .
+
+<http://linguateca.pt/harem#char=3714,3724>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Humanidade"^^xsd:string ;
+        nif:beginIndex        "3714"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3724"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3774> .
+
+<http://linguateca.pt/harem#char=1245,1255>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Bill Gates"^^xsd:string ;
+        nif:beginIndex        "1245"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1255"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3774> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=2760,2780>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Pedro Corrêa do Lago"^^xsd:string ;
+        nif:beginIndex        "2760"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2780"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3774> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=419,438>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Biblioteca Houghton"^^xsd:string ;
+        nif:beginIndex        "419"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "438"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3774> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=2224,2231>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Matthew"^^xsd:string ;
+        nif:beginIndex        "2224"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2231"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3774> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1044,1051>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Matthew"^^xsd:string ;
+        nif:beginIndex        "1044"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1051"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3774> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=508,515>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Mindlin"^^xsd:string ;
+        nif:beginIndex        "508"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "515"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3774> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=500,505>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Gates"^^xsd:string ;
+        nif:beginIndex        "500"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "505"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3774> .
+
+<http://linguateca.pt/harem#char=0,3774>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "3774"^^xsd:nonNegativeInteger ;
+        nif:isString    "Uns vinte anos atrás , Bill Gates deu uma de futurólogo do apocalipse e anunciou a morte do papel impresso para o início do novo milênio . Se isto estivesse em vias de acontecer , o bibliófilo José Mindlin , 90 anos , dono de uma das mais importantes bibliotecas do Brasil e símbolo nacional do culto ao livro , não teria se encontrado esta semana com seu colega americano , Matthew Battles , 35 , editor do boletim da Biblioteca Houghton , que guarda as obras raras de Harvard . À menção do nome de Gates , Mindlin recorda uma história recente : - Outro dia uma revista de informática quis me fotografar segurando um e-book . Eu disse que só aceitaria se , na outra mão , houvesse um livro convencional . No dia marcado , o repórter disse : agora o senhor vai ver uma coisa maravilhosa . Mas na hora de ligar , o e-book não funcionou ! Então eu disse : isso nunca aconteceria com um livro . Após 550 anos , o livro é basicamente o mesmo . O resto é adivinhação . Posso dizer que vão inventar uma pílula que você toma e pronto , já leu tudo... Matthew , que lançou no ano passado o livro \" A conturbada história das bibliotecas \" ( no Brasil , editado pela Planeta ) , ironiza : - Já deve ter alguém trabalhando nesta pílula ... provavelmente , Bill Gates !A tecnologia não substitui o livro . Ela ajuda a encontrá-lo nas bibliotecas . Por outro lado , as bibliotecas servem para fazer frente a uma certa informação torrencial que nos atinge e é confusa , mesmo que democrática . A biblioteca garante que possamos , se necessário , reassumir o controle sobre o conhecimento de uma maneira transparente e ordenada . \"Os livros vão sobreviver a nós\" Mindlin , que não é usuário de computador ( embora o catálogo de sua biblioteca seja informatizado ) , ensina o caminho da virtude : - Acho que o que perdemos com a internet , sobretudo , é o traço da escrita do autor , das anotações , das emendas que , no computador , hoje , simplesmente se apaga . Por outro lado , o uso do computador permite outras possibilidades no processo de criação e a internet garante acesso rápido a documentos e imagens . Por isso eu digo que é um falso dilema . Uma coisa eu digo : os livros vão sobreviver a nós e a várias e várias gerações ... Matthew , por sua vez , vê certa negligência com os manuscritos de hoje , ao mesmo tempo que com aquilo que se perde no universo eletrônico : - Da mesma forma como os documentos pessais , notas fiscais , bilhetes de nosso tempo terão valor de raridade , a enorme quantidade de e-mails , textos de blogs e outros processos transitórios e efêmeros da internet podem estar escondendo preciosidades que a qualquer momento serão deletadas da História . Presente à conversa , que se deu na Biblioteca Nacional , o presidente da instituição , Pedro Corrêa do Lago , ilustra o paradoxo : - Imaginem se Shakespeare tivesse um blog e este fosse deletado... Imaginem se os esboços , as anotações , os cadernos , aquilo que os grandes mestres deixaram de lado , não pudessem ser estudados pelas geraçoes futuras ? \" Farenheit 451 não é fantasia\" A discussão segue num tour pelos corredores da BN em que se passou pelas seções de obras raras , iconografia e restauração , e ruma para o principal foco de interesse de Matthew : a destruição de bibliotecas , de Alexandria até o conflagrado século XX , que assistiu a queimas de livros em plena alvorada da modernidade . - Na verdade , o que se precisa evitar é a destruição . A terrível realidade descrita no filme \" Farenheit 451 \" , de Truffaut , em que o Corpo de Bombeiros tem a função de queimar livros , não é assim tão fantasiosa . À compulsão de ler contrapõe-se , historicamente , a tentação de destruir . - A pior tragédia que pode acontecer à Humanidade é a morte de seus livros - complementa Mindlin . "^^xsd:string .
+
+<http://linguateca.pt/harem#char=266,272>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Brasil"^^xsd:string ;
+        nif:beginIndex        "266"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "272"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3774> .
+
+<http://linguateca.pt/harem#char=897,905>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "550 anos"^^xsd:string ;
+        nif:beginIndex        "897"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "905"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3774> .
+
+<http://linguateca.pt/harem#char=3300,3309>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "século XX"^^xsd:string ;
+        nif:beginIndex        "3300"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3309"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3774> .
+
+<http://linguateca.pt/harem#char=1648,1655>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Mindlin"^^xsd:string ;
+        nif:beginIndex        "1648"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1655"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3774> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=3228,3235>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Matthew"^^xsd:string ;
+        nif:beginIndex        "3228"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3235"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3774> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=2818,2829>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Shakespeare"^^xsd:string ;
+        nif:beginIndex        "2818"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2829"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3774> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=375,390>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Matthew Battles"^^xsd:string ;
+        nif:beginIndex        "375"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "390"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3774> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=3271,3281>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Alexandria"^^xsd:string ;
+        nif:beginIndex        "3271"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3281"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3774> .
+
+<http://linguateca.pt/harem#char=2708,2727>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Biblioteca Nacional"^^xsd:string ;
+        nif:beginIndex        "2708"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2727"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3774> .
+
+<http://linguateca.pt/harem#char=3477,3490>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Farenheit 451"^^xsd:string ;
+        nif:beginIndex        "3477"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3490"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3774> .
+
+<http://linguateca.pt/harem#char=1135,1141>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Brasil"^^xsd:string ;
+        nif:beginIndex        "1135"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1141"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3774> .
+
+<http://linguateca.pt/harem#char=470,477>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Harvard"^^xsd:string ;
+        nif:beginIndex        "470"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "477"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3774> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1157,1164>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Planeta"^^xsd:string ;
+        nif:beginIndex        "1157"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1164"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3774> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=23,33>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Bill Gates"^^xsd:string ;
+        nif:beginIndex        "23"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "33"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3774> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=3498,3506>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Truffaut"^^xsd:string ;
+        nif:beginIndex        "3498"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3506"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3774> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=193,205>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "José Mindlin"^^xsd:string ;
+        nif:beginIndex        "193"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "205"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3774> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=3028,3041>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Farenheit 451"^^xsd:string ;
+        nif:beginIndex        "3028"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3041"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3774> .
+
+<http://linguateca.pt/harem#char=3518,3536>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Corpo de Bombeiros"^^xsd:string ;
+        nif:beginIndex        "3518"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3536"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3774> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=393,395>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "35"^^xsd:string ;
+        nif:beginIndex        "393"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "395"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3774> .
+
+<http://linguateca.pt/harem#char=3105,3107>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "BN"^^xsd:string ;
+        nif:beginIndex        "3105"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3107"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3774> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=208,215>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "90 anos"^^xsd:string ;
+        nif:beginIndex        "208"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "215"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3774> .

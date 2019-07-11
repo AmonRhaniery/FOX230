@@ -1,0 +1,305 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=5089,5091>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "TI"^^xsd:string ;
+        nif:beginIndex        "5089"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5091"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5257> .
+
+<http://linguateca.pt/harem#char=4259,4261>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "TI"^^xsd:string ;
+        nif:beginIndex        "4259"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4261"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5257> .
+
+<http://linguateca.pt/harem#char=75,93>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Inst de Matematica"^^xsd:string ;
+        nif:beginIndex        "75"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "93"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5257> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=608,613>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "IBICT"^^xsd:string ;
+        nif:beginIndex        "608"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "613"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5257> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=3076,3097>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ciência da Informação"^^xsd:string ;
+        nif:beginIndex        "3076"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3097"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5257> .
+
+<http://linguateca.pt/harem#char=1741,1749>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Internet"^^xsd:string ;
+        nif:beginIndex        "1741"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1749"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5257> .
+
+<http://linguateca.pt/harem#char=264,300>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Contéudo e Organização da Informação"^^xsd:string ;
+        nif:beginIndex        "264"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "300"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5257> .
+
+<http://linguateca.pt/harem#char=104,107>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "MCT"^^xsd:string ;
+        nif:beginIndex        "104"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "107"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5257> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=4518,4520>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "TI"^^xsd:string ;
+        nif:beginIndex        "4518"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4520"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5257> .
+
+<http://linguateca.pt/harem#char=1131,1152>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "CIENCIA DA INFORMACAO"^^xsd:string ;
+        nif:beginIndex        "1131"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1152"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5257> .
+
+<http://linguateca.pt/harem#char=1391,1397>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Brasil"^^xsd:string ;
+        nif:beginIndex        "1391"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1397"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5257> .
+
+<http://linguateca.pt/harem#char=637,662>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Carlos Henrique Marcondes"^^xsd:string ;
+        nif:beginIndex        "637"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "662"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5257> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=2587,2589>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "TI"^^xsd:string ;
+        nif:beginIndex        "2587"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2589"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5257> .
+
+<http://linguateca.pt/harem#char=5249,5254>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Lista"^^xsd:string ;
+        nif:beginIndex        "5249"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5254"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5257> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=550,566>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Liz-Rejane Legey"^^xsd:string ;
+        nif:beginIndex        "550"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "566"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5257> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=2595,2597>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "TI"^^xsd:string ;
+        nif:beginIndex        "2595"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2597"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5257> .
+
+<http://linguateca.pt/harem#char=3361,3382>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ciência da Informação"^^xsd:string ;
+        nif:beginIndex        "3361"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3382"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5257> .
+
+<http://linguateca.pt/harem#char=113,127>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Rio de Janeiro"^^xsd:string ;
+        nif:beginIndex        "113"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "127"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5257> .
+
+<http://linguateca.pt/harem#char=569,574>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "IBICT"^^xsd:string ;
+        nif:beginIndex        "569"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "574"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5257> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1575,1596>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ciência da Informação"^^xsd:string ;
+        nif:beginIndex        "1575"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1596"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5257> .
+
+<http://linguateca.pt/harem#char=1352,1373>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ciência da Informação"^^xsd:string ;
+        nif:beginIndex        "1352"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1373"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5257> .
+
+<http://linguateca.pt/harem#char=4543,4551>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Internet"^^xsd:string ;
+        nif:beginIndex        "4543"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4551"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5257> .
+
+<http://linguateca.pt/harem#char=3408,3410>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "TI"^^xsd:string ;
+        nif:beginIndex        "3408"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3410"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5257> .
+
+<http://linguateca.pt/harem#char=0,5257>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "5257"^^xsd:nonNegativeInteger ;
+        nif:isString    "A INFORMAÇÃO NO MUNDO DA TÉCNICA Nos dias 4 , 5 , 6 de setembro havera' no Inst de Matematica - IMPA do MCT - no Rio de Janeiro um Seminario sobre a FORMACAO DE RECURSOS HUMANOS EM TECNOLOGIA DA INFORMACAO PARA O ESTADO DO RIO DE JANEIRO . Um grupo de trabalho em Contéudo e Organização da Informação ( GT 5 ) preparou um documento base para apresentar e discutir na Reuniao que esta disponível na URL : www.rnp.br/ti-rj/gt5.html O Grupo de trabalhos , como indicado , na pagina esta composto por : Conteúdo e Organização da Informação Coordenador : Liz-Rejane Legey ( IBICT ) Colaboradores : Gilda Olinto - IBICT Helio Kuramoto - IBICT Carlos Henrique Marcondes UFF Vale a pena dar uma olhada no documento completo . As Coclusoes reproduzi abaixo : CONCLUSAO A análise desenvolvida nesse trabalho oferece alguns elementos que permitem responder a indagação : A área de Ciência da Informação está preparada para atender a atual demanda do mercado de trabalho ? Embora a análise aqui desenvolvida não seja suficientemente extensa para qualificar e até quantificar uma argumentação aprofundada , os dados levantados evidenciam que A CIENCIA DA INFORMACAO , ESTA DEFASADA NO QUE SE REFERE A PREPARACAO DE PROFISSIONAIS PARA O MERCADO . Vale notar que o termo mercado é aqui empregado de forma a incorporar também a área acadêmica e de pesquisa , já que a Ciência da Informação se desenvolve no Brasil , exclusivamente , no âmbito da pós-graduação e muitos alunos tem como objetivo ingressar na vida acadêmica . Certamente , a defasagem aqui referida não afeta somente a área da Ciência da Informação . De uma forma mais ou menos intensa , todas as áreas do conhecimento foram afetadas pelas mudanças recentes no panorama mundial ; o advento da Internet , a globalização , a difusão da TI , a transição para a sociedade do conhecimento , impõem a necessidade de uma reflexão sobre a qualidade dessas mudanças e as respostas que os vários segmentos da sociedade darão a elas . É importante ter claro , porém que as mudanças não são autônomas , são conduzidas e postas em movimento por interesses diversos , sobre os quais é preciso ter clareza , precaução e um posicionamento político consciente . Nesse sentido , o objetivo ao se repensar a formação de recursos humanos na área das tecnologias de informação é aqui norteado pela idéia de uma oportunidade para se almejar mais e melhores empregos para todos os brasileiros . No que se refere à área da Ciência da Informação , o desafio é particularmente grande em função da imbricação evidente entre o campo de atuação dos profissionais e as TI . As TI são uma ferramenta imprescindível para o profissional da área trabalhar com os conteúdos e ao mesmo tempo são canal por excelência de distribuição , desses conteúdos . Outro grande desafio para o qual o cientista da informação precisa estar atento diz respeito à questão da ética na profissão . Tal assunto afeta , de fato , todos aqueles que de alguma maneira atuam no contexto da geração , distribuição e uso de informações . Mas a proximidade dessas atividades com a área da Ciência da Informação requer uma preocupação ainda maior com o assunto , devendo inclusive constituir uma disciplina específica nos cursos de pós-graduação , para que o aluno tenha uma formação que possa nortear sua conduta enquanto profissional de informação . As mudanças na área da Ciência da Informação em função do impacto das TI já estão se processando há algum tempo . O currículo do curso tem sido alterado sucessivamente e o perfil dos alunos também está se alterando . Os dados mostram que esta área recebia , no passado , um grande contingente de alunos originarios dos cursos de graduação de biblioteconomia . atualmente o número de alunos provenientes dessa área está em acentuado declínio . De fato o perfil está tendendo a se diversificar bastante . Esse movimento parece compatível com o que hoje se observa no mercado de trabalho : uma tendência de selecionar empregados com determinadas qualificações e experiências sem priorizar a formação de graduação . É preciso considerar que a preparação do profissional para enfrentar os desafios da sociedade da informação precisa começar mais cedo , antes do curso da pós-graduação e até mesmo da graduação . A formação em TI precisa estar imersa nas várias disciplinas desde o curso fundamental , numa abordagem diferente do que a maioria das escolas vem adotando até agora . Em vez de cursos de informática as escolas devem estimular que todas as disciplinas utilizem recursos de TI , que tenham acesso à Internet e que aprendam a produzir e disseminar conteúdos . Tais iniciativas são essenciais na formação de uma geração que irá necessitar mais intensamente desses conhecimentos . A situação atual requer iniciativas especiais . Em primeiro lugar trata-se de formar profissionais para exercer novas atividades . Para isso , é preciso reestruturar os cursos de Ciência da Informação , incorporando novas disciplinas , o que remete à necessidade de aperfeiçoar as competências dos professores da área , bem como de ter acesso às novas ferramentas de TI e dispor de laboratórios e equipamentos adequados para o desenvolvimento de atividades de pesquisas em áreas de ponta . ( maiusculas no texto colocadas pela Lista ) "^^xsd:string .
+
+<http://linguateca.pt/harem#char=46,47>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "5"^^xsd:string ;
+        nif:beginIndex        "46"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "47"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5257> .
+
+<http://linguateca.pt/harem#char=593,605>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Gilda Olinto"^^xsd:string ;
+        nif:beginIndex        "593"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "605"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5257> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1782,1784>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "TI"^^xsd:string ;
+        nif:beginIndex        "1782"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1784"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5257> .
+
+<http://linguateca.pt/harem#char=96,100>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "IMPA"^^xsd:string ;
+        nif:beginIndex        "96"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "100"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5257> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=367,374>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Reuniao"^^xsd:string ;
+        nif:beginIndex        "367"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "374"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5257> .
+
+<http://linguateca.pt/harem#char=42,43>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "4"^^xsd:string ;
+        nif:beginIndex        "42"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "43"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5257> .
+
+<http://linguateca.pt/harem#char=303,307>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "GT 5"^^xsd:string ;
+        nif:beginIndex        "303"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "307"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5257> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=50,63>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "6 de setembro"^^xsd:string ;
+        nif:beginIndex        "50"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "63"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5257> .
+
+<http://linguateca.pt/harem#char=2447,2468>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ciência da Informação"^^xsd:string ;
+        nif:beginIndex        "2447"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2468"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5257> .
+
+<http://linguateca.pt/harem#char=499,535>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Conteúdo e Organização da Informação"^^xsd:string ;
+        nif:beginIndex        "499"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "535"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5257> .
+
+<http://linguateca.pt/harem#char=4901,4922>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ciência da Informação"^^xsd:string ;
+        nif:beginIndex        "4901"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4922"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5257> .
+
+<http://linguateca.pt/harem#char=663,666>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "UFF"^^xsd:string ;
+        nif:beginIndex        "663"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "666"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5257> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=614,628>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Helio Kuramoto"^^xsd:string ;
+        nif:beginIndex        "614"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "628"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5257> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=131,237>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Seminario sobre a FORMACAO DE RECURSOS HUMANOS EM TECNOLOGIA DA INFORMACAO PARA O ESTADO DO RIO DE JANEIRO"^^xsd:string ;
+        nif:beginIndex        "131"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "237"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5257> .
+
+<http://linguateca.pt/harem#char=631,636>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "IBICT"^^xsd:string ;
+        nif:beginIndex        "631"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "636"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5257> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=870,891>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ciência da Informação"^^xsd:string ;
+        nif:beginIndex        "870"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "891"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5257> .
+
+<http://linguateca.pt/harem#char=432,437>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Grupo"^^xsd:string ;
+        nif:beginIndex        "432"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "437"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5257> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .

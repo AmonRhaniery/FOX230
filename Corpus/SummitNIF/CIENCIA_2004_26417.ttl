@@ -1,0 +1,59 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=2788,2805>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "SALVADOR NOGUEIRA"^^xsd:string ;
+        nif:beginIndex        "2788"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2805"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2808> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=2051,2059>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "\"Nature\""^^xsd:string ;
+        nif:beginIndex        "2051"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2059"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2808> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1745,1753>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Berkeley"^^xsd:string ;
+        nif:beginIndex        "1745"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1753"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2808> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1715,1741>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Universidade da Califórnia"^^xsd:string ;
+        nif:beginIndex        "1715"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1741"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2808> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1693,1709>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Jillian Banfield"^^xsd:string ;
+        nif:beginIndex        "1693"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1709"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2808> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2808>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "2808"^^xsd:nonNegativeInteger ;
+        nif:isString    "Foi-se o tempo em que decifrar o genoma de um organismo era um desafio e tanto . Agora os cientistas já agarram um punhado deles de uma vez e trabalham em todos ao mesmo tempo . Está iniciada a era da genômica por atacado . O primeiro resultado positivo dessa nova estratégia para estudos do material hereditário de seres vivos teve como objeto os resíduos tóxicos deixados por uma velha mina californiana . A partir de amostras de um lodo rosado que os cientistas têm a delicadeza de chamar de \"biofilme\" , foi possível catalogar dois genomas completos e ainda pedaços de outros três , cujos donos eram bactérias e micróbios extremófilos . A chamada genômica ambiental tem por objetivo entender não o funcionamento de um organismo , mas de uma coleção deles interagindo entre si . Os cientistas buscam fazer isso despedaçando o DNA dos seres vivos na própria amostra e então decifrando as letras genéticas contidas em cada um dos pequenos trechos . Depois disso , juntam tudo no computador , montando um verdadeiro quebra-cabeças genômico . A técnica é basicamente a mesma que fez com que a empresa americana Celera pudesse , de forma incomodamente célere , obter uma seqüência mais ou menos completa de todo o DNA humano . Com a diferença de que agora as peças de DNA não só estariam embaralhadas , como também pertenceriam a vários quebra-cabeças diferentes . Apesar de a genômica ambiental parecer ser uma boa idéia , como se pode imaginar , em princípio , não é fácil de executar . Se a amostra a ser analisada contiver milhares de organismos diferentes , há uma dificuldade natural de recompor o quebra-cabeças após a leitura das seqüências de DNA . A sorte dos cientistas liderados por Jillian Banfield , da Universidade da Califórnia em Berkeley , foi que a amostra de efluentes ácidos analisada tinha um pequeno número de organismos . \"Obtivemos a primeira reconstrução de múltiplos genomas diretamente de uma amostra natural\" , escreveram os cientistas em seu artigo , que foi publicado anteontem , eletronicamente , pela revista científica \"Nature\" ( www.nature.com ) . \"Os resultados fornecem novos lampejos sobre a estrutura da comunidade e revelam as estratégias que marcam a atividade microbiana nesse ambiente\" , dizem . Mais que oferecer novas e inéditas informações sobre efluentes tóxicos provenientes de minas _um problema ambiental presente no mundo todo_ , os pesquisadores abriram a porta , ainda que timidamente , para o que pode ser uma revolução genômica . \" A reconstrução dos genomas foi facilitada pelo fato de que a comunidade era dominada por populações de poucas espécies distintas\" , escrevem . \"Entretanto , mesmo em ambientes mais complexos , deve ser possível ampliar [ a técnica ] para recuperar os genomas de espécies e linhagens não-cultivadas . \"( SALVADOR NOGUEIRA ) "^^xsd:string .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1110,1116>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Celera"^^xsd:string ;
+        nif:beginIndex        "1110"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1116"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2808> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .

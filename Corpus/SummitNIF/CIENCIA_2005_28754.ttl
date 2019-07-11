@@ -1,0 +1,220 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1979,1987>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Robinson"^^xsd:string ;
+        nif:beginIndex        "1979"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1987"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2907> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=770,775>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Terra"^^xsd:string ;
+        nif:beginIndex        "770"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "775"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2907> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=2802,2805>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "ESA"^^xsd:string ;
+        nif:beginIndex        "2802"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2805"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2907> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=987,997>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Wayne Hale"^^xsd:string ;
+        nif:beginIndex        "987"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "997"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2907> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1667,1670>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "ISS"^^xsd:string ;
+        nif:beginIndex        "1667"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1670"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2907> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=2154,2162>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Robinson"^^xsd:string ;
+        nif:beginIndex        "2154"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2162"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2907> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=209,225>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Stephen Robinson"^^xsd:string ;
+        nif:beginIndex        "209"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "225"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2907> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1397,1401>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Nasa"^^xsd:string ;
+        nif:beginIndex        "1397"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1401"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2907> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=2572,2595>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Centro Espacial Kennedy"^^xsd:string ;
+        nif:beginIndex        "2572"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2595"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2907> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1589,1594>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Japão"^^xsd:string ;
+        nif:beginIndex        "1589"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1594"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2907> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=494,524>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Estação Espacial Internacional"^^xsd:string ;
+        nif:beginIndex        "494"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "524"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2907> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=2336,2340>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Nasa"^^xsd:string ;
+        nif:beginIndex        "2336"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2340"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2907> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=536,545>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Discovery"^^xsd:string ;
+        nif:beginIndex        "536"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "545"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2907> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1569,1583>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Soichi Noguchi"^^xsd:string ;
+        nif:beginIndex        "1569"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1583"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2907> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1613,1621>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Robinson"^^xsd:string ;
+        nif:beginIndex        "1613"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1621"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2907> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=2682,2690>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Alemanha"^^xsd:string ;
+        nif:beginIndex        "2682"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2690"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2907> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1990,1997>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Noguchi"^^xsd:string ;
+        nif:beginIndex        "1990"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1997"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2907> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1816,1819>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "ISS"^^xsd:string ;
+        nif:beginIndex        "1816"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1819"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2907> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=2249,2258>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Discovery"^^xsd:string ;
+        nif:beginIndex        "2249"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2258"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2907> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1443,1451>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Atlantis"^^xsd:string ;
+        nif:beginIndex        "1443"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1451"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2907> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1368,1376>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Columbia"^^xsd:string ;
+        nif:beginIndex        "1368"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1376"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2907> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1092,1095>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "EVA"^^xsd:string ;
+        nif:beginIndex        "1092"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1095"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2907> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=488,491>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "ISS"^^xsd:string ;
+        nif:beginIndex        "488"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "491"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2907> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=93,102>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Discovery"^^xsd:string ;
+        nif:beginIndex        "93"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "102"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2907> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2907>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "2907"^^xsd:nonNegativeInteger ;
+        nif:isString    "Numa entrevista coletiva conduzida ontem à noite , os gerentes da Nasa deram o veredicto : o Discovery precisa de reparos antes de voltar para casa . O trabalho será conduzido amanhã pelo astronauta americano Stephen Robinson , durante a terceira caminhada espacial prevista para a missão . Sua tarefa consistirá em cortar arestas do material usado para preencher o vão entre as telhas térmicas da barriga do ônibus . Para chegar lá , o tripulante será preso à ponta do braço robótico da ISS ( Estação Espacial Internacional ) , onde o Discovery agora está atracado . Esse procedimento jamais foi tentado no espaço ou praticado em terra antes . As protuberâncias encontradas _são duas no total_ já foram vistas antes em ônibus espaciais , mas somente após seu retorno à Terra . Graças ao novo sistema de inspeção da nave , foi possível detectar o fenômeno no espaço . \" A conclusão da equipe é de que há grande incerteza sobre o que pode acontecer [ durante a reentrada ]\" , disse ontem Wayne Hale , vice-diretor do programa do ônibus espacial . \"Entre essas incertezas e o que sabemos sobre EVA [ sigla para \"atividade extra-veicular\" , as caminhadas espaciais ] , foi uma decisão fácil\" , concluiu . O aparecimento das protuberâncias não tem nada a ver com o desprendimento de espuma sólida do tanque externo durante a decolagem _problema que causou a destruição do Columbia , em 2003 , e que a Nasa ainda precisa resolver antes de lançar o Atlantis . Ontem pela manhã ocorreu a segunda caminhada espacial da missão . Mais uma vez , os trabalhos foram conduzidos por Soichi Noguchi , do Japão , acompanhado por Robinson . A dupla trocou um giroscópio defeituoso da ISS . A estação agora opera pela primeira vez em três anos com todos os seus quatro giroscópios funcionando . Eles servem para mudar a orientação da ISS no espaço . Foi a 60ª caminhada espacial conduzida em conexão com a construção e manutenção da estação . A última acontece amanhã , de novo a ser efetuada por Robinson e Noguchi . A principal tarefa agendada será instalar uma plataforma de armazenamento do lado de fora da estação . O procedimento de reparo será conduzido apenas por Robinson , para minimizar risco de novos danos à nave . Se tudo correr bem , o ônibus espacial Discovery deve retornar à Terra na próxima segunda-feira . Futuro sem ônibusEnquanto a Nasa trabalha furiosamente para manter suas naves em operação , a despeito dos problemas com a espuma , os parceiros internacionais no projeto da construção da ISS estão preocupados . Um módulo-laboratório japonês está neste momento no Centro Espacial Kennedy , esperando uma carona dos ônibus para ser instalado . Um equivalente europeu está na Alemanha , aguardando o mesmo fim . Temendo que a Nasa tenha de aposentar seus ônibus espaciais antes mesmo de 2010 , a ESA ( Agência Espacial Européia ) já está estudando o que fazer caso seu módulo não possa ir ao espaço . "^^xsd:string .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=2732,2736>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Nasa"^^xsd:string ;
+        nif:beginIndex        "2732"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2736"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2907> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=2808,2833>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Agência Espacial Européia"^^xsd:string ;
+        nif:beginIndex        "2808"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2833"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2907> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=66,70>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Nasa"^^xsd:string ;
+        nif:beginIndex        "66"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "70"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2907> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .

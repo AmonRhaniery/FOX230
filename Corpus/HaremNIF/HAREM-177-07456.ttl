@@ -1,0 +1,206 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=1535,1552>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Los Angeles Times"^^xsd:string ;
+        nif:beginIndex        "1535"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1552"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1659> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=84,102>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Barnes &amp; Noble"^^xsd:string ;
+        nif:beginIndex        "84"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "102"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1659> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=352,377>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Consumer Electronics Show"^^xsd:string ;
+        nif:beginIndex        "352"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "377"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1659> .
+
+<http://linguateca.pt/harem#char=1379,1390>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Audible.com"^^xsd:string ;
+        nif:beginIndex        "1379"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1390"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1659> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1140,1156>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Microsoft Reader"^^xsd:string ;
+        nif:beginIndex        "1140"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1156"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1659> .
+
+<http://linguateca.pt/harem#char=745,754>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Microsoft"^^xsd:string ;
+        nif:beginIndex        "745"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "754"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1659> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=642,651>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Microsoft"^^xsd:string ;
+        nif:beginIndex        "642"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "651"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1659> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=209,241>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Iniciativa pelo Livro Eletronico"^^xsd:string ;
+        nif:beginIndex        "209"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "241"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1659> .
+
+<http://linguateca.pt/harem#char=70,79>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Microsoft"^^xsd:string ;
+        nif:beginIndex        "70"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "79"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1659> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=627,636>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Pocket PC"^^xsd:string ;
+        nif:beginIndex        "627"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "636"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1659> .
+
+<http://linguateca.pt/harem#char=1555,1566>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "07 Jan 2000"^^xsd:string ;
+        nif:beginIndex        "1555"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1566"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1659> .
+
+<http://linguateca.pt/harem#char=1595,1609>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "DataGrama Zero"^^xsd:string ;
+        nif:beginIndex        "1595"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1609"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1659> .
+
+<http://linguateca.pt/harem#char=0,1659>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1659"^^xsd:nonNegativeInteger ;
+        nif:isString    "MICROSOFT E LIVRARIAS ESTABELECEM INICIATIVA PARA 'E-BOOKs' . Ontem a Microsoft , a Barnes &amp; Noble e a Barnesandnoble.com anunciaram a formacao de uma alianca denominada ' eBook Iniciative ' ( algo como ' Iniciativa pelo Livro Eletronico ' ) que tem por objetivo estimular os leitores a mudarem para o formato digital . A parceria , anunciada na ' Consumer Electronics Show ' ( ' Feira das Utilidades Domesticas ' ) , que esta' sendo realizada em Las Vegas , ira' disponibilizar milhares de publicacoes online que os consumidores serao capazes de transferir ( 'download' ) para os novos computadores de mao ( 'handhelds' ) Pocket PC , da Microsoft , ou para PCs que estejam utilizando o software para leitura de e-books Microsoft Reader . A Microsoft comecara' a promover seus softwares para e-books , o qual traduz os livros para o formato digital , por volta da metade deste ano no site da Barnesandnoble.com . Por sua vez , a livraria Barnes &amp; Noble ira' promover e comercializar em suas lojas os e-books e o respectivo software para leitura destes . O envolvimento da Barnes &amp; Noble no acordo ira' ajudar a disponibilizar o Microsoft Reader para dezenas de milhoes de consumidores numa questao de meses , destacou Dick Brass , da Microsoft . Ontem , a gigante dos softwares anunciou ainda que ira' trabalhar com a empresa de tecnologia de audio para computadores Audible.com para tambem incluir audio no software Reader , a fim de possibilitar que os usuarios do computador de mao oucam versoes gravadas dos livros . ( Los Angeles Times , 07 Jan 2000 ) e Edupage da RNP Visite o DataGrama Zero a Revista Eletronica de Ciencia da Informacao ou "^^xsd:string .
+
+<http://linguateca.pt/harem#char=1246,1255>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Microsoft"^^xsd:string ;
+        nif:beginIndex        "1246"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1255"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1659> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1429,1435>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Reader"^^xsd:string ;
+        nif:beginIndex        "1429"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1435"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1659> .
+
+<http://linguateca.pt/harem#char=942,960>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Barnes &amp; Noble"^^xsd:string ;
+        nif:beginIndex        "942"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "960"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1659> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1080,1098>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Barnes &amp; Noble"^^xsd:string ;
+        nif:beginIndex        "1080"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1098"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1659> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1634,1655>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ciencia da Informacao"^^xsd:string ;
+        nif:beginIndex        "1634"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1655"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1659> .
+
+<http://linguateca.pt/harem#char=724,740>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Microsoft Reader"^^xsd:string ;
+        nif:beginIndex        "724"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "740"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1659> .
+
+<http://linguateca.pt/harem#char=0,9>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "MICROSOFT"^^xsd:string ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "9"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1659> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=176,192>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "eBook Iniciative"^^xsd:string ;
+        nif:beginIndex        "176"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "192"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1659> .
+
+<http://linguateca.pt/harem#char=107,125>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Barnesandnoble.com"^^xsd:string ;
+        nif:beginIndex        "107"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "125"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1659> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=451,460>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Las Vegas"^^xsd:string ;
+        nif:beginIndex        "451"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "460"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1659> .
+
+<http://linguateca.pt/harem#char=1230,1240>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Dick Brass"^^xsd:string ;
+        nif:beginIndex        "1230"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1240"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1659> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=896,914>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Barnesandnoble.com"^^xsd:string ;
+        nif:beginIndex        "896"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "914"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1659> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=384,415>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Feira das Utilidades Domesticas"^^xsd:string ;
+        nif:beginIndex        "384"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "415"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1659> .
+
+<http://linguateca.pt/harem#char=662,665>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "PCs"^^xsd:string ;
+        nif:beginIndex        "662"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "665"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1659> .

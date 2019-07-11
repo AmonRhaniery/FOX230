@@ -1,0 +1,379 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=1496,1500>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1954"^^xsd:string ;
+        nif:beginIndex        "1496"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1500"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1949> .
+
+<http://linguateca.pt/harem#char=1610,1614>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Musa"^^xsd:string ;
+        nif:beginIndex        "1610"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1614"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1949> .
+
+<http://linguateca.pt/harem#char=1446,1450>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1947"^^xsd:string ;
+        nif:beginIndex        "1446"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1450"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1949> .
+
+<http://linguateca.pt/harem#char=266,275>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Século XX"^^xsd:string ;
+        nif:beginIndex        "266"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "275"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1949> .
+
+<http://linguateca.pt/harem#char=1816,1833>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Literatura Actual"^^xsd:string ;
+        nif:beginIndex        "1816"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1833"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1949> .
+
+<http://linguateca.pt/harem#char=1677,1694>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Contos Exemplares"^^xsd:string ;
+        nif:beginIndex        "1677"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1694"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1949> .
+
+<http://linguateca.pt/harem#char=1424,1428>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1944"^^xsd:string ;
+        nif:beginIndex        "1424"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1428"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1949> .
+
+<http://linguateca.pt/harem#char=1525,1536>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Livro Sexto"^^xsd:string ;
+        nif:beginIndex        "1525"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1536"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1949> .
+
+<http://linguateca.pt/harem#char=125,144>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Literatura Medieval"^^xsd:string ;
+        nif:beginIndex        "125"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "144"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1949> .
+
+<http://linguateca.pt/harem#char=404,414>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Literatura"^^xsd:string ;
+        nif:beginIndex        "404"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "414"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1949> .
+
+<http://linguateca.pt/harem#char=1740,1755>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "A Menina do Mar"^^xsd:string ;
+        nif:beginIndex        "1740"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1755"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1949> .
+
+<http://linguateca.pt/harem#char=1433,1443>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Dia do Mar"^^xsd:string ;
+        nif:beginIndex        "1433"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1443"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1949> .
+
+<http://linguateca.pt/harem#char=1583,1598>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Nome das Coisas"^^xsd:string ;
+        nif:beginIndex        "1583"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1598"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1949> .
+
+<http://linguateca.pt/harem#char=1758,1775>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "O Rapaz de Bronze"^^xsd:string ;
+        nif:beginIndex        "1758"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1775"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1949> .
+
+<http://linguateca.pt/harem#char=813,836>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Francisco Sousa Tavares"^^xsd:string ;
+        nif:beginIndex        "813"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "836"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1949> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1546,1555>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Geografia"^^xsd:string ;
+        nif:beginIndex        "1546"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1555"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1949> .
+
+<http://linguateca.pt/harem#char=228,252>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Literatura Pós-Romântica"^^xsd:string ;
+        nif:beginIndex        "228"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "252"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1949> .
+
+<http://linguateca.pt/harem#char=1039,1054>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Praia da Granja"^^xsd:string ;
+        nif:beginIndex        "1039"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1054"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1949> .
+
+<http://linguateca.pt/harem#char=1392,1396>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1999"^^xsd:string ;
+        nif:beginIndex        "1392"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1396"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1949> .
+
+<http://linguateca.pt/harem#char=145,164>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Literatura Clássica"^^xsd:string ;
+        nif:beginIndex        "145"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "164"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1949> .
+
+<http://linguateca.pt/harem#char=1465,1469>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1950"^^xsd:string ;
+        nif:beginIndex        "1465"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1469"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1949> .
+
+<http://linguateca.pt/harem#char=702,720>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Filologia Clássica"^^xsd:string ;
+        nif:beginIndex        "702"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "720"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1949> .
+
+<http://linguateca.pt/harem#char=1617,1621>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1994"^^xsd:string ;
+        nif:beginIndex        "1617"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1621"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1949> .
+
+<http://linguateca.pt/harem#char=0,16>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Projecto Vercial"^^xsd:string ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "16"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1949> .
+
+<http://linguateca.pt/harem#char=1727,1737>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "A Floresta"^^xsd:string ;
+        nif:beginIndex        "1727"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1737"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1949> .
+
+<http://linguateca.pt/harem#char=1930,1946>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Projecto Vercial"^^xsd:string ;
+        nif:beginIndex        "1930"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1946"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1949> .
+
+<http://linguateca.pt/harem#char=1516,1520>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1958"^^xsd:string ;
+        nif:beginIndex        "1516"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1520"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1949> .
+
+<http://linguateca.pt/harem#char=17,33>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Projecto Vercial"^^xsd:string ;
+        nif:beginIndex        "17"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "33"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1949> .
+
+<http://linguateca.pt/harem#char=724,746>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Universidade de Lisboa"^^xsd:string ;
+        nif:beginIndex        "724"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "746"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1949> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=207,227>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Literatura Romântica"^^xsd:string ;
+        nif:beginIndex        "207"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "227"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1949> .
+
+<http://linguateca.pt/harem#char=1650,1674>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "O Cavaleiro da Dinamarca"^^xsd:string ;
+        nif:beginIndex        "1650"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1674"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1949> .
+
+<http://linguateca.pt/harem#char=1455,1460>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Coral"^^xsd:string ;
+        nif:beginIndex        "1455"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1460"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1949> .
+
+<http://linguateca.pt/harem#char=537,569>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Sophia de Mello Breyner Andresen"^^xsd:string ;
+        nif:beginIndex        "537"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "569"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1949> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=276,293>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Literatura Actual"^^xsd:string ;
+        nif:beginIndex        "276"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "293"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1949> .
+
+<http://linguateca.pt/harem#char=580,585>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Porto"^^xsd:string ;
+        nif:beginIndex        "580"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "585"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1949> .
+
+<http://linguateca.pt/harem#char=0,1949>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1949"^^xsd:nonNegativeInteger ;
+        nif:isString    "Projecto Vercial Projecto Vercial A maior base de dados sobre literatura portuguesa Secções Sophia de Mello Breyner Andresen Literatura Medieval Literatura Clássica Literatura Barroca Literatura Neoclássica Literatura Romântica Literatura Pós-Romântica Correntes do Século XX Literatura Actual Nota IntrodutóriaÍndice de AutoresÍndice de ObrasOutras LigaçõesBiblioteca GráficaLetras &amp; LetrasCurso de Literatura Fotos de Portugal Por favor , introduza a palavra ouexpressão que deseja pesquisar:Obras integrais de autores portugueses Sophia de Mello Breyner Andresen nasceu no Porto em 6 de Novembro de 1919 . Foi nessa cidade e na Praia da Granja que passou a sua infância e juventude . Frequentou Filologia Clássica na Universidade de Lisboa , mas não chegou a terminar o curso . Foi casada com o jornalista Francisco Sousa Tavares e mãe de cinco filhos , que a motivaram a escrever contos infantis . Motivos concretos e símbolos excepcionais para cantaro amor e o trágico da vida foi-os buscar ao mar e aos pinhais que contemplou na Praia da Granja ; com a sua formação helenística , encontrou evocações do passado para sugerir transformações do futuro ; pela sua constante atenção aos problemas do homem e do mundo , criou uma literatura de empenhamento social e político , de compromisso com o seu tempo e de denúncia da injustiça e da opressão . Foi agraciada com o Prémio Camões em 1999 .Obras poéticas : Poesia ( 1944 ) , Dia do Mar ( 1947 ) , Coral , ( 1950 ) , No Tempo Dividido , ( 1954 ) , Mar Novo ( 1958 ) , Livro Sexto ( 1962 ) Geografia ( 1967 ) , Dual ( 1972 ) , Nome das Coisas ( 1977 ) , Musa ( 1994 ) , etc. Obras narrativas : O Cavaleiro da Dinamarca , Contos Exemplares , Histórias da Terra e do Mar , A Floresta , A Menina do Mar , O Rapaz de Bronze , A Fada Oriana , etc.Voltar àpágina da Literatura Actual Pórtico | Nota Introdutória | Índice de Autores | Índice de Obras | Outras Ligações©1996-2002 , Projecto Vercial . "^^xsd:string .
+
+<http://linguateca.pt/harem#char=1567,1571>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Dual"^^xsd:string ;
+        nif:beginIndex        "1567"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1571"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1949> .
+
+<http://linguateca.pt/harem#char=1574,1578>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1972"^^xsd:string ;
+        nif:beginIndex        "1574"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1578"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1949> .
+
+<http://linguateca.pt/harem#char=1778,1791>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "A Fada Oriana"^^xsd:string ;
+        nif:beginIndex        "1778"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1791"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1949> .
+
+<http://linguateca.pt/harem#char=424,432>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Portugal"^^xsd:string ;
+        nif:beginIndex        "424"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "432"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1949> .
+
+<http://linguateca.pt/harem#char=165,183>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Literatura Barroca"^^xsd:string ;
+        nif:beginIndex        "165"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "183"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1949> .
+
+<http://linguateca.pt/harem#char=1601,1605>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1977"^^xsd:string ;
+        nif:beginIndex        "1601"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1605"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1949> .
+
+<http://linguateca.pt/harem#char=1375,1388>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Prémio Camões"^^xsd:string ;
+        nif:beginIndex        "1375"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1388"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1949> .
+
+<http://linguateca.pt/harem#char=1539,1543>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1962"^^xsd:string ;
+        nif:beginIndex        "1539"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1543"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1949> .
+
+<http://linguateca.pt/harem#char=1505,1513>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Mar Novo"^^xsd:string ;
+        nif:beginIndex        "1505"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1513"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1949> .
+
+<http://linguateca.pt/harem#char=1558,1562>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1967"^^xsd:string ;
+        nif:beginIndex        "1558"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1562"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1949> .
+
+<http://linguateca.pt/harem#char=635,650>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Praia da Granja"^^xsd:string ;
+        nif:beginIndex        "635"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "650"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1949> .
+
+<http://linguateca.pt/harem#char=1474,1491>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "No Tempo Dividido"^^xsd:string ;
+        nif:beginIndex        "1474"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1491"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1949> .
+
+<http://linguateca.pt/harem#char=1697,1724>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Histórias da Terra e do Mar"^^xsd:string ;
+        nif:beginIndex        "1697"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1724"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1949> .
+
+<http://linguateca.pt/harem#char=92,124>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Sophia de Mello Breyner Andresen"^^xsd:string ;
+        nif:beginIndex        "92"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "124"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1949> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1415,1421>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Poesia"^^xsd:string ;
+        nif:beginIndex        "1415"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1421"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1949> .
+
+<http://linguateca.pt/harem#char=589,610>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "6 de Novembro de 1919"^^xsd:string ;
+        nif:beginIndex        "589"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "610"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1949> .
+
+<http://linguateca.pt/harem#char=184,206>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Literatura Neoclássica"^^xsd:string ;
+        nif:beginIndex        "184"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "206"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1949> .

@@ -1,0 +1,177 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=655,664>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Policarpo"^^xsd:string ;
+        nif:beginIndex        "655"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "664"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1590> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1427,1435>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Coquinho"^^xsd:string ;
+        nif:beginIndex        "1427"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1435"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1590> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1247,1252>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Palio"^^xsd:string ;
+        nif:beginIndex        "1247"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1252"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1590> .
+
+<http://linguateca.pt/harem#char=412,435>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "José Natalino Policarpo"^^xsd:string ;
+        nif:beginIndex        "412"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "435"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1590> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1564,1587>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Cadeia Pública de Bauru"^^xsd:string ;
+        nif:beginIndex        "1564"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1587"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1590> .
+
+<http://linguateca.pt/harem#char=754,766>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Saint Martin"^^xsd:string ;
+        nif:beginIndex        "754"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "766"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1590> .
+
+<http://linguateca.pt/harem#char=904,911>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "H.B.J ."^^xsd:string ;
+        nif:beginIndex        "904"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "911"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1590> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=791,803>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Araújo Leite"^^xsd:string ;
+        nif:beginIndex        "791"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "803"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1590> .
+
+<http://linguateca.pt/harem#char=744,746>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "35"^^xsd:string ;
+        nif:beginIndex        "744"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "746"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1590> .
+
+<http://linguateca.pt/harem#char=1125,1145>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Banco América do Sul"^^xsd:string ;
+        nif:beginIndex        "1125"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1145"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1590> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1210,1216>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "N.I.M."^^xsd:string ;
+        nif:beginIndex        "1210"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1216"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1590> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=940,946>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Vectra"^^xsd:string ;
+        nif:beginIndex        "940"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "946"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1590> .
+
+<http://linguateca.pt/harem#char=139,147>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Coquinho"^^xsd:string ;
+        nif:beginIndex        "139"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "147"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1590> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1489,1519>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Antonio Augusto de Campos Lima"^^xsd:string ;
+        nif:beginIndex        "1489"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1519"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1590> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=781,783>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "35"^^xsd:string ;
+        nif:beginIndex        "781"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "783"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1590> .
+
+<http://linguateca.pt/harem#char=1152,1154>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "20"^^xsd:string ;
+        nif:beginIndex        "1152"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1154"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1590> .
+
+<http://linguateca.pt/harem#char=438,445>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "19 anos"^^xsd:string ;
+        nif:beginIndex        "438"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "445"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1590> .
+
+<http://linguateca.pt/harem#char=97,120>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "José Natalino Policarpo"^^xsd:string ;
+        nif:beginIndex        "97"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "120"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1590> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=76,96>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Rita de C . Cornélio"^^xsd:string ;
+        nif:beginIndex        "76"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "96"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1590> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=0,1590>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1590"^^xsd:nonNegativeInteger ;
+        nif:isString    "Rapaz é preso por furtos em série Rapaz é preso por furtos em série Texto : Rita de C . Cornélio José Natalino Policarpo , conhecido por \" Coquinho \" , é acusado de arrombar dois carros . Produtos furtados foram apreendidos Policiais militares prenderam em flagrante , na manhã de ontem , um dos acusados de ter praticado dois furtos durante a madrugada . Vários objetos furtados foram recuperados . O acusado , José Natalino Policarpo , 19 anos , conhecido por \" Coquinho \" , foi pego após oferecer os produtos furtados para alguns mototáxistas da Bela Vista . Para os policiais da Base Comunitária Noroeste , ele acabou confessando o furto continuado . Policarpo contou aos policiais que havia praticado dois furtos em automóveis , na quadra 35 da rua Saint Martin , e na quadra 35 da rua Araújo Leite . Em contato com as vítimas , elas reconheceram os objetos como sendo de sua propriedade . A vítima H.B.J . informou que seu carro , um Vectra , estava na garagem e de seu interior foi subtraído uma bolsa com um mostruário para vendas , um aparelho de CD , dois controles remotos , uma calculadora um talão de cheques do Banco América do Sul , com 20 folhas , das quais quinze foram recuperadas . A vítima N.I.M. informou que seu veículo , um Palio , estava estacionado na garagem de sua residência , onde foi danificado . Do seu interior foram subtraídos duas pastas com CDs , um óculos de sol e um pacote de cigarros . \" Coquinho \" foi autuado em flagrante pelo delegado plantonista Antonio Augusto de Campos Lima , por furto continuado e encaminhado para a Cadeia Pública de Bauru . "^^xsd:string .
+
+<http://linguateca.pt/harem#char=464,472>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Coquinho"^^xsd:string ;
+        nif:beginIndex        "464"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "472"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1590> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=583,608>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Base Comunitária Noroeste"^^xsd:string ;
+        nif:beginIndex        "583"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "608"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1590> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=549,559>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Bela Vista"^^xsd:string ;
+        nif:beginIndex        "549"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "559"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1590> .

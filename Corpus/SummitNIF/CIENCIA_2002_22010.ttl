@@ -1,0 +1,222 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1636,1649>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Oriente Médio"^^xsd:string ;
+        nif:beginIndex        "1636"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1649"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3241> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1356,1372>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Peter Savolainen"^^xsd:string ;
+        nif:beginIndex        "1356"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1372"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3241> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=2024,2050>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Universidade da Califórnia"^^xsd:string ;
+        nif:beginIndex        "2024"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2050"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3241> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=2097,2101>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Peru"^^xsd:string ;
+        nif:beginIndex        "2097"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2101"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3241> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1424,1430>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Suécia"^^xsd:string ;
+        nif:beginIndex        "1424"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1430"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3241> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=2774,2785>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Canis lupus"^^xsd:string ;
+        nif:beginIndex        "2774"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2785"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3241> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=2471,2478>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "América"^^xsd:string ;
+        nif:beginIndex        "2471"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2478"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3241> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=2736,2752>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Canis familiaris"^^xsd:string ;
+        nif:beginIndex        "2736"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2752"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3241> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=2588,2605>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "lulu-da-Pomerânia"^^xsd:string ;
+        nif:beginIndex        "2588"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2605"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3241> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=201,205>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ásia"^^xsd:string ;
+        nif:beginIndex        "201"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "205"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3241> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1690,1698>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Américas"^^xsd:string ;
+        nif:beginIndex        "1690"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1698"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3241> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1378,1421>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Instituto Real de Tecnologia , de Estocolmo"^^xsd:string ;
+        nif:beginIndex        "1378"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1421"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3241> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1979,1985>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Alasca"^^xsd:string ;
+        nif:beginIndex        "1979"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1985"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3241> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=511,517>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Europa"^^xsd:string ;
+        nif:beginIndex        "511"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "517"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3241> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=693,701>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Américas"^^xsd:string ;
+        nif:beginIndex        "693"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "701"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3241> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=682,689>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Eurásia"^^xsd:string ;
+        nif:beginIndex        "682"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "689"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3241> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=460,476>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "América do Norte"^^xsd:string ;
+        nif:beginIndex        "460"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "476"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3241> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=2002,2018>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Jennifer Leonard"^^xsd:string ;
+        nif:beginIndex        "2002"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2018"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3241> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=2107,2113>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "México"^^xsd:string ;
+        nif:beginIndex        "2107"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2113"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3241> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1029,1042>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Oriente Médio"^^xsd:string ;
+        nif:beginIndex        "1029"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1042"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3241> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1154,1160>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Europa"^^xsd:string ;
+        nif:beginIndex        "1154"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1160"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3241> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1970,1976>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Rússia"^^xsd:string ;
+        nif:beginIndex        "1970"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1976"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3241> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1297,1300>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "DNA"^^xsd:string ;
+        nif:beginIndex        "1297"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1300"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3241> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1089,1097>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Américas"^^xsd:string ;
+        nif:beginIndex        "1089"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1097"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3241> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1943,1961>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "estreito de Bering"^^xsd:string ;
+        nif:beginIndex        "1943"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1961"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3241> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1187,1204>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Cristóvão Colombo"^^xsd:string ;
+        nif:beginIndex        "1187"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1204"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3241> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=2054,2065>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Los Angeles"^^xsd:string ;
+        nif:beginIndex        "2054"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2065"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3241> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3241>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "3241"^^xsd:nonNegativeInteger ;
+        nif:isString    "Seja um poodle ou um pitbull , um cocker spaniel ou um dinamarquês , o seu cachorro e os dos seus amigos têm uma origem comum : todos eles descendem de lobos domesticados pela primeira vez no leste da Ásia , há possivelmente meros 15 mil anos . \"Meros\" porque esse período é muito curto em termos de evolução . Os primeiros animais aparentados com os cachorros modernos _os primeiros canídeos_ , foram identificados em fósseis de 37 milhões de anos achados na América do Norte e aparecem na forma de fósseis na Europa há 7 milhões de anos . Apesar de os lobos já estarem no continente americano há dezenas de milhares de anos , os cachorros modernos só fizeram a viagem de volta da Eurásia às Américas entre 12 mil e 14 mil anos atrás , acompanhando levas migratórias humanas . Dois estudos sobre o material genético dos cães publicados hoje na revista \"Science\" ( www.sciencemag.org ) revelaram que , diferentemente do que indicavam os achados arqueológicos , os primeiros cães domésticos surgiram no Extremo Oriente , e não no Oriente Médio . E que , apesar da sua longa permanência nas Américas , a grande maioria dos cães do continente veio mesmo da Europa depois da \"descoberta\" de Cristóvão Colombo , em 1492 . Um dos estudos , feito por cientistas suecos e chineses , envolveu a análise do DNA de cachorros de várias partes do planeta . A equipe de Peter Savolainen , do Instituto Real de Tecnologia , de Estocolmo , Suécia , constatou que a diversidade genética era maior entre os cães do leste asiático . Isso indicaria que a domesticação ali seria mais antiga , apesar de mais fósseis de cães domésticos terem sido achados no Oriente Médio . Como também havia lobos selvagens nas Américas antes da chegada dos humanos , outros cientistas quiseram testar as hipóteses de como e quando teria ocorrido a domesticação no novo continente . Teria havido uma domesticação independente , ou os cães vieram junto com as migrações humanas via estreito de Bering , entre Rússia e Alasca. Cães indígenas Jennifer Leonard , da Universidade da Califórnia em Los Angeles , e colegas de instituições do Peru e do México procuraram verificar o material genético de raças de cachorro sabidamente anteriores à chegada dos europeus . A análise levou a duas conclusões : primeiro , as raças indígenas são tão parecidas com as asiáticas que permitem supor que os cães tenham chegado já domesticados ao continente . Depois , havia diferenças que indicavam que as raças hoje comuns na América têm mais em comum com cães trazidos pelos colonos europeus . As diferenças entre as raças caninas atuais _do lulu-da-Pomerânia ao pastor alemão_ são todas resultados de cruzamentos seletivos nos últimos 500 anos . E todos esses bichos com o nome científico Canis familiaris descendem do lobo _o Canis lupus. A rapidez da disseminação dos cachorros com seus donos humanos indica que eles deviam ser particularmente úteis aos primitivos caçadores-coletores . Os estudos envolveram análise do DNA de uma estrutura das células , as mitocôndrias , que é transmitido apenas pelas mães . Computando semelhanças e diferenças , os cientistas estimaram que a domesticação deve ter ocorrido 15 mil anos atrás , embora também possa ter acontecido antes ( há 40 mil anos ) . "^^xsd:string .

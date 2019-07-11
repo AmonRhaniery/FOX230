@@ -1,0 +1,132 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=105,112>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "M.A.T ."^^xsd:string ;
+        nif:beginIndex        "105"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "112"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1700> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=584,595>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Serra Negra"^^xsd:string ;
+        nif:beginIndex        "584"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "595"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1700> .
+
+<http://linguateca.pt/harem#char=56,77>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "8 DE SETEMBRO DE 1967"^^xsd:string ;
+        nif:beginIndex        "56"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "77"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1700> .
+
+<http://linguateca.pt/harem#char=0,1700>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1700"^^xsd:nonNegativeInteger ;
+        nif:isString    "Infinite - Ufologia em Serra Negra FATO OCORRIDO NO DIA 8 DE SETEMBRO DE 1967 Fui convidada pela família M.A.T . , de São Paulo capital , para , junto com um amigo , seus pais e um tio , ir à uma festa na cidade de Lindóia . Fomos de Kombi . Por volta de mais ou menos 19:30h ao passarmos pelo bairro \" Três Barras \" avistamos claramente uma luz muito estranha brilhante , amarelada e vermelha , enorme e redonda , no alto de uma montanha . O amigo que estava ao meu lado , também ficou impressionado com o fenômeno e chegamos à conclusão de que não era uma luz normal . Retornamos à Serra Negra mais ou menos 23:00 h , sem observar mais nada no local . Porém os pais e o tio de meu amigo voltaram à Lindóia para um baile . Era uma noite maravilhosa , mas de repente começou a chover fortemente no local \" Três Barras \" , onde havíamos observado a luz . Pela madrugada , tornando a voltar para Serra Negra , e já próximos a entrada do Vale do Sol , a estranha luz apareceu novamente perto do asfalto e puderam observar que era da forma de um disco . A Kombi passou a não funcionar mais , a parte elétrica ficou totalmente desativada e todos ficaram muito apavorados . O tio de meu amigo começou a passar mal fisicamente apresentando náuseas e distúrbios intestinais . Um carro que se encontrava à frente desapareceu , sem que eles pudessem entender o que havia acontecido . Por sorte , estavam numa descida , conseguiram sair de lá em ponto morto e chegar perto da cidade . Na mesma noite moradores do mesmo bairro , relataram que a cerca de arame de um sítio foi totalmente destruída e animais que estavam no pasto amanheceram mortos . C.L. página principal.... Clique aqui e veja mais relatos ,, , "^^xsd:string .
+
+<http://linguateca.pt/harem#char=935,946>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Vale do Sol"^^xsd:string ;
+        nif:beginIndex        "935"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "946"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1700> .
+
+<http://linguateca.pt/harem#char=1052,1057>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Kombi"^^xsd:string ;
+        nif:beginIndex        "1052"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1057"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1700> .
+
+<http://linguateca.pt/harem#char=894,905>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Serra Negra"^^xsd:string ;
+        nif:beginIndex        "894"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "905"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1700> .
+
+<http://linguateca.pt/harem#char=610,617>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "23:00 h"^^xsd:string ;
+        nif:beginIndex        "610"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "617"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1700> .
+
+<http://linguateca.pt/harem#char=23,34>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Serra Negra"^^xsd:string ;
+        nif:beginIndex        "23"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "34"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1700> .
+
+<http://linguateca.pt/harem#char=303,314>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Três Barras"^^xsd:string ;
+        nif:beginIndex        "303"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "314"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1700> .
+
+<http://linguateca.pt/harem#char=1637,1641>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "C.L."^^xsd:string ;
+        nif:beginIndex        "1637"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1641"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1700> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=118,127>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "São Paulo"^^xsd:string ;
+        nif:beginIndex        "118"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "127"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1700> .
+
+<http://linguateca.pt/harem#char=234,239>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Kombi"^^xsd:string ;
+        nif:beginIndex        "234"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "239"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1700> .
+
+<http://linguateca.pt/harem#char=11,19>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ufologia"^^xsd:string ;
+        nif:beginIndex        "11"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "19"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1700> .
+
+<http://linguateca.pt/harem#char=700,707>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Lindóia"^^xsd:string ;
+        nif:beginIndex        "700"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "707"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1700> .
+
+<http://linguateca.pt/harem#char=215,222>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Lindóia"^^xsd:string ;
+        nif:beginIndex        "215"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "222"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1700> .
+
+<http://linguateca.pt/harem#char=269,275>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "19:30h"^^xsd:string ;
+        nif:beginIndex        "269"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "275"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1700> .
+
+<http://linguateca.pt/harem#char=806,817>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Três Barras"^^xsd:string ;
+        nif:beginIndex        "806"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "817"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1700> .

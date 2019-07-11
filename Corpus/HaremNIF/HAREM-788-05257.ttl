@@ -1,0 +1,232 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=2867,2876>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "250 reais"^^xsd:string ;
+        nif:beginIndex        "2867"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2876"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3346> .
+
+<http://linguateca.pt/harem#char=1560,1563>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "HPG"^^xsd:string ;
+        nif:beginIndex        "1560"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1563"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3346> .
+
+<http://linguateca.pt/harem#char=910,916>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "70.000"^^xsd:string ;
+        nif:beginIndex        "910"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "916"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3346> .
+
+<http://linguateca.pt/harem#char=1574,1595>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "na faixa de 2 milhões"^^xsd:string ;
+        nif:beginIndex        "1574"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1595"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3346> .
+
+<http://linguateca.pt/harem#char=960,964>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Chat"^^xsd:string ;
+        nif:beginIndex        "960"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "964"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3346> .
+
+<http://linguateca.pt/harem#char=651,655>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "SMTP"^^xsd:string ;
+        nif:beginIndex        "651"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "655"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3346> .
+
+<http://linguateca.pt/harem#char=402,414>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "11,6 milhões"^^xsd:string ;
+        nif:beginIndex        "402"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "414"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3346> .
+
+<http://linguateca.pt/harem#char=2955,2963>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "R$ 39,00"^^xsd:string ;
+        nif:beginIndex        "2955"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2963"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3346> .
+
+<http://linguateca.pt/harem#char=446,457>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "2,6 milhões"^^xsd:string ;
+        nif:beginIndex        "446"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "457"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3346> .
+
+<http://linguateca.pt/harem#char=1514,1516>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "IP"^^xsd:string ;
+        nif:beginIndex        "1514"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1516"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3346> .
+
+<http://linguateca.pt/harem#char=1717,1721>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Word"^^xsd:string ;
+        nif:beginIndex        "1717"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1721"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3346> .
+
+<http://linguateca.pt/harem#char=1316,1319>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "DNS"^^xsd:string ;
+        nif:beginIndex        "1316"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1319"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3346> .
+
+<http://linguateca.pt/harem#char=31,37>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Debora"^^xsd:string ;
+        nif:beginIndex        "31"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "37"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3346> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=834,837>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Uol"^^xsd:string ;
+        nif:beginIndex        "834"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "837"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3346> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=3198,3202>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "8:00"^^xsd:string ;
+        nif:beginIndex        "3198"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3202"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3346> .
+
+<http://linguateca.pt/harem#char=1169,1176>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Outlook"^^xsd:string ;
+        nif:beginIndex        "1169"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1176"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3346> .
+
+<http://linguateca.pt/harem#char=821,830>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Bate-Papo"^^xsd:string ;
+        nif:beginIndex        "821"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "830"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3346> .
+
+<http://linguateca.pt/harem#char=3206,3212>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "19:00h"^^xsd:string ;
+        nif:beginIndex        "3206"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3212"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3346> .
+
+<http://linguateca.pt/harem#char=315,321>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Brasil"^^xsd:string ;
+        nif:beginIndex        "315"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "321"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3346> .
+
+<http://linguateca.pt/harem#char=40,53>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Fastmarketing"^^xsd:string ;
+        nif:beginIndex        "40"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "53"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3346> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1853,1857>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "SMTP"^^xsd:string ;
+        nif:beginIndex        "1853"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1857"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3346> .
+
+<http://linguateca.pt/harem#char=2933,2934>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "4"^^xsd:string ;
+        nif:beginIndex        "2933"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2934"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3346> .
+
+<http://linguateca.pt/harem#char=2618,2626>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "R. 30,00"^^xsd:string ;
+        nif:beginIndex        "2618"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2626"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3346> .
+
+<http://linguateca.pt/harem#char=1296,1304>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Internet"^^xsd:string ;
+        nif:beginIndex        "1296"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1304"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3346> .
+
+<http://linguateca.pt/harem#char=212,232>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "14 milhões e 200 mil"^^xsd:string ;
+        nif:beginIndex        "212"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "232"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3346> .
+
+<http://linguateca.pt/harem#char=993,1019>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "aproximadamente 45 minutos"^^xsd:string ;
+        nif:beginIndex        "993"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1019"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3346> .
+
+<http://linguateca.pt/harem#char=149,157>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "R$ 89,00"^^xsd:string ;
+        nif:beginIndex        "149"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "157"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3346> .
+
+<http://linguateca.pt/harem#char=2910,2919>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "5 milhões"^^xsd:string ;
+        nif:beginIndex        "2910"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2919"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3346> .
+
+<http://linguateca.pt/harem#char=2002,2010>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Internet"^^xsd:string ;
+        nif:beginIndex        "2002"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2010"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3346> .
+
+<http://linguateca.pt/harem#char=2364,2371>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "130.000"^^xsd:string ;
+        nif:beginIndex        "2364"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2371"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3346> .
+
+<http://linguateca.pt/harem#char=0,3346>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "3346"^^xsd:nonNegativeInteger ;
+        nif:isString    "Fw . Atinga seu publico alvo ! Debora - Fastmarketing [ cadastro@fastmarketing.org ]O KIT de mala-direta digital mais COMPLETO do mercado , APENAS : R$ 89,00 Não perca tempo!Peça já o seu aqui.Banco de Dados com 14 milhões e 200 mil endereços de e-mails brasileiros , atualizados , extraidos de sites e domínios no Brasil , SEM REPETIÇÕES , organizados alfabeticamente e Separados também por ESTADOS.- 11,6 milhões de e-mails de pessoas físicas- 2,6 milhões de e-mails pessoas jurídicas ,- Os mais usados softwares para envio de e-mail e mensagens em massa .- Exclusivo Software para envio de e-mail que transforma seu próprio computador num servidor SMTP .O que possibilita o envio de e-mails sem bloqueios e sem limitações.Excelentes Ferramentas contida no KIT:- Software para envio de publicidade em todas as salas de Bate-Papo do Uol e do Bol .Este programa possibilita que sua mensagem seja vista por até 70.000 pessoas que estão batendo papo em salas de Chat numa só execução que demora aproximadamente 45 minutos .- Softwares para capturar novos endereços de e-mail da web ou de listas de discussão.- Softwares para capturar e-mails de arquivos , de pastas e do Outlook .- Softwares para catalogar , filtrar e excluir e-mails inválidos e duplicados da sua lista .- Software que captura da Internet números de DNS internacionais , inclusive retornando tempo de resposta , necessários caso você queira mandar seus e-mail de forma totalmente anônima , impossibilitando inclusive que seja visto o seu número de IP .- Software que captura todos os e-mail do HPG ( que são na faixa de 2 milhões ).Apostilas ilustradas para total aproveitamento do KIT:- Apostilas ilustradas , com dicas e truques ( em formato .doc - Word ) ensinando usar os programas .- Como furar os filtros anti spam dos provedores .- Como transformar seu computador num servidor de SMTP , possibilitando assim um envio de e-mails sem bloqueios e sem limitações .- Como enviar e-mail de forma totalmente anônima .- Como capturar da Internet os endereços de e-mail que estão circulando pela rede.- Como fazer sua própria lista segmentada de e-mails.Capturando em mecanismos de busca somente e-mails de determinados ramos e regiões .- Como conseguir conexão gratuita e anônima para enviar seus e-mails .- Onde conseguir cracks em sites internacionais para validar qualquer programa demo.Grátis - 130.000 nomes e endereços divididos por Estado e região para elaboração de mala direta convencional impressa , acompanhado de um software para criação e impressão de etiquetas adesivas .- Etiquetas impressas para mala direta convencional custam em média R. 30,00 o milheiro em empresas especializadas que desenvolvem estas listas , você pode até iniciar um novo negócio e revender listas impressas e lucrar centenas de Reais!Não perca tempo!Peça já o seu aqui.Um KIT completo como este , custa em média 250 reais .Temos também o KIT adcional com 5 milhões de e-mails + 4 softwares que custa R$ 39,00 .Este não inclui CD.Você recebe um link para que baixe os arquivos diretamente.Não responda a este e-mail,Acesse o nosso site e faça já o seu pedido!Central de atendimento : 0xx71 258-2500 / 3495-2239 / 9923-5133 ( Segunda a sexta as 8:00 as 19:00h )Caso não seja do seu interesse receber nossos e-mails , responda a esta mensagem com o assunto «cancelar».Desculpe-nos o incômodo . "^^xsd:string .
+
+<http://linguateca.pt/harem#char=843,846>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Bol"^^xsd:string ;
+        nif:beginIndex        "843"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "846"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3346> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .

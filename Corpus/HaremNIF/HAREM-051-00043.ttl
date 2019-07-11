@@ -1,0 +1,313 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=1067,1070>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "SER"^^xsd:string ;
+        nif:beginIndex        "1067"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1070"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1825> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=150,159>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Hotel Eva"^^xsd:string ;
+        nif:beginIndex        "150"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "159"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1825> .
+
+<http://linguateca.pt/harem#char=1198,1203>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "ASMAL"^^xsd:string ;
+        nif:beginIndex        "1198"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1203"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1825> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1775,1787>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "José Machado"^^xsd:string ;
+        nif:beginIndex        "1775"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1787"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1825> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1747,1754>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "LC Faro"^^xsd:string ;
+        nif:beginIndex        "1747"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1754"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1825> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=743,745>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "90"^^xsd:string ;
+        nif:beginIndex        "743"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "745"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1825> .
+
+<http://linguateca.pt/harem#char=1508,1521>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Lions de Faro"^^xsd:string ;
+        nif:beginIndex        "1508"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1521"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1825> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=40,47>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Algarve"^^xsd:string ;
+        nif:beginIndex        "40"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "47"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1825> .
+
+<http://linguateca.pt/harem#char=1086,1145>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Associação de Pais e Amigos das Crianças Diminuídas Mentais"^^xsd:string ;
+        nif:beginIndex        "1086"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1145"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1825> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1457,1471>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Bengala Branca"^^xsd:string ;
+        nif:beginIndex        "1457"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1471"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1825> .
+
+<http://linguateca.pt/harem#char=784,811>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Instituto D.Francisco Gomes"^^xsd:string ;
+        nif:beginIndex        "784"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "811"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1825> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=335,354>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Lions Clube de Faro"^^xsd:string ;
+        nif:beginIndex        "335"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "354"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1825> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=733,735>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "88"^^xsd:string ;
+        nif:beginIndex        "733"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "735"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1825> .
+
+<http://linguateca.pt/harem#char=99,107>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Portugal"^^xsd:string ;
+        nif:beginIndex        "99"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "107"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1825> .
+
+<http://linguateca.pt/harem#char=1613,1618>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "96/97"^^xsd:string ;
+        nif:beginIndex        "1613"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1618"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1825> .
+
+<http://linguateca.pt/harem#char=1822,1824>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "IP"^^xsd:string ;
+        nif:beginIndex        "1822"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1824"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1825> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=0,1825>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1825"^^xsd:nonNegativeInteger ;
+        nif:isString    "Lions Clube de Faro DM-115CS Portugal O Algarve , a região mais a sul do território continental de Portugal , tem por capital a cidade de Faro . É no Hotel Eva , situado na lateral da marina , que se reune o Clube Lions , nas primeiras quartas-feiras de cada mês , pelas 21 horas .Um pouco de HistóriaAs actividades mais relevantes do Lions Clube de Faro , estendemse ao longo dos vários anos da sua existência , sendo preocupaçâo constanteauscultar as carências da regiâo em que se inserem . Têm-se privilegiado , pelas constantes necessidades de ajuda , instituiçôes como as casas de Santa Isabel ( que acolhe meninas desprotegidas ) , da Madre Teresa de Calcutá , e a Conferência de São Vicente de Paula . Nos anos lionísticos de 88 / 89 e 90 / 91 , foram angariados fundos para o Instituto D.Francisco Gomes , Casa dos Rapazes e , a partir de 1991 a Associação Portuguesa de Paralisia Cerebral tem sido alvo de múltiplas campanhas , tendo em vista a construção da sua sede . Pontualmente foram contempladas instituições de tratamento contra a droga , tais como o SER , e o GATO , a Associação de Pais e Amigos das Crianças Diminuídas Mentais , o CACE - centro artístico e cultural de Estói , a ASMAL - Associação de Saúde Mental do Algarve , etc...Correspondendo ao apelo do Lions Internacional , o Clube de Faro angariou , em 93/94 , fundos para a campanha de prevenção da cegueira \" Sight First \" , tendo , no ano imediato , participado na campanha \" Bengala Branca \" .Dentro da perspectiva cultural o Lions de Faro tem apoiado e vindo a criar várias iniciativas , tais como espectáculos , palestras e , em 96/97 dinamiza o Prémio Literário que pretende envolver não só a região , mas a comunidade lusófona.Administrador : Marcelo Calixto - LC Faro | Suporte Técnico : José Machado - IP | Esta página tem o apoio da IP "^^xsd:string .
+
+<http://linguateca.pt/harem#char=748,750>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "91"^^xsd:string ;
+        nif:beginIndex        "748"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "750"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1825> .
+
+<http://linguateca.pt/harem#char=271,279>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "21 horas"^^xsd:string ;
+        nif:beginIndex        "271"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "279"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1825> .
+
+<http://linguateca.pt/harem#char=814,830>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Casa dos Rapazes"^^xsd:string ;
+        nif:beginIndex        "814"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "830"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1825> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=138,142>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Faro"^^xsd:string ;
+        nif:beginIndex        "138"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "142"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1825> .
+
+<http://linguateca.pt/harem#char=847,851>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1991"^^xsd:string ;
+        nif:beginIndex        "847"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "851"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1825> .
+
+<http://linguateca.pt/harem#char=1389,1400>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Sight First"^^xsd:string ;
+        nif:beginIndex        "1389"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1400"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1825> .
+
+<http://linguateca.pt/harem#char=671,706>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Conferência de São Vicente de Paula"^^xsd:string ;
+        nif:beginIndex        "671"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "706"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1825> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1279,1298>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Lions Internacional"^^xsd:string ;
+        nif:beginIndex        "1279"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1298"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1825> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1150,1154>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "CACE"^^xsd:string ;
+        nif:beginIndex        "1150"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1154"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1825> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1790,1792>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "IP"^^xsd:string ;
+        nif:beginIndex        "1790"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1792"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1825> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1188,1193>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Estói"^^xsd:string ;
+        nif:beginIndex        "1188"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1193"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1825> .
+
+<http://linguateca.pt/harem#char=29,37>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Portugal"^^xsd:string ;
+        nif:beginIndex        "29"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "37"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1825> .
+
+<http://linguateca.pt/harem#char=586,598>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Santa Isabel"^^xsd:string ;
+        nif:beginIndex        "586"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "598"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1825> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1729,1744>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Marcelo Calixto"^^xsd:string ;
+        nif:beginIndex        "1729"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1744"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1825> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1077,1081>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "GATO"^^xsd:string ;
+        nif:beginIndex        "1077"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1081"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1825> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=208,219>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Clube Lions"^^xsd:string ;
+        nif:beginIndex        "208"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "219"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1825> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=854,897>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Associação Portuguesa de Paralisia Cerebral"^^xsd:string ;
+        nif:beginIndex        "854"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "897"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1825> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1331,1336>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "93/94"^^xsd:string ;
+        nif:beginIndex        "1331"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1336"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1825> .
+
+<http://linguateca.pt/harem#char=1303,1316>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Clube de Faro"^^xsd:string ;
+        nif:beginIndex        "1303"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1316"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1825> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=641,664>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Madre Teresa de Calcutá"^^xsd:string ;
+        nif:beginIndex        "641"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "664"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1825> .
+
+<http://linguateca.pt/harem#char=738,740>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "89"^^xsd:string ;
+        nif:beginIndex        "738"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "740"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1825> .
+
+<http://linguateca.pt/harem#char=1206,1243>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Associação de Saúde Mental do Algarve"^^xsd:string ;
+        nif:beginIndex        "1206"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1243"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1825> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1630,1646>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Prémio Literário"^^xsd:string ;
+        nif:beginIndex        "1630"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1646"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1825> .
+
+<http://linguateca.pt/harem#char=0,19>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Lions Clube de Faro"^^xsd:string ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "19"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1825> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .

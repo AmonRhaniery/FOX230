@@ -1,0 +1,262 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=891,899>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Portugal"^^xsd:string ;
+        nif:beginIndex        "891"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "899"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3122> .
+
+<http://linguateca.pt/harem#char=0,3122>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "3122"^^xsd:nonNegativeInteger ;
+        nif:isString    "Qual o seu nome ? Lúcio Craveiro da Silva . Onde nasceu ? Tortosendo , Covilhã . E data de nascimento ? 27 de Novembro de 1914 . Qual o nome do seu pai e da sua mãe ? Meu pai é Gabriel Raimundo da Silva . Minha mãe , Maria de Lurdes Craveiro da Silva . E os seus avós ? José Craveiro da minha mãe . Do meu pai é que não sei . Sabe qual a origem da sua família ? O meu pai era agricultor da fronteira , S.Pedro do Rio Seco , e depois seguiu a vida profissional de funcionário dos correiros . A mãe era de Tortosendo . O meu avô era comerciante e a família depois desenvolveu-se . Depois os meus tios , um é médio , outro é indústrial e as minhas tias casaram e seguiram a sua vida . Era uma família de Tortosendo muito conhecida . Tivemos uma reunião de família , juntaram-se mais de cem pessoas , Craveiros , isto foi em 1998 que nos juntamos todos . É que estamos todos espalhados por este Portugal porque o interior tem poucas possibilidades de vida . A Beira-Interior é pobre , e portanto , quem quer fazer alguma coisa na vida acaba por ir embora . É por isso estamos espalhados por Portugal fora , e mesmo aqui em Braga , na Universidade do Minho , tenho primos que vieram para aqui , para professores . E sabe qual a origem do seu avô que era comerciante ? O meu avô era comerciante de Tortosendo , da parte da minha mãe , que era o que eu conhecia . Da parte do meu pai eram agricultores . Da parte do meu pai desapareceu a família toda , foi para o Brasil e para a Argentina e nunca mais tive notícias deles . Da parte da minha mãe esses são de Tortosendo e continuam lá . Que recordações é que tem desse avô materno ? Olhe uma maravilha . O meu avô era muito meu amigo . Um dia deu-me uma bofetada e depois quase que me pediu perdão e eu fiquei -\"Não ! O avô teve razão em dar-me a bofetada !\" . Porque toda a minha formação vem da família da minha mãe , porque a família do meu pai , como digo , estava longe , e foram para o Brasil e desde aí nunca mais os vi . Ao passo que , da minha mãe conheci toda a família e foi na família Craveiro , no fundo , que eu nasci e desenvolvi como criança . Como descreve esse seu avô ? Um homem empreendedor , muitas simpatias à volta dele . Era um homem que sabia conviver , não tinha inimigos , eram todos muito amigos dele e por isso , quase todos os que vinham para a Covilhã , daquela região , paravam na loja dele para conversar um pedaço e depois é que seguiam para a Covilhã . É uma coisa interessante . E o pai dele tinha umas ligações entre Coimbra e Covilhã , que era a ligação que faziam em \"galeras\" , carros de comércio , entre Coimbra e Covilhã . E creio que o meu bisavô , que eu conheci , da parte do meu pai , que veio para Tortosendo para fugir à vida militar . Tortosendo tinha o privilégio das tábuas vermelhas , que é daqui de Guimarães , e as terras que tinham as tábuas vermelhas estavam dispensados do serviço militar . E então , ele veio de Lisboa para ali e ali se fixou para não ir para a vida militar . Isto já nos princípios do séc.XIX . Velhinho , mas ainda passeei com ele , devia ter uns 3 ou 4 anos . E é o que eu conheço da minha família . "^^xsd:string .
+
+<http://linguateca.pt/harem#char=2319,2326>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Covilhã"^^xsd:string ;
+        nif:beginIndex        "2319"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2326"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3122> .
+
+<http://linguateca.pt/harem#char=71,78>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Covilhã"^^xsd:string ;
+        nif:beginIndex        "71"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "78"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3122> .
+
+<http://linguateca.pt/harem#char=1119,1124>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Braga"^^xsd:string ;
+        nif:beginIndex        "1119"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1124"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3122> .
+
+<http://linguateca.pt/harem#char=2914,2920>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Lisboa"^^xsd:string ;
+        nif:beginIndex        "2914"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2920"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3122> .
+
+<http://linguateca.pt/harem#char=270,283>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "José Craveiro"^^xsd:string ;
+        nif:beginIndex        "270"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "283"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3122> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=2498,2505>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Coimbra"^^xsd:string ;
+        nif:beginIndex        "2498"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2505"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3122> .
+
+<http://linguateca.pt/harem#char=1087,1095>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Portugal"^^xsd:string ;
+        nif:beginIndex        "1087"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1095"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3122> .
+
+<http://linguateca.pt/harem#char=1130,1151>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Universidade do Minho"^^xsd:string ;
+        nif:beginIndex        "1130"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1151"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3122> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=701,711>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Tortosendo"^^xsd:string ;
+        nif:beginIndex        "701"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "711"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3122> .
+
+<http://linguateca.pt/harem#char=1553,1563>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Tortosendo"^^xsd:string ;
+        nif:beginIndex        "1553"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1563"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3122> .
+
+<http://linguateca.pt/harem#char=3068,3079>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "3 ou 4 anos"^^xsd:string ;
+        nif:beginIndex        "3068"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3079"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3122> .
+
+<http://linguateca.pt/harem#char=18,41>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Lúcio Craveiro da Silva"^^xsd:string ;
+        nif:beginIndex        "18"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "41"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3122> .
+
+<http://linguateca.pt/harem#char=2796,2805>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Guimarães"^^xsd:string ;
+        nif:beginIndex        "2796"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2805"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3122> .
+
+<http://linguateca.pt/harem#char=2728,2738>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Tortosendo"^^xsd:string ;
+        nif:beginIndex        "2728"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2738"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3122> .
+
+<http://linguateca.pt/harem#char=402,421>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "S.Pedro do Rio Seco"^^xsd:string ;
+        nif:beginIndex        "402"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "421"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3122> .
+
+<http://linguateca.pt/harem#char=956,970>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Beira-Interior"^^xsd:string ;
+        nif:beginIndex        "956"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "970"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3122> .
+
+<http://linguateca.pt/harem#char=177,202>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Gabriel Raimundo da Silva"^^xsd:string ;
+        nif:beginIndex        "177"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "202"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3122> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=2589,2596>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Coimbra"^^xsd:string ;
+        nif:beginIndex        "2589"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2596"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3122> .
+
+<http://linguateca.pt/harem#char=58,68>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Tortosendo"^^xsd:string ;
+        nif:beginIndex        "58"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "68"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3122> .
+
+<http://linguateca.pt/harem#char=821,825>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1998"^^xsd:string ;
+        nif:beginIndex        "821"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "825"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3122> .
+
+<http://linguateca.pt/harem#char=2508,2515>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Covilhã"^^xsd:string ;
+        nif:beginIndex        "2508"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2515"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3122> .
+
+<http://linguateca.pt/harem#char=104,126>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "27 de Novembro de 1914"^^xsd:string ;
+        nif:beginIndex        "104"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "126"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3122> .
+
+<http://linguateca.pt/harem#char=2689,2699>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Tortosendo"^^xsd:string ;
+        nif:beginIndex        "2689"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2699"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3122> .
+
+<http://linguateca.pt/harem#char=2422,2429>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Covilhã"^^xsd:string ;
+        nif:beginIndex        "2422"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2429"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3122> .
+
+<http://linguateca.pt/harem#char=797,806>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Craveiros"^^xsd:string ;
+        nif:beginIndex        "797"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "806"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3122> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1457,1463>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Brasil"^^xsd:string ;
+        nif:beginIndex        "1457"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1463"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3122> .
+
+<http://linguateca.pt/harem#char=1473,1482>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Argentina"^^xsd:string ;
+        nif:beginIndex        "1473"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1482"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3122> .
+
+<http://linguateca.pt/harem#char=2599,2606>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Covilhã"^^xsd:string ;
+        nif:beginIndex        "2599"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2606"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3122> .
+
+<http://linguateca.pt/harem#char=1936,1942>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Brasil"^^xsd:string ;
+        nif:beginIndex        "1936"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1942"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3122> .
+
+<http://linguateca.pt/harem#char=2041,2049>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Craveiro"^^xsd:string ;
+        nif:beginIndex        "2041"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2049"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3122> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1292,1302>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Tortosendo"^^xsd:string ;
+        nif:beginIndex        "1292"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1302"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3122> .
+
+<http://linguateca.pt/harem#char=217,250>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Maria de Lurdes Craveiro da Silva"^^xsd:string ;
+        nif:beginIndex        "217"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "250"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3122> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=504,514>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Tortosendo"^^xsd:string ;
+        nif:beginIndex        "504"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "514"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3122> .
+
+<http://linguateca.pt/harem#char=3005,3012>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "séc.XIX"^^xsd:string ;
+        nif:beginIndex        "3005"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3012"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,3122> .

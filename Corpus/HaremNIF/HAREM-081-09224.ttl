@@ -1,0 +1,371 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=2020,2025>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "17:44"^^xsd:string ;
+        nif:beginIndex        "2020"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2025"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2163> .
+
+<http://linguateca.pt/harem#char=860,863>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "21º"^^xsd:string ;
+        nif:beginIndex        "860"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "863"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2163> .
+
+<http://linguateca.pt/harem#char=1589,1614>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Câmara Municipal de Mafra"^^xsd:string ;
+        nif:beginIndex        "1589"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1614"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2163> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=510,525>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ensino Superior"^^xsd:string ;
+        nif:beginIndex        "510"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "525"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2163> .
+
+<http://linguateca.pt/harem#char=1425,1430>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Abril"^^xsd:string ;
+        nif:beginIndex        "1425"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1430"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2163> .
+
+<http://linguateca.pt/harem#char=1282,1295>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Grande Lisboa"^^xsd:string ;
+        nif:beginIndex        "1282"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1295"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2163> .
+
+<http://linguateca.pt/harem#char=1369,1374>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "18:28"^^xsd:string ;
+        nif:beginIndex        "1369"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1374"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2163> .
+
+<http://linguateca.pt/harem#char=703,708>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Mafra"^^xsd:string ;
+        nif:beginIndex        "703"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "708"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2163> .
+
+<http://linguateca.pt/harem#char=478,481>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "12º"^^xsd:string ;
+        nif:beginIndex        "478"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "481"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2163> .
+
+<http://linguateca.pt/harem#char=885,891>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Iraque"^^xsd:string ;
+        nif:beginIndex        "885"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "891"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2163> .
+
+<http://linguateca.pt/harem#char=0,2163>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "2163"^^xsd:nonNegativeInteger ;
+        nif:isString    "RCM - Rádio do Concelho de Mafra Entrada Sobre a RCM Links Opinião A Primavera da Guerra Definir como Homepage Adicionar a Favoritos Guerra no Iraque A guerra no Iraque está a mobilizar e a apaixonar a opinião pública mundial . A RCM gostaria de ouvir o Concelho de Mafra sobre um assunto de vital importância para toda a comunidade internacional ; consulte a página de Opinião e diga-nos o que pensa sobre este conflito . Formação Profissional é a melhor opção Os alunos com o 12º ano que não querem seguir o Ensino Superior devem apostar na formação profissional antes de começarem a trabalhar . A mensagem foi deixada pela orientadora do workshop de Técnicas de Procura de Emprego , terça-feira , em Mafra . 9-4-2003 18 :36 0 Comentários ? Paz sim , Guerra não ! ? Os alunos da Escola Secundária José Saramago juntaram-se contra a Guerra e a violência . No 21º dia de confrontos no Iraque , alunos e professores percorreram algumas ruas da vila de Mafra , distribuíram folhetos e soltaram pombas brancas a favor da Paz . 9-4-2003 18 :34 0 Comentários Crescimento do concelho faz disparar desemprego O director do Centro de Emprego de Torres Vedras justifica o aumento do desemprego no concelho de Mafra com a procura crescente de que este concelho é alvo por parte de pessoas da Grande Lisboa que vêm residir para Mafra e continuam a trabalhar na capital . 9-4-2003 18:28 0 Comentários Jornadas da Juventude animam mês de Abril Teatro , cinema , desporto , pintura , música e workshops de orientação profissional dominam o programa comemorativo do Mês da Juventude , numa iniciativa da Câmara Municipal de Mafra . 28-3-2003 11:31 0 Comentários Cavalos dão espectáculo na Semana Equestre De entre as iniciativas deste fim-de-semana , há uma que merece destaque : o espectáculo de bem cavalgar a toda a sela . A Semana Equestre Militar está de volta ao Centro Militar de Mafra com a presença de mais de duzentos cavaleiros . 28-3-2003 11:27 0 Comentários Ampliar Foto EDITORIAL EDITORIAL A Primavera da Guerra 9-4-2003 17:44 Topo da página Entrada Contactos Publicidade Browser : I.Explorer ? Definição : 800x600 Webmaster RCM Inscreva-se aqui no Guia Comercial "^^xsd:string .
+
+<http://linguateca.pt/harem#char=781,812>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Escola Secundária José Saramago"^^xsd:string ;
+        nif:beginIndex        "781"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "812"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2163> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1389,1410>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Jornadas da Juventude"^^xsd:string ;
+        nif:beginIndex        "1389"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1410"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2163> .
+
+<http://linguateca.pt/harem#char=727,728>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "0"^^xsd:string ;
+        nif:beginIndex        "727"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "728"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2163> .
+
+<http://linguateca.pt/harem#char=951,956>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Mafra"^^xsd:string ;
+        nif:beginIndex        "951"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "956"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2163> .
+
+<http://linguateca.pt/harem#char=0,3>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "RCM"^^xsd:string ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2163> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=230,233>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "RCM"^^xsd:string ;
+        nif:beginIndex        "230"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "233"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2163> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=834,840>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Guerra"^^xsd:string ;
+        nif:beginIndex        "834"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "840"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2163> .
+
+<http://linguateca.pt/harem#char=2124,2127>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "RCM"^^xsd:string ;
+        nif:beginIndex        "2124"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2127"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2163> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1116,1150>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Centro de Emprego de Torres Vedras"^^xsd:string ;
+        nif:beginIndex        "1116"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1150"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2163> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1360,1368>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "9-4-2003"^^xsd:string ;
+        nif:beginIndex        "1360"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1368"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2163> .
+
+<http://linguateca.pt/harem#char=1813,1836>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Semana Equestre Militar"^^xsd:string ;
+        nif:beginIndex        "1813"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1836"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2163> .
+
+<http://linguateca.pt/harem#char=1627,1632>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "11:31"^^xsd:string ;
+        nif:beginIndex        "1627"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1632"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2163> .
+
+<http://linguateca.pt/harem#char=1926,1935>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "28-3-2003"^^xsd:string ;
+        nif:beginIndex        "1926"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1935"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2163> .
+
+<http://linguateca.pt/harem#char=143,149>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Iraque"^^xsd:string ;
+        nif:beginIndex        "143"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "149"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2163> .
+
+<http://linguateca.pt/harem#char=653,683>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Técnicas de Procura de Emprego"^^xsd:string ;
+        nif:beginIndex        "653"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "683"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2163> .
+
+<http://linguateca.pt/harem#char=1674,1689>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Semana Equestre"^^xsd:string ;
+        nif:beginIndex        "1674"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1689"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2163> .
+
+<http://linguateca.pt/harem#char=1551,1567>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Mês da Juventude"^^xsd:string ;
+        nif:beginIndex        "1551"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1567"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2163> .
+
+<http://linguateca.pt/harem#char=1018,1021>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Paz"^^xsd:string ;
+        nif:beginIndex        "1018"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1021"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2163> .
+
+<http://linguateca.pt/harem#char=2011,2019>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "9-4-2003"^^xsd:string ;
+        nif:beginIndex        "2011"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2019"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2163> .
+
+<http://linguateca.pt/harem#char=711,719>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "9-4-2003"^^xsd:string ;
+        nif:beginIndex        "711"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "719"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2163> .
+
+<http://linguateca.pt/harem#char=1942,1943>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "0"^^xsd:string ;
+        nif:beginIndex        "1942"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1943"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2163> .
+
+<http://linguateca.pt/harem#char=49,52>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "RCM"^^xsd:string ;
+        nif:beginIndex        "49"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "52"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2163> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1617,1626>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "28-3-2003"^^xsd:string ;
+        nif:beginIndex        "1617"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1626"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2163> .
+
+<http://linguateca.pt/harem#char=162,168>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Iraque"^^xsd:string ;
+        nif:beginIndex        "162"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "168"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2163> .
+
+<http://linguateca.pt/harem#char=254,271>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Concelho de Mafra"^^xsd:string ;
+        nif:beginIndex        "254"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "271"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2163> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=720,726>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "18 :36"^^xsd:string ;
+        nif:beginIndex        "720"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "726"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2163> .
+
+<http://linguateca.pt/harem#char=1375,1376>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "0"^^xsd:string ;
+        nif:beginIndex        "1375"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1376"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2163> .
+
+<http://linguateca.pt/harem#char=1024,1032>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "9-4-2003"^^xsd:string ;
+        nif:beginIndex        "1024"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1032"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2163> .
+
+<http://linguateca.pt/harem#char=1317,1322>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Mafra"^^xsd:string ;
+        nif:beginIndex        "1317"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1322"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2163> .
+
+<http://linguateca.pt/harem#char=1854,1877>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Centro Militar de Mafra"^^xsd:string ;
+        nif:beginIndex        "1854"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1877"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2163> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=2106,2113>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "800x600"^^xsd:string ;
+        nif:beginIndex        "2106"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2113"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2163> .
+
+<http://linguateca.pt/harem#char=1040,1041>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "0"^^xsd:string ;
+        nif:beginIndex        "1040"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1041"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2163> .
+
+<http://linguateca.pt/harem#char=2081,2091>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "I.Explorer"^^xsd:string ;
+        nif:beginIndex        "2081"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2091"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2163> .
+
+<http://linguateca.pt/harem#char=1936,1941>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "11:27"^^xsd:string ;
+        nif:beginIndex        "1936"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1941"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2163> .
+
+<http://linguateca.pt/harem#char=1633,1634>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "0"^^xsd:string ;
+        nif:beginIndex        "1633"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1634"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2163> .
+
+<http://linguateca.pt/harem#char=6,32>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Rádio do Concelho de Mafra"^^xsd:string ;
+        nif:beginIndex        "6"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "32"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2163> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=753,759>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Guerra"^^xsd:string ;
+        nif:beginIndex        "753"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "759"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2163> .
+
+<http://linguateca.pt/harem#char=1033,1039>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "18 :34"^^xsd:string ;
+        nif:beginIndex        "1033"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1039"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2163> .
+
+<http://linguateca.pt/harem#char=743,746>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Paz"^^xsd:string ;
+        nif:beginIndex        "743"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "746"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2163> .
+
+<http://linguateca.pt/harem#char=1200,1205>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Mafra"^^xsd:string ;
+        nif:beginIndex        "1200"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1205"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2163> .

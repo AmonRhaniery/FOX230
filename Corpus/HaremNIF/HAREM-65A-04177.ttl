@@ -1,0 +1,764 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=6016,6020>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Deus"^^xsd:string ;
+        nif:beginIndex        "6016"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "6020"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8774> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=55,60>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "BNDES"^^xsd:string ;
+        nif:beginIndex        "55"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "60"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8774> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1869,1875>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Brasil"^^xsd:string ;
+        nif:beginIndex        "1869"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1875"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8774> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1406,1409>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "MBR"^^xsd:string ;
+        nif:beginIndex        "1406"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1409"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8774> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=2964,2971>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "16 anos"^^xsd:string ;
+        nif:beginIndex        "2964"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2971"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8774> .
+
+<http://linguateca.pt/harem#char=1288,1302>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Mina da Mutuca"^^xsd:string ;
+        nif:beginIndex        "1288"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1302"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8774> .
+
+<http://linguateca.pt/harem#char=1858,1864>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Brasil"^^xsd:string ;
+        nif:beginIndex        "1858"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1864"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8774> .
+
+<http://linguateca.pt/harem#char=4001,4006>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "BNDES"^^xsd:string ;
+        nif:beginIndex        "4001"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4006"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8774> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=3497,3505>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Itaituba"^^xsd:string ;
+        nif:beginIndex        "3497"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3505"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8774> .
+
+<http://linguateca.pt/harem#char=8297,8314>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Central do Brasil"^^xsd:string ;
+        nif:beginIndex        "8297"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "8314"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8774> .
+
+<http://linguateca.pt/harem#char=3017,3027>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Siderurgia"^^xsd:string ;
+        nif:beginIndex        "3017"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3027"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8774> .
+
+<http://linguateca.pt/harem#char=2375,2392>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Rio Grande do Sul"^^xsd:string ;
+        nif:beginIndex        "2375"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2392"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8774> .
+
+<http://linguateca.pt/harem#char=17,22>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Banco"^^xsd:string ;
+        nif:beginIndex        "17"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "22"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8774> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=8252,8257>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "BNDES"^^xsd:string ;
+        nif:beginIndex        "8252"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "8257"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8774> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=3102,3117>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Selva Amazônica"^^xsd:string ;
+        nif:beginIndex        "3102"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3117"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8774> .
+
+<http://linguateca.pt/harem#char=1514,1534>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Mina de Águas Claras"^^xsd:string ;
+        nif:beginIndex        "1514"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1534"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8774> .
+
+<http://linguateca.pt/harem#char=1245,1257>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Mina do Pico"^^xsd:string ;
+        nif:beginIndex        "1245"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1257"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8774> .
+
+<http://linguateca.pt/harem#char=2275,2289>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Rio de Janeiro"^^xsd:string ;
+        nif:beginIndex        "2275"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2289"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8774> .
+
+<http://linguateca.pt/harem#char=3142,3147>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Amapá"^^xsd:string ;
+        nif:beginIndex        "3142"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3147"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8774> .
+
+<http://linguateca.pt/harem#char=7671,7676>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Banco"^^xsd:string ;
+        nif:beginIndex        "7671"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "7676"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8774> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=3936,3945>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "10 metros"^^xsd:string ;
+        nif:beginIndex        "3936"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3945"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8774> .
+
+<http://linguateca.pt/harem#char=8620,8626>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Brasil"^^xsd:string ;
+        nif:beginIndex        "8620"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "8626"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8774> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=550,559>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Mineração"^^xsd:string ;
+        nif:beginIndex        "550"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "559"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8774> .
+
+<http://linguateca.pt/harem#char=4840,4847>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Tapajós"^^xsd:string ;
+        nif:beginIndex        "4840"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4847"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8774> .
+
+<http://linguateca.pt/harem#char=1599,1607>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Sepetiba"^^xsd:string ;
+        nif:beginIndex        "1599"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1607"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8774> .
+
+<http://linguateca.pt/harem#char=2846,2849>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Rio"^^xsd:string ;
+        nif:beginIndex        "2846"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2849"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8774> .
+
+<http://linguateca.pt/harem#char=2305,2311>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Recife"^^xsd:string ;
+        nif:beginIndex        "2305"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2311"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8774> .
+
+<http://linguateca.pt/harem#char=2992,3001>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Mineração"^^xsd:string ;
+        nif:beginIndex        "2992"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3001"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8774> .
+
+<http://linguateca.pt/harem#char=8732,8737>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "BNDES"^^xsd:string ;
+        nif:beginIndex        "8732"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "8737"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8774> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=7266,7271>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "BNDES"^^xsd:string ;
+        nif:beginIndex        "7266"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "7271"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8774> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=2677,2682>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "BNDES"^^xsd:string ;
+        nif:beginIndex        "2677"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2682"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8774> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1718,1724>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Brasil"^^xsd:string ;
+        nif:beginIndex        "1718"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1724"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8774> .
+
+<http://linguateca.pt/harem#char=8452,8460>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "150 anos"^^xsd:string ;
+        nif:beginIndex        "8452"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "8460"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8774> .
+
+<http://linguateca.pt/harem#char=415,419>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1986"^^xsd:string ;
+        nif:beginIndex        "415"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "419"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8774> .
+
+<http://linguateca.pt/harem#char=2250,2259>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "São Paulo"^^xsd:string ;
+        nif:beginIndex        "2250"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2259"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8774> .
+
+<http://linguateca.pt/harem#char=1811,1815>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Pará"^^xsd:string ;
+        nif:beginIndex        "1811"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1815"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8774> .
+
+<http://linguateca.pt/harem#char=2143,2149>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Latasa"^^xsd:string ;
+        nif:beginIndex        "2143"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2149"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8774> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=7160,7165>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Banco"^^xsd:string ;
+        nif:beginIndex        "7160"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "7165"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8774> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=8167,8173>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Brasil"^^xsd:string ;
+        nif:beginIndex        "8167"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "8173"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8774> .
+
+<http://linguateca.pt/harem#char=6786,6792>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Brasil"^^xsd:string ;
+        nif:beginIndex        "6786"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "6792"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8774> .
+
+<http://linguateca.pt/harem#char=3451,3466>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Eduardo Cestari"^^xsd:string ;
+        nif:beginIndex        "3451"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3466"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8774> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1539,1553>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Mina da Mutuca"^^xsd:string ;
+        nif:beginIndex        "1539"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1553"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8774> .
+
+<http://linguateca.pt/harem#char=3489,3492>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Rio"^^xsd:string ;
+        nif:beginIndex        "3489"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3492"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8774> .
+
+<http://linguateca.pt/harem#char=8543,8549>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Brasil"^^xsd:string ;
+        nif:beginIndex        "8543"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "8549"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8774> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=36,41>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "BNDES"^^xsd:string ;
+        nif:beginIndex        "36"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "41"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8774> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=3132,3136>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Pará"^^xsd:string ;
+        nif:beginIndex        "3132"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3136"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8774> .
+
+<http://linguateca.pt/harem#char=3735,3746>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Rio Tapajós"^^xsd:string ;
+        nif:beginIndex        "3735"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3746"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8774> .
+
+<http://linguateca.pt/harem#char=7493,7508>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Projeto Memória"^^xsd:string ;
+        nif:beginIndex        "7493"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "7508"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8774> .
+
+<http://linguateca.pt/harem#char=1064,1069>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Banco"^^xsd:string ;
+        nif:beginIndex        "1064"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1069"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8774> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1305,1313>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Alunorte"^^xsd:string ;
+        nif:beginIndex        "1305"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1313"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8774> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=8472,8476>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "2004"^^xsd:string ;
+        nif:beginIndex        "8472"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "8476"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8774> .
+
+<http://linguateca.pt/harem#char=6683,6688>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "BNDES"^^xsd:string ;
+        nif:beginIndex        "6683"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "6688"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8774> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1316,1322>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Albrás"^^xsd:string ;
+        nif:beginIndex        "1316"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1322"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8774> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=5493,5497>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Deus"^^xsd:string ;
+        nif:beginIndex        "5493"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5497"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8774> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=6544,6549>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Banco"^^xsd:string ;
+        nif:beginIndex        "6544"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "6549"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8774> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=7349,7354>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "BNDES"^^xsd:string ;
+        nif:beginIndex        "7349"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "7354"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8774> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=6954,6960>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Brasil"^^xsd:string ;
+        nif:beginIndex        "6954"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "6960"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8774> .
+
+<http://linguateca.pt/harem#char=2210,2222>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Pouso Alegre"^^xsd:string ;
+        nif:beginIndex        "2210"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2222"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8774> .
+
+<http://linguateca.pt/harem#char=0,8774>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "8774"^^xsd:nonNegativeInteger ;
+        nif:isString    "tenho 16 anos de Banco .INGRESSO NO BNDES Eu entrei no BNDES , através de concurso público . Eu já tinha uma noção , já sabia o que o BNDES fazia . Eu tinha interesse de vir trabalhar no Banco , em função da atividade dinâmica de visitar empresas , de apoiar novos empreendimentos , de conhecer o Brasil . Então , eu me interessei muito em fazer o concurso do Banco . Fiz concurso público em 1984 , fui admitido em 1986 .TRAJETORIA NO BNDES Eu sempre trabalhei , desde que eu entrei no BNDES , na área de análise de projetos e , especificamente , na Mineração , Metalurgia e Siderurgia . O nosso trabalho consiste em analisar o pleito de uma empresa . Esse pleito normalmente refere-se a um pedido de financiamento para expansão de uma planta industrial , para instalação de uma nova planta , para modernização . Então , o nosso trabalho sempre foi de analisar o projeto , que chamamos de \"estudo de viabilidade econômica e financeira\" . Vemos se a empresa tem capacidade de pagamento , analisamos se o projeto é meritório dentro da política de desenvolvimento do Banco e , no final , nós montamos um relatório . Esse relatório é encaminhado à diretoria do Banco para aprovação e concessão do financiamento posteriormente.AVALIAÇÃO DE PROJETOS/ Mina do Pico &gt; , Mina de Águas Claras , Mina da Mutuca , Alunorte , Albrás , Latasa . Eu poderia citar vários projetos que eu participei , como a expansão da MBR , uma empresa de mineração , instalada em Minas Gerais . Nós financiamos a expansão da Mina do Pico , a Mina de Águas Claras e a Mina da Mutuca também.Eles têm um terminal aqui , próximo a Sepetiba , e nós financiamos toda essa expansão . Tem um projeto da Albrás , uma das maiores produtoras de alumínio do Brasil , nós financiamos a expansão dela . Tem a fábrica de alumina , a Alunorte , também no Pará , que é um insumo muito importante para o Brasil e o Brasil importava esse insumo . E , graças ao financiamento dessa empresa , nós deixamos de importar alumina . Alumina é um insumo fundamental na cadeia de fabricação do alumínio . E outros projetos menores , como a primeira fábrica de lata de alumínio do Brasil , que foi a Latasa . Nós financiamos , desde a primeira expansão da empresa em Pouso Alegre , financiamos a fábrica de São Paulo , a fábrica do Rio de Janeiro , a fábrica de Recife e acabamos de financiar recentemente a nova unidade deles , no Rio Grande do Sul . E uma coisa que é fundamental no nosso processo de análise é conhecer , in loco , o processo operacional , o que a empresa faz , como ela está organizada , como é o ambiente organizacional dessa empresa e o processo produtivo . Então , nós sempre visitamos as empresas.VIVENCIAS NO BNDES ViagensEu tenho uma história bastante interessante , principalmente para aqueles que imaginam que a vida de um técnico do BNDES consiste em pegar avião , na ponte Rio - São Paulo , ficar em escritórios com ar condicionado das empresas.Não é assim . A área que eu trabalhei durante 16 anos , que foi a área de Mineração e Metalurgia e Siderurgia , nós tínhamos freqüentemente viagens ao interior do Brasil , interior da Selva Amazônica , interior do Pará , do Amapá . Em uma dessas viagens , nós estávamos visitando um projeto de uma empresa de mineração , que queria desenvolver uma lavra de ouro , em processo industrial . E o que aconteceu de interessante nesse processo é que eu , o nosso chefe na época , o Wagner Bittencourt e mais dois técnicos , Mário Miceli , Eduardo Cestari , fizemos a viagem do Rio até Itaituba , no Pará . Essa viagem foi feita num Lear Jet da empresa , no maior conforto , digamos , na maior mordomia . Quando chegamos em Itaituba , o deslocamento de Itaituba até onde tinha essa ocorrência mineral , que se encontrava no Rio Tapajós , só podia ser feita de barco . E nós entramos no barco da empresa , não era um grande barco , o que eles chamam de \"voadeira\" . \" Voadeira \" é uma lancha de metal , é um barco de metal de 10 metros de comprimento , mais ou menos . Além de nós quatro do BNDES , havia dois diretores da empresa e o barqueiro . E esse barco estava carregando muito material para a empresa . Por problemas de navegação naquele trecho , não havia uma navegação regular , então procurava-se maximizar qualquer viagem que fizesse para aquela região , levar o máximo possível de material . E a empresa , além de nós , estava levando combustível , bombas , equipamentos . O barco estava muito pesado . Naquela época , o rio Tapajós estava num período de pouca chuva , então as pedras estavam muito aflorando na superfície . Nós ficamos um pouco preocupados porque da margem , do ponto que nós estávamos sentados no barco , da quilha até o nível de água , dava um palmo de diferença . Então , qualquer oscilação faria com que entrasse água . E realmente isso aconteceu . À medida que nós fomos nos deslocando pelo rio Tapajós , no sentido montante , começou entrar água dentro do barco . Como se não bastasse , o motor falhou . O motor falhou , nós ficamos à deriva e foi entrando água , foi entrando água . De repente , todo mundo se apavorou e , no momento que levantou todo mundo , o barco perdeu o equilíbrio , ele virou , literalmente virou . Todos nós caímos dentro do rio , o equipamento foi todo perdido e nós ficamos cerca de uma hora à deriva . Para se ter uma idéia do rio Tapajós , ele tem , mais ou menos , uns 900 metros de largura . Nós ficamos exatamente no meio e a correnteza puxava muito , então nós ficamos à deriva , nos dispersamos , mas , graças a Deus , conseguimos parar num banco de areia no meio do rio . E mais tarde , umas duas horas depois , uma outra \"voadeira\" que passava no local , nos socorreu . Aí , pode ser perguntado : \"Bom , a viagem de vocês terminou aí . Vocês voltaram para Itaituba para o Rio de Janeiro ?\" Não . Aproveitamos que nós estávamos , mais ou menos perto , umas três horas do ponto que a gente ia visitar , continuamos a viagem , visitamos o projeto , fizemos todo contato necessário . Apesar desse imprevisto , desse incidente , graças a Deus ninguém morreu , mas nós fomos lá no local , cumprimos a nossa missão . Conseguimos coletar material para fazer análise do projeto , que infelizmente , não foi aprovado , porque a questão da segurança foi um aspecto que pesou muito na análise da empresa , e por essa falha , na segurança , no deslocamento , nós olhamos com mais atenção à segurança do empreendimento , que era muito falha . A mina que estavam perfurando , parecia uma mina daquela época do Velho Oeste , aquelas galerias muito mal estruturadas . Então , o Banco realmente não concedeu financiamento para essa empresa . Isso foi em julho de 1988 .AVALIAÇÃO PESSOALSignificado do BNDES Para mim o BNDES , em primeiro lugar , ele é uma grande escola . É um local que se você quiser conhecer o que é o Brasil , como funciona o Brasil , como se dá o processo de desenvolvimento , não existe melhor local . Porque aqui nós lidamos com toda a economia . Toda a economia do Brasil , todo tipo de atividade , é estudada , é analisada , é conhecida aqui dentro . Segundo lugar , o Banco é uma grande família , um ambiente de trabalho excelente , até hoje , eu só fiz amigos aqui no Banco . É uma experiência muito gratificante , tanto que o emprego que eu mais permaneci até hoje , foi o BNDES . Eu já tive experiências anteriores , trabalhei em outros locais , antes do BNDES , mas aqui foi o local que eu mais me identifiquei , pelo ambiente , tipo de trabalho e pela importância para o desenvolvimento do país . Projeto Memória Sobre o Projeto Memória dos 50 anos do Banco eu agradeço essa oportunidade de poder deixar um registro para gerações futuras , e quero parabenizar a diretoria do Banco e a equipe pelo brilhante trabalho de registrar essa memória do Banco , porque uma das falhas que a gente percebe no Brasil , é a escassez do registro do passado . À despeito de outros países que sabem cuidar muito bem do seu passado , cultuam , reverenciam o passado como uma forma de levar para o presente os valores importantes do passado . No Brasil até então , isso não vinha sido tratado com cuidado . Nós podemos citar um exemplo que é comum de todo mundo , a questão da ferrovia no Brasil . Ela teve uma importância fundamental no desenvolvimento do país , o próprio BNDES apoiou as ferrovias , ou a expansão da Central do Brasil e outros . Mas hoje , não existe uma memória ferroviária para se contar a história desse meio de transporte pioneiro , que vai comemorar 150 anos agora , em 2004 , e foi um dos vetores mais importantes para o desenvolvimento do Brasil . Eu diria , para finalizar , que a importância do desenvolvimento do Brasil se deve , em primeiro lugar , às ferrovias , ao seu pioneirismo há 150 anos atrás . Em segundo lugar , o BNDES que está alavancando tudo isso aí . "^^xsd:string .
+
+<http://linguateca.pt/harem#char=8694,8702>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "150 anos"^^xsd:string ;
+        nif:beginIndex        "8694"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "8702"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8774> .
+
+<http://linguateca.pt/harem#char=1497,1509>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Mina do Pico"^^xsd:string ;
+        nif:beginIndex        "1497"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1509"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8774> .
+
+<http://linguateca.pt/harem#char=134,139>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "BNDES"^^xsd:string ;
+        nif:beginIndex        "134"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "139"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8774> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1790,1798>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Alunorte"^^xsd:string ;
+        nif:beginIndex        "1790"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1798"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8774> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=392,396>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1984"^^xsd:string ;
+        nif:beginIndex        "392"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "396"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8774> .
+
+<http://linguateca.pt/harem#char=6,13>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "16 anos"^^xsd:string ;
+        nif:beginIndex        "6"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "13"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8774> .
+
+<http://linguateca.pt/harem#char=187,192>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Banco"^^xsd:string ;
+        nif:beginIndex        "187"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "192"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8774> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=6666,6671>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "BNDES"^^xsd:string ;
+        nif:beginIndex        "6666"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "6671"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8774> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=3878,3886>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Voadeira"^^xsd:string ;
+        nif:beginIndex        "3878"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3886"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8774> .
+
+<http://linguateca.pt/harem#char=486,491>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "BNDES"^^xsd:string ;
+        nif:beginIndex        "486"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "491"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8774> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=2805,2810>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "BNDES"^^xsd:string ;
+        nif:beginIndex        "2805"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2810"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8774> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=7059,7064>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Banco"^^xsd:string ;
+        nif:beginIndex        "7059"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "7064"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8774> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=6619,6632>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "julho de 1988"^^xsd:string ;
+        nif:beginIndex        "6619"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "6632"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8774> .
+
+<http://linguateca.pt/harem#char=3081,3087>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Brasil"^^xsd:string ;
+        nif:beginIndex        "3081"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3087"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8774> .
+
+<http://linguateca.pt/harem#char=1325,1331>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Latasa"^^xsd:string ;
+        nif:beginIndex        "1325"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1331"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8774> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=6811,6817>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Brasil"^^xsd:string ;
+        nif:beginIndex        "6811"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "6817"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8774> .
+
+<http://linguateca.pt/harem#char=575,585>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Siderurgia"^^xsd:string ;
+        nif:beginIndex        "575"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "585"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8774> .
+
+<http://linguateca.pt/harem#char=3511,3515>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Pará"^^xsd:string ;
+        nif:beginIndex        "3511"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3515"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8774> .
+
+<http://linguateca.pt/harem#char=7794,7800>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Brasil"^^xsd:string ;
+        nif:beginIndex        "7794"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "7800"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8774> .
+
+<http://linguateca.pt/harem#char=5306,5313>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Tapajós"^^xsd:string ;
+        nif:beginIndex        "5306"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5313"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8774> .
+
+<http://linguateca.pt/harem#char=3004,3014>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Metalurgia"^^xsd:string ;
+        nif:beginIndex        "3004"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3014"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8774> .
+
+<http://linguateca.pt/harem#char=562,572>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Metalurgia"^^xsd:string ;
+        nif:beginIndex        "562"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "572"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8774> .
+
+<http://linguateca.pt/harem#char=435,440>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "BNDES"^^xsd:string ;
+        nif:beginIndex        "435"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "440"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8774> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=5346,5356>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "900 metros"^^xsd:string ;
+        nif:beginIndex        "5346"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5356"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8774> .
+
+<http://linguateca.pt/harem#char=297,303>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Brasil"^^xsd:string ;
+        nif:beginIndex        "297"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "303"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8774> .
+
+<http://linguateca.pt/harem#char=3664,3672>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Itaituba"^^xsd:string ;
+        nif:beginIndex        "3664"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3672"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8774> .
+
+<http://linguateca.pt/harem#char=5739,5747>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Itaituba"^^xsd:string ;
+        nif:beginIndex        "5739"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5747"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8774> .
+
+<http://linguateca.pt/harem#char=3544,3552>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Lear Jet"^^xsd:string ;
+        nif:beginIndex        "3544"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3552"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8774> .
+
+<http://linguateca.pt/harem#char=4447,4454>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Tapajós"^^xsd:string ;
+        nif:beginIndex        "4447"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4454"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8774> .
+
+<http://linguateca.pt/harem#char=3436,3448>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Mário Miceli"^^xsd:string ;
+        nif:beginIndex        "3436"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3448"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8774> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=2852,2861>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "São Paulo"^^xsd:string ;
+        nif:beginIndex        "2852"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2861"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8774> .
+
+<http://linguateca.pt/harem#char=8024,8030>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Brasil"^^xsd:string ;
+        nif:beginIndex        "8024"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "8030"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8774> .
+
+<http://linguateca.pt/harem#char=1667,1673>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Albrás"^^xsd:string ;
+        nif:beginIndex        "1667"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1673"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8774> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=360,365>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Banco"^^xsd:string ;
+        nif:beginIndex        "360"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "365"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8774> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=3635,3643>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Itaituba"^^xsd:string ;
+        nif:beginIndex        "3635"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3643"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8774> .
+
+<http://linguateca.pt/harem#char=5755,5769>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Rio de Janeiro"^^xsd:string ;
+        nif:beginIndex        "5755"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5769"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8774> .
+
+<http://linguateca.pt/harem#char=1452,1464>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Minas Gerais"^^xsd:string ;
+        nif:beginIndex        "1452"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1464"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8774> .
+
+<http://linguateca.pt/harem#char=1265,1285>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Mina de Águas Claras"^^xsd:string ;
+        nif:beginIndex        "1265"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1285"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8774> .
+
+<http://linguateca.pt/harem#char=7548,7553>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Banco"^^xsd:string ;
+        nif:beginIndex        "7548"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "7553"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8774> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=7517,7553>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Projeto Memória dos 50 anos do Banco"^^xsd:string ;
+        nif:beginIndex        "7517"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "7553"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8774> .
+
+<http://linguateca.pt/harem#char=6478,6489>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Velho Oeste"^^xsd:string ;
+        nif:beginIndex        "6478"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "6489"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8774> .
+
+<http://linguateca.pt/harem#char=3394,3412>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Wagner Bittencourt"^^xsd:string ;
+        nif:beginIndex        "3394"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3412"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8774> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=2124,2130>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Brasil"^^xsd:string ;
+        nif:beginIndex        "2124"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2130"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8774> .
+
+<http://linguateca.pt/harem#char=1157,1162>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Banco"^^xsd:string ;
+        nif:beginIndex        "1157"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1162"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,8774> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .

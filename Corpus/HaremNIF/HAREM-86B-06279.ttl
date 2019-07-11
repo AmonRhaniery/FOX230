@@ -1,0 +1,823 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=1507,1534>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Direcção Geral de Segurança"^^xsd:string ;
+        nif:beginIndex        "1507"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1534"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=5298,5300>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "25"^^xsd:string ;
+        nif:beginIndex        "5298"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5300"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> .
+
+<http://linguateca.pt/harem#char=2442,2449>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "anos 60"^^xsd:string ;
+        nif:beginIndex        "2442"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2449"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> .
+
+<http://linguateca.pt/harem#char=573,591>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "28 de Maio de 1926"^^xsd:string ;
+        nif:beginIndex        "573"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "591"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> .
+
+<http://linguateca.pt/harem#char=813,817>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1968"^^xsd:string ;
+        nif:beginIndex        "813"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "817"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> .
+
+<http://linguateca.pt/harem#char=5545,5551>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Lisboa"^^xsd:string ;
+        nif:beginIndex        "5545"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5551"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> .
+
+<http://linguateca.pt/harem#char=5963,5967>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1975"^^xsd:string ;
+        nif:beginIndex        "5963"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5967"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> .
+
+<http://linguateca.pt/harem#char=3300,3319>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "24 de Abril de 1974"^^xsd:string ;
+        nif:beginIndex        "3300"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3319"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> .
+
+<http://linguateca.pt/harem#char=1949,1957>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Portugal"^^xsd:string ;
+        nif:beginIndex        "1949"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1957"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=3257,3291>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Cronologia da Revolução dos Cravos"^^xsd:string ;
+        nif:beginIndex        "3257"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3291"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> .
+
+<http://linguateca.pt/harem#char=6013,6032>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "25 de Abril de 1974"^^xsd:string ;
+        nif:beginIndex        "6013"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "6032"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> .
+
+<http://linguateca.pt/harem#char=4995,5011>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Marcello Caetano"^^xsd:string ;
+        nif:beginIndex        "4995"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5011"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=0,20>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Revolução dos Cravos"^^xsd:string ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "20"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> .
+
+<http://linguateca.pt/harem#char=3770,3777>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "0h 20 m"^^xsd:string ;
+        nif:beginIndex        "3770"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3777"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> .
+
+<http://linguateca.pt/harem#char=3868,3874>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Limite"^^xsd:string ;
+        nif:beginIndex        "3868"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3874"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> .
+
+<http://linguateca.pt/harem#char=6411,6422>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "25 de Abril"^^xsd:string ;
+        nif:beginIndex        "6411"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "6422"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> .
+
+<http://linguateca.pt/harem#char=114,122>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Portugal"^^xsd:string ;
+        nif:beginIndex        "114"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "122"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=6514,6525>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "25 de Abril"^^xsd:string ;
+        nif:beginIndex        "6514"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "6525"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> .
+
+<http://linguateca.pt/harem#char=1390,1401>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Estado Novo"^^xsd:string ;
+        nif:beginIndex        "1390"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1401"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> .
+
+<http://linguateca.pt/harem#char=2626,2635>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Alcáçovas"^^xsd:string ;
+        nif:beginIndex        "2626"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2635"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> .
+
+<http://linguateca.pt/harem#char=3993,4013>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Leite de Vasconcelos"^^xsd:string ;
+        nif:beginIndex        "3993"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4013"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=2757,2799>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Os Militares , as Forças Armadas e a Nação"^^xsd:string ;
+        nif:beginIndex        "2757"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2799"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> .
+
+<http://linguateca.pt/harem#char=2864,2875>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "14 de Março"^^xsd:string ;
+        nif:beginIndex        "2864"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2875"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> .
+
+<http://linguateca.pt/harem#char=673,677>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1933"^^xsd:string ;
+        nif:beginIndex        "673"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "677"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> .
+
+<http://linguateca.pt/harem#char=4350,4356>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Lamego"^^xsd:string ;
+        nif:beginIndex        "4350"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4356"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> .
+
+<http://linguateca.pt/harem#char=3840,3851>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "José Afonso"^^xsd:string ;
+        nif:beginIndex        "3840"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3851"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=6587,6598>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "25 de Abril"^^xsd:string ;
+        nif:beginIndex        "6587"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "6598"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> .
+
+<http://linguateca.pt/harem#char=1943,1946>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "ONU"^^xsd:string ;
+        nif:beginIndex        "1943"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1946"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=947,963>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Marcello Caetano"^^xsd:string ;
+        nif:beginIndex        "947"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "963"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=5652,5658>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "2 anos"^^xsd:string ;
+        nif:beginIndex        "5652"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5658"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> .
+
+<http://linguateca.pt/harem#char=5591,5599>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Portugal"^^xsd:string ;
+        nif:beginIndex        "5591"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5599"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=185,205>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Revolução dos Cravos"^^xsd:string ;
+        nif:beginIndex        "185"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "205"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> .
+
+<http://linguateca.pt/harem#char=4376,4392>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Viana do Castelo"^^xsd:string ;
+        nif:beginIndex        "4376"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4392"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> .
+
+<http://linguateca.pt/harem#char=170,181>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "25 de Abril"^^xsd:string ;
+        nif:beginIndex        "170"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "181"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> .
+
+<http://linguateca.pt/harem#char=2586,2607>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "9 de Setembro de 1973"^^xsd:string ;
+        nif:beginIndex        "2586"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2607"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> .
+
+<http://linguateca.pt/harem#char=2035,2042>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "anos 60"^^xsd:string ;
+        nif:beginIndex        "2035"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2042"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> .
+
+<http://linguateca.pt/harem#char=5141,5142>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "4"^^xsd:string ;
+        nif:beginIndex        "5141"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5142"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> .
+
+<http://linguateca.pt/harem#char=4577,4582>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Porto"^^xsd:string ;
+        nif:beginIndex        "4577"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4582"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> .
+
+<http://linguateca.pt/harem#char=5341,5357>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Prisão de Caxias"^^xsd:string ;
+        nif:beginIndex        "5341"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5357"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> .
+
+<http://linguateca.pt/harem#char=735,751>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Oliveira Salazar"^^xsd:string ;
+        nif:beginIndex        "735"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "751"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=5086,5093>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Madeira"^^xsd:string ;
+        nif:beginIndex        "5086"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5093"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> .
+
+<http://linguateca.pt/harem#char=5047,5070>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "General António Spinola"^^xsd:string ;
+        nif:beginIndex        "5047"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5070"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=4256,4298>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Quartel General da Região Militar do Porto"^^xsd:string ;
+        nif:beginIndex        "4256"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4298"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> .
+
+<http://linguateca.pt/harem#char=4470,4475>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Porto"^^xsd:string ;
+        nif:beginIndex        "4470"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4475"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> .
+
+<http://linguateca.pt/harem#char=3546,3563>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Paulo de Carvalho"^^xsd:string ;
+        nif:beginIndex        "3546"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3563"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=2529,2535>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Bissau"^^xsd:string ;
+        nif:beginIndex        "2529"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2535"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> .
+
+<http://linguateca.pt/harem#char=2611,2623>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Monte Sobral"^^xsd:string ;
+        nif:beginIndex        "2611"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2623"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> .
+
+<http://linguateca.pt/harem#char=3359,3384>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Otelo Saraiva de Carvalho"^^xsd:string ;
+        nif:beginIndex        "3359"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3384"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=5462,5472>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1º de Maio"^^xsd:string ;
+        nif:beginIndex        "5462"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5472"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> .
+
+<http://linguateca.pt/harem#char=4218,4248>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Tenente-Coronel Carlos Azeredo"^^xsd:string ;
+        nif:beginIndex        "4218"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4248"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=4548,4553>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Braga"^^xsd:string ;
+        nif:beginIndex        "4548"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4553"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> .
+
+<http://linguateca.pt/harem#char=1040,1051>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Estado Novo"^^xsd:string ;
+        nif:beginIndex        "1040"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1051"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> .
+
+<http://linguateca.pt/harem#char=2651,2679>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Movimento das Forças Armadas"^^xsd:string ;
+        nif:beginIndex        "2651"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2679"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=488,499>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "25 de Abril"^^xsd:string ;
+        nif:beginIndex        "488"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "499"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> .
+
+<http://linguateca.pt/harem#char=1054,1062>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Portugal"^^xsd:string ;
+        nif:beginIndex        "1054"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1062"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=3476,3482>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Lisboa"^^xsd:string ;
+        nif:beginIndex        "3476"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3482"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> .
+
+<http://linguateca.pt/harem#char=1442,1485>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Polícia internacional e de Defesa do Estado"^^xsd:string ;
+        nif:beginIndex        "1442"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1485"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=352,367>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Guerra Colonial"^^xsd:string ;
+        nif:beginIndex        "352"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "367"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> .
+
+<http://linguateca.pt/harem#char=2941,2946>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Chefe"^^xsd:string ;
+        nif:beginIndex        "2941"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2946"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=2905,2912>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Spínola"^^xsd:string ;
+        nif:beginIndex        "2905"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2912"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=4628,4655>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Escola Prática de Cavalaria"^^xsd:string ;
+        nif:beginIndex        "4628"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4655"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=4176,4181>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Norte"^^xsd:string ;
+        nif:beginIndex        "4176"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4181"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> .
+
+<http://linguateca.pt/harem#char=3087,3098>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "24 de Março"^^xsd:string ;
+        nif:beginIndex        "3087"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3098"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> .
+
+<http://linguateca.pt/harem#char=1002,1021>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "25 de Abril de 1974"^^xsd:string ;
+        nif:beginIndex        "1002"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1021"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> .
+
+<http://linguateca.pt/harem#char=4877,4891>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Salgueiro Maia"^^xsd:string ;
+        nif:beginIndex        "4877"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4891"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=3878,3894>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Rádio Renascença"^^xsd:string ;
+        nif:beginIndex        "3878"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3894"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=4455,4458>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "RTP"^^xsd:string ;
+        nif:beginIndex        "4455"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4458"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=2689,2707>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "5 de Março de 1974"^^xsd:string ;
+        nif:beginIndex        "2689"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2707"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> .
+
+<http://linguateca.pt/harem#char=6732,6735>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "PCP"^^xsd:string ;
+        nif:beginIndex        "6732"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "6735"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=4938,4954>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Quartel do Carmo"^^xsd:string ;
+        nif:beginIndex        "4938"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4954"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> .
+
+<http://linguateca.pt/harem#char=3521,3538>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "E depois do Adeus"^^xsd:string ;
+        nif:beginIndex        "3521"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3538"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> .
+
+<http://linguateca.pt/harem#char=129,133>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1926"^^xsd:string ;
+        nif:beginIndex        "129"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "133"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> .
+
+<http://linguateca.pt/harem#char=3462,3470>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Pontinha"^^xsd:string ;
+        nif:beginIndex        "3462"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3470"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> .
+
+<http://linguateca.pt/harem#char=5114,5120>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Brasil"^^xsd:string ;
+        nif:beginIndex        "5114"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5120"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> .
+
+<http://linguateca.pt/harem#char=4463,4466>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "RCP"^^xsd:string ;
+        nif:beginIndex        "4463"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4466"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=4442,4446>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "CIOE"^^xsd:string ;
+        nif:beginIndex        "4442"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4446"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=4819,4835>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Terreiro do Paço"^^xsd:string ;
+        nif:beginIndex        "4819"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4835"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> .
+
+<http://linguateca.pt/harem#char=4197,4203>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "CICA 1"^^xsd:string ;
+        nif:beginIndex        "4197"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4203"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=459,468>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Revolução"^^xsd:string ;
+        nif:beginIndex        "459"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "468"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> .
+
+<http://linguateca.pt/harem#char=1717,1721>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1960"^^xsd:string ;
+        nif:beginIndex        "1717"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1721"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> .
+
+<http://linguateca.pt/harem#char=2915,2926>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Costa Gomes"^^xsd:string ;
+        nif:beginIndex        "2915"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2926"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=2118,2124>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Angola"^^xsd:string ;
+        nif:beginIndex        "2118"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2124"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1556,1596>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Polícia de Vigilancia e Defesa do Estado"^^xsd:string ;
+        nif:beginIndex        "1556"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1596"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=2127,2132>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Guiné"^^xsd:string ;
+        nif:beginIndex        "2127"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2132"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=2541,2561>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "21 de Agosto de 1973"^^xsd:string ;
+        nif:beginIndex        "2541"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2561"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> .
+
+<http://linguateca.pt/harem#char=5573,5580>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "500.000"^^xsd:string ;
+        nif:beginIndex        "5573"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5580"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> .
+
+<http://linguateca.pt/harem#char=5979,5990>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "25 de Abril"^^xsd:string ;
+        nif:beginIndex        "5979"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5990"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> .
+
+<http://linguateca.pt/harem#char=721,732>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Estado Novo"^^xsd:string ;
+        nif:beginIndex        "721"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "732"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> .
+
+<http://linguateca.pt/harem#char=51,70>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "25 de Abril de 1974"^^xsd:string ;
+        nif:beginIndex        "51"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "70"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> .
+
+<http://linguateca.pt/harem#char=3487,3495>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "22 . 55h"^^xsd:string ;
+        nif:beginIndex        "3487"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3495"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> .
+
+<http://linguateca.pt/harem#char=4401,4427>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Aeroporto de Pedras Rubras"^^xsd:string ;
+        nif:beginIndex        "4401"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4427"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> .
+
+<http://linguateca.pt/harem#char=4512,4518>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Defesa"^^xsd:string ;
+        nif:beginIndex        "4512"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4518"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> .
+
+<http://linguateca.pt/harem#char=1549,1553>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "PVDE"^^xsd:string ;
+        nif:beginIndex        "1549"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1553"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1435,1439>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "PIDE"^^xsd:string ;
+        nif:beginIndex        "1435"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1439"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=4702,4718>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Terreiro do Paço"^^xsd:string ;
+        nif:beginIndex        "4702"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4718"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> .
+
+<http://linguateca.pt/harem#char=0,6953>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "6953"^^xsd:nonNegativeInteger ;
+        nif:isString    "Revolução dos Cravos O levantamento militar do dia 25 de Abril de 1974 derrubou o regime político que vigorava em Portugal desde 1926 . Este levantamento é conhecido por 25 de Abril ou Revolução dos Cravos . O levantamento foi conduzido pelos oficiais intermédios da hierarquia militar ( o MFA ) , na sua maior parte capitães que tinham participado na Guerra Colonial .Conteúdo [ mostraresconder ] 1 Precedentes2 Preparação3 Movimentações militares durante a Revolução 4 Consequências5 O 25 de Abril visto 30 anos depois [editar]PrecedentesNa sequência do golpe militar de 28 de Maio de 1926 , foi implementado em Portugal um regime autoritário de inspiração fascista . Em 1933 o regime é remodelado , auto-denominado-se Estado Novo e Oliveira Salazar passou a controlar o país , não mais abandonando o poder até 1968 , quando este lhe foi retirado por incapacidade , na sequência de uma queda em que sofreu lesões cerebrais . Foi substituído por Marcello Caetano que dirigiu o país até ser deposto no 25 de Abril de 1974 .Sob o governo do Estado Novo , Portugal foi sempre considerado uma ditadura , quer pela oposição , quer pelos observadores estrangeiros quer mesmo pelos próprios dirigentes do regime . Formalmente , existiam eleições , mas estas foram sempre contestadas pela oposição , que sempre acusaram o governo de fraude eleitoral e de desrepeito pelo dever de imparcialidade.O Estado Novo possuía uma polícia política , a PIDE ( Polícia internacional e de Defesa do Estado ) , mais tarde DGS ( Direcção Geral de Segurança ) e no início PVDE ( Polícia de Vigilancia e Defesa do Estado ) , que perseguia os opositores do regime . A política colonial do país , que manteve as suas colónias após a década de 1960 , ao contrário da maior parte dos países europeus , essencialmente porque a manutenção de um império colonial fazia parte da visão da história dos ideólogos do regime . Apesar da contestação nos fórums mundiais , como na ONU , Portugal manteve uma política de força , tendo sido obrigado , a partir do início dos anos 60 , a defender militarmente as colónias contra os grupos independentistas em Angola , Guiné e Moçambique .Economicamente , o regime manteve uma política de condicionamento industrial que resultava na atribuíção do mercado português a apenas alguns grupos industriais . Até aos anos 60 o país permaneceu pobre , o que estimulou a emigração , mas deu-se um grande desenvolvimento económico a partir dos anos 60 .[editar]PreparaçãoA primeira reúnião clandestina de capitães foi realizada em Bissau , em 21 de Agosto de 1973 . Uma nova reúnião , em 9 de Setembro de 1973 no Monte Sobral ( Alcáçovas ) dá origem ao Movimento das Forças Armadas . No dia 5 de Março de 1974 é aprovado o primeiro documento do movimento : \" Os Militares , as Forças Armadas e a Nação \" . Este documento é posto a circular clandestinamente . No dia 14 de Março o governo demite os generais Spínola e Costa Gomes dos cargos de Chefe e Vice-Chefe de Estado Maior General das Forças Armadas por estes se terem recusado a participar numa cerimónia de apoio ao regime . No dia 24 de Março a última reúnião clandestina decide o derrube do regime pela força .[editar]Movimentações militares durante a Revolução Ver cronologia completa de eventos em Cronologia da Revolução dos Cravos .No dia 24 de Abril de 1974 , um grupo de militares comandados por Otelo Saraiva de Carvalho instalou secretamente o posto de comando do movimento golpista no quartel da Pontinha , em Lisboa .Às 22 . 55h é transmitida a canção \" E depois do Adeus \" , de Paulo de Carvalho , pelos Emissores Associados de Lisboa . Este foi um dos sinais previamente combinados pelos golpistas e que despoletava a tomada de posições da primeira fase do golpe de estado.O segundo sinal foi dado às 0h 20 m , quando foi transmitida a canção \" Grândola Vila Morena \" de José Afonso , pelo programa Limite da Rádio Renascença , que confirmava o golpe e marcava o início da operações . O locutor de serviço nessa emissão foi Leite de Vasconcelos , jornalista e poeta moçambicano.O golpe militar do dia 25 de Abril teve a colaboração de vários regimentos militares que desenvolveram uma acção concertada . No Norte , uma força do CICA 1 liderada pelo Tenente-Coronel Carlos Azeredo toma o Quartel General da Região Militar do Porto . Estas forças são reforçadas por forças vindas de Lamego . Forças do BC9 de Viana do Castelo tomam o Aeroporto de Pedras Rubras . E forças do CIOE tomam a RTP e o RCP no Porto . O regime reagiu , e o ministro da Defesa ordenou a forças sedeadas em Braga para avançarem sobre o Porto , mas estas forças tinham aderido ao golpe.À Escola Prática de Cavalaria coube o papel mais importante , a ocupação do Terreiro do Paço . As forças da Escola Prática de Cavalaria eram comandadas pelo então comandante Salgueiro Maia . O Terreiro do Paço foi ocupado à primeiras horas da manhã . Salgueiro Maia moveu mais tarde parte das suas forças para o Quartel do Carmo onde se encontrava o chefe do governo , Marcello Caetano , que ao final do dia se rendeu ao General António Spinola e parte para a Madeira , rumo ao exílio no Brasil .Neste dia morreram 4 pessoas , quando elementos da polícia política dispararam sobre pessoas que se manifestavam à porta das suas instalações .[editar]ConsequênciasLogo no dia 25 foram libertados os presos políticos da Prisão de Caxias . Os líderes políticos da oposição no exílio voltaram ao país nos dias seguintes . Passado uma semana o 1º de Maio foi celebrado legalmente nas ruas pela primeira vez em muitos anos . Em Lisboa reuniram-se cerca de 500.000 pessoas . Portugal passou por um período conturbado que durou cerca de 2 anos , marcados pela luta entre a esquerda e a direita . Foram nacionalizadas as grandes empresas . Passado um ano realizaram-se eleições constituintes e foi estabelecida uma democracia parlamentar de tipo ocidental . A guerra colonial acabou e as colónias africanas tornaram-se independentes antes do fim de 1975 .[editar]O 25 de Abril visto 30 anos depoisO 25 de Abril de 1974 continua a dividir a sociedade portuguesa , embora as divisões estejam limitadas aos estratos mais velhos da população que viveram os acontecimentos , às facções políticas dos extremos do espectro político e às pessoas politicamente mais empenhadas . A análise que se segue refere-se apenas às divisões entre estes estratos sociais . Em geral , os jovens não se dividem sobre o 25 de Abril .Existem actualmente dois pontos de vista dominantes na sociedade portuguesa em relação ao 25 de Abril .Quase todos , com muito poucas excepções , consideram que o 25 de Abril valeu a pena . Mas as pessoas mais à esquerda do espectro político tendem a pensar que o espírito inicial da revolução se perdeu . O PCP lamenta que a revolução não tenha ido mais longe e que muitas das conquistas da revolução se foram perdendo . As pessoas mais à direita lamentam a forma como a descolonização foi feita e lamentam as nacionalizações . "^^xsd:string .
+
+<http://linguateca.pt/harem#char=4070,4081>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "25 de Abril"^^xsd:string ;
+        nif:beginIndex        "4070"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4081"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> .
+
+<http://linguateca.pt/harem#char=506,513>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "30 anos"^^xsd:string ;
+        nif:beginIndex        "506"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "513"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> .
+
+<http://linguateca.pt/harem#char=2949,3002>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Vice-Chefe de Estado Maior General das Forças Armadas"^^xsd:string ;
+        nif:beginIndex        "2949"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3002"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1501,1504>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "DGS"^^xsd:string ;
+        nif:beginIndex        "1501"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1504"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=5997,6004>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "30 anos"^^xsd:string ;
+        nif:beginIndex        "5997"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "6004"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> .
+
+<http://linguateca.pt/harem#char=3814,3834>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Grândola Vila Morena"^^xsd:string ;
+        nif:beginIndex        "3814"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3834"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> .
+
+<http://linguateca.pt/harem#char=2318,2325>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "anos 60"^^xsd:string ;
+        nif:beginIndex        "2318"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2325"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> .
+
+<http://linguateca.pt/harem#char=3209,3218>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Revolução"^^xsd:string ;
+        nif:beginIndex        "3209"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3218"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> .
+
+<http://linguateca.pt/harem#char=3572,3602>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Emissores Associados de Lisboa"^^xsd:string ;
+        nif:beginIndex        "3572"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3602"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=290,293>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "MFA"^^xsd:string ;
+        nif:beginIndex        "290"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "293"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=4369,4372>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "BC9"^^xsd:string ;
+        nif:beginIndex        "4369"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4372"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=2135,2145>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Moçambique"^^xsd:string ;
+        nif:beginIndex        "2135"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2145"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=4789,4814>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "comandante Salgueiro Maia"^^xsd:string ;
+        nif:beginIndex        "4789"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4814"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=614,622>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Portugal"^^xsd:string ;
+        nif:beginIndex        "614"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "622"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=4734,4761>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Escola Prática de Cavalaria"^^xsd:string ;
+        nif:beginIndex        "4734"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4761"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,6953> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .

@@ -1,0 +1,182 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=605,612>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Seattle"^^xsd:string ;
+        nif:beginIndex        "605"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "612"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3881> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1428,1437>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Alzheimer"^^xsd:string ;
+        nif:beginIndex        "1428"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1437"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3881> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=447,459>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Mark Mattson"^^xsd:string ;
+        nif:beginIndex        "447"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "459"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3881> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=2601,2608>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Chicago"^^xsd:string ;
+        nif:beginIndex        "2601"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2608"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3881> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=2562,2598>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Centro Médico da Universidade Loyola"^^xsd:string ;
+        nif:beginIndex        "2562"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2598"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3881> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=545,549>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "AAAS"^^xsd:string ;
+        nif:beginIndex        "545"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "549"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3881> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=2540,2556>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Benjamin Wolozin"^^xsd:string ;
+        nif:beginIndex        "2540"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2556"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3881> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=2611,2614>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "EUA"^^xsd:string ;
+        nif:beginIndex        "2611"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2614"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3881> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=631,645>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Estados Unidos"^^xsd:string ;
+        nif:beginIndex        "631"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "645"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3881> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=720,729>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Alzheimer"^^xsd:string ;
+        nif:beginIndex        "720"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "729"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3881> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=3468,3477>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Alzheimer"^^xsd:string ;
+        nif:beginIndex        "3468"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3477"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3881> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=3270,3296>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Universidade da Califórnia"^^xsd:string ;
+        nif:beginIndex        "3270"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3296"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3881> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1114,1121>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Mattson"^^xsd:string ;
+        nif:beginIndex        "1114"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1121"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3881> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=552,597>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Associação Americana para o Avanço da Ciência"^^xsd:string ;
+        nif:beginIndex        "552"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "597"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3881> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1845,1852>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Mattson"^^xsd:string ;
+        nif:beginIndex        "1845"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1852"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3881> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=3858,3867>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Alzheimer"^^xsd:string ;
+        nif:beginIndex        "3858"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3867"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3881> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3881>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "3881"^^xsd:nonNegativeInteger ;
+        nif:isString    "Como se a lista de problemas de saúde causados pelos alimentos gordurosos já não fosse imensa , cientistas americanos acabam de adicionar a ela o dano ligado ao mal de Alzheimer , doença degenerativa do cérebro que mais afeta idosos pelo mundo . De acordo com novas análises em seres humanos , o colesterol e a ceramida , ambas moléculas de gordura , impulsionam a morte de células nervosas que caracteriza a doença . O achado foi apresentado por Mark Mattson , do Instituto Nacional do Envelhecimentos dos EUA , durante a 170ª Reunião Anual da AAAS ( Associação Americana para o Avanço da Ciência ) , em Seattle , no noroeste dos Estados Unidos . \"Por enquanto , as implicações estão mais ligadas à prevenção do mal de Alzheimer do que a uma possível melhora do prognóstico dos pacientes\" , afirmou Mattson , que participou da conferência apresentando os seus dados da pesquisa por telefone , por estar gripado . Mesmo assim , ele e seus colegas mostraram evidências de que o uso de substâncias como a vitamina E poderia reduzir os danos causados pelo colesterol aos pacientes com a doença . Vitaminas Colegas de Mattson também revelaram novas evidências de que o consumo de vitaminas como suplemento alimentar e provenientes de vegetais seria capaz de prevenir o advento da doença , e mesmo de que as estatinas , hoje usadas para o combate ao colesterol na corrente sangüínea , também poderiam evitar o aparecimento do mal de Alzheimer . Apesar de estudada de forma intensa no mundo todo , a moléstia tem um mecanismo de ação ainda pouco compreendido . Aparentemente , o fator principal para seu aparecimento é o acúmulo da proteína beta-amilóide nos neurônios ( células nervosas ) , em geral de pessoas idosas . Essa molécula tende a se aglomerar em placas e , por ser tóxica , elimina um a um os neurônios dos doentes , levando-os à morte . Mattson e colegas descobriram uma espécie de combinação letal entre o aparecimento da beta-amilóide e a presença de colesterol e de ceramida nos neurônios de pessoas mortas com o mal . Cascata fatal Num trabalho aprovado para publicação na revista científica \"PNAS\" ( www.pnas.org ) , a equipe mostrou que o aparecimento da beta-amilóide induz um acúmulo anormal de colesterol e ceramida . Eles , por sua vez , iniciam uma cascata de reações bioquímicas que acaba conduzindo à morte dos neurônios . Isso acontece , segundo os cientistas , porque as substâncias liberam os chamados radicais livres _átomos isolados de oxigênio que são um verdadeiro veneno para o organismo . Por outro lado , diz Benjamin Wolozin , do Centro Médico da Universidade Loyola ( Chicago , EUA ) , o local onde as moléculas de colesterol se abrigam na membrana é também a região na qual estão as enzimas ( moléculas que aceleram reações químicas ) responsáveis por produzir a beta-amilóide . \"Sem a presença de colesterol , elas não conseguem operar\" , afirma . Com a compreensão desses processos , os cientistas propõem duas estratégias . Uma , obviamente , é reduzir o consumo de gordura que pode levar a uma presença excessiva de colesterol e ceramida no organismo . Outra é utilizar substâncias antioxidantes , ou seja , capazes de reduzir a ação dos radicais livres . Esse é o caso das vitaminas . Experimentos coordenados por Carl Cotman , da Universidade da Califórnia em Irvine , mostraram resultados animadores em cães na fase de envelhecimento ( a partir dos 9 anos de vida ) , na qual os animais podem desenvolver uma doença que lembra Alzheimer . Memória restaurada Os suplementos de vitaminas C e E e de vegetais dados aos bichos funcionou tão bem que a memória dos cães , testada regularmente por meio de um exercício no qual eles tinham de reconhecer objetos , passou a se igualar à de animais jovens . Um dado importante , já que a perda da capacidade de armazenar novas lembranças é um dos principais sintomas do mal de Alzheimer em humanos . "^^xsd:string .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=800,807>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Mattson"^^xsd:string ;
+        nif:beginIndex        "800"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "807"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3881> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=3300,3306>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Irvine"^^xsd:string ;
+        nif:beginIndex        "3300"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3306"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3881> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=3253,3264>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Carl Cotman"^^xsd:string ;
+        nif:beginIndex        "3253"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3264"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3881> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=465,510>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Instituto Nacional do Envelhecimentos dos EUA"^^xsd:string ;
+        nif:beginIndex        "465"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "510"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3881> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=168,177>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Alzheimer"^^xsd:string ;
+        nif:beginIndex        "168"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "177"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3881> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=2104,2110>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "\"PNAS\""^^xsd:string ;
+        nif:beginIndex        "2104"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2110"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,3881> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .

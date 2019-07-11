@@ -1,0 +1,91 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1136,1149>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "David Vaughan"^^xsd:string ;
+        nif:beginIndex        "1136"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1149"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1376> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=175,221>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Painel Intergovernamental de Mudança Climática"^^xsd:string ;
+        nif:beginIndex        "175"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "221"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1376> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=428,452>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "British Antarctic Survey"^^xsd:string ;
+        nif:beginIndex        "428"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "452"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1376> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=725,741>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "sul da Argentina"^^xsd:string ;
+        nif:beginIndex        "725"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "741"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1376> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=671,691>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "mar de Bellinghausen"^^xsd:string ;
+        nif:beginIndex        "671"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "691"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1376> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=168,172>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "IPCC"^^xsd:string ;
+        nif:beginIndex        "168"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "172"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1376> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=647,666>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "península Antártica"^^xsd:string ;
+        nif:beginIndex        "647"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "666"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1376> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1376>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1376"^^xsd:nonNegativeInteger ;
+        nif:isString    "O aumento da temperatura na Antártida durante o último século foi de 1,2°C _pelo menos o dobro da média no resto do planeta , que ficou entre 0,2°C e 0,6°C , segundo o IPCC ( Painel Intergovernamental de Mudança Climática , órgão da ONU ) . Parece uma ninharia , mas o aquecimento antártico está modificando radicalmente o ecossistema da região . É o que mostra o estudo publicado pelo britânico David Vaughan e seus colegas do British Antarctic Survey na revista \"Science\" desta semana . Os pesquisadores ainda não sabem se o problema tem relação com o efeito estufa ou é resultado de mecanismos naturais da região . As áreas mais afetadas são a península Antártica e o mar de Bellinghausen , regiões a cerca de 1.500 km do sul da Argentina . Na península , sete geleiras desapareceram nos últimos 50 anos . As mudanças nas populações de pinguins também serviram como indicativo de que as coisas não andavam bem : as espécies que usavam geleiras para se abrigar e procriar começaram a diminuir na região , enquanto os pinguins acostumados a mar aberto colonizaram a península . \"Ninhais que eram ocupados há 650 anos sumiram\" , contou David Vaughan à Folha . O pesquisador , contudo , ainda não está convencido de que o vilão antártico seja o efeito estufa . \"Há fortes evidências de que esse tipo de mudança , numa escala de décadas , pode acontecer naturalmente\" , disse . "^^xsd:string .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=233,236>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "ONU"^^xsd:string ;
+        nif:beginIndex        "233"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "236"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1376> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=396,409>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "David Vaughan"^^xsd:string ;
+        nif:beginIndex        "396"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "409"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1376> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1152,1157>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Folha"^^xsd:string ;
+        nif:beginIndex        "1152"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1157"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1376> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .

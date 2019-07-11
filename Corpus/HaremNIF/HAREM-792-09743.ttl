@@ -1,0 +1,215 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=817,820>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Baú"^^xsd:string ;
+        nif:beginIndex        "817"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "820"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1837> .
+
+<http://linguateca.pt/harem#char=53,65>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Gruta do Baú"^^xsd:string ;
+        nif:beginIndex        "53"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "65"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1837> .
+
+<http://linguateca.pt/harem#char=496,505>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "São Paulo"^^xsd:string ;
+        nif:beginIndex        "496"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "505"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1837> .
+
+<http://linguateca.pt/harem#char=547,561>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Belo Horizonte"^^xsd:string ;
+        nif:beginIndex        "547"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "561"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1837> .
+
+<http://linguateca.pt/harem#char=1688,1691>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Baú"^^xsd:string ;
+        nif:beginIndex        "1688"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1691"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1837> .
+
+<http://linguateca.pt/harem#char=602,604>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "BH"^^xsd:string ;
+        nif:beginIndex        "602"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "604"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1837> .
+
+<http://linguateca.pt/harem#char=1715,1724>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "FECHADURA"^^xsd:string ;
+        nif:beginIndex        "1715"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1724"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1837> .
+
+<http://linguateca.pt/harem#char=652,663>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Viação Unir"^^xsd:string ;
+        nif:beginIndex        "652"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "663"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1837> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=862,869>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Fidalgo"^^xsd:string ;
+        nif:beginIndex        "862"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "869"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1837> .
+
+<http://linguateca.pt/harem#char=68,79>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Lagoa Santa"^^xsd:string ;
+        nif:beginIndex        "68"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "79"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1837> .
+
+<http://linguateca.pt/harem#char=692,706>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Pedro Leopoldo"^^xsd:string ;
+        nif:beginIndex        "692"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "706"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1837> .
+
+<http://linguateca.pt/harem#char=82,84>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "MG"^^xsd:string ;
+        nif:beginIndex        "82"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "84"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1837> .
+
+<http://linguateca.pt/harem#char=21,33>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Gruta do Baú"^^xsd:string ;
+        nif:beginIndex        "21"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "33"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1837> .
+
+<http://linguateca.pt/harem#char=1329,1332>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Baú"^^xsd:string ;
+        nif:beginIndex        "1329"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1332"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1837> .
+
+<http://linguateca.pt/harem#char=1472,1473>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "7"^^xsd:string ;
+        nif:beginIndex        "1472"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1473"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1837> .
+
+<http://linguateca.pt/harem#char=764,771>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Fidalgo"^^xsd:string ;
+        nif:beginIndex        "764"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "771"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1837> .
+
+<http://linguateca.pt/harem#char=274,281>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Fidalgo"^^xsd:string ;
+        nif:beginIndex        "274"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "281"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1837> .
+
+<http://linguateca.pt/harem#char=36,47>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Lagoa Santa"^^xsd:string ;
+        nif:beginIndex        "36"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "47"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1837> .
+
+<http://linguateca.pt/harem#char=323,330>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Fidalgo"^^xsd:string ;
+        nif:beginIndex        "323"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "330"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1837> .
+
+<http://linguateca.pt/harem#char=1429,1435>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "4 a 6º"^^xsd:string ;
+        nif:beginIndex        "1429"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1435"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1837> .
+
+<http://linguateca.pt/harem#char=50,52>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "MG"^^xsd:string ;
+        nif:beginIndex        "50"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "52"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1837> .
+
+<http://linguateca.pt/harem#char=206,220>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Pedro Leopoldo"^^xsd:string ;
+        nif:beginIndex        "206"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "220"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1837> .
+
+<http://linguateca.pt/harem#char=0,1837>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1837"^^xsd:nonNegativeInteger ;
+        nif:isString    "Locais de Escalada - Gruta do Baú - Lagoa Santa - MG Gruta do Baú - Lagoa Santa - MG Como chegar Chegando a Belo Horizonte , deve-se pegar a Av . Cristiano Machado que desemboca na rodovia para a cidade de Pedro Leopoldo .Depois , deve-se perguntar como chegar ao bairro de Fidalgo .Na estrada que leva ao bairro remoto de Fidalgo , aparecerão formações à esquerda.Após avistar um formação de calcáreo parecida com um fechadura e depois um campinho , existe a entrada para a fazendo.De ônibus de São Paulo até a Gruta do Baú envolve um trecho até Belo Horizonte .A passagem custa cerca de R$ 23,00 até BH .De lá , existem ônibus diários a cada hora da Viação Unir ( R$2,25 ) para a cidade de Pedro Leopoldo .Deve-se pegar então , um ônibus urbano para o bairro de Fidalgo .Peça para o motorista te deixar na graut do Baú .Na estrada que leva ao bairro remoto de Fidalgo , aparecerão formações à esquerda.Após avistar um formação de calcáreo parecida com um fechadura e depois um campinho , existe a entrada para a fazendo.Entrando na fazenda , as vias do Baú se encontram nas paredes à esquerda .Onde Ficar Os escaladores locais geralmente ficam no rancho , que se encontra continuando a descer a estrada da fazenda .O rancho só oferece chão e teto , sendo que a água é precária , tornado recomendável levar água.Vias As vias do Baú são demais!Existem várias vias-escola , com baixos níveis de dificuldade técnica/física ( entre 4 a 6º grau ) , e médios p/ altos níveis ( 7 em diante ).A maioria das vias são grampeadas , mas , existe a possibilidade de se praticar escalada móvel e solo.Você poderá pernoitar ( recomendamos comunicar o proprietário ) ou bivacar nas moitas.Quando for ao Baú , não deixe de ver a \" FECHADURA \" e a \" ONDA \" , uma formação rochosa muito radical , no formato de uma onda , onde há belas vias negativas ... "^^xsd:string .
+
+<http://linguateca.pt/harem#char=1055,1058>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Baú"^^xsd:string ;
+        nif:beginIndex        "1055"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1058"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1837> .
+
+<http://linguateca.pt/harem#char=512,524>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Gruta do Baú"^^xsd:string ;
+        nif:beginIndex        "512"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "524"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1837> .
+
+<http://linguateca.pt/harem#char=1733,1737>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "ONDA"^^xsd:string ;
+        nif:beginIndex        "1733"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1737"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1837> .
+
+<http://linguateca.pt/harem#char=666,672>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "R$2,25"^^xsd:string ;
+        nif:beginIndex        "666"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "672"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1837> .
+
+<http://linguateca.pt/harem#char=141,163>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Av . Cristiano Machado"^^xsd:string ;
+        nif:beginIndex        "141"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "163"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1837> .
+
+<http://linguateca.pt/harem#char=108,122>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Belo Horizonte"^^xsd:string ;
+        nif:beginIndex        "108"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "122"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1837> .
+
+<http://linguateca.pt/harem#char=589,597>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "R$ 23,00"^^xsd:string ;
+        nif:beginIndex        "589"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "597"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1837> .

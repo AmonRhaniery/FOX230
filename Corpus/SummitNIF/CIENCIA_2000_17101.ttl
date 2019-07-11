@@ -1,0 +1,163 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=304,318>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Terceiro Mundo"^^xsd:string ;
+        nif:beginIndex        "304"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "318"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1939> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1268,1274>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Hossne"^^xsd:string ;
+        nif:beginIndex        "1268"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1274"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1939> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1628,1651>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Declaração de Helsinque"^^xsd:string ;
+        nif:beginIndex        "1628"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1651"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1939> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=16,54>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Comissão Nacional de Ética em Pesquisa"^^xsd:string ;
+        nif:beginIndex        "16"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "54"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1939> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=117,165>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Sociedade Brasileira para o Progresso da Ciência"^^xsd:string ;
+        nif:beginIndex        "117"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "165"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1939> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=580,586>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ruanda"^^xsd:string ;
+        nif:beginIndex        "580"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "586"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1939> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1419,1425>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Hossne"^^xsd:string ;
+        nif:beginIndex        "1419"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1425"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1939> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1939>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1939"^^xsd:nonNegativeInteger ;
+        nif:isString    "O presidente da Comissão Nacional de Ética em Pesquisa , William Saad Hossne , disse ontem , na 52ª Reunião Anual da Sociedade Brasileira para o Progresso da Ciência , que a comunidade científica internacional pode alterar a Declaração de Helsinque , sobre ética em pesquisas com humanos . Em estudos no Terceiro Mundo , os cientistas se desobrigariam de fornecer aos doentes o melhor tratamento médico conhecido . A proposta , a ser discutida , dá aos pesquisados o direito de receber terapia dada pelo governo de seu país _que pode ser nenhuma . O debate surgiu após estudos em Ruanda e na Tailândia em que cientistas deram a grávidas com HIV um regime de AZT mais breve do que o recomendado . Queriam saber se o regime curto era melhor que nada para impedir a contaminação do feto . Para isso , outro grupo de grávidas com HIV não recebeu remédio algum . Comprovou-se que o regime mais breve basta , na maioria dos casos , para impedir a contaminação . Os pesquisadores argumentaram que as mulheres que não receberam AZT não o teriam recebido , de qualquer forma , e que seria impossível obter resultados precisos sem esse grupo . Além disso , o resultado da pesquisa beneficia países pobres , onde o regime curto é o único acessível . Contra esse ponto de vista , Hossne defende a norma atual : em pesquisa de tratamentos , os doentes devem receber ao menos o remédio mais eficiente já descoberto para sua doença . Hossne citou o estudo de Tuskegee ( EUA ) , em que negros com sífilis não foram tratados por 40 anos para que a evolução da doença fosse estudada . Os EUA , disse ele , foram um dos últimos países a assinar a Declaração de Helsinque . O texto , de 89 , traça diretrizes para ética em pesquisas . Seus termos são endossados pela OMS ( Organização Mundial da Saúde ) . A proposta já faz parte de outras declarações , como a Declaração de Consenso de Atlanta , de 99 , assinadas por menos cientistas e sem endosso da OMS . "^^xsd:string .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1570,1573>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "EUA"^^xsd:string ;
+        nif:beginIndex        "1570"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1573"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1939> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=225,248>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Declaração de Helsinque"^^xsd:string ;
+        nif:beginIndex        "225"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "248"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1939> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1455,1458>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "EUA"^^xsd:string ;
+        nif:beginIndex        "1455"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1458"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1939> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1933,1936>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "OMS"^^xsd:string ;
+        nif:beginIndex        "1933"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1936"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1939> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1747,1750>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "OMS"^^xsd:string ;
+        nif:beginIndex        "1747"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1750"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1939> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1444,1452>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Tuskegee"^^xsd:string ;
+        nif:beginIndex        "1444"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1452"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1939> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1753,1781>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Organização Mundial da Saúde"^^xsd:string ;
+        nif:beginIndex        "1753"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1781"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1939> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=826,829>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "HIV"^^xsd:string ;
+        nif:beginIndex        "826"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "829"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1939> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=658,661>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "AZT"^^xsd:string ;
+        nif:beginIndex        "658"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "661"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1939> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=57,76>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "William Saad Hossne"^^xsd:string ;
+        nif:beginIndex        "57"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "76"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1939> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1841,1874>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Declaração de Consenso de Atlanta"^^xsd:string ;
+        nif:beginIndex        "1841"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1874"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1939> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1020,1023>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "AZT"^^xsd:string ;
+        nif:beginIndex        "1020"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1023"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1939> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=641,644>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "HIV"^^xsd:string ;
+        nif:beginIndex        "641"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "644"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,1939> .

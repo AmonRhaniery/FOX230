@@ -1,0 +1,86 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=284,308>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Beatriz Valadares Cendon"^^xsd:string ;
+        nif:beginIndex        "284"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "308"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,582> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=215,218>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "225"^^xsd:string ;
+        nif:beginIndex        "215"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "218"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,582> .
+
+<http://linguateca.pt/harem#char=141,154>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Current Cites"^^xsd:string ;
+        nif:beginIndex        "141"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "154"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,582> .
+
+<http://linguateca.pt/harem#char=443,447>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "UFMG"^^xsd:string ;
+        nif:beginIndex        "443"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "447"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,582> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=309,359>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Programa de Pós Graduação em Ciência da Informação"^^xsd:string ;
+        nif:beginIndex        "309"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "359"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,582> .
+
+<http://linguateca.pt/harem#char=360,396>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Universidade Federal de Minas Gerais"^^xsd:string ;
+        nif:beginIndex        "360"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "396"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,582> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=561,566>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "ANCIB"^^xsd:string ;
+        nif:beginIndex        "561"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "566"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,582> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=403,407>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "UFMG"^^xsd:string ;
+        nif:beginIndex        "403"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "407"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,582> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=573,581>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "25328270"^^xsd:string ;
+        nif:beginIndex        "573"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "581"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,582> .
+
+<http://linguateca.pt/harem#char=0,582>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "582"^^xsd:nonNegativeInteger ;
+        nif:isString    "CURRENT CITES ARTICLE SEARCHhttp ://sunsite.Berkeley.EDU/CurrentCites/articlesearch.html Novo serviço que indexa todos os artigos citados em Current Cites desde Janeiro de 1995 . Contém , segundo o aviso , cerca de 225 dos melhores artigos sobre tecnologia da informação na rede . -- Beatriz Valadares Cendon Programa de Pós Graduação em Ciência da Informação Universidade Federal de Minas Gerais Fone( UFMG ) : 55-31-499-5249/5231/5234 Fax ( UFMG ) : 55-31-499-5200/5226/5207 Lista de discussão e divulgação da ancib : ancib-l@alternex.com.br Va ate o site da ANCIB ICQ , 25328270 "^^xsd:string .
+
+<http://linguateca.pt/harem#char=161,176>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Janeiro de 1995"^^xsd:string ;
+        nif:beginIndex        "161"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "176"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,582> .

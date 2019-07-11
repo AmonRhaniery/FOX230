@@ -1,0 +1,1233 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=27761,27776>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Caderno Cidades"^^xsd:string ;
+        nif:beginIndex        "27761"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "27776"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=29105,29110>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "3.000"^^xsd:string ;
+        nif:beginIndex        "29105"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "29110"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=34303,34312>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "São Paulo"^^xsd:string ;
+        nif:beginIndex        "34303"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "34312"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=20679,20694>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Linhas Corrente"^^xsd:string ;
+        nif:beginIndex        "20679"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "20694"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=5014,5016>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "16"^^xsd:string ;
+        nif:beginIndex        "5014"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5016"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=344,353>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "São Paulo"^^xsd:string ;
+        nif:beginIndex        "344"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "353"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=8816,8818>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "17"^^xsd:string ;
+        nif:beginIndex        "8816"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "8818"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=2937,2960>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Brigadeiro Luís Antônio"^^xsd:string ;
+        nif:beginIndex        "2937"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2960"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=31737,31745>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Univinco"^^xsd:string ;
+        nif:beginIndex        "31737"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "31745"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=5694,5702>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "São Luís"^^xsd:string ;
+        nif:beginIndex        "5694"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5702"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=5480,5482>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "45"^^xsd:string ;
+        nif:beginIndex        "5480"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5482"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=146,168>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "21 de novembro de 1994"^^xsd:string ;
+        nif:beginIndex        "146"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "168"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=2438,2442>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Brás"^^xsd:string ;
+        nif:beginIndex        "2438"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2442"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=20308,20317>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "São Paulo"^^xsd:string ;
+        nif:beginIndex        "20308"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "20317"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=32772,32779>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "20 a 25"^^xsd:string ;
+        nif:beginIndex        "32772"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "32779"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=9137,9145>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Gilberto"^^xsd:string ;
+        nif:beginIndex        "9137"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "9145"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=5937,5940>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Rei"^^xsd:string ;
+        nif:beginIndex        "5937"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5940"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=367,386>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "14 de abril de 1948"^^xsd:string ;
+        nif:beginIndex        "367"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "386"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=15056,15058>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "69"^^xsd:string ;
+        nif:beginIndex        "15056"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "15058"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=3803,3805>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "67"^^xsd:string ;
+        nif:beginIndex        "3803"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3805"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=24098,24113>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Rua 25 de Março"^^xsd:string ;
+        nif:beginIndex        "24098"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "24113"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=22474,22485>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "25 de Março"^^xsd:string ;
+        nif:beginIndex        "22474"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "22485"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=31034,31039>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Milão"^^xsd:string ;
+        nif:beginIndex        "31034"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "31039"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=1472,1478>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Brasil"^^xsd:string ;
+        nif:beginIndex        "1472"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1478"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=3983,3986>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "DKW"^^xsd:string ;
+        nif:beginIndex        "3983"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3986"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=10092,10101>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "São Paulo"^^xsd:string ;
+        nif:beginIndex        "10092"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "10101"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=515,520>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Síria"^^xsd:string ;
+        nif:beginIndex        "515"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "520"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=22470,22485>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Rua 25 de Março"^^xsd:string ;
+        nif:beginIndex        "22470"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "22485"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=9608,9610>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "64"^^xsd:string ;
+        nif:beginIndex        "9608"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "9610"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=9598,9604>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Brasil"^^xsd:string ;
+        nif:beginIndex        "9598"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "9604"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=967,969>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "14"^^xsd:string ;
+        nif:beginIndex        "967"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "969"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=38977,38983>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Europa"^^xsd:string ;
+        nif:beginIndex        "38977"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "38983"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=3141,3143>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "54"^^xsd:string ;
+        nif:beginIndex        "3141"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3143"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=31947,31962>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Rua 25 de Março"^^xsd:string ;
+        nif:beginIndex        "31947"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "31962"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=21277,21287>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "200 por 22"^^xsd:string ;
+        nif:beginIndex        "21277"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "21287"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=6398,6414>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Rei do Armarinho"^^xsd:string ;
+        nif:beginIndex        "6398"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "6414"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=9867,9873>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Brasil"^^xsd:string ;
+        nif:beginIndex        "9867"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "9873"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=134,143>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "São Paulo"^^xsd:string ;
+        nif:beginIndex        "134"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "143"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=3398,3421>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Brigadeiro Luís Antônio"^^xsd:string ;
+        nif:beginIndex        "3398"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3421"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=4232,4244>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "seu Gilberto"^^xsd:string ;
+        nif:beginIndex        "4232"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4244"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=2042,2048>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Brasil"^^xsd:string ;
+        nif:beginIndex        "2042"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2048"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=1243,1249>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Brasil"^^xsd:string ;
+        nif:beginIndex        "1243"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1249"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=2983,2997>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Alameda Santos"^^xsd:string ;
+        nif:beginIndex        "2983"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2997"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=3166,3189>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Brigadeiro Luís Antônio"^^xsd:string ;
+        nif:beginIndex        "3166"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3189"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=36497,36499>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "13"^^xsd:string ;
+        nif:beginIndex        "36497"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "36499"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=10887,10894>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "3 horas"^^xsd:string ;
+        nif:beginIndex        "10887"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "10894"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=3248,3271>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Brigadeiro Luís Antônio"^^xsd:string ;
+        nif:beginIndex        "3248"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3271"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=10877,10883>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "2horas"^^xsd:string ;
+        nif:beginIndex        "10877"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "10883"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=52,67>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Valéria Barbosa"^^xsd:string ;
+        nif:beginIndex        "52"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "67"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=4683,4706>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Colégio Dante Alighieri"^^xsd:string ;
+        nif:beginIndex        "4683"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4706"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=3596,3605>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "São Paulo"^^xsd:string ;
+        nif:beginIndex        "3596"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3605"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=2860,2869>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "São Paulo"^^xsd:string ;
+        nif:beginIndex        "2860"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2869"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=33524,33532>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Univinco"^^xsd:string ;
+        nif:beginIndex        "33524"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "33532"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=5997,6016>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ao Rei do Armarinho"^^xsd:string ;
+        nif:beginIndex        "5997"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "6016"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=22270,22281>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "25 de Março"^^xsd:string ;
+        nif:beginIndex        "22270"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "22281"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=6000,6016>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Rei do Armarinho"^^xsd:string ;
+        nif:beginIndex        "6000"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "6016"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=7666,7674>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "5.000 m2"^^xsd:string ;
+        nif:beginIndex        "7666"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "7674"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=14,34>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Gilberto Afif Sarruf"^^xsd:string ;
+        nif:beginIndex        "14"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "34"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=3134,3136>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "48"^^xsd:string ;
+        nif:beginIndex        "3134"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3136"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=22017,22026>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "São Paulo"^^xsd:string ;
+        nif:beginIndex        "22017"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "22026"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=2366,2372>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Brasil"^^xsd:string ;
+        nif:beginIndex        "2366"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2372"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=36606,36613>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "18 anos"^^xsd:string ;
+        nif:beginIndex        "36606"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "36613"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=17583,17588>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "100 %"^^xsd:string ;
+        nif:beginIndex        "17583"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "17588"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=31841,31849>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Univinco"^^xsd:string ;
+        nif:beginIndex        "31841"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "31849"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=9949,9958>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Fortaleza"^^xsd:string ;
+        nif:beginIndex        "9949"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "9958"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=19287,19298>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "25 de Março"^^xsd:string ;
+        nif:beginIndex        "19287"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "19298"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=36564,36571>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Patrick"^^xsd:string ;
+        nif:beginIndex        "36564"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "36571"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=33463,33482>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Rio Tamanduateí<in>"^^xsd:string ;
+        nif:beginIndex        "33463"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "33482"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=9768,9777>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "São Paulo"^^xsd:string ;
+        nif:beginIndex        "9768"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "9777"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=26025,26029>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1976"^^xsd:string ;
+        nif:beginIndex        "26025"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "26029"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=33851,33856>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Natal"^^xsd:string ;
+        nif:beginIndex        "33851"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "33856"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=29089,29094>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1.000"^^xsd:string ;
+        nif:beginIndex        "29089"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "29094"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=31257,31263>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Europa"^^xsd:string ;
+        nif:beginIndex        "31257"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "31263"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=8228,8230>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "18"^^xsd:string ;
+        nif:beginIndex        "8228"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "8230"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=30998,31003>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Paris"^^xsd:string ;
+        nif:beginIndex        "30998"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "31003"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=5581,5586>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Dante"^^xsd:string ;
+        nif:beginIndex        "5581"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5586"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=5810,5817>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "16 anos"^^xsd:string ;
+        nif:beginIndex        "5810"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5817"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=22638,22649>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "25 de Março"^^xsd:string ;
+        nif:beginIndex        "22638"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "22649"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=88,133>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Estúdio da Oficina Cultural Oswald de Andrade"^^xsd:string ;
+        nif:beginIndex        "88"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "133"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=25780,25796>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Rei do Armarinho"^^xsd:string ;
+        nif:beginIndex        "25780"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "25796"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=10287,10296>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "São Paulo"^^xsd:string ;
+        nif:beginIndex        "10287"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "10296"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=4691,4706>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Dante Alighieri"^^xsd:string ;
+        nif:beginIndex        "4691"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4706"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=35794,35801>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Solange"^^xsd:string ;
+        nif:beginIndex        "35794"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "35801"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=31938,31942>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1970"^^xsd:string ;
+        nif:beginIndex        "31938"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "31942"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=36486,36488>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "18"^^xsd:string ;
+        nif:beginIndex        "36486"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "36488"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=524,528>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1915"^^xsd:string ;
+        nif:beginIndex        "524"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "528"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=37030,37037>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Patrick"^^xsd:string ;
+        nif:beginIndex        "37030"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "37037"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=21285,21287>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "22"^^xsd:string ;
+        nif:beginIndex        "21285"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "21287"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=36071,36078>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "20 anos"^^xsd:string ;
+        nif:beginIndex        "36071"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "36078"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=579,585>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Brasil"^^xsd:string ;
+        nif:beginIndex        "579"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "585"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=18556,18568>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Seu Gilberto"^^xsd:string ;
+        nif:beginIndex        "18556"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "18568"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=31887,31895>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Univinco"^^xsd:string ;
+        nif:beginIndex        "31887"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "31895"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=306,326>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Gilberto Afif Sarruf"^^xsd:string ;
+        nif:beginIndex        "306"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "326"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=19178,19180>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "64"^^xsd:string ;
+        nif:beginIndex        "19178"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "19180"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=26012,26019>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "50 anos"^^xsd:string ;
+        nif:beginIndex        "26012"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "26019"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=31951,31962>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "25 de Março"^^xsd:string ;
+        nif:beginIndex        "31951"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "31962"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=11259,11271>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Seu Gilberto"^^xsd:string ;
+        nif:beginIndex        "11259"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "11271"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=12912,12917>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Natal"^^xsd:string ;
+        nif:beginIndex        "12912"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "12917"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=24691,24704>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "2.800 a 3.000"^^xsd:string ;
+        nif:beginIndex        "24691"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "24704"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=18596,18607>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "25 de Março"^^xsd:string ;
+        nif:beginIndex        "18596"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "18607"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=33388,33396>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Univinco"^^xsd:string ;
+        nif:beginIndex        "33388"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "33396"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=15049,15053>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1970"^^xsd:string ;
+        nif:beginIndex        "15049"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "15053"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=8236,8243>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "19 anos"^^xsd:string ;
+        nif:beginIndex        "8236"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "8243"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=33315,33326>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "25 de Março"^^xsd:string ;
+        nif:beginIndex        "33315"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "33326"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=41723,41725>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "90"^^xsd:string ;
+        nif:beginIndex        "41723"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "41725"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=5717,5726>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Mackenzie"^^xsd:string ;
+        nif:beginIndex        "5717"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5726"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=36548,36555>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "19 anos"^^xsd:string ;
+        nif:beginIndex        "36548"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "36555"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=38531,38543>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Seu Gilberto"^^xsd:string ;
+        nif:beginIndex        "38531"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "38543"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=972,979>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "15 anos"^^xsd:string ;
+        nif:beginIndex        "972"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "979"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=2605,2607>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "11"^^xsd:string ;
+        nif:beginIndex        "2605"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2607"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=27781,27784>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "DCI"^^xsd:string ;
+        nif:beginIndex        "27781"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "27784"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=184,198>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Teresa Furtado"^^xsd:string ;
+        nif:beginIndex        "184"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "198"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=481,492>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Afif Sarruf"^^xsd:string ;
+        nif:beginIndex        "481"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "492"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=6823,6847>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Cavalheiro Basílio Jafet"^^xsd:string ;
+        nif:beginIndex        "6823"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "6847"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=24747,24764>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "novembro/dezembro"^^xsd:string ;
+        nif:beginIndex        "24747"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "24764"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=9578,9584>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Brasil"^^xsd:string ;
+        nif:beginIndex        "9578"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "9584"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=27671,27690>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Caderno de Economia"^^xsd:string ;
+        nif:beginIndex        "27671"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "27690"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=5910,5926>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Rei do Armarinho"^^xsd:string ;
+        nif:beginIndex        "5910"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5926"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=8068,8072>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1976"^^xsd:string ;
+        nif:beginIndex        "8068"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "8072"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=9940,9946>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Recife"^^xsd:string ;
+        nif:beginIndex        "9940"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "9946"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=19185,19200>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Barão de Duprat"^^xsd:string ;
+        nif:beginIndex        "19185"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "19200"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=24822,24827>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "4.000"^^xsd:string ;
+        nif:beginIndex        "24822"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "24827"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=32743,32751>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Univinco"^^xsd:string ;
+        nif:beginIndex        "32743"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "32751"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=36593,36599>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Pierre"^^xsd:string ;
+        nif:beginIndex        "36593"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "36599"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=29097,29102>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "2.000"^^xsd:string ;
+        nif:beginIndex        "29097"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "29102"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=707,726>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Renée Lotaif Sarruf"^^xsd:string ;
+        nif:beginIndex        "707"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "726"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=36475,36477>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "19"^^xsd:string ;
+        nif:beginIndex        "36475"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "36477"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=0,42277>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "42277"^^xsd:nonNegativeInteger ;
+        nif:isString    "Depoimento de Gilberto Afif Sarruf Entrevistado por Valéria Barbosa e Roney Cytrynowicz Estúdio da Oficina Cultural Oswald de Andrade São Paulo , 21 de novembro de 1994 Transcrita por Teresa Furtado P - Eu queria que o senhor nos dissesse o seu nome , o local e a data de nascimento . R - Bom , meu nome é Gilberto Afif Sarruf , sou nascido em São Paulo , e nascí em 14 de abril de 1948 . P - Qual que é o nome dos pais do senhor e onde que eles nasceram ? R - Meu pai era chamado Afif Sarruf , nasceu em Homs , na Síria em 1915 , hoje ele já é falecido . Minha mãe é nascida no Brasil , em São Paulo , e é filha de libaneses ... é filha de libanês com árabe... com sírio . P - Qual que é o nome dela ? R - Renée Lotaif Sarruf . P - E qual que era a atividade do pai do senhor ? R - Meu pai veio para cá pequeno , veio com oito anos de idade , e estudou um período , até crescer um pouco mais , e começou a trabalhar com os irmãos , e quando adquiriu aproximadamente 14 / 15 anos , começou a trabalhar com comércio de armarinhos , e... que deu origem ao nome Ao Rei do Armarinho , e que existe até hoje , estou aqui eu continuando , e eventualmente meus filhos . P - E por que é que... qual que foi o motivo da vinda dos pais do senhor para o Brasil , por que escolheram o Brasil ? R - Talvez , no começo do século , vamos dizer , a situação na Síria não estivesse das melhores , e algumas pessoas que imigraram antes escreveram , ou foram bem sucedidas , ou analisaram o Brasil como um mercado promissor e acabaram vindo . Primeiro os irmãos mais velhos do meu pai , sentiram , e realmente endossaram isso , e acabou vindo o resto da família . P - No caso dos irmãos ... mais velhos , eles estavam no ramo de armarinhos , como é que era ? R - Não , não vieram especificamente para o ramo de armarinhos . Eles começaram como mascates ! Vieram ,... vamos dizer , com a cara e a coragem , para cá . Vieram se aventurar , eram solteiros , e... tentar , vamos dizer , arriscar uma vida nova . E de repente viram que existia possibilidade , que o Brasil oferecia condições favoráveis para isso , um país de clima tropical , São Paulo uma cidade que já , desde o começo do século , inspirava que seria um grande pólo de desenvolvimento , eles acreditaram e vieram , com a raça e a coragem . P - Quando eles chegaram , no caso , o pai do senhor , quando ele chegou aqui no Brasil , onde que ele foi morar , onde era a casa ? R - Eles moravam no Brás , no Belenzinho , mais especificamente . P - Junto com outros parentes ? R - Morava a família inteira , numa casa grande . Meu pai tinha diversos irmãos , dez ou 11 irmãos , mais os pais dele ; o pai dele , e... eu sei que era uma casa grande , vamos dizer , onde a família se cotizava , se ajustava ali e praticamente eu ouvi falar alguma coisa , não cheguei a conhecer . P - E o senhor nasceu em que bairro aqui em São Paulo ? R - Onde eu morava ? Onde eu nascí ? P - Isso . R - Eu morava na Brigadeiro Luís Antônio , quase esquina com a Alameda Santos . P - E como é que era a casa da infância , o local , assim ... o que é que o senhor lembra da casa da infância ? R - Bom , eu morei de 48 até 54 numa casa grande , na Brigadeiro Luís Antônio , e... pela idade e pela , e pelo fato de ser na rampa da Brigadeiro Luís Antônio , eu não tinha acesso à rua<in> , então a gente se limitava a brincar dentro de casa . Em 54 nós mudamos para uma travessa da Brigadeiro Luís Antônio , mais lá embaixo , que era a Rua Honduras . E lá era uma casa , era um lugar plano , e onde eu já tinha uma idadezinha que dava para começar a andar de bicicleta , enfim... São Paulo naquela época não tinha os problemas de hoje , a gente tinha acesso a jogar futebol na rua , jogar taco,... enfim , brincar com a vizinhança , era uma vida extremamente saudável . Eu morei ali até 67 , e passei praticamente minha puberdade e adolescência ali . E... fizemos muitas besteiras , tipo arrumar briga com outras turmas , ... aprontava coisa de moleque . Na época do DKW , existia o olho de gato , não sei se você chegou a conhecer , mas era uma peça que quando batia o farol iluminava , então , era da roubar olho de gato dos carros , e fazer essas besteiradas , essas coisas de moleque , né . P - Quantos irmãos , seu Gilberto ? R - Eu tenho três , e eu sou o mais velho , tenho mais dois irmãos homens , um trabalha comigo , o caçula ; o outro é médico , dermatologista , e tenho uma irmã . Minha irmã é a do meio , é a terceira . P - Eu queria que o senhor contasse um pouco sobre a escola , as lembranças que o senhor tem da época da escola ... R - Da escola ? Ich... ! Isso vai ser puxado , ficar registrado... ( riso ) Bom , no tempo de escola , eu estudei no Colégio Dante Alighieri , ... durante muitos anos ; quando eu me formei no curso secundário , no ginasial , eu ... não queria fazer clássico nem científico , então eu optei por fazer contabilidade . E o Dante Alighieri naquele ano estava inaugurando... o primeiro curso de contabilidade . E eu fiz , mas eu estava na minha fase de 16 / 17 anos , é uma fase meio impulsiva , eu acabei repetindo de ano . No ano seguinte eu quis me manter na contabilidade , mas não tinha número de alunos suficiente para manter a classe de contabilidade . Então eles fundiram contabilidade com secretariado . E eu acabei estudando numa classe onde só tinha eu de homem e 45 mulheres . ( risos ) E , coincidentemente , nesse ano meu pai me deu um carro , na época , um Fissori . E... eu estudando secretariado , com 45 mulheres na classe , não precisa dizer o que aconteceu , não ? ( riso ) Eu acabei sendo expulso o Dante , e fui terminar no São Luís , e aí comecei a estudar à noite , e aí acabou um pouco da moleza . Depois do São Luís eu fui para o Mackenzie e acabei me formando lá . P - O senhor começou a trabalhar com que idade ? R - Com 16 anos , 1964 . P - E onde o senhor começou a trabalhar ? R - Na própria loja , onde eu estou , no Rei do Armarinho . P - E o Rei ... eu queria que o senhor falasse um pouco da loja . A Ao Rei do Armarinho foi fundada quando... R - É , o Rei do Armarinho é uma loja bem antiga , foi fundada em 1926 , e... era uma loja pequena , quer dizer , com todas as dificuldades da época , não existiam uma grande variedade no ramo e existia muita concorrência . Então , o cliente era praticamente pego na raça , na unha , na amizade , na conquista : era uma cantada em cima do cliente ! E assim o Rei do Armarinho foi crescendo , com muita luta , com muita garra , com muita honestidade , com muita disposição de vencer . E... com o decorrer dos anos , vamos dizer , a loja mudou para um endereço maior e... já com mais opções de produtos , com um pouco mais de funcionários , ... e ela veio tomando o seu rumo de desenvolvimento . Há mais ou menos 35 anos , talvez até um pouquinho mais , meu pai comprou um terreno , na Cavalheiro Basílio Jafet , junto com o meu tio que é sócio , e resolveu construir um prédio para que fosse a futura sede da empresa e que fosse um prédio próprio . E com muita luta , com muita dedicação , acompanhando a obra no dia-a-dia , se construiu , se conseguiu construir esse prédio , onde atualmente a empresa se encontra , e aí se mudou para lá usando metade do prédio e alugando a outra metade para um banco , para que ajudasse a custear as despesas da construção , a dívida da construção . Aí , com o decorrer dos anos , aí já eu trabalhando lá , vamos dizer , o banco resolveu mudar de lá , e nós resolvemos usar o espaço do banco expandindo a loja . E hoje a loja usa , além do prédio , nós adquirimos mais um vizinho e alugamos uma boa parte no fundo , mais um primeiro andar enorme para depósito : a gente ocupa aproximadamente 5.000 m2 . É uma das lojas mais antigas do ramo e ao mesmo tempo é uma das lojas mais modernas do ramo , em termos de linha de produto , forma de atendimento , a gente se dedica demais sobre esse aspecto . Nós fomos a primeira loja de toda a região central - caracterizando como empresa familiar - , a primeira loja a ter computador na região central . Nós pusemos o primeiro computador funcionando em 1976 . E desenvolvemos bastante sistemas , partimos de uma forma muito séria para organização e... é uma loja que é absolutamente controlada por sistemas , com 18 para 19 anos de experiência nisso . Hoje a gente tem tudo por scanner , por código de barras , enfim , os processos mais modernos . A gente procura estar sempre... e... estar sempre , vamos dizer , naquilo que tem de mais moderno , que está ao alcance da gente . P - Eu queria que o senhor falasse um pouquinho antes , de quando o senhor começou , em 64 . Como é que era o Rei do Armarinho nessa época ? Como era a loja , as mercadorias que eram vendidas , o que é que o senhor fazia ? R - Bom , eu comecei em 64 , como um garoto rebelde ! A loja era bem menor , tinha aproximadamente 17 funcionários é...e a gente , eu tentei aprender um pouco com cada funcionário , aprender o meu lugar é... porque a gente no começo se achava filho do dono , e achava que mandava , e não era bem assim . E eu fui tendo que conquistar o meu espaço lá dentro , tendo que ser , deixar de ser o filho do dono e tentar ser o Gilberto . Isso foi uma batalha difícil , ao longo dos anos , porque você , se impor como sendo a pessoa , requer muito mais de você . Você tem que adquirir esse respeito , essa confiança perante as pessoas , pessoas que estavam na empresa muito antes de eu nascer , então realmente era difícil você conseguir atingir uma linha que você pudesse comandá-los no futuro . P - E qual que era a clientela nessa época ? R - Bom , eram clientes do Brasil inteiro... O Brasil de 64 era um país extremamente mais pobre de rodovias , de , de meios de comunicação , então as pessoas vinham , vamos dizer , de uma forma até sacrificante , até São Paulo , para fazer as compras para distribuir no seu estado . Então , nós tínhamos clientes do Brasil inteiro onde a gente vendia muito para regiões atacadistas , como Recife , Fortaleza , Belém do Pará , que sempre foram regiões fortes de distribuição , mas ... as pessoas faziam verdadeiras maratonas para poder vir à São Paulo comprar , e conseguir distribuir essa mercadoria lá . Então , o cliente naquela época era extremamente exigente com relação a preço , porque uma vez que ele se sacrificava para vir até São Paulo , ele brigava por qualquer centavo para poder tentar tirar o custo da viagem e o sacrifício dele , para poder levar o máximo possível de mercadorias . E era um , um período difícil , era outro... um perfil completamente diferente do de hoje , né . As mercadorias ficavam dentro de balcões , eram solicitadas , vamos dizer , eram muito menos produtos e esses produtos eram conhecidos nominativamente , ou até pela referência , e isso facilitava muito fazer uma concorrência de preços . Vamos dizer , eram poucas indústrias em cada ramo , então , isso permitia com que o cliente em 2horas ou 3 horas ele fizesse um pesquisa na região inteira . Hoje , esse perfil é bem diferente , a gama de produtos é extremamente maior , ... nós passamos por um período de inflação que o preço muda todo o dia , então a memória , hoje , das pessoas com relação a preço ainda é muito curta . Agora , com a estabilização do real , pode ser que comece a renascer esse aspecto . P - Seu Gilberto , quais seriam os produtos compreendidos como armarinho e se isso mudou ao longo do tempo ? R - É , armarinho é uma palavra muito vaga , né . Eu já tentei analisar o fundamento dessa palavra . Na realidade , armarinho ele é um conglomerado de coisas , das quais fazem parte os artigos de costura , que o termo correto é aviamento . Então , o armarinho é uma somatória de aviamento com demais outros produtos que definem , vamos dizer , uma linha mais ampla de coisas . É difícil você dar uma definição clara . Por exemplo , baralho , não tem nada a ver com costura , para uns faz parte do armarinho ; bola de gude , pião , pião de soltar com a corda , ... pequenos brinquedos , algumas coisinhas de plástico , assim , coisa de... jarra plástica ,... e vai por aí afora , é um sem fim de itens , né ! Na realidade , a nossa linha , a nossa empresa chama Rei do Armarinho , mas a gente não trabalha com esses ítens que eu estou mencionando . É só para dar um noção de amplitude . P - Quais são exatamente os ítens ? R - A gente trabalha muito mais voltado para costura . A nossa linha mais específica são as fitas , rendas , bordados , galões , linhas , zíperes ... P -... elásticos ... R -...elásticos , cadarços , cordões , coisas para cortinas , tipo acessórios para cortina , botões , aliás , botões é um dos pontos fortes nosso . É e , à medida que a loja foi crescendo , vamos dizer , foi tendo mais espaço para que a gente agregasse novas coisas . Então , numa determinada época do ano a gente valoriza um pouco o material escolar , em função da volta às aulas ; no carnaval você agrega alguma coisa que sirva para fantasias etc. ; no Natal você se especializa colocando enfeites para árvores , guirlandas etc. Então a gente complementa o armarinho tradicional ou o aviamento tradicional com coisas de cada época do ano . Então , isso acaba dando uma certa movimentação na , na atividade , porque uma boa parte da nossa clientela é rotativa , o cliente vem hoje , volta cada período . Uns semanalmente , outros mensalmente , e eles vêm na expectativa de encontrar alguma coisa para aquela ocasião para pôr na sua loja , ou para sua necessidade em si . P - Quantos tipos de botão o senhor vende , mais ou menos ? R - Deve ter mais de mil . Botão... botão tem algumas variantes que cabe frisar . Botão , além de existir de diversos tamanhos , existem diversas cores , existem diversos materiais : existe botão de plástico , de metal , de alumínio , botão para forrar... tem uma variedade enorme de tipos ! E existe o dourado , o prateado , existe o mesclado , entre cor e dourado , cor e prateado . Então , para que a gente possa ter toda essa variedade , você precisa ter uma área bem grande e... e precisa ter um sortimento bem grande para que você possa atender todas as necessidades e para que as pessoas possam se direcionar para lá na expectativa de encontrar o que deseja . P - O senhor estava falando do armarinho na época que o senhor começou a trabalhar , quer dizer , eram os balcões , né... R -... é , eram os balcões ... P -...e a mercadoria não ficava exposta da forma que , por exemplo , visitando a loja do senhor hoje , está... R - É , hoje é praticamente um auto-serviço . Na época as pessoas se dirigiam aos vendedores e o vendedor tomava nota do pedido , não separava na hora . Então , o cliente perguntava quanto custa tal produto , se servisse a quantidade ele dizia quanto queria comprar e... e o vendedor anotava num bloco para separar a mercadoria no estoque posteriormente . Era uma praxe da época . Depois , à medida que os anos foram passando , o cliente passou a ter mais pressa , queria levar a mercadoria com ele , então nós passamos a adotar um sistema de carrinho de supermercado.P - Quando que foi ? R - Isso foi mais ou menos por volta de 1970 / 69 . Nós fomos a primeira empresa a adotar , no atacado , essa prática . Inclusive o cliente , o cliente homem , se sentia inibido de puxar , de empurrar o carrinho , né . Quando era mulher era mais fácil , porque já tinha o hábito do supermercado ; mas o homem , a gente tinha que , a gente empurrar o carrinho para ele porque ( riso ) o machismo não permitia isso ! E depois , pouco a pouco foi se quebrando essa barreira . O cliente tinha mais pressa , é... então ele ia ... nós fomos gradativamente transformando a loja para que ele tivesse acesso ao produto . Fomos substituindo os balcões , gaveteiros , por mercadoria exposta . Isso foi uma transformação muito acentuada na época , e que depois todos os concorrentes acabaram copiando a gente . E hoje , vamos dizer , a gente também copiando os sistemas internacionais , ... quanto mais a mercadoria estiver ao alcance do cliente , vamos dizer , maior a probabilidade de compra . O cliente hoje compra muito por impulso , né ? E as pessoas , vamos dizer , se sentem também um certo ponto , até um certo ponto inibidas em ficar perguntando a todo instante : \"Onde está isso , onde está aquilo . \" Então , ele passeando com o carrinho por dentro da empresa e tendo os preços marcados e a especificação técnica do produto , ele acaba se sentindo mais à vontade para pegar a quantidade que deseja , então a gente já não trabalha nem com vendedores , hoje a gente trabalha com coordenadores de área , que orientam o cliente , ou dão alguma informação técnica . Mas é praticamente o cliente que compra , não é o vendedor que vende . P - Eu queria que o senhor falasse um pouco da disposição da loja atual , quer dizer ... o dia em que eu visitei , eu percebí que existia em vários setores o nome do coordenador da área . R - Exatamente . P - Como é que funciona isso ? R - A área , ela é dividida geograficamente em oito partes . Cada uma dessas partes tem um coordenador de área , e esse coordenador de área , nós fizemos um quadro com a fotografia dele e o nome dele e o nome do assistente dele . Então , pelo nosso lado , pela parte técnica , ele é obrigado a conhecer absolutamente tudo a respeito dos produtos que estão na sua área . Então , se alguma pessoa vier comprar na loja ou querer uma informação a respeito de algum daqueles ítens que estão na sua área , ele é obrigado a saber se tem em estoque , se não tem , quando vai chegar , qual é a composição desse material , enfim , qualquer detalhe técnico , inclusive a nível de concorrência , ele é obrigado a estar 100 % informado a respeito para poder passar essa informação para o cliente . Dentro da nossa filosofia , é mais fácil cada coordenador conhecer um pedaço da loja bem , do que querer que todos conheçam tudo . Então , com isso nós formamos oito experts , um para cada área , e como substituto têm seus assistentes , que na sua ausência , nas suas férias , ou por qualquer motivo de substituição , o assistente sabe dar as mesmas informações . E a cada seis meses , aproximadamente , nós mudamos as pessoas de área , para que também não fiquem excessivamente bitoladas . Então , com isso , a gente vai se aprofundando . Esses coordenadores ajudam a comprar mercadoria , ajudam a dizer o que não está vendendo muito , ajudam a informar o departamento de compras o que estão pedindo mais , qual é a tendência da evolução daqueles produtos . E com isso a comunicação fica muito mais estreita entre compras e vendas . Isso ajuda a formar uma parceria no sentido de decisão . P - Seu Gilberto , como que a , a região da 25 de Março começou a ficar caracterizada como região de armarinhos e de tecidos ? E a ordem , né , armarinho , tecidos . R - Isso já é de longa data . Bem antes de eu nascer já era assim . E... aliás eu diria o seguinte , que há muito tempo atrás , ela era muito forte e muito expressiva com relação a armarinhos e tecidos , talvez alguma pouca coisa a mais que isso . Inclusive era uma região extremamente menor do que é hoje . Hoje tem muitas das ruas que fazem parte das adjacências da 25 de Março , se transformaram em lojas também , mas na época que eu comecei a trabalhar em 64 , a Barão de Duprat , a Rua Cantareira eram lojas de frutas . Era um anexo do mercado , e não um anexo da 25 de Março . Então , hoje... isso cresceu bastante , hoje você tem nesses prédio lojas em andares , coisa que antigamente não funcionava . Hoje , cada pedacinho é bem ocupado e com a maior variedade possível de ramos diferentes . Você tem : bijuterias , brinquedos , agora então que abriu a importação , você tem de tudo ! Você tem... as coisas mais variadas possíveis em termos de quinquilharias em geral , além do tecido e do armarinho . P - O seu pai quando começou ele era mascate especificamente de alguns ítens de armarinho ? R - Não , meu pai não começou como mascate . Os irmãos dele mais velhos que começaram como mascate . Quando meu pai veio , ele já pegou a situação um pouquinho melhor . P - Já como loja ? R - É . Ele trabalhou com os irmãos um tempo , porque os irmãos começaram como mascates , ganharam algum dinheiro , conseguiram se estabelecer , meu pai foi trabalhar com eles um tempo , e depois adquiriu uma loja e começou já com uma idade um pouquinho maior . P - E eles mascateavam no interior de São Paulo ? R - Mascateavam pelo interior . P - Vendendo , também , ítens de armarinho ? R - Isso , armarinho , alguma coisa de tecido . P - No caso da loja do pai do senhor , quando ele fundou , qual que era a mercadoria ... não tinha essa diversidade de hoje... R - Era bem mais restrito . Uma das mercadorias dita por ele , porque eu não tenho o histórico disso , era Linhas Corrente . Então , antigamente se vendia muito Linha Cruz . Linha Cruz era um produto extremamente utilizado . É uma linha de carretel que se usa até hoje , em menor escala . Aquilo se vendia de caixa , de caixotes fechados . Eram poucos produtos mas esses produtos eram vendidos em larga escala , era realmente um atacado . Se vendia alguma coisa de perfumaria , tipo Leite de Rosas ,... alguma coisa a nível de fraldas ,... que mais ? Botão de calça . Hoje calça nenhuma usa mais botão , todos foram substituídos pelo zíper , mas existe um botão , ainda existe hoje , meio...que é o botão 200 por 22 , é a referência dele , tamanho 22 , que era vendido , vamos dizer , em embalagens enormes ! A gente , para ter uma noção de tamanho , embalava essas compras em caixa de geladeira , que era ... as geladeiras antigamente eram embaladas em , em caixa de madeira , e a gente comprava , quer dizer , eles compravam caixa de geladeira usada , caixa de madeira usada , para embalar geladeira , para embalar os armarinhos , para despachar paras longas distâncias , né . P - Quantidade enorme... R - Era uma quantidade grande para compensar a viagem , né ? O cliente vinha , duas , três vezes por ano , né . Avião era precário,... transporte de ônibus era sem asfalto , então , tinha uma série de dificuldades . O cara quando vinha para São Paulo fazer compras era uma aventura!P - E , no caso , tanto o pai do senhor , quanto o senhor sempre trabalharam com varejo e com atacado ? R - Não , antigamente a loja era bem direcionada a atacado . Depois , com o decorrer dos anos , o perfil da 25 de Março foi mudando , foi ficando misto . A própria Rua 25 de Março ela hoje é uma rua de varejo . As travessas ainda conseguem ter algum atacado . Por exemplo , se a nossa loja hoje estivesse na Rua 25 de Março , ela jamais poderia ser do jeito que é , teria que se adaptar a um perfil diferente . P - Qual que é essa diferença ? R - A diferença é a seguinte : a 25 de Março é uma rua que... é extremamente mais populosa , vamos dizer ; a quantidade de pessoas que passa por , por minuto , ou por hora , é extremamente maior do que as travessas ; as travessas selecionam um pouco mais . Então , se vocês observarem , a 25 de Março , é uma rua que a grande maioria das lojas se adaptou colocando bancas com ofertas na porta , e , assim , pegando um público de classe mais ... classe D , classe E , vendendo mais coisas de oferta . Enquanto que as travessas conseguem selecionar um pouquinho melhor o tipo de estrutura e o tipo de gente que entra para comprar . P - Eu queria que o senhor falasse um pouco dessa clientela , da mudança , das transformações . R - Bom , aí tem diversos clientes , diversos perfis . Nós temos o cliente de bazar , o cliente que compra para revender no varejo , e que , vamos dizer , é cliente de longo tempo com a gente , então ele é um cliente que se sente em casa , dentro da nossa loja ; é um cliente que compra sem a menor dificuldade , sem ninguém precisar atendê-lo , é um perfil . Nós temos o confeccionista ; o confeccionista é um cliente mais exigente , ele vem especificamente para procurar determinado produto , para coleção que ele está lançando , ou vem... ... olhar o que existe para poder desenhar a coleção que ele vai desenvolver . Então ele precisa de um atendimento personalizado . E nós temos o público de passagem , o público que vem na região , vamos dizer , sabendo que a Rua 25 de Março é uma rua que vende mais em conta , e... até pela tradição , pela , vamos dizer , pelo conhecimento da nossa loja ,... as pessoas vêm até lá para , para ver se conseguem achar alguma coisa diferenciada e mais em conta para , para seu próprio uso e consumo . Então , a gente tem um público bem expressivo , hoje . Vamos dizer , hoje a gente tem um misto entre o cliente lojista , o cliente confeccionista e o próprio consumidor . Nós atendemos uma média de 1.800 a 2.000 pessoas por dia , que compram na loja . E a gente tem uma estimativa de que entram na loja aproximadamente 2.800 a 3.000 pessoas . E nessa época do ano , agora em novembro/dezembro , a gente tem uma estimativa de que chega a entrar quase 4.000 pessoas/dia . É um público extremamente diverso . E a gente , em determinados períodos , em função do que eu falei anteriormente , quando a gente coloca produtos de época , a gente agrega outras atividades . Por exemplo , agora , com... nas proximidades do Natal , a gente tem vendido muito para shopping centers , para fazer a decoração de shopping centers , para fazer a decoração de prédios , para fazer a decoração de consultórios , escritórios , que são clientes especificamente dessa época , são clientes que não compram da gente o resto do ano . E que acabam tomando conhecimento através de algum anúncio , através de alguma informação , ou de algum colega , ou de algum conhecido , ou às vezes , eventualmente , até através de alguma reportagem . P - O senhor falou de anúncio . Eu queria que o senhor falasse sobre a questão do marketing da empresa do senhor . Vocês trabalharam com isso , quando que foi a primeira , a primeira propaganda do Rei do Armarinho ...R - Bom , a primeira propaganda eu não conheço , não saberia precisar para você , mas eu já participei de algumas promoções e propagandas que nós fizemos . Nós fizemos uma coisa bonita quando a empresa completou 50 anos , em 1976 . Foi pela primeira vez , nós contratamos uma agência de publicidade , e nós desenvolvemos um logotipo , que é esse reizinho que a gente tem , logotipo ou logomarca , né , porque ele vem associado ao nome , e nós fizemos um... uma divulgação através , através da imprensa ,... tentando... bastante institucional , tentando valorizar as pequenas coisas : o armarinho , o botãozinho , o zíper , a linha . E a base da campanha era : \" O mundo é feito de pequenas coisas \" . E mostrava ... um bustiê preso por um botão , quer dizer , se caísse aquele botão... ( riso ) ia fazer estrago ; a mesma coisa com o zíper... e foram feitos diversos desenhos , diversas fotos , diversas montagens , e foi uma campanha extremamente interessante , deu um resultado de conhecimento , de valorização do tipo de atividade muito grande , tanto perante fornecedores , como perante os clientes e funcionários nossos . E não te respondendo à sua pergunta mais uma vez,... vou te responder , a última promoção que nós fizemos . O ano passado , a gente vem... veio em crise desde o Plano Collor para cá , e... já até no desespero de ver que as coisas não iam bem , nós fizemos uma promoção bastante interessante , foi a primeira empresa a fazer isso , em termos individuais : nós pusemos um ômega dentro da loja , fizemos um... um concurso : a cada X de compras dava direito a um cupom , e no final de um período se sorteava o carro . E isso realmente deu uma alavancada extraordinária na empresa , e nós conseguimos reportagens variadas em inúmeros jornais de... de primeira classe , como O Estado de S . Paulo , que nos deu um quarto de página a cores na capa do Caderno de Economia , a Folha de S . Paulo nos deu um quarto de página a cores na capa do Caderno Cidades , o DCI a mesma coisa , e outros jornais de menor expressão . E isso tornou a nossa empresa , tanto a nível de varejo como de atacado , extremamente mais conhecida , mais agitada , mais , mais dinâmica . Deu realmente um resultado muito interessante , né . Agora , esse ano nós não fizemos nada , quem sabe o ano que vem se faça alguma outra coisa diferente . P - Essa idéia de colocar um carro , fazer sorteio ela se esgota depois de alguma tempo ou o senhor pode fazer isso a cada tanto tempo e isso vai atrair consumidores ? R - É... o que eu penso é o seguinte : eu acho que o consumidor hoje , naquela época foi ótimo , o consumidor hoje ele quer mais do que um sorteio . O consumidor hoje quer produto , quer qualidade , quer... quer preço . Então , sorteio já tem tantos por aí ! Você vai abastecer o carro num posto , um dá sorteio de automóvel , outro dá desconto , outro dá prazo no cheque... quer dizer , você vai em qualquer shopping center , tem aí dezenas de carros sendo sorteados . Então , hoje , o consumidor já saturou um pouco , isso deixou de ser novidade . Quando nós fizemos isso , talvez um ou dois shoppings tinham feito na época , então ainda era muito novidade , o interior inteiro não conhecia isso . Como a gente vende a nível nacional , era uma novidade . Tinham clientes que punham 1.000 , 2.000 , 3.000 cupons na urna , porque eles compram no atacado , então dava direito , pelo valor da compra , a muitos cupons . Então , a chance crescia sensivelmente de participar , e como tinha um prazo definido para terminar,... isso agilizou , vamos dizer , antecipou compras , vamos assim dizer . Antecipou e direcionou , tirou da concorrência porque lá oferecia alguma coisa a mais . P - Eu queria que o senhor falasse um pouco sobre a relação com os fornecedores . R - Bom , nós ... vamos dizer , até por tradição - isso não é mérito nosso - sempre tivemos um extraordinário relacionamento com os fornecedores . E hoje , até fazendo parte da modernidade , quer dizer , a gente tenta , na medida do possível , trabalhar a nível de parceria com todos eles . Temos alguns fornecedores extremamente afiados com a gente , tanto no lançamento de produtos , como na definição do lançamento do produto , como até no aspecto exclusividade para nós por um período por ajudar essa definição , por a gente estar mais sensível ao mercado . P - O senhor faz vendas , por exemplo , de linhas específicas , uniforme militar , coisas desse tipo ? R - Não . P -... de armarinho para ...? R - Não , não fazemos . Isso também já foi um pouco a época . Isso depende de concorrência pública , é um aspecto mais complicado . P - E se alguém entrar na loja pedindo um botão diferente...? R - A gente mostra a seção , fala para ele ver se gosta de algum , não é? ( riso ) P - Na loja , eu , eu lembro que tinha um vídeo com um desfile de , de modas , assim ... R - É , isso a gente tem constantemente . P - Como é que é...? R - O que acontece é o seguinte : a gente... todos ... em todos os desfiles internacionais é feito uma filmagem , e depois do desfile é vendido a fita . Então nós temos pessoas que viajam constantemente e que a gente encomenda para que tragam os vídeos de cada feira , de cada exposição , seja em Paris , seja em Frankfurt , seja em Milão . Então , a gente constantemente está passando esses , esses vídeos desses costureiros famosos , e às vezes até generalizado , para mostrar tendência de moda . Como a gente joga com uma estação de atraso em relação à Europa , então , vamos dizer , a gente , já está passando o verão quando a gente já está no inverno , ou vice-versa . E o pessoal das confecções , o pessoal ... mesmo curiosos , ou aqueles que eventualmente queiram desenvolver uma roupa , já vão se preparando para próxima estação , né , analisando a tendência , que tipo de produto que vai usar... isso ajuda bastante a gente . P - Bom , eu queria que o senhor falasse um pouco da Univinco . Atualmente o senhor é conselheiro da Univinco , o senhor foi fundador... eu queria que o senhor falasse um pouco da associação . R - Bom , a Univinco é uma coisa antiga ... A história da Univinco é a seguinte : mais ou menos por volta de 1970 , a Rua 25 de Março tinha ... e os comerciantes da região da 25 de Março , tinham uma série de desejos com relação à prefeitura , com relação aos órgãos ... aos órgão públicos em geral . Então , existia deficiência de telefonia , um mau calçamento , um mau asfalto,... pouca segurança , não tinha iluminação adequada , e assim sucessivamente . Então , nasceu a idéia de se juntarem alguns dos comerciantes e fundarem uma associação com o espírito de fortalecer... fortalecer os comerciantes em relação aos órgãos públicos , eh... essa associação , vamos dizer , representava uma região que... historicamente representa , vamos dizer , um potencial expressivo de faturamento , de arrecadação de tributos etc. E individualmente cada comerciante pouco conseguiria . Então , na época foi fundado , a ... Univinco com aproximadamente 20 a 25 diretores , um numero até grande para uma associação , mas o espírito era tentar , vamos dizer , envolver o máximo possível de pessoas para tentar sensibilizar prefeitura , estado etc. E com isso nós conseguimos grandes passos na região , como foi mudada toda a iluminação , uma boa parte da região hoje já tem fiação subterrânea , então não fica aquele monte de postes com aquela fiação exposta , foi feito calçamento , foi feito recapeamento asfáltico , foi colocado segurança , foi feito algumas reformas na região... antigamente a 25 de Março tinha um problema de enchente , né , então , vamos dizer , a Univinco , ajudou até a canalizar... foi fazer pressão para canalização do Rio Tamanduateí<in> , e... limpeza de bueiros etc , etc. E a Univinco , vamos dizer , foi muito atuante durante muito tempo , e como toda a associação tem seus altos e baixos , vai mudando a diretoria , um é mais interessado , outro menos , mas ela se mantém até hoje e é uma entidade forte , é uma entidade respeitada ; já ganhou alguns prêmios , prêmios de decoração de rua em época de Natal , já teve participação... bastante atuante a nível de eleger políticos , então . assim como ela necessita de respeito , ela também é respeitada , né . Hoje eu sou um mero conselheiro , presidente do conselho , mas vamos dizer ... inclusive a gente vem conseguindo , vamos dizer , eu atuei inclusive nesse aspecto também , na ... questão de se construir um terminal de ônibus para ... terminal de ônibus de excursão . Um ônibus que vem de fora de São Paulo , para ... as pessoas se juntam numa determinada cidade , vêm com o ônibus durante a noite , chegam aqui de manhã cedo , fazem compra e voltam à noite . Então elas economizam hotel , economizam o frete de despacho que o ônibus de carreira cobra para levar os produtos e... viajam entre amigos . E sai muito mais em conta , né . E dentro desse aspecto , vamos dizer , como esses ônibus vêm crescendo , cada vez mais ônibus vêm à região , e a região é difícil para estacionar carro , imagine ônibus , então nós conseguimos junto a prefeitura que se faça um terminal para ônibus de turismo , que já está quase por vias de inaugurar . P - Bom , no... nessa questão do comércio de armarinhos , e tal , o que é que o senhor mais gosta de fazer , assim ... R - Em termos de...? P - Do trabalho... da atividade do senhor . R - Bom , eu sou um pouco idealista , né , mais do que um bom comerciante . Então , vamos dizer , a minha maior vibração está em descobrir alguma coisa nova , em acrescentar alguma coisa que nos torne diferenciados dos demais , que agrade o cliente dentro do aspecto dele sentir que lá dentro é sempre alguma coisa especial , sempre tem alguma coisa especial . Então eu olho muito sobre esse enfoque , além de cumprir aquela rotina chata do dia-a-dia , né... ( riso ) . Mas esse é o ponto mais vibrante meu . P - Eu queria que o senhor falasse um pouco do casamento do senhor : como que o senhor conheceu sua esposa , o nome dela ... R - Bom , minha esposa se chama Solange , e eu conhecí namorando com uma amiga dela e ela namorando com um amigo meu , não é... e... de repente nós trocamos . ( riso ) Eu acabei gostando dela , e ganhei a simpatia dela , e acabou dando certo , nos casamos ; hoje , especificamente hoje , eu estou completando 20 anos de casado e eu acho ela uma mulher formidável , me deu muita força , me deu , foi sempre companheira nas horas difíceis , sempre procurou me estimular , ir em busca dos meus objetivos , sempre procurou apoiar , dar força , nunca tentando me desviar daquilo que é meu sonho , é meu desejo , é minha ambição profissional . A gente vive bem , temos três filhos , já numa idade... expressiva , um de 19 , um de 18 , um de 13 . P - Qual o nome deles ? R - O mais velho , de 19 anos , chama Patrick , o do meio se chama Pierre , tem 18 anos , e o pequeno se chama Felipe , e tem 13 anos . P - São comerciantes ? R - Dois , com tendência . O pequeno ainda não deu para sentir . Mas , principalmente o segundo , parece que corre no sangue nas veias , aí.P - E ele quer trabalhar com o senhor ? R - Já trabalha comigo , os dois mais velhos trabalham . Mas o segundo , Pierre , especificamente , a gente percebe que tá no sangue o ato de comercializar , né . O Patrick já é mais tipo sonhador , um outro estilo . P - Assim como o senhor , vamos dizer , inovou uma série de coisas em relação ao seu pai , o que é que o senhor acha que vai ser... R -...em relação a eles ? P -...em relação a eles inovar . No que é que haveria para inovar , ou como é que eles vêem , vamos dizer , a atividade armarinho ? R - Olha , eu já acho o seguinte , eu acho que o armarinho... nesse ponto que nós estamos chegando , já não é o principal : eu acho que a verdadeira arte está em tentar acompanhar a evolução dos tempos . E é fundamental para essa geração nova conhecer profundamente a área de informática . Porque produtos , nós vamos ter tantos lugares vendendo , tantas coisas , com essa abertura de mercado , então nós vamos precisar ter um melhor sistema , o mais dinâmico , o mais evoluído , o mais rápido , para que possa superar uma nova fase . Nós estamos vivendo hoje ainda a fase de entusiasmo , porque está cheio de novidades , mas já , já a gente se acostuma com essas novidades e elas deixam de ser isso . Então , a concorrência vai se tornar cada vez mais forte . Então , eu acho que criar mecanismos através do computador que possam... possam continuar tornando interessante ou criar facilidades para que a pessoa compre sem precisar se locomover tanto... quer dizer , é mais ou menos essa a linha do futuro que a gente enxerga meio de binóculo e que isso vai precisar ser depurado , e eu acho que já é essa a próxima geração que vai ter essa incumbência . P - Seu Gilberto , no caso , se o senhor pudesse mudar alguma coisa na trajetória de vida do senhor , o senhor mudaria ... ou não ? R - É uma pergunta difícil . Eu brinco muito porque eu gosto muito de viajar , talvez o meu maior hobby é esse e talvez eu pudesse fazer isso com mais intensidade . Então , é muito sonho , muito desejo e pouca realização . E eu sou especificamente apaixonado pela Alemanha , pela França , enfim , aquele miolozinho da Europa em que... talvez até eu ... em vidas passadas eu tivesse passado por lá . E... aquilo me encanta ! O fato de eu poder imaginar... de estar morando lá um período , ou vivendo um período lá , ... mexe com o meu sentimento , com a minha sensibilidade . Mas , isso é fantasia . Eu não sei te dizer especificamente se eu seria melhor sucedido ou mais realizado se fosse um engenheiro , ou se fosse um médico , ou se tivesse outra profissão . Eu acabei na ... na geração em que eu nascí , o filho não tinha tanta opção de escolha . A gente ia meio na base do , do que o pai manda . E eu acabei entrando . Não que fosse forçado a isso , mas fui relativamente induzido a isso , e acabei abraçando e... sem comparar isso com outras atividades . Eu me sinto feliz , me sinto realizado , acho que eu proporcionei muita coisa saudável para nossa empresa e para própria região . E quem sabe até para muitos clientes e muitos fornecedores . E eu me sinto uma pessoa feliz com o que faço e realizado com as coisas que passaram pela minha mão . P - Bom , o senhor se definiu como uma pessoa sonhadora . Qual é o grande sonho do senhor ? R - Ich... P - Eu sei que tem vários , mas ... ( riso ) R - Meu grande sonho ? Não tenho assim um sonho tão... vamos dizer , uma coisa , um desejo forte de alguma coisa especificamente . Eu desejo , vamos dizer , ter saúde , ter uma família , vamos dizer , legal , encaminhar meus filhos , poder parar de trabalhar um dia sabendo que alguém vai fazer isso por mim e fazer melhor do que eu faço , para que eu possa curtir mais um pouco a vida ! Não , não tenho grandes ambições , nem... vamos dizer ... grandes necessidades de mudanças . Não tenho assim um sonho específico . P - Bom , para gente concluir , eu queria que o senhor falasse o que é que o senhor acha , o que é que o senhor achou de passar essa hora aqui com a gente , de deixar registrada aqui a trajetória de vida do senhor , a história do Rei do Armarinho , da 25 de Março , um pouco dessa história . Eu queria que o senhor falasse o que o senhor acha disso . R - Bom , em primeiro lugar eu gostaria de agradecer essa oportunidade que eu tive de estar sendo entrevistado por vocês , de ter sido escolhido para fazer esse trabalho num universo de inúmeras pessoas , e isso me dá um , uma sensação de orgulho , uma sensação de um dia eu até poder me ver no futuro num computador , saber as besteiras que eu vim falar... Acho que é um trabalho extremamente válido , um trabalho extremamente... sensível , inclusive , até pelo fato de eu ser idealista , eu acho que nós estamos registrando , não só com a minha entrevista , mas como com a entrevista que vocês estão fazendo com outras áreas e com outras pessoas , de marcar um... vamos dizer , a década de 90 , vamos dizer , da nossa São Paulo . Acredito que... a somatória desses depoimentos deva dar uma noção , vamos dizer , de como as pessoas vivem e... e o histórico do seu passado , eventualmente seu sonho futuro , vamos dizer , registrado a nível de comerciantes da nossa cidade . Cada um com a sua história , com a sua procedência e com a sua ambição . P - Bom , a gente agradece . R - Tá , eu que agradeço vocês , muito obrigado por essa oportunidade , e espero um dia ...poder pelo menos me assistir . ( riso ) P - ( riso ) Com certeza . Obrigada . "^^xsd:string .
+
+<http://linguateca.pt/harem#char=27596,27617>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "O Estado de S . Paulo"^^xsd:string ;
+        nif:beginIndex        "27596"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "27617"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=2119,2128>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "São Paulo"^^xsd:string ;
+        nif:beginIndex        "2119"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2128"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=3362,3364>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "54"^^xsd:string ;
+        nif:beginIndex        "3362"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3364"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=8582,8584>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "64"^^xsd:string ;
+        nif:beginIndex        "8582"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "8584"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=36938,36944>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Pierre"^^xsd:string ;
+        nif:beginIndex        "36938"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "36944"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=24570,24583>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1.800 a 2.000"^^xsd:string ;
+        nif:beginIndex        "24570"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "24583"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=40910,40926>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Rei do Armarinho"^^xsd:string ;
+        nif:beginIndex        "40910"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "40926"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=5820,5824>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1964"^^xsd:string ;
+        nif:beginIndex        "5820"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5824"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=5607,5615>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "São Luís"^^xsd:string ;
+        nif:beginIndex        "5607"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5615"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=40932,40943>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "25 de Março"^^xsd:string ;
+        nif:beginIndex        "40932"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "40943"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=5336,5338>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "45"^^xsd:string ;
+        nif:beginIndex        "5336"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5338"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=70,87>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Roney Cytrynowicz"^^xsd:string ;
+        nif:beginIndex        "70"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "87"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1273,1279>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Brasil"^^xsd:string ;
+        nif:beginIndex        "1273"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1279"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=6750,6757>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "35 anos"^^xsd:string ;
+        nif:beginIndex        "6750"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "6757"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=5019,5026>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "17 anos"^^xsd:string ;
+        nif:beginIndex        "5019"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5026"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=8741,8743>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "64"^^xsd:string ;
+        nif:beginIndex        "8741"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "8743"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=8604,8620>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Rei do Armarinho"^^xsd:string ;
+        nif:beginIndex        "8604"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "8620"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=12125,12141>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Rei do Armarinho"^^xsd:string ;
+        nif:beginIndex        "12125"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "12141"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=20746,20756>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Linha Cruz"^^xsd:string ;
+        nif:beginIndex        "20746"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "20756"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=41751,41760>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "São Paulo"^^xsd:string ;
+        nif:beginIndex        "41751"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "41760"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=9961,9974>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Belém do Pará"^^xsd:string ;
+        nif:beginIndex        "9961"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "9974"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=1059,1078>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ao Rei do Armarinho"^^xsd:string ;
+        nif:beginIndex        "1059"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1078"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=27088,27100>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Plano Collor"^^xsd:string ;
+        nif:beginIndex        "27088"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "27100"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=2448,2458>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Belenzinho"^^xsd:string ;
+        nif:beginIndex        "2448"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2458"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=3452,3464>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Rua Honduras"^^xsd:string ;
+        nif:beginIndex        "3452"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3464"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=19205,19219>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Rua Cantareira"^^xsd:string ;
+        nif:beginIndex        "19205"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "19219"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=591,600>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "São Paulo"^^xsd:string ;
+        nif:beginIndex        "591"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "600"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=22326,22341>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Rua 25 de Março"^^xsd:string ;
+        nif:beginIndex        "22326"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "22341"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=5433,5440>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Fissori"^^xsd:string ;
+        nif:beginIndex        "5433"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5440"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=20733,20743>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Linha Cruz"^^xsd:string ;
+        nif:beginIndex        "20733"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "20743"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=505,509>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Homs"^^xsd:string ;
+        nif:beginIndex        "505"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "509"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=31689,31697>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Univinco"^^xsd:string ;
+        nif:beginIndex        "31689"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "31697"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=25085,25090>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Natal"^^xsd:string ;
+        nif:beginIndex        "25085"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "25090"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=19086,19097>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "25 de Março"^^xsd:string ;
+        nif:beginIndex        "19086"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "19097"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=21055,21069>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Leite de Rosas"^^xsd:string ;
+        nif:beginIndex        "21055"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "21069"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=38923,38931>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Alemanha"^^xsd:string ;
+        nif:beginIndex        "38923"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "38931"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=36637,36643>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Felipe"^^xsd:string ;
+        nif:beginIndex        "36637"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "36643"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=1345,1350>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Síria"^^xsd:string ;
+        nif:beginIndex        "1345"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1350"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=31014,31023>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Frankfurt"^^xsd:string ;
+        nif:beginIndex        "31014"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "31023"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=38939,38945>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "França"^^xsd:string ;
+        nif:beginIndex        "38939"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "38945"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=36652,36659>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "13 anos"^^xsd:string ;
+        nif:beginIndex        "36652"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "36659"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=27695,27713>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Folha de S . Paulo"^^xsd:string ;
+        nif:beginIndex        "27695"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "27713"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .
+
+<http://linguateca.pt/harem#char=6105,6109>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1926"^^xsd:string ;
+        nif:beginIndex        "6105"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "6109"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,42277> .

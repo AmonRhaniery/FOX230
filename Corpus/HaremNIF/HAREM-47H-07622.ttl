@@ -1,0 +1,118 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=212,227>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "07 de Fevereiro"^^xsd:string ;
+        nif:beginIndex        "212"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "227"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,594> .
+
+<http://linguateca.pt/harem#char=288,298>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Corte Real"^^xsd:string ;
+        nif:beginIndex        "288"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "298"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,594> .
+
+<http://linguateca.pt/harem#char=0,594>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "594"^^xsd:nonNegativeInteger ;
+        nif:isString    "Navios de guerra portugueses e espanhóis em Leixões Uma força naval de quatro navios de guerra portugueses e espanhóis , com uma guarnição total de mais de 640 tripulantes , faz escala no Porto de Leixões a 06 e 07 de Fevereiro , disse ontem fonte da Zona Marítima do Norte . Os navios « Corte Real » , « João Belo » , « Andalucia » e « Berrio » têm entre 103 e 140 metros de comprimento e são comandados pelo capitão de mar e guerra Fernando José Ribeiro de Melo Gomes . A força naval , que estará aberta a visitas no dia 07 , desloca-se ao Porto de Leixões no âmbito do exercício Contex 99 . "^^xsd:string .
+
+<http://linguateca.pt/harem#char=188,204>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Porto de Leixões"^^xsd:string ;
+        nif:beginIndex        "188"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "204"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,594> .
+
+<http://linguateca.pt/harem#char=44,51>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Leixões"^^xsd:string ;
+        nif:beginIndex        "44"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "51"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,594> .
+
+<http://linguateca.pt/harem#char=542,558>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Porto de Leixões"^^xsd:string ;
+        nif:beginIndex        "542"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "558"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,594> .
+
+<http://linguateca.pt/harem#char=207,209>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "06"^^xsd:string ;
+        nif:beginIndex        "207"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "209"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,594> .
+
+<http://linguateca.pt/harem#char=321,330>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Andalucia"^^xsd:string ;
+        nif:beginIndex        "321"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "330"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,594> .
+
+<http://linguateca.pt/harem#char=523,525>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "07"^^xsd:string ;
+        nif:beginIndex        "523"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "525"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,594> .
+
+<http://linguateca.pt/harem#char=251,273>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Zona Marítima do Norte"^^xsd:string ;
+        nif:beginIndex        "251"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "273"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,594> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=305,314>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "João Belo"^^xsd:string ;
+        nif:beginIndex        "305"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "314"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,594> .
+
+<http://linguateca.pt/harem#char=410,469>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "capitão de mar e guerra Fernando José Ribeiro de Melo Gomes"^^xsd:string ;
+        nif:beginIndex        "410"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "469"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,594> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=337,343>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Berrio"^^xsd:string ;
+        nif:beginIndex        "337"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "343"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,594> .
+
+<http://linguateca.pt/harem#char=582,591>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Contex 99"^^xsd:string ;
+        nif:beginIndex        "582"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "591"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,594> .
+
+<http://linguateca.pt/harem#char=350,372>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "entre 103 e 140 metros"^^xsd:string ;
+        nif:beginIndex        "350"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "372"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,594> .
+
+<http://linguateca.pt/harem#char=148,159>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "mais de 640"^^xsd:string ;
+        nif:beginIndex        "148"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "159"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,594> .

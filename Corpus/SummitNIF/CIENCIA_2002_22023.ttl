@@ -1,0 +1,83 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1457,1491>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Laboratório Nacional de Los Alamos"^^xsd:string ;
+        nif:beginIndex        "1457"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1491"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2462> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1579,1587>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "\"Nature\""^^xsd:string ;
+        nif:beginIndex        "1579"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1587"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2462> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1910,1933>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Universidade do Arizona"^^xsd:string ;
+        nif:beginIndex        "1910"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1933"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2462> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1436,1451>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Douglas Revelle"^^xsd:string ;
+        nif:beginIndex        "1436"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1451"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2462> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=2154,2161>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Sibéria"^^xsd:string ;
+        nif:beginIndex        "2154"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2161"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2462> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2462>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "2462"^^xsd:nonNegativeInteger ;
+        nif:isString    "A maioria dos cientistas concorda que os asteróides com mais de um quilômetro de diâmetro , capazes de destruir civilizações inteiras , são uma preocupação que só se justifica a cada punhado de dezenas de milhões de anos . Mas novos cálculos mostram que bólidos mais modestos , com 50 metros de diâmetro e a capacidade de destruir uma cidade , despencam do céu uma vez por milênio . Na verdade , trata-se de boa notícia . Estimativas anteriores sugeriam que um evento desses ocorresse em média a cada 200 ou 300 anos . Os novos cálculos , aprimorados com o uso de informação antes mantida secreta pelo governo americano , oferecem uma estimativa mais precisa sobre a periodicidade desses episódios . Durante os últimos oito anos , uma rede de satélites do Departamento de Defesa dos EUA tem monitorado a atmosfera terrestre com o objetivo de detectar explosões _obviamente na tentativa de monitorar o uso de armamento nuclear ao redor do globo . Registros de bomba atômica nunca apareceram , mas , em compensação , o sistema foi capaz de apontar diversos eventos de explosões _todas causadas pela entrada de pequenos asteróides na atmosfera da Terra e sua subsequente quebra pelo atrito com o ar . Para os militares a coisa acabou não sendo lá muito útil , mas os dados se tornaram um prato cheio para os astrônomos . \"Em oito anos , detectamos mais de 300 eventos , graças ao nosso sistema de calibragem dos dados de satélite\" , conta Douglas Revelle , do Laboratório Nacional de Los Alamos , um dos autores do estudo , que está publicado na edição de hoje da revista britânica \"Nature\" ( www.nature.com ) . Incidências de rochas espaciais de poucos metros de diâmetro na atmosfera acontecem com razoável frequência _anualmente , segundo os pesquisadores . \"Esses corpos medidos em metros são interessantes cientificamente , mas não oferecem absolutamente nenhum perigo aos humanos\" , diz Robert Jedicke , da Universidade do Arizona , escolhido pela \"Nature\" para comentar o estudo . A ameaça só existe quando os bólidos têm 50 metros ou mais . Foi um meteoro desse tipo ( ou um disco voador , segundo fãs de ufologia ) que explodiu sobre Tunguska , na Sibéria , em 1908 , destruindo centenas de quilômetros quadrados de floresta . Se um desses explodisse sobre uma região habitada , poderia matar milhões . Felizmente , com base na nova estimativa , parece haver ainda nove séculos para catalogar os pedregulhos espaciais e se preparar para futuras colisões . "^^xsd:string .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=2140,2148>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Tunguska"^^xsd:string ;
+        nif:beginIndex        "2140"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2148"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2462> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=756,778>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Departamento de Defesa"^^xsd:string ;
+        nif:beginIndex        "756"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "778"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2462> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=783,786>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "EUA"^^xsd:string ;
+        nif:beginIndex        "783"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "786"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2462> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Location> .
+
+<http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=1890,1904>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Robert Jedicke"^^xsd:string ;
+        nif:beginIndex        "1890"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1904"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://www.inf.pucrs.br/linatural/wordpress/recursos-e-ferramentas/summ-it#char=0,2462> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .

@@ -1,0 +1,298 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=481,488>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "36 Bits"^^xsd:string ;
+        nif:beginIndex        "481"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "488"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2705> .
+
+<http://linguateca.pt/harem#char=286,291>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Epson"^^xsd:string ;
+        nif:beginIndex        "286"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "291"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2705> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1846,1867>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "LaserSoft Silver Fast"^^xsd:string ;
+        nif:beginIndex        "1846"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1867"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2705> .
+
+<http://linguateca.pt/harem#char=2546,2553>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Tamboré"^^xsd:string ;
+        nif:beginIndex        "2546"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2553"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2705> .
+
+<http://linguateca.pt/harem#char=2572,2579>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Barueri"^^xsd:string ;
+        nif:beginIndex        "2572"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2579"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2705> .
+
+<http://linguateca.pt/harem#char=358,363>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "04/09"^^xsd:string ;
+        nif:beginIndex        "358"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "363"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2705> .
+
+<http://linguateca.pt/harem#char=1639,1648>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "AutoFocus"^^xsd:string ;
+        nif:beginIndex        "1639"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1648"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2705> .
+
+<http://linguateca.pt/harem#char=366,376>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Anhembi-SP"^^xsd:string ;
+        nif:beginIndex        "366"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "376"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2705> .
+
+<http://linguateca.pt/harem#char=2022,2038>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Expression 836XL"^^xsd:string ;
+        nif:beginIndex        "2022"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2038"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2705> .
+
+<http://linguateca.pt/harem#char=1780,1785>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Epson"^^xsd:string ;
+        nif:beginIndex        "1780"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1785"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2705> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=0,2705>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "2705"^^xsd:nonNegativeInteger ;
+        nif:isString    "Press Releases EPSON LANÇA NOVO SCANNER PROFISSIONAL O Epson Expression 836XL , scanner de mesa colorido para grandes formatos , captura imagens em 36 Bits e traz resolução de até 6400 ppp .Trabalha com as mais diversas mídias , incluindo slides , negativos , cartazes , tecidos etc. A Epson estará lançando na Comdex/Sucesu-SP South America'98 ( de 31/08 à 04/09 - Anhembi-SP ) seu novo scanner de mesa colorido para grandes formatos , o Expression 836XL , capaz de capturar , em 36 Bits , imagens de até 30,99 x 43,68 cm ( formato tablóide ).O produto é o primeiro no segmento com resolução de até 6400 pontos por polegadas ( óptica real de até 800 x 1600 ppp ) e com possibilidade de trabalhar com os mais diversos tipos , formas e tamanhos de mídia : aceita slides de 35 mm , fotos coloridas , cartazes , negativos , revistas , desenhos e tecidos e outros objetos tridimensionais.Compatível com PCs e MACs , o Expression 836 é indicado para designeres , diretores de arte e profissionais de artes gráficas.O novo scanner de mesa da Epson traz um exclusivo sistema de digitalização automatizada de lotes , que garante maior produtividade ao usuário.Após uma configuração mínima , o Expression 836XL digitaliza e salva seqüencialmente imagens no disco rígido , sem que o operador precise supervisionar o trabalho.O produto traz também um novo sistema de alinhamento de pinos que permite alinhar com maior precisão os originais.IMAGENS MAIS VIVAS E PRECISAS Novos recursos de ajuste de nitidez , foco , iluminação e tonalidade conferem maior qualidade , com imagens mais ricas , vivas e precisas.Através do sistema óptico de alta nitidez AutoFocus e de um alto intervalo dinâmico , o Expression 836XL proporciona detalhes ultra-nítidos e reproduções com qualidade profissional.A Epson inclui no produto uma versão exclusiva do driver de scanner LaserSoft Silver Fast , que garante maior controle sobre variáveis como equilíbrio de cores , curvas de tonalidades , iluminação , sombra e uniformização de área reticulada .O Expression 836XL , com um ano de garantia , inclui o software de edição de imagens Adobe Photoshop , driver de scanner Twain Pro , software utilitário de calibração e interface SCSI ( versão PC ).Apresenta velocidade de digitalização de até 7,5 mseg. por linha , em 800 ppp e tem dimensões de 65,6 cm x 45,8 cm x 17 cm .Entre os acessórios disponíveis estão uma unidade de transparência e um alimentador duplo automático de documentos . EPSON DO BRASIL - Tel 0800-120-040 - fax (011 ) 7295 -7356 - End Av . Tucunaré , 720 - Tamboré - CEP 06460-020 - Barueri - SP Novidades Produtos Epson | Suporte Técnico | Informação Institucional Download | Contate a Epson | Worldwide | Ano 2000 "^^xsd:string .
+
+<http://linguateca.pt/harem#char=55,77>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Epson Expression 836XL"^^xsd:string ;
+        nif:beginIndex        "55"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "77"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2705> .
+
+<http://linguateca.pt/harem#char=350,355>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "31/08"^^xsd:string ;
+        nif:beginIndex        "350"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "355"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2705> .
+
+<http://linguateca.pt/harem#char=2141,2150>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Twain Pro"^^xsd:string ;
+        nif:beginIndex        "2141"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2150"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2705> .
+
+<http://linguateca.pt/harem#char=600,625>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "6400 pontos por polegadas"^^xsd:string ;
+        nif:beginIndex        "600"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "625"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2705> .
+
+<http://linguateca.pt/harem#char=647,661>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "800 x 1600 ppp"^^xsd:string ;
+        nif:beginIndex        "647"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "661"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2705> .
+
+<http://linguateca.pt/harem#char=905,909>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "MACs"^^xsd:string ;
+        nif:beginIndex        "905"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "909"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2705> .
+
+<http://linguateca.pt/harem#char=2263,2272>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "7,5 mseg."^^xsd:string ;
+        nif:beginIndex        "2263"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2272"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2705> .
+
+<http://linguateca.pt/harem#char=772,777>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "35 mm"^^xsd:string ;
+        nif:beginIndex        "772"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "777"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2705> .
+
+<http://linguateca.pt/harem#char=2524,2537>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Av . Tucunaré"^^xsd:string ;
+        nif:beginIndex        "2524"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2537"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2705> .
+
+<http://linguateca.pt/harem#char=2315,2340>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "65,6 cm x 45,8 cm x 17 cm"^^xsd:string ;
+        nif:beginIndex        "2315"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2340"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2705> .
+
+<http://linguateca.pt/harem#char=439,455>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Expression 836XL"^^xsd:string ;
+        nif:beginIndex        "439"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "455"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2705> .
+
+<http://linguateca.pt/harem#char=311,344>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Comdex/Sucesu-SP South America'98"^^xsd:string ;
+        nif:beginIndex        "311"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "344"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2705> .
+
+<http://linguateca.pt/harem#char=2459,2474>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "EPSON DO BRASIL"^^xsd:string ;
+        nif:beginIndex        "2459"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2474"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2705> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=2676,2681>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Epson"^^xsd:string ;
+        nif:beginIndex        "2676"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2681"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2705> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=506,522>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "30,99 x 43,68 cm"^^xsd:string ;
+        nif:beginIndex        "506"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "522"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2705> .
+
+<http://linguateca.pt/harem#char=2213,2215>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "PC"^^xsd:string ;
+        nif:beginIndex        "2213"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2215"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2705> .
+
+<http://linguateca.pt/harem#char=2105,2120>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Adobe Photoshop"^^xsd:string ;
+        nif:beginIndex        "2105"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2120"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2705> .
+
+<http://linguateca.pt/harem#char=148,155>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "36 Bits"^^xsd:string ;
+        nif:beginIndex        "148"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "155"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2705> .
+
+<http://linguateca.pt/harem#char=2700,2704>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "2000"^^xsd:string ;
+        nif:beginIndex        "2700"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2704"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2705> .
+
+<http://linguateca.pt/harem#char=2199,2203>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "SCSI"^^xsd:string ;
+        nif:beginIndex        "2199"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2203"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2705> .
+
+<http://linguateca.pt/harem#char=1185,1201>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Expression 836XL"^^xsd:string ;
+        nif:beginIndex        "1185"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1201"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2705> .
+
+<http://linguateca.pt/harem#char=15,20>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "EPSON"^^xsd:string ;
+        nif:beginIndex        "15"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "20"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2705> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=914,928>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Expression 836"^^xsd:string ;
+        nif:beginIndex        "914"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "928"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2705> .
+
+<http://linguateca.pt/harem#char=1685,1701>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Expression 836XL"^^xsd:string ;
+        nif:beginIndex        "1685"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1701"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2705> .
+
+<http://linguateca.pt/harem#char=2582,2584>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "SP"^^xsd:string ;
+        nif:beginIndex        "2582"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2584"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2705> .
+
+<http://linguateca.pt/harem#char=2288,2295>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "800 ppp"^^xsd:string ;
+        nif:beginIndex        "2288"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2295"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2705> .
+
+<http://linguateca.pt/harem#char=899,902>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "PCs"^^xsd:string ;
+        nif:beginIndex        "899"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "902"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2705> .
+
+<http://linguateca.pt/harem#char=2604,2609>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Epson"^^xsd:string ;
+        nif:beginIndex        "2604"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2609"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2705> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1036,1041>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Epson"^^xsd:string ;
+        nif:beginIndex        "1036"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1041"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2705> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=180,188>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "6400 ppp"^^xsd:string ;
+        nif:beginIndex        "180"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "188"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,2705> .

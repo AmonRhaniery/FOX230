@@ -1,0 +1,362 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=1685,1690>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Verão"^^xsd:string ;
+        nif:beginIndex        "1685"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1690"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5638> .
+
+<http://linguateca.pt/harem#char=4909,4917>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Portugal"^^xsd:string ;
+        nif:beginIndex        "4909"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4917"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5638> .
+
+<http://linguateca.pt/harem#char=4791,4794>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Oia"^^xsd:string ;
+        nif:beginIndex        "4791"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4794"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5638> .
+
+<http://linguateca.pt/harem#char=0,5638>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "5638"^^xsd:nonNegativeInteger ;
+        nif:isString    "O meu pai era um lutador , defendia as suas ideias a ferro e fogo.Imagine que uma das coisas que ainda hoje me faz impressão , só se podia subir de categoria no correios se dissesse que sabia francês.Todos os colegas se inscreveram dizendo que sabiam francês porque sabiam dizer «merci beaucoop» , que é «muito obrigado».O meu pai disse : «Não , isso não é saber francês.Eu não sei .»Foi o único que não subiu.Era um homem recto.Admira-me o governo ponha uma condição dessas.Para quê saber francês naquela altura ?Isso ficou-me de exemplo para o longo da minha vida procurar ser recto , sério.E os seus irmãos , como é que os descreve na infância ?É curioso que nós tínhamos dois / três anos de diferença , mas convíviamos pouco porque quando eu estava na instrução primária , o meu irmão já estava na Escola Industrial .Na Covilhã ainda não havia liceu nessa altura .Uma cidade que não tinha liceu , tinha uma Escola Industrial muito boa , uma formação muito boa que podia entrar logo no Instituto Superior Técnico de Lisboa .O meu pai duvidou de ir para a Covilhã , e queria que fosse para Guarda , que tinha liceu , era a capital de distrito.Mas de facto , a Escola Industrial foi muito boa e o meu irmão andava na escola .Nos escuteiros eu era lobito e ele já era lobo.Mas demo-nos sempre muito bem , embora não tivessemos convivido muito os dois.Olhe convivemos muito mais aqui em Braga , quando estávamos na Faculdade de Filosofia , estivemos dois anos juntos.Foi o único tempo da vida que estivemos juntos.Éramos muito amigos , quando nos encontrávamos.Ele morreu há uns 10 anos .E a sua irmã ?Ainda vive.Actualmente , a minha família é ela .Juntamo-nos sempre pela Páscoa , no Verão , mas a nossa convivência é mais pelo telefone do que directamente.Só quando ela vem cá ou eu lá vou.E quando era criança ?Ela faz uma diferença muito grande de idade , são sete / oito anos de diferença .Também não convivi porque eu não estava em casa nessa altura , encontrávamo-nos nas férias , era quando havia mais convivio.Quais eram as actividades que faziam em família ?Eu compria as minhas obrigações nas aulas e o resto eu queria era brincar.E quando vinha alguma coisa séria , eu dizia :\"Isso é com o meu irmão !\"Porque as tias eram um pouco chatas , as tias andavam sempre atrás dos meninos e eu queria era brincar com os meus primos.Para mim a única coisa séria era estudar e o resto era para a brincadeira .Isso é que me marcava e ainda hoje penso nisso.Que tipo de brincadeiras ?Jogar os jogos das crianças daquele tempo.A família infleunciou a sua educação ?Sim , sim , a família marcou-me e disso não tenho dúvida , tanto no aspecto religioso , na minha vida católica , embora os meus tios foram todos jesuítas , mas os meus pais não praticavam.Apesar de tudo eram tolerantes uns com os outros.Havia na família republicanos dos dois partidos , havia monárquicos , mas sempre se deram muito bem na família .O que me marcou também muito sabe.Os meus amigos ainda hoje , eu dou-me bem com toda a gente porque , podemos ter alguma discussão , mas nunca daquelas discussões , apenas troca de ideias.Evidentemente , eles sabem o que eu penso , respeitam-me como é natural.Isso também me marcou porque , do ponto de vista político e até religioso , havia de tudo.Como descreve essa educação que recebeu ?Culturalmente não foi lá que a aprendi , é evidente.Foram os meus cursos , depois fui estudando , tive ocasião de estudar muita coisa porque para ser professor de Filosofia tive que estudar Economia em Bilbau , foi durante a guerra , não podia sair de Espanha , e depois em Levanda fiz Ciências Políticas e Filosofia aqui na Faculdade de Filosofia .Portanto , a cultura não foi lá.Mas o aspecto humano de convivência ai sim.O carácter , a maneira de ser , ai sim , eu sinto-me Craveiro , marcado pela família.E depois da primária para que escola é que foi ?Isso para mim foi muito fácil porque como ia bem preparado da instrução primária , os meus companheiros com muitas dificuldades , mas eu nunca tive essas dificuldades porque era a continuação.Estava preparado para ir cumprindo por aí fora.Ao longo dos meus estudos nunca tive dificuldade porque estudava com facilidade e com gosto , mas tive sempre um princípio que eu hoje resumo «quem não sabe descansar , não sabe trabalhar».E de facto , eu atribuo a essas causas porque eu depois gostava de brincar e de me distrair.E assim nunca tive esses cansaços , esses esgotamentos , nem o desencanto pelo estudo.Sempre gostei de saber e isso foi o meu professor de instrução primária que me meteu.Para que escola foi quando acabou a instrução primária ?Para o Ensino Secundário , em Castelo Rodrigo , a cidade mais próxima era « Cáseres ».Aí estive 5 anos , porque os jesuítas não podiam entrar em Portugal nessa altura.Depois fui para Oia aqui na Galiza , onde entrei na Companhia de Jesus .Estive lá só uns sete ou oito meses porque depois viemos para Portugal , para Braga , onde continuei os meus estudos de Ciências e Filosofia .Depois fui professor de Literatura em Guimarães , foi lá que eu comecei a minha vida de professor , por isso foi uma cidade que marcou.Estive lá três anos de professor.Depois fui para o estrangeiro.Comecei a estudar Teologia em Granada , Economia em Bilbau e Ciências Políticas em Levanda .E como eu sempre fui um pouco sério nos meus estudos , tirei licenciaturas.Para não estar só assim mais ou menos , tirei licenciatura em Economia em Bilbau , Ciências Políticas em Levanda e doutorei-me em Filosofia aqui.Fui o primeiro doutorado de Braga .Fiz o doutoramente em Braga .E antes não existia a universidade , só existia a Faculdade de Filosofia . "^^xsd:string .
+
+<http://linguateca.pt/harem#char=5484,5493>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Filosofia"^^xsd:string ;
+        nif:beginIndex        "5484"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5493"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5638> .
+
+<http://linguateca.pt/harem#char=3506,3512>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Bilbau"^^xsd:string ;
+        nif:beginIndex        "3506"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3512"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5638> .
+
+<http://linguateca.pt/harem#char=5556,5561>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Braga"^^xsd:string ;
+        nif:beginIndex        "5556"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5561"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5638> .
+
+<http://linguateca.pt/harem#char=1578,1585>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "10 anos"^^xsd:string ;
+        nif:beginIndex        "1578"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1585"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5638> .
+
+<http://linguateca.pt/harem#char=5227,5235>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Economia"^^xsd:string ;
+        nif:beginIndex        "5227"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5235"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5638> .
+
+<http://linguateca.pt/harem#char=5459,5466>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Levanda"^^xsd:string ;
+        nif:beginIndex        "5459"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5466"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5638> .
+
+<http://linguateca.pt/harem#char=1058,1065>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Covilhã"^^xsd:string ;
+        nif:beginIndex        "1058"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1065"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5638> .
+
+<http://linguateca.pt/harem#char=4638,4653>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Castelo Rodrigo"^^xsd:string ;
+        nif:beginIndex        "4638"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4653"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5638> .
+
+<http://linguateca.pt/harem#char=5239,5245>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Bilbau"^^xsd:string ;
+        nif:beginIndex        "5239"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5245"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5638> .
+
+<http://linguateca.pt/harem#char=824,831>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Covilhã"^^xsd:string ;
+        nif:beginIndex        "824"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "831"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5638> .
+
+<http://linguateca.pt/harem#char=5613,5635>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Faculdade de Filosofia"^^xsd:string ;
+        nif:beginIndex        "5613"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5635"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5638> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1386,1391>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Braga"^^xsd:string ;
+        nif:beginIndex        "1386"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1391"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5638> .
+
+<http://linguateca.pt/harem#char=5527,5532>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Braga"^^xsd:string ;
+        nif:beginIndex        "5527"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5532"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5638> .
+
+<http://linguateca.pt/harem#char=5248,5266>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ciências Políticas"^^xsd:string ;
+        nif:beginIndex        "5248"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5266"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5638> .
+
+<http://linguateca.pt/harem#char=3578,3585>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Levanda"^^xsd:string ;
+        nif:beginIndex        "3578"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3585"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5638> .
+
+<http://linguateca.pt/harem#char=3611,3620>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Filosofia"^^xsd:string ;
+        nif:beginIndex        "3611"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3620"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5638> .
+
+<http://linguateca.pt/harem#char=5270,5277>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Levanda"^^xsd:string ;
+        nif:beginIndex        "5270"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5277"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5638> .
+
+<http://linguateca.pt/harem#char=5205,5213>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Teologia"^^xsd:string ;
+        nif:beginIndex        "5205"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5213"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5638> .
+
+<http://linguateca.pt/harem#char=4978,4987>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Filosofia"^^xsd:string ;
+        nif:beginIndex        "4978"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4987"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5638> .
+
+<http://linguateca.pt/harem#char=1162,1179>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Escola Industrial"^^xsd:string ;
+        nif:beginIndex        "1162"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1179"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5638> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=5027,5036>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Guimarães"^^xsd:string ;
+        nif:beginIndex        "5027"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5036"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5638> .
+
+<http://linguateca.pt/harem#char=4704,4710>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "5 anos"^^xsd:string ;
+        nif:beginIndex        "4704"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4710"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5638> .
+
+<http://linguateca.pt/harem#char=4827,4845>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Companhia de Jesus"^^xsd:string ;
+        nif:beginIndex        "4827"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4845"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5638> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=3590,3608>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ciências Políticas"^^xsd:string ;
+        nif:beginIndex        "3590"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3608"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5638> .
+
+<http://linguateca.pt/harem#char=4684,4691>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Cáseres"^^xsd:string ;
+        nif:beginIndex        "4684"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4691"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5638> .
+
+<http://linguateca.pt/harem#char=989,1025>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Instituto Superior Técnico de Lisboa"^^xsd:string ;
+        nif:beginIndex        "989"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1025"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5638> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=5217,5224>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Granada"^^xsd:string ;
+        nif:beginIndex        "5217"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5224"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5638> .
+
+<http://linguateca.pt/harem#char=4803,4809>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Galiza"^^xsd:string ;
+        nif:beginIndex        "4803"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4809"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5638> .
+
+<http://linguateca.pt/harem#char=1092,1098>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Guarda"^^xsd:string ;
+        nif:beginIndex        "1092"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1098"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5638> .
+
+<http://linguateca.pt/harem#char=4615,4632>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ensino Secundário"^^xsd:string ;
+        nif:beginIndex        "4615"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4632"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5638> .
+
+<http://linguateca.pt/harem#char=3494,3502>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Economia"^^xsd:string ;
+        nif:beginIndex        "3494"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3502"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5638> .
+
+<http://linguateca.pt/harem#char=4967,4975>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ciências"^^xsd:string ;
+        nif:beginIndex        "4967"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4975"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5638> .
+
+<http://linguateca.pt/harem#char=5416,5424>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Economia"^^xsd:string ;
+        nif:beginIndex        "5416"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5424"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5638> .
+
+<http://linguateca.pt/harem#char=802,819>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Escola Industrial"^^xsd:string ;
+        nif:beginIndex        "802"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "819"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5638> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=5428,5434>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Bilbau"^^xsd:string ;
+        nif:beginIndex        "5428"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5434"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5638> .
+
+<http://linguateca.pt/harem#char=1414,1436>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Faculdade de Filosofia"^^xsd:string ;
+        nif:beginIndex        "1414"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1436"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5638> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=3556,3563>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Espanha"^^xsd:string ;
+        nif:beginIndex        "3556"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3563"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5638> .
+
+<http://linguateca.pt/harem#char=5013,5023>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Literatura"^^xsd:string ;
+        nif:beginIndex        "5013"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5023"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5638> .
+
+<http://linguateca.pt/harem#char=4753,4761>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Portugal"^^xsd:string ;
+        nif:beginIndex        "4753"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4761"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5638> .
+
+<http://linguateca.pt/harem#char=4925,4930>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Braga"^^xsd:string ;
+        nif:beginIndex        "4925"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "4930"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5638> .
+
+<http://linguateca.pt/harem#char=3629,3651>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Faculdade de Filosofia"^^xsd:string ;
+        nif:beginIndex        "3629"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3651"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5638> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=3467,3476>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Filosofia"^^xsd:string ;
+        nif:beginIndex        "3467"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3476"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5638> .
+
+<http://linguateca.pt/harem#char=911,928>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Escola Industrial"^^xsd:string ;
+        nif:beginIndex        "911"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "928"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5638> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1673,1679>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Páscoa"^^xsd:string ;
+        nif:beginIndex        "1673"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1679"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5638> .
+
+<http://linguateca.pt/harem#char=3781,3789>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Craveiro"^^xsd:string ;
+        nif:beginIndex        "3781"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "3789"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5638> .
+
+<http://linguateca.pt/harem#char=5437,5455>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ciências Políticas"^^xsd:string ;
+        nif:beginIndex        "5437"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "5455"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,5638> .

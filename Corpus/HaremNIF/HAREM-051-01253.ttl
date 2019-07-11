@@ -1,0 +1,286 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=309,315>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Brasil"^^xsd:string ;
+        nif:beginIndex        "309"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "315"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1702> .
+
+<http://linguateca.pt/harem#char=0,19>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Rainha D . Maria II"^^xsd:string ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "19"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1702> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=168,197>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Biblioteca Central da Marinha"^^xsd:string ;
+        nif:beginIndex        "168"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "197"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1702> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=0,1702>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1702"^^xsd:nonNegativeInteger ;
+        nif:isString    "Rainha D . Maria II Foto da Biblioteca Biblioteca Central da Marinha Situada , desde 1891 , na Praça do Império , na imediata proximidade do Mosteiro dos Jerónimos , a Biblioteca Central da Marinha ( BCM ) é sucessora da antiga Biblioteca da Real Academia dos Guardas-Marinhas , que seguiu com a côrte para o Brasil e foi transferida para o Rio de Janeiro aquando da 1ª invasão francesa , tendo ficado em grande parte naquele país . A sua fundação , como \" Biblioteca de Marinha \" , deve-se à Rainha D . Maria II , por decreto de 7 de Janeiro de 1835 , ficando de ínicio integrada no Arsenal Real de Marinha e instalada no andar nobre do respectivo edíficio da Ribeira das Naus . Em 1960 , recebeu a designação de Biblioteca Central da Marinha , ficando a reger-se por um regulamento próprio como organismo na dependência do então Superintendente dos Serviços da Armada , estando , presentemente , na dependência do Almirante Chefe do Estado-Maior da Armada e o seu Director , quando Oficial General , desempenha em acumulação as funções de Presidente da Comissão Cultural da Marinha . Especializada , desde sempre , em matérias ligadas ao mar e a tudo que com ele se relaciona , a BCM possui actualmente cerca de 80.000 volumes correspondendo a perto de 45.000 títulos . A partir de 1994 , em consequência da reestruturação orgânica operada na Marinha , passou a integrar o Arquivo Central da Marinha que , do antecedente , constituía um organismo autónomo . Encontra-se aberta ao público todos os dias úteis das 09:30 às 16 :45 horas tendo sido , em 1997 , consultados 4498 livros a que correspondeu uma frequência de 1308 leitores dos quais 90 % de nacionalidade portuguesa e 10 % de estrangeiros . "^^xsd:string .
+
+<http://linguateca.pt/harem#char=95,111>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Praça do Império"^^xsd:string ;
+        nif:beginIndex        "95"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "111"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1702> .
+
+<http://linguateca.pt/harem#char=85,89>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1891"^^xsd:string ;
+        nif:beginIndex        "85"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "89"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1702> .
+
+<http://linguateca.pt/harem#char=39,68>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Biblioteca Central da Marinha"^^xsd:string ;
+        nif:beginIndex        "39"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "68"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1702> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1284,1288>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1994"^^xsd:string ;
+        nif:beginIndex        "1284"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1288"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1702> .
+
+<http://linguateca.pt/harem#char=1255,1261>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "45.000"^^xsd:string ;
+        nif:beginIndex        "1255"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1261"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1702> .
+
+<http://linguateca.pt/harem#char=1345,1352>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Marinha"^^xsd:string ;
+        nif:beginIndex        "1345"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1352"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1702> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1571,1575>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "4498"^^xsd:string ;
+        nif:beginIndex        "1571"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1575"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1702> .
+
+<http://linguateca.pt/harem#char=1214,1220>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "80.000"^^xsd:string ;
+        nif:beginIndex        "1214"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1220"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1702> .
+
+<http://linguateca.pt/harem#char=984,999>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Oficial General"^^xsd:string ;
+        nif:beginIndex        "984"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "999"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1702> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=200,203>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "BCM"^^xsd:string ;
+        nif:beginIndex        "200"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "203"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1702> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=530,550>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "7 de Janeiro de 1835"^^xsd:string ;
+        nif:beginIndex        "530"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "550"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1702> .
+
+<http://linguateca.pt/harem#char=367,369>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1ª"^^xsd:string ;
+        nif:beginIndex        "367"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "369"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1702> .
+
+<http://linguateca.pt/harem#char=1679,1683>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "10 %"^^xsd:string ;
+        nif:beginIndex        "1679"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1683"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1702> .
+
+<http://linguateca.pt/harem#char=916,957>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Almirante Chefe do Estado-Maior da Armada"^^xsd:string ;
+        nif:beginIndex        "916"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "957"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1702> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=457,478>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Biblioteca de Marinha"^^xsd:string ;
+        nif:beginIndex        "457"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "478"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1702> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=493,512>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Rainha D . Maria II"^^xsd:string ;
+        nif:beginIndex        "493"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "512"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1702> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1620,1624>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1308"^^xsd:string ;
+        nif:beginIndex        "1620"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1624"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1702> .
+
+<http://linguateca.pt/harem#char=1182,1185>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "BCM"^^xsd:string ;
+        nif:beginIndex        "1182"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1185"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1702> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=1552,1556>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1997"^^xsd:string ;
+        nif:beginIndex        "1552"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1556"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1702> .
+
+<http://linguateca.pt/harem#char=1523,1535>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "16 :45 horas"^^xsd:string ;
+        nif:beginIndex        "1523"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1535"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1702> .
+
+<http://linguateca.pt/harem#char=1375,1401>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Arquivo Central da Marinha"^^xsd:string ;
+        nif:beginIndex        "1375"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1401"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1702> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=341,355>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Rio de Janeiro"^^xsd:string ;
+        nif:beginIndex        "341"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "355"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1702> .
+
+<http://linguateca.pt/harem#char=584,607>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Arsenal Real de Marinha"^^xsd:string ;
+        nif:beginIndex        "584"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "607"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1702> .
+
+<http://linguateca.pt/harem#char=1514,1519>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "09:30"^^xsd:string ;
+        nif:beginIndex        "1514"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1519"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1702> .
+
+<http://linguateca.pt/harem#char=831,869>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Superintendente dos Serviços da Armada"^^xsd:string ;
+        nif:beginIndex        "831"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "869"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1702> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=1041,1083>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Presidente da Comissão Cultural da Marinha"^^xsd:string ;
+        nif:beginIndex        "1041"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1083"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1702> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=228,276>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Biblioteca da Real Academia dos Guardas-Marinhas"^^xsd:string ;
+        nif:beginIndex        "228"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "276"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1702> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=683,687>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "1960"^^xsd:string ;
+        nif:beginIndex        "683"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "687"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1702> .
+
+<http://linguateca.pt/harem#char=714,743>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Biblioteca Central da Marinha"^^xsd:string ;
+        nif:beginIndex        "714"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "743"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1702> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=141,163>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Mosteiro dos Jerónimos"^^xsd:string ;
+        nif:beginIndex        "141"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "163"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1702> .
+
+<http://linguateca.pt/harem#char=966,974>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Director"^^xsd:string ;
+        nif:beginIndex        "966"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "974"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1702> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=28,38>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Biblioteca"^^xsd:string ;
+        nif:beginIndex        "28"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "38"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1702> .
+
+<http://linguateca.pt/harem#char=1644,1648>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "90 %"^^xsd:string ;
+        nif:beginIndex        "1644"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1648"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1702> .
+
+<http://linguateca.pt/harem#char=661,677>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Ribeira das Naus"^^xsd:string ;
+        nif:beginIndex        "661"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "677"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,1702> .

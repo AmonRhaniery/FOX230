@@ -1,0 +1,99 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://linguateca.pt/harem#char=121,133>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Cerca de 140"^^xsd:string ;
+        nif:beginIndex        "121"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "133"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,491> .
+
+<http://linguateca.pt/harem#char=444,446>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "16"^^xsd:string ;
+        nif:beginIndex        "444"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "446"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,491> .
+
+<http://linguateca.pt/harem#char=284,286>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "30"^^xsd:string ;
+        nif:beginIndex        "284"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "286"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,491> .
+
+<http://linguateca.pt/harem#char=351,362>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Corinthians"^^xsd:string ;
+        nif:beginIndex        "351"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "362"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,491> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=0,491>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "491"^^xsd:nonNegativeInteger ;
+        nif:isString    "01.94 - 54 ocorrências policiais são registradas com menores . 25 . 13 . 17 . 18 . ago . 20 . ago . 11 . 02 . out . 94 - Cerca de 140 santistas são detidos no Rio com revólveres , morteiros e bombas caseiras . 12 . out . 94 - Dois torcedores foram internados em estado grave e outros 30 ficaram feridos durante briga entre as torcidas do Guarani e do Corinthians no em Campinas . 15 . out . 16 . out . 22 . out . 94 - Os palmeirenses M.F.B . , 16 , e Wagner Silva , 23 são baleados no Rio . "^^xsd:string .
+
+<http://linguateca.pt/harem#char=338,345>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Guarani"^^xsd:string ;
+        nif:beginIndex        "338"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "345"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,491> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Organisation> .
+
+<http://linguateca.pt/harem#char=369,377>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Campinas"^^xsd:string ;
+        nif:beginIndex        "369"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "377"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,491> .
+
+<http://linguateca.pt/harem#char=434,441>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "M.F.B ."^^xsd:string ;
+        nif:beginIndex        "434"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "441"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,491> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
+
+<http://linguateca.pt/harem#char=159,162>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Rio"^^xsd:string ;
+        nif:beginIndex        "159"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "162"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,491> .
+
+<http://linguateca.pt/harem#char=8,10>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "54"^^xsd:string ;
+        nif:beginIndex        "8"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "10"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,491> .
+
+<http://linguateca.pt/harem#char=466,468>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "23"^^xsd:string ;
+        nif:beginIndex        "466"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "468"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,491> .
+
+<http://linguateca.pt/harem#char=485,488>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Rio"^^xsd:string ;
+        nif:beginIndex        "485"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "488"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,491> .
+
+<http://linguateca.pt/harem#char=451,463>
+        a                     nif:RFC5147String , nif:String , nif:Phrase ;
+        nif:anchorOf          "Wagner Silva"^^xsd:string ;
+        nif:beginIndex        "451"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "463"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://linguateca.pt/harem#char=0,491> ;
+        itsrdf:taClassRef     <http://dbpedia.org/ontology/Person> .
