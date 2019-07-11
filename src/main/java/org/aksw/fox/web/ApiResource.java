@@ -207,7 +207,7 @@ public class ApiResource {
           if (l != null) {
             lang = l.toString();
           } else {
-            lang = "";
+            lang = "pt";
           }
         }
         parameter.put(Fox.Parameter.LANG.toString(), lang);
