@@ -407,8 +407,8 @@ public class HaremPtTrainerReader implements INERReader {
         if (!word.isEmpty()) {
             if (entities.get(word) != null) {
                 if (!entities.get(word).equals(classs) && !entities.get(word).equals(EntityClassMap.getNullCategory())) {
-                    LOG.debug("Oracle with a token with diff. annos. No disamb. for now. Ignore token.");
-                    LOG.debug(word + " : " + classs + " | " + entities.get(word));
+                    LOG.info("Oracle with a token with diff. annos. No disamb. for now. Ignore token.");
+                    LOG.info(word + " : " + classs + " | " + entities.get(word));
                     entities.put(word, EntityClassMap.getNullCategory());
                 }
             } else
