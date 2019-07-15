@@ -162,15 +162,12 @@ public class HaremPtTrainerReader implements INERReader {
                     LOG.debug(e.getKey() + " -> " + e.getValue());
             } */
             // INFO 
-                LOG.info("Starting getEntities...");
-                for (Entry<String, String> e : entities.entrySet())
-                    LOG.info(e.getKey() + " -> " + e.getValue());
             
             LOG.info("Oracle raw size: " + entities.size());
         }
 
         {
-            // remove oracle entities aren't in input
+            // remove oracle entities aren't in input //aqui tem todas
             Set<Entity> set = new HashSet<>();
 
             for (Entry<String, String> oracleEntry : entities.entrySet())
@@ -189,6 +186,10 @@ public class HaremPtTrainerReader implements INERReader {
         {
             // INFO
             LOG.info("oracle cleaned size: " + entities.size());
+            LOG.info("cleaned size...");
+            for (Entry<String, String> e : entities.entrySet())
+                LOG.info(e.getKey() + " -> " + e.getValue());
+
             int l = 0, o = 0, p = 0;
             for (Entry<String, String> e : entities.entrySet()) {
                 if (e.getValue().equals(EntityClassMap.L))
