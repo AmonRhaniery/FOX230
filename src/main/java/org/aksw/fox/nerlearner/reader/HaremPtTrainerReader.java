@@ -410,12 +410,14 @@ public class HaremPtTrainerReader implements INERReader {
                 if (!entities.get(word).equals(classs) && !entities.get(word).equals(EntityClassMap.getNullCategory())) {
                     LOG.info("Oracle with a token with diff. annos. No disamb. for now. Ignore token.");
                     LOG.info(word + " : " + classs + " | " + entities.get(word));
-			cont++;
-			LOG.info(cont);
+                    cont++;
+                    LOG.info(cont);
                     entities.put(word, EntityClassMap.getNullCategory());
                 }
             } else
                 entities.put(word, classs);
+                LOG.info("Put at entities:");
+                LOG.info(word + " : " + classs + " | " + entities.get(word));
         }
     }
 
