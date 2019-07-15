@@ -391,7 +391,7 @@ public class HaremPtTrainerReader implements INERReader {
                 input = input.replaceFirst("</TIMEX>", "");
             }
         }*/
-        LOG.info("Input final: "+input);
+        //LOG.info("Input final: "+input);
         input = input.trim();
         // input = input.replaceAll("``|''", "");
         // input = input.replaceAll("\\p{Blank}+", " ");
