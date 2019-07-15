@@ -156,12 +156,16 @@ public class HaremPtTrainerReader implements INERReader {
     public HashMap<String, String> getEntities() {
         {
             // DEBUG
-            if (LOG.isDebugEnabled()) {
+/*             if (LOG.isDebugEnabled()) {
                 LOG.debug("Starting getEntities...");
                 for (Entry<String, String> e : entities.entrySet())
                     LOG.debug(e.getKey() + " -> " + e.getValue());
-            }
-            // INFO
+            } */
+            // INFO 
+                LOG.info("Starting getEntities...");
+                for (Entry<String, String> e : entities.entrySet())
+                    LOG.info(e.getKey() + " -> " + e.getValue());
+            
             LOG.info("Oracle raw size: " + entities.size());
         }
 
