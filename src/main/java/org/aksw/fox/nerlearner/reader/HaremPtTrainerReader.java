@@ -156,11 +156,11 @@ public class HaremPtTrainerReader implements INERReader {
     public HashMap<String, String> getEntities() {
         {
             // DEBUG
-/*             if (LOG.isDebugEnabled()) {
+            if (LOG.isDebugEnabled()) {
                 LOG.debug("Starting getEntities...");
                 for (Entry<String, String> e : entities.entrySet())
                     LOG.debug(e.getKey() + " -> " + e.getValue());
-            } */
+            } 
             // INFO 
             
             LOG.info("Oracle raw size: " + entities.size());
@@ -186,10 +186,7 @@ public class HaremPtTrainerReader implements INERReader {
         {
             // INFO
             LOG.info("oracle cleaned size: " + entities.size());
-            LOG.info("cleaned size...");
-            for (Entry<String, String> e : entities.entrySet())
-                LOG.info(e.getKey() + " -> " + e.getValue());
-
+           
             int l = 0, o = 0, p = 0;
             for (Entry<String, String> e : entities.entrySet()) {
                 if (e.getValue().equals(EntityClassMap.L))
@@ -418,8 +415,8 @@ public class HaremPtTrainerReader implements INERReader {
                 }
             } else
                 entities.put(word, EntityClassMap.harem(classs));
-                LOG.info("Put at entities:");
-                LOG.info(word + " : " + classs + " | " + entities.get(word)+" | "+EntityClassMap.harem(classs));
+                //LOG.info("Put at entities:");
+                //LOG.info(word + " : " + classs + " | " + entities.get(word)+" | "+EntityClassMap.harem(classs));
         }
     }
 
