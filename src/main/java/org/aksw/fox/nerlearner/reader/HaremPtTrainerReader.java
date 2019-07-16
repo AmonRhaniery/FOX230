@@ -407,22 +407,19 @@ public class HaremPtTrainerReader implements INERReader {
         return input;
     }
 
-	int cont=0;
     protected void put(String word, String classs) {
         word = word.trim();
         if (!word.isEmpty()) {
             if (entities.get(word) != null) {
-                if (!entities.get(word).equals(classs) && !entities.get(word).equals(EntityClassMap.getNullCategory())) {
+                if (!entities.get(word).equals(EntityClassMap.harem(classs)) && !entities.get(word).equals(EntityClassMap.getNullCategory())) {
                     LOG.info("Oracle with a token with diff. annos. No disamb. for now. Ignore token.");
-                    LOG.info(word + " : " + classs + " | " + entities.get(word));
-                    cont++;
-                    LOG.info(cont);
+                    LOG.info(word + " : " + classs + " | " + entities.get(word));  
                     entities.put(word, EntityClassMap.getNullCategory());
                 }
             } else
-                entities.put(word, classs);
+                entities.put(word, EntityClassMap.harem(classs));
                 LOG.info("Put at entities:");
-                LOG.info(word + " : " + classs + " | " + entities.get(word));
+                LOG.info(word + " : " + classs + " | " + entities.get(word)+" | "+EntityClassMap.harem(classs));
         }
     }
 
