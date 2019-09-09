@@ -16,7 +16,7 @@ Java 8, Maven 3, graphviz (for JavaDoc only)
 
 :two: Build the release: `./build.sh`
 
-:three: Go into the `release` folder and rename `fox.properties-dist` to `fox.properties` and change the file to your needs. Besides, put the correct location for the stanford PT model at tools/ner/pt/StanfordPT
+:three: Go into the `release` folder and rename `fox.properties-dist` to `fox.properties` and change the file to your needs. Besides, change the `./learn.sh` to portuguese and put the correct location for the stanford PT model at tools/ner/pt/StanfordPT.
 
 :four: Learn with trainings data (optional with default properties file): `./learn.sh` (set `org.aksw.fox.nerlearner.FoxClassifier.training` to true in  `fox.properties`)
 
