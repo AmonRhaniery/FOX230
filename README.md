@@ -14,15 +14,17 @@ Java 8, Maven 3, graphviz (for JavaDoc only)
 ##Installation
 :one: Clone the latest version: `git clone -b master https://github.com/AKSW/FOX.git`
 
-:two: Build the release: `./build.sh`
+:two: Put the correct location for the stanford PT model at tools/ner/pt/StanfordPTBuild and build the release: `./build.sh`
 
-:three: Go into the `release` folder and rename `fox.properties-dist` to `fox.properties` and change the file to your needs. Besides, change the `./learn.sh` to portuguese and put the correct location for the stanford PT model at tools/ner/pt/StanfordPT.
+:three: Go into the `release` folder and rename `fox.properties-dist` to `fox.properties` and change the file to your needs (if using the first time, set `org.aksw.fox.nerlearner.FoxClassifier.training` to true in  `fox.properties`). 
 
-:four: Learn with trainings data (optional with default properties file): `./learn.sh` (set `org.aksw.fox.nerlearner.FoxClassifier.training` to true in  `fox.properties`)
+:four: Download Spotlight with `wget https://sourceforge.net/projects/dbpedia-spotlight/files/spotlight/dbpedia-spotlight-1.0.0.jar` and `wget https://sourceforge.net/projects/dbpedia-spotlight/files/2016-10/pt/model/pt.tar.gz/` and `tar xzf pt.tar.gz`. Run Spotlight with `java -jar dbpedia-spotlight-1.0.0.jar pt http://localhost:4449/rest`. 
 
-:five: Start the server: `./run.sh`
+:five: Change the `./learn.sh` to portuguese. Learn with trainings data: `./learn.sh` 
 
-:six: Stop the server: `./close.sh`
+:six: Start the server: `./run.sh`
+
+:seven: Stop the server: `./close.sh`
 
 ##Demo and Documentation
 Project Page: [http://fox.aksw.org][4]
