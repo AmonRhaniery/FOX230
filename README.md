@@ -14,7 +14,7 @@ Java 8, Maven 3, graphviz (for JavaDoc only)
 ##Installation
 :one: Clone the latest version: `git clone -b master https://github.com/AKSW/FOX.git`
 
-:two: Put the correct location for the stanford PT model at tools/ner/pt/StanfordPTBuild and build the release: `./build.sh`
+:two: Put the correct location for the stanford PT model at `src/main/java/org/aksw/fox/tools/ner/pt/StanfordPT.java`. Build and build the release: `./build.sh`
 
 :three: Go into the `release` folder and rename `fox.properties-dist` to `fox.properties` and change the file to your needs (if using the first time, set `org.aksw.fox.nerlearner.FoxClassifier.training` to true in  `fox.properties`). 
 
